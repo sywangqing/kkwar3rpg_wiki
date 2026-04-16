@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // GitHub Pages 部署时需要设置 base 为仓库名
 // 如仓库名为 war3-wiki，base 为 '/war3-wiki/'
 // 若使用自定义域名或根路径部署，改为 '/'
-const base = process.env.GITHUB_PAGES === 'true' ? '/war3-wiki/' : '/'
+const base = process.env.GITHUB_PAGES === 'true' ? '/kkwar3rpg_wiki/' : '/'
 
 export default defineConfig({
   base,

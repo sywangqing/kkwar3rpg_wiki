@@ -34,4 +34,5 @@ Thumbs.db
 pipeline/test_*.py
 pipeline/test_*.log
 pipeline/*.log
-.vitepress/
+# 注意：只排除根目录的 .vitepress 缓存，不影响 docs/.vitepress
+/.vitepress/
