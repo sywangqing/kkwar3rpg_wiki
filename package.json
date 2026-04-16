@@ -1,0 +1,22 @@
+{
+  "name": "war3-wiki",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "War3 RPG 地图编辑器 AI 自动化知识 Wiki",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs && pagefind --site docs/.vitepress/dist",
+    "preview": "vitepress preview docs",
+    "gen-sidebar": "tsx scripts/gen_sidebar.ts"
+  },
+  "devDependencies": {
+    "@pagefind/default-ui": "^1.1.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "vitepress": "^2.0.0-alpha.17",
+    "vue": "^3.4.0"
+  },
+  "dependencies": {
+    "pagefind": "^1.1.0"
+  }
+}

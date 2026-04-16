@@ -1,0 +1,9 @@
+knowledge-storm==1.1.0
+litellm>=1.30.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+duckduckgo-search>=5.0.0
+tavily-python>=0.3.0
+requests>=2.31.0
+# 显式指定兼容 Python 3.14 的 numpy 版本（knowledge-storm 依赖 numpy==1.26.4 会报错）
+numpy>=2.0.0

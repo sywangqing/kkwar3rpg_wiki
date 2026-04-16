@@ -1,0 +1,167 @@
+# War3 RPG 地图编辑器知识分类体系
+# 每个分类包含 id、名称、图标、描述和主题列表
+# topic 中 search_query 为搜索引擎查询词（会追加 "War3 地图编辑器" 关键词）
+
+categories:
+  - id: getting-started
+    name: 快速入门
+    icon: 🚀
+    description: 零基础快速上手 War3 地图编辑器
+    output_dir: docs/getting-started
+    topics:
+      - id: editor-installation
+        title: War3 地图编辑器安装与配置
+        search_query: "Warcraft 3 World Editor 安装配置 YDWE 教程"
+      - id: editor-ui-overview
+        title: 编辑器界面功能全览
+        search_query: "War3 World Editor 界面介绍 功能区域"
+      - id: first-rpg-map
+        title: 创建第一张 RPG 地图
+        search_query: "War3 RPG 地图 新手教程 从零开始"
+      - id: map-settings
+        title: 地图属性与基础设置
+        search_query: "War3 地图属性设置 地图大小 玩家配置"
+      - id: test-and-debug
+        title: 地图测试与调试方法
+        search_query: "War3 地图测试 调试 单机测试 日志"
+
+  - id: terrain
+    name: 地形编辑
+    icon: 🗺️
+    description: 地形、高度、纹理、装饰物的创作技巧
+    output_dir: docs/terrain
+    topics:
+      - id: terrain-basics
+        title: 地形编辑器基础操作
+        search_query: "War3 地形编辑 高度 纹理 基础教程"
+      - id: terrain-textures
+        title: 地形纹理与贴图技巧
+        search_query: "War3 地形纹理 贴图 自定义纹理"
+      - id: doodads-decorations
+        title: 装饰物与可破坏物
+        search_query: "War3 装饰物 doodad 可破坏物 地图摆放"
+      - id: terrain-advanced
+        title: 高级地形技巧与优化
+        search_query: "War3 地形 高级技巧 性能优化 视觉效果"
+
+  - id: triggers
+    name: 触发器系统
+    icon: ⚡
+    description: GUI 触发器的编写与常见模式
+    output_dir: docs/triggers
+    topics:
+      - id: trigger-intro
+        title: 触发器系统概述
+        search_query: "War3 触发器系统 介绍 事件条件动作"
+      - id: trigger-events
+        title: 触发器事件类型详解
+        search_query: "War3 触发器 事件 event 类型 完整列表"
+      - id: trigger-conditions
+        title: 触发器条件编写
+        search_query: "War3 触发器 条件 condition 编写技巧"
+      - id: trigger-actions
+        title: 触发器动作大全
+        search_query: "War3 触发器 动作 action 常用函数"
+      - id: trigger-variables
+        title: 触发器变量与数据类型
+        search_query: "War3 触发器 变量 variable 数组 全局变量"
+      - id: trigger-leaks
+        title: 触发器内存泄漏处理
+        search_query: "War3 触发器 内存泄漏 leak 清理 最佳实践"
+      - id: trigger-common-patterns
+        title: 常用触发器模式与技巧
+        search_query: "War3 触发器 常用模式 计时器 循环 技巧"
+
+  - id: scripting
+    name: 脚本编程
+    icon: 💻
+    description: JASS、vJASS 和 Lua 脚本开发
+    output_dir: docs/scripting
+    topics:
+      - id: jass-basics
+        title: JASS 脚本基础入门
+        search_query: "War3 JASS 脚本 基础教程 语法入门"
+      - id: jass-functions
+        title: JASS 常用函数参考
+        search_query: "War3 JASS 函数 API 参考手册 常用"
+      - id: vjass-intro
+        title: vJASS 进阶编程
+        search_query: "War3 vJASS JNGP 进阶编程 结构体 库"
+      - id: lua-basics
+        title: Lua 脚本基础（重制版）
+        search_query: "War3 重制版 Lua 脚本 教程 基础"
+      - id: lua-api
+        title: Lua API 参考（重制版）
+        search_query: "War3 Reforged Lua API 函数 参考"
+      - id: gui-to-jass
+        title: 从 GUI 触发器迁移到 JASS
+        search_query: "War3 GUI 转换 JASS 代码 迁移教程"
+
+  - id: object-editor
+    name: 对象编辑器
+    icon: 🎭
+    description: 单位、技能、物品、升级的编辑方法
+    output_dir: docs/object-editor
+    topics:
+      - id: unit-editor
+        title: 单位编辑器详解
+        search_query: "War3 单位编辑器 Unit Editor 属性 自定义单位"
+      - id: ability-editor
+        title: 技能编辑器与自定义技能
+        search_query: "War3 技能编辑器 Ability Editor 自定义技能"
+      - id: item-editor
+        title: 物品编辑器与物品系统
+        search_query: "War3 物品编辑器 Item Editor 物品系统设计"
+      - id: upgrade-editor
+        title: 升级编辑器
+        search_query: "War3 升级编辑器 Upgrade Editor 科技树"
+      - id: buff-editor
+        title: 光环与增益效果编辑
+        search_query: "War3 Buff 光环 Aura 效果编辑"
+
+  - id: tools
+    name: 工具生态
+    icon: 🛠️
+    description: 常用第三方工具与插件介绍
+    output_dir: docs/tools
+    topics:
+      - id: ydwe
+        title: YDWE 雨滴编辑器使用指南
+        search_query: "YDWE 雨滴编辑器 使用教程 功能介绍"
+      - id: we-unlimited
+        title: WE Unlimited 无限编辑器
+        search_query: "WE Unlimited War3 编辑器 扩展 无限制"
+      - id: jngp
+        title: JASS NewGen Pack (JNGP)
+        search_query: "JASS NewGen Pack JNGP vJASS 工具安装"
+      - id: hive-workshop
+        title: Hive Workshop 资源站介绍
+        search_query: "Hive Workshop War3 资源 模型 皮肤 下载"
+      - id: mpq-tools
+        title: MPQ 文件工具与资源导入
+        search_query: "War3 MPQ 工具 资源导入 贴图 模型"
+
+  - id: advanced
+    name: 进阶开发
+    icon: 🎨
+    description: 多人同步、存档系统、UI 框架等高级话题
+    output_dir: docs/advanced
+    topics:
+      - id: multiplayer-sync
+        title: 多人游戏同步机制
+        search_query: "War3 多人游戏 同步 desync 防止 机制"
+      - id: save-load-system
+        title: 存档与读档系统实现
+        search_query: "War3 存档 读档 save load 代码 实现"
+      - id: custom-ui
+        title: 自定义 UI 框架（Frame API）
+        search_query: "War3 自定义UI Frame API Reforged UI框架"
+      - id: performance-optimization
+        title: 地图性能优化指南
+        search_query: "War3 地图 性能优化 lag FPS 优化技巧"
+      - id: anti-cheat
+        title: 反作弊机制设计
+        search_query: "War3 反作弊 防外挂 hack 保护机制"
+      - id: rpg-systems
+        title: 经典 RPG 系统架构设计
+        search_query: "War3 RPG 系统 英雄 经验 技能 背包 架构"

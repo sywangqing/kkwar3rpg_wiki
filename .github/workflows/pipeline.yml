@@ -1,0 +1,47 @@
+name: War3 Wiki 每日增量更新
+
+on:
+  schedule:
+    # UTC 18:00 = 北京时间 02:00
+    - cron: '0 18 * * *'
+  workflow_dispatch:  # 支持手动触发
+
+permissions:
+  contents: write   # 允许 bot 推送 commit
+
+jobs:
+  update-wiki:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120   # 单次最长运行 2 小时
+
+    steps:
+      - name: Checkout 仓库
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 设置 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: 安装 Python 依赖
+        run: pip install -r pipeline/requirements.txt
+
+      - name: 运行增量更新管道
+        env:
+          # 使用国内 API 取代 cloudflare 的国际版
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          SEARCH_ENGINE: ${{ vars.SEARCH_ENGINE || 'duckduckgo' }}
+          MAX_TOPICS_PER_RUN: ${{ vars.MAX_TOPICS_PER_RUN || '10' }}
+          MAX_RETRY_COUNT: ${{ vars.MAX_RETRY_COUNT || '3' }}
+          RETRY_WAIT_SECONDS: ${{ vars.RETRY_WAIT_SECONDS || '60' }}
+          CONV_SIMULATOR_MODEL: ${{ vars.CONV_SIMULATOR_MODEL || 'gpt-3.5-turbo' }}
+          ARTICLE_GEN_MODEL: ${{ vars.ARTICLE_GEN_MODEL || 'gpt-4o' }}
+        run: |
+          cd pipeline
+          python run_incremental.py
