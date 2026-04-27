@@ -1,0 +1,196 @@
+2026-04-27 09:45:04,740 [INFO] 📐 PlannerAgent 开始: 新手地图应该多大？地图尺寸选择指南
+2026-04-27 09:45:04,741 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:45:18,727 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:45:18,728 [INFO] ✅ WriterAgent 完成: 7370 字符, 6/8 来源被引用
+2026-04-27 09:45:18,728 [INFO] 🔎 ReviewerAgent 开始: 完整学习路线图：从零到发布第一张地图
+2026-04-27 09:45:18,729 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:45:26,877 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:45:26,878 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 09:45:26,879 [INFO] 🔍 ResearcherAgent 开始: 新手地图应该多大？地图尺寸选择指南 (21 查询)
+2026-04-27 09:45:26,879 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:45:26,966 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:45:26,968 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:45:29,146 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:45:29,147 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor map size guide tutorial' | ZH='Warcraft 3 World Editor map size guide tutorial'
+2026-04-27 09:45:29,794 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor map size guide t
+2026-04-27 09:45:29,931 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor map size guide t
+2026-04-27 09:45:29,932 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:45:33,243 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:45:33,244 [INFO] 🌐 双语查询: EN='魔兽争霸3 地图制作 新手 入门 教程' | ZH='魔兽争霸3 地图制作 新手 入门 教程'
+2026-04-27 09:45:33,864 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图制作 新手 入门 教程
+2026-04-27 09:45:33,906 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图制作 新手 入门 教程
+2026-04-27 09:45:33,907 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:45:36,535 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:45:36,536 [INFO] 🌐 双语查询: EN='War3 custom map design best practices for beginners' | ZH='War3 custom map design best practices for beginners'
+2026-04-27 09:45:37,417 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 custom map design best practices fo
+2026-04-27 09:45:37,418 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 custom map design best practices fo
+2026-04-27 09:45:37,418 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:45:37,802 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:45:37,804 [INFO] ✅ 通过 ReviewerAgent: overall=0.80 (A=0.82 C=0.75 R=0.92 Cit=0.68)
+2026-04-27 09:45:37,804 [INFO]   反馈 5 条:
+2026-04-27 09:45:37,804 [INFO]   [missing_citation] 按 **F6** 可以打开触发编辑器，按 **F5** 可以打开地形编辑器...
+2026-04-27 09:45:37,804 [INFO]   [missing_citation] 地图的格式为`.w3x`，这是魔兽争霸3地图的标准格式...
+2026-04-27 09:45:37,804 [INFO]   [missing_citation] 按 F9 或点击编辑器工具栏的绿色三角按钮（"测试地图"）...
+2026-04-27 09:45:37,804 [INFO]   [incomplete_section] 第三阶段：核心概念入门...
+2026-04-27 09:45:37,804 [INFO]   [missing_citation] 触发器由'事件'、'条件'和'动作'三部分组成（简称E-C-A）...
+2026-04-27 09:45:37,804 [INFO] ✅ 质量通过 (loop 0): score=0.80
+2026-04-27 09:45:37,804 [INFO] 📄 文章写入: docs/getting-started/完整学习路线图从零到发布第一张地图.md
+2026-04-27 09:45:37,805 [INFO] 📐 PlannerAgent 开始: 打开编辑器的前30分钟：你应该做什么
+2026-04-27 09:45:37,806 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:45:40,419 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:45:40,420 [INFO] 🌐 双语查询: EN='Warcraft 3 map size limits maximum' | ZH='Warcraft 3 map size limits maximum'
+2026-04-27 09:45:41,179 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map size limits maximum
+2026-04-27 09:45:41,280 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map size limits maximum
+2026-04-27 09:45:41,281 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:45:44,092 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:45:44,093 [INFO] 🌐 双语查询: EN='World Editor map boundary settings' | ZH='World Editor 地图边界设置'
+2026-04-27 09:45:44,819 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor map boundary settings
+2026-04-27 09:45:45,035 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 地图边界设置
+2026-04-27 09:45:45,036 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:45:48,571 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:45:48,572 [INFO] 🌐 双语查询: EN='War3 map dimensions pixels grid' | ZH='War3地图尺寸像素网格'
+2026-04-27 09:45:49,324 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 map dimensions pixels grid
+2026-04-27 09:45:49,700 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3地图尺寸像素网格
+2026-04-27 09:45:49,700 [INFO]   搜索阶段：收集到 35 条候选结果
+2026-04-27 09:45:52,514 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/337809073 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/337809073'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:45:53,387 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:45:53,388 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:45:53,884 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:46:03,825 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:46:03,826 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 09:46:03,827 [INFO] 🔍 ResearcherAgent 开始: 打开编辑器的前30分钟：你应该做什么 (21 查询)
+2026-04-27 09:46:03,827 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:46:06,261 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:46:06,262 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor 入门教程 新手' | ZH='Warcraft 3 World Editor 入门教程 新手'
+2026-04-27 09:46:07,075 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor 入门教程 新手
+2026-04-27 09:46:07,326 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor 入门教程 新手
+2026-04-27 09:46:07,327 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:46:10,579 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:46:10,580 [INFO] 🌐 双语查询: EN='魔兽争霸3地图编辑器 基础教学' | ZH='魔兽争霸3地图编辑器 基础教学'
+2026-04-27 09:46:11,186 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3地图编辑器 基础教学
+2026-04-27 09:46:11,211 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3地图编辑器 基础教学
+2026-04-27 09:46:11,212 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:46:13,535 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:46:13,536 [INFO] 🌐 双语查询: EN='WC3 Editor getting started guide' | ZH='WC3 Editor getting started guide'
+2026-04-27 09:46:14,255 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 Editor getting started guide
+2026-04-27 09:46:14,348 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 Editor getting started guide
+2026-04-27 09:46:14,349 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:46:16,759 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:46:16,760 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor interface layout' | ZH='魔兽争霸3 世界编辑器 界面布局'
+2026-04-27 09:46:17,146 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:46:17,148 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-04-27 09:46:17,148 [INFO] ✍️  WriterAgent 开始: 新手地图应该多大？地图尺寸选择指南 (loop 0)
+2026-04-27 09:46:17,148 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:46:17,378 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 世界编辑器 界面布局
+2026-04-27 09:46:17,399 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor interface layout
+2026-04-27 09:46:17,400 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:46:19,954 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:46:19,955 [INFO] 🌐 双语查询: EN='魔兽争霸3 World Editor 界面介绍' | ZH='魔兽争霸3 World Editor 界面介绍'
+2026-04-27 09:46:20,632 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 World Editor 界面介绍
+2026-04-27 09:46:21,303 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 World Editor 界面介绍
+2026-04-27 09:46:21,304 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:46:22,049 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:46:22,050 [INFO] ✅ WriterAgent 完成: 7779 字符, 3/3 来源被引用
+2026-04-27 09:46:22,050 [INFO] 🔎 ReviewerAgent 开始: 地图保存与备份：防止丢失作品的方法
+2026-04-27 09:46:22,051 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:46:23,926 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:46:23,927 [INFO] 🌐 双语查询: EN='World Editor 面板功能说明' | ZH='World Editor 面板功能说明'
+2026-04-27 09:46:24,608 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 面板功能说明
+2026-04-27 09:46:24,781 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 面板功能说明
+2026-04-27 09:46:24,782 [INFO]   搜索阶段：收集到 31 条候选结果
+2026-04-27 09:46:27,145 [WARNING] ⚠️  抓取失败，已忽略: https://bbs.islga.org/read-htm-tid-38522-page-1-fpage-1.html — Client error '403 Forbidden' for url 'https://bbs.islga.org/read-htm-tid-38522-page-1-fpage-1.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:46:27,183 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/dt5i03/world_editor_guide_1_making_units_doodads_bigger/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/dt5i03/world_editor_guide_1_making_units_doodads_bigger/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:46:28,979 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:46:40,804 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:46:40,806 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:46:48,516 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:46:48,517 [INFO] ⚠️  未通过 ReviewerAgent: overall=0.61 (A=0.50 C=0.80 R=0.90 Cit=0.10)
+2026-04-27 09:46:48,517 [INFO]   反馈 5 条:
+2026-04-27 09:46:48,517 [INFO]   [factual_error] 所有包含 [^1]、[^2]、[^3] 的内容 — 文章引用了三个来源来支持关于 Warcraft III 地图备份的技...
+2026-04-27 09:46:48,517 [INFO]   [missing_citation] 默认的自动保存间隔可能是10分钟或更久...
+2026-04-27 09:46:48,517 [INFO]   [missing_citation] 地图默认保存在 C:\Users\你的用户名\Documents\Warcraft III\Maps\ 文件夹中...
+2026-04-27 09:46:48,517 [INFO]   [missing_citation] 地图文件的后缀名是 .w3x（普通地图）或 .w3m（战役地图）...
+2026-04-27 09:46:48,517 [INFO]   [incomplete_section] 参考来源部分...
+2026-04-27 09:46:48,517 [INFO] ⚠️  质量未通过 (loop 0)，score=0.61，开始重写...
+2026-04-27 09:46:48,517 [INFO] ✍️  WriterAgent 开始: 地图保存与备份：防止丢失作品的方法 (loop 1)
+2026-04-27 09:46:48,518 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:47:03,452 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:47:03,454 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:47:04,107 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:47:04,109 [INFO] ✅ ResearcherAgent 完成: 8 个来源已注册
+2026-04-27 09:47:04,109 [INFO] ✍️  WriterAgent 开始: 打开编辑器的前30分钟：你应该做什么 (loop 0)
+2026-04-27 09:47:04,110 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:47:13,850 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:47:13,852 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:47:20,014 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:47:20,016 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:47:26,021 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:47:26,023 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:47:39,157 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:47:39,159 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:47:42,058 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:47:42,060 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:47:43,737 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:47:43,738 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:48:01,972 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:48:01,974 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:48:04,525 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:48:04,527 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:48:16,153 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:48:16,155 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:48:19,989 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:48:19,990 [INFO] ✅ WriterAgent 完成: 6291 字符, 4/5 来源被引用
+2026-04-27 09:48:19,990 [INFO] 🔎 ReviewerAgent 开始: 新手地图应该多大？地图尺寸选择指南
+2026-04-27 09:48:19,991 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:48:34,791 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:48:34,793 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:48:42,422 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:48:42,423 [INFO] ✅ 通过 ReviewerAgent: overall=0.79 (A=0.75 C=0.85 R=0.92 Cit=0.65)
+2026-04-27 09:48:42,423 [INFO]   反馈 5 条:
+2026-04-27 09:48:42,423 [INFO]   [missing_citation] 48×48 | 紧凑，适合快节奏游戏
+96×96 | 较大，提供更多探索空间...
+2026-04-27 09:48:42,423 [INFO]   [missing_citation] 新手建议选择 64×64 或更小...
+2026-04-27 09:48:42,423 [INFO]   [missing_citation] 调试简单：内容少，更容易发现问题所在...
+2026-04-27 09:48:42,423 [INFO]   [missing_citation] 如果是RPG剧情向游戏，128x128或256x256通常足够...
+2026-04-27 09:48:42,423 [INFO]   [factual_error] 魔兽争霸3地图支持的尺寸范围是32x32格到468x468格...
+2026-04-27 09:48:42,423 [INFO] ✅ 质量通过 (loop 0): score=0.79
+2026-04-27 09:48:42,424 [INFO] 📄 文章写入: docs/getting-started/新手地图应该多大地图尺寸选择指南.md

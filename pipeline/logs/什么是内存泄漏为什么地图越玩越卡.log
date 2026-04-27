@@ -1,0 +1,244 @@
+2026-04-27 09:29:59,711 [INFO] 📐 PlannerAgent 开始: 什么是内存泄漏？为什么地图越玩越卡
+2026-04-27 09:29:59,712 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:10,771 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:10,772 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-04-27 09:30:10,772 [INFO] ✍️  WriterAgent 开始: 对象编辑器入门：修改单位属性 (loop 0)
+2026-04-27 09:30:10,773 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:19,878 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:19,880 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:27,062 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:27,063 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 09:30:27,063 [INFO] 🔍 ResearcherAgent 开始: 什么是内存泄漏？为什么地图越玩越卡 (21 查询)
+2026-04-27 09:30:27,064 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:30,552 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:30,553 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor memory leak tutorial' | ZH='Warcraft 3 World Editor memory leak tutorial'
+2026-04-27 09:30:31,267 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor memory leak tuto
+2026-04-27 09:30:31,760 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor memory leak tuto
+2026-04-27 09:30:31,761 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:32,160 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:32,162 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:35,393 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:35,394 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger leak optimization' | ZH='魔兽争霸3 触发器 泄漏 优化'
+2026-04-27 09:30:36,179 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 trigger leak optimization
+2026-04-27 09:30:36,311 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 触发器 泄漏 优化
+2026-04-27 09:30:36,312 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:40,170 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:40,171 [INFO] 🌐 双语查询: EN='WC3 map performance optimization guide' | ZH='魔兽争霸III地图性能优化指南'
+2026-04-27 09:30:40,979 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 map performance optimization guide
+2026-04-27 09:30:41,116 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸III地图性能优化指南
+2026-04-27 09:30:41,117 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:42,591 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:42,592 [INFO] ✅ WriterAgent 完成: 7147 字符, 7/8 来源被引用
+2026-04-27 09:30:42,592 [INFO] 🔎 ReviewerAgent 开始: 从零创建自定义单位：英雄和普通单位
+2026-04-27 09:30:42,593 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:44,403 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:44,404 [INFO] 🌐 双语查询: EN='Warcraft 3 memory leak trigger' | ZH='魔兽争霸3'
+2026-04-27 09:30:45,282 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 memory leak trigger
+2026-04-27 09:30:45,557 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3
+2026-04-27 09:30:45,558 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:49,438 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:49,439 [INFO] 🌐 双语查询: EN='memory' | ZH='内存泄漏 触发器 基础概念'
+2026-04-27 09:30:50,276 [INFO] 🔍 Tavily 搜索成功: 5 条 | 内存泄漏 触发器 基础概念
+2026-04-27 09:30:50,411 [INFO] 🔍 Tavily 搜索成功: 5 条 | memory
+2026-04-27 09:30:50,412 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:53,555 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:53,556 [INFO] 🌐 双语查询: EN='WC3 trigger memory optimization' | ZH='WC3 trigger memory optimization'
+2026-04-27 09:30:54,321 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger memory optimization
+2026-04-27 09:30:54,700 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger memory optimization
+2026-04-27 09:30:54,700 [INFO]   搜索阶段：收集到 34 条候选结果
+2026-04-27 09:30:54,966 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=27242 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=27242'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:30:55,034 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/help-understanding-leaks.301484/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/help-understanding-leaks.301484/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:30:55,925 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:30:57,443 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:30:57,444 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:31:14,049 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:31:14,050 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-04-27 09:31:14,050 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-27 09:31:14,050 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-27 09:31:14,050 [INFO] 📄 文章写入: docs/object-editor/从零创建自定义单位英雄和普通单位.md
+2026-04-27 09:31:14,051 [INFO] 📐 PlannerAgent 开始: 制作对话框和选项菜单
+2026-04-27 09:31:14,051 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:31:23,981 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:31:23,983 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:31:28,272 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:31:28,273 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-04-27 09:31:28,274 [INFO] ✍️  WriterAgent 开始: 什么是内存泄漏？为什么地图越玩越卡 (loop 0)
+2026-04-27 09:31:28,275 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:31:42,296 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:31:42,298 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 09:31:42,298 [INFO] 🔍 ResearcherAgent 开始: 制作对话框和选项菜单 (21 查询)
+2026-04-27 09:31:42,298 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:31:44,352 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:31:44,353 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor dialog trigger system guide' | ZH='Warcraft 3 World Editor dialog trigger system guide'
+2026-04-27 09:31:45,174 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor dialog trigger s
+2026-04-27 09:31:45,192 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor dialog trigger s
+2026-04-27 09:31:45,193 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:31:45,219 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:31:45,221 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:31:48,561 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:31:48,562 [INFO] 🌐 双语查询: EN='Warcraft III dialog box trigger tutorial for beginners' | ZH='魔兽争霸3 对话框 触发器 教程 新手'
+2026-04-27 09:31:49,309 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III dialog box trigger tutorial
+2026-04-27 09:31:49,319 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 对话框 触发器 教程 新手
+2026-04-27 09:31:49,320 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:31:50,203 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:31:50,205 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:31:51,575 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:31:51,576 [INFO] 🌐 双语查询: EN='WC3 GUI trigger dialog complete tutorial' | ZH='WC3 GUI trigger dialog complete tutorial'
+2026-04-27 09:31:52,438 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 GUI trigger dialog complete tutorial
+2026-04-27 09:31:52,452 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 GUI trigger dialog complete tutorial
+2026-04-27 09:31:52,453 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:31:54,577 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:31:54,578 [INFO] 🌐 双语查询: EN='Warcraft 3 dialog trigger tutorial' | ZH='魔兽争霸3 对话触发器教程'
+2026-04-27 09:31:55,381 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 对话触发器教程
+2026-04-27 09:31:58,322 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 dialog trigger tutorial
+2026-04-27 09:31:58,323 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:32:00,817 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:32:00,818 [INFO] 🌐 双语查询: EN='WC3 World Editor 对话框 触发器' | ZH='WC3 World Editor 对话框 触发器'
+2026-04-27 09:32:01,639 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor 对话框 触发器
+2026-04-27 09:32:01,740 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor 对话框 触发器
+2026-04-27 09:32:01,741 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:32:04,518 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:32:04,519 [INFO] 🌐 双语查询: EN='War3 对话框系统 基础教程' | ZH='War3 对话框系统 基础教程'
+2026-04-27 09:32:05,254 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 对话框系统 基础教程
+2026-04-27 09:32:05,425 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:32:05,426 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:32:05,543 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 对话框系统 基础教程
+2026-04-27 09:32:05,543 [INFO]   搜索阶段：收集到 30 条候选结果
+2026-04-27 09:32:05,809 [WARNING] ⚠️  抓取失败，已忽略: https://wc3we.fandom.com/wiki/GUI_Triggering — Client error '403 Forbidden' for url 'https://wc3we.fandom.com/wiki/GUI_Triggering'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:32:05,846 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/forums/trigger-gui-editor-tutorials.279/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/forums/trigger-gui-editor-tutorials.279/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:32:06,169 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=19780 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=19780'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:32:06,240 [WARNING] ⚠️  抓取失败，已忽略: https://hiveworkshop.com/forums/trigger-gui-editor-tutorials.279/page-3 — Client error '403 Forbidden' for url 'https://hiveworkshop.com/forums/trigger-gui-editor-tutorials.279/page-3'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:32:07,524 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:32:17,517 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:32:17,519 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:32:27,394 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:32:27,396 [INFO] ✅ WriterAgent 完成: 7093 字符, 4/4 来源被引用
+2026-04-27 09:32:27,396 [INFO] 🔎 ReviewerAgent 开始: 对象编辑器入门：修改单位属性
+2026-04-27 09:32:27,396 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:32:28,774 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:32:28,775 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-04-27 09:32:28,775 [INFO] ✍️  WriterAgent 开始: 制作对话框和选项菜单 (loop 0)
+2026-04-27 09:32:28,776 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:32:40,346 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:32:40,348 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:32:52,053 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:32:52,055 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:04,283 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:04,284 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-04-27 09:33:04,284 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-27 09:33:04,284 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-27 09:33:04,284 [INFO] 📄 文章写入: docs/object-editor/对象编辑器入门修改单位属性.md
+2026-04-27 09:33:04,285 [INFO] 📐 PlannerAgent 开始: 触发器不生效怎么办？新手调试排错指南
+2026-04-27 09:33:04,286 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:06,309 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:06,311 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:17,713 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:17,715 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:27,353 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:27,355 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:30,057 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:30,058 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 09:33:30,058 [INFO] 🔍 ResearcherAgent 开始: 触发器不生效怎么办？新手调试排错指南 (21 查询)
+2026-04-27 09:33:30,059 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:33,208 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:33,209 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor trigger tutorial beginner' | ZH='Warcraft 3 World Editor trigger tutorial beginner'
+2026-04-27 09:33:34,097 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor trigger tutorial
+2026-04-27 09:33:34,292 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor trigger tutorial
+2026-04-27 09:33:34,293 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:36,628 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:36,629 [INFO] 🌐 双语查询: EN='魔兽争霸3 地图编辑器 触发器 教程 新手' | ZH='魔兽争霸3 地图编辑器 触发器 教程 新手'
+2026-04-27 09:33:37,386 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图编辑器 触发器 教程 新手
+2026-04-27 09:33:37,439 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图编辑器 触发器 教程 新手
+2026-04-27 09:33:37,440 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:40,683 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:40,684 [INFO] 🌐 双语查询: EN='WC3 Reforged trigger debugging common issues' | ZH='WC3 Reforged trigger debugging common issues'
+2026-04-27 09:33:41,416 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 Reforged trigger debugging common is
+2026-04-27 09:33:41,679 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 Reforged trigger debugging common is
+2026-04-27 09:33:41,680 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:43,482 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:43,484 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:44,471 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:44,472 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger not working common reasons' | ZH='Warcraft 3 trigger not working common reasons'
+2026-04-27 09:33:45,296 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 trigger not working common re
+2026-04-27 09:33:45,395 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 trigger not working common re
+2026-04-27 09:33:45,396 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:47,954 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:47,955 [INFO] 🌐 双语查询: EN='魔兽争霸3 触发器失效 常见原因' | ZH='魔兽争霸3 触发器失效 常见原因'
+2026-04-27 09:33:48,997 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 触发器失效 常见原因
+2026-04-27 09:33:49,013 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 触发器失效 常见原因
+2026-04-27 09:33:49,014 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:51,913 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:51,914 [INFO] 🌐 双语查询: EN='WC3 trigger debugging beginner guide' | ZH='魔兽争霸3 触发'
+2026-04-27 09:33:52,011 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:52,012 [INFO] ✅ WriterAgent 完成: 7486 字符, 6/6 来源被引用
+2026-04-27 09:33:52,012 [INFO] 🔎 ReviewerAgent 开始: 什么是内存泄漏？为什么地图越玩越卡
+2026-04-27 09:33:52,013 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:52,590 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger debugging beginner guide
+2026-04-27 09:33:52,740 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 触发
+2026-04-27 09:33:52,740 [INFO]   搜索阶段：收集到 34 条候选结果
+2026-04-27 09:33:53,837 [WARNING] ⚠️  抓取失败，已忽略: https://bbs.islga.org/read-htm-tid-12997-page-1-fpage-1.html — Client error '403 Forbidden' for url 'https://bbs.islga.org/read-htm-tid-12997-page-1-fpage-1.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:33:54,731 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:33:59,793 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:33:59,795 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:34:26,058 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:34:26,059 [INFO] ✅ 通过 ReviewerAgent: overall=0.81 (A=0.85 C=0.75 R=0.90 Cit=0.70)
+2026-04-27 09:34:26,060 [INFO]   反馈 5 条:
+2026-04-27 09:34:26,060 [INFO]   [missing_citation] 正常应该是25-30左右，如果你的地图越玩越卡，FPS会持续下降，这就是内存泄漏的信号...
+2026-04-27 09:34:26,060 [INFO]   [missing_citation] 按住键盘上的 Ctrl + Alt + F 组合键，屏幕左上角会显示当前帧率（FPS数值）...
+2026-04-27 09:34:26,060 [INFO]   [incomplete_section] 触发器泄漏（Trigger Leak）部分只介绍了概念，缺乏具体识别方法和修复示例...
+2026-04-27 09:34:26,060 [INFO]   [redundant_content] 「新手常以为触发器执行完了这个对象就会自动消失」在多个章节重复出现...
+2026-04-27 09:34:26,060 [INFO]   [factual_error] 如果在100次操作后帧率从30降到了20以下，说明很可能存在内存泄漏...
+2026-04-27 09:34:26,060 [INFO] ✅ 质量通过 (loop 0): score=0.81
+2026-04-27 09:34:26,060 [INFO] 📄 文章写入: docs/triggers/什么是内存泄漏为什么地图越玩越卡.md

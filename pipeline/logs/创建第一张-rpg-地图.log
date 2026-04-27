@@ -445,3 +445,217 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-04-27 15:49:34,298 [INFO]   [incomplete_section] 技能与天赋树配置...
 2026-04-27 15:49:34,298 [INFO] ✅ 质量通过 (loop 0): score=0.77
 2026-04-27 15:49:34,299 [INFO] 📄 文章写入: docs\getting-started\创建第一张-rpg-地图.md
+2026-04-27 09:53:25,958 [INFO] 📐 PlannerAgent 开始: 创建第一张 RPG 地图
+2026-04-27 09:53:25,959 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:53:31,150 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:53:31,151 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-04-27 09:53:31,151 [INFO] ✍️  WriterAgent 开始: 编辑器界面功能全览 (loop 0)
+2026-04-27 09:53:31,152 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:53:31,600 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:53:31,601 [ERROR] ResearcherAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-04-27 09:53:31,602 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-04-27 09:53:31,602 [INFO] ✍️  WriterAgent 开始: War3 地图编辑器安装与配置 (loop 0)
+2026-04-27 09:53:31,603 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:53:50,593 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:53:50,595 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:53:53,495 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:53:53,496 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 09:53:53,496 [INFO] 🔍 ResearcherAgent 开始: 创建第一张 RPG 地图 (21 查询)
+2026-04-27 09:53:53,497 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:53:53,646 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:53:53,648 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:53:56,649 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:53:56,650 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG map making tutorial for beginners' | ZH='Warcraft 3 RPG map making tutorial for beginners'
+2026-04-27 09:53:57,455 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG map making tutorial for b
+2026-04-27 09:53:57,483 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG map making tutorial for b
+2026-04-27 09:53:57,484 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:53:59,811 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:53:59,812 [INFO] 🌐 双语查询: EN='魔兽争霸3 RPG地图制作完全入门指南' | ZH='魔兽争霸3 RPG地图制作完全入门指南'
+2026-04-27 09:54:00,541 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 RPG地图制作完全入门指南
+2026-04-27 09:54:00,635 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 RPG地图制作完全入门指南
+2026-04-27 09:54:00,636 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:54:02,882 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:54:02,883 [INFO] 🌐 双语查询: EN='How to create first Warcraft 3 custom map step by step' | ZH='How to create first Warcraft 3 custom map step by step'
+2026-04-27 09:54:03,547 [INFO] 🔍 Tavily 搜索成功: 5 条 | How to create first Warcraft 3 custom ma
+2026-04-27 09:54:03,583 [INFO] 🔍 Tavily 搜索成功: 5 条 | How to create first Warcraft 3 custom ma
+2026-04-27 09:54:03,584 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:54:05,821 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:54:05,822 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor download 2024' | ZH='Warcraft 3 World Editor download 2024'
+2026-04-27 09:54:06,540 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor download 2024
+2026-04-27 09:54:06,721 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor download 2024
+2026-04-27 09:54:06,722 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:54:09,691 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:54:09,692 [INFO] 🌐 双语查询: EN='魔兽争霸3冰封王座编辑器下载安装' | ZH='魔兽争霸3冰封王座编辑器下载安装'
+2026-04-27 09:54:09,850 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:54:09,852 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:54:10,424 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3冰封王座编辑器下载安装
+2026-04-27 09:54:10,461 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3冰封王座编辑器下载安装
+2026-04-27 09:54:10,462 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:54:12,537 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:54:12,538 [INFO] 🌐 双语查询: EN='WC3 TFT editor how to open' | ZH='WC3 TFT editor how to open'
+2026-04-27 09:54:13,376 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 TFT editor how to open
+2026-04-27 09:54:13,430 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 TFT editor how to open
+2026-04-27 09:54:13,431 [INFO]   搜索阶段：收集到 33 条候选结果
+2026-04-27 09:54:13,671 [WARNING] ⚠️  抓取失败，已忽略: https://bbs.islga.org/read-htm-tid-392630-page-1-fpage-1.html — Client error '403 Forbidden' for url 'https://bbs.islga.org/read-htm-tid-392630-page-1-fpage-1.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:54:14,425 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:54:14,427 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:54:19,737 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/1960295304038424632 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/1960295304038424632'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:54:19,738 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:54:31,567 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:54:31,569 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:54:33,149 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:54:33,151 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:54:49,507 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:54:49,509 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:54:55,869 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:54:55,872 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:55:01,964 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:55:01,965 [INFO] ✅ ResearcherAgent 完成: 8 个来源已注册
+2026-04-27 09:55:01,965 [INFO] ✍️  WriterAgent 开始: 创建第一张 RPG 地图 (loop 0)
+2026-04-27 09:55:01,966 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:55:13,825 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:55:13,827 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:55:16,725 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:55:16,726 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:55:21,834 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:55:21,836 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:55:31,621 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:55:31,622 [INFO] ✅ WriterAgent 完成: 6328 字符, 3/3 来源被引用
+2026-04-27 09:55:31,622 [INFO] 🔎 ReviewerAgent 开始: 编辑器界面功能全览
+2026-04-27 09:55:31,623 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:55:45,603 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:55:45,604 [INFO] ✅ WriterAgent 完成: 8619 字符, 5/5 来源被引用
+2026-04-27 09:55:45,604 [INFO] 🔎 ReviewerAgent 开始: War3 地图编辑器安装与配置
+2026-04-27 09:55:45,605 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:55:46,190 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:55:46,192 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:55:47,268 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:55:47,269 [INFO] ✅ 通过 ReviewerAgent: overall=0.77 (A=0.80 C=0.75 R=0.90 Cit=0.55)
+2026-04-27 09:55:47,269 [INFO]   反馈 5 条:
+2026-04-27 09:55:47,269 [INFO]   [missing_citation] 按F6快捷键打开地形编辑器...
+2026-04-27 09:55:47,269 [INFO]   [missing_citation] F4快捷键打开对象编辑器...
+2026-04-27 09:55:47,269 [INFO]   [missing_citation] 按Ctrl+F9运行测试...
+2026-04-27 09:55:47,269 [INFO]   [missing_citation] 草地可能有3-4种不同外观...
+2026-04-27 09:55:47,269 [INFO]   [incomplete_section] 声音与过场编辑器...
+2026-04-27 09:55:47,269 [INFO] ✅ 质量通过 (loop 0): score=0.77
+2026-04-27 09:55:47,270 [INFO] 📄 文章写入: docs/getting-started/编辑器界面功能全览.md
+2026-04-27 09:55:47,270 [INFO] 📐 PlannerAgent 开始: 地图属性与基础设置
+2026-04-27 09:55:47,271 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:55:59,852 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:55:59,853 [INFO] ✅ 通过 ReviewerAgent: overall=0.84 (A=0.82 C=0.88 R=0.92 Cit=0.72)
+2026-04-27 09:55:59,853 [INFO]   反馈 5 条:
+2026-04-27 09:55:59,853 [INFO]   [missing_citation] 推荐配置：操作系统：Windows 10 64位；处理器：Intel Core i3 或更高；内存：4GB RAM 或以...
+2026-04-27 09:55:59,853 [INFO]   [missing_citation] 在游戏根目录中新建一个空白文本文件，命名为「reignofchaos.mpq」...
+2026-04-27 09:55:59,853 [INFO]   [factual_error] 通过本节，你已经了解到：世界编辑器是暴雪免费提供的地图制作工具...
+2026-04-27 09:55:59,853 [INFO]   [missing_citation] 这是因为重制版的编辑器功能被大幅简化了！解决方法：去下载经典的1.27或1.29版本。...
+2026-04-27 09:55:59,853 [INFO]   [incomplete_section] HiveWE替代方案...
+2026-04-27 09:55:59,853 [INFO] ✅ 质量通过 (loop 0): score=0.84
+2026-04-27 09:55:59,854 [INFO] 📄 文章写入: docs/getting-started/war3-地图编辑器安装与配置.md
+2026-04-27 09:56:08,946 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:56:08,947 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 09:56:08,947 [INFO] 🔍 ResearcherAgent 开始: 地图属性与基础设置 (21 查询)
+2026-04-27 09:56:08,948 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:56:09,124 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:56:09,125 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:56:11,983 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:56:11,984 [INFO] 🌐 双语查询: EN='Warcraft III World Editor 地图编辑器 入门教程' | ZH='Warcraft III World Editor 地图编辑器 入门教程'
+2026-04-27 09:56:12,688 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor 地图编辑器 入门教程
+2026-04-27 09:56:12,807 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor 地图编辑器 入门教程
+2026-04-27 09:56:12,808 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:56:15,043 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:56:15,044 [INFO] 🌐 双语查询: EN='WC3 custom map creation tutorial for beginners' | ZH='WC3 custom map creation tutorial for beginners'
+2026-04-27 09:56:15,637 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 custom map creation tutorial for beg
+2026-04-27 09:56:15,799 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 custom map creation tutorial for beg
+2026-04-27 09:56:15,800 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:56:18,288 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:56:18,289 [INFO] 🌐 双语查询: EN='如何制作魔兽争霸3 RPG地图 零基础教程' | ZH='如何制作魔兽争霸3 RPG地图 零基础教程'
+2026-04-27 09:56:19,112 [INFO] 🔍 Tavily 搜索成功: 5 条 | 如何制作魔兽争霸3 RPG地图 零基础教程
+2026-04-27 09:56:19,401 [INFO] 🔍 Tavily 搜索成功: 5 条 | 如何制作魔兽争霸3 RPG地图 零基础教程
+2026-04-27 09:56:19,402 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:56:22,175 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:56:22,176 [INFO] 🌐 双语查询: EN='Warcraft III World Editor map properties panel' | ZH='魔兽争霸III'
+2026-04-27 09:56:22,979 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor map properties
+2026-04-27 09:56:23,015 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸III
+2026-04-27 09:56:23,016 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:56:25,658 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:56:25,660 [INFO] 🌐 双语查询: EN='魔兽争霸3 世界编辑器 地图属性在哪里' | ZH='魔兽争霸3 世界编辑器 地图属性在哪里'
+2026-04-27 09:56:26,280 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 世界编辑器 地图属性在哪里
+2026-04-27 09:56:26,608 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 世界编辑器 地图属性在哪里
+2026-04-27 09:56:26,609 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:56:26,991 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:56:26,993 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:56:29,107 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:56:29,108 [INFO] 🌐 双语查询: EN='W' | ZH='WC3 Editor Scenario 面板介绍'
+2026-04-27 09:56:29,192 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Query is too short. Min query length is 2 characters.
+2026-04-27 09:56:29,280 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=W)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=W')")
+2026-04-27 09:56:29,388 [INFO] response: https://grokipedia.com/api/typeahead?query=W&limit=1 200
+2026-04-27 09:56:29,595 [INFO] response: https://www.mojeek.com/search?q=W 403
+2026-04-27 09:56:29,755 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 Editor Scenario 面板介绍
+2026-04-27 09:56:30,618 [INFO] response: https://search.brave.com/search?q=W&source=web 200
+2026-04-27 09:56:30,626 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | W
+2026-04-27 09:56:30,626 [INFO]   搜索阶段：收集到 33 条候选结果
+2026-04-27 09:56:34,804 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:56:47,491 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:56:47,493 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:57:07,458 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:57:07,459 [INFO] ✅ WriterAgent 完成: 9537 字符, 7/8 来源被引用
+2026-04-27 09:57:07,459 [INFO] 🔎 ReviewerAgent 开始: 创建第一张 RPG 地图
+2026-04-27 09:57:07,460 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:57:13,494 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:57:13,496 [ERROR] ResearcherAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-04-27 09:57:13,496 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-04-27 09:57:13,496 [INFO] ✍️  WriterAgent 开始: 地图属性与基础设置 (loop 0)
+2026-04-27 09:57:13,497 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:57:28,313 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:57:28,315 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:57:29,122 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:57:29,123 [INFO] ✅ 通过 ReviewerAgent: overall=0.79 (A=0.80 C=0.75 R=0.88 Cit=0.70)
+2026-04-27 09:57:29,124 [INFO]   反馈 5 条:
+2026-04-27 09:57:29,124 [INFO]   [factual_error] 常见的路径是：C:\Program Files\Warcraft III\_worldeditoool_Final...
+2026-04-27 09:57:29,124 [INFO]   [missing_citation] 触发编辑器由左侧的触发器列表和右侧的代码编辑区组成...
+2026-04-27 09:57:29,124 [INFO]   [missing_citation] 放置单位时注意'高度'问题！如果你把单位放在悬崖边缘，可能会掉下去或无法攻击到其他单位...
+2026-04-27 09:57:29,124 [INFO]   [incomplete_section] Section 6 on advanced concepts...
+2026-04-27 09:57:29,124 [INFO]   [redundant_content] Both Step 1 and Step 2 repeatedly describe how to open vario...
+2026-04-27 09:57:29,124 [INFO] ✅ 质量通过 (loop 0): score=0.79
+2026-04-27 09:57:29,124 [INFO] 📄 文章写入: docs/getting-started/创建第一张-rpg-地图.md

@@ -1,0 +1,269 @@
+2026-04-27 09:39:22,129 [INFO] 📐 PlannerAgent 开始: 我的第一个触发器：让单位说话
+2026-04-27 09:39:22,129 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:39:28,879 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:39:28,880 [ERROR] PlannerAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+原始输出: ```json
+{
+  "outline": [
+    {
+      "title": "触发器是什么？为什么地图离不开它？",
+      "level": 2,
+      "search_queries": [
+        "Warcraft III trigger editor tutorial",
+        "WC3触发器基础入门",
+        "World Editor triggers for beginners"
+      ],
+      "children": [
+        { "title": "触发器在地图中的核心作用", "level": 
+2026-04-27 09:39:28,880 [INFO] ✅ PlannerAgent 完成: 1 节, 2 个查询
+2026-04-27 09:39:28,880 [INFO] 🔍 ResearcherAgent 开始: 事件、条件、动作：触发器三要素详解 (2 查询)
+2026-04-27 09:39:28,881 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:39:31,231 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:39:31,232 [INFO] 🌐 双语查询: EN='事件、条件、动作：触发器三要素详解' | ZH='事件、条件、动作：触发器三要素详解'
+2026-04-27 09:39:31,412 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:39:31,413 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:39:32,260 [INFO] 🔍 Tavily 搜索成功: 5 条 | 事件、条件、动作：触发器三要素详解
+2026-04-27 09:39:32,294 [INFO] 🔍 Tavily 搜索成功: 5 条 | 事件、条件、动作：触发器三要素详解
+2026-04-27 09:39:32,295 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:39:34,430 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:39:34,431 [INFO] 🌐 双语查询: EN='Warcraft III 事件、条件、动作：触发器三要素详解' | ZH='Warcraft III 事件、条件、动作：触发器三要素详解'
+2026-04-27 09:39:35,285 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III 事件、条件、动作：触发器三要素详解
+2026-04-27 09:39:35,367 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III 事件、条件、动作：触发器三要素详解
+2026-04-27 09:39:35,367 [INFO]   搜索阶段：收集到 11 条候选结果
+2026-04-27 09:39:35,911 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/669902276 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/669902276'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:39:36,148 [WARNING] ⚠️  抓取失败，已忽略: https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/Serverless%E8%BF%9B%E9%98%B6%E5%AE%9E%E6%88%98%E8%AF%BE/02%20%E8%A7%A6%E5%8F%91%E5%99%A8%EF%BC%9A%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA%E4%BA%8B%E4%BB%B6%E6%BA%90%E4%B8%8E%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97%E7%9A%84%E7%BA%BD%E5%B8%A6%EF%BC%9F.md — Client error '403 Forbidden' for url 'https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/Serverless%E8%BF%9B%E9%98%B6%E5%AE%9E%E6%88%98%E8%AF%BE/02%20%E8%A7%A6%E5%8F%91%E5%99%A8%EF%BC%9A%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA%E4%BA%8B%E4%BB%B6%E6%BA%90%E4%B8%8E%E5%87%BD%E6%95%B0%E8%AE%A1%E7%AE%97%E7%9A%84%E7%BA%BD%E5%B8%A6%EF%BC%9F.md'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:39:37,009 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/qq_41844618/article/details/104397168 — Server error '521 ' for url 'https://blog.csdn.net/qq_41844618/article/details/104397168'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-04-27 09:39:38,034 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/weixin_30865427/article/details/95412053 — Server error '521 ' for url 'https://blog.csdn.net/weixin_30865427/article/details/95412053'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-04-27 09:39:39,324 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:39:45,639 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:39:45,640 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 09:39:45,640 [INFO] 🔍 ResearcherAgent 开始: 我的第一个触发器：让单位说话 (21 查询)
+2026-04-27 09:39:45,641 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:39:48,262 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:39:48,263 [INFO] 🌐 双语查询: EN='Warcraft III World Editor trigger tutorial for beginners' | ZH='Warcraft III World Editor trigger tutorial for beginners'
+2026-04-27 09:39:49,011 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor trigger tutori
+2026-04-27 09:39:49,125 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor trigger tutori
+2026-04-27 09:39:49,126 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:39:50,514 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:39:50,516 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:39:53,172 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:39:53,173 [INFO] 🌐 双语查询: EN='WC3 触发器 入门 教程 基础' | ZH='WC3 触发器 入门 教程 基础'
+2026-04-27 09:39:54,127 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 触发器 入门 教程 基础
+2026-04-27 09:39:54,198 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 触发器 入门 教程 基础
+2026-04-27 09:39:54,199 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:39:56,807 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:39:56,808 [INFO] 🌐 双语查询: EN='Warcraft 3 自定义 触发器 新手 指南' | ZH='Warcraft 3 自定义 触发器 新手 指南'
+2026-04-27 09:39:57,622 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 自定义 触发器 新手 指南
+2026-04-27 09:39:57,676 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 自定义 触发器 新手 指南
+2026-04-27 09:39:57,677 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:40:00,057 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:40:00,058 [INFO] 🌐 双语查询: EN='Warcraft III triggers basics for beginners' | ZH='Warcraft III triggers basics for beginners'
+2026-04-27 09:40:00,751 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III triggers basics for beginne
+2026-04-27 09:40:01,001 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III triggers basics for beginne
+2026-04-27 09:40:01,002 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:40:01,533 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:40:01,534 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-04-27 09:40:01,534 [INFO] ✍️  WriterAgent 开始: 事件、条件、动作：触发器三要素详解 (loop 0)
+2026-04-27 09:40:01,535 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:40:03,335 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:40:03,336 [INFO] 🌐 双语查询: EN='What is WC3 trigger' | ZH='WC3 触发器 是什么'
+2026-04-27 09:40:04,017 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 触发器 是什么
+2026-04-27 09:40:04,236 [INFO] 🔍 Tavily 搜索成功: 5 条 | What is WC3 trigger
+2026-04-27 09:40:04,237 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:40:06,450 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:40:06,451 [INFO] 🌐 双语查询: EN='Warcraft 3 触发器系统 入门' | ZH='Warcraft 3 触发器系统 入门'
+2026-04-27 09:40:07,162 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 触发器系统 入门
+2026-04-27 09:40:07,202 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 触发器系统 入门
+2026-04-27 09:40:07,202 [INFO]   搜索阶段：收集到 25 条候选结果
+2026-04-27 09:40:07,266 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/d2bmlh/i_need_help_with_a_trigger/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/d2bmlh/i_need_help_with_a_trigger/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:40:07,304 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/rkqtkd/warcraft_iii_introduction_beginner_guides_faqs/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/rkqtkd/warcraft_iii_introduction_beginner_guides_faqs/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:40:07,350 [WARNING] ⚠️  抓取失败，已忽略: https://bbs.islga.org/read-htm-tid-12997-page-1-fpage-1.html — Client error '403 Forbidden' for url 'https://bbs.islga.org/read-htm-tid-12997-page-1-fpage-1.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:40:07,388 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/mxjnmb/warcraft_3_editor_problem/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/mxjnmb/warcraft_3_editor_problem/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:40:08,841 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:40:13,270 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:40:13,272 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:40:23,179 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:40:23,181 [INFO] ✅ WriterAgent 完成: 960 字符, 3/3 来源被引用
+2026-04-27 09:40:23,181 [INFO] 🔎 ReviewerAgent 开始: 事件、条件、动作：触发器三要素详解
+2026-04-27 09:40:23,181 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:40:38,913 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:40:38,914 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-04-27 09:40:38,914 [INFO] ✍️  WriterAgent 开始: 我的第一个触发器：让单位说话 (loop 0)
+2026-04-27 09:40:38,915 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:40:41,987 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:40:41,989 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:40:55,096 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:40:55,097 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 15 column 43 (char 595)
+2026-04-27 09:40:55,097 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-27 09:40:55,098 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-27 09:40:55,098 [INFO] 📄 文章写入: docs/triggers/事件条件动作触发器三要素详解.md
+2026-04-27 09:40:55,098 [INFO] 📐 PlannerAgent 开始: 触发器是什么？用大白话解释游戏逻辑
+2026-04-27 09:40:55,099 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:40:57,915 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:40:57,917 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:08,743 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:08,744 [INFO] ✅ WriterAgent 完成: 8043 字符, 6/6 来源被引用
+2026-04-27 09:41:08,744 [INFO] 🔎 ReviewerAgent 开始: 变量是什么？触发器变量零基础入门
+2026-04-27 09:41:08,745 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:15,895 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:15,897 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:20,674 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:20,675 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 09:41:20,675 [INFO] 🔍 ResearcherAgent 开始: 触发器是什么？用大白话解释游戏逻辑 (21 查询)
+2026-04-27 09:41:20,676 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:23,648 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:23,650 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger tutorial for beginners zero experience' | ZH='Warcraft 3 trigger tutorial for beginners zero experience'
+2026-04-27 09:41:24,326 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 trigger tutorial for beginner
+2026-04-27 09:41:24,592 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 trigger tutorial for beginner
+2026-04-27 09:41:24,593 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:26,543 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:26,543 [INFO] 🌐 双语查询: EN='Warcraft III triggers complete beginner tutorial' | ZH='魔兽争霸3 触发器 完全入门教程'
+2026-04-27 09:41:27,396 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III triggers complete beginner 
+2026-04-27 09:41:27,451 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 触发器 完全入门教程
+2026-04-27 09:41:27,452 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:29,710 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:29,711 [INFO] 🌐 双语查询: EN='World Editor triggers game logic guide' | ZH='World Editor triggers game logic guide'
+2026-04-27 09:41:30,351 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor triggers game logic guide
+2026-04-27 09:41:30,554 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor triggers game logic guide
+2026-04-27 09:41:30,556 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:33,377 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:33,378 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger basics what is trigger' | ZH='Warcraft 3 trigger basics what is trigger'
+2026-04-27 09:41:33,740 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:33,741 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:34,028 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 trigger basics what is trigge
+2026-04-27 09:41:34,131 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 trigger basics what is trigge
+2026-04-27 09:41:34,132 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:36,105 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:36,106 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 15 column 29 (char 533)
+2026-04-27 09:41:36,106 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-27 09:41:36,106 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-27 09:41:36,107 [INFO] 📄 文章写入: docs/triggers/变量是什么触发器变量零基础入门.md
+2026-04-27 09:41:36,107 [INFO] 📐 PlannerAgent 开始: 完整学习路线图：从零到发布第一张地图
+2026-04-27 09:41:36,108 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:36,339 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:36,341 [INFO] 🌐 双语查询: EN='触发器是什么 游戏逻辑 简单解释' | ZH='触发器是什么 游戏逻辑 简单解释'
+2026-04-27 09:41:37,133 [INFO] 🔍 Tavily 搜索成功: 5 条 | 触发器是什么 游戏逻辑 简单解释
+2026-04-27 09:41:37,401 [INFO] 🔍 Tavily 搜索成功: 5 条 | 触发器是什么 游戏逻辑 简单解释
+2026-04-27 09:41:37,402 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:39,516 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:39,517 [INFO] 🌐 双语查询: EN='World Editor trigger tutorial for beginners' | ZH='World Editor trigger tutorial for beginners'
+2026-04-27 09:41:40,391 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor trigger tutorial for beginn
+2026-04-27 09:41:40,799 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor trigger tutorial for beginn
+2026-04-27 09:41:40,799 [INFO]   搜索阶段：收集到 25 条候选结果
+2026-04-27 09:41:41,024 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/explainlikeimfive/comments/zcco29/eli5_how_does_a_flip_flop_work_and_what_is_its/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/explainlikeimfive/comments/zcco29/eli5_how_does_a_flip_flop_work_and_what_is_its/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:41:44,115 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:41:50,749 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:41:50,751 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:01,444 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:01,445 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 09:42:01,445 [INFO] 🔍 ResearcherAgent 开始: 完整学习路线图：从零到发布第一张地图 (21 查询)
+2026-04-27 09:42:01,446 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:04,225 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:04,226 [INFO] 🌐 双语查询: EN='Warcraft 3 map making tutorial for beginners 2024' | ZH='Warcraft 3 map making tutorial for beginners 2024'
+2026-04-27 09:42:05,150 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map making tutorial for begin
+2026-04-27 09:42:05,960 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map making tutorial for begin
+2026-04-27 09:42:05,961 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:08,416 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:08,417 [INFO] 🌐 双语查询: EN='魔兽争霸3地图编辑器完整入门教程' | ZH='魔兽争霸3地图编辑器完整入门教程'
+2026-04-27 09:42:09,069 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3地图编辑器完整入门教程
+2026-04-27 09:42:09,150 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3地图编辑器完整入门教程
+2026-04-27 09:42:09,151 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:10,157 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:10,159 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:13,081 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:13,082 [INFO] 🌐 双语查询: EN='How to create Warcraft III RPG map from zero' | ZH='How to create Warcraft III RPG map from zero'
+2026-04-27 09:42:13,912 [INFO] 🔍 Tavily 搜索成功: 5 条 | How to create Warcraft III RPG map from 
+2026-04-27 09:42:14,049 [INFO] 🔍 Tavily 搜索成功: 5 条 | How to create Warcraft III RPG map from 
+2026-04-27 09:42:14,050 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:16,683 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:16,684 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor introduction' | ZH='Warcraft 3 World Editor introduction'
+2026-04-27 09:42:17,329 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:17,330 [INFO] ✅ ResearcherAgent 完成: 7 个来源已注册
+2026-04-27 09:42:17,330 [INFO] ✍️  WriterAgent 开始: 触发器是什么？用大白话解释游戏逻辑 (loop 0)
+2026-04-27 09:42:17,331 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:17,449 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor introduction
+2026-04-27 09:42:17,492 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor introduction
+2026-04-27 09:42:17,493 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:20,731 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:20,732 [INFO] 🌐 双语查询: EN='What is Warcraft 3' | ZH='魔兽争霸3地图编辑器是什么'
+2026-04-27 09:42:21,575 [INFO] 🔍 Tavily 搜索成功: 5 条 | What is Warcraft 3
+2026-04-27 09:42:21,653 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3地图编辑器是什么
+2026-04-27 09:42:21,654 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:25,168 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:25,169 [INFO] 🌐 双语查询: EN='WC3 WE getting started guide' | ZH='魔兽争霸3 世界编辑器 入门指南'
+2026-04-27 09:42:25,821 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 世界编辑器 入门指南
+2026-04-27 09:42:25,917 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 WE getting started guide
+2026-04-27 09:42:25,917 [INFO]   搜索阶段：收集到 35 条候选结果
+2026-04-27 09:42:26,551 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/WC3/comments/17uyc3a/how_to_learn_use_warcraft_editor/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/WC3/comments/17uyc3a/how_to_learn_use_warcraft_editor/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 09:42:27,662 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/qq_41968782/article/details/111082208 — Server error '521 ' for url 'https://blog.csdn.net/qq_41968782/article/details/111082208'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-04-27 09:42:27,827 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:27,828 [INFO] ✅ WriterAgent 完成: 6494 字符, 3/3 来源被引用
+2026-04-27 09:42:27,828 [INFO] 🔎 ReviewerAgent 开始: 我的第一个触发器：让单位说话
+2026-04-27 09:42:27,829 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:29,166 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:37,852 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:37,854 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 09:42:53,908 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 09:42:53,909 [INFO] ✅ 通过 ReviewerAgent: overall=0.84 (A=0.88 C=0.80 R=0.92 Cit=0.70)
+2026-04-27 09:42:53,909 [INFO]   反馈 5 条:
+2026-04-27 09:42:53,909 [INFO]   [missing_citation] 保存完成后，地图文件会出现在你指定的文件夹中，文件后缀是`.w3x`（重置版）或`.w3m`（经典版）...
+2026-04-27 09:42:53,909 [INFO]   [missing_citation] 音效文件不宜过大，建议控制在500KB以内...
+2026-04-27 09:42:53,909 [INFO]   [missing_citation] 选中出问题的触发器后，按住`Shift`键的同时按`Enter`，可以打开触发器的运行日志...
+2026-04-27 09:42:53,909 [INFO]   [missing_citation] 在桌面或开始菜单中找到"World Editor"（世界编辑器）并双击打开。如果你使用的是中文版本，可能显示为"魔兽争霸...
+2026-04-27 09:42:53,909 [INFO]   [redundant_content] "打开触发器编辑器" section describes how to open trigger editor via ...
+2026-04-27 09:42:53,910 [INFO] ✅ 质量通过 (loop 0): score=0.84
+2026-04-27 09:42:53,910 [INFO] 📄 文章写入: docs/triggers/我的第一个触发器让单位说话.md
