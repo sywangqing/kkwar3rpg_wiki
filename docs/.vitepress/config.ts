@@ -7,17 +7,12 @@ const base = process.env.GITHUB_PAGES === 'true' ? '/kkwar3rpg_wiki/' : '/'
 
 export default defineConfig({
   base,
-  title: 'War3 地图开发者 Wiki',
-  description: 'Warcraft III RPG 地图编辑器知识库 —— AI 自动整理，持续更新',
+  title: 'War3 Wiki',
+  description: 'Warcraft III RPG 地图编辑器 AI 自动化知识库',
   lang: 'zh-CN',
-  ignoreDeadLinks: true,
-  cleanUrls: true,
-  lastUpdated: true,
 
-  head: [
-    ['meta', { name: 'keywords', content: 'War3,魔兽争霸,地图编辑器,JASS,Lua,触发器,RPG地图' }],
-    ['meta', { name: 'author', content: 'War3 Wiki Bot' }],
-  ],
+  // 关闭严格模式，允许自定义 frontmatter 字段（新 AI 生成字段不会报错）
+  ignoreDeadLinks: true,
 
   themeConfig: {
     nav: [
@@ -45,9 +40,15 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/your-org/war3-wiki' },
     ],
 
+    // 页脚
     footer: {
-      message: '📝 内容由 AI 自动生成，基于网络公开资料整理，仅供参考。',
-      copyright: `© ${new Date().getFullYear()} War3 Wiki`,
+      message: '由 AI Agent 自动生成，内容仅供参考',
+      copyright: '© 2025 War3 Wiki',
+    },
+
+    // 搜索（Pagefind 集成在构建后）
+    search: {
+      provider: 'local',
     },
 
     docFooter: { prev: '上一篇', next: '下一篇' },
@@ -63,5 +64,13 @@ export default defineConfig({
   markdown: {
     lineNumbers: true,
     image: { lazyLoading: true },
+  },
+
+  // 构建配置
+  vite: {
+    // 允许从 pipeline 生成的文章中读取 frontmatter
+    build: {
+      chunkSizeWarningLimit: 2000,
+    },
   },
 })

@@ -1,0 +1,733 @@
+2026-04-27 15:11:13,313 [INFO] 📐 PlannerAgent 开始: JASS 触发器基础语法
+2026-04-27 15:11:19,653 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:11:43,225 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:11:43,247 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 15:11:43,247 [INFO] 🔍 ResearcherAgent 开始: JASS 触发器基础语法 (21 查询)
+2026-04-27 15:11:43,250 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:11:45,149 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:11:45,155 [INFO] 🌐 双语查询: EN='JASS scripting tutorial Warcraft 3' | ZH='JASS scripting tutorial Warcraft 3'
+2026-04-27 15:11:46,841 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:11:46,874 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:11:46,941 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20tutorial%20Warcraft%203)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20tutorial%20Warcraft%203')")
+2026-04-27 15:11:47,006 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20tutorial%20Warcraft%203)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20tutorial%20Warcraft%203')")
+2026-04-27 15:11:48,263 [INFO] response: https://yandex.com/search/site/?text=JASS+scripting+tutorial+Warcraft+3&web=1&searchid=9787256 200
+2026-04-27 15:11:51,933 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+scripting+tutorial+Warcraft+3&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+scripting+tutorial+Warcraft+3&limit=1'))
+2026-04-27 15:11:51,933 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+scripting+tutorial+Warcraft+3&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+scripting+tutorial+Warcraft+3&limit=1'))
+2026-04-27 15:11:51,934 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS scripting tutorial Warcraft 3
+2026-04-27 15:11:52,023 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=JASS+scripting+tutorial+Warcraft+3)', 'https://www.mojeek.com/search?q=JASS+scripting+tutorial+Warcraft+3'))
+2026-04-27 15:11:52,363 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=JASS+scripting+tutorial+Warcraft+3&source=web)', 'https://search.brave.com/search?q=JASS+scripting+tutorial+Warcraft+3&source=web')")
+2026-04-27 15:11:53,422 [INFO] response: https://yandex.com/search/site/?text=JASS+scripting+tutorial+Warcraft+3&web=1&searchid=3203115 200
+2026-04-27 15:11:57,374 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS scripting tutorial Warcraft 3
+2026-04-27 15:11:57,375 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:12:00,253 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:12:00,255 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor trigger basics' | ZH='Warcraft 3 World Editor trigger basics'
+2026-04-27 15:12:01,719 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:12:01,722 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:12:01,737 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20basics)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20basics')")
+2026-04-27 15:12:01,823 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20basics)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20basics')")
+2026-04-27 15:12:02,121 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+basics&source=web)', 'https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+basics&source=web')")
+2026-04-27 15:12:06,741 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+basics&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+basics&limit=1'))
+2026-04-27 15:12:06,742 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+basics&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+basics&limit=1'))
+2026-04-27 15:12:06,832 [INFO] Error in engine duckduckgo: TimeoutException(TimeoutError('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/'))
+2026-04-27 15:12:07,073 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=6y6Le1-72sIAfedS4UT4DTKb;_ylu=4LRYfF-2aFDG8cQqRpvfYR4AGdh4mVB-DbjiZ6NfH2AeyjU?p=Warcraft+3+World+Editor+trigger+basics)', 'https://search.yahoo.com/search;_ylt=6y6Le1-72sIAfedS4UT4DTKb;_ylu=4LRYfF-2aFDG8cQqRpvfYR4AGdh4mVB-DbjiZ6NfH2AeyjU?p=Warcraft+3+World+Editor+trigger+basics')")
+2026-04-27 15:12:07,128 [INFO] Error in engine duckduckgo: TimeoutException(TimeoutError('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/'))
+2026-04-27 15:12:07,459 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+basics&source=web)', 'https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+basics&source=web')")
+2026-04-27 15:12:08,003 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+trigger+basics&web=1&searchid=3445076 200
+2026-04-27 15:12:08,238 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+trigger+basics&web=1&searchid=6892373 200
+2026-04-27 15:12:12,135 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger basics
+2026-04-27 15:12:12,472 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger basics
+2026-04-27 15:12:12,474 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:12:15,274 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:12:15,275 [INFO] 🌐 双语查询: EN='JASS 语言 触发器 入门教程' | ZH='JASS 语言 触发器 入门教程'
+2026-04-27 15:12:16,696 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:12:16,707 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:12:16,722 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%AF%AD%E8%A8%80%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%AF%AD%E8%A8%80%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-04-27 15:12:16,779 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%AF%AD%E8%A8%80%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%AF%AD%E8%A8%80%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-04-27 15:12:17,106 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&source=web)', 'https://search.brave.com/search?q=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&source=web')")
+2026-04-27 15:12:17,359 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=PjeZ-Nw2wJUSehAzWhEkC-mS;_ylu=HeaGHofGBcTwY-isbymlBP78aaD_pMNFNFxLCrIA_SxryIQ?p=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://search.yahoo.com/search;_ylt=PjeZ-Nw2wJUSehAzWhEkC-mS;_ylu=HeaGHofGBcTwY-isbymlBP78aaD_pMNFNFxLCrIA_SxryIQ?p=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-04-27 15:12:18,056 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=bILzb13AM0yCs7W6zGDVQRq8;_ylu=PkKqs6cWjdPp6vwwRXm6eThkRgjk9rE19wZAxqfxUlfOZiE?p=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://search.yahoo.com/search;_ylt=bILzb13AM0yCs7W6zGDVQRq8;_ylu=PkKqs6cWjdPp6vwwRXm6eThkRgjk9rE19wZAxqfxUlfOZiE?p=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-04-27 15:12:18,439 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&source=web)', 'https://search.brave.com/search?q=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&source=web')")
+2026-04-27 15:12:19,693 [INFO] response: https://yandex.com/search/site/?text=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&web=1&searchid=1825203 200
+2026-04-27 15:12:21,702 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1'))
+2026-04-27 15:12:21,703 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 语言 触发器 入门教程
+2026-04-27 15:12:21,718 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1'))
+2026-04-27 15:12:22,372 [INFO] Error in engine duckduckgo: TimeoutException(TimeoutError('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/'))
+2026-04-27 15:12:23,676 [INFO] response: https://yandex.com/search/site/?text=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&web=1&searchid=8269063 200
+2026-04-27 15:12:26,719 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://www.mojeek.com/search?q=JASS+%E8%AF%AD%E8%A8%80+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B'))
+2026-04-27 15:12:26,721 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 语言 触发器 入门教程
+2026-04-27 15:12:26,722 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:12:30,275 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:12:30,277 [INFO] 🌐 双语查询: EN='JASS scripting Warcraft 3 World Editor' | ZH='JASS scripting Warcraft 3 World Editor'
+2026-04-27 15:12:31,696 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:12:31,733 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:12:31,740 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20Warcraft%203%20World%20Editor)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20Warcraft%203%20World%20Editor')")
+2026-04-27 15:12:31,771 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20Warcraft%203%20World%20Editor)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20Warcraft%203%20World%20Editor')")
+2026-04-27 15:12:36,703 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+scripting+Warcraft+3+World+Editor&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+scripting+Warcraft+3+World+Editor&limit=1'))
+2026-04-27 15:12:36,749 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=JASS+scripting+Warcraft+3+World+Editor)', 'https://www.mojeek.com/search?q=JASS+scripting+Warcraft+3+World+Editor'))
+2026-04-27 15:12:36,749 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+scripting+Warcraft+3+World+Editor&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+scripting+Warcraft+3+World+Editor&limit=1'))
+2026-04-27 15:12:36,779 [INFO] Error in engine duckduckgo: TimeoutException(TimeoutError('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/'))
+2026-04-27 15:12:37,133 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=JASS+scripting+Warcraft+3+World+Editor&source=web)', 'https://search.brave.com/search?q=JASS+scripting+Warcraft+3+World+Editor&source=web')")
+2026-04-27 15:12:38,036 [INFO] response: https://yandex.com/search/site/?text=JASS+scripting+Warcraft+3+World+Editor&web=1&searchid=3896572 200
+2026-04-27 15:12:38,533 [INFO] response: https://yandex.com/search/site/?text=JASS+scripting+Warcraft+3+World+Editor&web=1&searchid=8974337 200
+2026-04-27 15:12:41,712 [INFO] Error in engine duckduckgo: TimeoutException(TimeoutError('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/'))
+2026-04-27 15:12:41,713 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS scripting Warcraft 3 World Editor
+2026-04-27 15:12:41,758 [INFO] Error in engine yahoo: TimeoutException(TimeoutError('error sending request for url (https://search.yahoo.com/search;_ylt=e3_kJ6kewohHsd2ndhstMdsY;_ylu=fiWyBr5pN2JK0YnE6dIOMT1XIHBFGxq0yEDflq1GqMWL91I?p=JASS+scripting+Warcraft+3+World+Editor)', 'https://search.yahoo.com/search;_ylt=e3_kJ6kewohHsd2ndhstMdsY;_ylu=fiWyBr5pN2JK0YnE6dIOMT1XIHBFGxq0yEDflq1GqMWL91I?p=JASS+scripting+Warcraft+3+World+Editor'))
+2026-04-27 15:12:41,759 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS scripting Warcraft 3 World Editor
+2026-04-27 15:12:41,760 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:12:44,802 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:12:44,804 [INFO] 🌐 双语查询: EN='JASS Language Basic Tutorial' | ZH='JASS 语言基础教程'
+2026-04-27 15:12:46,184 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:12:46,199 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-04-27 15:12:46,218 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:12:46,232 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20Language%20Basic%20Tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20Language%20Basic%20Tutorial')")
+2026-04-27 15:12:47,393 [INFO] response: https://yandex.com/search/site/?text=JASS+%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&web=1&searchid=1332959 200
+2026-04-27 15:12:47,404 [INFO] response: https://yandex.com/search/site/?text=JASS+Language+Basic+Tutorial&web=1&searchid=2270701 200
+2026-04-27 15:12:51,204 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 语言基础教程
+2026-04-27 15:12:51,234 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS Language Basic Tutorial
+2026-04-27 15:12:51,235 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:12:54,794 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:12:54,796 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger editor setup' | ZH='魔兽争霸3 触发器编辑器设置'
+2026-04-27 15:12:56,021 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:12:56,035 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20editor%20setup)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20editor%20setup')")
+2026-04-27 15:12:56,418 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=Warcraft+3+trigger+editor+setup&source=web)', 'https://search.brave.com/search?q=Warcraft+3+trigger+editor+setup&source=web')")
+2026-04-27 15:12:58,140 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:12:58,155 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE')")
+2026-04-27 15:12:59,375 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE&web=1&searchid=2922505 200
+2026-04-27 15:13:01,041 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+editor+setup&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+editor+setup&limit=1'))
+2026-04-27 15:13:01,426 [INFO] Error in engine duckduckgo: TimeoutException(TimeoutError('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/'))
+2026-04-27 15:13:02,209 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+editor+setup&web=1&searchid=5390188 200
+2026-04-27 15:13:03,154 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE&limit=1)', 'https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E8%BE%91%E5%99%A8%E8%AE%BE%E7%BD%AE&limit=1'))
+2026-04-27 15:13:03,155 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器编辑器设置
+2026-04-27 15:13:06,438 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger editor setup
+2026-04-27 15:13:06,438 [INFO]   搜索阶段：收集到 36 条候选结果
+2026-04-27 15:13:08,390 [WARNING] ⚠️  抓取失败，已忽略: https://www.youtube.com/watch?v=kvBiwcBu2oo — Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DkvBiwcBu2oo&q=EgQj81F8GIOZvM8GIjBtDrFW5Wniu_bwMyzVE33yV1tHrAwTJ1aQ4wiXd-ywHecathT5okKkCTEOCJ457ZQyAnJSWgFD'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-04-27 15:13:10,131 [WARNING] ⚠️  抓取失败，已忽略: https://www.nishikino-music.com/202511/arzo.htm — Client error '403 Forbidden' for url 'https://www.nishikino-music.com/202511/arzo.htm'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 15:13:22,675 [WARNING] ⚠️  抓取失败，已忽略: https://redpanday.com/gtm-ga-data-tracking/ — _ssl.c:1063: The handshake operation timed out
+2026-04-27 15:13:22,678 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:13:49,038 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:13:49,040 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-04-27 15:13:49,040 [INFO] ✍️  WriterAgent 开始: JASS 触发器基础语法 (loop 0)
+2026-04-27 15:13:49,042 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:14:00,405 [INFO] 📐 PlannerAgent 开始: JASS 触发器基础语法
+2026-04-27 15:14:01,382 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:14:01,384 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:14:06,720 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:14:15,689 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:14:15,692 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:14:24,948 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:14:24,971 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 15:14:24,971 [INFO] 🔍 ResearcherAgent 开始: JASS 触发器基础语法 (21 查询)
+2026-04-27 15:14:24,974 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:14:27,959 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:14:27,962 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:14:28,219 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:14:28,221 [INFO] 🌐 双语查询: EN='JASS scripting tutorial Warcraft III' | ZH='JASS 脚本教程 魔兽'
+2026-04-27 15:14:29,902 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:14:30,000 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%84%9A%E6%9C%AC%E6%95%99%E7%A8%8B%20%E9%AD%94%E5%85%BD)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%84%9A%E6%9C%AC%E6%95%99%E7%A8%8B%20%E9%AD%94%E5%85%BD')")
+2026-04-27 15:14:30,703 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:14:30,718 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20tutorial%20Warcraft%20III)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20tutorial%20Warcraft%20III')")
+2026-04-27 15:14:31,001 [INFO] response: https://html.duckduckgo.com/html/ 200
+2026-04-27 15:14:33,668 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=rkqieplu42TvhwjqUQeMVLbT;_ylu=8OM7lrIN14x_I2bv2bOYc5XfZCsgLdtl1sCn3ACy6xMYpYw?p=JASS+scripting+tutorial+Warcraft+III)', 'https://search.yahoo.com/search;_ylt=rkqieplu42TvhwjqUQeMVLbT;_ylu=8OM7lrIN14x_I2bv2bOYc5XfZCsgLdtl1sCn3ACy6xMYpYw?p=JASS+scripting+tutorial+Warcraft+III')")
+2026-04-27 15:14:33,883 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=JASS+scripting+tutorial+Warcraft+III&source=web)', 'https://search.brave.com/search?q=JASS+scripting+tutorial+Warcraft+III&source=web')")
+2026-04-27 15:14:34,999 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+%E8%84%9A%E6%9C%AC%E6%95%99%E7%A8%8B+%E9%AD%94%E5%85%BD&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+%E8%84%9A%E6%9C%AC%E6%95%99%E7%A8%8B+%E9%AD%94%E5%85%BD&limit=1'))
+2026-04-27 15:14:35,000 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 脚本教程 魔兽
+2026-04-27 15:14:35,366 [INFO] response: https://yandex.com/search/site/?text=JASS+scripting+tutorial+Warcraft+III&web=1&searchid=6327589 200
+2026-04-27 15:14:35,717 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+scripting+tutorial+Warcraft+III&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+scripting+tutorial+Warcraft+III&limit=1'))
+2026-04-27 15:14:35,718 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS scripting tutorial Warcraft III
+2026-04-27 15:14:35,719 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:14:38,338 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:14:38,340 [INFO] 🌐 双语查询: EN='Warcraft III World Editor JASS trigger programming' | ZH='Warcraft III World Editor JASS trigger programming'
+2026-04-27 15:14:39,784 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:14:39,800 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:14:39,802 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20JASS%20trigger%20programming)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20JASS%20trigger%20programming')")
+2026-04-27 15:14:39,815 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20JASS%20trigger%20programming)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20JASS%20trigger%20programming')")
+2026-04-27 15:14:41,269 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+World+Editor+JASS+trigger+programming&web=1&searchid=5948915 200
+2026-04-27 15:14:44,793 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+JASS+trigger+programming&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+JASS+trigger+programming&limit=1'))
+2026-04-27 15:14:44,808 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+JASS+trigger+programming&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+JASS+trigger+programming&limit=1'))
+2026-04-27 15:14:44,809 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=Warcraft+III+World+Editor+JASS+trigger+programming)', 'https://www.mojeek.com/search?q=Warcraft+III+World+Editor+JASS+trigger+programming'))
+2026-04-27 15:14:44,809 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III World Editor JASS trigger p
+2026-04-27 15:14:45,814 [INFO] response: https://html.duckduckgo.com/html/ 200
+2026-04-27 15:14:46,167 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:14:46,169 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:14:46,180 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+World+Editor+JASS+trigger+programming&web=1&searchid=2115041 200
+2026-04-27 15:14:46,242 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III World Editor JASS trigger p
+2026-04-27 15:14:46,243 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:14:48,968 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:14:48,970 [INFO] 🌐 双语查询: EN='JASS Language Programming Basics Tutorial' | ZH='JASS语言编程基础教程'
+2026-04-27 15:14:50,396 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:14:50,400 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:14:50,409 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%AF%AD%E8%A8%80%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%AF%AD%E8%A8%80%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-04-27 15:14:50,414 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20Language%20Programming%20Basics%20Tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20Language%20Programming%20Basics%20Tutorial')")
+2026-04-27 15:14:50,598 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=JASS+Language+Programming+Basics+Tutorial&source=web)', 'https://search.brave.com/search?q=JASS+Language+Programming+Basics+Tutorial&source=web')")
+2026-04-27 15:14:51,750 [INFO] response: https://yandex.com/search/site/?text=JASS%E8%AF%AD%E8%A8%80%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&web=1&searchid=3738793 200
+2026-04-27 15:14:51,874 [INFO] response: https://yandex.com/search/site/?text=JASS+Language+Programming+Basics+Tutorial&web=1&searchid=4246690 200
+2026-04-27 15:14:55,401 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS%E8%AF%AD%E8%A8%80%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS%E8%AF%AD%E8%A8%80%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1'))
+2026-04-27 15:14:55,402 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS语言编程基础教程
+2026-04-27 15:14:55,416 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+Language+Programming+Basics+Tutorial&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+Language+Programming+Basics+Tutorial&limit=1'))
+2026-04-27 15:14:55,417 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS Language Programming Basics Tutoria
+2026-04-27 15:14:55,418 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:14:58,218 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:14:58,219 [INFO] 🌐 双语查询: EN='JASS scripting language Warcraft III' | ZH='JASS scripting language Warcraft III'
+2026-04-27 15:14:59,654 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:14:59,664 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:14:59,669 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20language%20Warcraft%20III)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20language%20Warcraft%20III')")
+2026-04-27 15:14:59,678 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20language%20Warcraft%20III)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20language%20Warcraft%20III')")
+2026-04-27 15:14:59,864 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=JASS+scripting+language+Warcraft+III&source=web)', 'https://search.brave.com/search?q=JASS+scripting+language+Warcraft+III&source=web')")
+2026-04-27 15:15:00,637 [INFO] response: https://html.duckduckgo.com/html/ 200
+2026-04-27 15:15:03,492 [INFO] response: https://www.mojeek.com/search?q=JASS+scripting+language+Warcraft+III 403
+2026-04-27 15:15:04,674 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+scripting+language+Warcraft+III&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+scripting+language+Warcraft+III&limit=1'))
+2026-04-27 15:15:04,675 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS scripting language Warcraft III
+2026-04-27 15:15:04,914 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-27 15:15:05,346 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:15:05,348 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:15:06,289 [INFO] response: https://yandex.com/search/site/?text=JASS+scripting+language+Warcraft+III&web=1&searchid=2208524 200
+2026-04-27 15:15:06,339 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS scripting language Warcraft III
+2026-04-27 15:15:06,340 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:15:09,644 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:15:09,646 [INFO] 🌐 双语查询: EN='JASS语言基础概念' | ZH='JASS语言基础概念'
+2026-04-27 15:15:11,063 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:15:11,077 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5')")
+2026-04-27 15:15:11,082 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:15:11,095 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5')")
+2026-04-27 15:15:11,315 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-27 15:15:11,333 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-27 15:15:16,080 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&limit=1'))
+2026-04-27 15:15:16,094 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&limit=1'))
+2026-04-27 15:15:17,327 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=HB6oMoMhi7d7xHm2_Mp3p6bA;_ylu=RSYw50-UUBv2JX7lsFK3sGUoQQufiJP67wLED8r-xtI6_J4?p=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5)', 'https://search.yahoo.com/search;_ylt=HB6oMoMhi7d7xHm2_Mp3p6bA;_ylu=RSYw50-UUBv2JX7lsFK3sGUoQQufiJP67wLED8r-xtI6_J4?p=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5')")
+2026-04-27 15:15:17,413 [INFO] response: https://yandex.com/search/site/?text=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&web=1&searchid=9830286 200
+2026-04-27 15:15:18,004 [INFO] response: https://www.mojeek.com/search?q=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5 403
+2026-04-27 15:15:19,279 [INFO] response: https://yandex.com/search/site/?text=JASS%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&web=1&searchid=5865263 200
+2026-04-27 15:15:19,330 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS语言基础概念
+2026-04-27 15:15:21,294 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:15:21,295 [INFO] ✅ WriterAgent 完成: 4408 字符, 4/4 来源被引用
+2026-04-27 15:15:21,296 [INFO] 🔎 ReviewerAgent 开始: JASS 触发器基础语法
+2026-04-27 15:15:21,297 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:15:22,329 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS语言基础概念
+2026-04-27 15:15:22,331 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:15:26,293 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:15:26,294 [INFO] 🌐 双语查询: EN='Warcraft III trigger scripting introduction' | ZH='Warcraft III trigger scripting introduction'
+2026-04-27 15:15:27,693 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:15:27,707 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20scripting%20introduction)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20scripting%20introduction')")
+2026-04-27 15:15:27,717 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:15:27,731 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20scripting%20introduction)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20scripting%20introduction')")
+2026-04-27 15:15:27,893 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=Warcraft+III+trigger+scripting+introduction&source=web)', 'https://search.brave.com/search?q=Warcraft+III+trigger+scripting+introduction&source=web')")
+2026-04-27 15:15:28,944 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+trigger+scripting+introduction&web=1&searchid=9091826 200
+2026-04-27 15:15:29,428 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=jSaAT7NXGVI5JE1GyJ6JIi07;_ylu=FwZoOdQvuNH5dq_LxK7I1De469BhQ06qJ7xOgFLPCU3uapQ?p=Warcraft+III+trigger+scripting+introduction)', 'https://search.yahoo.com/search;_ylt=jSaAT7NXGVI5JE1GyJ6JIi07;_ylu=FwZoOdQvuNH5dq_LxK7I1De469BhQ06qJ7xOgFLPCU3uapQ?p=Warcraft+III+trigger+scripting+introduction')")
+2026-04-27 15:15:30,311 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+trigger+scripting+introduction&web=1&searchid=2164337 200
+2026-04-27 15:15:32,703 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+III+trigger+scripting+introduction&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+III+trigger+scripting+introduction&limit=1'))
+2026-04-27 15:15:32,733 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III trigger scripting introduct
+2026-04-27 15:15:32,960 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-27 15:15:34,821 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+trigger+scripting+introduction 403
+2026-04-27 15:15:34,822 [WARNING] DuckDuckGo 搜索异常（已忽略）: ('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+III+trigger+scripting+introduction&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+III+trigger+scripting+introduction&limit=1')
+2026-04-27 15:15:34,822 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft III trigger scripting introduct
+2026-04-27 15:15:34,822 [INFO]   搜索阶段：收集到 37 条候选结果
+2026-04-27 15:15:36,293 [WARNING] ⚠️  抓取失败，已忽略: https://wc3we.fandom.com/wiki/Jass_Coding — Client error '403 Forbidden' for url 'https://wc3we.fandom.com/wiki/Jass_Coding'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 15:15:36,945 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/627356428 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/627356428'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 15:15:37,193 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/298393152 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/298393152'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 15:15:38,031 [WARNING] ⚠️  抓取失败，已忽略: https://www.youtube.com/watch?v=O_3x1x3DAOY — Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DO_3x1x3DAOY&q=EgQj81F8GJiavM8GIjCZLn_J24ROQkfvCt3bqTBBXKIfPcDYuerCFgcnKwjWI9kY7XGsKbu8HRZwV-vVioAyAnJSWgFD'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-04-27 15:15:38,863 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:15:49,026 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:15:49,028 [INFO] ✅ 通过 ReviewerAgent: overall=0.83 (A=0.85 C=0.80 R=0.90 Cit=0.75)
+2026-04-27 15:15:49,028 [INFO]   反馈 5 条:
+2026-04-27 15:15:49,028 [INFO]   [missing_citation] 常量必须在声明时赋初始值，且全大写命名是常见惯例...
+2026-04-27 15:15:49,028 [INFO]   [factual_error] TriggerSleepAction 会强制暂停线程，应优先考虑使用事件响应机制替代轮询...
+2026-04-27 15:15:49,028 [INFO]   [missing_citation] 使用常量可以定义不可修改的值...
+2026-04-27 15:15:49,028 [INFO]   [incomplete_section] 调试与优化技巧...
+2026-04-27 15:15:49,028 [INFO]   [missing_citation] 字符串，最长支持 255 个字符...
+2026-04-27 15:15:49,028 [INFO] ✅ 质量通过 (loop 0): score=0.83
+2026-04-27 15:15:49,031 [INFO] 📄 文章写入: tmpa81hxzm6\scripting\jass-basics.md
+2026-04-27 15:16:09,394 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:16:09,396 [INFO] ✅ ResearcherAgent 完成: 7 个来源已注册
+2026-04-27 15:16:09,396 [INFO] ✍️  WriterAgent 开始: JASS 触发器基础语法 (loop 0)
+2026-04-27 15:16:09,398 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:16:15,500 [INFO] 📐 PlannerAgent 开始: JASS 触发器基础语法
+2026-04-27 15:16:21,815 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:16:23,588 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:16:23,591 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:16:44,123 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:16:44,125 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:16:49,531 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:16:49,552 [ERROR] PlannerAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+原始输出: ```json
+{
+  "outline": [
+    {
+      "title": "JASS 简介与概述",
+      "level": 2,
+      "search_queries": [
+        "JASS language Warcraft 3 tutorial",
+        "JASS 触发器 入门教程",
+        "Warcraft 3 JASS vs vJASS 区别"
+      ],
+      "children": [
+        {
+          "title": "JASS 语言发展背景",
+          "leve
+2026-04-27 15:16:49,552 [INFO] ✅ PlannerAgent 完成: 1 节, 2 个查询
+2026-04-27 15:16:49,553 [INFO] 🔍 ResearcherAgent 开始: JASS 触发器基础语法 (2 查询)
+2026-04-27 15:16:49,556 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:16:52,077 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:16:52,079 [INFO] 🌐 双语查询: EN='JASS 触发器基础语法' | ZH='JASS 触发器基础语法'
+2026-04-27 15:16:53,818 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:16:53,867 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:16:53,922 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95')")
+2026-04-27 15:16:53,922 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95')")
+2026-04-27 15:16:54,348 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=bLkwzbWQIuEAvNaohnJ7PasI;_ylu=EFJbDaEvOfFsSvycQSi6dUbpb-zdfvD-ZTNqIRMod1ntKqA?p=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95)', 'https://search.yahoo.com/search;_ylt=bLkwzbWQIuEAvNaohnJ7PasI;_ylu=EFJbDaEvOfFsSvycQSi6dUbpb-zdfvD-ZTNqIRMod1ntKqA?p=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95')")
+2026-04-27 15:16:55,826 [INFO] response: https://yandex.com/search/site/?text=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&web=1&searchid=1123024 200
+2026-04-27 15:16:57,693 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=LnXqFPrWpbxy-znP2SIfKgo1;_ylu=CnwDUn9nohYecV8a5GRfk_Rz4Hy7wNcVzYiyMhIHXLjZJGk?p=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95)', 'https://search.yahoo.com/search;_ylt=LnXqFPrWpbxy-znP2SIfKgo1;_ylu=CnwDUn9nohYecV8a5GRfk_Rz4Hy7wNcVzYiyMhIHXLjZJGk?p=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95')")
+2026-04-27 15:16:57,878 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&source=web)', 'https://search.brave.com/search?q=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&source=web')")
+2026-04-27 15:16:58,915 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&limit=1'))
+2026-04-27 15:16:58,915 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&limit=1'))
+2026-04-27 15:16:58,916 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 触发器基础语法
+2026-04-27 15:16:58,928 [INFO] response: https://www.mojeek.com/search?q=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95 403
+2026-04-27 15:16:59,883 [INFO] 📐 PlannerAgent 开始: JASS 触发器基础语法
+2026-04-27 15:17:03,930 [INFO] Error in engine duckduckgo: TimeoutException(TimeoutError('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/'))
+2026-04-27 15:17:05,216 [INFO] response: https://yandex.com/search/site/?text=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&web=1&searchid=5043755 200
+2026-04-27 15:17:05,277 [WARNING] DuckDuckGo 搜索异常（已忽略）: ('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/')
+2026-04-27 15:17:05,277 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | JASS 触发器基础语法
+2026-04-27 15:17:05,279 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:17:06,218 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:17:07,032 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:17:07,034 [INFO] 🌐 双语查询: EN='Warcraft III JASS 触发器基础语法' | ZH='Warcraft III JASS 触发器基础语法'
+2026-04-27 15:17:08,424 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:17:08,438 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95')")
+2026-04-27 15:17:08,463 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:17:08,477 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95')")
+2026-04-27 15:17:08,534 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:17:08,536 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:17:09,395 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95 403
+2026-04-27 15:17:09,544 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95 403
+2026-04-27 15:17:13,439 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&limit=1'))
+2026-04-27 15:17:13,481 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&limit=1'))
+2026-04-27 15:17:13,624 [INFO] Error in engine brave: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.brave.com/search?q=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&source=web)', 'https://search.brave.com/search?q=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&source=web')")
+2026-04-27 15:17:14,967 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&web=1&searchid=2856844 200
+2026-04-27 15:17:15,500 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=kToVeuVuhemWtBSo9ppOsm6G;_ylu=dfUDQoW7INp8FioyqAE8_bdQgnSNqLqC3eFYBblk1G4MClM?p=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95)', 'https://search.yahoo.com/search;_ylt=kToVeuVuhemWtBSo9ppOsm6G;_ylu=dfUDQoW7INp8FioyqAE8_bdQgnSNqLqC3eFYBblk1G4MClM?p=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95')")
+2026-04-27 15:17:16,633 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95&web=1&searchid=4072709 200
+2026-04-27 15:17:18,488 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III JASS 触发器基础语法
+2026-04-27 15:17:18,638 [INFO] Error in engine duckduckgo: TimeoutException(TimeoutError('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/'))
+2026-04-27 15:17:18,640 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III JASS 触发器基础语法
+2026-04-27 15:17:18,640 [INFO]   搜索阶段：收集到 10 条候选结果
+2026-04-27 15:17:19,760 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/627356428 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/627356428'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 15:17:23,286 [WARNING] ⚠️  抓取失败，已忽略: https://www.youtube.com/watch?v=o1lduXJH_W4 — Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Do1lduXJH_W4&q=EgQj81F8GIGbvM8GIjAlGIfy_4C5cZ86aZgeNln7xp9n6FfvOXj7enAkoA-Kr_-vsqgCjquzEd1LWQxmVwEyAnJSWgFD'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-04-27 15:17:23,498 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:17:25,368 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:17:25,389 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 15:17:25,391 [INFO] 🔍 ResearcherAgent 开始: JASS 触发器基础语法 (21 查询)
+2026-04-27 15:17:25,395 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:17:27,372 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:17:27,374 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:17:27,728 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:17:27,730 [INFO] 🌐 双语查询: EN='JASS tutorial for beginners Warcraft 3' | ZH='JASS tutorial for beginners Warcraft 3'
+2026-04-27 15:17:29,326 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:17:29,336 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:17:29,422 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20tutorial%20for%20beginners%20Warcraft%203)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20tutorial%20for%20beginners%20Warcraft%203')")
+2026-04-27 15:17:29,423 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20tutorial%20for%20beginners%20Warcraft%203)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20tutorial%20for%20beginners%20Warcraft%203')")
+2026-04-27 15:17:30,753 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=3oCfHzVYkrLdsc4v2VnsSYfQ;_ylu=hkgK_fkb3w17j8XEi-xPtW8E6qNdHD3Dgvoa0-t0Q-a_c_Q?p=JASS+tutorial+for+beginners+Warcraft+3)', 'https://search.yahoo.com/search;_ylt=3oCfHzVYkrLdsc4v2VnsSYfQ;_ylu=hkgK_fkb3w17j8XEi-xPtW8E6qNdHD3Dgvoa0-t0Q-a_c_Q?p=JASS+tutorial+for+beginners+Warcraft+3')")
+2026-04-27 15:17:31,975 [INFO] response: https://yandex.com/search/site/?text=JASS+tutorial+for+beginners+Warcraft+3&web=1&searchid=3656115 200
+2026-04-27 15:17:32,706 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:17:32,708 [WARNING] 来源不足（1/3），扩大搜索...
+2026-04-27 15:17:33,996 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:17:34,000 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%20tutorial%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%20tutorial%20guide')")
+2026-04-27 15:17:34,426 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=JASS+tutorial+for+beginners+Warcraft+3&source=web)', 'https://search.brave.com/search?q=JASS+tutorial+for+beginners+Warcraft+3&source=web'))
+2026-04-27 15:17:34,426 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+tutorial+for+beginners+Warcraft+3&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+tutorial+for+beginners+Warcraft+3&limit=1'))
+2026-04-27 15:17:34,427 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+tutorial+for+beginners+Warcraft+3&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+tutorial+for+beginners+Warcraft+3&limit=1'))
+2026-04-27 15:17:34,428 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS tutorial for beginners Warcraft 3
+2026-04-27 15:17:39,014 [INFO] Error in engine duckduckgo: TimeoutException(TimeoutError('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/'))
+2026-04-27 15:17:39,014 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+tutorial+guide&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+tutorial+guide&limit=1'))
+2026-04-27 15:17:39,243 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=PNayvAAhZTWhDLiyWjNuUWmY;_ylu=Iz4JSxP8TEvpNKLI6zYrD5Co86DgkodwoprTc67Ny7Shj8s?p=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+tutorial+guide)', 'https://search.yahoo.com/search;_ylt=PNayvAAhZTWhDLiyWjNuUWmY;_ylu=Iz4JSxP8TEvpNKLI6zYrD5Co86DgkodwoprTc67Ny7Shj8s?p=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+tutorial+guide')")
+2026-04-27 15:17:39,433 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=JASS+tutorial+for+beginners+Warcraft+3)', 'https://www.mojeek.com/search?q=JASS+tutorial+for+beginners+Warcraft+3'))
+2026-04-27 15:17:40,058 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+tutorial+guide 403
+2026-04-27 15:17:40,273 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+tutorial+guide&web=1&searchid=2885145 200
+2026-04-27 15:17:40,654 [INFO] response: https://yandex.com/search/site/?text=JASS+tutorial+for+beginners+Warcraft+3&web=1&searchid=5275871 200
+2026-04-27 15:17:40,703 [WARNING] DuckDuckGo 搜索异常（已忽略）: ('error sending request for url (https://www.mojeek.com/search?q=JASS+tutorial+for+beginners+Warcraft+3)', 'https://www.mojeek.com/search?q=JASS+tutorial+for+beginners+Warcraft+3')
+2026-04-27 15:17:40,703 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | JASS tutorial for beginners Warcraft 3
+2026-04-27 15:17:40,704 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:17:43,005 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:17:43,006 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor scripting basics' | ZH='Warcraft 3 World Editor scripting basics'
+2026-04-27 15:17:43,710 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:17:43,712 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:17:44,430 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:17:44,433 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:17:44,447 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20basics)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20basics')")
+2026-04-27 15:17:44,447 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20basics)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20basics')")
+2026-04-27 15:17:45,073 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III JASS 触发器基础语法 tutorial guide
+2026-04-27 15:17:45,073 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-04-27 15:17:45,073 [INFO] ✍️  WriterAgent 开始: JASS 触发器基础语法 (loop 0)
+2026-04-27 15:17:45,075 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:17:45,709 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+scripting+basics&web=1&searchid=4826903 200
+2026-04-27 15:17:46,419 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+scripting+basics 403
+2026-04-27 15:17:49,443 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+scripting+basics&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+scripting+basics&limit=1'))
+2026-04-27 15:17:49,443 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+scripting+basics&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+scripting+basics&limit=1'))
+2026-04-27 15:17:49,444 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor scripting basics
+2026-04-27 15:17:49,669 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=Mkjpme0UPX5HW19_xiaMNBy0;_ylu=41zHtZMPyhN0Q8t498nfOUmvUKbx_0Z5y9wlg3rWzChexTo?p=Warcraft+3+World+Editor+scripting+basics)', 'https://search.yahoo.com/search;_ylt=Mkjpme0UPX5HW19_xiaMNBy0;_ylu=41zHtZMPyhN0Q8t498nfOUmvUKbx_0Z5y9wlg3rWzChexTo?p=Warcraft+3+World+Editor+scripting+basics')")
+2026-04-27 15:17:50,941 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+scripting+basics&web=1&searchid=7424685 200
+2026-04-27 15:17:51,000 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor scripting basics
+2026-04-27 15:17:51,001 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:17:53,411 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:17:53,413 [INFO] 🌐 双语查询: EN='JASS触发器编程入门完全指南' | ZH='JASS触发器编程入门完全指南'
+2026-04-27 15:17:54,902 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:17:54,912 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:17:54,916 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97')")
+2026-04-27 15:17:54,927 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97')")
+2026-04-27 15:17:56,159 [INFO] response: https://yandex.com/search/site/?text=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&web=1&searchid=1499066 200
+2026-04-27 15:17:59,915 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1'))
+2026-04-27 15:17:59,916 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS触发器编程入门完全指南
+2026-04-27 15:17:59,930 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1'))
+2026-04-27 15:17:59,931 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&source=web)', 'https://search.brave.com/search?q=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&source=web'))
+2026-04-27 15:18:00,149 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=Lz3sD2F2m3qBWy8fHdeJLN7U;_ylu=0aOBYEVn0DN8Odil1j_rpNTedmw22LDYWn_wkrcej0-U5kc?p=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97)', 'https://search.yahoo.com/search;_ylt=Lz3sD2F2m3qBWy8fHdeJLN7U;_ylu=0aOBYEVn0DN8Odil1j_rpNTedmw22LDYWn_wkrcej0-U5kc?p=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97')")
+2026-04-27 15:18:01,251 [INFO] response: https://html.duckduckgo.com/html/ 200
+2026-04-27 15:18:01,320 [INFO] response: https://yandex.com/search/site/?text=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&web=1&searchid=5065736 200
+2026-04-27 15:18:01,380 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS触发器编程入门完全指南
+2026-04-27 15:18:01,381 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:18:04,013 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:18:04,015 [INFO] 🌐 双语查询: EN='JASS language Warcraft 3 trigger basics' | ZH='JASS language Warcraft 3 trigger basics'
+2026-04-27 15:18:05,417 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:18:05,431 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20language%20Warcraft%203%20trigger%20basics)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20language%20Warcraft%203%20trigger%20basics')")
+2026-04-27 15:18:05,441 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:18:05,442 [INFO] ✅ WriterAgent 完成: 3442 字符, 6/7 来源被引用
+2026-04-27 15:18:05,442 [INFO] 🔎 ReviewerAgent 开始: JASS 触发器基础语法
+2026-04-27 15:18:05,444 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:18:05,448 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:18:05,461 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20language%20Warcraft%203%20trigger%20basics)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20language%20Warcraft%203%20trigger%20basics')")
+2026-04-27 15:18:06,640 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=KIrlxfKBpJhvVmxc4gSXWTRa;_ylu=E7Xds5NSTBkJZxK7jnCayuWK3sO3ZIMHLaKcEUbcdVUps5Y?p=JASS+language+Warcraft+3+trigger+basics)', 'https://search.yahoo.com/search;_ylt=KIrlxfKBpJhvVmxc4gSXWTRa;_ylu=E7Xds5NSTBkJZxK7jnCayuWK3sO3ZIMHLaKcEUbcdVUps5Y?p=JASS+language+Warcraft+3+trigger+basics')")
+2026-04-27 15:18:06,789 [INFO] response: https://yandex.com/search/site/?text=JASS+language+Warcraft+3+trigger+basics&web=1&searchid=1431862 200
+2026-04-27 15:18:06,927 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-27 15:18:10,426 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+language+Warcraft+3+trigger+basics&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+language+Warcraft+3+trigger+basics&limit=1'))
+2026-04-27 15:18:10,456 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+language+Warcraft+3+trigger+basics&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+language+Warcraft+3+trigger+basics&limit=1'))
+2026-04-27 15:18:10,457 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS language Warcraft 3 trigger basics
+2026-04-27 15:18:11,682 [INFO] response: https://yandex.com/search/site/?text=JASS+language+Warcraft+3+trigger+basics&web=1&searchid=4690524 200
+2026-04-27 15:18:11,723 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS language Warcraft 3 trigger basics
+2026-04-27 15:18:11,724 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:18:15,470 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:18:15,471 [INFO] 🌐 双语查询: EN='JASS触发器语法入门教程' | ZH='JASS触发器语法入门教程'
+2026-04-27 15:18:16,890 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:18:16,904 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-04-27 15:18:16,906 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:18:16,920 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-04-27 15:18:17,145 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-27 15:18:18,156 [INFO] response: https://www.mojeek.com/search?q=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 403
+2026-04-27 15:18:21,905 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1'))
+2026-04-27 15:18:21,919 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1'))
+2026-04-27 15:18:22,162 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-27 15:18:23,302 [INFO] response: https://yandex.com/search/site/?text=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&web=1&searchid=5895538 200
+2026-04-27 15:18:24,539 [INFO] response: https://yandex.com/search/site/?text=JASS%E8%A7%A6%E5%8F%91%E5%99%A8%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&web=1&searchid=7103230 200
+2026-04-27 15:18:24,587 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS触发器语法入门教程
+2026-04-27 15:18:26,912 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS触发器语法入门教程
+2026-04-27 15:18:26,913 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:18:26,957 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:18:26,959 [INFO] ✅ WriterAgent 完成: 658 字符, 3/3 来源被引用
+2026-04-27 15:18:26,959 [INFO] 🔎 ReviewerAgent 开始: JASS 触发器基础语法
+2026-04-27 15:18:26,961 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:18:27,322 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:18:27,324 [INFO] ✅ 通过 ReviewerAgent: overall=0.77 (A=0.80 C=0.70 R=0.88 Cit=0.65)
+2026-04-27 15:18:27,324 [INFO]   反馈 5 条:
+2026-04-27 15:18:27,324 [INFO]   [missing_citation] JASS 2（全称Just Another Scripting Syntax）是暴雪娱乐为《魔兽争霸III》专门开发的脚...
+2026-04-27 15:18:27,325 [INFO]   [incomplete_section] ### 基础数据类型...
+2026-04-27 15:18:27,325 [INFO]   [incomplete_section] 控制结构部分缺少vJASS和原生函数的说明...
+2026-04-27 15:18:27,325 [INFO]   [missing_citation] 使用局部变量可以减少命名冲突并提高代码模块化程度...
+2026-04-27 15:18:27,325 [INFO]   [factual_error] Source 7 (Wowpedia) is listed in registry but never referenc...
+2026-04-27 15:18:27,325 [INFO] ✅ 质量通过 (loop 0): score=0.77
+2026-04-27 15:18:27,327 [INFO] 📄 文章写入: tmp7vm9gm0t\scripting\jass-basics.md
+2026-04-27 15:18:33,510 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:18:33,512 [INFO] 🌐 双语查询: EN='What is JASS in Warcraft 3 World Editor' | ZH='What is JASS in Warcraft 3 World Editor'
+2026-04-27 15:18:34,929 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:18:34,938 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:18:34,943 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20JASS%20in%20Warcraft%203%20World%20Editor)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20JASS%20in%20Warcraft%203%20World%20Editor')")
+2026-04-27 15:18:34,952 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20JASS%20in%20Warcraft%203%20World%20Editor)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20JASS%20in%20Warcraft%203%20World%20Editor')")
+2026-04-27 15:18:36,330 [INFO] response: https://www.mojeek.com/search?q=What+is+JASS+in+Warcraft+3+World+Editor 403
+2026-04-27 15:18:39,945 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=What+is+JASS+in+Warcraft+3+World+Editor&limit=1)', 'https://grokipedia.com/api/typeahead?query=What+is+JASS+in+Warcraft+3+World+Editor&limit=1'))
+2026-04-27 15:18:39,946 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=What+is+JASS+in+Warcraft+3+World+Editor&source=web)', 'https://search.brave.com/search?q=What+is+JASS+in+Warcraft+3+World+Editor&source=web'))
+2026-04-27 15:18:39,946 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=What+is+JASS+in+Warcraft+3+World+Editor&limit=1)', 'https://grokipedia.com/api/typeahead?query=What+is+JASS+in+Warcraft+3+World+Editor&limit=1'))
+2026-04-27 15:18:41,245 [INFO] response: https://yandex.com/search/site/?text=What+is+JASS+in+Warcraft+3+World+Editor&web=1&searchid=1837341 200
+2026-04-27 15:18:42,197 [INFO] response: https://www.mojeek.com/search?q=What+is+JASS+in+Warcraft+3+World+Editor 403
+2026-04-27 15:18:44,952 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=What+is+JASS+in+Warcraft+3+World+Editor&source=web)', 'https://search.brave.com/search?q=What+is+JASS+in+Warcraft+3+World+Editor&source=web'))
+2026-04-27 15:18:44,953 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | What is JASS in Warcraft 3 World Editor
+2026-04-27 15:18:45,017 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=un-_HUTv9l_MUSN4cqhgtY-0;_ylu=gMi5gYsxXRPY97gpt7qHBEPoNRxZIxkMr8i785TIbXBF9Og?p=What+is+JASS+in+Warcraft+3+World+Editor)', 'https://search.yahoo.com/search;_ylt=un-_HUTv9l_MUSN4cqhgtY-0;_ylu=gMi5gYsxXRPY97gpt7qHBEPoNRxZIxkMr8i785TIbXBF9Og?p=What+is+JASS+in+Warcraft+3+World+Editor')")
+2026-04-27 15:18:46,553 [INFO] response: https://yandex.com/search/site/?text=What+is+JASS+in+Warcraft+3+World+Editor&web=1&searchid=3741298 200
+2026-04-27 15:18:48,890 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:18:48,891 [INFO] ⚠️  未通过 ReviewerAgent: overall=0.38 (A=0.15 C=0.20 R=0.85 Cit=1.00)
+2026-04-27 15:18:48,891 [INFO]   反馈 5 条:
+2026-04-27 15:18:48,892 [INFO]   [factual_error] Telegram: View @warcraft_art, view.inews.qq.com/404, Free HS...
+2026-04-27 15:18:48,892 [INFO]   [incomplete_section] The article ends mid-sentence: '各种自定义'...
+2026-04-27 15:18:48,892 [INFO]   [incomplete_section] Only one section '概述' exists...
+2026-04-27 15:18:48,892 [INFO]   [factual_error] JASS（Journey All Script System）是一种专门为《魔兽争霸 III》地图编辑器设计的脚本语言...
+2026-04-27 15:18:48,892 [INFO]   [poor_structure] Article has no headings beyond the title and consists of a s...
+2026-04-27 15:18:48,892 [INFO] ⚠️  质量未通过 (loop 0)，score=0.38，开始重写...
+2026-04-27 15:18:48,892 [INFO] ✍️  WriterAgent 开始: JASS 触发器基础语法 (loop 1)
+2026-04-27 15:18:48,893 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:18:49,962 [INFO] Error in engine duckduckgo: TimeoutException(TimeoutError('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/'))
+2026-04-27 15:18:49,963 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | What is JASS in Warcraft 3 World Editor
+2026-04-27 15:18:49,964 [INFO]   搜索阶段：收集到 28 条候选结果
+2026-04-27 15:18:51,048 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/627356428 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/627356428'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 15:18:51,955 [WARNING] ⚠️  抓取失败，已忽略: https://www.youtube.com/watch?v=n17CcOvcIgE — Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dn17CcOvcIgE&q=EgQj81F8GNqbvM8GIjDZbSpSdq0FmiTDsVoH66eHw6N6u2VAGbyngD1kA2NOc2fgLseVvri1LNxI4dPvtbcyAnJSWgFD'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-04-27 15:18:52,451 [WARNING] ⚠️  抓取失败，已忽略: https://www.youtube.com/watch?v=KO-LJA4mXKM — Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DKO-LJA4mXKM&q=EgQj81F8GNqbvM8GIjDfutEA1gSaaj5w38I0zji79YHd-kAV11kAyde61kJW9VSTCpktj9itxk_JFc49cj0yAnJSWgFD'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-04-27 15:18:52,804 [WARNING] ⚠️  抓取失败，已忽略: https://wc3we.fandom.com/wiki/Jass_Coding — Client error '403 Forbidden' for url 'https://wc3we.fandom.com/wiki/Jass_Coding'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 15:18:54,274 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:19:12,850 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:19:12,852 [INFO] ✅ WriterAgent 完成: 878 字符, 3/3 来源被引用
+2026-04-27 15:19:12,852 [INFO] 🔎 ReviewerAgent 开始: JASS 触发器基础语法
+2026-04-27 15:19:12,853 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:19:20,396 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:19:20,398 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-04-27 15:19:20,398 [INFO] ✍️  WriterAgent 开始: JASS 触发器基础语法 (loop 0)
+2026-04-27 15:19:20,399 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:19:36,456 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:19:36,458 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:19:36,988 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:19:36,990 [INFO] ⚠️  未通过 ReviewerAgent: overall=0.43 (A=0.30 C=0.40 R=0.85 Cit=0.20)
+2026-04-27 15:19:36,990 [INFO]   反馈 5 条:
+2026-04-27 15:19:36,990 [INFO]   [factual_error] JASS 是一种内置于《魔兽争霸 III》世界编辑器的脚本编程语言[^1]...
+2026-04-27 15:19:36,990 [INFO]   [factual_error] 参考来源部分的 [^1] 链接...
+2026-04-27 15:19:36,990 [INFO]   [factual_error] 参考来源部分的 [^2] 和 [^3] 链接...
+2026-04-27 15:19:36,990 [INFO]   [incomplete_section] 整个文章只有约 200 字...
+2026-04-27 15:19:36,990 [INFO]   [missing_citation] 所有关于触发器系统、事件、条件、动作的描述...
+2026-04-27 15:19:36,990 [WARNING] ⚠️  最终质量仍低于阈值: 0.43 < 0.5
+2026-04-27 15:19:36,992 [INFO] 📄 文章写入: tmpztdz5gm1\scripting\jass-basics.md
+2026-04-27 15:19:41,126 [INFO] 📐 PlannerAgent 开始: JASS 触发器基础语法
+2026-04-27 15:19:47,302 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:19:56,308 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:19:56,310 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:20:11,698 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:20:11,700 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:20:12,581 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:20:12,604 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-27 15:20:12,605 [INFO] 🔍 ResearcherAgent 开始: JASS 触发器基础语法 (21 查询)
+2026-04-27 15:20:12,607 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:20:16,231 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:20:16,233 [INFO] 🌐 双语查询: EN='JASS trigger basics Warcraft 3 World Editor' | ZH='JASS trigger basics Warcraft 3 World Editor'
+2026-04-27 15:20:17,682 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:20:17,727 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:20:17,784 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20trigger%20basics%20Warcraft%203%20World%20Editor)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20trigger%20basics%20Warcraft%203%20World%20Editor')")
+2026-04-27 15:20:17,785 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20trigger%20basics%20Warcraft%203%20World%20Editor)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20trigger%20basics%20Warcraft%203%20World%20Editor')")
+2026-04-27 15:20:18,050 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=-5_kr-58Ughe9VLjUjZTI8Sa;_ylu=153rQhtrgx-Y4P9YCzuYRezpGZ8yMnUnvk_PEL4G_PDiapQ?p=JASS+trigger+basics+Warcraft+3+World+Editor)', 'https://search.yahoo.com/search;_ylt=-5_kr-58Ughe9VLjUjZTI8Sa;_ylu=153rQhtrgx-Y4P9YCzuYRezpGZ8yMnUnvk_PEL4G_PDiapQ?p=JASS+trigger+basics+Warcraft+3+World+Editor')")
+2026-04-27 15:20:19,434 [INFO] response: https://yandex.com/search/site/?text=JASS+trigger+basics+Warcraft+3+World+Editor&web=1&searchid=9041639 200
+2026-04-27 15:20:22,779 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+trigger+basics+Warcraft+3+World+Editor&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+trigger+basics+Warcraft+3+World+Editor&limit=1'))
+2026-04-27 15:20:22,779 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+trigger+basics+Warcraft+3+World+Editor&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+trigger+basics+Warcraft+3+World+Editor&limit=1'))
+2026-04-27 15:20:22,780 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS trigger basics Warcraft 3 World Edi
+2026-04-27 15:20:22,794 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=JASS+trigger+basics+Warcraft+3+World+Editor&source=web)', 'https://search.brave.com/search?q=JASS+trigger+basics+Warcraft+3+World+Editor&source=web'))
+2026-04-27 15:20:24,153 [INFO] response: https://yandex.com/search/site/?text=JASS+trigger+basics+Warcraft+3+World+Editor&web=1&searchid=9792889 200
+2026-04-27 15:20:25,211 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:20:25,214 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:20:27,782 [INFO] Error in engine duckduckgo: TimeoutException(TimeoutError('error sending request for url (https://html.duckduckgo.com/html/)', 'https://html.duckduckgo.com/html/'))
+2026-04-27 15:20:27,783 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS trigger basics Warcraft 3 World Edi
+2026-04-27 15:20:27,784 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:20:29,870 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:20:29,872 [INFO] 🌐 双语查询: EN='JASS 触发器基础语法 教程' | ZH='JASS 触发器基础语法 教程'
+2026-04-27 15:20:31,251 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:20:31,264 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%20%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%20%E6%95%99%E7%A8%8B')")
+2026-04-27 15:20:31,724 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:20:31,738 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%20%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%20%E6%95%99%E7%A8%8B')")
+2026-04-27 15:20:32,283 [INFO] response: https://html.duckduckgo.com/html/ 200
+2026-04-27 15:20:36,268 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 触发器基础语法 教程
+2026-04-27 15:20:36,733 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+%E6%95%99%E7%A8%8B&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+%E6%95%99%E7%A8%8B&limit=1'))
+2026-04-27 15:20:36,749 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+%E6%95%99%E7%A8%8B&source=web)', 'https://search.brave.com/search?q=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+%E6%95%99%E7%A8%8B&source=web'))
+2026-04-27 15:20:38,103 [INFO] response: https://yandex.com/search/site/?text=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+%E6%95%99%E7%A8%8B&web=1&searchid=1014760 200
+2026-04-27 15:20:38,169 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=zc_qbz62uxYOyMZhSwXjrmZA;_ylu=5KTjCG7GXxmsOCieLaI8qIttBKmHiDss3sJL3IrGrG70eEM?p=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+%E6%95%99%E7%A8%8B)', 'https://search.yahoo.com/search;_ylt=zc_qbz62uxYOyMZhSwXjrmZA;_ylu=5KTjCG7GXxmsOCieLaI8qIttBKmHiDss3sJL3IrGrG70eEM?p=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+%E6%95%99%E7%A8%8B')")
+2026-04-27 15:20:38,969 [INFO] response: https://www.mojeek.com/search?q=JASS+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95+%E6%95%99%E7%A8%8B 403
+2026-04-27 15:20:38,970 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 触发器基础语法 教程
+2026-04-27 15:20:38,972 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:20:39,334 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:20:39,337 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:20:41,310 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:20:41,311 [INFO] 🌐 双语查询: EN='Warcraft 3 JASS programming guide' | ZH='Warcraft 3 JASS programming guide'
+2026-04-27 15:20:42,599 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:20:42,613 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20programming%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20programming%20guide')")
+2026-04-27 15:20:42,632 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:20:42,646 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20programming%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20programming%20guide')")
+2026-04-27 15:20:47,614 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+programming+guide&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+programming+guide&limit=1'))
+2026-04-27 15:20:47,629 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=Warcraft+3+JASS+programming+guide&source=web)', 'https://search.brave.com/search?q=Warcraft+3+JASS+programming+guide&source=web'))
+2026-04-27 15:20:47,645 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+programming+guide&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+programming+guide&limit=1'))
+2026-04-27 15:20:47,661 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=Warcraft+3+JASS+programming+guide&source=web)', 'https://search.brave.com/search?q=Warcraft+3+JASS+programming+guide&source=web'))
+2026-04-27 15:20:47,838 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=iFc8izrWOmkHf8TJx37F3tj2;_ylu=JW6ENF5QOjG1hM_07-owD3XlrQBlvmUFCukRncxCDtlf5Yw?p=Warcraft+3+JASS+programming+guide)', 'https://search.yahoo.com/search;_ylt=iFc8izrWOmkHf8TJx37F3tj2;_ylu=JW6ENF5QOjG1hM_07-owD3XlrQBlvmUFCukRncxCDtlf5Yw?p=Warcraft+3+JASS+programming+guide')")
+2026-04-27 15:20:48,428 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+JASS+programming+guide 403
+2026-04-27 15:20:48,847 [INFO] response: https://html.duckduckgo.com/html/ 200
+2026-04-27 15:20:48,856 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+JASS+programming+guide&web=1&searchid=4360220 200
+2026-04-27 15:20:48,859 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=JXqHx535SccJNI-0NZ1uUExe;_ylu=lIl0t5smTGY59WV84RvrAmxUP1NsVjnSpxXX1u1MXrrImes?p=Warcraft+3+JASS+programming+guide)', 'https://search.yahoo.com/search;_ylt=JXqHx535SccJNI-0NZ1uUExe;_ylu=lIl0t5smTGY59WV84RvrAmxUP1NsVjnSpxXX1u1MXrrImes?p=Warcraft+3+JASS+programming+guide')")
+2026-04-27 15:20:49,734 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+JASS+programming+guide 403
+2026-04-27 15:20:49,735 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 JASS programming guide
+2026-04-27 15:20:49,849 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+JASS+programming+guide&web=1&searchid=8012986 200
+2026-04-27 15:20:49,908 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 JASS programming guide
+2026-04-27 15:20:49,909 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:20:53,160 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:20:53,161 [INFO] 🌐 双语查询: EN='JASS language Warcraft 3 basics' | ZH='JASS language Warcraft 3 basics'
+2026-04-27 15:20:54,505 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:20:54,519 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20language%20Warcraft%203%20basics)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20language%20Warcraft%203%20basics')")
+2026-04-27 15:20:55,827 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:20:55,842 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20language%20Warcraft%203%20basics)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20language%20Warcraft%203%20basics')")
+2026-04-27 15:20:56,795 [INFO] response: https://www.mojeek.com/search?q=JASS+language+Warcraft+3+basics 403
+2026-04-27 15:20:56,937 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:20:56,939 [INFO] ✅ WriterAgent 完成: 4431 字符, 5/5 来源被引用
+2026-04-27 15:20:56,939 [INFO] 🔎 ReviewerAgent 开始: JASS 触发器基础语法
+2026-04-27 15:20:56,941 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:20:59,509 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+language+Warcraft+3+basics&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+language+Warcraft+3+basics&limit=1'))
+2026-04-27 15:20:59,525 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=JASS+language+Warcraft+3+basics&source=web)', 'https://search.brave.com/search?q=JASS+language+Warcraft+3+basics&source=web'))
+2026-04-27 15:21:00,669 [INFO] response: https://yandex.com/search/site/?text=JASS+language+Warcraft+3+basics&web=1&searchid=4319914 200
+2026-04-27 15:21:00,737 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=1QQsql9Exc8RgmLCHHHWxIV0;_ylu=o0PO-h07Yh_yqzt6P2MmeDFOhmDvRzjFkmqzsXC2OPrM5h0?p=JASS+language+Warcraft+3+basics)', 'https://search.yahoo.com/search;_ylt=1QQsql9Exc8RgmLCHHHWxIV0;_ylu=o0PO-h07Yh_yqzt6P2MmeDFOhmDvRzjFkmqzsXC2OPrM5h0?p=JASS+language+Warcraft+3+basics')")
+2026-04-27 15:21:00,738 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS language Warcraft 3 basics
+2026-04-27 15:21:00,838 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+language+Warcraft+3+basics&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+language+Warcraft+3+basics&limit=1'))
+2026-04-27 15:21:05,842 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=JASS+language+Warcraft+3+basics&source=web)', 'https://search.brave.com/search?q=JASS+language+Warcraft+3+basics&source=web'))
+2026-04-27 15:21:05,886 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=RR1f148tdJXXBo6O4CLk3uB2;_ylu=WJXbjA8FkS0d26Q3vwQ5C5QZaZozwgy3kcxYS68nQWVTrcI?p=JASS+language+Warcraft+3+basics)', 'https://search.yahoo.com/search;_ylt=RR1f148tdJXXBo6O4CLk3uB2;_ylu=WJXbjA8FkS0d26Q3vwQ5C5QZaZozwgy3kcxYS68nQWVTrcI?p=JASS+language+Warcraft+3+basics')")
+2026-04-27 15:21:06,880 [INFO] response: https://html.duckduckgo.com/html/ 200
+2026-04-27 15:21:07,104 [INFO] response: https://yandex.com/search/site/?text=JASS+language+Warcraft+3+basics&web=1&searchid=7385568 200
+2026-04-27 15:21:07,154 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS language Warcraft 3 basics
+2026-04-27 15:21:07,156 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:21:09,366 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:21:09,367 [INFO] 🌐 双语查询: EN='JASS 是什么 魔兽争霸3' | ZH='JASS 是什么 魔兽争霸3'
+2026-04-27 15:21:10,853 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:21:10,859 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:21:10,867 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E6%98%AF%E4%BB%80%E4%B9%88%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E6%98%AF%E4%BB%80%E4%B9%88%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83')")
+2026-04-27 15:21:10,872 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E6%98%AF%E4%BB%80%E4%B9%88%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E6%98%AF%E4%BB%80%E4%B9%88%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83')")
+2026-04-27 15:21:11,058 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=DLrs9MP0ZleqG5gDZvV0Bjwa;_ylu=99O3ymlylZ9WVTeYLaVAuPlmE7i-Tdz6d3cBZsKsapiVFiw?p=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83)', 'https://search.yahoo.com/search;_ylt=DLrs9MP0ZleqG5gDZvV0Bjwa;_ylu=99O3ymlylZ9WVTeYLaVAuPlmE7i-Tdz6d3cBZsKsapiVFiw?p=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83')")
+2026-04-27 15:21:11,115 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-27 15:21:11,308 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-27 15:21:15,869 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&limit=1'))
+2026-04-27 15:21:15,870 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&limit=1)', 'https://grokipedia.com/api/typeahead?query=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&limit=1'))
+2026-04-27 15:21:16,651 [INFO] response: https://www.mojeek.com/search?q=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83 403
+2026-04-27 15:21:18,047 [INFO] response: https://yandex.com/search/site/?text=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&web=1&searchid=9929727 200
+2026-04-27 15:21:18,106 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 是什么 魔兽争霸3
+2026-04-27 15:21:20,884 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&source=web)', 'https://search.brave.com/search?q=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&source=web'))
+2026-04-27 15:21:21,611 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:21:21,612 [INFO] ✅ 通过 ReviewerAgent: overall=0.83 (A=0.90 C=0.78 R=0.92 Cit=0.65)
+2026-04-27 15:21:21,613 [INFO]   反馈 5 条:
+2026-04-27 15:21:21,613 [INFO]   [missing_citation] JASS 支持多种基本数据类型，其中最常用的包括 integer（整数）、real（实数）、boolean（布尔值）、s...
+2026-04-27 15:21:21,613 [INFO]   [missing_citation] 在 JASS 中，函数是组织代码的基本单元，开发者可以通过定义和调用函数来实现各种游戏逻辑...
+2026-04-27 15:21:21,613 [INFO]   [missing_citation] JASS 使用 if-then-else 结构进行条件判断，其基本语法为...
+2026-04-27 15:21:21,613 [INFO]   [missing_citation] JASS 提供 loop 和 exitwhen 关键字来创建循环结构...
+2026-04-27 15:21:21,613 [INFO]   [missing_citation] World Editor中的触发器编辑器实际上是在图形界面层封装了JASS代码...
+2026-04-27 15:21:21,614 [INFO] ✅ 质量通过 (loop 0): score=0.83
+2026-04-27 15:21:21,616 [INFO] 📄 文章写入: tmplvq427vy\scripting\jass-basics.md
+2026-04-27 15:21:22,169 [INFO] response: https://www.mojeek.com/search?q=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83 403
+2026-04-27 15:21:22,220 [INFO] response: https://yandex.com/search/site/?text=JASS+%E6%98%AF%E4%BB%80%E4%B9%88+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&web=1&searchid=8602375 200
+2026-04-27 15:21:22,279 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 是什么 魔兽争霸3
+2026-04-27 15:21:22,281 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:21:25,151 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:21:25,152 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor JASS trigger introduction' | ZH='Warcraft 3 World Editor JASS trigger introduction'
+2026-04-27 15:21:26,555 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:21:26,570 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20JASS%20trigger%20introduction)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20JASS%20trigger%20introduction')")
+2026-04-27 15:21:26,583 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Unauthorized: missing or invalid API key.
+2026-04-27 15:21:26,598 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20JASS%20trigger%20introduction)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20JASS%20trigger%20introduction')")
+2026-04-27 15:21:27,329 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+JASS+trigger+introduction 403
+2026-04-27 15:21:28,501 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+JASS+trigger+introduction 403
+2026-04-27 15:21:31,565 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+JASS+trigger+introduction&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+JASS+trigger+introduction&limit=1'))
+2026-04-27 15:21:31,595 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+JASS+trigger+introduction&limit=1)', 'https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+JASS+trigger+introduction&limit=1'))
+2026-04-27 15:21:32,930 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+JASS+trigger+introduction&web=1&searchid=9286195 200
+2026-04-27 15:21:32,981 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor JASS trigger int
+2026-04-27 15:21:36,575 [INFO] Error in engine brave: TimeoutException(TimeoutError('error sending request for url (https://search.brave.com/search?q=Warcraft+3+World+Editor+JASS+trigger+introduction&source=web)', 'https://search.brave.com/search?q=Warcraft+3+World+Editor+JASS+trigger+introduction&source=web'))
+2026-04-27 15:21:36,613 [INFO] Error in engine yahoo: DDGSException("ConnectError: ConnectError('error sending request for url (https://search.yahoo.com/search;_ylt=90i7hioEt_RGjVSwjiB7cmu2;_ylu=uv_gDjI5ookfLtXqyARKnp_Xg9Z5dGBSnQnef5XCGQN4GVU?p=Warcraft+3+World+Editor+JASS+trigger+introduction)', 'https://search.yahoo.com/search;_ylt=90i7hioEt_RGjVSwjiB7cmu2;_ylu=uv_gDjI5ookfLtXqyARKnp_Xg9Z5dGBSnQnef5XCGQN4GVU?p=Warcraft+3+World+Editor+JASS+trigger+introduction')")
+2026-04-27 15:21:36,856 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-27 15:21:37,895 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+JASS+trigger+introduction&web=1&searchid=6303570 200
+2026-04-27 15:21:37,935 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor JASS trigger int
+2026-04-27 15:21:37,936 [INFO]   搜索阶段：收集到 34 条候选结果
+2026-04-27 15:21:38,998 [WARNING] ⚠️  抓取失败，已忽略: https://wc3we.fandom.com/wiki/Jass_Coding — Client error '403 Forbidden' for url 'https://wc3we.fandom.com/wiki/Jass_Coding'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 15:21:39,701 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/627356428 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/627356428'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-27 15:21:41,333 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:21:58,256 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:21:58,258 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-04-27 15:21:58,258 [INFO] ✍️  WriterAgent 开始: JASS 触发器基础语法 (loop 0)
+2026-04-27 15:21:58,260 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:22:15,348 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:22:15,351 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:22:29,249 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:22:29,251 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:22:45,195 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:22:45,198 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:22:55,864 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:22:55,867 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:23:18,245 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:23:18,247 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:23:32,195 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:23:32,198 [INFO] ✅ WriterAgent 完成: 4435 字符, 4/4 来源被引用
+2026-04-27 15:23:32,198 [INFO] 🔎 ReviewerAgent 开始: JASS 触发器基础语法
+2026-04-27 15:23:32,200 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-27 15:23:53,325 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-27 15:23:53,327 [INFO] ✅ 通过 ReviewerAgent: overall=0.73 (A=0.80 C=0.70 R=0.85 Cit=0.45)
+2026-04-27 15:23:53,327 [INFO]   反馈 5 条:
+2026-04-27 15:23:53,327 [INFO]   [missing_citation] JASS 支持两种注释方式：单行注释以 `//` 开头...多行注释以 `/*` 开始、以 `*/` 结束...
+2026-04-27 15:23:53,327 [INFO]   [missing_citation] 使用 `CreateTrigger()` 函数创建触发器，然后使用 `TriggerRegisterXXX()` 系列函...
+2026-04-27 15:23:53,327 [INFO]   [missing_citation] ExecuteFunc 是 JASS 提供的一个重要函数，用于从触发器中调用其他 JASS 函数...
+2026-04-27 15:23:53,327 [INFO]   [incomplete_section] 常用语法示例...
+2026-04-27 15:23:53,327 [INFO]   [redundant_content] JASS 是一种事件驱动的脚本语言，用于暴雪娱乐的魔兽争霸 III 中...
+2026-04-27 15:23:53,327 [INFO] ✅ 质量通过 (loop 0): score=0.73
+2026-04-27 15:23:53,329 [INFO] 📄 文章写入: tmpnm6blrca\scripting\jass-basics.md

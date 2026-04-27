@@ -31,7 +31,10 @@ class DuckDuckGoProvider(SearchProvider):
         调用 DDGS().text()（同步包装为异步），安全处理所有异常。
         region 参数：en-us（英文）/ zh-cn（中文）
         """
-        from duckduckgo_search import DDGS  # type: ignore
+        try:
+            from ddgs import DDGS  # type: ignore  # 新包名
+        except ImportError:
+            from duckduckgo_search import DDGS  # type: ignore  # 旧包名兼容
 
         region = "zh-cn" if lang.startswith("zh") else "en-us"
 

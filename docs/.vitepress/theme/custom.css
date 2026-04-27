@@ -1,26 +1,161 @@
-/* War3 Wiki 自定义样式 */
+/**
+ * custom.css — War3 Wiki 自定义样式
+ *
+ * 1. 参考来源（脚注）callout 样式
+ * 2. AI 生成文章徽章全局样式
+ * 3. 代码高亮补充
+ */
 
-/* 品牌色调整为魔兽风格 */
-:root {
-  --vp-c-brand-1: #c8922a;
-  --vp-c-brand-2: #b37e21;
-  --vp-c-brand-3: #9a6b19;
-  --vp-c-brand-soft: rgba(200, 146, 42, 0.14);
-}
+/* ========================================================
+ * 1. 参考来源 / 脚注块（footnotes）
+ * 生成的文章末尾会有 ## 参考来源 + [^N] 格式脚注
+ * ======================================================== */
 
-/* 首页 Hero 区域增强 */
-.VPHero .name {
-  background: linear-gradient(120deg, #c8922a 30%, #f0c060) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-}
-
-/* 代码块优化 */
-.vp-code-group .tabs {
+/* 脚注定义区域（markdown-it-footnote 生成 .footnotes-list） */
+.vp-doc .footnotes,
+.vp-doc section.footnotes {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--vp-c-divider);
+  border-left: 4px solid var(--vp-c-brand-1, #3b82f6);
+  border-radius: 0.5rem;
   background: var(--vp-c-bg-soft);
+  font-size: 0.875rem;
+  color: var(--vp-c-text-2);
 }
 
-/* 文章内容区最大宽度 */
-.VPDoc .content-container {
-  max-width: 860px;
+.vp-doc .footnotes::before,
+.vp-doc section.footnotes::before {
+  content: '📚 参考来源';
+  display: block;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--vp-c-text-1);
+  margin-bottom: 0.75rem;
+}
+
+/* 脚注列表项 */
+.vp-doc .footnotes ol,
+.vp-doc section.footnotes ol {
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+.vp-doc .footnotes li,
+.vp-doc section.footnotes li {
+  margin: 0.35rem 0;
+  line-height: 1.6;
+}
+
+.vp-doc .footnotes a,
+.vp-doc section.footnotes a {
+  color: var(--vp-c-brand-1, #3b82f6);
+  word-break: break-all;
+  font-size: 0.8rem;
+}
+
+/* 正文中的脚注上标 [^N] */
+.vp-doc sup.footnote-ref a {
+  color: var(--vp-c-brand-1, #3b82f6);
+  font-size: 0.7em;
+  font-weight: 600;
+  text-decoration: none;
+  background: #eff6ff;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  border: 1px solid #bfdbfe;
+  margin: 0 1px;
+  transition: background 0.2s;
+}
+
+.vp-doc sup.footnote-ref a:hover {
+  background: #dbeafe;
+}
+
+/* 返回上文链接 */
+.vp-doc .footnote-backref {
+  font-size: 0.75rem;
+  color: var(--vp-c-text-3);
+  text-decoration: none;
+  margin-left: 0.25rem;
+}
+
+/* ========================================================
+ * 2. ## 参考来源 heading 区域样式
+ * (AI 生成文章在 markdown 中直接写 ## 参考来源)
+ * ======================================================== */
+.vp-doc h2:has(+ ul a[href^="http"]),
+.vp-doc h2:has(+ ol a[href^="http"]) {
+  color: var(--vp-c-text-1);
+}
+
+/* 参考来源列表中的外链 */
+.vp-doc h2 + ul a[href^="http"],
+.vp-doc h2 + ol a[href^="http"] {
+  font-size: 0.85rem;
+  word-break: break-all;
+}
+
+/* ========================================================
+ * 3. 质量警告横幅（文章顶部，由 frontmatter quality_warning 触发）
+ * ======================================================== */
+.quality-warning-banner {
+  margin-bottom: 1.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.4rem;
+  background: #fff8e6;
+  border: 1px solid #fcd34d;
+  color: #92400e;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+/* ========================================================
+ * 4. AI 发现主题卡片（首页 discovered section）
+ * ======================================================== */
+.discovered-topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.discovered-topic-card {
+  padding: 1rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.5rem;
+  background: var(--vp-c-bg-elv, #fff);
+  transition: box-shadow 0.2s, border-color 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.discovered-topic-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: var(--vp-c-brand-2, #93c5fd);
+}
+
+.discovered-topic-card .card-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--vp-c-text-1);
+  margin-bottom: 0.4rem;
+}
+
+.discovered-topic-card .card-meta {
+  font-size: 0.75rem;
+  color: var(--vp-c-text-3);
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.discovered-topic-card .card-source {
+  background: #eff6ff;
+  color: #3b82f6;
+  padding: 0.1rem 0.4rem;
+  border-radius: 99px;
+  border: 1px solid #bfdbfe;
 }

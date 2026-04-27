@@ -54,47 +54,87 @@ npm run build
 
 ---
 
-## 🤖 AI 文章生成管道（可选）
+## 🤖 AI 多智能体文章生成管道
 
-本项目使用 MiniMax 大模型自动生成 War3 知识文章。
+本项目使用 **多智能体 AI 流水线**自动搜索研究、撰写和审核 War3 知识文章。
 
-### 配置步骤
+### 系统架构
 
-**1. 创建 `.env` 文件**（复制 `.env.example`）
+```
+论坛发现 (DiscovererAgent)
+    ↓  每日扫描 Hive/Reddit/NGA
+topics.json  ←  接受 relevance ≥ 0.7 的主题
 
-```bash
-cp .env.example .env
+主题 → PlannerAgent   → 生成文章大纲 + 双语搜索查询
+      ↓
+      ResearcherAgent → 执行 Tavily/DDG 搜索，构建来源注册表
+      ↓
+      WriterAgent     → 逐节撰写，注入 [^N] 引用
+      ↓
+      ReviewerAgent   → 评分 (accuracy / completeness / readability / citation)
+      ↓
+      quality_score ≥ 0.7 → 输出文章
+      quality_score < 0.7 → 重写（最多 2 次）
 ```
 
-**2. 填入 API Key**
+### 必要环境变量
 
-编辑 `.env` 文件：
+编辑 `.env` 文件（复制 `.env.example`）：
 
 ```env
+# === LLM 配置（必填）===
 OPENAI_API_KEY=你的MiniMax_API_Key
 OPENAI_BASE_URL=https://api.minimax.chat/v1
-ARTICLE_GEN_MODEL=MiniMax-M2.7-highspeed
+AGENT_LLM_MODEL=openai/MiniMax-M2.7-highspeed
+
+# === 搜索配置（Tavily 可选，无则回退 DuckDuckGo）===
+TAVILY_API_KEY=tvly-xxxxxxxxxxxx
+
+# === Reddit 发现（可选）===
+REDDIT_CLIENT_ID=your_client_id
+REDDIT_CLIENT_SECRET=your_client_secret
+REDDIT_USER_AGENT=war3-wiki-bot/1.0
+
+# === 运行参数 ===
+AGENT_CONCURRENCY=3        # 并发主题数
+MAX_TOPICS_PER_RUN=10      # 每次最多处理主题数
+QUALITY_THRESHOLD=0.7      # 质量分阈值
 ```
 
-> 💡 MiniMax API Key 申请地址：[https://platform.minimaxi.com/](https://platform.minimaxi.com/)
+> 💡 **MiniMax API Key** 申请：[https://platform.minimaxi.com/](https://platform.minimaxi.com/)  
+> 💡 **Tavily API Key** 申请（可选）：[https://tavily.com/](https://tavily.com/)
 
-**3. 安装 Python 依赖**
+### 安装与运行
+
+**1. 安装 Python 依赖**
 
 ```bash
 cd pipeline
 pip install -r requirements.txt
 ```
 
-**4. 运行增量更新**（只生成尚未生成的文章）
+**2. 运行主题发现**（扫描论坛，发现新主题）
+
+```bash
+python run_discovery.py
+```
+
+**3. 运行增量更新**（只生成尚未生成的文章）
 
 ```bash
 python run_incremental.py
+# 支持参数：
+python run_incremental.py --force-rewrite   # 强制重新生成
 ```
 
-**5. 运行全量更新**（重新生成所有文章）
+**4. 运行全量重建**（重新生成所有文章）
 
 ```bash
 python run_full.py
+# 支持参数：
+python run_full.py --concurrency 5              # 并发数
+python run_full.py --category "JASS 编程"       # 只重建某分类
+python run_full.py --limit 10 --dry-run         # 预览模式
 ```
 
 ---

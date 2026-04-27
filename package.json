@@ -5,9 +5,11 @@
   "description": "War3 RPG 地图编辑器 AI 自动化知识 Wiki",
   "scripts": {
     "dev": "vitepress dev docs",
+    "prebuild": "tsx scripts/gen_topics_meta.ts",
     "build": "vitepress build docs && pagefind --site docs/.vitepress/dist",
     "preview": "vitepress preview docs",
-    "gen-sidebar": "tsx scripts/gen_sidebar.ts"
+    "gen-sidebar": "tsx scripts/gen_sidebar.ts",
+    "gen-topics-meta": "tsx scripts/gen_topics_meta.ts"
   },
   "devDependencies": {
     "@pagefind/default-ui": "^1.1.0",
