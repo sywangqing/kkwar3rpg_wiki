@@ -8,6 +8,10 @@ on:
   # 允许手动触发
   workflow_dispatch:
 
+# 允许 bot 写回 topics.json 到仓库
+permissions:
+  contents: write
+
 jobs:
   discover:
     runs-on: ubuntu-latest

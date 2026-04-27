@@ -18,6 +18,10 @@ on:
         default: 'false'
         type: boolean
 
+# 允许 bot 写回文章到仓库
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
