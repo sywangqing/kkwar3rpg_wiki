@@ -1,63 +1,49 @@
-name: War3 Wiki 话题自动发现
+name: 🔍 发现新主题
 
 on:
+  # 每周一北京时间 09:00 自动运行（UTC 01:00）
   schedule:
-    # 每天 UTC 03:00（北京时间 11:00）运行
-    - cron: '0 3 * * *'
-  workflow_dispatch:
-    inputs:
-      dry_run:
-        description: '仅打印结果，不写入 topics.json'
-        required: false
-        default: 'false'
-        type: boolean
+    - cron: '0 1 * * 1'
 
-permissions:
-  contents: write
+  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
-  discover-topics:
+  discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
 
     steps:
-      - name: Checkout 仓库
+      - name: 拉取代码
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
 
-      - name: 设置 Python 3.11
+      - name: 配置 Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
-          cache-dependency-path: pipeline/requirements.txt
+          cache-dependency-path: 'pipeline/requirements.txt'
 
       - name: 安装 Python 依赖
         run: pip install -r pipeline/requirements.txt
 
-      - name: 运行话题发现
+      - name: 扫描论坛，发现新主题
+        working-directory: pipeline
         env:
-          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
-          MINIMAX_GROUP_ID: ${{ secrets.MINIMAX_GROUP_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          OPENAI_BASE_URL: https://api.minimax.chat/v1
+          AGENT_LLM_MODEL: openai/MiniMax-M2.7-highspeed
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
-          REDDIT_USER_AGENT: ${{ vars.REDDIT_USER_AGENT || 'war3-wiki-bot/1.0' }}
-          AGENT_LLM_MODEL: ${{ vars.AGENT_LLM_MODEL || 'minimax/abab7-chat-preview' }}
-        run: |
-          cd pipeline
-          DRY_FLAG=""
-          if [ "${{ inputs.dry_run }}" = "true" ]; then DRY_FLAG="--dry-run"; fi
-          python run_discovery.py $DRY_FLAG
+          REDDIT_USER_AGENT: war3-wiki-bot/1.0
+        run: python run_discovery.py
 
-      - name: 提交新发现的话题
-        if: ${{ inputs.dry_run != 'true' }}
+      - name: 提交新发现的主题
         run: |
           git config user.name "war3-wiki-bot"
           git config user.email "bot@war3-wiki.auto"
           git add pipeline/cache/topics.json
-          git diff --cached --quiet || git commit -m "[bot] 发现新话题 $(date -u '+%Y-%m-%d')"
+          git diff --cached --quiet || git commit -m "[bot] Discover new topics $(date -u '+%Y-%m-%d')"
           git push
