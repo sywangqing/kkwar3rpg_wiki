@@ -1,0 +1,83 @@
+name: War3 Wiki 文章自动生成
+
+on:
+  schedule:
+    # 每天 UTC 09:00（发现任务后 6 小时）运行
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    inputs:
+      force_rewrite:
+        description: '强制重写已有文章'
+        required: false
+        default: 'false'
+        type: boolean
+      concurrency:
+        description: '并发数量 (1-5)'
+        required: false
+        default: '3'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-articles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180  # 最长 3 小时
+
+    steps:
+      - name: Checkout 仓库
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 设置 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: 安装 Python 依赖
+        run: pip install -r pipeline/requirements.txt
+
+      - name: 运行增量生成管道
+        env:
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          MINIMAX_GROUP_ID: ${{ secrets.MINIMAX_GROUP_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT: ${{ vars.REDDIT_USER_AGENT || 'war3-wiki-bot/1.0' }}
+          AGENT_LLM_MODEL: ${{ vars.AGENT_LLM_MODEL || 'minimax/abab7-chat-preview' }}
+          AGENT_CONCURRENCY: ${{ inputs.concurrency || vars.AGENT_CONCURRENCY || '3' }}
+          AGENT_QUALITY_THRESHOLD: ${{ vars.AGENT_QUALITY_THRESHOLD || '0.7' }}
+          AGENT_MAX_REVIEW_LOOPS: ${{ vars.AGENT_MAX_REVIEW_LOOPS || '2' }}
+          MAX_TOPICS_PER_RUN: ${{ vars.MAX_TOPICS_PER_RUN || '10' }}
+          MAX_RETRY_COUNT: ${{ vars.MAX_RETRY_COUNT || '3' }}
+          RETRY_WAIT_SECONDS: ${{ vars.RETRY_WAIT_SECONDS || '60' }}
+        run: |
+          cd pipeline
+          FORCE_FLAG=""
+          if [ "${{ inputs.force_rewrite }}" = "true" ]; then FORCE_FLAG="--force-rewrite"; fi
+          python run_incremental.py $FORCE_FLAG
+
+      - name: 提交生成的文章
+        run: |
+          git config user.name "war3-wiki-bot"
+          git config user.email "bot@war3-wiki.auto"
+          git add docs/ pipeline/cache/ pipeline/logs/ pipeline/failed_topics.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "[bot] 自动生成文章 $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: 触发网站构建（通知 deploy workflow）
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'deploy.yml',
+              ref: 'main'
+            });

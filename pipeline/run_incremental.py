@@ -129,14 +129,13 @@ def write_job_summary(stats: dict) -> None:
         f.write(content)
 
 
-def main():
+def main(force_rewrite: bool = False):
+    import asyncio
     start_time = time.time()
-    logger.info("🚀 War3 Wiki 增量更新管道启动")
+    logger.info("🚀 War3 Wiki 增量更新管道启动 (Agent Orchestrator)")
 
-    from cache_manager import CacheManager
-    from storm_runner import run_topic
+    from agent_orchestrator import run_batch
 
-    cache = CacheManager()
     topics = load_pending_topics()
 
     if not topics:
@@ -144,68 +143,40 @@ def main():
         write_job_summary({"total_processed": 0, "success_count": 0, "skipped_count": 0, "failed_count": 0, "elapsed": 0})
         return
 
-    # 限制每次处理数量
     if MAX_TOPICS_PER_RUN > 0:
         topics = topics[:MAX_TOPICS_PER_RUN]
 
     logger.info(f"📋 本次待处理主题: {len(topics)} 个")
 
-    success_count = 0
-    skipped_count = 0
-    failed_count = 0
-    updated_topics = []
+    concurrency = int(os.getenv("AGENT_CONCURRENCY", "3"))
+    stats = asyncio.run(run_batch(
+        topics=topics,
+        docs_root=DOCS_ROOT,
+        concurrency=concurrency,
+        force_rewrite=force_rewrite,
+        skip_manual_existing=not force_rewrite,
+    ))
 
-    for i, topic in enumerate(topics, 1):
-        tid = topic["topic_id"]
-        logger.info(f"\n[{i}/{len(topics)}] 处理: {topic['title']}")
-
-        # 计算哈希（先用主题元数据，节省 API）
-        topic_hash = cache.compute_topic_hash(topic)
-
-        # 缓存命中检查
-        if cache.is_cached(tid, topic_hash):
-            logger.info(f"   ⏩ cache hit，跳过: {topic['title']}")
-            skipped_count += 1
-            continue
-
-        # 带重试的 STORM 生成
-        def _run(t):
-            return run_topic(t, DOCS_ROOT)
-
-        article_path = cache.run_with_retry(
-            topic, _run,
-            max_retries=MAX_RETRY_COUNT,
-            wait_seconds=RETRY_WAIT_SECONDS,
-        )
-
-        if article_path:
-            cache.update(tid, topic_hash, article_path)
-            cache.mark_done(tid, article_path)
-            topic["article_path"] = article_path
-            updated_topics.append(topic)
-            success_count += 1
-            logger.info(f"   ✅ 完成: {topic['title']}")
-        else:
-            failed_count += 1
-
+    success_count = stats["success"]
+    skipped_count = stats["skipped"]
+    failed_count = stats["failed"]
     elapsed = time.time() - start_time
 
     # 更新 changelog
-    if updated_topics:
-        append_changelog(updated_topics)
+    completed_topics = [t for t in topics if t.get("article_path")]
+    if completed_topics:
+        append_changelog(completed_topics)
 
-    # git commit & push
     git_commit_and_push(success_count)
 
-    # 统计摘要
-    stats = {
+    job_stats = {
         "total_processed": len(topics),
         "success_count": success_count,
         "skipped_count": skipped_count,
         "failed_count": failed_count,
         "elapsed": elapsed,
     }
-    write_job_summary(stats)
+    write_job_summary(job_stats)
 
     logger.info(f"\n📊 执行摘要:")
     logger.info(f"   处理: {len(topics)} | 成功: {success_count} | 跳过: {skipped_count} | 失败: {failed_count}")
@@ -216,5 +187,9 @@ def main():
 
 
 if __name__ == "__main__":
+    import argparse
     sys.path.insert(0, str(Path(__file__).parent))
-    main()
+    parser = argparse.ArgumentParser(description="War3 Wiki 增量更新")
+    parser.add_argument("--force-rewrite", action="store_true", help="强制重新生成所有主题（包括已有文章）")
+    args = parser.parse_args()
+    main(force_rewrite=args.force_rewrite)

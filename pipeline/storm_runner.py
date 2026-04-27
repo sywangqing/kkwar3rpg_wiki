@@ -1,8 +1,8 @@
 """
-storm_runner.py — AI 文章生成引擎
+storm_runner.py — ⚠️ 已废弃，保留为向后兼容 shim
+请改用 agent_orchestrator.py
 
-直接调用 MiniMax（LiteLLM）生成高质量 War3 地图编辑器知识文章。
-不依赖外部搜索引擎，利用 LLM 内置知识 + 结构化 Prompt 生成专业内容。
+此文件将在下个大版本中移除。
 
 架构：
   1. 大纲生成（outline）

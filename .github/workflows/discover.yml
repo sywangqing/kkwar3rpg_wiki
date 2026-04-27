@@ -1,18 +1,24 @@
-name: War3 Wiki 每日增量更新
+name: War3 Wiki 话题自动发现
 
 on:
   schedule:
-    # UTC 18:00 = 北京时间 02:00
-    - cron: '0 18 * * *'
-  workflow_dispatch:  # 支持手动触发
+    # 每天 UTC 03:00（北京时间 11:00）运行
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '仅打印结果，不写入 topics.json'
+        required: false
+        default: 'false'
+        type: boolean
 
 permissions:
-  contents: write   # 允许 bot 推送 commit
+  contents: write
 
 jobs:
-  update-wiki:
+  discover-topics:
     runs-on: ubuntu-latest
-    timeout-minutes: 120   # 单次最长运行 2 小时
+    timeout-minutes: 60
 
     steps:
       - name: Checkout 仓库
@@ -31,27 +37,27 @@ jobs:
       - name: 安装 Python 依赖
         run: pip install -r pipeline/requirements.txt
 
-      - name: 运行增量更新管道
+      - name: 运行话题发现
         env:
-          # LLM
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           MINIMAX_GROUP_ID: ${{ secrets.MINIMAX_GROUP_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          # 搜索
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-          # Reddit（话题发现）
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ vars.REDDIT_USER_AGENT || 'war3-wiki-bot/1.0' }}
-          # Agent 编排
           AGENT_LLM_MODEL: ${{ vars.AGENT_LLM_MODEL || 'minimax/abab7-chat-preview' }}
-          AGENT_CONCURRENCY: ${{ vars.AGENT_CONCURRENCY || '3' }}
-          AGENT_QUALITY_THRESHOLD: ${{ vars.AGENT_QUALITY_THRESHOLD || '0.7' }}
-          AGENT_MAX_REVIEW_LOOPS: ${{ vars.AGENT_MAX_REVIEW_LOOPS || '2' }}
-          # 管道控制
-          MAX_TOPICS_PER_RUN: ${{ vars.MAX_TOPICS_PER_RUN || '10' }}
-          MAX_RETRY_COUNT: ${{ vars.MAX_RETRY_COUNT || '3' }}
-          RETRY_WAIT_SECONDS: ${{ vars.RETRY_WAIT_SECONDS || '60' }}
         run: |
           cd pipeline
-          python run_incremental.py
+          DRY_FLAG=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then DRY_FLAG="--dry-run"; fi
+          python run_discovery.py $DRY_FLAG
+
+      - name: 提交新发现的话题
+        if: ${{ inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "war3-wiki-bot"
+          git config user.email "bot@war3-wiki.auto"
+          git add pipeline/cache/topics.json
+          git diff --cached --quiet || git commit -m "[bot] 发现新话题 $(date -u '+%Y-%m-%d')"
+          git push
