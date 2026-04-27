@@ -1,7 +1,7 @@
 # Core LLM / Search
 litellm>=1.30.0
 tavily-python>=0.3.0
-duckduckgo-search>=5.0.0
+ddgs>=0.1.0
 
 # Web scraping
 beautifulsoup4>=4.12.0
