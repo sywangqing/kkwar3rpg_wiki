@@ -18,7 +18,7 @@ export default defineConfig({
 
   // ── Head 标签 ─────────────────────────────────────────────────
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#1e6fcf' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'War3 地图开发者 Wiki' }],
@@ -29,7 +29,7 @@ export default defineConfig({
 
   // ── 主题配置 ───────────────────────────────────────────────────
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/logo.svg',
     siteTitle: 'War3 Wiki',
 
     // ── 导航栏 ──────────────────────────────────────────────────

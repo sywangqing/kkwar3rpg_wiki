@@ -6,7 +6,7 @@ hero:
   text: "RPG 地图编辑器知识库"
   tagline: AI 自动整理的权威资料站 · 每日持续更新 · 面向所有开发者免费开放
   image:
-    src: /logo.png
+    src: /logo.svg
     alt: War3 Wiki
   actions:
     - theme: brand
