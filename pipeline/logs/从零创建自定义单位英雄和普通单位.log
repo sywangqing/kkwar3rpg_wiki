@@ -242,3 +242,250 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-04-27 09:31:14,050 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
 2026-04-27 09:31:14,050 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-04-27 09:31:14,050 [INFO] 📄 文章写入: docs/object-editor/从零创建自定义单位英雄和普通单位.md
+2026-04-28 13:08:52,623 [INFO] 📐 PlannerAgent 开始: 从零创建自定义单位：英雄和普通单位
+2026-04-28 13:08:52,624 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:08:55,312 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:08:55,313 [INFO] ✅ WriterAgent 完成: 8553 字符, 3/3 来源被引用
+2026-04-28 13:08:55,313 [INFO] 🔎 ReviewerAgent 开始: 制作物品和装备：RPG道具系统入门
+2026-04-28 13:08:55,314 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:08:59,476 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:08:59,477 [INFO] ✅ ResearcherAgent 完成: 7 个来源已注册
+2026-04-28 13:08:59,477 [INFO] ✍️  WriterAgent 开始: 制作简单技能：给英雄加专属能力 (loop 0)
+2026-04-28 13:08:59,478 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:08,976 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:08,977 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 13:09:08,977 [INFO] 🔍 ResearcherAgent 开始: 从零创建自定义单位：英雄和普通单位 (21 查询)
+2026-04-28 13:09:08,978 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:11,250 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:11,251 [INFO] 🌐 双语查询: EN='Warcraft III World Editor custom units tutorial' | ZH='Warcraft III World Editor custom units tutorial'
+2026-04-28 13:09:12,810 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor custom units t
+2026-04-28 13:09:12,972 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor custom units t
+2026-04-28 13:09:12,972 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:14,994 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:14,995 [INFO] 🌐 双语查询: EN='魔兽争霸3 对象编辑器 教程 入门' | ZH='魔兽争霸3 对象编辑器 教程 入门'
+2026-04-28 13:09:15,553 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:15,555 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:16,043 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 对象编辑器 教程 入门
+2026-04-28 13:09:16,045 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 对象编辑器 教程 入门
+2026-04-28 13:09:16,046 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:16,072 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:16,072 [INFO] ✅ 通过 ReviewerAgent: overall=0.80 (A=0.75 C=0.85 R=0.90 Cit=0.50)
+2026-04-28 13:09:16,073 [INFO]   反馈 5 条:
+2026-04-28 13:09:16,073 [INFO]   [missing_citation] 整个WE（World Editor，世界编辑器）由四个主要编辑器组成，分别是地形编辑器、单位编辑器、触发编辑器和音效编辑...
+2026-04-28 13:09:16,073 [INFO]   [missing_citation] 在 Warcraft III 中，每个英雄单位默认有 6 个物品栏位...
+2026-04-28 13:09:16,073 [INFO]   [missing_citation] 建议低等级物品10-50金，高等级物品200-500金...
+2026-04-28 13:09:16,073 [INFO]   [factual_error] [^3] Reddit source about games that rely on wikis...
+2026-04-28 13:09:16,073 [INFO]   [missing_citation] 大部分操作步骤（如打开物品编辑器、创建新物品、设置属性等）...
+2026-04-28 13:09:16,073 [INFO] ✅ 质量通过 (loop 0): score=0.80
+2026-04-28 13:09:16,074 [INFO] 📄 文章写入: docs/object-editor/制作物品和装备rpg道具系统入门.md
+2026-04-28 13:09:16,074 [INFO] 📐 PlannerAgent 开始: 对象编辑器入门：修改单位属性
+2026-04-28 13:09:16,075 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:18,233 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:18,234 [INFO] 🌐 双语查询: EN='WC3 Object Editor unit creation complete guide' | ZH='WC3 Object Editor unit creation complete guide'
+2026-04-28 13:09:20,124 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 Object Editor unit creation complete
+2026-04-28 13:09:20,226 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 Object Editor unit creation complete
+2026-04-28 13:09:20,227 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:22,468 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:22,469 [INFO] 🌐 双语查询: EN='Warcraft III custom units basics' | ZH='Warcraft III custom units basics'
+2026-04-28 13:09:23,910 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III custom units basics
+2026-04-28 13:09:24,061 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III custom units basics
+2026-04-28 13:09:24,061 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:26,027 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:26,028 [INFO] 🌐 双语查询: EN='Warcraft 3 custom units beginner guide' | ZH='魔兽争霸3 自定义单位 入门'
+2026-04-28 13:09:26,852 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 自定义单位 入门
+2026-04-28 13:09:27,670 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 custom units beginner guide
+2026-04-28 13:09:27,671 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:29,910 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:29,911 [INFO] 🌐 双语查询: EN='WC3 Object Editor introduction' | ZH='WC3 Object Editor introduction'
+2026-04-28 13:09:30,833 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 Object Editor introduction
+2026-04-28 13:09:30,835 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 Object Editor introduction
+2026-04-28 13:09:30,835 [INFO]   搜索阶段：收集到 28 条候选结果
+2026-04-28 13:09:30,896 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/WC3/comments/17uyc3a/how_to_learn_use_warcraft_editor/?tl=zh-hant — Client error '403 Blocked' for url 'https://www.reddit.com/r/WC3/comments/17uyc3a/how_to_learn_use_warcraft_editor/?tl=zh-hant'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:09:30,931 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/dt5i03/world_editor_guide_1_making_units_doodads_bigger/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/dt5i03/world_editor_guide_1_making_units_doodads_bigger/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:09:30,966 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/WC3/comments/17uyc3a/how_to_learn_use_warcraft_editor/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/WC3/comments/17uyc3a/how_to_learn_use_warcraft_editor/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:09:33,030 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:33,482 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:33,484 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:35,046 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:35,047 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 13:09:35,047 [INFO] 🔍 ResearcherAgent 开始: 对象编辑器入门：修改单位属性 (21 查询)
+2026-04-28 13:09:35,048 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:36,696 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:36,697 [INFO] 🌐 双语查询: EN='Warcraft 3 Object Editor tutorial beginner' | ZH='Warcraft 3 Object Editor tutorial beginner'
+2026-04-28 13:09:38,607 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor tutorial beginn
+2026-04-28 13:09:38,659 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor tutorial beginn
+2026-04-28 13:09:38,660 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:40,456 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:40,457 [INFO] 🌐 双语查询: EN='Warcraft III Object Editor Beginner Tutorial' | ZH='魔兽争霸3 对象编辑器 新手教程'
+2026-04-28 13:09:41,360 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 对象编辑器 新手教程
+2026-04-28 13:09:44,200 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III Object Editor Beginner Tuto
+2026-04-28 13:09:44,201 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:46,045 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:46,046 [INFO] 🌐 双语查询: EN='WC3 World Editor unit modification guide' | ZH='WC3 World Editor unit modification guide'
+2026-04-28 13:09:46,463 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:46,464 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:47,963 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor unit modification guide
+2026-04-28 13:09:49,617 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor unit modification guide
+2026-04-28 13:09:49,617 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:51,740 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:51,741 [INFO] 🌐 双语查询: EN='Warcraft 3 Object Editor introduction' | ZH='Warcraft 3 Object Editor introduction'
+2026-04-28 13:09:52,557 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor introduction
+2026-04-28 13:09:52,885 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor introduction
+2026-04-28 13:09:52,886 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:55,405 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:55,406 [INFO] 🌐 双语查询: EN='对象编辑器是什么 魔兽争霸3' | ZH='对象编辑器是什么 魔兽争霸3'
+2026-04-28 13:09:56,092 [INFO] 🔍 Tavily 搜索成功: 5 条 | 对象编辑器是什么 魔兽争霸3
+2026-04-28 13:09:56,689 [INFO] 🔍 Tavily 搜索成功: 5 条 | 对象编辑器是什么 魔兽争霸3
+2026-04-28 13:09:56,690 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:58,641 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:58,642 [INFO] 🌐 双语查询: EN='WC3 World Editor object editing basics' | ZH='WC3 World Editor object editing basics'
+2026-04-28 13:09:59,450 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor object editing basics
+2026-04-28 13:09:59,585 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:09:59,587 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:09:59,651 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor object editing basics
+2026-04-28 13:09:59,651 [INFO]   搜索阶段：收集到 30 条候选结果
+2026-04-28 13:09:59,752 [WARNING] ⚠️  抓取失败，已忽略: https://www.thehelper.net/threads/wc3-world-editor-replacing-dying-unit.142178 — Client error '403 Forbidden' for url 'https://www.thehelper.net/threads/wc3-world-editor-replacing-dying-unit.142178'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:10:02,082 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:10:02,083 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-04-28 13:10:02,083 [INFO] ✍️  WriterAgent 开始: 从零创建自定义单位：英雄和普通单位 (loop 0)
+2026-04-28 13:10:02,084 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:10:02,705 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:10:14,952 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:10:14,954 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:10:24,838 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:10:24,840 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:10:26,610 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:10:26,612 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:10:37,365 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:10:37,366 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-04-28 13:10:37,366 [INFO] ✍️  WriterAgent 开始: 对象编辑器入门：修改单位属性 (loop 0)
+2026-04-28 13:10:37,367 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:10:42,548 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:10:42,550 [INFO] ✅ WriterAgent 完成: 6786 字符, 7/7 来源被引用
+2026-04-28 13:10:42,550 [INFO] 🔎 ReviewerAgent 开始: 制作简单技能：给英雄加专属能力
+2026-04-28 13:10:42,551 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:10:44,593 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:10:44,595 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:10:57,930 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:10:57,931 [INFO] ✅ 通过 ReviewerAgent: overall=0.78 (A=0.75 C=0.85 R=0.90 Cit=0.55)
+2026-04-28 13:10:57,931 [INFO]   反馈 5 条:
+2026-04-28 13:10:57,932 [INFO]   [missing_citation] Rng1 = 施法范围, Cast1 = 施法时间, Data A1 = 效果数值...
+2026-04-28 13:10:57,932 [INFO]   [missing_citation] 建议一个英雄控制在4个专属技能以内，其余留给通用技能...
+2026-04-28 13:10:57,932 [INFO]   [missing_citation] 常见的字段包括'Buff类型'、'附加效果'、'状态效果'等...
+2026-04-28 13:10:57,932 [INFO]   [missing_citation] 冷却时间字段（英文显示为'Cool1'、'Cool2'等）...
+2026-04-28 13:10:57,932 [INFO]   [factual_error] 参考标准：高伤害技能冷却8-15秒、消耗50-100魔法；辅助技能冷却5-10秒、消耗30-60魔法...
+2026-04-28 13:10:57,932 [INFO] ✅ 质量通过 (loop 0): score=0.78
+2026-04-28 13:10:57,932 [INFO] 📄 文章写入: docs/object-editor/制作简单技能给英雄加专属能力.md
+2026-04-28 13:10:57,933 [INFO] 📐 PlannerAgent 开始: 什么是内存泄漏？为什么地图越玩越卡
+2026-04-28 13:10:57,934 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:10:59,700 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:10:59,702 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:10:59,967 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:10:59,969 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:14,936 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:14,937 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:17,147 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:17,148 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 13:11:17,148 [INFO] 🔍 ResearcherAgent 开始: 什么是内存泄漏？为什么地图越玩越卡 (21 查询)
+2026-04-28 13:11:17,149 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:19,232 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:19,233 [INFO] 🌐 双语查询: EN='Warcraft 3 memory leak triggers' | ZH='Warcraft 3 memory leak triggers'
+2026-04-28 13:11:20,150 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 memory leak triggers
+2026-04-28 13:11:20,206 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 memory leak triggers
+2026-04-28 13:11:20,207 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:22,144 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:22,145 [INFO] 🌐 双语查询: EN='魔兽争霸3 内存泄漏 触发器' | ZH='魔兽争霸3 内存泄漏 触发器'
+2026-04-28 13:11:22,558 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:22,560 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:23,041 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 内存泄漏 触发器
+2026-04-28 13:11:23,389 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 内存泄漏 触发器
+2026-04-28 13:11:23,390 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:25,614 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:25,615 [INFO] 🌐 双语查询: EN='WC3 map performance optimization' | ZH='WC3 map performance optimization'
+2026-04-28 13:11:26,500 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 map performance optimization
+2026-04-28 13:11:27,066 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 map performance optimization
+2026-04-28 13:11:27,067 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:28,858 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:28,859 [INFO] 🌐 双语查询: EN='What is memory leak simple explanation' | ZH='什么是内存泄漏 简单解释'
+2026-04-28 13:11:29,694 [INFO] 🔍 Tavily 搜索成功: 5 条 | What is memory leak simple explanation
+2026-04-28 13:11:30,022 [INFO] 🔍 Tavily 搜索成功: 5 条 | 什么是内存泄漏 简单解释
+2026-04-28 13:11:30,023 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:32,360 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:32,361 [INFO] 🌐 双语查询: EN='memory leak definition programming basics' | ZH='memory leak definition programming basics'
+2026-04-28 13:11:33,478 [INFO] 🔍 Tavily 搜索成功: 5 条 | memory leak definition programming basic
+2026-04-28 13:11:34,046 [INFO] 🔍 Tavily 搜索成功: 5 条 | memory leak definition programming basic
+2026-04-28 13:11:34,047 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:35,421 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:35,423 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:36,001 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:36,002 [INFO] ✅ WriterAgent 完成: 6222 字符, 3/6 来源被引用
+2026-04-28 13:11:36,002 [INFO] 🔎 ReviewerAgent 开始: 从零创建自定义单位：英雄和普通单位
+2026-04-28 13:11:36,003 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:36,170 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:36,171 [INFO] 🌐 双语查询: EN='memory leak why does it become slow' | ZH='内存泄漏 为什么会变卡'
+2026-04-28 13:11:37,007 [INFO] 🔍 Tavily 搜索成功: 5 条 | 内存泄漏 为什么会变卡
+2026-04-28 13:11:37,182 [INFO] 🔍 Tavily 搜索成功: 5 条 | memory leak why does it become slow
+2026-04-28 13:11:37,182 [INFO]   搜索阶段：收集到 41 条候选结果
+2026-04-28 13:11:37,525 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/nqqtkt/editor_performance_impact_of_movecommand_triggers/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/nqqtkt/editor_performance_impact_of_movecommand_triggers/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:11:37,911 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/eli5_programming/comments/14ggxwr/eli5_what_is_a_memory_leak_how_are_they_caused/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/eli5_programming/comments/14ggxwr/eli5_what_is_a_memory_leak_how_are_they_caused/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:11:37,983 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/1982447983900524783 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/1982447983900524783'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:11:38,327 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/69151763 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/69151763'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:11:38,536 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_00810/article/details/160096170 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_00810/article/details/160096170'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-04-28 13:11:40,677 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:11:55,218 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:11:55,219 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 24 (char 206)
+2026-04-28 13:11:55,219 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-28 13:11:55,219 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-28 13:11:55,220 [INFO] 📄 文章写入: docs/object-editor/从零创建自定义单位英雄和普通单位.md

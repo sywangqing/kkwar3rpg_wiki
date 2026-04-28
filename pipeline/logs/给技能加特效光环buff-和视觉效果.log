@@ -297,3 +297,181 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 完成...
 2026-04-27 09:26:46,421 [INFO] ✅ 质量通过 (loop 0): score=0.80
 2026-04-27 09:26:46,421 [INFO] 📄 文章写入: docs/object-editor/给技能加特效光环buff-和视觉效果.md
+2026-04-28 13:01:47,710 [INFO] 📐 PlannerAgent 开始: 给技能加特效：光环、Buff 和视觉效果
+2026-04-28 13:01:47,710 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:48,250 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor custom inventory GUI tr
+2026-04-28 13:01:48,346 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor custom inventory GUI tr
+2026-04-28 13:01:48,347 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:50,680 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:50,681 [INFO] 🌐 双语查询: EN='Warcraft 3 inventory system RPG tutorial' | ZH='Warcraft 3 inventory system RPG tutorial'
+2026-04-28 13:01:51,595 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 inventory system RPG tutorial
+2026-04-28 13:01:51,727 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 inventory system RPG tutorial
+2026-04-28 13:01:51,728 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:52,355 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:52,356 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 13:01:52,356 [INFO] 🔍 ResearcherAgent 开始: RPG英雄系统：经验、升级和属性设计 (21 查询)
+2026-04-28 13:01:52,357 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:53,396 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:53,397 [INFO] 🌐 双语查询: EN='RPG Inventory System Basic Concepts' | ZH='RPG 物品栏系统 基础概念'
+2026-04-28 13:01:54,319 [INFO] 🔍 Tavily 搜索成功: 5 条 | RPG 物品栏系统 基础概念
+2026-04-28 13:01:54,497 [INFO] 🔍 Tavily 搜索成功: 5 条 | RPG Inventory System Basic Concepts
+2026-04-28 13:01:54,497 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:54,878 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:54,879 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG hero system design complete guide' | ZH='Warcraft 3 RPG hero system design complete guide'
+2026-04-28 13:01:55,935 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG hero system design comple
+2026-04-28 13:01:56,158 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG hero system design comple
+2026-04-28 13:01:56,159 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:57,918 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:57,919 [INFO] 🌐 双语查询: EN='what is inventory system in games' | ZH='what is inventory system in games'
+2026-04-28 13:01:58,735 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:58,736 [INFO] 🌐 双语查询: EN='WC3 World Editor hero leveling experience tutorial for beginners' | ZH='WC3 World Editor hero leveling experience tutorial for beginners'
+2026-04-28 13:01:58,785 [INFO] 🔍 Tavily 搜索成功: 5 条 | what is inventory system in games
+2026-04-28 13:01:59,508 [INFO] 🔍 Tavily 搜索成功: 5 条 | what is inventory system in games
+2026-04-28 13:01:59,509 [INFO]   搜索阶段：收集到 31 条候选结果
+2026-04-28 13:02:00,014 [WARNING] ⚠️  抓取失败，已忽略: https://wc3we.fandom.com/wiki/GUI_Triggering — Client error '403 Forbidden' for url 'https://wc3we.fandom.com/wiki/GUI_Triggering'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:02:00,698 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor hero leveling experienc
+2026-04-28 13:02:00,906 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor hero leveling experienc
+2026-04-28 13:02:00,907 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:03,198 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:03,199 [INFO] 🌐 双语查询: EN='魔兽争霸3 英雄成长系统 从零入门 教程' | ZH='魔兽争霸3 英雄成长系统 从零入门 教程'
+2026-04-28 13:02:04,006 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 英雄成长系统 从零入门 教程
+2026-04-28 13:02:04,045 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 英雄成长系统 从零入门 教程
+2026-04-28 13:02:04,046 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:05,972 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:05,973 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG hero system basics' | ZH='魔兽争霸3 RPG英雄系统基础'
+2026-04-28 13:02:06,781 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 RPG英雄系统基础
+2026-04-28 13:02:06,810 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG hero system basics
+2026-04-28 13:02:06,810 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:08,828 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:08,829 [INFO] 🌐 双语查询: EN='WC3 World Editor 英雄系统 入门' | ZH='WC3 World Editor 英雄系统 入门'
+2026-04-28 13:02:09,620 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:09,621 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 13:02:09,621 [INFO] 🔍 ResearcherAgent 开始: 给技能加特效：光环、Buff 和视觉效果 (21 查询)
+2026-04-28 13:02:09,622 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:10,220 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor 英雄系统 入门
+2026-04-28 13:02:10,824 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor 英雄系统 入门
+2026-04-28 13:02:10,825 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:11,654 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:11,655 [INFO] 🌐 双语查询: EN='Warcraft 3 Object Editor ability effects tutorial' | ZH='Warcraft 3 Object Editor ability effects tutorial'
+2026-04-28 13:02:12,450 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor ability effects
+2026-04-28 13:02:12,462 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor ability effects
+2026-04-28 13:02:12,463 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:14,644 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:14,645 [INFO] 🌐 双语查询: EN='Warcraft III RPG map making basic tutorial' | ZH='魔兽争霸3 RPG 地图制作 基础教程'
+2026-04-28 13:02:14,723 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:14,723 [INFO] 🌐 双语查询: EN='Warcraft 3' | ZH='魔兽争霸3 地图编辑器 技能特效制作'
+2026-04-28 13:02:15,433 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 RPG 地图制作 基础教程
+2026-04-28 13:02:15,753 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图编辑器 技能特效制作
+2026-04-28 13:02:15,879 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3
+2026-04-28 13:02:15,880 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:16,808 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III RPG map making basic tutori
+2026-04-28 13:02:16,809 [INFO]   搜索阶段：收集到 32 条候选结果
+2026-04-28 13:02:17,324 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/337809073 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/337809073'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:02:18,204 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:18,205 [INFO] 🌐 双语查询: EN='WC3 RPG ability system beginner guide' | ZH='WC3 RPG ability system beginner guide'
+2026-04-28 13:02:19,663 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 RPG ability system beginner guide
+2026-04-28 13:02:19,678 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 RPG ability system beginner guide
+2026-04-28 13:02:19,679 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:21,880 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:21,881 [INFO] 🌐 双语查询: EN='Warcraft 3 Object Editor aura vs buff vs effect' | ZH='Warcraft 3 Object Editor aura vs buff vs effect'
+2026-04-28 13:02:22,807 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor aura vs buff vs
+2026-04-28 13:02:22,900 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor aura vs buff vs
+2026-04-28 13:02:22,901 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:25,158 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:25,159 [INFO] 🌐 双语查询: EN='魔兽争霸3 光环Buff视觉特效 概念区别' | ZH='魔兽争霸3 光环Buff视觉特效 概念区别'
+2026-04-28 13:02:25,989 [INFO] 🔍 Tavily 搜索成功: 1 条 | 魔兽争霸3 光环Buff视觉特效 概念区别
+2026-04-28 13:02:26,377 [INFO] 🔍 Tavily 搜索成功: 1 条 | 魔兽争霸3 光环Buff视觉特效 概念区别
+2026-04-28 13:02:26,378 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:26,909 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:28,225 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:28,226 [INFO] 🌐 双语查询: EN='WC3 ability buff debuff system explained' | ZH='WC3 ability buff debuff system explained'
+2026-04-28 13:02:29,229 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 ability buff debuff system explained
+2026-04-28 13:02:29,489 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 ability buff debuff system explained
+2026-04-28 13:02:29,489 [INFO]   搜索阶段：收集到 25 条候选结果
+2026-04-28 13:02:29,603 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/buff-vs-effect.322546/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/buff-vs-effect.322546/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:02:30,115 [WARNING] ⚠️  抓取失败，已忽略: https://worldofwarcraft.fandom.com/et/wiki/Debuff — Client error '403 Forbidden' for url 'https://worldofwarcraft.fandom.com/et/wiki/Debuff'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:02:31,417 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:57,148 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:57,149 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-04-28 13:02:57,149 [INFO] ✍️  WriterAgent 开始: RPG英雄系统：经验、升级和属性设计 (loop 0)
+2026-04-28 13:02:57,150 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:58,598 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:58,599 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-04-28 13:02:58,599 [INFO] ✍️  WriterAgent 开始: 给技能加特效：光环、Buff 和视觉效果 (loop 0)
+2026-04-28 13:02:58,600 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:03:16,335 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:03:16,337 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:03:19,614 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:03:19,616 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:03:39,597 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:03:39,599 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:03:44,699 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:03:44,701 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:09,355 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:09,357 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:10,598 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:10,600 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:31,339 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:31,341 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:34,272 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:34,274 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:51,942 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:51,943 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:54,986 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:54,988 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:09,241 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:19,055 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:05:19,057 [INFO] ✅ WriterAgent 完成: 7886 字符, 6/6 来源被引用
+2026-04-28 13:05:19,057 [INFO] 🔎 ReviewerAgent 开始: 给技能加特效：光环、Buff 和视觉效果
+2026-04-28 13:05:19,057 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:26,353 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:05:26,354 [INFO] ✅ WriterAgent 完成: 8910 字符, 6/6 来源被引用
+2026-04-28 13:05:26,354 [INFO] 🔎 ReviewerAgent 开始: RPG英雄系统：经验、升级和属性设计
+2026-04-28 13:05:26,355 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:35,306 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:05:35,307 [INFO] ✅ 通过 ReviewerAgent: overall=0.78 (A=0.75 C=0.85 R=0.90 Cit=0.55)
+2026-04-28 13:05:35,308 [INFO]   反馈 5 条:
+2026-04-28 13:05:35,308 [INFO]   [missing_citation] 光环是一种被动影响范围内所有友军的特殊能力...
+2026-04-28 13:05:35,308 [INFO]   [missing_citation] 300范围的暴风雪意味着以施法者为圆心、半径300的范围都会受到影响...
+2026-04-28 13:05:35,308 [INFO]   [missing_citation] Buff 是'给单位添加的增益状态'，比如增加生命恢复、提高移动速度、获得护盾等...
+2026-04-28 13:05:35,308 [INFO]   [factual_error] 光环技能挂在施法者身上、施法者需要在场（不是死了或离开）、目标单位必须在光环范围内...
+2026-04-28 13:05:35,308 [INFO]   [missing_citation] 持续时间是技能效果维持的时间，而冷却时间是使用技能后需要等待多久才能再次使用...
+2026-04-28 13:05:35,308 [INFO] ✅ 质量通过 (loop 0): score=0.78
+2026-04-28 13:05:35,309 [INFO] 📄 文章写入: docs/object-editor/给技能加特效光环buff-和视觉效果.md

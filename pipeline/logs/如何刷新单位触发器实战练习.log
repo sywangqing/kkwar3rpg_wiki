@@ -199,3 +199,436 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-04-27 09:39:22,128 [INFO]   [missing_citation] 在WE菜单栏中依次点击「触发器」→ 「触发器编辑器」（或直接按快捷键 F4）...
 2026-04-27 09:39:22,128 [INFO] ✅ 质量通过 (loop 0): score=0.79
 2026-04-27 09:39:22,128 [INFO] 📄 文章写入: docs/triggers/如何刷新单位触发器实战练习.md
+2026-04-28 13:15:16,011 [INFO] 📐 PlannerAgent 开始: 如何刷新单位？触发器实战练习
+2026-04-28 13:15:16,011 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:15:38,133 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:15:38,134 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-04-28 13:15:38,134 [INFO] ✍️  WriterAgent 开始: 计时器触发器：制作倒计时和定时事件 (loop 0)
+2026-04-28 13:15:38,135 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:15:39,878 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:15:39,880 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:15:40,382 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:15:40,384 [INFO] ✅ PlannerAgent 完成: 6 节, 18 个查询
+2026-04-28 13:15:40,384 [INFO] 🔍 ResearcherAgent 开始: 如何刷新单位？触发器实战练习 (18 查询)
+2026-04-28 13:15:40,385 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:15:42,568 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:15:42,569 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor trigger system guide' | ZH='Warcraft 3 World Editor trigger system guide'
+2026-04-28 13:15:43,712 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor trigger system g
+2026-04-28 13:15:43,718 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor trigger system g
+2026-04-28 13:15:43,719 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:15:46,179 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:15:46,180 [INFO] 🌐 双语查询: EN='War3 触发器 完整教程 新手入门' | ZH='War3 触发器 完整教程 新手入门'
+2026-04-28 13:15:46,885 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 触发器 完整教程 新手入门
+2026-04-28 13:15:47,317 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 触发器 完整教程 新手入门
+2026-04-28 13:15:47,318 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:15:49,220 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:15:49,221 [INFO] 🌐 双语查询: EN='Warcraft 3 unit manipulation trigger actions' | ZH='Warcraft 3 unit manipulation trigger actions'
+2026-04-28 13:15:50,258 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 unit manipulation trigger act
+2026-04-28 13:15:50,906 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 unit manipulation trigger act
+2026-04-28 13:15:50,907 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:15:53,023 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:15:53,024 [INFO] 🌐 双语查询: EN='Warcraft 3 unit refresh trigger' | ZH='Warcraft 3 unit refresh trigger'
+2026-04-28 13:15:54,445 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 unit refresh trigger
+2026-04-28 13:15:55,338 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 unit refresh trigger
+2026-04-28 13:15:55,339 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:15:57,154 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:15:57,155 [INFO] 🌐 双语查询: EN='单位刷新 概念 War3' | ZH='单位刷新 概念 War3'
+2026-04-28 13:15:57,953 [INFO] 🔍 Tavily 搜索成功: 3 条 | 单位刷新 概念 War3
+2026-04-28 13:15:58,047 [INFO] 🔍 Tavily 搜索成功: 3 条 | 单位刷新 概念 War3
+2026-04-28 13:15:58,048 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:16:00,806 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:16:00,807 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger Set Unit Life' | ZH='Warcraft 3 trigger Set Unit Life'
+2026-04-28 13:16:00,818 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:16:00,820 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:16:01,616 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:16:01,618 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:16:04,109 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 trigger Set Unit Life
+2026-04-28 13:16:04,135 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 trigger Set Unit Life
+2026-04-28 13:16:04,135 [INFO]   搜索阶段：收集到 30 条候选结果
+2026-04-28 13:16:05,387 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/unit-respawn-trigger.339817/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/unit-respawn-trigger.339817/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:16:09,043 [WARNING] ⚠️  抓取失败，已忽略: https://bbs.islga.org/read-htm-tid-392630-page-1-fpage-1.html — Client error '403 Forbidden' for url 'https://bbs.islga.org/read-htm-tid-392630-page-1-fpage-1.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:16:09,044 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:16:16,987 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:16:16,988 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:16:29,467 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:16:29,469 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:16:36,734 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:16:36,736 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:16:49,856 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:16:49,857 [INFO] ✅ WriterAgent 完成: 9353 字符, 5/5 来源被引用
+2026-04-28 13:16:49,857 [INFO] 🔎 ReviewerAgent 开始: 触发器不生效怎么办？新手调试排错指南
+2026-04-28 13:16:49,858 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:16:53,253 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:16:53,255 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:16:58,090 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:16:58,091 [ERROR] ResearcherAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-04-28 13:16:58,091 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-04-28 13:16:58,091 [INFO] ✍️  WriterAgent 开始: 如何刷新单位？触发器实战练习 (loop 0)
+2026-04-28 13:16:58,092 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:17:13,966 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:17:13,967 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-04-28 13:17:13,967 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-28 13:17:13,967 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-28 13:17:13,967 [INFO] 📄 文章写入: docs/triggers/触发器不生效怎么办新手调试排错指南.md
+2026-04-28 13:17:13,968 [INFO] 📐 PlannerAgent 开始: 变量是什么？触发器变量零基础入门
+2026-04-28 13:17:13,968 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:17:15,543 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:17:15,545 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:17:20,584 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:17:20,586 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:17:33,018 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:17:33,019 [ERROR] PlannerAgent JSON 解析失败: Expecting ',' delimiter: line 13 column 28 (char 291)
+原始输出: ```json
+{
+  "outline": [
+    {
+      "title": "什么是变量？为什么要学习变量？",
+      "level": 2,
+      "search_queries": [
+        "Warcraft 3 variable trigger tutorial",
+        "触发器变量 入门 基础概念",
+        "WC3 World Editor variables for beginners"
+      ],
+      "children": [
+        {
+          "title": "现实生活中的"变
+2026-04-28 13:17:33,019 [INFO] ✅ PlannerAgent 完成: 1 节, 2 个查询
+2026-04-28 13:17:33,020 [INFO] 🔍 ResearcherAgent 开始: 变量是什么？触发器变量零基础入门 (2 查询)
+2026-04-28 13:17:33,020 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:17:35,168 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:17:35,169 [INFO] 🌐 双语查询: EN='变量是什么？触发器变量零基础入门' | ZH='变量是什么？触发器变量零基础入门'
+2026-04-28 13:17:36,930 [INFO] 🔍 Tavily 搜索成功: 5 条 | 变量是什么？触发器变量零基础入门
+2026-04-28 13:17:37,329 [INFO] 🔍 Tavily 搜索成功: 5 条 | 变量是什么？触发器变量零基础入门
+2026-04-28 13:17:37,330 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:17:39,558 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:17:39,559 [INFO] 🌐 双语查询: EN='What are Warcraft' | ZH='Warcraft III 变量是什么？触发器变量零基础入门'
+2026-04-28 13:17:39,737 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:17:39,740 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:17:39,770 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20are%20Warcraft)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20are%20Warcraft')")
+2026-04-28 13:17:39,773 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%8F%98%E9%87%8F%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8F%98%E9%87%8F%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%8F%98%E9%87%8F%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8F%98%E9%87%8F%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8')")
+2026-04-28 13:17:39,854 [INFO] response: https://grokipedia.com/api/typeahead?query=What+are+Warcraft&limit=1 200
+2026-04-28 13:17:40,297 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:17:40,298 [INFO] ✅ WriterAgent 完成: 7798 字符, 5/5 来源被引用
+2026-04-28 13:17:40,299 [INFO] 🔎 ReviewerAgent 开始: 计时器触发器：制作倒计时和定时事件
+2026-04-28 13:17:40,300 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:17:40,486 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E5%8F%98%E9%87%8F%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8F%98%E9%87%8F%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8&source=web 200
+2026-04-28 13:17:40,619 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E5%8F%98%E9%87%8F%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8F%98%E9%87%8F%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8&limit=1 200
+2026-04-28 13:17:40,620 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 变量是什么？触发器变量零基础入门
+2026-04-28 13:17:40,854 [INFO] response: https://yandex.com/search/site/?text=What+are+Warcraft&web=1&searchid=1541535 200
+2026-04-28 13:17:40,888 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | What are Warcraft
+2026-04-28 13:17:40,888 [INFO]   搜索阶段：收集到 14 条候选结果
+2026-04-28 13:17:41,427 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/50126934 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/50126934'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:17:42,967 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/2601_95057232/article/details/157764750 — Server error '521 ' for url 'https://blog.csdn.net/2601_95057232/article/details/157764750'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-04-28 13:17:43,008 [WARNING] ⚠️  抓取失败，已忽略: https://medium.com/@mhaley206265/warcraft-a-mythical-tale-cf6bc353d1d4 — Client error '403 Forbidden' for url 'https://medium.com/@mhaley206265/warcraft-a-mythical-tale-cf6bc353d1d4'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:17:43,983 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:17:50,404 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:17:50,405 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:00,871 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:00,873 [INFO] ✅ 通过 ReviewerAgent: overall=0.84 (A=0.85 C=0.85 R=0.90 Cit=0.65)
+2026-04-28 13:18:00,873 [INFO]   反馈 5 条:
+2026-04-28 13:18:00,873 [INFO]   [missing_citation] 一次性计时器（One-shot Timer）：只倒计时一次，时间到了触发一次事件后自动停止。周期计时器（Periodic...
+2026-04-28 13:18:00,873 [INFO]   [missing_citation] 计时器需要先创建"变量"来存储和管理。...
+2026-04-28 13:18:00,873 [INFO]   [missing_citation] 如果忘记停止周期计时器，会导致触发器不断执行，轻则影响游戏性能，重则引发崩溃。...
+2026-04-28 13:18:00,873 [INFO]   [incomplete_section] 游戏暂停对计时器的影响...
+2026-04-28 13:18:00,873 [INFO]   [missing_citation] 暂停和销毁必须同时使用，缺一不可！...
+2026-04-28 13:18:00,873 [INFO] ✅ 质量通过 (loop 0): score=0.84
+2026-04-28 13:18:00,874 [INFO] 📄 文章写入: docs/triggers/计时器触发器制作倒计时和定时事件.md
+2026-04-28 13:18:00,874 [INFO] 📐 PlannerAgent 开始: 事件、条件、动作：触发器三要素详解
+2026-04-28 13:18:00,875 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:02,986 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:02,987 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-04-28 13:18:02,988 [INFO] ✍️  WriterAgent 开始: 变量是什么？触发器变量零基础入门 (loop 0)
+2026-04-28 13:18:02,989 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:14,498 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:14,500 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:15,501 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:15,502 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 13:18:15,502 [INFO] 🔍 ResearcherAgent 开始: 事件、条件、动作：触发器三要素详解 (21 查询)
+2026-04-28 13:18:15,503 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:16,586 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:16,587 [INFO] ✅ WriterAgent 完成: 790 字符, 1/3 来源被引用
+2026-04-28 13:18:16,587 [INFO] 🔎 ReviewerAgent 开始: 变量是什么？触发器变量零基础入门
+2026-04-28 13:18:16,591 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:18,929 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:18,930 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor trigger system guide' | ZH='Warcraft 3 World Editor trigger system guide'
+2026-04-28 13:18:19,069 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:19,075 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:19,116 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20system%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20system%20guide')")
+2026-04-28 13:18:19,282 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20system%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20system%20guide')")
+2026-04-28 13:18:19,688 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+system+guide&source=web 200
+2026-04-28 13:18:19,741 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+trigger+system+guide 403
+2026-04-28 13:18:19,819 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+system+guide&limit=1 200
+2026-04-28 13:18:19,820 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger system g
+2026-04-28 13:18:19,895 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+system+guide&limit=1 200
+2026-04-28 13:18:20,060 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-28 13:18:20,162 [INFO] Error in engine yahoo: DDGSException("RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=g8xH5UQfmg1XVDq7rZYeFBON;_ylu=4YOXJ_TcONSU2EkGpF5vLm9Fqsj4RWMsc0J2vo5IAdSeQVM?p=Warcraft+3+World+Editor+trigger+system+guide)', 'https://search.yahoo.com/search;_ylt=g8xH5UQfmg1XVDq7rZYeFBON;_ylu=4YOXJ_TcONSU2EkGpF5vLm9Fqsj4RWMsc0J2vo5IAdSeQVM?p=Warcraft+3+World+Editor+trigger+system+guide')")
+2026-04-28 13:18:21,069 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+trigger+system+guide&web=1&searchid=3571753 200
+2026-04-28 13:18:21,093 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger system g
+2026-04-28 13:18:21,094 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:23,422 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:23,422 [INFO] 🌐 双语查询: EN='WC3 触发器 入门 基础教程' | ZH='WC3 触发器 入门 基础教程'
+2026-04-28 13:18:23,607 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:23,638 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-04-28 13:18:23,642 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:23,670 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-04-28 13:18:23,684 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-28 13:18:23,716 [INFO] Error in engine yahoo: DDGSException("RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=NFVk0xsFK1uLHJyLPpU2mXWK;_ylu=hrvHB991uzEoEPp__Me2E0RNscm6ezf_BQPDcZEEvz-uBxU?p=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://search.yahoo.com/search;_ylt=NFVk0xsFK1uLHJyLPpU2mXWK;_ylu=hrvHB991uzEoEPp__Me2E0RNscm6ezf_BQPDcZEEvz-uBxU?p=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-04-28 13:18:24,102 [INFO] response: https://www.mojeek.com/search?q=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B 403
+2026-04-28 13:18:24,257 [INFO] response: https://search.brave.com/search?q=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&source=web 200
+2026-04-28 13:18:24,263 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 触发器 入门 基础教程
+2026-04-28 13:18:25,052 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-28 13:18:26,134 [INFO] response: https://yandex.com/search/site/?text=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&web=1&searchid=7476786 200
+2026-04-28 13:18:26,157 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 触发器 入门 基础教程
+2026-04-28 13:18:26,158 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:28,173 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:28,174 [INFO] 🌐 双语查询: EN='World Editor GUI trigger vs code comparison' | ZH='World Editor GUI trigger vs code comparison'
+2026-04-28 13:18:28,283 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:28,306 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:28,314 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20GUI%20trigger%20vs%20code%20comparison)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20GUI%20trigger%20vs%20code%20comparison')")
+2026-04-28 13:18:28,345 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20GUI%20trigger%20vs%20code%20comparison)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20GUI%20trigger%20vs%20code%20comparison')")
+2026-04-28 13:18:28,386 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+GUI+trigger+vs+code+comparison&limit=1 200
+2026-04-28 13:18:28,451 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+GUI+trigger+vs+code+comparison&limit=1 200
+2026-04-28 13:18:28,806 [INFO] response: https://www.mojeek.com/search?q=World+Editor+GUI+trigger+vs+code+comparison 403
+2026-04-28 13:18:28,907 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-28 13:18:29,046 [INFO] response: https://search.yahoo.com/search;_ylt=80B2yFTIYNkskQAiKSx34jFU;_ylu=cv9sIW-UWl4NgUJoWaBzKTBHx_UHt6ug8fH-o7CYCnCxs9o?p=World+Editor+GUI+trigger+vs+code+comparison 200
+2026-04-28 13:18:29,366 [INFO] response: https://yandex.com/search/site/?text=World+Editor+GUI+trigger+vs+code+comparison&web=1&searchid=1995726 200
+2026-04-28 13:18:29,397 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor GUI trigger vs code compari
+2026-04-28 13:18:29,628 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor GUI trigger vs code compari
+2026-04-28 13:18:29,630 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:31,964 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:31,964 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger system beginner guide' | ZH='Warcraft 3 trigger system beginner guide'
+2026-04-28 13:18:32,110 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:32,111 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:32,142 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20beginner%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20beginner%20guide')")
+2026-04-28 13:18:32,145 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20beginner%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20beginner%20guide')")
+2026-04-28 13:18:32,257 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+system+beginner+guide&limit=1 200
+2026-04-28 13:18:32,321 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+system+beginner+guide&limit=1 200
+2026-04-28 13:18:32,489 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:32,491 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 30 column 46 (char 795)
+2026-04-28 13:18:32,491 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-28 13:18:32,491 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-28 13:18:32,491 [INFO] 📄 文章写入: docs/triggers/变量是什么触发器变量零基础入门.md
+2026-04-28 13:18:32,491 [INFO] 📐 PlannerAgent 开始: 我的第一个触发器：让单位说话
+2026-04-28 13:18:32,492 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:32,548 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:32,549 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:32,620 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+trigger+system+beginner+guide 403
+2026-04-28 13:18:32,861 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+system+beginner+guide&source=web 200
+2026-04-28 13:18:32,869 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger system beginner guide
+2026-04-28 13:18:33,476 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+system+beginner+guide&web=1&searchid=1714371 200
+2026-04-28 13:18:33,510 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger system beginner guide
+2026-04-28 13:18:33,511 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:35,404 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:35,405 [INFO] 🌐 双语查询: EN='World Editor 触发器 入门教程' | ZH='World Editor 触发器 入门教程'
+2026-04-28 13:18:35,635 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:35,664 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:35,707 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-04-28 13:18:35,824 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-28 13:18:35,837 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-04-28 13:18:35,920 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-28 13:18:35,922 [INFO] response: https://search.brave.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&source=web 429
+2026-04-28 13:18:35,989 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-28 13:18:36,133 [INFO] response: https://search.yahoo.com/search;_ylt=HLCi5bOLa_hBIvXww93xxYSn;_ylu=wpKmEzqJhDPeQo8j3Sjw7N9L20FCcCYhIKe__oK4Vm6Lcv0?p=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 200
+2026-04-28 13:18:36,350 [INFO] response: https://search.brave.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&source=web 200
+2026-04-28 13:18:36,355 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器 入门教程
+2026-04-28 13:18:37,186 [INFO] response: https://www.mojeek.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 403
+2026-04-28 13:18:38,106 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&web=1&searchid=1788215 200
+2026-04-28 13:18:38,142 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器 入门教程
+2026-04-28 13:18:38,143 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:40,279 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:40,280 [INFO] 🌐 双语查询: EN='WC3 trigger basics what is a trigger' | ZH='WC3 trigger basics what is a trigger'
+2026-04-28 13:18:40,396 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:40,425 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:40,475 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20basics%20what%20is%20a%20trigger)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20basics%20what%20is%20a%20trigger')")
+2026-04-28 13:18:40,594 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20basics%20what%20is%20a%20trigger)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20basics%20what%20is%20a%20trigger')")
+2026-04-28 13:18:40,864 [INFO] response: https://www.mojeek.com/search?q=WC3+trigger+basics+what+is+a+trigger 403
+2026-04-28 13:18:41,079 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+trigger+basics+what+is+a+trigger&limit=1 200
+2026-04-28 13:18:41,173 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+trigger+basics+what+is+a+trigger&limit=1 200
+2026-04-28 13:18:41,405 [INFO] response: https://yandex.com/search/site/?text=WC3+trigger+basics+what+is+a+trigger&web=1&searchid=6066479 200
+2026-04-28 13:18:41,430 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 trigger basics what is a trigger
+2026-04-28 13:18:42,136 [INFO] response: https://yandex.com/search/site/?text=WC3+trigger+basics+what+is+a+trigger&web=1&searchid=2018819 200
+2026-04-28 13:18:42,170 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 trigger basics what is a trigger
+2026-04-28 13:18:42,171 [INFO]   搜索阶段：收集到 39 条候选结果
+2026-04-28 13:18:42,430 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=19780 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=19780'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:18:43,033 [WARNING] ⚠️  抓取失败，已忽略: https://stackoverflow.com/questions/30139597/visual-studio-code-is-there-a-compare-feature-like-that-plugin-for-notepad — Client error '403 Forbidden' for url 'https://stackoverflow.com/questions/30139597/visual-studio-code-is-there-a-compare-feature-like-that-plugin-for-notepad'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:18:43,070 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/triggers.php — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/triggers.php'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:18:43,106 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=118648 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=118648'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:18:44,266 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/u013412391/article/details/109039410 — Server error '521 ' for url 'https://blog.csdn.net/u013412391/article/details/109039410'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-04-28 13:18:44,268 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:47,966 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:47,968 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:48,456 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:48,457 [INFO] ✅ PlannerAgent 完成: 6 节, 17 个查询
+2026-04-28 13:18:48,457 [INFO] 🔍 ResearcherAgent 开始: 我的第一个触发器：让单位说话 (17 查询)
+2026-04-28 13:18:48,458 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:50,384 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:50,386 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger editor tutorial for beginners' | ZH='Warcraft 3 trigger editor tutorial for beginners'
+2026-04-28 13:18:50,552 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:50,568 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:50,584 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20editor%20tutorial%20for%20beginners)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20editor%20tutorial%20for%20beginners')")
+2026-04-28 13:18:50,610 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20editor%20tutorial%20for%20beginners)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20editor%20tutorial%20for%20beginners')")
+2026-04-28 13:18:50,670 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+editor+tutorial+for+beginners&limit=1 200
+2026-04-28 13:18:50,703 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+editor+tutorial+for+beginners&source=web 429
+2026-04-28 13:18:50,752 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+editor+tutorial+for+beginners&limit=1 200
+2026-04-28 13:18:50,765 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-28 13:18:50,882 [INFO] response: https://search.yahoo.com/search;_ylt=Gize4fdTx6BswrN2YtBUJnlH;_ylu=npu5i755Nvdvvd2WXxhbkRAzyRdUggVtDPHgjf2vF8WaJf4?p=Warcraft+3+trigger+editor+tutorial+for+beginners 200
+2026-04-28 13:18:51,235 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+trigger+editor+tutorial+for+beginners 403
+2026-04-28 13:18:51,583 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger editor tutorial for b
+2026-04-28 13:18:52,206 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+editor+tutorial+for+beginners&web=1&searchid=9300889 200
+2026-04-28 13:18:52,232 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger editor tutorial for b
+2026-04-28 13:18:52,233 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:54,599 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:54,600 [INFO] 🌐 双语查询: EN='World Editor 触发器入门 完全教程' | ZH='World Editor 触发器入门 完全教程'
+2026-04-28 13:18:54,730 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:54,762 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:54,765 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8%20%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8%20%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B')")
+2026-04-28 13:18:54,806 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8%20%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8%20%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B')")
+2026-04-28 13:18:54,852 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8+%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-28 13:18:54,874 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-28 13:18:54,957 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8+%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-28 13:18:55,718 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8+%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B&web=1&searchid=4821970 200
+2026-04-28 13:18:55,748 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器入门 完全教程
+2026-04-28 13:18:55,871 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8+%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B&web=1&searchid=3353502 200
+2026-04-28 13:18:55,899 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器入门 完全教程
+2026-04-28 13:18:55,900 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:18:58,107 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:18:58,108 [INFO] 🌐 双语查询: EN='How to make unit talk in WC3 map - first trigger guide' | ZH='How to make unit talk in WC3 map - first trigger guide'
+2026-04-28 13:18:58,222 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:58,227 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:18:58,251 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=How%20to%20make%20unit%20talk%20in%20WC3%20map%20-%20first%20trigger%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=How%20to%20make%20unit%20talk%20in%20WC3%20map%20-%20first%20trigger%20guide')")
+2026-04-28 13:18:58,259 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=How%20to%20make%20unit%20talk%20in%20WC3%20map%20-%20first%20trigger%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=How%20to%20make%20unit%20talk%20in%20WC3%20map%20-%20first%20trigger%20guide')")
+2026-04-28 13:18:58,349 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-28 13:18:58,371 [INFO] response: https://grokipedia.com/api/typeahead?query=How+to+make+unit+talk+in+WC3+map+-+first+trigger+guide&limit=1 200
+2026-04-28 13:18:58,471 [INFO] response: https://grokipedia.com/api/typeahead?query=How+to+make+unit+talk+in+WC3+map+-+first+trigger+guide&limit=1 200
+2026-04-28 13:18:58,554 [INFO] response: https://search.brave.com/search?q=How+to+make+unit+talk+in+WC3+map+-+first+trigger+guide&source=web 429
+2026-04-28 13:18:58,915 [INFO] response: https://www.mojeek.com/search?q=How+to+make+unit+talk+in+WC3+map+-+first+trigger+guide 403
+2026-04-28 13:18:59,218 [INFO] response: https://yandex.com/search/site/?text=How+to+make+unit+talk+in+WC3+map+-+first+trigger+guide&web=1&searchid=1357942 200
+2026-04-28 13:18:59,254 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | How to make unit talk in WC3 map - first
+2026-04-28 13:18:59,736 [INFO] response: https://yandex.com/search/site/?text=How+to+make+unit+talk+in+WC3+map+-+first+trigger+guide&web=1&searchid=2118940 200
+2026-04-28 13:18:59,779 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | How to make unit talk in WC3 map - first
+2026-04-28 13:18:59,780 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:19:01,872 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:19:01,873 [INFO] 🌐 双语查询: EN='Warcraft III trigger system explained for beginners' | ZH='Warcraft III trigger system explained for beginners'
+2026-04-28 13:19:02,024 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:19:02,031 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:19:02,037 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20system%20explained%20for%20beginners)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20system%20explained%20for%20beginners')")
+2026-04-28 13:19:02,058 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20system%20explained%20for%20beginners)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20system%20explained%20for%20beginners')")
+2026-04-28 13:19:02,150 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-28 13:19:02,671 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+trigger+system+explained+for+beginners&limit=1 200
+2026-04-28 13:19:03,045 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+trigger+system+explained+for+beginners&web=1&searchid=1247483 200
+2026-04-28 13:19:03,471 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+trigger+system+explained+for+beginners&web=1&searchid=7535691 200
+2026-04-28 13:19:03,506 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III trigger system explained fo
+2026-04-28 13:19:04,876 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+trigger+system+explained+for+beginners&limit=1 200
+2026-04-28 13:19:04,877 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III trigger system explained fo
+2026-04-28 13:19:04,877 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:19:07,104 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:19:07,105 [INFO] 🌐 双语查询: EN='World Editor 触发器 基础教程' | ZH='World Editor 触发器 基础教程'
+2026-04-28 13:19:07,236 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:19:07,251 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:19:07,258 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-04-28 13:19:07,281 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-04-28 13:19:07,311 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-28 13:19:07,362 [INFO] response: https://search.brave.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&source=web 429
+2026-04-28 13:19:07,384 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-28 13:19:07,862 [INFO] response: https://search.brave.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&source=web 200
+2026-04-28 13:19:07,868 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器 基础教程
+2026-04-28 13:19:08,342 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&web=1&searchid=4459794 200
+2026-04-28 13:19:08,365 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器 基础教程
+2026-04-28 13:19:08,366 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:19:10,691 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:19:10,692 [INFO] ✅ WriterAgent 完成: 9384 字符, 5/5 来源被引用
+2026-04-28 13:19:10,692 [INFO] 🔎 ReviewerAgent 开始: 如何刷新单位？触发器实战练习
+2026-04-28 13:19:10,693 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:19:10,939 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:19:10,940 [INFO] 🌐 双语查询: EN='WC3 触发器是什么 新手教程' | ZH='WC3 触发器是什么 新手教程'
+2026-04-28 13:19:11,061 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:19:11,068 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B')")
+2026-04-28 13:19:11,082 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-28 13:19:11,109 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B')")
+2026-04-28 13:19:11,160 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-28 13:19:11,188 [INFO] response: https://search.yahoo.com/search;_ylt=iotch2iMAdjYuGLYptKfaurH;_ylu=9J4ZXKNIXd06HEvFfSgkJ8QW6FpXYo4VG2IeEWQ_XrAka28?p=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-04-28 13:19:11,195 [INFO] response: https://search.brave.com/search?q=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 429
+2026-04-28 13:19:11,219 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-28 13:19:11,352 [INFO] response: https://search.yahoo.com/search;_ylt=UMyVLK49k2KptH40Gb3KBEUg;_ylu=MoNYgDh9sXpGx7t4ztQ2_jc58kMQEkqK-cjCRGSfnvW8OJw?p=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-04-28 13:19:11,786 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-28 13:19:11,831 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 触发器是什么 新手教程
+2026-04-28 13:19:11,882 [INFO] response: https://search.brave.com/search?q=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 429
+2026-04-28 13:19:12,889 [INFO] response: https://yandex.com/search/site/?text=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&web=1&searchid=7488381 200
+2026-04-28 13:19:12,926 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 触发器是什么 新手教程
+2026-04-28 13:19:12,926 [INFO]   搜索阶段：收集到 39 条候选结果
+2026-04-28 13:19:13,014 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/basics-of-triggers.32113/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/basics-of-triggers.32113/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:19:13,020 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/basic-trigger-editor-tutorial.165863/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/basic-trigger-editor-tutorial.165863/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:19:13,078 [WARNING] ⚠️  抓取失败，已忽略: https://codepen.io/ — Client error '403 Forbidden' for url 'https://codepen.io/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:19:13,830 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:19:21,373 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:19:21,374 [ERROR] ResearcherAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-04-28 13:19:21,374 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-04-28 13:19:21,374 [INFO] ✍️  WriterAgent 开始: 事件、条件、动作：触发器三要素详解 (loop 0)
+2026-04-28 13:19:21,375 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:19:30,401 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:19:30,402 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 45 (char 227)
+2026-04-28 13:19:30,402 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-28 13:19:30,403 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-28 13:19:30,403 [INFO] 📄 文章写入: docs/triggers/如何刷新单位触发器实战练习.md

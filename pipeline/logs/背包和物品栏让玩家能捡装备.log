@@ -252,3 +252,410 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-04-27 09:23:43,167 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
 2026-04-27 09:23:43,167 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-04-27 09:23:43,167 [INFO] 📄 文章写入: docs/rpg-systems/背包和物品栏让玩家能捡装备.md
+2026-04-28 13:01:15,108 [INFO] 📐 PlannerAgent 开始: 背包和物品栏：让玩家能捡装备
+2026-04-28 13:01:15,109 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:22,700 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:22,701 [INFO] ✅ WriterAgent 完成: 759 字符, 0/3 来源被引用
+2026-04-28 13:01:22,701 [INFO] 🔎 ReviewerAgent 开始: 制作商店：让玩家用金币买东西
+2026-04-28 13:01:22,702 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:30,737 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:30,738 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 53 (char 235)
+2026-04-28 13:01:30,738 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-28 13:01:30,738 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-28 13:01:30,739 [INFO] 📄 文章写入: docs/rpg-systems/任务系统入门制作有剧情的任务.md
+2026-04-28 13:01:30,739 [INFO] 📐 PlannerAgent 开始: RPG英雄系统：经验、升级和属性设计
+2026-04-28 13:01:30,740 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:37,785 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:37,786 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 13:01:37,786 [INFO] 🔍 ResearcherAgent 开始: 背包和物品栏：让玩家能捡装备 (21 查询)
+2026-04-28 13:01:37,787 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:39,970 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:39,972 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG inventory system tutorial for beginners' | ZH='Warcraft 3 RPG inventory system tutorial for beginners'
+2026-04-28 13:01:40,720 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG inventory system tutorial
+2026-04-28 13:01:41,902 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG inventory system tutorial
+2026-04-28 13:01:41,903 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:44,017 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:44,018 [INFO] 🌐 双语查询: EN='Warcraft III Map Editor Item System from Beginner to Master' | ZH='魔兽争霸3 地图编辑器 物品系统 从入门到精通'
+2026-04-28 13:01:44,862 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III Map Editor Item System from
+2026-04-28 13:01:45,149 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图编辑器 物品系统 从入门到精通
+2026-04-28 13:01:45,150 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:47,336 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:47,337 [INFO] 🌐 双语查询: EN='WC3 World Editor custom inventory GUI trigger guide' | ZH='WC3 World Editor custom inventory GUI trigger guide'
+2026-04-28 13:01:47,708 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:47,709 [INFO] ✅ 通过 ReviewerAgent: overall=0.73 (A=0.85 C=0.80 R=0.92 Cit=0.05)
+2026-04-28 13:01:47,709 [INFO]   反馈 5 条:
+2026-04-28 13:01:47,709 [INFO]   [missing_citation] 所有内容均无[^N]引用标记...
+2026-04-28 13:01:47,709 [INFO]   [missing_citation] 商店系统的两个核心概念：商品 和 交易逻辑...
+2026-04-28 13:01:47,709 [INFO]   [missing_citation] 学完下一节，你的地图就能实现「玩家点击商店 → 选择商品 → 扣除金币 → 获得物品」的完整流程...
+2026-04-28 13:01:47,709 [INFO]   [incomplete_section] 概述...
+2026-04-28 13:01:47,709 [INFO]   [tone_mismatch] 新手提示使用emoji 💡，常见错误使用 ⚠️...
+2026-04-28 13:01:47,709 [INFO] ✅ 质量通过 (loop 0): score=0.73
+2026-04-28 13:01:47,710 [INFO] 📄 文章写入: docs/rpg-systems/制作商店让玩家用金币买东西.md
+2026-04-28 13:01:47,710 [INFO] 📐 PlannerAgent 开始: 给技能加特效：光环、Buff 和视觉效果
+2026-04-28 13:01:47,710 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:48,250 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor custom inventory GUI tr
+2026-04-28 13:01:48,346 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor custom inventory GUI tr
+2026-04-28 13:01:48,347 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:50,680 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:50,681 [INFO] 🌐 双语查询: EN='Warcraft 3 inventory system RPG tutorial' | ZH='Warcraft 3 inventory system RPG tutorial'
+2026-04-28 13:01:51,595 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 inventory system RPG tutorial
+2026-04-28 13:01:51,727 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 inventory system RPG tutorial
+2026-04-28 13:01:51,728 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:52,355 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:52,356 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 13:01:52,356 [INFO] 🔍 ResearcherAgent 开始: RPG英雄系统：经验、升级和属性设计 (21 查询)
+2026-04-28 13:01:52,357 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:53,396 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:53,397 [INFO] 🌐 双语查询: EN='RPG Inventory System Basic Concepts' | ZH='RPG 物品栏系统 基础概念'
+2026-04-28 13:01:54,319 [INFO] 🔍 Tavily 搜索成功: 5 条 | RPG 物品栏系统 基础概念
+2026-04-28 13:01:54,497 [INFO] 🔍 Tavily 搜索成功: 5 条 | RPG Inventory System Basic Concepts
+2026-04-28 13:01:54,497 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:54,878 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:54,879 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG hero system design complete guide' | ZH='Warcraft 3 RPG hero system design complete guide'
+2026-04-28 13:01:55,935 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG hero system design comple
+2026-04-28 13:01:56,158 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG hero system design comple
+2026-04-28 13:01:56,159 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:01:57,918 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:57,919 [INFO] 🌐 双语查询: EN='what is inventory system in games' | ZH='what is inventory system in games'
+2026-04-28 13:01:58,735 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:01:58,736 [INFO] 🌐 双语查询: EN='WC3 World Editor hero leveling experience tutorial for beginners' | ZH='WC3 World Editor hero leveling experience tutorial for beginners'
+2026-04-28 13:01:58,785 [INFO] 🔍 Tavily 搜索成功: 5 条 | what is inventory system in games
+2026-04-28 13:01:59,508 [INFO] 🔍 Tavily 搜索成功: 5 条 | what is inventory system in games
+2026-04-28 13:01:59,509 [INFO]   搜索阶段：收集到 31 条候选结果
+2026-04-28 13:02:00,014 [WARNING] ⚠️  抓取失败，已忽略: https://wc3we.fandom.com/wiki/GUI_Triggering — Client error '403 Forbidden' for url 'https://wc3we.fandom.com/wiki/GUI_Triggering'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:02:00,698 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor hero leveling experienc
+2026-04-28 13:02:00,906 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor hero leveling experienc
+2026-04-28 13:02:00,907 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:03,198 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:03,199 [INFO] 🌐 双语查询: EN='魔兽争霸3 英雄成长系统 从零入门 教程' | ZH='魔兽争霸3 英雄成长系统 从零入门 教程'
+2026-04-28 13:02:04,006 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 英雄成长系统 从零入门 教程
+2026-04-28 13:02:04,045 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 英雄成长系统 从零入门 教程
+2026-04-28 13:02:04,046 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:05,972 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:05,973 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG hero system basics' | ZH='魔兽争霸3 RPG英雄系统基础'
+2026-04-28 13:02:06,781 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 RPG英雄系统基础
+2026-04-28 13:02:06,810 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG hero system basics
+2026-04-28 13:02:06,810 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:08,828 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:08,829 [INFO] 🌐 双语查询: EN='WC3 World Editor 英雄系统 入门' | ZH='WC3 World Editor 英雄系统 入门'
+2026-04-28 13:02:09,620 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:09,621 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 13:02:09,621 [INFO] 🔍 ResearcherAgent 开始: 给技能加特效：光环、Buff 和视觉效果 (21 查询)
+2026-04-28 13:02:09,622 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:10,220 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor 英雄系统 入门
+2026-04-28 13:02:10,824 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor 英雄系统 入门
+2026-04-28 13:02:10,825 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:11,654 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:11,655 [INFO] 🌐 双语查询: EN='Warcraft 3 Object Editor ability effects tutorial' | ZH='Warcraft 3 Object Editor ability effects tutorial'
+2026-04-28 13:02:12,450 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor ability effects
+2026-04-28 13:02:12,462 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor ability effects
+2026-04-28 13:02:12,463 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:14,644 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:14,645 [INFO] 🌐 双语查询: EN='Warcraft III RPG map making basic tutorial' | ZH='魔兽争霸3 RPG 地图制作 基础教程'
+2026-04-28 13:02:14,723 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:14,723 [INFO] 🌐 双语查询: EN='Warcraft 3' | ZH='魔兽争霸3 地图编辑器 技能特效制作'
+2026-04-28 13:02:15,433 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 RPG 地图制作 基础教程
+2026-04-28 13:02:15,753 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图编辑器 技能特效制作
+2026-04-28 13:02:15,879 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3
+2026-04-28 13:02:15,880 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:16,808 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III RPG map making basic tutori
+2026-04-28 13:02:16,809 [INFO]   搜索阶段：收集到 32 条候选结果
+2026-04-28 13:02:17,324 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/337809073 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/337809073'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:02:18,204 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:18,205 [INFO] 🌐 双语查询: EN='WC3 RPG ability system beginner guide' | ZH='WC3 RPG ability system beginner guide'
+2026-04-28 13:02:19,663 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 RPG ability system beginner guide
+2026-04-28 13:02:19,678 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 RPG ability system beginner guide
+2026-04-28 13:02:19,679 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:21,880 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:21,881 [INFO] 🌐 双语查询: EN='Warcraft 3 Object Editor aura vs buff vs effect' | ZH='Warcraft 3 Object Editor aura vs buff vs effect'
+2026-04-28 13:02:22,807 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor aura vs buff vs
+2026-04-28 13:02:22,900 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor aura vs buff vs
+2026-04-28 13:02:22,901 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:25,158 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:25,159 [INFO] 🌐 双语查询: EN='魔兽争霸3 光环Buff视觉特效 概念区别' | ZH='魔兽争霸3 光环Buff视觉特效 概念区别'
+2026-04-28 13:02:25,989 [INFO] 🔍 Tavily 搜索成功: 1 条 | 魔兽争霸3 光环Buff视觉特效 概念区别
+2026-04-28 13:02:26,377 [INFO] 🔍 Tavily 搜索成功: 1 条 | 魔兽争霸3 光环Buff视觉特效 概念区别
+2026-04-28 13:02:26,378 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:26,909 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:28,225 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:28,226 [INFO] 🌐 双语查询: EN='WC3 ability buff debuff system explained' | ZH='WC3 ability buff debuff system explained'
+2026-04-28 13:02:29,229 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 ability buff debuff system explained
+2026-04-28 13:02:29,489 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 ability buff debuff system explained
+2026-04-28 13:02:29,489 [INFO]   搜索阶段：收集到 25 条候选结果
+2026-04-28 13:02:29,603 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/buff-vs-effect.322546/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/buff-vs-effect.322546/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:02:30,115 [WARNING] ⚠️  抓取失败，已忽略: https://worldofwarcraft.fandom.com/et/wiki/Debuff — Client error '403 Forbidden' for url 'https://worldofwarcraft.fandom.com/et/wiki/Debuff'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:02:31,417 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:57,148 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:57,149 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-04-28 13:02:57,149 [INFO] ✍️  WriterAgent 开始: RPG英雄系统：经验、升级和属性设计 (loop 0)
+2026-04-28 13:02:57,150 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:02:58,598 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:02:58,599 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-04-28 13:02:58,599 [INFO] ✍️  WriterAgent 开始: 给技能加特效：光环、Buff 和视觉效果 (loop 0)
+2026-04-28 13:02:58,600 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:03:16,335 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:03:16,337 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:03:19,614 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:03:19,616 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:03:39,597 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:03:39,599 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:03:44,699 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:03:44,701 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:09,355 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:09,357 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:10,598 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:10,600 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:31,339 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:31,341 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:34,272 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:34,274 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:51,942 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:51,943 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:04:54,986 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:04:54,988 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:09,241 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:19,055 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:05:19,057 [INFO] ✅ WriterAgent 完成: 7886 字符, 6/6 来源被引用
+2026-04-28 13:05:19,057 [INFO] 🔎 ReviewerAgent 开始: 给技能加特效：光环、Buff 和视觉效果
+2026-04-28 13:05:19,057 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:26,353 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:05:26,354 [INFO] ✅ WriterAgent 完成: 8910 字符, 6/6 来源被引用
+2026-04-28 13:05:26,354 [INFO] 🔎 ReviewerAgent 开始: RPG英雄系统：经验、升级和属性设计
+2026-04-28 13:05:26,355 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:35,306 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:05:35,307 [INFO] ✅ 通过 ReviewerAgent: overall=0.78 (A=0.75 C=0.85 R=0.90 Cit=0.55)
+2026-04-28 13:05:35,308 [INFO]   反馈 5 条:
+2026-04-28 13:05:35,308 [INFO]   [missing_citation] 光环是一种被动影响范围内所有友军的特殊能力...
+2026-04-28 13:05:35,308 [INFO]   [missing_citation] 300范围的暴风雪意味着以施法者为圆心、半径300的范围都会受到影响...
+2026-04-28 13:05:35,308 [INFO]   [missing_citation] Buff 是'给单位添加的增益状态'，比如增加生命恢复、提高移动速度、获得护盾等...
+2026-04-28 13:05:35,308 [INFO]   [factual_error] 光环技能挂在施法者身上、施法者需要在场（不是死了或离开）、目标单位必须在光环范围内...
+2026-04-28 13:05:35,308 [INFO]   [missing_citation] 持续时间是技能效果维持的时间，而冷却时间是使用技能后需要等待多久才能再次使用...
+2026-04-28 13:05:35,308 [INFO] ✅ 质量通过 (loop 0): score=0.78
+2026-04-28 13:05:35,309 [INFO] 📄 文章写入: docs/object-editor/给技能加特效光环buff-和视觉效果.md
+2026-04-28 13:05:35,309 [INFO] 📐 PlannerAgent 开始: 制作物品和装备：RPG道具系统入门
+2026-04-28 13:05:35,310 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:36,893 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:05:36,895 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-04-28 13:05:36,895 [INFO] ✍️  WriterAgent 开始: 背包和物品栏：让玩家能捡装备 (loop 0)
+2026-04-28 13:05:36,896 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:44,243 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:05:44,244 [INFO] ✅ 通过 ReviewerAgent: overall=0.75 (A=0.75 C=0.70 R=0.88 Cit=0.55)
+2026-04-28 13:05:44,244 [INFO]   反馈 5 条:
+2026-04-28 13:05:44,244 [INFO]   [missing_citation] 每点力量大约增加19点生命值，每点敏捷增加0.16护甲和1%攻击速度，每点智力增加13点魔法值...
+2026-04-28 13:05:44,244 [INFO]   [missing_citation] 前期每级经验增长幅度控制在30%-50%左右...
+2026-04-28 13:05:44,244 [INFO]   [missing_citation] 对于RPG地图，通常建议设置为10-25级之间...
+2026-04-28 13:05:44,244 [INFO]   [incomplete_section] 完成以上学习后，你应该已经掌握了获取模板资源的方法、加入了可以求助的......
+2026-04-28 13:05:44,244 [INFO]   [missing_citation] 例如近战英雄可以给更多力量，远程法师给更多智力...
+2026-04-28 13:05:44,245 [INFO] ✅ 质量通过 (loop 0): score=0.75
+2026-04-28 13:05:44,245 [INFO] 📄 文章写入: docs/rpg-systems/rpg英雄系统经验升级和属性设计.md
+2026-04-28 13:05:44,245 [INFO] 📐 PlannerAgent 开始: 更换单位外观模型：让单位看起来不一样
+2026-04-28 13:05:44,246 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:53,701 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:05:53,703 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:54,685 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:05:54,687 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 13:05:54,687 [INFO] 🔍 ResearcherAgent 开始: 制作物品和装备：RPG道具系统入门 (21 查询)
+2026-04-28 13:05:54,687 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:05:56,616 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:05:56,617 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG item system guide beginner' | ZH='Warcraft 3 RPG item system guide beginner'
+2026-04-28 13:05:57,558 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG item system guide beginne
+2026-04-28 13:05:58,356 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG item system guide beginne
+2026-04-28 13:05:58,357 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:00,362 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:00,363 [INFO] 🌐 双语查询: EN='War3 地图编辑器 物品系统 入门教程' | ZH='War3 地图编辑器 物品系统 入门教程'
+2026-04-28 13:06:01,349 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 地图编辑器 物品系统 入门教程
+2026-04-28 13:06:01,450 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 地图编辑器 物品系统 入门教程
+2026-04-28 13:06:01,451 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:01,762 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:01,763 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 13:06:01,763 [INFO] 🔍 ResearcherAgent 开始: 更换单位外观模型：让单位看起来不一样 (21 查询)
+2026-04-28 13:06:01,764 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:03,884 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:03,885 [INFO] 🌐 双语查询: EN='WC3 Object Editor items complete tutorial' | ZH='WC3 Object Editor items complete tutorial'
+2026-04-28 13:06:04,048 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:04,049 [INFO] 🌐 双语查询: EN='Warcraft 3 unit model replacement guide' | ZH='魔兽争霸'
+2026-04-28 13:06:04,872 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸
+2026-04-28 13:06:05,532 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 Object Editor items complete tutoria
+2026-04-28 13:06:05,558 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 Object Editor items complete tutoria
+2026-04-28 13:06:05,559 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:07,718 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:07,718 [INFO] 🌐 双语查询: EN='Warcraft 3 Object Editor item basics tutorial' | ZH='Warcraft 3 Object Editor item basics tutorial'
+2026-04-28 13:06:08,287 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 unit model replacement guide
+2026-04-28 13:06:08,288 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:08,577 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor item basics tut
+2026-04-28 13:06:08,794 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor item basics tut
+2026-04-28 13:06:08,795 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:10,120 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:10,121 [INFO] 🌐 双语查询: EN='Warcraft 3 Object Editor Unit Appearance Tutorial' | ZH='WC3 对象编辑器 单位外观 教程'
+2026-04-28 13:06:10,702 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:10,703 [INFO] 🌐 双语查询: EN='War3 物品编辑器 新建物品' | ZH='War3 物品编辑器 新建物品'
+2026-04-28 13:06:11,125 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 对象编辑器 单位外观 教程
+2026-04-28 13:06:11,500 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 物品编辑器 新建物品
+2026-04-28 13:06:11,568 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 物品编辑器 新建物品
+2026-04-28 13:06:11,568 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:11,727 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 Object Editor Unit Appearance
+2026-04-28 13:06:11,728 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:11,756 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:11,758 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:13,853 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:13,854 [INFO] 🌐 双语查询: EN='World Editor 物品属性设置' | ZH='World Editor 物品属性设置'
+2026-04-28 13:06:14,020 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:14,021 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor model customization for beginners' | ZH='Warcraft 3 World Editor model customization for beginners'
+2026-04-28 13:06:14,682 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 物品属性设置
+2026-04-28 13:06:14,860 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 物品属性设置
+2026-04-28 13:06:14,860 [INFO]   搜索阶段：收集到 30 条候选结果
+2026-04-28 13:06:15,408 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor model customizat
+2026-04-28 13:06:15,794 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor model customizat
+2026-04-28 13:06:15,795 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:17,339 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/warcraft-iii-world-editor-tutorials-ep-2-object-editor.218542/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/warcraft-iii-world-editor-tutorials-ep-2-object-editor.218542/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:06:18,025 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:18,026 [INFO] 🌐 双语查询: EN='Warcraft 3 unit model 是什么' | ZH='Warcraft 3 unit model 是什么'
+2026-04-28 13:06:18,189 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:19,038 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 unit model 是什么
+2026-04-28 13:06:19,062 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 unit model 是什么
+2026-04-28 13:06:19,062 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:21,652 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:21,653 [INFO] 🌐 双语查询: EN='WC3 模型文件格式 .mdx .mdl' | ZH='WC3 模型文件格式 .mdx .mdl'
+2026-04-28 13:06:22,712 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 模型文件格式 .mdx .mdl
+2026-04-28 13:06:22,732 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 模型文件格式 .mdx .mdl
+2026-04-28 13:06:22,732 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:24,784 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:24,785 [INFO] 🌐 双语查询: EN='Warcraft III object editor unit model tutorial' | ZH='Warcraft III object editor unit model tutorial'
+2026-04-28 13:06:26,490 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III object editor unit model tu
+2026-04-28 13:06:26,512 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III object editor unit model tu
+2026-04-28 13:06:26,513 [INFO]   搜索阶段：收集到 36 条候选结果
+2026-04-28 13:06:26,559 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/dipukw/reforged_map_with_all_unit_models_of_warcraft_3/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/dipukw/reforged_map_with_all_unit_models_of_warcraft_3/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:06:26,570 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/model-editing.114210/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/model-editing.114210/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:06:26,600 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/model-editor-how-to-change-a-units-portrait.267585/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/model-editor-how-to-change-a-units-portrait.267585/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:06:26,605 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/dt5i03/world_editor_guide_1_making_units_doodads_bigger/?tl=zh-hant — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/dt5i03/world_editor_guide_1_making_units_doodads_bigger/?tl=zh-hant'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:06:27,285 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/uo3w67/make_a_norm_unit_into_a_hero/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/uo3w67/make_a_norm_unit_into_a_hero/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:06:27,469 [WARNING] ⚠️  抓取失败，已忽略: https://nga.178.com/read.php?tid=18871432 — Client error '403 Forbidden' for url 'https://nga.178.com/read.php?tid=18871432'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 13:06:27,470 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:32,914 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:32,916 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:42,780 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:42,781 [WARNING] 来源不足（2/3），扩大搜索...
+2026-04-28 13:06:43,827 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III 更换单位外观模型：让单位看起来不一样 tutorial
+2026-04-28 13:06:43,828 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-04-28 13:06:43,828 [INFO] ✍️  WriterAgent 开始: 更换单位外观模型：让单位看起来不一样 (loop 0)
+2026-04-28 13:06:43,829 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:48,886 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:48,888 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:06:50,903 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:06:50,904 [WARNING] 来源不足（2/3），扩大搜索...
+2026-04-28 13:06:51,910 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III 制作物品和装备：RPG道具系统入门 tutorial 
+2026-04-28 13:06:51,910 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-04-28 13:06:51,911 [INFO] ✍️  WriterAgent 开始: 制作物品和装备：RPG道具系统入门 (loop 0)
+2026-04-28 13:06:51,912 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:07:00,314 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:07:00,315 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:07:10,838 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:07:10,839 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:07:14,293 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:07:14,294 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:07:16,645 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:07:16,647 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:07:28,599 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:07:28,601 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:07:30,159 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:07:30,161 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:07:36,046 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:07:36,047 [INFO] ✅ WriterAgent 完成: 7430 字符, 4/4 来源被引用
+2026-04-28 13:07:36,047 [INFO] 🔎 ReviewerAgent 开始: 背包和物品栏：让玩家能捡装备
+2026-04-28 13:07:36,048 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:07:47,070 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:07:47,071 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:07:48,075 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:07:48,077 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 13:07:53,493 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 13:07:53,494 [INFO] ✅ 通过 ReviewerAgent: overall=0.80 (A=0.82 C=0.78 R=0.85 Cit=0.65)
+2026-04-28 13:07:53,495 [INFO]   反馈 5 条:
+2026-04-28 13:07:53,495 [INFO]   [factual_error] 商品分类中的类型设置。如果你的物品放进背包后不生效，请检查是否选择了错误的物品类型。另外，设置了技能但图标不显示，通常是...
+2026-04-28 13:07:53,495 [INFO]   [missing_citation] Warcraft 3 的对话框系统最多只能显示12个按钮，所以你的物品栏设计不要超过12格哦！...
+2026-04-28 13:07:53,495 [INFO]   [missing_citation] 按钮大小建议设为「0.08宽度」×「0.08高度」。每个按钮就是一个物品格子...第一行按钮Y坐标设为0.40，第二行Y...
+2026-04-28 13:07:53,495 [INFO]   [missing_citation] 在触发器中添加事件：单位 - 物品被装备。这意味着每当有单位装备物品时，触发器就会执行...
+2026-04-28 13:07:53,495 [INFO]   [missing_citation] 属性计算遵循加法原则——装备提供的属性会直接叠加到角色基础属性上...
+2026-04-28 13:07:53,495 [INFO] ✅ 质量通过 (loop 0): score=0.80
+2026-04-28 13:07:53,496 [INFO] 📄 文章写入: docs/rpg-systems/背包和物品栏让玩家能捡装备.md

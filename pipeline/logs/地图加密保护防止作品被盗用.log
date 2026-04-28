@@ -534,3 +534,234 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-04-28 05:32:23,345 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
 2026-04-28 05:32:23,345 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-04-28 05:32:23,345 [INFO] 📄 文章写入: docs/publishing/地图加密保护防止作品被盗用.md
+2026-04-28 12:46:54,461 [INFO] 📐 PlannerAgent 开始: 地图加密保护：防止作品被盗用
+2026-04-28 12:46:54,476 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:46:54,476 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:46:54,477 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:10,170 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:10,179 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 12:47:10,180 [INFO] 🔍 ResearcherAgent 开始: 地图加密保护：防止作品被盗用 (21 查询)
+2026-04-28 12:47:10,182 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:11,293 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:11,294 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-28 12:47:11,294 [INFO] 🔍 ResearcherAgent 开始: 哪里找帮助？新手必收藏的社区和学习资源 (21 查询)
+2026-04-28 12:47:11,295 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:12,419 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:12,420 [INFO] 🌐 双语查询: EN='Warcraft 3 custom map protection encryption guide' | ZH='Warcraft 3 custom map protection encryption guide'
+2026-04-28 12:47:13,306 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:13,307 [INFO] ✅ PlannerAgent 完成: 6 节, 15 个查询
+2026-04-28 12:47:13,307 [INFO] 🔍 ResearcherAgent 开始: 新手最常遇到的10个错误和解决方法 (15 查询)
+2026-04-28 12:47:13,308 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:13,459 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 custom map protection encrypt
+2026-04-28 12:47:13,463 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:13,464 [INFO] 🌐 双语查询: EN='Warcraft III World Editor beginner guide resources' | ZH='魔兽争霸III 世界编辑器 新手指南 资源'
+2026-04-28 12:47:13,969 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 custom map protection encrypt
+2026-04-28 12:47:13,970 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:14,432 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸III 世界编辑器 新手指南 资源
+2026-04-28 12:47:14,549 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor beginner guide
+2026-04-28 12:47:14,551 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:15,338 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:15,339 [INFO] 🌐 双语查询: EN='Warcraft 3 map making beginner mistakes tutorial' | ZH='Warcraft 3 map making beginner mistakes tutorial'
+2026-04-28 12:47:15,955 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:15,956 [INFO] 🌐 双语查询: EN='魔兽争霸3地图加密防盗完整教程' | ZH='魔兽争霸3地图加密防盗完整教程'
+2026-04-28 12:47:16,721 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:16,722 [INFO] 🌐 双语查询: EN='魔兽争霸3自制地图制作教程资源汇总' | ZH='魔兽争霸3自制地图制作教程资源汇总'
+2026-04-28 12:47:16,971 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map making beginner mistakes 
+2026-04-28 12:47:17,117 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3地图加密防盗完整教程
+2026-04-28 12:47:17,172 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3地图加密防盗完整教程
+2026-04-28 12:47:17,173 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:17,354 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map making beginner mistakes 
+2026-04-28 12:47:17,355 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:17,700 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3自制地图制作教程资源汇总
+2026-04-28 12:47:18,309 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3自制地图制作教程资源汇总
+2026-04-28 12:47:18,311 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:19,508 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:19,509 [INFO] 🌐 双语查询: EN='how to protect custom map from being stolen WC3' | ZH='how to protect custom map from being stolen WC3'
+2026-04-28 12:47:19,810 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:19,811 [INFO] 🌐 双语查询: EN='魔兽争霸3 自定义地图 新手 常见问题 教程' | ZH='魔兽争霸3 自定义地图 新手 常见问题 教程'
+2026-04-28 12:47:20,494 [INFO] 🔍 Tavily 搜索成功: 5 条 | how to protect custom map from being sto
+2026-04-28 12:47:20,676 [INFO] 🔍 Tavily 搜索成功: 5 条 | how to protect custom map from being sto
+2026-04-28 12:47:20,677 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:20,855 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 自定义地图 新手 常见问题 教程
+2026-04-28 12:47:20,935 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 自定义地图 新手 常见问题 教程
+2026-04-28 12:47:20,937 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:21,053 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:21,054 [INFO] 🌐 双语查询: EN='WC3 modding learning materials community' | ZH='魔兽争霸3 模组制作'
+2026-04-28 12:47:21,820 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 modding learning materials community
+2026-04-28 12:47:22,047 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 模组制作
+2026-04-28 12:47:22,048 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:22,752 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:22,754 [INFO] 🌐 双语查询: EN='Warcraft 3 map encryption protection tutorial' | ZH='魔兽争霸3地图加密保护教程'
+2026-04-28 12:47:23,199 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:23,200 [INFO] 🌐 双语查询: EN='World Editor GUI trigger guide for beginners' | ZH='World Editor GUI trigger guide for beginners'
+2026-04-28 12:47:23,628 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map encryption protection tut
+2026-04-28 12:47:23,913 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3地图加密保护教程
+2026-04-28 12:47:23,914 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:24,016 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor GUI trigger guide for begin
+2026-04-28 12:47:24,092 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:24,093 [INFO] 🌐 双语查询: EN='Warcraft III World Editor tutorial official' | ZH='魔兽争霸III 世界编辑器 官方教程'
+2026-04-28 12:47:24,164 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor GUI trigger guide for begin
+2026-04-28 12:47:24,165 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:24,982 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸III 世界编辑器 官方教程
+2026-04-28 12:47:25,508 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:25,510 [INFO] 🌐 双语查询: EN='How to protect Warcraft 3 maps from being stolen' | ZH='如何保护魔兽争霸3地图不被盗用'
+2026-04-28 12:47:25,708 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor tutorial offic
+2026-04-28 12:47:25,709 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:26,346 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:26,347 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger common mistakes beginner' | ZH='Warcraft 3 trigger common mistakes beginner'
+2026-04-28 12:47:26,468 [INFO] 🔍 Tavily 搜索成功: 5 条 | 如何保护魔兽争霸3地图不被盗用
+2026-04-28 12:47:26,473 [INFO] 🔍 Tavily 搜索成功: 5 条 | How to protect Warcraft 3 maps from bein
+2026-04-28 12:47:26,474 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:27,382 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:27,382 [INFO] 🌐 双语查询: EN='Warcraft 3 editor built-in tutorial' | ZH='魔兽争霸3编辑器内置教程'
+2026-04-28 12:47:28,003 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 trigger common mistakes begin
+2026-04-28 12:47:28,281 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3编辑器内置教程
+2026-04-28 12:47:28,565 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:28,566 [INFO] 🌐 双语查询: EN='WC3 map security basics for beginners' | ZH='WC3 map security basics for beginners'
+2026-04-28 12:47:29,184 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 editor built-in tutorial
+2026-04-28 12:47:29,185 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:29,499 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 map security basics for beginners
+2026-04-28 12:47:29,565 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 map security basics for beginners
+2026-04-28 12:47:29,565 [INFO]   搜索阶段：收集到 23 条候选结果
+2026-04-28 12:47:29,850 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 trigger common mistakes begin
+2026-04-28 12:47:29,851 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:30,830 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/350695161 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/350695161'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 12:47:31,276 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:31,277 [INFO] 🌐 双语查询: EN='WC3 World Editor help documentation' | ZH='WC3 World Editor help documentation'
+2026-04-28 12:47:31,684 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:31,685 [INFO] 🌐 双语查询: EN='World Editor 触发器 新手 错误' | ZH='World Editor 触发器 新手 错误'
+2026-04-28 12:47:32,447 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/p1q2r/article/details/154339638 — Server error '521 ' for url 'https://blog.csdn.net/p1q2r/article/details/154339638'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-04-28 12:47:32,448 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:32,611 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 触发器 新手 错误
+2026-04-28 12:47:32,681 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 触发器 新手 错误
+2026-04-28 12:47:32,682 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:32,753 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor help documentation
+2026-04-28 12:47:33,053 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor help documentation
+2026-04-28 12:47:33,053 [INFO]   搜索阶段：收集到 37 条候选结果
+2026-04-28 12:47:33,349 [WARNING] ⚠️  抓取失败，已忽略: https://ftp.bills.com.au/lunar-tips/wc3-modding-a-beginners-guide-to-warcraft-3-mods-1764797766 — [Errno -2] Name or service not known
+2026-04-28 12:47:34,786 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/qq_41968782/article/details/111149605 — Server error '521 ' for url 'https://blog.csdn.net/qq_41968782/article/details/111149605'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-04-28 12:47:35,591 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:35,593 [INFO] 🌐 双语查询: EN='Warcraft 3 memory leak trigger fix' | ZH='Warcraft 3 memory leak trigger fix'
+2026-04-28 12:47:36,383 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 memory leak trigger fix
+2026-04-28 12:47:36,436 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 memory leak trigger fix
+2026-04-28 12:47:36,436 [INFO]   搜索阶段：收集到 31 条候选结果
+2026-04-28 12:47:36,551 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=79059 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=79059'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 12:47:36,599 [WARNING] ⚠️  抓取失败，已忽略: https://wc3we.fandom.com/wiki/GUI_Triggering — Client error '403 Forbidden' for url 'https://wc3we.fandom.com/wiki/GUI_Triggering'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 12:47:37,986 [WARNING] ⚠️  抓取失败，已忽略: https://gamefaqs.gamespot.com/pc/256222-warcraft-iii-reign-of-chaos/faqs/19465 — Client error '403 Forbidden' for url 'https://gamefaqs.gamespot.com/pc/256222-warcraft-iii-reign-of-chaos/faqs/19465'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-28 12:47:38,017 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:38,918 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:47:54,728 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:47:54,730 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-04-28 12:47:54,730 [INFO] ✍️  WriterAgent 开始: 地图加密保护：防止作品被盗用 (loop 0)
+2026-04-28 12:47:54,731 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:48:07,351 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:48:07,352 [INFO] ✅ ResearcherAgent 完成: 8 个来源已注册
+2026-04-28 12:48:07,352 [INFO] ✍️  WriterAgent 开始: 哪里找帮助？新手必收藏的社区和学习资源 (loop 0)
+2026-04-28 12:48:07,353 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:48:09,197 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:48:09,198 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-04-28 12:48:09,198 [INFO] ✍️  WriterAgent 开始: 新手最常遇到的10个错误和解决方法 (loop 0)
+2026-04-28 12:48:09,199 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:48:10,719 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:48:10,721 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:48:24,682 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:48:24,684 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:48:25,276 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:48:25,278 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:48:28,353 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:48:28,355 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:48:39,912 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:48:39,915 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:48:42,414 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:48:42,416 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:48:45,048 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:48:45,050 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:48:59,114 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:48:59,116 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:49:01,879 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:49:01,881 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:49:09,393 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:49:09,395 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:49:17,152 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:49:17,154 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:49:27,398 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:49:27,400 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:49:28,603 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:49:28,605 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:49:38,618 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:49:38,620 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:49:42,103 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:49:42,105 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:49:49,454 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:49:49,455 [INFO] ✅ WriterAgent 完成: 7407 字符, 4/4 来源被引用
+2026-04-28 12:49:49,456 [INFO] 🔎 ReviewerAgent 开始: 地图加密保护：防止作品被盗用
+2026-04-28 12:49:49,457 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:49:58,162 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:49:58,164 [INFO] ✅ WriterAgent 完成: 7470 字符, 8/8 来源被引用
+2026-04-28 12:49:58,164 [INFO] 🔎 ReviewerAgent 开始: 哪里找帮助？新手必收藏的社区和学习资源
+2026-04-28 12:49:58,165 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:50:04,662 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:50:04,663 [INFO] ✅ WriterAgent 完成: 8082 字符, 4/4 来源被引用
+2026-04-28 12:50:04,663 [INFO] 🔎 ReviewerAgent 开始: 新手最常遇到的10个错误和解决方法
+2026-04-28 12:50:04,664 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-28 12:50:08,485 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-28 12:50:08,486 [INFO] ✅ 通过 ReviewerAgent: overall=0.82 (A=0.80 C=0.82 R=0.88 Cit=0.75)
+2026-04-28 12:50:08,486 [INFO]   反馈 5 条:
+2026-04-28 12:50:08,486 [INFO]   [missing_citation] 如果修改时不小心破坏了这个文件头，地图可能会无法打开...
+2026-04-28 12:50:08,487 [INFO]   [missing_citation] 这些工具在地图保护爱好者中口碑较好...
+2026-04-28 12:50:08,487 [INFO]   [missing_citation] 如地图是你投入大量心血的作品，可以考虑在中国版权保护中心进行作品登记...
+2026-04-28 12:50:08,487 [INFO]   [factual_error] 混淆变量名和字符串，让代码更难被理解...
+2026-04-28 12:50:08,487 [INFO]   [incomplete_section] 关于重制版(Reforged)与经典版的加密差异...
+2026-04-28 12:50:08,487 [INFO] ✅ 质量通过 (loop 0): score=0.82
+2026-04-28 12:50:08,487 [INFO] 📄 文章写入: docs/publishing/地图加密保护防止作品被盗用.md
