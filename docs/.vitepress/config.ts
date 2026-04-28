@@ -1,76 +1,120 @@
 import { defineConfig } from 'vitepress'
-
-// GitHub Pages 部署时需要设置 base 为仓库名
-// 如仓库名为 war3-wiki，base 为 '/war3-wiki/'
-// 若使用自定义域名或根路径部署，改为 '/'
-const base = process.env.GITHUB_PAGES === 'true' ? '/kkwar3rpg_wiki/' : '/'
+import { generateSidebar } from '../../scripts/gen_sidebar'
 
 export default defineConfig({
-  base,
-  title: 'War3 Wiki',
-  description: 'Warcraft III RPG 地图编辑器 AI 自动化知识库',
+  // ── 站点基础信息 ──────────────────────────────────────────────
   lang: 'zh-CN',
+  title: 'War3 地图开发者 Wiki',
+  description: 'AI 自动整理的权威资料站 · 每日持续更新 · 面向所有开发者免费开放',
 
-  // 关闭严格模式，允许自定义 frontmatter 字段（新 AI 生成字段不会报错）
+  // 构建输出目录（vercel.json 里 outputDirectory 指向这里）
+  outDir: './.vitepress/dist',
+
+  // 去掉 .html 后缀，更美观的 URL
+  cleanUrls: true,
+
+  // 死链检查：wiki 文章由 pipeline 持续生成，未完成的文章链接属于预期行为
   ignoreDeadLinks: true,
 
+  // ── Head 标签 ─────────────────────────────────────────────────
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+    ['meta', { name: 'theme-color', content: '#1e6fcf' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'War3 地图开发者 Wiki' }],
+    ['meta', { property: 'og:description', content: 'RPG 地图编辑器知识库' }],
+    // Pagefind 搜索 UI 样式（构建后注入）
+    ['link', { rel: 'stylesheet', href: '/pagefind/pagefind-ui.css' }],
+  ],
+
+  // ── 主题配置 ───────────────────────────────────────────────────
   themeConfig: {
+    logo: '/logo.png',
+    siteTitle: 'War3 Wiki',
+
+    // ── 导航栏 ──────────────────────────────────────────────────
     nav: [
-      { text: '🏠 首页', link: '/' },
-      { text: '📚 知识库', link: '/getting-started/editor-installation' },
+      { text: '� 快速入门', link: '/getting-started/editor-installation' },
       { text: '🛤️ 学习路径', link: '/learning-path' },
+      {
+        text: '� 分类',
+        items: [
+          { text: '⚡ 触发器系统', link: '/triggers/trigger-intro' },
+          { text: '💻 脚本编程', link: '/scripting/jass-basics' },
+          { text: '�️ 地形编辑', link: '/terrain/terrain-basics' },
+          { text: '🎭 对象编辑器', link: '/object-editor/unit-editor' },
+          { text: '🛠️ 工具生态', link: '/tools/ydwe' },
+          { text: '🎨 进阶开发', link: '/advanced/rpg-systems' },
+        ],
+      },
       { text: '📋 更新日志', link: '/changelog' },
     ],
 
-    sidebar: {
-      '/': [
-        {
-          text: '🚀 快速入门',
-          collapsed: false,
-          items: [
-            { text: 'War3 地图编辑器安装与配置', link: '/getting-started/editor-installation' },
-          ],
-        },
-      ],
-    },
+    // ── 侧边栏（由 gen_sidebar.ts 动态生成）────────────────────
+    sidebar: generateSidebar(),
 
-    search: { provider: 'local' },
-
+    // ── 社交链接 ────────────────────────────────────────────────
     socialLinks: [
       { icon: 'github', link: 'https://github.com/your-org/war3-wiki' },
     ],
 
-    // 页脚
+    // ── 页脚 ────────────────────────────────────────────────────
     footer: {
-      message: '由 AI Agent 自动生成，内容仅供参考',
-      copyright: '© 2025 War3 Wiki',
+      message: '内容由多智能体 AI 系统自动生成，仅供学习参考',
+      copyright: `Copyright © ${new Date().getFullYear()} War3 Wiki`,
     },
 
-    // 搜索（Pagefind 集成在构建后）
-    search: {
-      provider: 'local',
-    },
-
-    docFooter: { prev: '上一篇', next: '下一篇' },
-    outline: { level: [2, 3], label: '本文目录' },
-    lastUpdated: { text: '最后更新于' },
-
+    // ── 编辑链接 ────────────────────────────────────────────────
     editLink: {
       pattern: 'https://github.com/your-org/war3-wiki/edit/main/docs/:path',
-      text: '✏️ 在 GitHub 上编辑此页',
+      text: '在 GitHub 上编辑此页',
     },
+
+    // ── 文章底部时间戳 ──────────────────────────────────────────
+    lastUpdated: {
+      text: '最后更新',
+    },
+
+    // ── 本地搜索（Pagefind，在 build 后由 pagefind CLI 生成索引）
+    // 注：使用 head 里注入的 pagefind-ui.css，脚本在 theme/index.ts 里挂载
+    // 如果要换用 VitePress 内置 minisearch，把下面一行注释删掉即可
+    // search: { provider: 'local' },
+
+    // ── 文档目录深度 ────────────────────────────────────────────
+    outline: {
+      label: '本页目录',
+      level: [2, 3],
+    },
+
+    // ── 翻页按钮文案 ────────────────────────────────────────────
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇',
+    },
+
+    // ── 返回顶部按钮 ────────────────────────────────────────────
+    returnToTopLabel: '返回顶部',
+
+    // ── 侧边栏切换按钮 ──────────────────────────────────────────
+    sidebarMenuLabel: '目录',
+
+    // ── 深色/浅色模式切换 ───────────────────────────────────────
+    darkModeSwitchLabel: '深色模式',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
   },
 
+  // ── Markdown 扩展 ─────────────────────────────────────────────
   markdown: {
+    // 代码块行号
     lineNumbers: true,
-    image: { lazyLoading: true },
-  },
-
-  // 构建配置
-  vite: {
-    // 允许从 pipeline 生成的文章中读取 frontmatter
-    build: {
-      chunkSizeWarningLimit: 2000,
+    // 容器（::: tip / warning / danger 等）
+    container: {
+      tipLabel: '提示',
+      warningLabel: '注意',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详情',
     },
   },
 })
