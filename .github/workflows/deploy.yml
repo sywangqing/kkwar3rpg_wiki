@@ -1,4 +1,4 @@
-name: 🚀 部署网站
+name: Deploy VitePress to GitHub Pages
 
 on:
   # 推送到 main 分支时自动触发
@@ -23,45 +23,41 @@ permissions:
 # 同一时间只运行一个部署，不排队
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 拉取代码
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 配置 Node.js 20
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: 20
+          cache: npm
 
-      - name: 安装 Node 依赖
+      - name: Install dependencies
         run: npm ci
 
-      - name: 构建 VitePress
+      - name: Build
         run: npm run build
-        env:
-          NODE_OPTIONS: '--max-old-space-size=4096'
 
-      - name: 上传构建产物
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
 
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
+    needs: build
+    runs-on: ubuntu-latest
     steps:
-      - name: 部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

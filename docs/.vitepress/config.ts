@@ -10,6 +10,9 @@ export default defineConfig({
   // 构建输出目录（vercel.json 里 outputDirectory 指向这里）
   outDir: './.vitepress/dist',
 
+  // GitHub Pages 子路径（仓库名即为 base）
+  base: '/kkwar3rpg_wiki/',
+
   // 去掉 .html 后缀，更美观的 URL
   cleanUrls: true,
 
