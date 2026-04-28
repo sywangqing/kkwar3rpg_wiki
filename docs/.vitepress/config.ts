@@ -26,8 +26,8 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'War3 地图开发者 Wiki' }],
     ['meta', { property: 'og:description', content: 'RPG 地图编辑器知识库' }],
-    // Pagefind 搜索 UI 样式（构建后注入）
-    ['link', { rel: 'stylesheet', href: '/pagefind/pagefind-ui.css' }],
+    // Pagefind 搜索 UI 样式（构建后注入，路径需含 base）
+    ['link', { rel: 'stylesheet', href: '/kkwar3rpg_wiki/pagefind/pagefind-ui.css' }],
   ],
 
   // ── 主题配置 ───────────────────────────────────────────────────
