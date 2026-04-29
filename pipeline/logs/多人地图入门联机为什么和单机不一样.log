@@ -775,3 +775,339 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-04-28 12:58:02,824 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
 2026-04-28 12:58:02,824 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-04-28 12:58:02,825 [INFO] 📄 文章写入: docs/rpg-systems/多人地图入门联机为什么和单机不一样.md
+2026-04-29 05:33:48,541 [INFO] 📐 PlannerAgent 开始: 多人地图入门：联机为什么和单机不一样
+2026-04-29 05:33:48,542 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:00,932 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:00,934 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-04-29 05:34:00,934 [INFO] ✍️  WriterAgent 开始: 5个让新手地图看起来更好看的地形技巧 (loop 0)
+2026-04-29 05:34:00,934 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:03,914 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:03,915 [INFO] ✅ WriterAgent 完成: 5980 字符, 3/3 来源被引用
+2026-04-29 05:34:03,915 [INFO] 🔎 ReviewerAgent 开始: 如何把地图发布到KK平台：完整上传步骤
+2026-04-29 05:34:03,916 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:12,509 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:12,510 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-29 05:34:12,510 [INFO] 🔍 ResearcherAgent 开始: 多人地图入门：联机为什么和单机不一样 (21 查询)
+2026-04-29 05:34:12,511 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:15,133 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:15,134 [INFO] 🌐 双语查询: EN='Warcraft 3 multiplayer map development beginner guide' | ZH='Warcraft 3 multiplayer map development beginner guide'
+2026-04-29 05:34:15,354 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:15,363 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20multiplayer%20map%20development%20beginner%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20multiplayer%20map%20development%20beginner%20guide')")
+2026-04-29 05:34:15,375 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:15,382 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20multiplayer%20map%20development%20beginner%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20multiplayer%20map%20development%20beginner%20guide')")
+2026-04-29 05:34:15,532 [INFO] response: https://search.brave.com/search?q=Warcraft+3+multiplayer+map+development+beginner+guide&source=web 429
+2026-04-29 05:34:15,535 [INFO] response: https://search.brave.com/search?q=Warcraft+3+multiplayer+map+development+beginner+guide&source=web 429
+2026-04-29 05:34:15,750 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+multiplayer+map+development+beginner+guide&limit=1 200
+2026-04-29 05:34:15,924 [INFO] response: https://search.yahoo.com/search;_ylt=wWg1Ne49uS41vPdN36SwvPHe;_ylu=ALfJXpnzwg2pOXazrxcN5NT8_fMXvnthvXd3P3wb7eP7CIs?p=Warcraft+3+multiplayer+map+development+beginner+guide 200
+2026-04-29 05:34:15,947 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+multiplayer+map+development+beginner+guide&limit=1 200
+2026-04-29 05:34:16,047 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-29 05:34:16,442 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 multiplayer map development b
+2026-04-29 05:34:16,509 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+multiplayer+map+development+beginner+guide 403
+2026-04-29 05:34:16,669 [INFO] response: https://search.yahoo.com/search;_ylt=LgVAsh3ziBxvm-NbfaSzvArs;_ylu=auieNomqbhM4_YmzgZpK5wn6BvL6MwDvwaaEAf55TKFpSjU?p=Warcraft+3+multiplayer+map+development+beginner+guide 200
+2026-04-29 05:34:17,004 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 multiplayer map development b
+2026-04-29 05:34:17,005 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:19,999 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:20,000 [INFO] 🌐 双语查询: EN='WC3 联机RPG地图 制作教程 从零开始' | ZH='WC3 联机RPG地图 制作教程 从零开始'
+2026-04-29 05:34:20,198 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:20,205 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%81%94%E6%9C%BARPG%E5%9C%B0%E5%9B%BE%20%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%81%94%E6%9C%BARPG%E5%9C%B0%E5%9B%BE%20%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B')")
+2026-04-29 05:34:20,233 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:20,245 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%81%94%E6%9C%BARPG%E5%9C%B0%E5%9B%BE%20%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%81%94%E6%9C%BARPG%E5%9C%B0%E5%9B%BE%20%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B')")
+2026-04-29 05:34:20,360 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E8%81%94%E6%9C%BARPG%E5%9C%B0%E5%9B%BE+%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B+%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B&limit=1 200
+2026-04-29 05:34:20,471 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E8%81%94%E6%9C%BARPG%E5%9C%B0%E5%9B%BE+%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B+%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B&limit=1 200
+2026-04-29 05:34:21,215 [INFO] response: https://yandex.com/search/site/?text=WC3+%E8%81%94%E6%9C%BARPG%E5%9C%B0%E5%9B%BE+%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B+%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B&web=1&searchid=2900745 200
+2026-04-29 05:34:21,249 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 联机RPG地图 制作教程 从零开始
+2026-04-29 05:34:21,282 [INFO] response: https://yandex.com/search/site/?text=WC3+%E8%81%94%E6%9C%BARPG%E5%9C%B0%E5%9B%BE+%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B+%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B&web=1&searchid=5129457 200
+2026-04-29 05:34:21,325 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 联机RPG地图 制作教程 从零开始
+2026-04-29 05:34:21,326 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:24,634 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:24,636 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:25,362 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:25,363 [INFO] 🌐 双语查询: EN='World Editor multiplayer fundamentals tutorial' | ZH='世界编辑器多人游戏基础教程'
+2026-04-29 05:34:25,567 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:25,573 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%E5%A4%9A%E4%BA%BA%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%E5%A4%9A%E4%BA%BA%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-04-29 05:34:25,582 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:25,617 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20multiplayer%20fundamentals%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20multiplayer%20fundamentals%20tutorial')")
+2026-04-29 05:34:25,672 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-29 05:34:25,766 [INFO] response: https://search.brave.com/search?q=World+Editor+multiplayer+fundamentals+tutorial&source=web 429
+2026-04-29 05:34:25,898 [INFO] response: https://grokipedia.com/api/typeahead?query=%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%E5%A4%9A%E4%BA%BA%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-29 05:34:25,909 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+multiplayer+fundamentals+tutorial&limit=1 200
+2026-04-29 05:34:26,414 [INFO] response: https://www.mojeek.com/search?q=%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%E5%A4%9A%E4%BA%BA%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B 403
+2026-04-29 05:34:26,858 [INFO] response: https://yandex.com/search/site/?text=World+Editor+multiplayer+fundamentals+tutorial&web=1&searchid=5982031 200
+2026-04-29 05:34:26,894 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor multiplayer fundamentals tu
+2026-04-29 05:34:27,343 [INFO] response: https://yandex.com/search/site/?text=%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%E5%A4%9A%E4%BA%BA%E6%B8%B8%E6%88%8F%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&web=1&searchid=2501403 200
+2026-04-29 05:34:27,381 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 世界编辑器多人游戏基础教程
+2026-04-29 05:34:27,382 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:29,464 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:29,465 [INFO] 🌐 双语查询: EN='Warcraft 3 单机地图 vs 多人地图区别' | ZH='Warcraft 3 单机地图 vs 多人地图区别'
+2026-04-29 05:34:29,695 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:29,702 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20%E5%8D%95%E6%9C%BA%E5%9C%B0%E5%9B%BE%20vs%20%E5%A4%9A%E4%BA%BA%E5%9C%B0%E5%9B%BE%E5%8C%BA%E5%88%AB)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20%E5%8D%95%E6%9C%BA%E5%9C%B0%E5%9B%BE%20vs%20%E5%A4%9A%E4%BA%BA%E5%9C%B0%E5%9B%BE%E5%8C%BA%E5%88%AB')")
+2026-04-29 05:34:29,714 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:29,723 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20%E5%8D%95%E6%9C%BA%E5%9C%B0%E5%9B%BE%20vs%20%E5%A4%9A%E4%BA%BA%E5%9C%B0%E5%9B%BE%E5%8C%BA%E5%88%AB)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20%E5%8D%95%E6%9C%BA%E5%9C%B0%E5%9B%BE%20vs%20%E5%A4%9A%E4%BA%BA%E5%9C%B0%E5%9B%BE%E5%8C%BA%E5%88%AB')")
+2026-04-29 05:34:29,942 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+%E5%8D%95%E6%9C%BA%E5%9C%B0%E5%9B%BE+vs+%E5%A4%9A%E4%BA%BA%E5%9C%B0%E5%9B%BE%E5%8C%BA%E5%88%AB&limit=1 200
+2026-04-29 05:34:30,107 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+%E5%8D%95%E6%9C%BA%E5%9C%B0%E5%9B%BE+vs+%E5%A4%9A%E4%BA%BA%E5%9C%B0%E5%9B%BE%E5%8C%BA%E5%88%AB&limit=1 200
+2026-04-29 05:34:30,143 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+%E5%8D%95%E6%9C%BA%E5%9C%B0%E5%9B%BE+vs+%E5%A4%9A%E4%BA%BA%E5%9C%B0%E5%9B%BE%E5%8C%BA%E5%88%AB 403
+2026-04-29 05:34:30,219 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+%E5%8D%95%E6%9C%BA%E5%9C%B0%E5%9B%BE+vs+%E5%A4%9A%E4%BA%BA%E5%9C%B0%E5%9B%BE%E5%8C%BA%E5%88%AB 403
+2026-04-29 05:34:30,249 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-29 05:34:30,417 [INFO] response: https://search.brave.com/search?q=Warcraft+3+%E5%8D%95%E6%9C%BA%E5%9C%B0%E5%9B%BE+vs+%E5%A4%9A%E4%BA%BA%E5%9C%B0%E5%9B%BE%E5%8C%BA%E5%88%AB&source=web 429
+2026-04-29 05:34:31,160 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+%E5%8D%95%E6%9C%BA%E5%9C%B0%E5%9B%BE+vs+%E5%A4%9A%E4%BA%BA%E5%9C%B0%E5%9B%BE%E5%8C%BA%E5%88%AB&web=1&searchid=2929045 200
+2026-04-29 05:34:31,171 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 单机地图 vs 多人地图区别
+2026-04-29 05:34:31,297 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+%E5%8D%95%E6%9C%BA%E5%9C%B0%E5%9B%BE+vs+%E5%A4%9A%E4%BA%BA%E5%9C%B0%E5%9B%BE%E5%8C%BA%E5%88%AB&web=1&searchid=8149362 200
+2026-04-29 05:34:31,323 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 单机地图 vs 多人地图区别
+2026-04-29 05:34:31,324 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:33,798 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:33,799 [INFO] 🌐 双语查询: EN='WC3 single player vs multiplayer map differences' | ZH='WC3 single player vs multiplayer map differences'
+2026-04-29 05:34:34,018 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:34,021 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:34,025 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20single%20player%20vs%20multiplayer%20map%20differences)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20single%20player%20vs%20multiplayer%20map%20differences')")
+2026-04-29 05:34:34,027 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20single%20player%20vs%20multiplayer%20map%20differences)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20single%20player%20vs%20multiplayer%20map%20differences')")
+2026-04-29 05:34:34,121 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-29 05:34:34,254 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+single+player+vs+multiplayer+map+differences&limit=1 200
+2026-04-29 05:34:34,407 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+single+player+vs+multiplayer+map+differences&limit=1 200
+2026-04-29 05:34:34,946 [INFO] response: https://yandex.com/search/site/?text=WC3+single+player+vs+multiplayer+map+differences&web=1&searchid=2206239 200
+2026-04-29 05:34:34,986 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 single player vs multiplayer map dif
+2026-04-29 05:34:35,357 [INFO] response: https://yandex.com/search/site/?text=WC3+single+player+vs+multiplayer+map+differences&web=1&searchid=6561354 200
+2026-04-29 05:34:35,386 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 single player vs multiplayer map dif
+2026-04-29 05:34:35,387 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:35,514 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:35,515 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-04-29 05:34:35,515 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-29 05:34:35,515 [INFO] ✅ 质量通过 (loop 1): score=0.72
+2026-04-29 05:34:35,516 [INFO] 📄 文章写入: docs/publishing/如何把地图发布到kk平台完整上传步骤.md
+2026-04-29 05:34:35,516 [INFO] 📐 PlannerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-04-29 05:34:35,517 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:38,454 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:38,456 [INFO] 🌐 双语查询: EN='KK平台 多人RPG地图 基础概念' | ZH='KK平台 多人RPG地图 基础概念'
+2026-04-29 05:34:38,647 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:38,650 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:34:38,656 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE%20%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE%20%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5')")
+2026-04-29 05:34:38,657 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE%20%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE%20%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5')")
+2026-04-29 05:34:38,775 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-29 05:34:38,826 [INFO] response: https://search.yahoo.com/search;_ylt=rcjjD1kBF2LxyULZpvUasebW;_ylu=qLRQPHnBdrnGm1EC9_nQccm_RS40vRyuwtoF1nL7v9o6Brc?p=KK%E5%B9%B3%E5%8F%B0+%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE+%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5 200
+2026-04-29 05:34:38,842 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0+%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE+%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&limit=1 200
+2026-04-29 05:34:38,993 [INFO] response: https://search.brave.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE+%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&source=web 429
+2026-04-29 05:34:40,097 [INFO] response: https://yandex.com/search/site/?text=KK%E5%B9%B3%E5%8F%B0+%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE+%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&web=1&searchid=2800624 200
+2026-04-29 05:34:40,134 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK平台 多人RPG地图 基础概念
+2026-04-29 05:34:40,267 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0+%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE+%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&limit=1 200
+2026-04-29 05:34:40,415 [INFO] response: https://search.brave.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE+%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&source=web 429
+2026-04-29 05:34:40,533 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-29 05:34:41,000 [INFO] response: https://www.mojeek.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE+%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5 403
+2026-04-29 05:34:41,853 [INFO] response: https://yandex.com/search/site/?text=KK%E5%B9%B3%E5%8F%B0+%E5%A4%9A%E4%BA%BARPG%E5%9C%B0%E5%9B%BE+%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5&web=1&searchid=5740529 200
+2026-04-29 05:34:41,890 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK平台 多人RPG地图 基础概念
+2026-04-29 05:34:41,890 [INFO]   搜索阶段：收集到 39 条候选结果
+2026-04-29 05:34:41,990 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/a-beginners-guide-to-map-making.8204/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/a-beginners-guide-to-map-making.8204/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-29 05:34:42,963 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/div_ma/article/details/80436727 — [Errno 104] Connection reset by peer
+2026-04-29 05:34:44,152 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/div_ma/article/details/80451131 — Server error '521 ' for url 'https://blog.csdn.net/div_ma/article/details/80451131'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-04-29 05:34:46,110 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:34:53,107 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:34:53,109 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:03,676 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:03,678 [INFO] ✅ PlannerAgent 完成: 6 节, 20 个查询
+2026-04-29 05:35:03,678 [INFO] 🔍 ResearcherAgent 开始: 设计第一个BOSS：AI技能和挑战性 (20 查询)
+2026-04-29 05:35:03,678 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:06,491 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:06,492 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG boss design guide' | ZH='Warcraft 3 RPG boss design guide'
+2026-04-29 05:35:06,689 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:06,695 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20boss%20design%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20boss%20design%20guide')")
+2026-04-29 05:35:06,713 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:06,719 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20boss%20design%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20boss%20design%20guide')")
+2026-04-29 05:35:07,052 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+RPG+boss+design+guide&limit=1 200
+2026-04-29 05:35:07,145 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+RPG+boss+design+guide 403
+2026-04-29 05:35:07,164 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+RPG+boss+design+guide 403
+2026-04-29 05:35:07,201 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+RPG+boss+design+guide&limit=1 200
+2026-04-29 05:35:07,240 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-29 05:35:07,292 [INFO] Error in engine yahoo: DDGSException("RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=f1WI8gL-kM5zG5YvhHKW2Ahe;_ylu=7b60GpLppfdxVCXkqmsDwdQh2wHWOmdxD44Jr4IU4nYdg-o?p=Warcraft+3+RPG+boss+design+guide)', 'https://search.yahoo.com/search;_ylt=f1WI8gL-kM5zG5YvhHKW2Ahe;_ylu=7b60GpLppfdxVCXkqmsDwdQh2wHWOmdxD44Jr4IU4nYdg-o?p=Warcraft+3+RPG+boss+design+guide')")
+2026-04-29 05:35:08,224 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+RPG+boss+design+guide&web=1&searchid=4404249 200
+2026-04-29 05:35:08,241 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+RPG+boss+design+guide&web=1&searchid=3050583 200
+2026-04-29 05:35:08,255 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 RPG boss design guide
+2026-04-29 05:35:08,280 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 RPG boss design guide
+2026-04-29 05:35:08,281 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:09,069 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:09,071 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:11,372 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:11,373 [INFO] 🌐 双语查询: EN='Warcraft III World Editor boss trigger tutorial' | ZH='Warcraft III World Editor boss trigger tutorial'
+2026-04-29 05:35:11,589 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:11,591 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:11,597 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20boss%20trigger%20tutorial)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20boss%20trigger%20tutorial')")
+2026-04-29 05:35:11,599 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20boss%20trigger%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20boss%20trigger%20tutorial')")
+2026-04-29 05:35:11,741 [INFO] response: https://search.brave.com/search?q=Warcraft+III+World+Editor+boss+trigger+tutorial&source=web 429
+2026-04-29 05:35:11,743 [INFO] response: https://search.brave.com/search?q=Warcraft+III+World+Editor+boss+trigger+tutorial&source=web 429
+2026-04-29 05:35:11,970 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+boss+trigger+tutorial&limit=1 200
+2026-04-29 05:35:12,132 [INFO] response: https://search.yahoo.com/search;_ylt=2bgUHJrTZ0FQGF7PozksfCDp;_ylu=SKaLi6ESxwUJlYoH_WX28xsc3xa6Z_7f4Xp5WEwpxGBdp5I?p=Warcraft+III+World+Editor+boss+trigger+tutorial 200
+2026-04-29 05:35:12,138 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+boss+trigger+tutorial&limit=1 200
+2026-04-29 05:35:12,579 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+World+Editor+boss+trigger+tutorial 403
+2026-04-29 05:35:13,062 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+World+Editor+boss+trigger+tutorial 403
+2026-04-29 05:35:13,159 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-29 05:35:13,598 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+World+Editor+boss+trigger+tutorial&web=1&searchid=5490850 200
+2026-04-29 05:35:13,638 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III World Editor boss trigger t
+2026-04-29 05:35:14,125 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:14,126 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-04-29 05:35:14,127 [INFO] ✍️  WriterAgent 开始: 多人地图入门：联机为什么和单机不一样 (loop 0)
+2026-04-29 05:35:14,127 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:14,140 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+World+Editor+boss+trigger+tutorial&web=1&searchid=1243221 200
+2026-04-29 05:35:14,168 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III World Editor boss trigger t
+2026-04-29 05:35:14,169 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:16,803 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:16,804 [INFO] 🌐 双语查询: EN='How to design RPG boss battles' | ZH='如何设计RPG BOSS战'
+2026-04-29 05:35:17,046 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:17,056 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=How%20to%20design%20RPG%20boss%20battles)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=How%20to%20design%20RPG%20boss%20battles')")
+2026-04-29 05:35:17,061 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:17,067 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1RPG%20BOSS%E6%88%98)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1RPG%20BOSS%E6%88%98')")
+2026-04-29 05:35:17,302 [INFO] response: https://search.brave.com/search?q=%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1RPG+BOSS%E6%88%98&source=web 429
+2026-04-29 05:35:17,396 [INFO] response: https://grokipedia.com/api/typeahead?query=How+to+design+RPG+boss+battles&limit=1 200
+2026-04-29 05:35:17,488 [INFO] response: https://grokipedia.com/api/typeahead?query=%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1RPG+BOSS%E6%88%98&limit=1 200
+2026-04-29 05:35:17,494 [INFO] response: https://www.mojeek.com/search?q=How+to+design+RPG+boss+battles 403
+2026-04-29 05:35:17,579 [INFO] Error in engine yahoo: DDGSException("RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=5_o1DvycRHiHa5t_hn3ScQp3;_ylu=L3Z_h4PMqn1pINPtVXok9QwEe_XJXjpDFZfHVA-WvdlcmGA?p=%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1RPG+BOSS%E6%88%98)', 'https://search.yahoo.com/search;_ylt=5_o1DvycRHiHa5t_hn3ScQp3;_ylu=L3Z_h4PMqn1pINPtVXok9QwEe_XJXjpDFZfHVA-WvdlcmGA?p=%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1RPG+BOSS%E6%88%98')")
+2026-04-29 05:35:18,024 [INFO] response: https://www.mojeek.com/search?q=%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1RPG+BOSS%E6%88%98 403
+2026-04-29 05:35:18,125 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-29 05:35:18,496 [INFO] response: https://yandex.com/search/site/?text=How+to+design+RPG+boss+battles&web=1&searchid=8902480 200
+2026-04-29 05:35:18,540 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | How to design RPG boss battles
+2026-04-29 05:35:19,131 [INFO] response: https://yandex.com/search/site/?text=%E5%A6%82%E4%BD%95%E8%AE%BE%E8%AE%A1RPG+BOSS%E6%88%98&web=1&searchid=1736948 200
+2026-04-29 05:35:19,183 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 如何设计RPG BOSS战
+2026-04-29 05:35:19,184 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:21,577 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:21,578 [INFO] 🌐 双语查询: EN='what makes a good boss fight game design' | ZH='what makes a good boss fight game design'
+2026-04-29 05:35:21,778 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:21,783 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=what%20makes%20a%20good%20boss%20fight%20game%20design)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=what%20makes%20a%20good%20boss%20fight%20game%20design')")
+2026-04-29 05:35:21,793 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:21,804 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=what%20makes%20a%20good%20boss%20fight%20game%20design)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=what%20makes%20a%20good%20boss%20fight%20game%20design')")
+2026-04-29 05:35:21,929 [INFO] response: https://search.yahoo.com/search;_ylt=fRaQ255u02XEvS8HxYZrJWwg;_ylu=U85-YiseP2lETGIvaAXGFtNT2jvPN4ake-QUrHeZQcLNBbY?p=what+makes+a+good+boss+fight+game+design 200
+2026-04-29 05:35:22,206 [INFO] response: https://grokipedia.com/api/typeahead?query=what+makes+a+good+boss+fight+game+design&limit=1 200
+2026-04-29 05:35:22,274 [INFO] response: https://www.mojeek.com/search?q=what+makes+a+good+boss+fight+game+design 403
+2026-04-29 05:35:22,419 [INFO] response: https://search.brave.com/search?q=what+makes+a+good+boss+fight+game+design&source=web 429
+2026-04-29 05:35:22,622 [INFO] response: https://search.yahoo.com/search;_ylt=XsWO1YezxnWfr2odbV7tqZFF;_ylu=yTEq0uwkfyLlZHOnvX32nMvszW0JZxslylV1rqG_xzeLgl4?p=what+makes+a+good+boss+fight+game+design 200
+2026-04-29 05:35:22,781 [INFO] response: https://grokipedia.com/api/typeahead?query=what+makes+a+good+boss+fight+game+design&limit=1 200
+2026-04-29 05:35:23,221 [INFO] response: https://www.mojeek.com/search?q=what+makes+a+good+boss+fight+game+design 403
+2026-04-29 05:35:23,349 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-29 05:35:23,492 [INFO] response: https://search.brave.com/search?q=what+makes+a+good+boss+fight+game+design&source=web 429
+2026-04-29 05:35:24,074 [INFO] response: https://yandex.com/search/site/?text=what+makes+a+good+boss+fight+game+design&web=1&searchid=8512276 200
+2026-04-29 05:35:24,115 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | what makes a good boss fight game design
+2026-04-29 05:35:24,346 [INFO] response: https://yandex.com/search/site/?text=what+makes+a+good+boss+fight+game+design&web=1&searchid=6764895 200
+2026-04-29 05:35:24,383 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | what makes a good boss fight game design
+2026-04-29 05:35:24,384 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:27,527 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:27,528 [INFO] 🌐 双语查询: EN='RPG boss encounter design principles' | ZH='RPG boss encounter design principles'
+2026-04-29 05:35:27,747 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:27,750 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:27,764 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%20boss%20encounter%20design%20principles)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%20boss%20encounter%20design%20principles')")
+2026-04-29 05:35:27,767 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%20boss%20encounter%20design%20principles)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%20boss%20encounter%20design%20principles')")
+2026-04-29 05:35:27,921 [INFO] response: https://search.yahoo.com/search;_ylt=oBteahdfyYBjwpE6aCI11tR2;_ylu=Qyp8MY0vscere_bVkQ3vVlHEit-gycfCTClpgSfTtGnU4nU?p=RPG+boss+encounter+design+principles 200
+2026-04-29 05:35:28,088 [INFO] response: https://grokipedia.com/api/typeahead?query=RPG+boss+encounter+design+principles&limit=1 200
+2026-04-29 05:35:28,210 [INFO] response: https://www.mojeek.com/search?q=RPG+boss+encounter+design+principles 403
+2026-04-29 05:35:28,226 [INFO] response: https://grokipedia.com/api/typeahead?query=RPG+boss+encounter+design+principles&limit=1 200
+2026-04-29 05:35:28,512 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | RPG boss encounter design principles
+2026-04-29 05:35:29,191 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:29,193 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:29,214 [INFO] response: https://yandex.com/search/site/?text=RPG+boss+encounter+design+principles&web=1&searchid=2580143 200
+2026-04-29 05:35:29,250 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | RPG boss encounter design principles
+2026-04-29 05:35:29,251 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:31,837 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:31,838 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor custom unit creation' | ZH='Warcraft 3 World Editor custom unit creation'
+2026-04-29 05:35:32,042 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:32,048 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20custom%20unit%20creation)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20custom%20unit%20creation')")
+2026-04-29 05:35:32,057 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-29 05:35:32,073 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20custom%20unit%20creation)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20custom%20unit%20creation')")
+2026-04-29 05:35:32,286 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+custom+unit+creation&limit=1 200
+2026-04-29 05:35:32,418 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+custom+unit+creation&limit=1 200
+2026-04-29 05:35:32,487 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+custom+unit+creation 403
+2026-04-29 05:35:32,515 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+custom+unit+creation 403
+2026-04-29 05:35:32,630 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-29 05:35:32,721 [INFO] Error in engine yahoo: DDGSException("RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=u_SLIjdeTFQTFpUAoWi92Zjg;_ylu=PLFI1tPpWwELQiCzyB5onwqasJcdPgYRbWeDrgzmSb14Hjw?p=Warcraft+3+World+Editor+custom+unit+creation)', 'https://search.yahoo.com/search;_ylt=u_SLIjdeTFQTFpUAoWi92Zjg;_ylu=PLFI1tPpWwELQiCzyB5onwqasJcdPgYRbWeDrgzmSb14Hjw?p=Warcraft+3+World+Editor+custom+unit+creation')")
+2026-04-29 05:35:32,872 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+custom+unit+creation&source=web 429
+2026-04-29 05:35:33,534 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+custom+unit+creation&web=1&searchid=9008196 200
+2026-04-29 05:35:33,561 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor custom unit crea
+2026-04-29 05:35:33,927 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+custom+unit+creation&web=1&searchid=1272957 200
+2026-04-29 05:35:33,981 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor custom unit crea
+2026-04-29 05:35:33,981 [INFO]   搜索阶段：收集到 39 条候选结果
+2026-04-29 05:35:34,876 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:34,878 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:34,924 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/627356428 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/627356428'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-29 05:35:37,576 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:49,788 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:49,789 [INFO] ✅ WriterAgent 完成: 5327 字符, 3/5 来源被引用
+2026-04-29 05:35:49,789 [INFO] 🔎 ReviewerAgent 开始: 5个让新手地图看起来更好看的地形技巧
+2026-04-29 05:35:49,790 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:35:55,255 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:35:55,256 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-04-29 05:35:55,256 [INFO] ✍️  WriterAgent 开始: 设计第一个BOSS：AI技能和挑战性 (loop 0)
+2026-04-29 05:35:55,257 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:36:01,186 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:36:01,187 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:36:16,143 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:36:16,145 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:36:17,269 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:36:17,270 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 35 (char 217)
+2026-04-29 05:36:17,270 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-29 05:36:17,270 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-29 05:36:17,271 [INFO] 📄 文章写入: docs/terrain/5个让新手地图看起来更好看的地形技巧.md
+2026-04-29 05:36:22,286 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:36:22,288 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:36:32,944 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:36:32,946 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:36:46,861 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:36:46,862 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:36:54,821 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:36:54,823 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:37:12,109 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:37:12,111 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:37:15,227 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:37:15,229 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:37:33,038 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:37:33,039 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:37:37,616 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:37:37,617 [INFO] ✅ WriterAgent 完成: 8204 字符, 5/5 来源被引用
+2026-04-29 05:37:37,617 [INFO] 🔎 ReviewerAgent 开始: 多人地图入门：联机为什么和单机不一样
+2026-04-29 05:37:37,618 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:37:48,600 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:37:48,601 [INFO] ✅ WriterAgent 完成: 7128 字符, 3/3 来源被引用
+2026-04-29 05:37:48,601 [INFO] 🔎 ReviewerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-04-29 05:37:48,602 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-29 05:37:56,120 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-29 05:37:56,121 [INFO] ✅ 通过 ReviewerAgent: overall=0.77 (A=0.80 C=0.75 R=0.90 Cit=0.50)
+2026-04-29 05:37:56,121 [INFO]   反馈 5 条:
+2026-04-29 05:37:56,121 [INFO]   [missing_citation] 触发器的实际执行只在主机上运行，主机算完之后，再把结果告诉其他玩家...
+2026-04-29 05:37:56,121 [INFO]   [missing_citation] 解决方法：尽量使用计时器（Timer）代替等待（Wait）...
+2026-04-29 05:37:56,121 [INFO]   [missing_citation] 在游戏启动时添加 -debug 参数...
+2026-04-29 05:37:56,121 [INFO]   [incomplete_section] 推荐的学习资源与社区...
+2026-04-29 05:37:56,121 [INFO]   [missing_citation] 每当你添加新的变量或触发器时，先问自己——这个数据在联机时需要同步吗？...
+2026-04-29 05:37:56,121 [INFO] ✅ 质量通过 (loop 0): score=0.77
+2026-04-29 05:37:56,122 [INFO] 📄 文章写入: docs/rpg-systems/多人地图入门联机为什么和单机不一样.md
