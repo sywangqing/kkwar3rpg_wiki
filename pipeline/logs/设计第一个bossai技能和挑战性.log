@@ -873,3 +873,188 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-04-29 05:38:19,085 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
 2026-04-29 05:38:19,085 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-04-29 05:38:19,085 [INFO] 📄 文章写入: docs/rpg-systems/设计第一个bossai技能和挑战性.md
+2026-04-30 05:38:39,062 [INFO] 📐 PlannerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-04-30 05:38:39,063 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:38:46,797 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:38:46,799 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:38:52,445 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:38:52,447 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:38:59,497 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:38:59,498 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-04-30 05:38:59,498 [INFO] 🔍 ResearcherAgent 开始: 设计第一个BOSS：AI技能和挑战性 (21 查询)
+2026-04-30 05:38:59,499 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:39:01,925 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:39:01,926 [INFO] 🌐 双语查询: EN='Warcraft 3 Reforged RPG boss design tutorial' | ZH='Warcraft 3 Reforged RPG boss design tutorial'
+2026-04-30 05:39:02,015 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:02,027 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:02,040 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20RPG%20boss%20design%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20RPG%20boss%20design%20tutorial')")
+2026-04-30 05:39:02,106 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20RPG%20boss%20design%20tutorial)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20RPG%20boss%20design%20tutorial')")
+2026-04-30 05:39:02,225 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-30 05:39:03,102 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+Reforged+RPG+boss+design+tutorial&web=1&searchid=8001949 200
+2026-04-30 05:39:03,268 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Reforged+RPG+boss+design+tutorial&limit=1 200
+2026-04-30 05:39:03,268 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Reforged RPG boss design tuto
+2026-04-30 05:39:03,325 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Reforged+RPG+boss+design+tutorial&limit=1 200
+2026-04-30 05:39:04,126 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+Reforged+RPG+boss+design+tutorial&web=1&searchid=2608321 200
+2026-04-30 05:39:04,152 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Reforged RPG boss design tuto
+2026-04-30 05:39:04,153 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:39:06,473 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:39:06,474 [INFO] 🌐 双语查询: EN='KK地图编辑器 RPG BOSS制作教程' | ZH='KK地图编辑器 RPG BOSS制作教程'
+2026-04-30 05:39:06,582 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:06,584 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:06,593 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20RPG%20BOSS%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20RPG%20BOSS%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B')")
+2026-04-30 05:39:06,713 [INFO] response: https://search.yahoo.com/search;_ylt=CgDh7Fw6F5cYVo4zJ11saqXJ;_ylu=AhSo4SnB035VmEYCwy6fJN9XEcU0YQvxFK11PBRiqHQr5gI?p=KK%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+RPG+BOSS%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B 200
+2026-04-30 05:39:06,762 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20RPG%20BOSS%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20RPG%20BOSS%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B')")
+2026-04-30 05:39:06,769 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+RPG+BOSS%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-30 05:39:06,822 [INFO] Error in engine yahoo: DDGSException("RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=h7GVaxSbUoL7DVsD-EYvaguF;_ylu=LpP6v1ARPjakTuhLFiDM6-688mkHUvGaLI0_8CKc7tFmMRM?p=KK%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+RPG+BOSS%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B)', 'https://search.yahoo.com/search;_ylt=h7GVaxSbUoL7DVsD-EYvaguF;_ylu=LpP6v1ARPjakTuhLFiDM6-688mkHUvGaLI0_8CKc7tFmMRM?p=KK%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+RPG+BOSS%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B')")
+2026-04-30 05:39:06,865 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+RPG+BOSS%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-30 05:39:06,960 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-30 05:39:07,816 [INFO] response: https://yandex.com/search/site/?text=KK%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+RPG+BOSS%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B&web=1&searchid=2016207 200
+2026-04-30 05:39:07,855 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK地图编辑器 RPG BOSS制作教程
+2026-04-30 05:39:07,974 [INFO] response: https://yandex.com/search/site/?text=KK%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+RPG+BOSS%E5%88%B6%E4%BD%9C%E6%95%99%E7%A8%8B&web=1&searchid=1016908 200
+2026-04-30 05:39:08,008 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK地图编辑器 RPG BOSS制作教程
+2026-04-30 05:39:08,009 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:39:10,728 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:39:10,730 [INFO] 🌐 双语查询: EN='WC3 World Editor 触发器新手教程' | ZH='WC3 World Editor 触发器新手教程'
+2026-04-30 05:39:10,802 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:10,810 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B')")
+2026-04-30 05:39:10,823 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:10,829 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B')")
+2026-04-30 05:39:10,902 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-30 05:39:10,929 [INFO] response: https://search.yahoo.com/search;_ylt=JnnYxuPy9SSI62HeX7x8Hptk;_ylu=UV3eRq5Ig6_dpjytHg1ukx0m_LZD-ZivLVrjBoi-c9Rvt3I?p=WC3+World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-04-30 05:39:10,966 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-30 05:39:11,612 [INFO] response: https://yandex.com/search/site/?text=WC3+World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&web=1&searchid=6372403 200
+2026-04-30 05:39:11,637 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor 触发器新手教程
+2026-04-30 05:39:11,782 [INFO] response: https://www.mojeek.com/search?q=WC3+World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 403
+2026-04-30 05:39:12,535 [INFO] response: https://yandex.com/search/site/?text=WC3+World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&web=1&searchid=4097048 200
+2026-04-30 05:39:12,555 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor 触发器新手教程
+2026-04-30 05:39:12,556 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:39:12,579 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:39:12,581 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:39:16,438 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:39:16,439 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG boss design principles' | ZH='Warcraft 3 RPG boss design principles'
+2026-04-30 05:39:16,513 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:16,516 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:16,527 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20boss%20design%20principles)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20boss%20design%20principles')")
+2026-04-30 05:39:16,530 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20boss%20design%20principles)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20boss%20design%20principles')")
+2026-04-30 05:39:16,626 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+RPG+boss+design+principles&limit=1 200
+2026-04-30 05:39:16,659 [INFO] response: https://search.brave.com/search?q=Warcraft+3+RPG+boss+design+principles&source=web 429
+2026-04-30 05:39:17,312 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+RPG+boss+design+principles&limit=1 200
+2026-04-30 05:39:17,331 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+RPG+boss+design+principles&web=1&searchid=3187018 200
+2026-04-30 05:39:17,356 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 RPG boss design principles
+2026-04-30 05:39:17,586 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+RPG+boss+design+principles&web=1&searchid=1308041 200
+2026-04-30 05:39:17,616 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 RPG boss design principles
+2026-04-30 05:39:17,617 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:39:19,693 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:39:19,694 [INFO] ✅ WriterAgent 完成: 5437 字符, 4/4 来源被引用
+2026-04-30 05:39:19,694 [INFO] 🔎 ReviewerAgent 开始: 5个让新手地图看起来更好看的地形技巧
+2026-04-30 05:39:19,695 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:39:20,536 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:39:20,537 [INFO] 🌐 双语查询: EN='RPG游戏BOSS战设计基础教程' | ZH='RPG游戏BOSS战设计基础教程'
+2026-04-30 05:39:20,613 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:20,622 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E6%B8%B8%E6%88%8FBOSS%E6%88%98%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E6%B8%B8%E6%88%8FBOSS%E6%88%98%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-04-30 05:39:20,630 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:20,677 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E6%B8%B8%E6%88%8FBOSS%E6%88%98%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E6%B8%B8%E6%88%8FBOSS%E6%88%98%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-04-30 05:39:20,709 [INFO] response: https://grokipedia.com/api/typeahead?query=RPG%E6%B8%B8%E6%88%8FBOSS%E6%88%98%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-30 05:39:20,711 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-30 05:39:20,731 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-30 05:39:20,771 [INFO] response: https://grokipedia.com/api/typeahead?query=RPG%E6%B8%B8%E6%88%8FBOSS%E6%88%98%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-04-30 05:39:20,851 [INFO] Error in engine yahoo: DDGSException("RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=X6ZilcFg2g6no0LhGgvpimtn;_ylu=srY3FMR-IzifNOW6qOoE3A8udzMdneJquFW2xV8g5s544mA?p=RPG%E6%B8%B8%E6%88%8FBOSS%E6%88%98%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://search.yahoo.com/search;_ylt=X6ZilcFg2g6no0LhGgvpimtn;_ylu=srY3FMR-IzifNOW6qOoE3A8udzMdneJquFW2xV8g5s544mA?p=RPG%E6%B8%B8%E6%88%8FBOSS%E6%88%98%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-04-30 05:39:21,030 [INFO] response: https://www.mojeek.com/search?q=RPG%E6%B8%B8%E6%88%8FBOSS%E6%88%98%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B 403
+2026-04-30 05:39:21,789 [INFO] response: https://yandex.com/search/site/?text=RPG%E6%B8%B8%E6%88%8FBOSS%E6%88%98%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&web=1&searchid=3271286 200
+2026-04-30 05:39:21,810 [INFO] response: https://yandex.com/search/site/?text=RPG%E6%B8%B8%E6%88%8FBOSS%E6%88%98%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&web=1&searchid=7012484 200
+2026-04-30 05:39:21,822 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | RPG游戏BOSS战设计基础教程
+2026-04-30 05:39:21,841 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | RPG游戏BOSS战设计基础教程
+2026-04-30 05:39:21,842 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:39:24,544 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:39:24,545 [INFO] 🌐 双语查询: EN='KK平台RPG地图BOSS设计入门' | ZH='KK平台RPG地图BOSS设计入门'
+2026-04-30 05:39:24,664 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:24,666 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:39:24,714 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8')")
+2026-04-30 05:39:24,788 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8&limit=1 200
+2026-04-30 05:39:24,831 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8&limit=1 200
+2026-04-30 05:39:24,875 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8')")
+2026-04-30 05:39:24,935 [INFO] Error in engine yahoo: DDGSException("RequestError: RequestError('error sending request for url (https://search.yahoo.com/search;_ylt=lA4_5qYWl_NikBcRajXsvj-Y;_ylu=xO_s5mprUvFly64NqkZraA3T_Wk3UOdx60efFG6YqxbBA5k?p=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8)', 'https://search.yahoo.com/search;_ylt=lA4_5qYWl_NikBcRajXsvj-Y;_ylu=xO_s5mprUvFly64NqkZraA3T_Wk3UOdx60efFG6YqxbBA5k?p=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8')")
+2026-04-30 05:39:25,076 [INFO] response: https://www.mojeek.com/search?q=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8 403
+2026-04-30 05:39:25,182 [INFO] response: https://search.brave.com/search?q=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8&source=web 429
+2026-04-30 05:39:25,484 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-30 05:39:25,721 [INFO] response: https://yandex.com/search/site/?text=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8&web=1&searchid=4754873 200
+2026-04-30 05:39:25,746 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK平台RPG地图BOSS设计入门
+2026-04-30 05:39:26,245 [INFO] response: https://yandex.com/search/site/?text=KK%E5%B9%B3%E5%8F%B0RPG%E5%9C%B0%E5%9B%BEBOSS%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8&web=1&searchid=8129471 200
+2026-04-30 05:39:26,266 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK平台RPG地图BOSS设计入门
+2026-04-30 05:39:26,266 [INFO]   搜索阶段：收集到 31 条候选结果
+2026-04-30 05:39:26,376 [WARNING] ⚠️  抓取失败，已忽略: https://www.acgjlb.cc/77631.html — Client error '403 Forbidden' for url 'https://www.acgjlb.cc/77631.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-30 05:39:26,426 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/ — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-30 05:39:26,772 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/627356428 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/627356428'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-30 05:39:27,116 [WARNING] ⚠️  抓取失败，已忽略: https://www.zhihu.com/ — Client error '403 Forbidden' for url 'https://www.zhihu.com/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-30 05:39:27,479 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:39:47,141 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:39:47,142 [INFO] ✅ WriterAgent 完成: 8950 字符, 6/6 来源被引用
+2026-04-30 05:39:47,142 [INFO] 🔎 ReviewerAgent 开始: 多人地图入门：联机为什么和单机不一样
+2026-04-30 05:39:47,143 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:39:55,141 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:39:55,142 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-04-30 05:39:55,142 [INFO] ✍️  WriterAgent 开始: 设计第一个BOSS：AI技能和挑战性 (loop 0)
+2026-04-30 05:39:55,143 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:39:57,765 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:39:57,766 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-04-30 05:39:57,766 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-30 05:39:57,766 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-30 05:39:57,767 [INFO] 📄 文章写入: docs/terrain/5个让新手地图看起来更好看的地形技巧.md
+2026-04-30 05:40:08,111 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:40:08,113 [INFO] ✅ 通过 ReviewerAgent: overall=0.81 (A=0.82 C=0.78 R=0.88 Cit=0.68)
+2026-04-30 05:40:08,113 [INFO]   反馈 5 条:
+2026-04-30 05:40:08,113 [INFO]   [missing_citation] 90%的联机bug在单人模式下根本不会出现！...
+2026-04-30 05:40:08,113 [INFO]   [missing_citation] 这个传输过程需要时间（通常几十到几百毫秒）...
+2026-04-30 05:40:08,113 [INFO]   [missing_citation] 建议先制作一个最简单的2人对战地图...
+2026-04-30 05:40:08,113 [INFO]   [incomplete_section] 触发器在联机中的工作原理 — 本地执行与全局执行的差异...
+2026-04-30 05:40:08,113 [INFO]   [missing_citation] 按Ctrl+F9可以打开调试控制台...
+2026-04-30 05:40:08,113 [INFO] ✅ 质量通过 (loop 0): score=0.81
+2026-04-30 05:40:08,113 [INFO] 📄 文章写入: docs/rpg-systems/多人地图入门联机为什么和单机不一样.md
+2026-04-30 05:40:10,664 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:40:10,666 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:40:33,480 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:40:33,481 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:41:13,181 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:41:13,183 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:41:36,277 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:41:36,278 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:42:00,358 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:42:00,360 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:42:26,127 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:42:26,128 [INFO] ✅ WriterAgent 完成: 8058 字符, 3/3 来源被引用
+2026-04-30 05:42:26,128 [INFO] 🔎 ReviewerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-04-30 05:42:26,129 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:42:45,846 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:42:45,847 [INFO] ✅ 通过 ReviewerAgent: overall=0.81 (A=0.80 C=0.85 R=0.92 Cit=0.65)
+2026-04-30 05:42:45,848 [INFO]   反馈 5 条:
+2026-04-30 05:42:45,848 [INFO]   [missing_citation] 第一个BOSS的技能数量最好控制在3个以内，让玩家能够集中注意力学习每一个技能的躲避方法...
+2026-04-30 05:42:45,848 [INFO]   [missing_citation] 通常10点护甲约等于30%物理减伤...
+2026-04-30 05:42:45,848 [INFO]   [factual_error] 建议设置为玩家队伍平均HP总和的3-5倍[^3]...
+2026-04-30 05:42:45,848 [INFO]   [missing_citation] 召唤出的小怪强度应该是普通怪的80%...
+2026-04-30 05:42:45,848 [INFO]   [incomplete_section] The article lacks any mention of BOSS storytelling/lore inte...
+2026-04-30 05:42:45,848 [INFO] ✅ 质量通过 (loop 0): score=0.81
+2026-04-30 05:42:45,848 [INFO] 📄 文章写入: docs/rpg-systems/设计第一个bossai技能和挑战性.md

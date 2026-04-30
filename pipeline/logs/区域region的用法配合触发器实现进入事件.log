@@ -1218,3 +1218,142 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-04-29 05:32:26,195 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
 2026-04-29 05:32:26,195 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-04-29 05:32:26,196 [INFO] 📄 文章写入: docs/terrain/区域region的用法配合触发器实现进入事件.md
+2026-04-30 05:32:29,603 [INFO] 📐 PlannerAgent 开始: 区域Region的用法：配合触发器实现进入事件
+2026-04-30 05:32:29,604 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:32:29,674 [INFO] response: https://search.brave.com/search?q=KK+platform+account+registration+Warcraft+III&source=web 429
+2026-04-30 05:32:29,790 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF%E5%8E%9F%E5%9B%A0 403
+2026-04-30 05:32:29,917 [INFO] response: https://search.yahoo.com/search;_ylt=ZM5Rn3pO8hVAAVRLv4s5RzV1;_ylu=DMQICoou38TI6Nc_iIXsSn2Dc7Ys6HKKC_t2EcskLtdkOYc?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF%E5%8E%9F%E5%9B%A0 200
+2026-04-30 05:32:30,083 [INFO] response: https://yandex.com/search/site/?text=KK+platform+account+registration+Warcraft+III&web=1&searchid=2495993 200
+2026-04-30 05:32:30,107 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK platform account registration Warcraf
+2026-04-30 05:32:30,381 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 地图卡顿原因
+2026-04-30 05:32:30,582 [INFO] response: https://search.yahoo.com/search;_ylt=aZxGW7nkYEOFIRQJ2aWb1AHS;_ylu=nI6gUHchABXRvYr1MYL9U3YeIKF6OX0pS3rs7hdVl7E5UCk?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF%E5%8E%9F%E5%9B%A0 200
+2026-04-30 05:32:30,865 [INFO] response: https://search.yahoo.com/search;_ylt=QS7_ZqqHdwuRJ345vx4ylb8z;_ylu=4H9zkYjGSz-1XDcSjX7MVbXnm7KXwEO4T5kcOwJ70YU8s4o?p=KK+platform+account+registration+Warcraft+III 200
+2026-04-30 05:32:31,367 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%20platform%20account%20registration%20Warcraft%20III)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%20platform%20account%20registration%20Warcraft%20III')
+2026-04-30 05:32:31,367 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | KK platform account registration Warcraf
+2026-04-30 05:32:31,367 [INFO]   搜索阶段：收集到 38 条候选结果
+2026-04-30 05:32:31,401 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF%E5%8E%9F%E5%9B%A0 403
+2026-04-30 05:32:32,274 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF%E5%8E%9F%E5%9B%A0&web=1&searchid=6927114 200
+2026-04-30 05:32:32,296 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 地图卡顿原因
+2026-04-30 05:32:32,296 [INFO]   搜索阶段：收集到 42 条候选结果
+2026-04-30 05:32:32,434 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/WC3/comments/1b0xgiy/w3champion_2024_feb_26_statistics/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/WC3/comments/1b0xgiy/w3champion_2024_feb_26_statistics/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-30 05:32:32,488 [WARNING] ⚠️  抓取失败，已忽略: https://www.badfl.com/links/1957.html — Client error '403 Forbidden' for url 'https://www.badfl.com/links/1957.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-30 05:32:33,549 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/WC3/comments/13m6wkd/performance_issues_after_136_whats_your_pc_setup/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/WC3/comments/13m6wkd/performance_issues_after_136_whats_your_pc_setup/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-30 05:32:33,903 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:32:34,077 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:32:54,641 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:32:54,642 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-04-30 05:32:54,643 [INFO] ✍️  WriterAgent 开始: 地图性能优化：解决卡顿掉帧问题 (loop 0)
+2026-04-30 05:32:54,643 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:32:59,297 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:32:59,298 [ERROR] PlannerAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+原始输出: ```json
+{
+  "outline": [
+    {
+      "title": "什么是区域（Region）？",
+      "level": 2,
+      "search_queries": [
+        "Warcraft 3 World Editor region tutorial",
+        "魔兽争霸3 区域功能介绍",
+        "WC3 region vs playable area"
+      ],
+      "children": [
+        {
+          "title": "区域的基本概念与用途",
+       
+2026-04-30 05:32:59,298 [INFO] ✅ PlannerAgent 完成: 1 节, 2 个查询
+2026-04-30 05:32:59,299 [INFO] 🔍 ResearcherAgent 开始: 区域Region的用法：配合触发器实现进入事件 (2 查询)
+2026-04-30 05:32:59,299 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:33:01,990 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:33:01,990 [INFO] 🌐 双语查询: EN='区域Region的用法：配合触发器实现进入事件' | ZH='区域Region的用法：配合触发器实现进入事件'
+2026-04-30 05:33:02,066 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:33:02,068 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:33:02,114 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6')")
+2026-04-30 05:33:02,118 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6')")
+2026-04-30 05:33:02,164 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-30 05:33:02,187 [INFO] response: https://grokipedia.com/api/typeahead?query=%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6&limit=1 200
+2026-04-30 05:33:02,280 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:33:02,281 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-04-30 05:33:02,281 [INFO] ✍️  WriterAgent 开始: 如何把地图发布到KK平台：完整上传步骤 (loop 0)
+2026-04-30 05:33:02,282 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:33:02,801 [INFO] response: https://grokipedia.com/api/typeahead?query=%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6&limit=1 200
+2026-04-30 05:33:02,920 [INFO] response: https://search.yahoo.com/search;_ylt=J2V5wk4tzJIt76QKWQcKgT8u;_ylu=diDVVTMP1xV3QrT-9ZjF8hmva3fZ_W6-ewKp561NBKqQLj8?p=%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6 200
+2026-04-30 05:33:03,040 [INFO] response: https://yandex.com/search/site/?text=%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6&web=1&searchid=4423455 200
+2026-04-30 05:33:03,074 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 区域Region的用法：配合触发器实现进入事件
+2026-04-30 05:33:03,357 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 区域Region的用法：配合触发器实现进入事件
+2026-04-30 05:33:03,358 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:33:05,585 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:33:05,586 [INFO] 🌐 双语查询: EN='Warcraft III 区域Region的用法：配合触发器实现进入事件' | ZH='Warcraft III 区域Region的用法：配合触发器实现进入事件'
+2026-04-30 05:33:05,717 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:33:05,719 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:33:05,727 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6')")
+2026-04-30 05:33:05,728 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6')")
+2026-04-30 05:33:05,829 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6&source=web 429
+2026-04-30 05:33:05,844 [INFO] response: https://search.yahoo.com/search;_ylt=X2MnhdUWX_PaPtqIeLqcNcT5;_ylu=tYlOkFcJzqbGy6bnSW1JUKjilSXpbNAiP_iubeSJ2cVfKNk?p=Warcraft+III+%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6 200
+2026-04-30 05:33:05,878 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6&limit=1 200
+2026-04-30 05:33:06,035 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6&limit=1 200
+2026-04-30 05:33:06,290 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-04-30 05:33:06,866 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6&web=1&searchid=7055937 200
+2026-04-30 05:33:06,895 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 区域Region的用法：配合触发器实现进入事件
+2026-04-30 05:33:07,213 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6&web=1&searchid=6661305 200
+2026-04-30 05:33:07,247 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 区域Region的用法：配合触发器实现进入事件
+2026-04-30 05:33:07,247 [INFO]   搜索阶段：收集到 13 条候选结果
+2026-04-30 05:33:07,733 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/685777446 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/685777446'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-04-30 05:33:09,443 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/weixin_46287861/article/details/130648403 — Server error '521 ' for url 'https://blog.csdn.net/weixin_46287861/article/details/130648403'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-04-30 05:33:13,567 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:33:13,569 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:33:16,203 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:33:20,039 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:33:20,041 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:33:37,358 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:33:37,359 [WARNING] 来源不足（0/3），扩大搜索...
+2026-04-30 05:33:37,512 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-04-30 05:33:37,520 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6%20tutorial%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6%20tutorial%20guide')")
+2026-04-30 05:33:37,690 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6+tutorial+guide&source=web 429
+2026-04-30 05:33:37,704 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6+tutorial+guide&limit=1 200
+2026-04-30 05:33:38,475 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E5%8C%BA%E5%9F%9FRegion%E7%9A%84%E7%94%A8%E6%B3%95%EF%BC%9A%E9%85%8D%E5%90%88%E8%A7%A6%E5%8F%91%E5%99%A8%E5%AE%9E%E7%8E%B0%E8%BF%9B%E5%85%A5%E4%BA%8B%E4%BB%B6+tutorial+guide&web=1&searchid=3980701 200
+2026-04-30 05:33:38,505 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 区域Region的用法：配合触发器实现进入事件 tut
+2026-04-30 05:33:38,505 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-04-30 05:33:38,505 [INFO] ✍️  WriterAgent 开始: 区域Region的用法：配合触发器实现进入事件 (loop 0)
+2026-04-30 05:33:38,506 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:33:40,061 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:33:40,063 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:33:45,491 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:33:45,493 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:33:57,956 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:33:57,958 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:34:02,684 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:34:02,685 [INFO] ✅ WriterAgent 完成: 1206 字符, 3/3 来源被引用
+2026-04-30 05:34:02,685 [INFO] 🔎 ReviewerAgent 开始: 区域Region的用法：配合触发器实现进入事件
+2026-04-30 05:34:02,686 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:34:09,776 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:34:09,778 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:34:23,018 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:34:23,019 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-04-30 05:34:23,990 [INFO] Wrapper: Completed Call, calling success_handler
+2026-04-30 05:34:23,991 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 15 column 59 (char 451)
+2026-04-30 05:34:23,991 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-04-30 05:34:23,991 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-04-30 05:34:23,992 [INFO] 📄 文章写入: docs/terrain/区域region的用法配合触发器实现进入事件.md
