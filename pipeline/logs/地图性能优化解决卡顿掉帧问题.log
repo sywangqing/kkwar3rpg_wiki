@@ -2278,3 +2278,275 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-01 05:46:37,328 [INFO]   [incomplete_section] JASS代码优化 section lacks concrete code examples...
 2026-05-01 05:46:37,328 [INFO] ✅ 质量通过 (loop 0): score=0.82
 2026-05-01 05:46:37,329 [INFO] 📄 文章写入: docs/publishing/地图性能优化解决卡顿掉帧问题.md
+2026-05-02 05:00:12,770 [INFO] 📐 PlannerAgent 开始: 地图性能优化：解决卡顿掉帧问题
+2026-05-02 05:00:12,771 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:13,388 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:13,389 [INFO] ✅ WriterAgent 完成: 6704 字符, 5/5 来源被引用
+2026-05-02 05:00:13,390 [INFO] 🔎 ReviewerAgent 开始: 哪里找帮助？新手必收藏的社区和学习资源
+2026-05-02 05:00:13,390 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:14,714 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:14,716 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:30,416 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:30,417 [INFO] ✅ 通过 ReviewerAgent: overall=0.78 (A=0.70 C=0.85 R=0.92 Cit=0.55)
+2026-05-02 05:00:30,417 [INFO]   反馈 5 条:
+2026-05-02 05:00:30,417 [INFO]   [factual_error] 访问 hiveworkshop.com，这是全球最大的 Warcraft 3 自定义地图社区...
+2026-05-02 05:00:30,417 [INFO]   [missing_citation] KK平台专属社区部分全部内容...
+2026-05-02 05:00:30,418 [INFO]   [missing_citation] 国内RPG地图论坛部分全部内容...
+2026-05-02 05:00:30,418 [INFO]   [missing_citation] QQ群与微信社群部分全部内容...
+2026-05-02 05:00:30,418 [INFO]   [missing_citation] Reddit Warcraft 3 板块...
+2026-05-02 05:00:30,418 [INFO] ✅ 质量通过 (loop 0): score=0.78
+2026-05-02 05:00:30,418 [INFO] 📄 文章写入: docs/faq/哪里找帮助新手必收藏的社区和学习资源.md
+2026-05-02 05:00:30,419 [INFO] 📐 PlannerAgent 开始: 如何把地图发布到KK平台：完整上传步骤
+2026-05-02 05:00:30,419 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:33,323 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:33,325 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-02 05:00:33,325 [INFO] 🔍 ResearcherAgent 开始: 地图性能优化：解决卡顿掉帧问题 (21 查询)
+2026-05-02 05:00:33,325 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:34,279 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:34,281 [INFO] ✅ WriterAgent 完成: 9338 字符, 6/6 来源被引用
+2026-05-02 05:00:34,281 [INFO] 🔎 ReviewerAgent 开始: 新手最常遇到的10个错误和解决方法
+2026-05-02 05:00:34,282 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:36,333 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:36,334 [INFO] 🌐 双语查询: EN='Warcraft III map optimization guide complete' | ZH='Warcraft III map optimization guide complete'
+2026-05-02 05:00:37,306 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III map optimization guide comp
+2026-05-02 05:00:37,929 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III map optimization guide comp
+2026-05-02 05:00:37,930 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:41,149 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:41,150 [INFO] 🌐 双语查询: EN='WC3 World Editor lag fix performance boost' | ZH='WC3 World Editor lag fix performance boost'
+2026-05-02 05:00:42,117 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor lag fix performance boo
+2026-05-02 05:00:42,564 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor lag fix performance boo
+2026-05-02 05:00:42,565 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:46,288 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:46,289 [INFO] 🌐 双语查询: EN='魔兽争霸3 地图优化 完全指南' | ZH='魔兽争霸3 地图优化 完全指南'
+2026-05-02 05:00:47,146 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图优化 完全指南
+2026-05-02 05:00:47,187 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图优化 完全指南
+2026-05-02 05:00:47,188 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:49,928 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:49,928 [INFO] 🌐 双语查询: EN='Warcraft III lag causes performance issues' | ZH='Warcraft III lag causes performance issues'
+2026-05-02 05:00:50,931 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III lag causes performance issu
+2026-05-02 05:00:51,221 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III lag causes performance issu
+2026-05-02 05:00:51,222 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:51,510 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:51,511 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-02 05:00:51,511 [INFO] 🔍 ResearcherAgent 开始: 如何把地图发布到KK平台：完整上传步骤 (21 查询)
+2026-05-02 05:00:51,512 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:52,831 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:52,832 [INFO] ✅ 通过 ReviewerAgent: overall=0.82 (A=0.88 C=0.75 R=0.92 Cit=0.70)
+2026-05-02 05:00:52,832 [INFO]   反馈 5 条:
+2026-05-02 05:00:52,832 [INFO]   [incomplete_section] 建议在发布地图前，用测试模式（Test Map）让单位从地图一端走到另一端，确认没有卡住的地方。...
+2026-05-02 05:00:52,833 [INFO]   [missing_citation] 按住 `Shift` 键可以一次性选择多个同类装饰物批量修改属性...
+2026-05-02 05:00:52,833 [INFO]   [missing_citation] 按键盘上的 `F9` 键，屏幕上会出现黄色网格线...
+2026-05-02 05:00:52,833 [INFO]   [missing_citation] 按 `Esc` 键退出测试 — 这会返回编辑器界面...
+2026-05-02 05:00:52,833 [INFO]   [missing_citation] 移动速度一般不超过522...
+2026-05-02 05:00:52,833 [INFO] ✅ 质量通过 (loop 0): score=0.82
+2026-05-02 05:00:52,833 [INFO] 📄 文章写入: docs/faq/新手最常遇到的10个错误和解决方法.md
+2026-05-02 05:00:52,834 [INFO] 📐 PlannerAgent 开始: 区域Region的用法：配合触发器实现进入事件
+2026-05-02 05:00:52,834 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:53,919 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:53,920 [INFO] 🌐 双语查询: EN='WC3 map performance troubleshooting' | ZH='WC3 map performance troubleshooting'
+2026-05-02 05:00:53,991 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:53,993 [INFO] 🌐 双语查询: EN='KK platform Warcraft III map publishing tutorial' | ZH='KK platform Warcraft III map publishing tutorial'
+2026-05-02 05:00:55,036 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK platform Warcraft III map publishing 
+2026-05-02 05:00:55,196 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK platform Warcraft III map publishing 
+2026-05-02 05:00:55,197 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:55,420 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 map performance troubleshooting
+2026-05-02 05:00:55,839 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 map performance troubleshooting
+2026-05-02 05:00:55,841 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:57,084 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:57,085 [INFO] 🌐 双语查询: EN='KK平台 魔兽争霸地图 上传 完整教程' | ZH='KK平台 魔兽争霸地图 上传 完整教程'
+2026-05-02 05:00:57,878 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK平台 魔兽争霸地图 上传 完整教程
+2026-05-02 05:00:57,927 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK平台 魔兽争霸地图 上传 完整教程
+2026-05-02 05:00:57,928 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:00:59,060 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:00:59,061 [INFO] 🌐 双语查询: EN='Warcraft III lag reasons frame drop' | ZH='魔兽争霸3 卡顿原因 掉帧分析'
+2026-05-02 05:01:00,187 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 卡顿原因 掉帧分析
+2026-05-02 05:01:00,254 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III lag reasons frame drop
+2026-05-02 05:01:00,255 [INFO]   搜索阶段：收集到 33 条候选结果
+2026-05-02 05:01:00,495 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:00,496 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor map export for web platforms' | ZH='Warcraft 3 World Editor map export for web platforms'
+2026-05-02 05:01:01,338 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor map export for w
+2026-05-02 05:01:01,590 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor map export for w
+2026-05-02 05:01:01,592 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:02,423 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_00192/article/details/160676085 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_00192/article/details/160676085'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-02 05:01:03,299 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_00270/article/details/160542062 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_00270/article/details/160542062'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-02 05:01:03,648 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_00262/article/details/160096389 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_00262/article/details/160096389'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-02 05:01:03,959 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:03,960 [INFO] 🌐 双语查询: EN='KK platform Warcraft III map upload' | ZH='KK platform Warcraft III map upload'
+2026-05-02 05:01:04,039 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/1i6500x/wc3_lag_temporary_fix_changing_processor_affinity/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/1i6500x/wc3_lag_temporary_fix_changing_processor_affinity/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-02 05:01:04,825 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK platform Warcraft III map upload
+2026-05-02 05:01:04,831 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK platform Warcraft III map upload
+2026-05-02 05:01:04,832 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:05,557 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_00707/article/details/160611063 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_00707/article/details/160611063'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-02 05:01:05,558 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:07,131 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:07,132 [INFO] 🌐 双语查询: EN='KK platform Warcraft account registration' | ZH='KK平台 魔兽争霸 账号注册'
+2026-05-02 05:01:08,231 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK平台 魔兽争霸 账号注册
+2026-05-02 05:01:10,465 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK platform Warcraft account registratio
+2026-05-02 05:01:10,466 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:11,972 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:11,973 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-02 05:01:11,973 [INFO] 🔍 ResearcherAgent 开始: 区域Region的用法：配合触发器实现进入事件 (21 查询)
+2026-05-02 05:01:11,974 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:12,905 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:12,906 [INFO] 🌐 双语查询: EN='Warcraft 3 map file location .w3x' | ZH='Warcraft 3 map file location .w3x'
+2026-05-02 05:01:13,902 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map file location .w3x
+2026-05-02 05:01:14,003 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map file location .w3x
+2026-05-02 05:01:14,003 [INFO]   搜索阶段：收集到 35 条候选结果
+2026-05-02 05:01:14,901 [WARNING] ⚠️  抓取失败，已忽略: https://wowpedia.fandom.com/wiki/Warcraft_III_World_Editor — Client error '403 Forbidden' for url 'https://wowpedia.fandom.com/wiki/Warcraft_III_World_Editor'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-02 05:01:14,990 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/WC3/comments/5sk9l3/is_it_possible_to_export_a_world_editor_map_as_an/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/WC3/comments/5sk9l3/is_it_possible_to_export_a_world_editor_map_as_an/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-02 05:01:15,359 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:15,360 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor region trigger tutorial' | ZH='Warcraft 3 World Editor region trigger tutorial'
+2026-05-02 05:01:16,249 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor region trigger t
+2026-05-02 05:01:16,425 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:16,560 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor region trigger t
+2026-05-02 05:01:16,561 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:19,207 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:19,207 [INFO] 🌐 双语查询: EN='魔兽争霸3 世界编辑器 触发器 新手教程' | ZH='魔兽争霸3 世界编辑器 触发器 新手教程'
+2026-05-02 05:01:19,950 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 世界编辑器 触发器 新手教程
+2026-05-02 05:01:20,424 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 世界编辑器 触发器 新手教程
+2026-05-02 05:01:20,425 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:23,600 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:23,601 [INFO] 🌐 双语查询: EN='WC3 GUI trigger system basics for beginners' | ZH='WC3 GUI trigger system basics for beginners'
+2026-05-02 05:01:24,375 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 GUI trigger system basics for beginn
+2026-05-02 05:01:24,406 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 GUI trigger system basics for beginn
+2026-05-02 05:01:24,407 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:26,737 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:26,738 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor Region tutorial' | ZH='Warcraft 3 World Editor Region tutorial'
+2026-05-02 05:01:28,131 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor Region tutorial
+2026-05-02 05:01:28,545 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor Region tutorial
+2026-05-02 05:01:28,546 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:31,431 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:31,432 [INFO] 🌐 双语查询: EN='魔兽争霸3 区域 region 概念介绍' | ZH='魔兽争霸3 区域 region 概念介绍'
+2026-05-02 05:01:32,258 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 区域 region 概念介绍
+2026-05-02 05:01:32,390 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 区域 region 概念介绍
+2026-05-02 05:01:32,391 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:33,168 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:33,169 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-02 05:01:33,169 [INFO] ✍️  WriterAgent 开始: 地图性能优化：解决卡顿掉帧问题 (loop 0)
+2026-05-02 05:01:33,170 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:35,526 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:35,527 [INFO] 🌐 双语查询: EN='WC3 region vs point difference' | ZH='WC3 region vs point difference'
+2026-05-02 05:01:36,390 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 region vs point difference
+2026-05-02 05:01:36,553 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 region vs point difference
+2026-05-02 05:01:36,554 [INFO]   搜索阶段：收集到 35 条候选结果
+2026-05-02 05:01:39,225 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/qq_41968782/article/details/111143867 — Server error '521 ' for url 'https://blog.csdn.net/qq_41968782/article/details/111143867'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-02 05:01:39,226 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:41,519 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:41,521 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-02 05:01:41,521 [INFO] ✍️  WriterAgent 开始: 如何把地图发布到KK平台：完整上传步骤 (loop 0)
+2026-05-02 05:01:41,522 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:57,775 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:57,776 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-02 05:01:57,777 [INFO] ✍️  WriterAgent 开始: 区域Region的用法：配合触发器实现进入事件 (loop 0)
+2026-05-02 05:01:57,777 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:01:59,226 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:01:59,228 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:02:02,209 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:02:02,210 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:02:17,283 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:02:17,285 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:02:18,676 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:02:18,677 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:02:27,341 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:02:27,343 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:02:37,790 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:02:37,791 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:02:40,662 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:02:40,663 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:02:47,452 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:02:47,454 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:02:56,979 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:02:56,981 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:03:01,696 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:03:01,697 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:03:07,243 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:03:07,245 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:03:15,501 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:03:15,503 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:03:20,161 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:03:20,163 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:03:38,224 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:03:38,226 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:03:39,608 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:03:39,609 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:03:40,738 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:03:40,739 [INFO] ✅ WriterAgent 完成: 6511 字符, 4/4 来源被引用
+2026-05-02 05:03:40,739 [INFO] 🔎 ReviewerAgent 开始: 如何把地图发布到KK平台：完整上传步骤
+2026-05-02 05:03:40,740 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:04:04,245 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:04:04,246 [INFO] ✅ WriterAgent 完成: 7504 字符, 4/4 来源被引用
+2026-05-02 05:04:04,246 [INFO] 🔎 ReviewerAgent 开始: 地图性能优化：解决卡顿掉帧问题
+2026-05-02 05:04:04,247 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:04:06,537 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:04:06,538 [INFO] ✅ WriterAgent 完成: 7558 字符, 4/4 来源被引用
+2026-05-02 05:04:06,538 [INFO] 🔎 ReviewerAgent 开始: 区域Region的用法：配合触发器实现进入事件
+2026-05-02 05:04:06,539 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:04:08,642 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:04:08,643 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 57 (char 239)
+2026-05-02 05:04:08,643 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-02 05:04:08,643 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-02 05:04:08,644 [INFO] 📄 文章写入: docs/publishing/如何把地图发布到kk平台完整上传步骤.md
+2026-05-02 05:04:08,644 [INFO] 📐 PlannerAgent 开始: 灯光与氛围：让地图有场景感
+2026-05-02 05:04:08,645 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-02 05:04:22,692 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-02 05:04:22,693 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 92 (char 276)
+2026-05-02 05:04:22,693 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-02 05:04:22,693 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-02 05:04:22,694 [INFO] 📄 文章写入: docs/publishing/地图性能优化解决卡顿掉帧问题.md
