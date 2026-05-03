@@ -2385,3 +2385,259 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-02 05:07:55,060 [INFO]   [incomplete_section] 第五节（利用光照和大气效果）整节没有任何[^N]引用...
 2026-05-02 05:07:55,060 [INFO] ✅ 质量通过 (loop 0): score=0.83
 2026-05-02 05:07:55,060 [INFO] 📄 文章写入: docs/terrain/5个让新手地图看起来更好看的地形技巧.md
+2026-05-03 05:36:46,849 [INFO] 📐 PlannerAgent 开始: 5个让新手地图看起来更好看的地形技巧
+2026-05-03 05:36:46,849 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:36:50,806 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:36:50,807 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 20 column 26 (char 649)
+2026-05-03 05:36:50,807 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-03 05:36:50,807 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-03 05:36:50,808 [INFO] 📄 文章写入: docs/terrain/区域region的用法配合触发器实现进入事件.md
+2026-05-03 05:36:50,808 [INFO] 📐 PlannerAgent 开始: 多人地图入门：联机为什么和单机不一样
+2026-05-03 05:36:50,809 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:09,215 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:09,217 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-03 05:37:09,217 [INFO] ✍️  WriterAgent 开始: 灯光与氛围：让地图有场景感 (loop 0)
+2026-05-03 05:37:09,218 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:11,076 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:11,077 [INFO] ✅ PlannerAgent 完成: 5 节, 18 个查询
+2026-05-03 05:37:11,077 [INFO] 🔍 ResearcherAgent 开始: 多人地图入门：联机为什么和单机不一样 (18 查询)
+2026-05-03 05:37:11,078 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:12,793 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:12,794 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-03 05:37:12,794 [INFO] 🔍 ResearcherAgent 开始: 5个让新手地图看起来更好看的地形技巧 (21 查询)
+2026-05-03 05:37:12,795 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:13,033 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:13,034 [INFO] 🌐 双语查询: EN='Warcraft 3 multiplayer map making guide' | ZH='Warcraft 3 multiplayer map making guide'
+2026-05-03 05:37:13,925 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 multiplayer map making guide
+2026-05-03 05:37:14,672 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 multiplayer map making guide
+2026-05-03 05:37:14,673 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:16,193 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:16,194 [INFO] 🌐 双语查询: EN='Warcraft III World Editor terrain making tutorial for beginners' | ZH='Warcraft III World Editor terrain making tutorial for beginners'
+2026-05-03 05:37:16,874 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:16,875 [INFO] 🌐 双语查询: EN='魔兽争霸3 联机地图 开发 教程' | ZH='魔兽争霸3 联机地图 开发 教程'
+2026-05-03 05:37:17,880 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor terrain making
+2026-05-03 05:37:17,994 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 联机地图 开发 教程
+2026-05-03 05:37:18,110 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 联机地图 开发 教程
+2026-05-03 05:37:18,112 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:18,407 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor terrain making
+2026-05-03 05:37:18,408 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:20,570 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:20,571 [INFO] 🌐 双语查询: EN='World Editor 多人游戏 入门 基础' | ZH='World Editor 多人游戏 入门 基础'
+2026-05-03 05:37:21,153 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:21,154 [INFO] 🌐 双语查询: EN='WC3 custom map terrain design fundamentals' | ZH='WC3 custom map terrain design fundamentals'
+2026-05-03 05:37:21,558 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 多人游戏 入门 基础
+2026-05-03 05:37:22,015 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 多人游戏 入门 基础
+2026-05-03 05:37:22,016 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:22,095 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 custom map terrain design fundamenta
+2026-05-03 05:37:22,208 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 custom map terrain design fundamenta
+2026-05-03 05:37:22,209 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:24,225 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:24,226 [INFO] 🌐 双语查询: EN='Warcraft III terrain making basic beginner tutorial' | ZH='魔兽争霸3 地形制作基础入门教程'
+2026-05-03 05:37:24,344 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:24,345 [INFO] 🌐 双语查询: EN='Warcraft 3 single player vs multiplayer difference' | ZH='魔兽争霸3 单人'
+2026-05-03 05:37:25,090 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地形制作基础入门教程
+2026-05-03 05:37:25,123 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III terrain making basic beginn
+2026-05-03 05:37:25,124 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:25,258 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 single player vs multiplayer 
+2026-05-03 05:37:26,385 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 单人
+2026-05-03 05:37:26,386 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:27,845 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:27,846 [INFO] 🌐 双语查询: EN='Warcraft III terrain height level beginner guide' | ZH='Warcraft III terrain height level beginner guide'
+2026-05-03 05:37:28,845 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III terrain height level beginn
+2026-05-03 05:37:28,879 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III terrain height level beginn
+2026-05-03 05:37:28,880 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:29,344 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:29,346 [INFO] 🌐 双语查询: EN='WC3 多人游戏 单机 区别 新手' | ZH='WC3 多人游戏 单机 区别 新手'
+2026-05-03 05:37:29,883 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:29,885 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:30,457 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 多人游戏 单机 区别 新手
+2026-05-03 05:37:30,498 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 多人游戏 单机 区别 新手
+2026-05-03 05:37:30,499 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:30,836 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:30,838 [INFO] 🌐 双语查询: EN='Warcraft III World Editor terrain height settings' | ZH='WC3 World Editor 地形高度设置'
+2026-05-03 05:37:31,904 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor 地形高度设置
+2026-05-03 05:37:31,970 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor terrain height
+2026-05-03 05:37:31,971 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:32,986 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:32,988 [INFO] 🌐 双语查询: EN='World Editor 联机地图基础概念' | ZH='World Editor 联机地图基础概念'
+2026-05-03 05:37:33,970 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 联机地图基础概念
+2026-05-03 05:37:34,033 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 联机地图基础概念
+2026-05-03 05:37:34,034 [INFO]   搜索阶段：收集到 37 条候选结果
+2026-05-03 05:37:34,727 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:34,728 [INFO] 🌐 双语查询: EN='W' | ZH='魔兽争霸3 地图 避免平坦地形'
+2026-05-03 05:37:34,983 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/RealTimeStrategy/comments/1dwud35/is_warcraft_3_reforged_worth_it_for_singleplayer/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/RealTimeStrategy/comments/1dwud35/is_warcraft_3_reforged_worth_it_for_singleplayer/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:37:35,015 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/1es31b4/completely_1000_new_to_rts_and_wc3_interested_in/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/1es31b4/completely_1000_new_to_rts_and_wc3_interested_in/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:37:35,050 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: Query is too short. Min query length is 2 characters.
+2026-05-03 05:37:35,123 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=W)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=W')")
+2026-05-03 05:37:35,361 [INFO] response: https://grokipedia.com/api/typeahead?query=W&limit=1 200
+2026-05-03 05:37:35,813 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图 避免平坦地形
+2026-05-03 05:37:36,219 [INFO] response: https://yandex.com/search/site/?text=W&web=1&searchid=9676622 200
+2026-05-03 05:37:36,251 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | W
+2026-05-03 05:37:36,252 [INFO]   搜索阶段：收集到 32 条候选结果
+2026-05-03 05:37:36,746 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:37,214 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/7z8x2c4v6b9/article/details/152534014 — Server error '521 ' for url 'https://blog.csdn.net/7z8x2c4v6b9/article/details/152534014'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-03 05:37:37,250 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/classicwow/comments/17j7mkd/ive_made_some_maps_of_all_the_inaccessible_areas/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/classicwow/comments/17j7mkd/ive_made_some_maps_of_all_the_inaccessible_areas/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:37:37,309 [WARNING] ⚠️  抓取失败，已忽略: https://en-wikintel-aiproject.fandom.com/wiki/W_(slang) — Client error '403 Forbidden' for url 'https://en-wikintel-aiproject.fandom.com/wiki/W_(slang)'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:37:37,400 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/32057966 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/32057966'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:37:38,245 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:37:52,311 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:37:52,313 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:38:10,538 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:38:10,539 [INFO] ✅ ResearcherAgent 完成: 8 个来源已注册
+2026-05-03 05:38:10,539 [INFO] ✍️  WriterAgent 开始: 多人地图入门：联机为什么和单机不一样 (loop 0)
+2026-05-03 05:38:10,540 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:38:11,956 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:38:11,958 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:38:16,072 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:38:16,074 [INFO] ✅ ResearcherAgent 完成: 7 个来源已注册
+2026-05-03 05:38:16,074 [INFO] ✍️  WriterAgent 开始: 5个让新手地图看起来更好看的地形技巧 (loop 0)
+2026-05-03 05:38:16,075 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:38:30,559 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:38:30,561 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:38:34,418 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:38:34,420 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:38:35,080 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:38:35,082 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:38:51,686 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:38:51,688 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:38:58,835 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:38:58,836 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:39:03,325 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:39:03,327 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:39:13,541 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:39:13,543 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:39:24,914 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:39:24,916 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:39:25,451 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:39:25,452 [INFO] ✅ WriterAgent 完成: 7229 字符, 3/3 来源被引用
+2026-05-03 05:39:25,453 [INFO] 🔎 ReviewerAgent 开始: 灯光与氛围：让地图有场景感
+2026-05-03 05:39:25,453 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:39:33,593 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:39:33,594 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:39:45,540 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:39:45,542 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:39:48,425 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:39:48,426 [INFO] ✅ 通过 ReviewerAgent: overall=0.82 (A=0.80 C=0.85 R=0.90 Cit=0.70)
+2026-05-03 05:39:48,426 [INFO]   反馈 5 条:
+2026-05-03 05:39:48,426 [INFO]   [missing_citation] 森林用蓝绿色调(参考数值：红35 绿120 蓝80)，沙漠用暖黄橙色(红255 绿180 蓝80)...
+2026-05-03 05:39:48,426 [INFO]   [missing_citation] 70%饱和度左右效果最佳...
+2026-05-03 05:39:48,426 [INFO]   [missing_citation] 超过20个就可能开始影响性能...
+2026-05-03 05:39:48,426 [INFO]   [missing_citation] 暖色调灯光（橙黄）= 温馨、安全、友好；冷色调灯光（蓝紫）= 神秘、紧张、危险...
+2026-05-03 05:39:48,426 [INFO]   [incomplete_section] 绑定到触发器（可选高级操作）...
+2026-05-03 05:39:48,426 [INFO] ✅ 质量通过 (loop 0): score=0.82
+2026-05-03 05:39:48,427 [INFO] 📄 文章写入: docs/terrain/灯光与氛围让地图有场景感.md
+2026-05-03 05:39:48,427 [INFO] 📐 PlannerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-05-03 05:39:48,428 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:39:58,815 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:39:58,816 [INFO] ✅ WriterAgent 完成: 6341 字符, 5/8 来源被引用
+2026-05-03 05:39:58,817 [INFO] 🔎 ReviewerAgent 开始: 多人地图入门：联机为什么和单机不一样
+2026-05-03 05:39:58,817 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:06,517 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:06,519 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:15,394 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:15,395 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 48 (char 230)
+2026-05-03 05:40:15,395 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-03 05:40:15,395 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-03 05:40:15,396 [INFO] 📄 文章写入: docs/rpg-systems/多人地图入门联机为什么和单机不一样.md
+2026-05-03 05:40:20,593 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:20,594 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-03 05:40:20,594 [INFO] 🔍 ResearcherAgent 开始: 设计第一个BOSS：AI技能和挑战性 (21 查询)
+2026-05-03 05:40:20,595 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:22,783 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:22,784 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor boss creation tutorial' | ZH='Warcraft 3 World Editor boss creation tutorial'
+2026-05-03 05:40:24,557 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor boss creation tu
+2026-05-03 05:40:24,859 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor boss creation tu
+2026-05-03 05:40:24,860 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:27,669 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:27,670 [INFO] 🌐 双语查询: EN='War3 RPG BOSS设计 入门 完整指南' | ZH='War3 RPG BOSS设计 入门 完整指南'
+2026-05-03 05:40:28,503 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 RPG BOSS设计 入门 完整指南
+2026-05-03 05:40:28,589 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 RPG BOSS设计 入门 完整指南
+2026-05-03 05:40:28,590 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:30,623 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:30,624 [INFO] 🌐 双语查询: EN='WC3 trigger based RPG boss AI system' | ZH='WC3 trigger based RPG boss AI system'
+2026-05-03 05:40:31,704 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger based RPG boss AI system
+2026-05-03 05:40:32,454 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger based RPG boss AI system
+2026-05-03 05:40:32,455 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:32,526 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:32,527 [INFO] ✅ WriterAgent 完成: 7441 字符, 4/7 来源被引用
+2026-05-03 05:40:32,527 [INFO] 🔎 ReviewerAgent 开始: 5个让新手地图看起来更好看的地形技巧
+2026-05-03 05:40:32,528 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:35,060 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:35,061 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG boss design fundamentals' | ZH='Warcraft 3 RPG boss design fundamentals'
+2026-05-03 05:40:35,985 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG boss design fundamentals
+2026-05-03 05:40:36,403 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG boss design fundamentals
+2026-05-03 05:40:36,405 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:40,128 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:40,129 [INFO] 🌐 双语查询: EN='Warcraft 3 What is BOSS battle design principles' | ZH='War3 什么是BOSS战 设计原则'
+2026-05-03 05:40:41,032 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 What is BOSS battle design pr
+2026-05-03 05:40:41,071 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 什么是BOSS战 设计原则
+2026-05-03 05:40:41,072 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:43,643 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:43,644 [INFO] 🌐 双语查询: EN='WC3 boss encounter tutorial beginner' | ZH='WC3 boss encounter tutorial beginner'
+2026-05-03 05:40:45,423 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 boss encounter tutorial beginner
+2026-05-03 05:40:45,531 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 boss encounter tutorial beginner
+2026-05-03 05:40:45,531 [INFO]   搜索阶段：收集到 35 条候选结果
+2026-05-03 05:40:45,585 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/gamedesign/comments/khs7md/game_design_principles_boss_fights/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/gamedesign/comments/khs7md/game_design_principles_boss_fights/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:40:45,903 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/653169612 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/653169612'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:40:46,150 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/563780570 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/563780570'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:40:46,610 [WARNING] ⚠️  抓取失败，已忽略: https://gamedesignskills.com/game-design/game-boss-design/ — Client error '403 Forbidden' for url 'https://gamedesignskills.com/game-design/game-boss-design/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:40:47,280 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:56,483 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:56,484 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 67 (char 249)
+2026-05-03 05:40:56,484 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-03 05:40:56,484 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-03 05:40:56,484 [INFO] 📄 文章写入: docs/terrain/5个让新手地图看起来更好看的地形技巧.md

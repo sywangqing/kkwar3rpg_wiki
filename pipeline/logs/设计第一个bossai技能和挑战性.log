@@ -1344,3 +1344,109 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-02 05:11:49,680 [INFO]   [incomplete_section] AI行为部分...
 2026-05-02 05:11:49,680 [INFO] ✅ 质量通过 (loop 0): score=0.82
 2026-05-02 05:11:49,680 [INFO] 📄 文章写入: docs/rpg-systems/设计第一个bossai技能和挑战性.md
+2026-05-03 05:39:48,427 [INFO] 📐 PlannerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-05-03 05:39:48,428 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:39:58,815 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:39:58,816 [INFO] ✅ WriterAgent 完成: 6341 字符, 5/8 来源被引用
+2026-05-03 05:39:58,817 [INFO] 🔎 ReviewerAgent 开始: 多人地图入门：联机为什么和单机不一样
+2026-05-03 05:39:58,817 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:06,517 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:06,519 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:15,394 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:15,395 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 48 (char 230)
+2026-05-03 05:40:15,395 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-03 05:40:15,395 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-03 05:40:15,396 [INFO] 📄 文章写入: docs/rpg-systems/多人地图入门联机为什么和单机不一样.md
+2026-05-03 05:40:20,593 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:20,594 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-03 05:40:20,594 [INFO] 🔍 ResearcherAgent 开始: 设计第一个BOSS：AI技能和挑战性 (21 查询)
+2026-05-03 05:40:20,595 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:22,783 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:22,784 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor boss creation tutorial' | ZH='Warcraft 3 World Editor boss creation tutorial'
+2026-05-03 05:40:24,557 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor boss creation tu
+2026-05-03 05:40:24,859 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor boss creation tu
+2026-05-03 05:40:24,860 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:27,669 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:27,670 [INFO] 🌐 双语查询: EN='War3 RPG BOSS设计 入门 完整指南' | ZH='War3 RPG BOSS设计 入门 完整指南'
+2026-05-03 05:40:28,503 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 RPG BOSS设计 入门 完整指南
+2026-05-03 05:40:28,589 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 RPG BOSS设计 入门 完整指南
+2026-05-03 05:40:28,590 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:30,623 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:30,624 [INFO] 🌐 双语查询: EN='WC3 trigger based RPG boss AI system' | ZH='WC3 trigger based RPG boss AI system'
+2026-05-03 05:40:31,704 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger based RPG boss AI system
+2026-05-03 05:40:32,454 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger based RPG boss AI system
+2026-05-03 05:40:32,455 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:32,526 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:32,527 [INFO] ✅ WriterAgent 完成: 7441 字符, 4/7 来源被引用
+2026-05-03 05:40:32,527 [INFO] 🔎 ReviewerAgent 开始: 5个让新手地图看起来更好看的地形技巧
+2026-05-03 05:40:32,528 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:35,060 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:35,061 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG boss design fundamentals' | ZH='Warcraft 3 RPG boss design fundamentals'
+2026-05-03 05:40:35,985 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG boss design fundamentals
+2026-05-03 05:40:36,403 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG boss design fundamentals
+2026-05-03 05:40:36,405 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:40,128 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:40,129 [INFO] 🌐 双语查询: EN='Warcraft 3 What is BOSS battle design principles' | ZH='War3 什么是BOSS战 设计原则'
+2026-05-03 05:40:41,032 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 What is BOSS battle design pr
+2026-05-03 05:40:41,071 [INFO] 🔍 Tavily 搜索成功: 5 条 | War3 什么是BOSS战 设计原则
+2026-05-03 05:40:41,072 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:43,643 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:43,644 [INFO] 🌐 双语查询: EN='WC3 boss encounter tutorial beginner' | ZH='WC3 boss encounter tutorial beginner'
+2026-05-03 05:40:45,423 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 boss encounter tutorial beginner
+2026-05-03 05:40:45,531 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 boss encounter tutorial beginner
+2026-05-03 05:40:45,531 [INFO]   搜索阶段：收集到 35 条候选结果
+2026-05-03 05:40:45,585 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/gamedesign/comments/khs7md/game_design_principles_boss_fights/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/gamedesign/comments/khs7md/game_design_principles_boss_fights/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:40:45,903 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/653169612 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/653169612'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:40:46,150 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/563780570 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/563780570'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:40:46,610 [WARNING] ⚠️  抓取失败，已忽略: https://gamedesignskills.com/game-design/game-boss-design/ — Client error '403 Forbidden' for url 'https://gamedesignskills.com/game-design/game-boss-design/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-03 05:40:47,280 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:40:56,483 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:40:56,484 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 67 (char 249)
+2026-05-03 05:40:56,484 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-03 05:40:56,484 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-03 05:40:56,484 [INFO] 📄 文章写入: docs/terrain/5个让新手地图看起来更好看的地形技巧.md
+2026-05-03 05:41:12,495 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:41:12,496 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-03 05:41:12,497 [INFO] ✍️  WriterAgent 开始: 设计第一个BOSS：AI技能和挑战性 (loop 0)
+2026-05-03 05:41:12,498 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:41:48,174 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:41:48,176 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:42:06,917 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:42:06,919 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:42:33,465 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:42:33,467 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:42:53,198 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:42:53,200 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:43:11,980 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:43:11,982 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:43:28,085 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:43:28,086 [INFO] ✅ WriterAgent 完成: 6418 字符, 4/4 来源被引用
+2026-05-03 05:43:28,086 [INFO] 🔎 ReviewerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-05-03 05:43:28,087 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-03 05:43:47,919 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-03 05:43:47,920 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 15 column 58 (char 577)
+2026-05-03 05:43:47,920 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-03 05:43:47,920 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-03 05:43:47,921 [INFO] 📄 文章写入: docs/rpg-systems/设计第一个bossai技能和挑战性.md
