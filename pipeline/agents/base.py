@@ -98,7 +98,7 @@ class BaseAgent:
         import litellm  # type: ignore
 
         def _sync():
-            return litellm.completion(
+            kwargs: dict = dict(
                 model=self.model,
                 messages=[
                     {"role": "system", "content": system},
@@ -107,6 +107,16 @@ class BaseAgent:
                 max_tokens=max_tokens,
                 temperature=temperature,
             )
+            # Minimax 国内版需要指定 api_base 和 group_id
+            if "minimax" in self.model.lower():
+                api_key = os.getenv("MINIMAX_API_KEY", "")
+                group_id = os.getenv("MINIMAX_GROUP_ID", "")
+                if group_id:
+                    kwargs["api_base"] = f"https://api.minimax.chat/v1"
+                    kwargs["api_key"] = api_key
+                    # litellm minimax provider 需要 group_id 通过 extra_headers 传入
+                    kwargs["extra_headers"] = {"GroupId": group_id}
+            return litellm.completion(**kwargs)
 
         loop = asyncio.get_event_loop()
         resp = await loop.run_in_executor(None, _sync)
