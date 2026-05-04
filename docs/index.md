@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 🚀 快速入门
-      link: /getting-started/editor-installation
+      link: /getting-started/war3-地图编辑器安装与配置
     - theme: alt
       text: 🛤️ 学习路径
       link: /learning-path
@@ -23,27 +23,27 @@ features:
   - icon: ⚡
     title: 触发器系统
     details: 从 GUI 触发器到高级脚本，掌握事件、条件、动作的完整知识体系
-    link: /triggers/trigger-intro
-  - icon: 💻
-    title: 脚本编程
-    details: JASS / vJASS / Lua 三种脚本语言教程与 API 参考手册
-    link: /scripting/jass-basics
+    link: /triggers/触发器是什么用大白话解释游戏逻辑
   - icon: 🗺️
     title: 地形编辑
     details: 地形高度、纹理、装饰物，打造令人惊艳的游戏场景
-    link: /terrain/terrain-basics
+    link: /terrain/5个让新手地图看起来更好看的地形技巧
   - icon: 🎭
     title: 对象编辑器
     details: 自定义单位、技能、物品、升级，构建独特的游戏内容
-    link: /object-editor/unit-editor
-  - icon: 🛠️
-    title: 工具生态
-    details: YDWE、JNGP、WE Unlimited 等常用工具使用指南
-    link: /tools/ydwe
-  - icon: 🎨
-    title: 进阶开发
-    details: 多人同步、存档系统、自定义 UI 框架、性能优化
-    link: /advanced/rpg-systems
+    link: /object-editor/对象编辑器入门修改单位属性
+  - icon: 🏰
+    title: RPG 系统
+    details: 英雄系统、背包装备、任务商店、存档读档，构建完整 RPG 玩法
+    link: /rpg-systems/rpg英雄系统经验升级和属性设计
+  - icon: �
+    title: 发布上线
+    details: 地图性能优化、加密保护、发布到 KK 平台的完整流程
+    link: /publishing/如何把地图发布到kk平台完整上传步骤
+  - icon: ❓
+    title: 常见问题
+    details: 新手最常遇到的错误与解决方法，快速排查地图开发中的疑难杂症
+    link: /faq/新手最常遇到的10个错误和解决方法
 ---
 
 ## 🤖 AI 发现的新主题
