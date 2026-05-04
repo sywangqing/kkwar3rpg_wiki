@@ -1579,3 +1579,129 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-04 05:44:55,175 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
 2026-05-04 05:44:55,175 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-05-04 05:44:55,175 [INFO] 📄 文章写入: docs/rpg-systems/设计第一个bossai技能和挑战性.md
+2026-05-04 07:44:49,401 [INFO] 📐 PlannerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-05-04 07:44:49,402 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:44:59,878 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:44:59,880 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:04,061 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:45:04,063 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:09,299 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:45:09,300 [INFO] ✅ PlannerAgent 完成: 5 节, 18 个查询
+2026-05-04 07:45:09,300 [INFO] 🔍 ResearcherAgent 开始: 设计第一个BOSS：AI技能和挑战性 (18 查询)
+2026-05-04 07:45:09,301 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:09,601 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06478185c4d9a16ed1cf30b2ddbcd6e2"}
+2026-05-04 07:45:09,601 [INFO] 🌐 双语查询: EN='Warcraft III World Editor BOSS tutorial' | ZH='Warcraft III World Editor BOSS tutorial'
+2026-05-04 07:45:11,284 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor BOSS tutorial
+2026-05-04 07:45:11,546 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III World Editor BOSS tutorial
+2026-05-04 07:45:11,547 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:11,639 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06478187b03501cf0c35265fcb0cb54d"}
+2026-05-04 07:45:11,639 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG 新手 BOSS设计教程' | ZH='Warcraft 3 RPG 新手 BOSS设计教程'
+2026-05-04 07:45:12,667 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG 新手 BOSS设计教程
+2026-05-04 07:45:12,689 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 RPG 新手 BOSS设计教程
+2026-05-04 07:45:12,690 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:12,779 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06478188ee9e558c96f074a75747b5e7"}
+2026-05-04 07:45:12,779 [INFO] 🌐 双语查询: EN='WC3 触发器系统 完整入门指南' | ZH='WC3 触发器系统 完整入门指南'
+2026-05-04 07:45:13,632 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 触发器系统 完整入门指南
+2026-05-04 07:45:13,814 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 触发器系统 完整入门指南
+2026-05-04 07:45:13,815 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:13,909 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0647818998427b449bf947db34a6926c"}
+2026-05-04 07:45:13,909 [INFO] 🌐 双语查询: EN='Warcraft III RPG BOSS design tutorial' | ZH='Warcraft III RPG BOSS design tutorial'
+2026-05-04 07:45:14,829 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III RPG BOSS design tutorial
+2026-05-04 07:45:15,728 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III RPG BOSS design tutorial
+2026-05-04 07:45:15,729 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:15,821 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0647818ba81ba2698289c062a14ed14b"}
+2026-05-04 07:45:15,821 [INFO] 🌐 双语查询: EN='Warcraft 3 第一个BOSS设计思路' | ZH='Warcraft 3 第一个BOSS设计思路'
+2026-05-04 07:45:16,616 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 第一个BOSS设计思路
+2026-05-04 07:45:17,130 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 第一个BOSS设计思路
+2026-05-04 07:45:17,131 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:17,232 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0647818d05124974ef4c2dfc186380ad"}
+2026-05-04 07:45:17,232 [INFO] 🌐 双语查询: EN='RPG BOSS战设计原则' | ZH='RPG BOSS战设计原则'
+2026-05-04 07:45:17,655 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:45:17,657 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:18,263 [INFO] 🔍 Tavily 搜索成功: 5 条 | RPG BOSS战设计原则
+2026-05-04 07:45:18,509 [INFO] 🔍 Tavily 搜索成功: 5 条 | RPG BOSS战设计原则
+2026-05-04 07:45:18,509 [INFO]   搜索阶段：收集到 36 条候选结果
+2026-05-04 07:45:18,629 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/truegaming/comments/6lldxf/what_makes_a_good_boss_fight_what_are_the_rights/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/truegaming/comments/6lldxf/what_makes_a_good_boss_fight_what_are_the_rights/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-04 07:45:18,639 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/gamedesign/comments/11db4n0/the_boss_fight_the_antipattern_of_good_game/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/gamedesign/comments/11db4n0/the_boss_fight_the_antipattern_of_good_game/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-04 07:45:18,939 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/653169612 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/653169612'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-04 07:45:21,307 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:24,977 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:45:24,979 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:46,190 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:45:46,191 [INFO] ✅ WriterAgent 完成: 6470 字符, 5/5 来源被引用
+2026-05-04 07:45:46,191 [INFO] 🔎 ReviewerAgent 开始: 5个让新手地图看起来更好看的地形技巧
+2026-05-04 07:45:46,192 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:47,345 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:45:47,347 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:45:52,557 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:45:52,558 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-04 07:45:52,558 [INFO] ✍️  WriterAgent 开始: 设计第一个BOSS：AI技能和挑战性 (loop 0)
+2026-05-04 07:45:52,559 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:46:08,539 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:46:08,540 [INFO] ✅ 通过 ReviewerAgent: overall=0.83 (A=0.85 C=0.80 R=0.90 Cit=0.75)
+2026-05-04 07:46:08,540 [INFO]   反馈 5 条:
+2026-05-04 07:46:08,540 [INFO]   [missing_citation] 根据教程社区的统计，新手在地形制作中最常犯以下5个错误...
+2026-05-04 07:46:08,540 [INFO]   [missing_citation] 地形决定了玩家对这张地图的"第一印象"...
+2026-05-04 07:46:08,540 [INFO]   [missing_citation] 在 World Editor（世界编辑器）左侧工具栏中，点击"地形"按钮后，找到"装饰物"选项卡...
+2026-05-04 07:46:08,540 [INFO]   [factual_error] 环境光保持在40%-60%之间...
+2026-05-04 07:46:08,540 [INFO]   [incomplete_section] 灯光与氛围营造 - Only covers basic presets, missing advanced techni...
+2026-05-04 07:46:08,540 [INFO] ✅ 质量通过 (loop 0): score=0.83
+2026-05-04 07:46:08,541 [INFO] 📄 文章写入: docs/terrain/5个让新手地图看起来更好看的地形技巧.md
+2026-05-04 07:46:14,272 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:46:14,274 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:46:14,727 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:46:14,728 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:46:37,473 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:46:37,474 [INFO] ✅ WriterAgent 完成: 7415 字符, 4/5 来源被引用
+2026-05-04 07:46:37,474 [INFO] 🔎 ReviewerAgent 开始: 多人地图入门：联机为什么和单机不一样
+2026-05-04 07:46:37,475 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:46:38,043 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:46:38,045 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:46:54,691 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:46:54,692 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 15 column 34 (char 406)
+2026-05-04 07:46:54,692 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-04 07:46:54,692 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-04 07:46:54,693 [INFO] 📄 文章写入: docs/rpg-systems/多人地图入门联机为什么和单机不一样.md
+2026-05-04 07:47:09,182 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:47:09,183 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:47:29,823 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:47:29,825 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:47:51,712 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:47:51,713 [INFO] ✅ WriterAgent 完成: 6174 字符, 4/4 来源被引用
+2026-05-04 07:47:51,713 [INFO] 🔎 ReviewerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-05-04 07:47:51,714 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-04 07:48:15,617 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-04 07:48:15,618 [INFO] ✅ 通过 ReviewerAgent: overall=0.81 (A=0.82 C=0.78 R=0.88 Cit=0.65)
+2026-05-04 07:48:15,618 [INFO]   反馈 5 条:
+2026-05-04 07:48:15,618 [INFO]   [missing_citation] 建议第一个BOSS的难度是普通小怪的3-5倍...
+2026-05-04 07:48:15,618 [INFO]   [missing_citation] 普通难度的BOSS战应该持续30秒到2分钟...
+2026-05-04 07:48:15,618 [INFO]   [missing_citation] BOSS等级建议比玩家最高等级高2-3级...
+2026-05-04 07:48:15,618 [INFO]   [missing_citation] 对于普通攻击建议冷却设为5秒、能量消耗为0；对于强力技能建议冷却8-12秒、能量消耗30-50点...
+2026-05-04 07:48:15,618 [INFO]   [incomplete_section] 难度平衡与玩家体验...
+2026-05-04 07:48:15,618 [INFO] ✅ 质量通过 (loop 0): score=0.81
+2026-05-04 07:48:15,619 [INFO] 📄 文章写入: docs/rpg-systems/设计第一个bossai技能和挑战性.md
