@@ -20,8 +20,11 @@ const CATEGORY_ORDER = [
   'triggers',
   'scripting',
   'object-editor',
+  'rpg-systems',
   'tools',
   'advanced',
+  'publishing',
+  'faq',
 ]
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -30,8 +33,11 @@ const CATEGORY_LABELS: Record<string, string> = {
   'triggers': '⚡ 触发器系统',
   'scripting': '💻 脚本编程',
   'object-editor': '🎭 对象编辑器',
+  'rpg-systems': '🏰 RPG 系统',
   'tools': '🛠️ 工具生态',
   'advanced': '🎨 进阶开发',
+  'publishing': '🚢 发布上线',
+  'faq': '❓ 常见问题',
 }
 
 function extractFrontmatterTitle(filePath: string): string | null {
