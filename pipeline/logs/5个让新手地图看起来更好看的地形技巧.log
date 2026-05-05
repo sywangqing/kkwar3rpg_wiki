@@ -3634,3 +3634,183 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-05 05:09:46,125 [INFO]   [incomplete_section] 规划清晰的路径和区域...
 2026-05-05 05:09:46,125 [INFO] ✅ 质量通过 (loop 0): score=0.79
 2026-05-05 05:09:46,125 [INFO] 📄 文章写入: docs/terrain/5个让新手地图看起来更好看的地形技巧.md
+2026-05-05 19:24:49,020 [INFO] 📐 PlannerAgent 开始: 5个让新手地图看起来更好看的地形技巧
+2026-05-05 19:24:49,021 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:24:50,694 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:02,199 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:25:02,201 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:07,942 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:25:07,943 [INFO] ✅ PlannerAgent 完成: 5 节, 18 个查询
+2026-05-05 19:25:07,943 [INFO] 🔍 ResearcherAgent 开始: 5个让新手地图看起来更好看的地形技巧 (18 查询)
+2026-05-05 19:25:07,944 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:08,108 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649771423a02f63f8e6eaef69f3df8b"}
+2026-05-05 19:25:08,108 [INFO] 🌐 双语查询: EN='Warcraft 3 terrain editing tips for beginners' | ZH='Warcraft 3 terrain editing tips for beginners'
+2026-05-05 19:25:09,109 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 terrain editing tips for begi
+2026-05-05 19:25:09,295 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 terrain editing tips for begi
+2026-05-05 19:25:09,296 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:09,332 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064977152e51630f06e8af9f0d94adaf"}
+2026-05-05 19:25:09,332 [INFO] 🌐 双语查询: EN='WC3 地形美化 新手教程' | ZH='WC3 地形美化 新手教程'
+2026-05-05 19:25:10,177 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 地形美化 新手教程
+2026-05-05 19:25:10,338 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 地形美化 新手教程
+2026-05-05 19:25:10,339 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:10,374 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649771629642cf9464e6b12c6185647"}
+2026-05-05 19:25:10,374 [INFO] 🌐 双语查询: EN='World Editor 地形制作基础入门' | ZH='World Editor 地形制作基础入门'
+2026-05-05 19:25:11,124 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 地形制作基础入门
+2026-05-05 19:25:11,560 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor 地形制作基础入门
+2026-05-05 19:25:11,561 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:11,597 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06497717ea088a182e70c800060d43cb"}
+2026-05-05 19:25:11,597 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor terrain height variation tutorial' | ZH='Warcraft 3 World Editor terrain height variation tutorial'
+2026-05-05 19:25:13,260 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor terrain height v
+2026-05-05 19:25:13,569 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor terrain height v
+2026-05-05 19:25:13,570 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:13,607 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06497719abe3c1d038baf4785c0a3011"}
+2026-05-05 19:25:13,607 [INFO] 🌐 双语查询: EN='WC3 地形高度编辑 基础教程' | ZH='WC3 地形高度编辑 基础教程'
+2026-05-05 19:25:14,455 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 地形高度编辑 基础教程
+2026-05-05 19:25:14,625 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 地形高度编辑 基础教程
+2026-05-05 19:25:14,626 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:14,661 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649771aaa5129731c0b8700e7f644d4"}
+2026-05-05 19:25:14,661 [INFO] 🌐 双语查询: EN='如何在地形编辑器中创建自然山坡' | ZH='如何在地形编辑器中创建自然山坡'
+2026-05-05 19:25:15,758 [INFO] 🔍 Tavily 搜索成功: 5 条 | 如何在地形编辑器中创建自然山坡
+2026-05-05 19:25:15,771 [INFO] 🔍 Tavily 搜索成功: 5 条 | 如何在地形编辑器中创建自然山坡
+2026-05-05 19:25:15,772 [INFO]   搜索阶段：收集到 31 条候选结果
+2026-05-05 19:25:16,391 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:25:16,392 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-05 19:25:16,392 [INFO] ✍️  WriterAgent 开始: 灯光与氛围：让地图有场景感 (loop 0)
+2026-05-05 19:25:16,394 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:16,706 [WARNING] ⚠️  抓取失败，已忽略: https://www.yiihuu.com/a_8228.html — Client error '403 Forbidden' for url 'https://www.yiihuu.com/a_8228.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:25:17,523 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/the-ultimate-beginners-terrain-tutorial.35233/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/the-ultimate-beginners-terrain-tutorial.35233/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:25:18,391 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:28,156 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:25:28,157 [INFO] ✅ WriterAgent 完成: 8841 字符, 5/5 来源被引用
+2026-05-05 19:25:28,158 [INFO] 🔎 ReviewerAgent 开始: 区域Region的用法：配合触发器实现进入事件
+2026-05-05 19:25:28,159 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:35,751 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:25:35,752 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:41,376 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:25:41,377 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-05-05 19:25:41,377 [INFO] ✍️  WriterAgent 开始: 5个让新手地图看起来更好看的地形技巧 (loop 0)
+2026-05-05 19:25:41,382 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:55,427 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:25:55,429 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:25:56,599 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:25:56,601 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:00,746 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:26:00,747 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-05 19:26:00,747 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-05 19:26:00,747 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-05 19:26:00,748 [INFO] 📄 文章写入: docs/terrain/区域region的用法配合触发器实现进入事件.md
+2026-05-05 19:26:00,748 [INFO] 📐 PlannerAgent 开始: 多人地图入门：联机为什么和单机不一样
+2026-05-05 19:26:00,749 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:10,959 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:26:10,961 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:12,347 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:26:12,349 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:22,222 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:26:22,223 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-05 19:26:22,223 [INFO] 🔍 ResearcherAgent 开始: 多人地图入门：联机为什么和单机不一样 (21 查询)
+2026-05-05 19:26:22,224 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:22,289 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649775ea8759ad90761f684dc97f492"}
+2026-05-05 19:26:22,289 [INFO] 🌐 双语查询: EN='Warcraft 3 multiplayer map development tutorial' | ZH='Warcraft 3 multiplayer map development tutorial'
+2026-05-05 19:26:23,702 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 multiplayer map development t
+2026-05-05 19:26:23,744 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 multiplayer map development t
+2026-05-05 19:26:23,745 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:23,780 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649775f59beeff8f1da8a8082301ca7"}
+2026-05-05 19:26:23,780 [INFO] 🌐 双语查询: EN='WC3 World Editor multiplayer basics for beginners' | ZH='WC3 World Editor multiplayer basics for beginners'
+2026-05-05 19:26:24,596 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor multiplayer basics for 
+2026-05-05 19:26:27,339 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:26:27,341 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:27,968 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor multiplayer basics for 
+2026-05-05 19:26:27,969 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:28,002 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06497763a9de271e43fb6f595daea6c9"}
+2026-05-05 19:26:28,002 [INFO] 🌐 双语查询: EN='Warcraft 3 联机地图制作 入门指南' | ZH='Warcraft 3 联机地图制作 入门指南'
+2026-05-05 19:26:28,912 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 联机地图制作 入门指南
+2026-05-05 19:26:30,600 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:26:30,602 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:32,334 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 联机地图制作 入门指南
+2026-05-05 19:26:32,335 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:32,371 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06497768102982b08a9ccfe6f49b06fe"}
+2026-05-05 19:26:32,371 [INFO] 🌐 双语查询: EN='Warcraft 3 multiplayer vs singleplayer map differences' | ZH='Warcraft 3 multiplayer vs singleplayer map differences'
+2026-05-05 19:26:33,596 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 multiplayer vs singleplayer m
+2026-05-05 19:26:33,996 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 multiplayer vs singleplayer m
+2026-05-05 19:26:33,997 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:34,032 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649776a433bdcbebd0ce54d5dc0019c"}
+2026-05-05 19:26:34,032 [INFO] 🌐 双语查询: EN='WC3 multiplayer game architecture basics' | ZH='WC3 multiplayer game architecture basics'
+2026-05-05 19:26:34,859 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 multiplayer game architecture basics
+2026-05-05 19:26:35,517 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 multiplayer game architecture basics
+2026-05-05 19:26:35,518 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:35,557 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649776b98deb8a30d38eae91f067423"}
+2026-05-05 19:26:35,557 [INFO] 🌐 双语查询: EN='Warcraft 3 多人游戏和单机游戏的本质区别' | ZH='Warcraft 3 多人游戏和单机游戏的本质区别'
+2026-05-05 19:26:36,440 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 多人游戏和单机游戏的本质区别
+2026-05-05 19:26:36,614 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 多人游戏和单机游戏的本质区别
+2026-05-05 19:26:36,615 [INFO]   搜索阶段：收集到 36 条候选结果
+2026-05-05 19:26:37,489 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/1icq0l7/coop_custom_maps/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/1icq0l7/coop_custom_maps/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:26:39,055 [WARNING] ⚠️  抓取失败，已忽略: https://bbs.islga.org/read-htm-tid-392630-page-1-fpage-1.html — Client error '403 Forbidden' for url 'https://bbs.islga.org/read-htm-tid-392630-page-1-fpage-1.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:26:39,465 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:49,972 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:26:49,974 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:26:59,389 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:26:59,390 [INFO] ✅ WriterAgent 完成: 5980 字符, 3/3 来源被引用
+2026-05-05 19:26:59,390 [INFO] 🔎 ReviewerAgent 开始: 灯光与氛围：让地图有场景感
+2026-05-05 19:26:59,391 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:27:11,550 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:27:11,551 [INFO] ✅ WriterAgent 完成: 5212 字符, 5/5 来源被引用
+2026-05-05 19:27:11,551 [INFO] 🔎 ReviewerAgent 开始: 5个让新手地图看起来更好看的地形技巧
+2026-05-05 19:27:11,552 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:27:18,454 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:27:18,455 [INFO] ✅ 通过 ReviewerAgent: overall=0.80 (A=0.80 C=0.75 R=0.90 Cit=0.70)
+2026-05-05 19:27:18,455 [INFO]   反馈 5 条:
+2026-05-05 19:27:18,455 [INFO]   [missing_citation] 森林地图建议用淡绿色（RGB: 180,200,150），沙漠用暖黄色（RGB: 220,200,150），地下城用深紫...
+2026-05-05 19:27:18,456 [INFO]   [missing_citation] 森林地图推荐开启浅绿色雾气，密度设置为0.003-0.005；洞穴至少0.01...
+2026-05-05 19:27:18,456 [INFO]   [missing_citation] 默认值通常在 1800 左右...
+2026-05-05 19:27:18,456 [INFO]   [factual_error] 在高级（Advanced）菜单中的环境（Environment）设置...
+2026-05-05 19:27:18,456 [INFO]   [incomplete_section] 第二节和第四节都提到点光源，但没有详细讲解如何在编辑器中添加和配置点光源参数...
+2026-05-05 19:27:18,456 [INFO] ✅ 质量通过 (loop 0): score=0.80
+2026-05-05 19:27:18,456 [INFO] 📄 文章写入: docs/terrain/灯光与氛围让地图有场景感.md
+2026-05-05 19:27:18,457 [INFO] 📐 PlannerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-05-05 19:27:18,457 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:27:24,252 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:27:24,253 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-05-05 19:27:24,253 [INFO] ✍️  WriterAgent 开始: 多人地图入门：联机为什么和单机不一样 (loop 0)
+2026-05-05 19:27:24,254 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:27:35,400 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:27:35,401 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 34 (char 216)
+2026-05-05 19:27:35,401 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-05 19:27:35,401 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-05 19:27:35,402 [INFO] 📄 文章写入: docs/terrain/5个让新手地图看起来更好看的地形技巧.md

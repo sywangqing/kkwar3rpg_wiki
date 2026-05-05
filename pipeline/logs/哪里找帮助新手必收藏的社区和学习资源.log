@@ -3515,3 +3515,279 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-05 05:02:34,038 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
 2026-05-05 05:02:34,038 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-05-05 05:02:34,039 [INFO] 📄 文章写入: docs/faq/哪里找帮助新手必收藏的社区和学习资源.md
+2026-05-05 19:18:01,211 [INFO] 📐 PlannerAgent 开始: 哪里找帮助？新手必收藏的社区和学习资源
+2026-05-05 19:18:03,326 [INFO] 📐 PlannerAgent 开始: 新手最常遇到的10个错误和解决方法
+2026-05-05 19:18:03,327 [INFO] 📐 PlannerAgent 开始: 地图加密保护：防止作品被盗用
+2026-05-05 19:18:03,343 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:03,343 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:03,344 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:22,269 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:18:22,281 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-05 19:18:22,281 [INFO] 🔍 ResearcherAgent 开始: 地图加密保护：防止作品被盗用 (21 查询)
+2026-05-05 19:18:22,283 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:22,883 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649757e9f204fc208b2f215517a71bb"}
+2026-05-05 19:18:22,883 [INFO] 🌐 双语查询: EN='Warcraft III map protection tutorial' | ZH='Warcraft III map protection tutorial'
+2026-05-05 19:18:24,665 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III map protection tutorial
+2026-05-05 19:18:24,869 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III map protection tutorial
+2026-05-05 19:18:24,870 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:24,906 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06497580127e0082d47385045c3bf24c"}
+2026-05-05 19:18:24,906 [INFO] 🌐 双语查询: EN='魔兽争霸3 地图防盗 完整指南' | ZH='魔兽争霸3 地图防盗 完整指南'
+2026-05-05 19:18:25,364 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:18:25,366 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-05 19:18:25,366 [INFO] 🔍 ResearcherAgent 开始: 哪里找帮助？新手必收藏的社区和学习资源 (21 查询)
+2026-05-05 19:18:25,366 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:25,401 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064975815f28543b160b86a6f00e8a68"}
+2026-05-05 19:18:25,402 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor beginner guide 2024' | ZH='Warcraft 3 World Editor beginner guide 2024'
+2026-05-05 19:18:26,097 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图防盗 完整指南
+2026-05-05 19:18:26,260 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图防盗 完整指南
+2026-05-05 19:18:26,261 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:26,296 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649758299d339dbb7ce3742d44c743f"}
+2026-05-05 19:18:26,296 [INFO] 🌐 双语查询: EN='WC3 custom map security best practices' | ZH='WC3 custom map security best practices'
+2026-05-05 19:18:27,249 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 custom map security best practices
+2026-05-05 19:18:27,735 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:18:27,736 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-05 19:18:27,737 [INFO] 🔍 ResearcherAgent 开始: 新手最常遇到的10个错误和解决方法 (21 查询)
+2026-05-05 19:18:27,738 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:27,774 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06497583e53f035e2bf6e62aff456226"}
+2026-05-05 19:18:27,774 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor beginner guide common mistakes' | ZH='Warcraft 3 World Editor beginner guide common mistakes'
+2026-05-05 19:18:28,498 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor beginner guide 2
+2026-05-05 19:18:28,532 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor beginner guide 2
+2026-05-05 19:18:28,534 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:28,566 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064975848385a7551ca9ab96cca49c2a"}
+2026-05-05 19:18:28,566 [INFO] 🌐 双语查询: EN='魔兽争霸3地图编辑器 新手入门 完全指南' | ZH='魔兽争霸3地图编辑器 新手入门 完全指南'
+2026-05-05 19:18:28,633 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor beginner guide c
+2026-05-05 19:18:28,753 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor beginner guide c
+2026-05-05 19:18:28,754 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:28,789 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649758463055ce20faca1b34524d3f0"}
+2026-05-05 19:18:28,789 [INFO] 🌐 双语查询: EN='魔兽争霸3 世界编辑器 新手教程 常见问题' | ZH='魔兽争霸3 世界编辑器 新手教程 常见问题'
+2026-05-05 19:18:29,401 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3地图编辑器 新手入门 完全指南
+2026-05-05 19:18:29,418 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3地图编辑器 新手入门 完全指南
+2026-05-05 19:18:29,420 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:29,461 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064975854f03a8cf46fee925527c55e3"}
+2026-05-05 19:18:29,461 [INFO] 🌐 双语查询: EN='WC3 modding resources tutorial complete list' | ZH='WC3 modding resources tutorial complete list'
+2026-05-05 19:18:29,880 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 世界编辑器 新手教程 常见问题
+2026-05-05 19:18:29,999 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 世界编辑器 新手教程 常见问题
+2026-05-05 19:18:30,001 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:30,038 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06497586e56796def5570c4e698ab7b2"}
+2026-05-05 19:18:30,039 [INFO] 🌐 双语查询: EN='WC3 custom map making tips for beginners' | ZH='WC3 custom map making tips for beginners'
+2026-05-05 19:18:30,287 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 custom map security best practices
+2026-05-05 19:18:30,295 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:30,329 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064975867eed52ac1215219d5dda7f53"}
+2026-05-05 19:18:30,329 [INFO] 🌐 双语查询: EN='Warcraft III map encryption protection' | ZH='Warcraft III map encryption protection'
+2026-05-05 19:18:30,576 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 modding resources tutorial complete 
+2026-05-05 19:18:31,271 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III map encryption protection
+2026-05-05 19:18:31,508 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III map encryption protection
+2026-05-05 19:18:31,510 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:31,544 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06497587eb5eacc77e6e13f9775bfb1f"}
+2026-05-05 19:18:31,544 [INFO] 🌐 双语查询: EN='魔兽争霸3 地图加密 防盗' | ZH='魔兽争霸3 地图加密 防盗'
+2026-05-05 19:18:31,576 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 custom map making tips for beginners
+2026-05-05 19:18:31,626 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 modding resources tutorial complete 
+2026-05-05 19:18:31,627 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:31,660 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06497587363adfbafcebf46f6aadbe6f"}
+2026-05-05 19:18:31,660 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor official documentation' | ZH='Warcraft 3 World Editor official documentation'
+2026-05-05 19:18:32,426 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor official documen
+2026-05-05 19:18:32,590 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图加密 防盗
+2026-05-05 19:18:32,786 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor official documen
+2026-05-05 19:18:32,787 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:32,824 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064975882c3f8b7993cdc9cb70d759d0"}
+2026-05-05 19:18:32,825 [INFO] 🌐 双语查询: EN='暴雪官方 魔兽争霸3 编辑器 文档' | ZH='暴雪官方 魔兽争霸3 编辑器 文档'
+2026-05-05 19:18:32,845 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图加密 防盗
+2026-05-05 19:18:32,846 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:32,881 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064975887bdaedae8962cf437cf17f5a"}
+2026-05-05 19:18:32,882 [INFO] 🌐 双语查询: EN='WC3 MPQ protection basics' | ZH='WC3 MPQ protection basics'
+2026-05-05 19:18:33,860 [INFO] 🔍 Tavily 搜索成功: 5 条 | 暴雪官方 魔兽争霸3 编辑器 文档
+2026-05-05 19:18:33,901 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 MPQ protection basics
+2026-05-05 19:18:33,914 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 MPQ protection basics
+2026-05-05 19:18:33,915 [INFO]   搜索阶段：收集到 32 条候选结果
+2026-05-05 19:18:33,976 [INFO] 🔍 Tavily 搜索成功: 5 条 | 暴雪官方 魔兽争霸3 编辑器 文档
+2026-05-05 19:18:33,977 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 custom map making tips for beginners
+2026-05-05 19:18:33,980 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:33,980 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:34,021 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06497589927b202c3608946f13dc0f8c"}
+2026-05-05 19:18:34,021 [INFO] 🌐 双语查询: EN='WC3 trigger editor guide' | ZH='WC3 trigger editor guide'
+2026-05-05 19:18:34,177 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649758afdeaaa27c075b92e2638ace7"}
+2026-05-05 19:18:34,177 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor trigger basics for beginners' | ZH='Warcraft 3 World Editor trigger basics for beginners'
+2026-05-05 19:18:34,544 [WARNING] ⚠️  抓取失败，已忽略: https://w3protect.eu/ — Client error '403 Forbidden' for url 'https://w3protect.eu/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:18:34,888 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger editor guide
+2026-05-05 19:18:35,041 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger editor guide
+2026-05-05 19:18:35,042 [INFO]   搜索阶段：收集到 32 条候选结果
+2026-05-05 19:18:35,203 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/350695161 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/350695161'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:18:35,368 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/map-protection-details.295556/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/map-protection-details.295556/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:18:35,369 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:35,587 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor trigger basics f
+2026-05-05 19:18:35,841 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor trigger basics f
+2026-05-05 19:18:35,842 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:35,874 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649758b1c4e8ee9677a0b37421557f8"}
+2026-05-05 19:18:35,874 [INFO] 🌐 双语查询: EN='魔兽争霸3 触发器入门 常见错误' | ZH='魔兽争霸3 触发器入门 常见错误'
+2026-05-05 19:18:36,681 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 触发器入门 常见错误
+2026-05-05 19:18:37,154 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/qq_41968782/article/details/111082208 — Server error '521 ' for url 'https://blog.csdn.net/qq_41968782/article/details/111082208'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-05 19:18:37,217 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 触发器入门 常见错误
+2026-05-05 19:18:37,218 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:37,252 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649758d4c859adce8d26446f50daa03"}
+2026-05-05 19:18:37,252 [INFO] 🌐 双语查询: EN='WC3 trigger syntax error common mistakes' | ZH='WC3 trigger syntax error common mistakes'
+2026-05-05 19:18:37,330 [WARNING] ⚠️  抓取失败，已忽略: https://wc3we.fandom.com/wiki/GUI_Triggering — Client error '403 Forbidden' for url 'https://wc3we.fandom.com/wiki/GUI_Triggering'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:18:37,382 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/qq_41968782/article/details/111149605 — Server error '521 ' for url 'https://blog.csdn.net/qq_41968782/article/details/111149605'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-05 19:18:37,980 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger syntax error common mistakes
+2026-05-05 19:18:38,437 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger syntax error common mistakes
+2026-05-05 19:18:38,437 [INFO]   搜索阶段：收集到 36 条候选结果
+2026-05-05 19:18:39,688 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:39,888 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/d2bmlh/i_need_help_with_a_trigger/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/d2bmlh/i_need_help_with_a_trigger/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:18:39,978 [WARNING] ⚠️  抓取失败，已忽略: https://www.thehelper.net/threads/receiving-errors-upon-copying-triggers-from-other-maps.104298/ — Client error '403 Forbidden' for url 'https://www.thehelper.net/threads/receiving-errors-upon-copying-triggers-from-other-maps.104298/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:18:40,043 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/want-to-make-some-wc3-custom-maps-and-need-some-help.294227 — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/want-to-make-some-wc3-custom-maps-and-need-some-help.294227'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:18:40,109 [WARNING] ⚠️  抓取失败，已忽略: https://medium.com/@gentechimports/warcraft-iii-peon-voice-notifications-for-claude-code-a-developers-story-dd6842deb852 — Client error '403 Forbidden' for url 'https://medium.com/@gentechimports/warcraft-iii-peon-voice-notifications-for-claude-code-a-developers-story-dd6842deb852'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:18:40,192 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/1rb950h/how_do_i_get_started_making_custom_maps_for_wc3 — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/1rb950h/how_do_i_get_started_making_custom_maps_for_wc3/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:18:40,344 [WARNING] ⚠️  抓取失败，已忽略: https://wenku.csdn.net/answer/n8yniau97pl — Server error '521 ' for url 'https://wenku.csdn.net/answer/n8yniau97pl'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-05 19:18:42,085 [WARNING] ⚠️  抓取失败，已忽略: https://wk.baidu.com/view/806e7d8371fe910ef12df80d?pcf=2&bfetype=new — Client error '403 Forbidden' for url 'https://wenku.baidu.com/view/806e7d8371fe910ef12df80d?pcf=2&bfetype=new&bfetype=new'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-05 19:18:42,086 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:18:57,618 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:18:57,619 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-05 19:18:57,619 [INFO] ✍️  WriterAgent 开始: 地图加密保护：防止作品被盗用 (loop 0)
+2026-05-05 19:18:57,620 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:19:07,970 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:19:07,971 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-05-05 19:19:07,971 [INFO] ✍️  WriterAgent 开始: 新手最常遇到的10个错误和解决方法 (loop 0)
+2026-05-05 19:19:07,973 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:19:13,130 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:19:13,132 [INFO] ✅ ResearcherAgent 完成: 8 个来源已注册
+2026-05-05 19:19:13,132 [INFO] ✍️  WriterAgent 开始: 哪里找帮助？新手必收藏的社区和学习资源 (loop 0)
+2026-05-05 19:19:13,133 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:19:17,174 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:19:17,175 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:19:37,262 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:19:37,264 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:19:38,792 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:19:38,794 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:19:39,426 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:19:39,427 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:19:52,716 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:19:52,718 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:19:56,412 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:19:56,414 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:20:00,452 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:20:00,454 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:20:04,795 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:20:04,797 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:20:15,749 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:20:15,751 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:20:21,799 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:20:21,801 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:20:23,790 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:20:23,792 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:20:32,620 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:20:32,622 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:20:38,415 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:20:38,417 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:20:48,509 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:20:48,511 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:20:50,337 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:20:50,338 [INFO] ✅ WriterAgent 完成: 6523 字符, 4/4 来源被引用
+2026-05-05 19:20:50,338 [INFO] 🔎 ReviewerAgent 开始: 地图加密保护：防止作品被盗用
+2026-05-05 19:20:50,339 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:21:05,061 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:21:05,062 [INFO] ✅ WriterAgent 完成: 7577 字符, 8/8 来源被引用
+2026-05-05 19:21:05,062 [INFO] 🔎 ReviewerAgent 开始: 哪里找帮助？新手必收藏的社区和学习资源
+2026-05-05 19:21:05,063 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:21:05,944 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:21:05,946 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:21:06,737 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:21:06,738 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 25 column 39 (char 879)
+2026-05-05 19:21:06,738 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-05 19:21:06,738 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-05 19:21:06,739 [INFO] 📄 文章写入: docs/publishing/地图加密保护防止作品被盗用.md
+2026-05-05 19:21:06,739 [INFO] 📐 PlannerAgent 开始: 地图性能优化：解决卡顿掉帧问题
+2026-05-05 19:21:06,740 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:21:24,548 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:21:24,550 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-05 19:21:24,550 [INFO] 🔍 ResearcherAgent 开始: 地图性能优化：解决卡顿掉帧问题 (21 查询)
+2026-05-05 19:21:24,550 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:21:24,694 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649763427e055e583091cb961146daf"}
+2026-05-05 19:21:24,695 [INFO] 🌐 双语查询: EN='Warcraft III map performance optimization guide' | ZH='Warcraft III map performance optimization guide'
+2026-05-05 19:21:25,719 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III map performance optimizatio
+2026-05-05 19:21:25,832 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III map performance optimizatio
+2026-05-05 19:21:25,833 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:21:25,873 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06497635d0af992a784213b969491db2"}
+2026-05-05 19:21:25,873 [INFO] 🌐 双语查询: EN='WC3 World Editor lag fix tutorial' | ZH='WC3 World Editor lag fix tutorial'
+2026-05-05 19:21:26,652 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor lag fix tutorial
+2026-05-05 19:21:26,908 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 World Editor lag fix tutorial
+2026-05-05 19:21:26,909 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:21:26,945 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064976368e34514f240b0b1ddc9a7369"}
+2026-05-05 19:21:26,945 [INFO] 🌐 双语查询: EN='魔兽争霸3 地图 性能优化 完整指南' | ZH='魔兽争霸3 地图 性能优化 完整指南'
+2026-05-05 19:21:27,975 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图 性能优化 完整指南
+2026-05-05 19:21:28,098 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图 性能优化 完整指南
+2026-05-05 19:21:28,099 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:21:28,135 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064976387ea78e1058b59e8249bb0a40"}
+2026-05-05 19:21:28,136 [INFO] 🌐 双语查询: EN='Warcraft III performance lag causes' | ZH='Warcraft III performance lag causes'
+2026-05-05 19:21:29,072 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III performance lag causes
+2026-05-05 19:21:29,250 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III performance lag causes
+2026-05-05 19:21:29,251 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-05 19:21:29,284 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"0649763991f25dac6bd22ad446307272"}
+2026-05-05 19:21:29,284 [INFO] 🌐 双语查询: EN='WC3 frame rate drops optimization' | ZH='WC3 frame rate drops optimization'
+2026-05-05 19:21:30,212 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 frame rate drops optimization
+2026-05-05 19:21:30,623 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-05 19:21:30,624 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 25 column 25 (char 846)
+2026-05-05 19:21:30,624 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-05 19:21:30,624 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-05 19:21:30,625 [INFO] 📄 文章写入: docs/faq/哪里找帮助新手必收藏的社区和学习资源.md
