@@ -3851,3 +3851,262 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-06 05:34:56,534 [INFO]   [missing_citation] 「按F4打开触发器编辑器」这一快捷键操作...
 2026-05-06 05:34:56,535 [INFO] ✅ 质量通过 (loop 0): score=0.76
 2026-05-06 05:34:56,535 [INFO] 📄 文章写入: docs/terrain/区域region的用法配合触发器实现进入事件.md
+2026-05-06 19:48:23,663 [INFO] 📐 PlannerAgent 开始: 区域Region的用法：配合触发器实现进入事件
+2026-05-06 19:48:23,664 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:38,791 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:48:38,792 [INFO] ✅ PlannerAgent 完成: 5 节, 18 个查询
+2026-05-06 19:48:38,792 [INFO] 🔍 ResearcherAgent 开始: 如何把地图发布到KK平台：完整上传步骤 (18 查询)
+2026-05-06 19:48:38,793 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:38,871 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace16f77c833952d1d70cfec517b9"}
+2026-05-06 19:48:38,871 [INFO] 🌐 双语查询: EN='如何发布魔兽争霸3自定义地图到网络平台' | ZH='如何发布魔兽争霸3自定义地图到网络平台'
+2026-05-06 19:48:39,796 [INFO] 🔍 Tavily 搜索成功: 5 条 | 如何发布魔兽争霸3自定义地图到网络平台
+2026-05-06 19:48:39,944 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:48:39,945 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-06 19:48:39,945 [INFO] 🔍 ResearcherAgent 开始: 地图性能优化：解决卡顿掉帧问题 (21 查询)
+2026-05-06 19:48:39,946 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:39,974 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace176f23b1d7d73d2a67fb0aa011"}
+2026-05-06 19:48:39,975 [INFO] 🌐 双语查询: EN='Warcraft 3 map performance optimization guide' | ZH='Warcraft 3 map performance optimization guide'
+2026-05-06 19:48:40,269 [INFO] 🔍 Tavily 搜索成功: 5 条 | 如何发布魔兽争霸3自定义地图到网络平台
+2026-05-06 19:48:40,270 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:40,305 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace18674df5af2c72e821d6f33163"}
+2026-05-06 19:48:40,305 [INFO] 🌐 双语查询: EN='Warcraft III custom map publishing guide 2024' | ZH='Warcraft III custom map publishing guide 2024'
+2026-05-06 19:48:40,892 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map performance optimization 
+2026-05-06 19:48:41,152 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III custom map publishing guide
+2026-05-06 19:48:41,164 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III custom map publishing guide
+2026-05-06 19:48:41,165 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:41,193 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace198485d3bd0c8d236de6aaebfc"}
+2026-05-06 19:48:41,194 [INFO] 🌐 双语查询: EN='KK魔兽地图平台 使用教程' | ZH='KK魔兽地图平台 使用教程'
+2026-05-06 19:48:41,782 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK魔兽地图平台 使用教程
+2026-05-06 19:48:41,945 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map performance optimization 
+2026-05-06 19:48:41,946 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:41,995 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace198becf1f86bdd6edc481de11a"}
+2026-05-06 19:48:41,995 [INFO] 🌐 双语查询: EN='WC3 地图性能优化 教程' | ZH='WC3 地图性能优化 教程'
+2026-05-06 19:48:42,028 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK魔兽地图平台 使用教程
+2026-05-06 19:48:42,029 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:42,066 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1a9e4ebe5b4a2a15cd2685b61e"}
+2026-05-06 19:48:42,066 [INFO] 🌐 双语查询: EN='KK平台 魔兽争霸 地图发布' | ZH='KK平台 魔兽争霸 地图发布'
+2026-05-06 19:48:42,712 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 地图性能优化 教程
+2026-05-06 19:48:42,872 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK平台 魔兽争霸 地图发布
+2026-05-06 19:48:42,890 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 地图性能优化 教程
+2026-05-06 19:48:42,890 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:42,920 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1a9c4048fb81d59d100cc57e81"}
+2026-05-06 19:48:42,920 [INFO] 🌐 双语查询: EN='World Editor lag fix troubleshooting' | ZH='World Editor lag fix troubleshooting'
+2026-05-06 19:48:43,289 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK平台 魔兽争霸 地图发布
+2026-05-06 19:48:43,290 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:43,352 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1b60ba82404ad9fc29fa7e42cb"}
+2026-05-06 19:48:43,352 [INFO] 🌐 双语查询: EN='Warcraft III custom map platforms' | ZH='Warcraft III custom map platforms'
+2026-05-06 19:48:43,810 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor lag fix troubleshooting
+2026-05-06 19:48:43,868 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor lag fix troubleshooting
+2026-05-06 19:48:43,868 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:43,896 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1bbff117828fbb2ef559ced318"}
+2026-05-06 19:48:43,896 [INFO] 🌐 双语查询: EN='Warcraft 3 frame drop causes' | ZH='Warcraft 3 frame drop causes'
+2026-05-06 19:48:44,504 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:48:44,505 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-06 19:48:44,505 [INFO] 🔍 ResearcherAgent 开始: 区域Region的用法：配合触发器实现进入事件 (21 查询)
+2026-05-06 19:48:44,506 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:44,536 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1cbaf847b8dc8fb70d3af45833"}
+2026-05-06 19:48:44,536 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor tutorial for beginners' | ZH='Warcraft 3 World Editor tutorial for beginners'
+2026-05-06 19:48:44,645 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 frame drop causes
+2026-05-06 19:48:44,656 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III custom map platforms
+2026-05-06 19:48:44,667 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 frame drop causes
+2026-05-06 19:48:44,668 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:44,699 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1c033366b017e5ab557cfbde64"}
+2026-05-06 19:48:44,700 [INFO] 🌐 双语查询: EN='WC3 帧数低 原因' | ZH='WC3 帧数低 原因'
+2026-05-06 19:48:45,047 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III custom map platforms
+2026-05-06 19:48:45,048 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:45,079 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1df591c41b84d8e6398d90065d"}
+2026-05-06 19:48:45,079 [INFO] 🌐 双语查询: EN='KK平台是什么 魔兽地图' | ZH='KK平台是什么 魔兽地图'
+2026-05-06 19:48:45,487 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 帧数低 原因
+2026-05-06 19:48:45,709 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 帧数低 原因
+2026-05-06 19:48:45,710 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:45,738 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1d8a9939fd46281733ca84e6e6"}
+2026-05-06 19:48:45,739 [INFO] 🌐 双语查询: EN='Warcraft 3 lag vs low FPS difference' | ZH='Warcraft 3 lag vs low FPS difference'
+2026-05-06 19:48:45,801 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor tutorial for beg
+2026-05-06 19:48:45,883 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK平台是什么 魔兽地图
+2026-05-06 19:48:45,935 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor tutorial for beg
+2026-05-06 19:48:45,936 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:45,962 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1dbf0d80ca19ef32b6fb0acbe4"}
+2026-05-06 19:48:45,963 [INFO] 🌐 双语查询: EN='魔兽争霸3 地图编辑器 新手教程' | ZH='魔兽争霸3 地图编辑器 新手教程'
+2026-05-06 19:48:45,966 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK平台是什么 魔兽地图
+2026-05-06 19:48:45,966 [INFO]   搜索阶段：收集到 33 条候选结果
+2026-05-06 19:48:46,625 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 lag vs low FPS difference
+2026-05-06 19:48:46,874 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 lag vs low FPS difference
+2026-05-06 19:48:46,875 [INFO]   搜索阶段：收集到 34 条候选结果
+2026-05-06 19:48:47,039 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/ayf4ha/where_can_i_play_warcraft_3_custom_maps_online/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/ayf4ha/where_can_i_play_warcraft_3_custom_maps_online/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:47,047 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图编辑器 新手教程
+2026-05-06 19:48:47,080 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图编辑器 新手教程
+2026-05-06 19:48:47,081 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:47,120 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1f18d007bd5d030ba018f28cd9"}
+2026-05-06 19:48:47,120 [INFO] 🌐 双语查询: EN='WC3 trigger system complete guide' | ZH='WC3 trigger system complete guide'
+2026-05-06 19:48:47,123 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/1908567918221960896 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/1908567918221960896'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:47,169 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/1909196557909205506 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/1909196557909205506'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:47,516 [WARNING] ⚠️  抓取失败，已忽略: https://www.zhihu.com/question/480889948 — Client error '403 Forbidden' for url 'https://www.zhihu.com/question/480889948'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:47,517 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:48,277 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_00600/article/details/160542055 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_00600/article/details/160542055'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-06 19:48:48,287 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_00270/article/details/160542062 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_00270/article/details/160542062'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-06 19:48:48,310 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_00003/article/details/160727348 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_00003/article/details/160727348'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-06 19:48:48,320 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger system complete guide
+2026-05-06 19:48:48,330 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/WC3/comments/910l2j/wc3_is_capped_at_50fps_since_the_1803_win10/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/WC3/comments/910l2j/wc3_is_capped_at_50fps_since_the_1803_win10/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:48,713 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger system complete guide
+2026-05-06 19:48:48,714 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:48,744 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace2039db931e782a7795ff014ca3"}
+2026-05-06 19:48:48,745 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor region tutorial' | ZH='Warcraft 3 World Editor region tutorial'
+2026-05-06 19:48:48,852 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/1j2t5oe/periodic_laggy_stuttering_performance_despite/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/1j2t5oe/periodic_laggy_stuttering_performance_despite/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:49,412 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_01057/article/details/160753727 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_01057/article/details/160753727'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-06 19:48:49,413 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:50,720 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor region tutorial
+2026-05-06 19:48:52,967 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor region tutorial
+2026-05-06 19:48:52,968 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:52,999 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace24488275014d98dbaf99c7e2fb"}
+2026-05-06 19:48:53,000 [INFO] 🌐 双语查询: EN='魔兽争霸3 区域 是什么' | ZH='魔兽争霸3 区域 是什么'
+2026-05-06 19:48:53,700 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 区域 是什么
+2026-05-06 19:48:54,582 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 区域 是什么
+2026-05-06 19:48:54,583 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:54,613 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace2695c877eaf390218eb46b924f"}
+2026-05-06 19:48:54,613 [INFO] 🌐 双语查询: EN='WC3 region vs doodad difference' | ZH='WC3 region vs doodad difference'
+2026-05-06 19:48:54,669 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:48:54,689 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:48:54,700 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20region%20vs%20doodad%20difference)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20region%20vs%20doodad%20difference')")
+2026-05-06 19:48:54,739 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20region%20vs%20doodad%20difference)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20region%20vs%20doodad%20difference')")
+2026-05-06 19:48:54,853 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:48:54,880 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+region+vs+doodad+difference&limit=1 200
+2026-05-06 19:48:54,933 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+region+vs+doodad+difference&limit=1 200
+2026-05-06 19:48:55,050 [INFO] response: https://www.mojeek.com/search?q=WC3+region+vs+doodad+difference 403
+2026-05-06 19:48:55,354 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:48:55,355 [WARNING] 来源不足（0/3），扩大搜索...
+2026-05-06 19:48:55,404 [INFO] response: https://search.yahoo.com/search;_ylt=1yErQH1EYI6XHAXgnUsN18iG;_ylu=s4eHfZm_g4vpU4vwHXAbHax1pF8-GFG1nsdMmBNbZCrOoVM?p=WC3+region+vs+doodad+difference 200
+2026-05-06 19:48:55,434 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:48:55,479 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4%20tutorial%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4%20tutorial%20guide')")
+2026-05-06 19:48:55,567 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4+tutorial+guide&limit=1 200
+2026-05-06 19:48:55,709 [INFO] response: https://search.brave.com/search?q=WC3+region+vs+doodad+difference&source=web 200
+2026-05-06 19:48:55,716 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 region vs doodad difference
+2026-05-06 19:48:55,771 [INFO] response: https://search.brave.com/search?q=WC3+region+vs+doodad+difference&source=web 200
+2026-05-06 19:48:55,778 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 region vs doodad difference
+2026-05-06 19:48:55,778 [INFO]   搜索阶段：收集到 32 条候选结果
+2026-05-06 19:48:55,900 [WARNING] ⚠️  抓取失败，已忽略: https://wowpedia.fandom.com/wiki/Doodad — Client error '403 Forbidden' for url 'https://wowpedia.fandom.com/wiki/Doodad'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:56,278 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4+tutorial+guide&web=1&searchid=4185836 200
+2026-05-06 19:48:56,401 [INFO] response: https://search.yahoo.com/search;_ylt=cUszPwdQADrG2EVvA4PvZHtd;_ylu=KVTs5R1uFgnp5p_GhvtYKQCxNyMziFbenDvGau2HFD2uMSE?p=Warcraft+III+%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4+tutorial+guide 200
+2026-05-06 19:48:57,168 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4+tutorial+guide&source=web 200
+2026-05-06 19:48:57,174 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 如何把地图发布到KK平台：完整上传步骤 tutoria
+2026-05-06 19:48:57,175 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-06 19:48:57,175 [INFO] ✍️  WriterAgent 开始: 如何把地图发布到KK平台：完整上传步骤 (loop 0)
+2026-05-06 19:48:57,176 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:57,190 [WARNING] ⚠️  抓取失败，已忽略: https://www.thehelper.net/threads/the-basics-of-the-world-editor.33390/ — Client error '403 Forbidden' for url 'https://www.thehelper.net/threads/the-basics-of-the-world-editor.33390/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:58,292 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:18,661 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:18,662 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-06 19:49:18,663 [INFO] ✍️  WriterAgent 开始: 区域Region的用法：配合触发器实现进入事件 (loop 0)
+2026-05-06 19:49:18,664 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:20,186 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:20,187 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:22,493 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:22,494 [INFO] ✅ ResearcherAgent 完成: 7 个来源已注册
+2026-05-06 19:49:22,494 [INFO] ✍️  WriterAgent 开始: 地图性能优化：解决卡顿掉帧问题 (loop 0)
+2026-05-06 19:49:22,495 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:34,823 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:34,825 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:41,888 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:41,890 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:44,850 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:44,851 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:52,536 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:52,537 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:07,772 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:07,773 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:11,062 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:11,064 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:15,690 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:15,691 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:29,534 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:29,536 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:31,206 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:31,207 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:31,539 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:31,540 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:52,610 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:52,611 [INFO] ✅ WriterAgent 完成: 5028 字符, 3/3 来源被引用
+2026-05-06 19:50:52,611 [INFO] 🔎 ReviewerAgent 开始: 如何把地图发布到KK平台：完整上传步骤
+2026-05-06 19:50:52,612 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:56,131 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:56,132 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:01,038 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:01,040 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:15,384 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:15,385 [INFO] ✅ WriterAgent 完成: 7193 字符, 3/3 来源被引用
+2026-05-06 19:51:15,385 [INFO] 🔎 ReviewerAgent 开始: 区域Region的用法：配合触发器实现进入事件
+2026-05-06 19:51:15,386 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:20,160 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:20,161 [INFO] ⚠️  未通过 ReviewerAgent: overall=0.54 (A=0.35 C=0.75 R=0.88 Cit=0.30)
+2026-05-06 19:51:20,161 [INFO]   反馈 5 条:
+2026-05-06 19:51:20,161 [INFO]   [factual_error] KK平台是一个专门为 Warcraft III 自定义地图开发者设计的发布和分享平台...
+2026-05-06 19:51:20,161 [INFO]   [factual_error] 登录后，找到'开发者中心'或'作者后台'入口，这里就是你上传和管理地图的地方...
+2026-05-06 19:51:20,162 [INFO]   [missing_citation] 审核时间通常为1-7个工作日...
+2026-05-06 19:51:20,162 [INFO]   [missing_citation] 填写更新日志 — 平台通常会要求你填写这次更新的内容说明...
+2026-05-06 19:51:20,162 [INFO]   [missing_citation] 在评论区或反馈页面查看玩家提出的问题和建议...
+2026-05-06 19:51:20,162 [INFO] ⚠️  质量未通过 (loop 0)，score=0.54，开始重写...
+2026-05-06 19:51:20,162 [INFO] ✍️  WriterAgent 开始: 如何把地图发布到KK平台：完整上传步骤 (loop 1)
+2026-05-06 19:51:20,163 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:26,586 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:26,588 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:39,624 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:39,626 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:41,699 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:41,700 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-06 19:51:41,700 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-06 19:51:41,700 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-06 19:51:41,700 [INFO] 📄 文章写入: docs/terrain/区域region的用法配合触发器实现进入事件.md

@@ -4414,3 +4414,659 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-06 05:34:24,040 [INFO]   [incomplete_section] 账号安全与设置 section...
 2026-05-06 05:34:24,040 [INFO] ✅ 质量通过 (loop 0): score=0.75
 2026-05-06 05:34:24,040 [INFO] 📄 文章写入: docs/publishing/如何把地图发布到kk平台完整上传步骤.md
+2026-05-06 19:48:17,553 [INFO] 📐 PlannerAgent 开始: 如何把地图发布到KK平台：完整上传步骤
+2026-05-06 19:48:17,554 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:23,661 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:48:23,661 [INFO] ✅ 通过 ReviewerAgent: overall=0.83 (A=0.85 C=0.80 R=0.90 Cit=0.75)
+2026-05-06 19:48:23,662 [INFO]   反馈 5 条:
+2026-05-06 19:48:23,662 [INFO]   [missing_citation] 使用第三方工具加密后，至少能阻挡90%以上的普通盗用者...
+2026-05-06 19:48:23,662 [INFO]   [missing_citation] 直接'照着玩一遍然后重新做'——用眼睛看、用脑子记、用双手复刻...
+2026-05-06 19:48:23,662 [INFO]   [missing_citation] 就连暴雪官方的开发者也承认这一点，他们在论坛表示 RPG 地图'非常容易被复制'，目前官方也没有完美的解决方案...
+2026-05-06 19:48:23,662 [INFO]   [missing_citation] 混淆触发器代码（把逻辑变得难以阅读）、优化字符串和变量、移除BJ函数调用（暴雪内置函数）...
+2026-05-06 19:48:23,662 [INFO]   [incomplete_section] 第三方地图加密工具推荐...
+2026-05-06 19:48:23,662 [INFO] ✅ 质量通过 (loop 0): score=0.83
+2026-05-06 19:48:23,663 [INFO] 📄 文章写入: docs/publishing/地图加密保护防止作品被盗用.md
+2026-05-06 19:48:23,663 [INFO] 📐 PlannerAgent 开始: 区域Region的用法：配合触发器实现进入事件
+2026-05-06 19:48:23,664 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:38,791 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:48:38,792 [INFO] ✅ PlannerAgent 完成: 5 节, 18 个查询
+2026-05-06 19:48:38,792 [INFO] 🔍 ResearcherAgent 开始: 如何把地图发布到KK平台：完整上传步骤 (18 查询)
+2026-05-06 19:48:38,793 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:38,871 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace16f77c833952d1d70cfec517b9"}
+2026-05-06 19:48:38,871 [INFO] 🌐 双语查询: EN='如何发布魔兽争霸3自定义地图到网络平台' | ZH='如何发布魔兽争霸3自定义地图到网络平台'
+2026-05-06 19:48:39,796 [INFO] 🔍 Tavily 搜索成功: 5 条 | 如何发布魔兽争霸3自定义地图到网络平台
+2026-05-06 19:48:39,944 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:48:39,945 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-06 19:48:39,945 [INFO] 🔍 ResearcherAgent 开始: 地图性能优化：解决卡顿掉帧问题 (21 查询)
+2026-05-06 19:48:39,946 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:39,974 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace176f23b1d7d73d2a67fb0aa011"}
+2026-05-06 19:48:39,975 [INFO] 🌐 双语查询: EN='Warcraft 3 map performance optimization guide' | ZH='Warcraft 3 map performance optimization guide'
+2026-05-06 19:48:40,269 [INFO] 🔍 Tavily 搜索成功: 5 条 | 如何发布魔兽争霸3自定义地图到网络平台
+2026-05-06 19:48:40,270 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:40,305 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace18674df5af2c72e821d6f33163"}
+2026-05-06 19:48:40,305 [INFO] 🌐 双语查询: EN='Warcraft III custom map publishing guide 2024' | ZH='Warcraft III custom map publishing guide 2024'
+2026-05-06 19:48:40,892 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map performance optimization 
+2026-05-06 19:48:41,152 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III custom map publishing guide
+2026-05-06 19:48:41,164 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III custom map publishing guide
+2026-05-06 19:48:41,165 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:41,193 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace198485d3bd0c8d236de6aaebfc"}
+2026-05-06 19:48:41,194 [INFO] 🌐 双语查询: EN='KK魔兽地图平台 使用教程' | ZH='KK魔兽地图平台 使用教程'
+2026-05-06 19:48:41,782 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK魔兽地图平台 使用教程
+2026-05-06 19:48:41,945 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 map performance optimization 
+2026-05-06 19:48:41,946 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:41,995 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace198becf1f86bdd6edc481de11a"}
+2026-05-06 19:48:41,995 [INFO] 🌐 双语查询: EN='WC3 地图性能优化 教程' | ZH='WC3 地图性能优化 教程'
+2026-05-06 19:48:42,028 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK魔兽地图平台 使用教程
+2026-05-06 19:48:42,029 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:42,066 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1a9e4ebe5b4a2a15cd2685b61e"}
+2026-05-06 19:48:42,066 [INFO] 🌐 双语查询: EN='KK平台 魔兽争霸 地图发布' | ZH='KK平台 魔兽争霸 地图发布'
+2026-05-06 19:48:42,712 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 地图性能优化 教程
+2026-05-06 19:48:42,872 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK平台 魔兽争霸 地图发布
+2026-05-06 19:48:42,890 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 地图性能优化 教程
+2026-05-06 19:48:42,890 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:42,920 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1a9c4048fb81d59d100cc57e81"}
+2026-05-06 19:48:42,920 [INFO] 🌐 双语查询: EN='World Editor lag fix troubleshooting' | ZH='World Editor lag fix troubleshooting'
+2026-05-06 19:48:43,289 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK平台 魔兽争霸 地图发布
+2026-05-06 19:48:43,290 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:43,352 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1b60ba82404ad9fc29fa7e42cb"}
+2026-05-06 19:48:43,352 [INFO] 🌐 双语查询: EN='Warcraft III custom map platforms' | ZH='Warcraft III custom map platforms'
+2026-05-06 19:48:43,810 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor lag fix troubleshooting
+2026-05-06 19:48:43,868 [INFO] 🔍 Tavily 搜索成功: 5 条 | World Editor lag fix troubleshooting
+2026-05-06 19:48:43,868 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:43,896 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1bbff117828fbb2ef559ced318"}
+2026-05-06 19:48:43,896 [INFO] 🌐 双语查询: EN='Warcraft 3 frame drop causes' | ZH='Warcraft 3 frame drop causes'
+2026-05-06 19:48:44,504 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:48:44,505 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-06 19:48:44,505 [INFO] 🔍 ResearcherAgent 开始: 区域Region的用法：配合触发器实现进入事件 (21 查询)
+2026-05-06 19:48:44,506 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:44,536 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1cbaf847b8dc8fb70d3af45833"}
+2026-05-06 19:48:44,536 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor tutorial for beginners' | ZH='Warcraft 3 World Editor tutorial for beginners'
+2026-05-06 19:48:44,645 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 frame drop causes
+2026-05-06 19:48:44,656 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III custom map platforms
+2026-05-06 19:48:44,667 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 frame drop causes
+2026-05-06 19:48:44,668 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:44,699 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1c033366b017e5ab557cfbde64"}
+2026-05-06 19:48:44,700 [INFO] 🌐 双语查询: EN='WC3 帧数低 原因' | ZH='WC3 帧数低 原因'
+2026-05-06 19:48:45,047 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft III custom map platforms
+2026-05-06 19:48:45,048 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:45,079 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1df591c41b84d8e6398d90065d"}
+2026-05-06 19:48:45,079 [INFO] 🌐 双语查询: EN='KK平台是什么 魔兽地图' | ZH='KK平台是什么 魔兽地图'
+2026-05-06 19:48:45,487 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 帧数低 原因
+2026-05-06 19:48:45,709 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 帧数低 原因
+2026-05-06 19:48:45,710 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:45,738 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1d8a9939fd46281733ca84e6e6"}
+2026-05-06 19:48:45,739 [INFO] 🌐 双语查询: EN='Warcraft 3 lag vs low FPS difference' | ZH='Warcraft 3 lag vs low FPS difference'
+2026-05-06 19:48:45,801 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor tutorial for beg
+2026-05-06 19:48:45,883 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK平台是什么 魔兽地图
+2026-05-06 19:48:45,935 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor tutorial for beg
+2026-05-06 19:48:45,936 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:45,962 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1dbf0d80ca19ef32b6fb0acbe4"}
+2026-05-06 19:48:45,963 [INFO] 🌐 双语查询: EN='魔兽争霸3 地图编辑器 新手教程' | ZH='魔兽争霸3 地图编辑器 新手教程'
+2026-05-06 19:48:45,966 [INFO] 🔍 Tavily 搜索成功: 5 条 | KK平台是什么 魔兽地图
+2026-05-06 19:48:45,966 [INFO]   搜索阶段：收集到 33 条候选结果
+2026-05-06 19:48:46,625 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 lag vs low FPS difference
+2026-05-06 19:48:46,874 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 lag vs low FPS difference
+2026-05-06 19:48:46,875 [INFO]   搜索阶段：收集到 34 条候选结果
+2026-05-06 19:48:47,039 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/ayf4ha/where_can_i_play_warcraft_3_custom_maps_online/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/ayf4ha/where_can_i_play_warcraft_3_custom_maps_online/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:47,047 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图编辑器 新手教程
+2026-05-06 19:48:47,080 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 地图编辑器 新手教程
+2026-05-06 19:48:47,081 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:47,120 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace1f18d007bd5d030ba018f28cd9"}
+2026-05-06 19:48:47,120 [INFO] 🌐 双语查询: EN='WC3 trigger system complete guide' | ZH='WC3 trigger system complete guide'
+2026-05-06 19:48:47,123 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/1908567918221960896 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/1908567918221960896'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:47,169 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/1909196557909205506 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/1909196557909205506'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:47,516 [WARNING] ⚠️  抓取失败，已忽略: https://www.zhihu.com/question/480889948 — Client error '403 Forbidden' for url 'https://www.zhihu.com/question/480889948'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:47,517 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:48,277 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_00600/article/details/160542055 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_00600/article/details/160542055'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-06 19:48:48,287 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_00270/article/details/160542062 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_00270/article/details/160542062'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-06 19:48:48,310 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_00003/article/details/160727348 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_00003/article/details/160727348'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-06 19:48:48,320 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger system complete guide
+2026-05-06 19:48:48,330 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/WC3/comments/910l2j/wc3_is_capped_at_50fps_since_the_1803_win10/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/WC3/comments/910l2j/wc3_is_capped_at_50fps_since_the_1803_win10/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:48,713 [INFO] 🔍 Tavily 搜索成功: 5 条 | WC3 trigger system complete guide
+2026-05-06 19:48:48,714 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:48,744 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace2039db931e782a7795ff014ca3"}
+2026-05-06 19:48:48,745 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor region tutorial' | ZH='Warcraft 3 World Editor region tutorial'
+2026-05-06 19:48:48,852 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/1j2t5oe/periodic_laggy_stuttering_performance_despite/?tl=zh-hans — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/1j2t5oe/periodic_laggy_stuttering_performance_despite/?tl=zh-hans'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:49,412 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_01057/article/details/160753727 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_01057/article/details/160753727'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-06 19:48:49,413 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:50,720 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor region tutorial
+2026-05-06 19:48:52,967 [INFO] 🔍 Tavily 搜索成功: 5 条 | Warcraft 3 World Editor region tutorial
+2026-05-06 19:48:52,968 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:52,999 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace24488275014d98dbaf99c7e2fb"}
+2026-05-06 19:48:53,000 [INFO] 🌐 双语查询: EN='魔兽争霸3 区域 是什么' | ZH='魔兽争霸3 区域 是什么'
+2026-05-06 19:48:53,700 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 区域 是什么
+2026-05-06 19:48:54,582 [INFO] 🔍 Tavily 搜索成功: 5 条 | 魔兽争霸3 区域 是什么
+2026-05-06 19:48:54,583 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:54,613 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064ace2695c877eaf390218eb46b924f"}
+2026-05-06 19:48:54,613 [INFO] 🌐 双语查询: EN='WC3 region vs doodad difference' | ZH='WC3 region vs doodad difference'
+2026-05-06 19:48:54,669 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:48:54,689 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:48:54,700 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20region%20vs%20doodad%20difference)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20region%20vs%20doodad%20difference')")
+2026-05-06 19:48:54,739 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20region%20vs%20doodad%20difference)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20region%20vs%20doodad%20difference')")
+2026-05-06 19:48:54,853 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:48:54,880 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+region+vs+doodad+difference&limit=1 200
+2026-05-06 19:48:54,933 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+region+vs+doodad+difference&limit=1 200
+2026-05-06 19:48:55,050 [INFO] response: https://www.mojeek.com/search?q=WC3+region+vs+doodad+difference 403
+2026-05-06 19:48:55,354 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:48:55,355 [WARNING] 来源不足（0/3），扩大搜索...
+2026-05-06 19:48:55,404 [INFO] response: https://search.yahoo.com/search;_ylt=1yErQH1EYI6XHAXgnUsN18iG;_ylu=s4eHfZm_g4vpU4vwHXAbHax1pF8-GFG1nsdMmBNbZCrOoVM?p=WC3+region+vs+doodad+difference 200
+2026-05-06 19:48:55,434 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:48:55,479 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4%20tutorial%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4%20tutorial%20guide')")
+2026-05-06 19:48:55,567 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4+tutorial+guide&limit=1 200
+2026-05-06 19:48:55,709 [INFO] response: https://search.brave.com/search?q=WC3+region+vs+doodad+difference&source=web 200
+2026-05-06 19:48:55,716 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 region vs doodad difference
+2026-05-06 19:48:55,771 [INFO] response: https://search.brave.com/search?q=WC3+region+vs+doodad+difference&source=web 200
+2026-05-06 19:48:55,778 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 region vs doodad difference
+2026-05-06 19:48:55,778 [INFO]   搜索阶段：收集到 32 条候选结果
+2026-05-06 19:48:55,900 [WARNING] ⚠️  抓取失败，已忽略: https://wowpedia.fandom.com/wiki/Doodad — Client error '403 Forbidden' for url 'https://wowpedia.fandom.com/wiki/Doodad'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:56,278 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4+tutorial+guide&web=1&searchid=4185836 200
+2026-05-06 19:48:56,401 [INFO] response: https://search.yahoo.com/search;_ylt=cUszPwdQADrG2EVvA4PvZHtd;_ylu=KVTs5R1uFgnp5p_GhvtYKQCxNyMziFbenDvGau2HFD2uMSE?p=Warcraft+III+%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4+tutorial+guide 200
+2026-05-06 19:48:57,168 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E5%A6%82%E4%BD%95%E6%8A%8A%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E5%88%B0KK%E5%B9%B3%E5%8F%B0%EF%BC%9A%E5%AE%8C%E6%95%B4%E4%B8%8A%E4%BC%A0%E6%AD%A5%E9%AA%A4+tutorial+guide&source=web 200
+2026-05-06 19:48:57,174 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 如何把地图发布到KK平台：完整上传步骤 tutoria
+2026-05-06 19:48:57,175 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-06 19:48:57,175 [INFO] ✍️  WriterAgent 开始: 如何把地图发布到KK平台：完整上传步骤 (loop 0)
+2026-05-06 19:48:57,176 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:48:57,190 [WARNING] ⚠️  抓取失败，已忽略: https://www.thehelper.net/threads/the-basics-of-the-world-editor.33390/ — Client error '403 Forbidden' for url 'https://www.thehelper.net/threads/the-basics-of-the-world-editor.33390/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:48:58,292 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:18,661 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:18,662 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-06 19:49:18,663 [INFO] ✍️  WriterAgent 开始: 区域Region的用法：配合触发器实现进入事件 (loop 0)
+2026-05-06 19:49:18,664 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:20,186 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:20,187 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:22,493 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:22,494 [INFO] ✅ ResearcherAgent 完成: 7 个来源已注册
+2026-05-06 19:49:22,494 [INFO] ✍️  WriterAgent 开始: 地图性能优化：解决卡顿掉帧问题 (loop 0)
+2026-05-06 19:49:22,495 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:34,823 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:34,825 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:41,888 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:41,890 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:44,850 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:44,851 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:49:52,536 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:49:52,537 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:07,772 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:07,773 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:11,062 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:11,064 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:15,690 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:15,691 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:29,534 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:29,536 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:31,206 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:31,207 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:31,539 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:31,540 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:52,610 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:52,611 [INFO] ✅ WriterAgent 完成: 5028 字符, 3/3 来源被引用
+2026-05-06 19:50:52,611 [INFO] 🔎 ReviewerAgent 开始: 如何把地图发布到KK平台：完整上传步骤
+2026-05-06 19:50:52,612 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:50:56,131 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:50:56,132 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:01,038 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:01,040 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:15,384 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:15,385 [INFO] ✅ WriterAgent 完成: 7193 字符, 3/3 来源被引用
+2026-05-06 19:51:15,385 [INFO] 🔎 ReviewerAgent 开始: 区域Region的用法：配合触发器实现进入事件
+2026-05-06 19:51:15,386 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:20,160 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:20,161 [INFO] ⚠️  未通过 ReviewerAgent: overall=0.54 (A=0.35 C=0.75 R=0.88 Cit=0.30)
+2026-05-06 19:51:20,161 [INFO]   反馈 5 条:
+2026-05-06 19:51:20,161 [INFO]   [factual_error] KK平台是一个专门为 Warcraft III 自定义地图开发者设计的发布和分享平台...
+2026-05-06 19:51:20,161 [INFO]   [factual_error] 登录后，找到'开发者中心'或'作者后台'入口，这里就是你上传和管理地图的地方...
+2026-05-06 19:51:20,162 [INFO]   [missing_citation] 审核时间通常为1-7个工作日...
+2026-05-06 19:51:20,162 [INFO]   [missing_citation] 填写更新日志 — 平台通常会要求你填写这次更新的内容说明...
+2026-05-06 19:51:20,162 [INFO]   [missing_citation] 在评论区或反馈页面查看玩家提出的问题和建议...
+2026-05-06 19:51:20,162 [INFO] ⚠️  质量未通过 (loop 0)，score=0.54，开始重写...
+2026-05-06 19:51:20,162 [INFO] ✍️  WriterAgent 开始: 如何把地图发布到KK平台：完整上传步骤 (loop 1)
+2026-05-06 19:51:20,163 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:26,586 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:26,588 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:39,624 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:39,626 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:41,699 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:41,700 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-06 19:51:41,700 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-06 19:51:41,700 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-06 19:51:41,700 [INFO] 📄 文章写入: docs/terrain/区域region的用法配合触发器实现进入事件.md
+2026-05-06 19:51:41,701 [INFO] 📐 PlannerAgent 开始: 灯光与氛围：让地图有场景感
+2026-05-06 19:51:41,701 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:51:45,549 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:51:45,550 [INFO] ✅ WriterAgent 完成: 7956 字符, 7/7 来源被引用
+2026-05-06 19:51:45,550 [INFO] 🔎 ReviewerAgent 开始: 地图性能优化：解决卡顿掉帧问题
+2026-05-06 19:51:45,551 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:00,443 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:52:00,444 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-06 19:52:00,444 [INFO] 🔍 ResearcherAgent 开始: 灯光与氛围：让地图有场景感 (21 查询)
+2026-05-06 19:52:00,445 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:00,583 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acee0423563ea7530c9d28020a27a"}
+2026-05-06 19:52:00,583 [INFO] 🌐 双语查询: EN='Warcraft 3 terrain editing lighting atmosphere tutorial' | ZH='Warcraft 3 terrain editing lighting atmosphere tutorial'
+2026-05-06 19:52:00,710 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:00,721 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:00,721 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20terrain%20editing%20lighting%20atmosphere%20tutorial)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20terrain%20editing%20lighting%20atmosphere%20tutorial')")
+2026-05-06 19:52:00,840 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+terrain+editing+lighting+atmosphere+tutorial&limit=1 200
+2026-05-06 19:52:00,890 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20terrain%20editing%20lighting%20atmosphere%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20terrain%20editing%20lighting%20atmosphere%20tutorial')")
+2026-05-06 19:52:00,946 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+terrain+editing+lighting+atmosphere+tutorial&limit=1 200
+2026-05-06 19:52:01,095 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+terrain+editing+lighting+atmosphere+tutorial 403
+2026-05-06 19:52:01,211 [INFO] response: https://search.yahoo.com/search;_ylt=ulHfzdORC-h5EuDaq4WJPO6v;_ylu=n1PYeCvEu5oH2GwmuS6iNleb8TOwf5ei1dBE-lOniweoZ9k?p=Warcraft+3+terrain+editing+lighting+atmosphere+tutorial 200
+2026-05-06 19:52:01,569 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+terrain+editing+lighting+atmosphere+tutorial&web=1&searchid=8273013 200
+2026-05-06 19:52:01,892 [INFO] response: https://search.yahoo.com/search;_ylt=3S1NEYDR-N7aHBogRhhYm0EI;_ylu=K4xKMefRQBo0BgKwY3xnCnYsdV9dJp6DJabTEAlNf_aFB1Q?p=Warcraft+3+terrain+editing+lighting+atmosphere+tutorial 200
+2026-05-06 19:52:01,950 [INFO] response: https://search.brave.com/search?q=Warcraft+3+terrain+editing+lighting+atmosphere+tutorial&source=web 200
+2026-05-06 19:52:01,957 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 terrain editing lighting atmo
+2026-05-06 19:52:02,131 [INFO] response: https://search.brave.com/search?q=Warcraft+3+terrain+editing+lighting+atmosphere+tutorial&source=web 200
+2026-05-06 19:52:02,139 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 terrain editing lighting atmo
+2026-05-06 19:52:02,140 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:02,171 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acee25d786d8180613fa0f62767a5"}
+2026-05-06 19:52:02,171 [INFO] 🌐 双语查询: EN='WC3 地图编辑器 灯光氛围 教程' | ZH='WC3 地图编辑器 灯光氛围 教程'
+2026-05-06 19:52:02,255 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:02,257 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:02,303 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4%20%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4%20%E6%95%99%E7%A8%8B')")
+2026-05-06 19:52:02,310 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4%20%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4%20%E6%95%99%E7%A8%8B')")
+2026-05-06 19:52:02,319 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4+%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-06 19:52:02,373 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4+%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-06 19:52:02,376 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:02,696 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:52:02,697 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:02,973 [INFO] response: https://yandex.com/search/site/?text=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4+%E6%95%99%E7%A8%8B&web=1&searchid=3727104 200
+2026-05-06 19:52:03,034 [INFO] response: https://search.brave.com/search?q=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4+%E6%95%99%E7%A8%8B&source=web 200
+2026-05-06 19:52:03,040 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 地图编辑器 灯光氛围 教程
+2026-05-06 19:52:03,271 [INFO] response: https://www.mojeek.com/search?q=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4+%E6%95%99%E7%A8%8B 403
+2026-05-06 19:52:03,366 [INFO] response: https://search.brave.com/search?q=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4+%E6%95%99%E7%A8%8B&source=web 429
+2026-05-06 19:52:03,479 [INFO] response: https://search.yahoo.com/search;_ylt=Z7UHBkFxPUn5PchQ4mfPE2Xr;_ylu=WanN_VX9SN2Ds7TvcDQqOxOEQLchVp7DIXowcZz5QiUcwIU?p=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4+%E6%95%99%E7%A8%8B 200
+2026-05-06 19:52:03,595 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:03,596 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4%20%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E6%B0%9B%E5%9B%B4%20%E6%95%99%E7%A8%8B')
+2026-05-06 19:52:03,596 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 地图编辑器 灯光氛围 教程
+2026-05-06 19:52:03,597 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:03,626 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acee35fe0008a7449187941193aed"}
+2026-05-06 19:52:03,626 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor beginner terrain lighting guide' | ZH='Warcraft 3 World Editor beginner terrain lighting guide'
+2026-05-06 19:52:03,695 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:03,703 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:03,741 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20beginner%20terrain%20lighting%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20beginner%20terrain%20lighting%20guide')")
+2026-05-06 19:52:03,763 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20beginner%20terrain%20lighting%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20beginner%20terrain%20lighting%20guide')")
+2026-05-06 19:52:03,778 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+beginner+terrain+lighting+guide&limit=1 200
+2026-05-06 19:52:03,803 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:03,805 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:03,832 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+beginner+terrain+lighting+guide&limit=1 200
+2026-05-06 19:52:03,890 [INFO] response: https://search.yahoo.com/search;_ylt=xjBuAKS3blNLnF1Rd8vYQCr-;_ylu=vhrNtKfJYBwWK1K4BzRHSYeWQ5GYICATb5QQ6lLoqWoteXc?p=Warcraft+3+World+Editor+beginner+terrain+lighting+guide 200
+2026-05-06 19:52:04,212 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+beginner+terrain+lighting+guide 403
+2026-05-06 19:52:04,490 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+beginner+terrain+lighting+guide&web=1&searchid=5533840 200
+2026-05-06 19:52:04,585 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+beginner+terrain+lighting+guide&source=web 429
+2026-05-06 19:52:04,700 [INFO] response: https://search.yahoo.com/search;_ylt=miFOqtDKFC1-BBXy7DeT5GdP;_ylu=tckjohpnKMluW-bKVB3jFbVEZ1Mdu9WpyJkXrxN7MXbrq5o?p=Warcraft+3+World+Editor+beginner+terrain+lighting+guide 200
+2026-05-06 19:52:04,888 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+beginner+terrain+lighting+guide&web=1&searchid=7425969 200
+2026-05-06 19:52:04,993 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+beginner+terrain+lighting+guide&source=web 429
+2026-05-06 19:52:05,003 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20beginner%20terrain%20lighting%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20beginner%20terrain%20lighting%20guide')
+2026-05-06 19:52:05,004 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 World Editor beginner terrain
+2026-05-06 19:52:05,031 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+beginner+terrain+lighting+guide 403
+2026-05-06 19:52:05,031 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20beginner%20terrain%20lighting%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20beginner%20terrain%20lighting%20guide')
+2026-05-06 19:52:05,031 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 World Editor beginner terrain
+2026-05-06 19:52:05,032 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:05,071 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acee5ece79c2d37466074d86eb96d"}
+2026-05-06 19:52:05,071 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor lighting system' | ZH='Warcraft 3 World Editor lighting system'
+2026-05-06 19:52:05,212 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:05,224 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:05,276 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20lighting%20system)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20lighting%20system')")
+2026-05-06 19:52:05,334 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:05,380 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20lighting%20system)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20lighting%20system')")
+2026-05-06 19:52:05,456 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+lighting+system&limit=1 200
+2026-05-06 19:52:05,474 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+lighting+system&source=web 429
+2026-05-06 19:52:05,591 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+lighting+system&limit=1 200
+2026-05-06 19:52:06,139 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+lighting+system&web=1&searchid=3750608 200
+2026-05-06 19:52:06,202 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:06,234 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+lighting+system&web=1&searchid=5041119 200
+2026-05-06 19:52:06,320 [INFO] response: https://search.yahoo.com/search;_ylt=raQL8DkJWtr87jr1YWrexaog;_ylu=GAthf4UkuG5xCcBWneptOChDKVOKx2WyxziouPsTvMl2J10?p=Warcraft+3+World+Editor+lighting+system 200
+2026-05-06 19:52:06,533 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+lighting+system 403
+2026-05-06 19:52:06,622 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+lighting+system&source=web 429
+2026-05-06 19:52:06,644 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+lighting+system 403
+2026-05-06 19:52:06,645 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20lighting%20system)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20lighting%20system')
+2026-05-06 19:52:06,645 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 World Editor lighting system
+2026-05-06 19:52:06,726 [INFO] response: https://search.yahoo.com/search;_ylt=Nddh6DYY6CFv1WQvAiKvK928;_ylu=jCdgXbCL8BvJAJitqXxf9ecB9HxnqXjmGXSTWO5xQxzOdMk?p=Warcraft+3+World+Editor+lighting+system 200
+2026-05-06 19:52:06,736 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20lighting%20system)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20lighting%20system')
+2026-05-06 19:52:06,736 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 World Editor lighting system
+2026-05-06 19:52:06,737 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:06,767 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acee6a5a634990ab87397342c26e0"}
+2026-05-06 19:52:06,767 [INFO] 🌐 双语查询: EN='WC3 地形编辑器 灯光基础' | ZH='WC3 地形编辑器 灯光基础'
+2026-05-06 19:52:06,841 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:06,844 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:06,850 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80')")
+2026-05-06 19:52:06,872 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:52:06,873 [INFO] ✅ 通过 ReviewerAgent: overall=0.81 (A=0.80 C=0.85 R=0.92 Cit=0.60)
+2026-05-06 19:52:06,873 [INFO]   反馈 5 条:
+2026-05-06 19:52:06,873 [INFO]   [missing_citation] Blizzard官方也明确说过，自定义地图的性能问题需要地图作者来优化，不能指望玩家升级电脑...
+2026-05-06 19:52:06,873 [INFO]   [missing_citation] 可以把电脑想象成一家餐厅——CPU是厨师，显卡是上菜的服务员。厨师忙不过来就会'卡顿'（上菜慢），服务员端不动太多菜就会...
+2026-05-06 19:52:06,873 [INFO]   [missing_citation] 当触发器被反复创建、但没有被正确'关闭'时，它会一直占用电脑的内存（memory）资源，最终导致游戏越来越卡...
+2026-05-06 19:52:06,873 [INFO]   [missing_citation] 养成用调试（debug）模式检查触发器运行次数的习惯...
+2026-05-06 19:52:06,873 [INFO]   [incomplete_section] 新手优化清单与建议...
+2026-05-06 19:52:06,874 [INFO] ✅ 质量通过 (loop 0): score=0.81
+2026-05-06 19:52:06,874 [INFO] 📄 文章写入: docs/publishing/地图性能优化解决卡顿掉帧问题.md
+2026-05-06 19:52:06,874 [INFO] 📐 PlannerAgent 开始: 5个让新手地图看起来更好看的地形技巧
+2026-05-06 19:52:06,875 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:06,882 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80')")
+2026-05-06 19:52:06,943 [INFO] response: https://search.brave.com/search?q=WC3+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80&source=web 429
+2026-05-06 19:52:07,023 [INFO] response: https://search.yahoo.com/search;_ylt=zjyoHo2pjUQRp6y9MxRJg30c;_ylu=JLM-cOv3O9E_z6jHxvdkY7_l8GLLfa4jcqo1cPzOpXrsGds?p=WC3+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80 200
+2026-05-06 19:52:07,038 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80&limit=1 200
+2026-05-06 19:52:07,126 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80&limit=1 200
+2026-05-06 19:52:07,146 [INFO] response: https://search.yahoo.com/search;_ylt=Ubr-2rpgGuI7tLxUuDhfF8p2;_ylu=DEXrDHXAVzK9RNFWhr0glnORi0ZpjDkul8JBRfQcCynFkXE?p=WC3+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80 200
+2026-05-06 19:52:07,221 [INFO] response: https://search.brave.com/search?q=WC3+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80&source=web 429
+2026-05-06 19:52:07,222 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:07,641 [INFO] response: https://www.mojeek.com/search?q=WC3+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80 403
+2026-05-06 19:52:07,872 [INFO] response: https://yandex.com/search/site/?text=WC3+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80&web=1&searchid=1158554 200
+2026-05-06 19:52:08,172 [INFO] response: https://www.mojeek.com/search?q=WC3+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80 403
+2026-05-06 19:52:08,218 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:08,219 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80')
+2026-05-06 19:52:08,219 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 地形编辑器 灯光基础
+2026-05-06 19:52:08,309 [INFO] response: https://yandex.com/search/site/?text=WC3+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8+%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80&web=1&searchid=8616955 200
+2026-05-06 19:52:08,311 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%81%AF%E5%85%89%E5%9F%BA%E7%A1%80')
+2026-05-06 19:52:08,311 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 地形编辑器 灯光基础
+2026-05-06 19:52:08,312 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:08,341 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acee8f49bd13990fcba7e61a25993"}
+2026-05-06 19:52:08,341 [INFO] 🌐 双语查询: EN='Warcraft 3 ambient light vs directional light' | ZH='Warcraft 3 ambient light vs directional light'
+2026-05-06 19:52:08,395 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:08,416 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:08,441 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20ambient%20light%20vs%20directional%20light)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20ambient%20light%20vs%20directional%20light')")
+2026-05-06 19:52:08,462 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20ambient%20light%20vs%20directional%20light)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20ambient%20light%20vs%20directional%20light')")
+2026-05-06 19:52:08,476 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+ambient+light+vs+directional+light&limit=1 200
+2026-05-06 19:52:08,525 [INFO] response: https://search.brave.com/search?q=Warcraft+3+ambient+light+vs+directional+light&source=web 429
+2026-05-06 19:52:08,537 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+ambient+light+vs+directional+light&limit=1 200
+2026-05-06 19:52:13,464 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=Warcraft+3+ambient+light+vs+directional+light)', 'https://www.mojeek.com/search?q=Warcraft+3+ambient+light+vs+directional+light'))
+2026-05-06 19:52:13,525 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:13,528 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=Warcraft+3+ambient+light+vs+directional+light)', 'https://www.mojeek.com/search?q=Warcraft+3+ambient+light+vs+directional+light'))
+2026-05-06 19:52:13,548 [INFO] response: https://search.brave.com/search?q=Warcraft+3+ambient+light+vs+directional+light&source=web 429
+2026-05-06 19:52:13,669 [INFO] response: https://search.yahoo.com/search;_ylt=YDT1YR73E2RlBLuLkPvQPros;_ylu=QA7HJkjS0RPY3kHBUlfiSEw8PV1lvOTprXAOiiRPPLYRSt8?p=Warcraft+3+ambient+light+vs+directional+light 200
+2026-05-06 19:52:14,197 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+ambient+light+vs+directional+light&web=1&searchid=5477102 200
+2026-05-06 19:52:14,200 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+ambient+light+vs+directional+light&web=1&searchid=5469401 200
+2026-05-06 19:52:14,248 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:14,250 [WARNING] DuckDuckGo 搜索异常（已忽略）: ('error sending request for url (https://www.mojeek.com/search?q=Warcraft+3+ambient+light+vs+directional+light)', 'https://www.mojeek.com/search?q=Warcraft+3+ambient+light+vs+directional+light')
+2026-05-06 19:52:14,250 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 ambient light vs directional 
+2026-05-06 19:52:14,385 [INFO] response: https://search.yahoo.com/search;_ylt=Eyt7wzxnAmQry3h-5o0XJFS3;_ylu=OqcuR5grr81N8C3ea5GLHSzTaFRIZmZkXG-jqTVp8U_MqNQ?p=Warcraft+3+ambient+light+vs+directional+light 200
+2026-05-06 19:52:14,393 [WARNING] DuckDuckGo 搜索异常（已忽略）: ('error sending request for url (https://www.mojeek.com/search?q=Warcraft+3+ambient+light+vs+directional+light)', 'https://www.mojeek.com/search?q=Warcraft+3+ambient+light+vs+directional+light')
+2026-05-06 19:52:14,394 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 ambient light vs directional 
+2026-05-06 19:52:14,394 [INFO]   搜索阶段：收集到 9 条候选结果
+2026-05-06 19:52:14,526 [WARNING] ⚠️  抓取失败，已忽略: https://www.thehelper.net/threads/terraining-complete-terraining-tutorial.103633/ — Client error '403 Forbidden' for url 'https://www.thehelper.net/threads/terraining-complete-terraining-tutorial.103633/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:52:14,575 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=32561 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=32561'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:52:15,194 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/ResumeProject/article/details/118217003 — [Errno 104] Connection reset by peer
+2026-05-06 19:52:15,349 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/fundamental-principles-of-lighting.263152/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/fundamental-principles-of-lighting.263152/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:52:15,675 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/whq12789/article/details/83114868 — Server error '521 ' for url 'https://blog.csdn.net/whq12789/article/details/83114868'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-06 19:52:15,746 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/the-ultimate-beginners-terrain-tutorial.35233/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/the-ultimate-beginners-terrain-tutorial.35233/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-06 19:52:15,779 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/u013412391/article/details/105373810 — Server error '521 ' for url 'https://blog.csdn.net/u013412391/article/details/105373810'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-06 19:52:16,773 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/yonshi/article/details/40048691 — Server error '521 ' for url 'https://blog.csdn.net/yonshi/article/details/40048691'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-06 19:52:16,774 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:22,958 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:52:22,959 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:23,717 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:52:23,718 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-06 19:52:23,718 [INFO] 🔍 ResearcherAgent 开始: 5个让新手地图看起来更好看的地形技巧 (21 查询)
+2026-05-06 19:52:23,719 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:23,981 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acef74b278ccb50090e8ece53051d"}
+2026-05-06 19:52:23,981 [INFO] 🌐 双语查询: EN='Warcraft III World Editor terrain design beginner tutorial' | ZH='Warcraft III World Editor terrain design beginner tutorial'
+2026-05-06 19:52:24,049 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:24,059 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:24,105 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20terrain%20design%20beginner%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20terrain%20design%20beginner%20tutorial')")
+2026-05-06 19:52:24,160 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20terrain%20design%20beginner%20tutorial)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20terrain%20design%20beginner%20tutorial')")
+2026-05-06 19:52:24,185 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+terrain+design+beginner+tutorial&limit=1 200
+2026-05-06 19:52:24,298 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+terrain+design+beginner+tutorial&limit=1 200
+2026-05-06 19:52:24,459 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+World+Editor+terrain+design+beginner+tutorial 403
+2026-05-06 19:52:24,754 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+World+Editor+terrain+design+beginner+tutorial&web=1&searchid=9471721 200
+2026-05-06 19:52:24,961 [INFO] response: https://search.brave.com/search?q=Warcraft+III+World+Editor+terrain+design+beginner+tutorial&source=web 429
+2026-05-06 19:52:25,050 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+World+Editor+terrain+design+beginner+tutorial 403
+2026-05-06 19:52:25,126 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:25,213 [INFO] response: https://search.brave.com/search?q=Warcraft+III+World+Editor+terrain+design+beginner+tutorial&source=web 429
+2026-05-06 19:52:25,253 [INFO] response: https://search.yahoo.com/search;_ylt=snDL40JA5MUT4rEo4U_E9wjP;_ylu=T3AgYWs5jVt-GBaPT0UuRXy6M8JGBq4e7Wzi-so0dYG1oAY?p=Warcraft+III+World+Editor+terrain+design+beginner+tutorial 200
+2026-05-06 19:52:25,359 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:25,472 [INFO] response: https://search.yahoo.com/search;_ylt=pMVdMkdKEKk_iqgZb1ghBi_V;_ylu=Y1A0LBeZKBsHBAELRdRu3Vu1OGz4a0B7Q3F50tHJKnPYf80?p=Warcraft+III+World+Editor+terrain+design+beginner+tutorial 200
+2026-05-06 19:52:25,491 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20terrain%20design%20beginner%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20terrain%20design%20beginner%20tutorial')
+2026-05-06 19:52:25,492 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft III World Editor terrain design
+2026-05-06 19:52:26,036 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+World+Editor+terrain+design+beginner+tutorial&web=1&searchid=1682417 200
+2026-05-06 19:52:26,036 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20terrain%20design%20beginner%20tutorial)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20terrain%20design%20beginner%20tutorial')
+2026-05-06 19:52:26,037 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft III World Editor terrain design
+2026-05-06 19:52:26,037 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:26,069 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acefa9b59047837ccac56731f5fe7"}
+2026-05-06 19:52:26,069 [INFO] 🌐 双语查询: EN='WC3 地图编辑器 地形制作 入门教程' | ZH='WC3 地图编辑器 地形制作 入门教程'
+2026-05-06 19:52:26,209 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:26,215 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:26,254 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-05-06 19:52:26,263 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-05-06 19:52:26,286 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-06 19:52:26,321 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-06 19:52:26,918 [INFO] response: https://yandex.com/search/site/?text=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&web=1&searchid=6489231 200
+2026-05-06 19:52:26,946 [INFO] response: https://yandex.com/search/site/?text=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&web=1&searchid=8712292 200
+2026-05-06 19:52:27,003 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:27,009 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:27,131 [INFO] response: https://search.yahoo.com/search;_ylt=gb2R7faSKUVBN7UEJHkmQYoV;_ylu=HeKt0ZDgmi3bTaF8MKBwJ1Tpl07qmOXHDcxev7s20Br5cJM?p=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 200
+2026-05-06 19:52:27,275 [INFO] response: https://search.brave.com/search?q=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&source=web 429
+2026-05-06 19:52:27,305 [INFO] response: https://www.mojeek.com/search?q=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 403
+2026-05-06 19:52:27,396 [INFO] response: https://search.brave.com/search?q=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&source=web 429
+2026-05-06 19:52:27,518 [INFO] response: https://search.yahoo.com/search;_ylt=A1zo0xguXLULqDkl6HGik0-c;_ylu=_36AM_WQBu5UNLGizvD8E7EVlyzk2iOrZu_1mx22b0Bitrs?p=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 200
+2026-05-06 19:52:27,554 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')
+2026-05-06 19:52:27,555 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 地图编辑器 地形制作 入门教程
+2026-05-06 19:52:27,572 [INFO] response: https://www.mojeek.com/search?q=WC3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 403
+2026-05-06 19:52:27,572 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')
+2026-05-06 19:52:27,572 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 地图编辑器 地形制作 入门教程
+2026-05-06 19:52:27,573 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:27,605 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acefb10c6417ce3ee6b0358d2f156"}
+2026-05-06 19:52:27,605 [INFO] 🌐 双语查询: EN='World Editor 地形的美学和设计原则' | ZH='World Editor 地形的美学和设计原则'
+2026-05-06 19:52:27,726 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:27,727 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:27,734 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99')")
+2026-05-06 19:52:27,802 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99&limit=1 200
+2026-05-06 19:52:27,847 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99&limit=1 200
+2026-05-06 19:52:27,939 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99')")
+2026-05-06 19:52:28,037 [INFO] response: https://www.mojeek.com/search?q=World+Editor+%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99 403
+2026-05-06 19:52:28,060 [INFO] response: https://search.yahoo.com/search;_ylt=2luLu2dAx6Q1M9aSz_evBHH2;_ylu=u74KeRVTmOr1UVk7ev9UK2cjf45JSCD1_0JMy3oL8uoPy8k?p=World+Editor+%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99 200
+2026-05-06 19:52:28,074 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:28,167 [INFO] response: https://search.brave.com/search?q=World+Editor+%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99&source=web 429
+2026-05-06 19:52:28,254 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:28,636 [INFO] response: https://www.mojeek.com/search?q=World+Editor+%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99 403
+2026-05-06 19:52:28,837 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99&web=1&searchid=9440794 200
+2026-05-06 19:52:28,947 [INFO] response: https://search.yahoo.com/search;_ylt=QYXvpy9qf9OE2kG8UJpSQhYp;_ylu=ufMibFjpZWWl8d9mHFrlrgzcEOHo3MoXqMxrc81CuJ8uuYM?p=World+Editor+%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99 200
+2026-05-06 19:52:28,965 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99')
+2026-05-06 19:52:28,966 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | World Editor 地形的美学和设计原则
+2026-05-06 19:52:29,304 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99&web=1&searchid=7408205 200
+2026-05-06 19:52:29,399 [INFO] response: https://search.brave.com/search?q=World+Editor+%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99&source=web 429
+2026-05-06 19:52:29,402 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%9A%84%E7%BE%8E%E5%AD%A6%E5%92%8C%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99')
+2026-05-06 19:52:29,402 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | World Editor 地形的美学和设计原则
+2026-05-06 19:52:29,403 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:29,432 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acefd145809723d7618b390c373db"}
+2026-05-06 19:52:29,432 [INFO] 🌐 双语查询: EN='Warcraft III World Editor tileset terrain guide' | ZH='Warcraft III World Editor tileset terrain guide'
+2026-05-06 19:52:29,491 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:29,494 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:29,541 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20tileset%20terrain%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20tileset%20terrain%20guide')")
+2026-05-06 19:52:29,546 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20tileset%20terrain%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20tileset%20terrain%20guide')")
+2026-05-06 19:52:29,583 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:29,586 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+tileset+terrain+guide&limit=1 200
+2026-05-06 19:52:29,591 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:29,661 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+tileset+terrain+guide&limit=1 200
+2026-05-06 19:52:29,682 [INFO] response: https://search.brave.com/search?q=Warcraft+III+World+Editor+tileset+terrain+guide&source=web 429
+2026-05-06 19:52:29,997 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+World+Editor+tileset+terrain+guide 403
+2026-05-06 19:52:30,341 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+World+Editor+tileset+terrain+guide&web=1&searchid=1028282 200
+2026-05-06 19:52:30,498 [INFO] response: https://search.yahoo.com/search;_ylt=HHGaMuu6afHnuycUhbUVTcEz;_ylu=EzJyI3kKXV2RDr1X6NBRO5TFIJ3jnfgU66AHkFG7isT7jbM?p=Warcraft+III+World+Editor+tileset+terrain+guide 200
+2026-05-06 19:52:30,871 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+World+Editor+tileset+terrain+guide 403
+2026-05-06 19:52:30,871 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20tileset%20terrain%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20tileset%20terrain%20guide')
+2026-05-06 19:52:30,871 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft III World Editor tileset terrai
+2026-05-06 19:52:31,147 [INFO] response: https://search.yahoo.com/search;_ylt=qOEnD2osyEs6hEuB-fzMk08K;_ylu=XH5uPek7HamQP4jzaJz1_x03atnWA2ByYYcxooKC5I6UQrc?p=Warcraft+III+World+Editor+tileset+terrain+guide 200
+2026-05-06 19:52:31,823 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+World+Editor+tileset+terrain+guide&web=1&searchid=1792331 200
+2026-05-06 19:52:31,932 [INFO] response: https://search.brave.com/search?q=Warcraft+III+World+Editor+tileset+terrain+guide&source=web 429
+2026-05-06 19:52:31,941 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20tileset%20terrain%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20tileset%20terrain%20guide')
+2026-05-06 19:52:31,942 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft III World Editor tileset terrai
+2026-05-06 19:52:31,942 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:31,969 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acefffc18aaa557e30f6fd998bd8c"}
+2026-05-06 19:52:31,969 [INFO] 🌐 双语查询: EN='WC3 地形纹理选择 新手教程' | ZH='WC3 地形纹理选择 新手教程'
+2026-05-06 19:52:32,032 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:32,040 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B')")
+2026-05-06 19:52:32,053 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:32,070 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B')")
+2026-05-06 19:52:32,097 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-06 19:52:32,144 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-06 19:52:32,448 [INFO] response: https://www.mojeek.com/search?q=WC3+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 403
+2026-05-06 19:52:32,704 [INFO] response: https://yandex.com/search/site/?text=WC3+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&web=1&searchid=2597735 200
+2026-05-06 19:52:32,797 [INFO] response: https://search.brave.com/search?q=WC3+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 429
+2026-05-06 19:52:32,835 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:32,953 [INFO] response: https://search.yahoo.com/search;_ylt=8Z45DHjs8jvkL4Wg2ArHtjGM;_ylu=EotIDkJLNm5ErplWfg-WT75JDKwctJ4r8im4gYrOhw1N84U?p=WC3+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-05-06 19:52:33,112 [INFO] response: https://yandex.com/search/site/?text=WC3+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&web=1&searchid=8065115 200
+2026-05-06 19:52:33,211 [INFO] response: https://search.brave.com/search?q=WC3+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 429
+2026-05-06 19:52:33,279 [INFO] response: https://www.mojeek.com/search?q=WC3+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 403
+2026-05-06 19:52:33,280 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B')
+2026-05-06 19:52:33,280 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 地形纹理选择 新手教程
+2026-05-06 19:52:33,320 [INFO] response: https://search.yahoo.com/search;_ylt=w08INimbneq5lzNBoogbNWhC;_ylu=EcqF4Ge1Khe2tdO3uy7Sbu0GQiSdrxYWEhUR4hVgbkljM4c?p=WC3+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-05-06 19:52:33,369 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:33,371 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%E9%80%89%E6%8B%A9%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B')
+2026-05-06 19:52:33,371 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 地形纹理选择 新手教程
+2026-05-06 19:52:33,372 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:33,399 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acf0186b63cafe2d79caa168f8f4b"}
+2026-05-06 19:52:33,399 [INFO] 🌐 双语查询: EN='World Editor 不同地形贴图 适用场景' | ZH='World Editor 不同地形贴图 适用场景'
+2026-05-06 19:52:33,618 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:33,620 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:33,632 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE%20%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE%20%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF')")
+2026-05-06 19:52:33,669 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE%20%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE%20%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF')")
+2026-05-06 19:52:33,685 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE+%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF&limit=1 200
+2026-05-06 19:52:33,747 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE+%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF&limit=1 200
+2026-05-06 19:52:33,756 [INFO] response: https://search.yahoo.com/search;_ylt=zT9uzlqIR2OfBGL-GFd4qcKF;_ylu=h2Gv0m_Y-92uArIMfVJIvmyzJq12FiUuBkgNP5fW5kVEyJA?p=World+Editor+%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE+%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF 200
+2026-05-06 19:52:33,874 [INFO] response: https://search.brave.com/search?q=World+Editor+%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE+%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF&source=web 429
+2026-05-06 19:52:34,322 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE+%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF&web=1&searchid=3601991 200
+2026-05-06 19:52:34,328 [INFO] response: https://www.mojeek.com/search?q=World+Editor+%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE+%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF 403
+2026-05-06 19:52:34,409 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:34,503 [INFO] response: https://search.yahoo.com/search;_ylt=hJH5Vx5e75Q5jdSTngGHDflH;_ylu=mzeHSlSrtwTRRYVlogp4UVT_vK58Tz2UnbxyvaYiD_2PM1Y?p=World+Editor+%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE+%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF 200
+2026-05-06 19:52:34,630 [INFO] response: https://search.brave.com/search?q=World+Editor+%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE+%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF&source=web 429
+2026-05-06 19:52:34,967 [INFO] response: https://www.mojeek.com/search?q=World+Editor+%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE+%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF 403
+2026-05-06 19:52:35,037 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:35,038 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE%20%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE%20%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF')
+2026-05-06 19:52:35,038 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | World Editor 不同地形贴图 适用场景
+2026-05-06 19:52:35,077 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE+%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF&web=1&searchid=8842448 200
+2026-05-06 19:52:35,078 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE%20%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E4%B8%8D%E5%90%8C%E5%9C%B0%E5%BD%A2%E8%B4%B4%E5%9B%BE%20%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF')
+2026-05-06 19:52:35,079 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | World Editor 不同地形贴图 适用场景
+2026-05-06 19:52:35,079 [INFO]   搜索阶段：收集到 0 条候选结果
+2026-05-06 19:52:35,080 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:38,145 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:52:38,146 [WARNING] 来源不足（0/3），扩大搜索...
+2026-05-06 19:52:38,192 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:52:38,202 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%205%E4%B8%AA%E8%AE%A9%E6%96%B0%E6%89%8B%E5%9C%B0%E5%9B%BE%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9B%B4%E5%A5%BD%E7%9C%8B%E7%9A%84%E5%9C%B0%E5%BD%A2%E6%8A%80%E5%B7%A7%20tutorial%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%205%E4%B8%AA%E8%AE%A9%E6%96%B0%E6%89%8B%E5%9C%B0%E5%9B%BE%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9B%B4%E5%A5%BD%E7%9C%8B%E7%9A%84%E5%9C%B0%E5%BD%A2%E6%8A%80%E5%B7%A7%20tutorial%20guide')")
+2026-05-06 19:52:38,316 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+5%E4%B8%AA%E8%AE%A9%E6%96%B0%E6%89%8B%E5%9C%B0%E5%9B%BE%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9B%B4%E5%A5%BD%E7%9C%8B%E7%9A%84%E5%9C%B0%E5%BD%A2%E6%8A%80%E5%B7%A7+tutorial+guide&limit=1 200
+2026-05-06 19:52:38,331 [INFO] response: https://search.yahoo.com/search;_ylt=53W4H2GjwEBjscMwQGQh6J9A;_ylu=ysmVod7fVEMnqL9bw1JALrkumyQKXwAUrR4mOijmtCJWQeM?p=Warcraft+III+5%E4%B8%AA%E8%AE%A9%E6%96%B0%E6%89%8B%E5%9C%B0%E5%9B%BE%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9B%B4%E5%A5%BD%E7%9C%8B%E7%9A%84%E5%9C%B0%E5%BD%A2%E6%8A%80%E5%B7%A7+tutorial+guide 200
+2026-05-06 19:52:38,446 [INFO] response: https://search.brave.com/search?q=Warcraft+III+5%E4%B8%AA%E8%AE%A9%E6%96%B0%E6%89%8B%E5%9C%B0%E5%9B%BE%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9B%B4%E5%A5%BD%E7%9C%8B%E7%9A%84%E5%9C%B0%E5%BD%A2%E6%8A%80%E5%B7%A7+tutorial+guide&source=web 429
+2026-05-06 19:52:38,801 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+5%E4%B8%AA%E8%AE%A9%E6%96%B0%E6%89%8B%E5%9C%B0%E5%9B%BE%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9B%B4%E5%A5%BD%E7%9C%8B%E7%9A%84%E5%9C%B0%E5%BD%A2%E6%8A%80%E5%B7%A7+tutorial+guide 403
+2026-05-06 19:52:38,850 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:52:39,520 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+5%E4%B8%AA%E8%AE%A9%E6%96%B0%E6%89%8B%E5%9C%B0%E5%9B%BE%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9B%B4%E5%A5%BD%E7%9C%8B%E7%9A%84%E5%9C%B0%E5%BD%A2%E6%8A%80%E5%B7%A7+tutorial+guide&web=1&searchid=4084134 200
+2026-05-06 19:52:39,520 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%205%E4%B8%AA%E8%AE%A9%E6%96%B0%E6%89%8B%E5%9C%B0%E5%9B%BE%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9B%B4%E5%A5%BD%E7%9C%8B%E7%9A%84%E5%9C%B0%E5%BD%A2%E6%8A%80%E5%B7%A7%20tutorial%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%205%E4%B8%AA%E8%AE%A9%E6%96%B0%E6%89%8B%E5%9C%B0%E5%9B%BE%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9B%B4%E5%A5%BD%E7%9C%8B%E7%9A%84%E5%9C%B0%E5%BD%A2%E6%8A%80%E5%B7%A7%20tutorial%20guide')
+2026-05-06 19:52:39,521 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft III 5个让新手地图看起来更好看的地形技巧 tutorial
+2026-05-06 19:52:39,521 [WARNING] ⚠️  仍然不足 3 个来源（0），继续流水线
+2026-05-06 19:52:39,521 [INFO] ✅ ResearcherAgent 完成: 0 个来源已注册
+2026-05-06 19:52:39,521 [INFO] ✍️  WriterAgent 开始: 5个让新手地图看起来更好看的地形技巧 (loop 0)
+2026-05-06 19:52:39,522 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:42,980 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:52:42,981 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-06 19:52:42,981 [INFO] ✍️  WriterAgent 开始: 灯光与氛围：让地图有场景感 (loop 0)
+2026-05-06 19:52:42,982 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:50,648 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:52:50,650 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:52:55,094 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:52:55,096 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:53:05,472 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:53:05,474 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:53:12,025 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:53:12,026 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:53:12,292 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:53:12,293 [INFO] ✅ WriterAgent 完成: 4923 字符, 3/3 来源被引用
+2026-05-06 19:53:12,293 [INFO] 🔎 ReviewerAgent 开始: 如何把地图发布到KK平台：完整上传步骤
+2026-05-06 19:53:12,294 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:53:33,219 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:53:33,220 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:53:33,409 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:53:33,410 [INFO] ✅ 通过 ReviewerAgent: overall=0.79 (A=0.75 C=0.80 R=0.92 Cit=0.65)
+2026-05-06 19:53:33,410 [INFO]   反馈 5 条:
+2026-05-06 19:53:33,410 [INFO]   [missing_citation] 审核时间通常为1-7个工作日，具体取决于当前提交数量...
+2026-05-06 19:53:33,410 [INFO]   [missing_citation] 平台不仅帮你存放地图文件，还能让玩家发现、下载和评价你的作品...
+2026-05-06 19:53:33,410 [INFO]   [missing_citation] 登录KK开发者后台 — 打开KK平台官网，点击右上角的'登录'按钮，使用你的账号密码登录。如果是新用户，需要先完成注册。...
+2026-05-06 19:53:33,411 [INFO]   [missing_citation] 大多数地图发布平台都会提供基础数据供参考：下载量、评分、玩家评论...
+2026-05-06 19:53:33,411 [INFO]   [factual_error] 按F6打开「场景设置」面板...
+2026-05-06 19:53:33,411 [INFO] ✅ 质量通过 (loop 1): score=0.79
+2026-05-06 19:53:33,411 [INFO] 📄 文章写入: docs/publishing/如何把地图发布到kk平台完整上传步骤.md

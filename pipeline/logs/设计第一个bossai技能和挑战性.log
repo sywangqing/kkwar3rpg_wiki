@@ -2218,3 +2218,126 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-06 05:40:54,695 [INFO]   [missing_citation] 冷却时间设置为5-15秒较为合适...
 2026-05-06 05:40:54,695 [INFO] ✅ 质量通过 (loop 0): score=0.77
 2026-05-06 05:40:54,695 [INFO] 📄 文章写入: docs/rpg-systems/设计第一个bossai技能和挑战性.md
+2026-05-06 19:55:44,695 [INFO] 📐 PlannerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-05-06 19:55:44,696 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:55:52,747 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:55:52,749 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:56:01,067 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:56:01,069 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:56:10,941 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:56:10,943 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:56:11,145 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:56:11,146 [ERROR] PlannerAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+原始输出: ```json
+{
+  "outline": [
+    {
+      "title": "了解BOSS设计基础",
+      "level": 2,
+      "search_queries": [
+        "Warcraft III boss design basics",
+        "WC3 World Editor 触发器 BOSS设计",
+        "war3 rpg boss encounter design"
+      ],
+      "children": [
+        {
+          "title": "什么是BOSS战，为什么重要
+2026-05-06 19:56:11,146 [INFO] ✅ PlannerAgent 完成: 1 节, 2 个查询
+2026-05-06 19:56:11,146 [INFO] 🔍 ResearcherAgent 开始: 设计第一个BOSS：AI技能和挑战性 (2 查询)
+2026-05-06 19:56:11,147 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:56:11,222 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acfdbf41c9b677e314a844928a411"}
+2026-05-06 19:56:11,222 [INFO] 🌐 双语查询: EN='设计第一个BOSS：AI技能和挑战性' | ZH='设计第一个BOSS：AI技能和挑战性'
+2026-05-06 19:56:11,339 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:56:11,350 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:56:11,389 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7')")
+2026-05-06 19:56:11,395 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7')")
+2026-05-06 19:56:11,468 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:56:11,512 [INFO] response: https://grokipedia.com/api/typeahead?query=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&limit=1 200
+2026-05-06 19:56:11,751 [INFO] response: https://www.mojeek.com/search?q=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7 403
+2026-05-06 19:56:11,991 [INFO] response: https://grokipedia.com/api/typeahead?query=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&limit=1 200
+2026-05-06 19:56:12,025 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:56:12,119 [INFO] response: https://search.yahoo.com/search;_ylt=hscFvsAz3RZ3p8wj0_tuuYy8;_ylu=GMg92g2Eqj46wK1BOXaKFv46UkjkyGs7ykpRujhdFWqI6BI?p=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7 200
+2026-05-06 19:56:12,175 [INFO] response: https://yandex.com/search/site/?text=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&web=1&searchid=2575946 200
+2026-05-06 19:56:12,287 [INFO] response: https://search.yahoo.com/search;_ylt=aiy_aezrngaosIELqq2LhtB4;_ylu=MGxJuwy5556JYPqfoEtBAZ_IsA2n7zQNq8-Mgb6tKooOjjc?p=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7 200
+2026-05-06 19:56:12,390 [INFO] response: https://search.brave.com/search?q=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&source=web 429
+2026-05-06 19:56:12,601 [INFO] response: https://search.brave.com/search?q=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&source=web 429
+2026-05-06 19:56:12,684 [INFO] response: https://www.mojeek.com/search?q=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7 403
+2026-05-06 19:56:12,685 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7')
+2026-05-06 19:56:12,685 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | 设计第一个BOSS：AI技能和挑战性
+2026-05-06 19:56:13,254 [INFO] response: https://yandex.com/search/site/?text=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&web=1&searchid=5244445 200
+2026-05-06 19:56:13,255 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7')
+2026-05-06 19:56:13,255 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | 设计第一个BOSS：AI技能和挑战性
+2026-05-06 19:56:13,256 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:56:13,284 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064acfdd596761f820c3b65a98827095"}
+2026-05-06 19:56:13,284 [INFO] 🌐 双语查询: EN='Warcraft III 设计第一个BOSS：AI技能和挑战性' | ZH='Warcraft III 设计第一个BOSS：AI技能和挑战性'
+2026-05-06 19:56:13,345 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:56:13,370 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:56:13,393 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7')")
+2026-05-06 19:56:13,417 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7')")
+2026-05-06 19:56:13,452 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&limit=1 200
+2026-05-06 19:56:13,492 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&source=web 429
+2026-05-06 19:56:13,527 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&limit=1 200
+2026-05-06 19:56:13,545 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:56:13,713 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7 403
+2026-05-06 19:56:14,199 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&web=1&searchid=5334970 200
+2026-05-06 19:56:14,308 [INFO] response: https://search.yahoo.com/search;_ylt=0lo3qKSbl1S_w1YwGRWXEIWg;_ylu=ZJyTR-oMNaAtN_TnlUyBnfiattD0P7m00JMYtzoJKN6dYo8?p=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7 200
+2026-05-06 19:56:14,372 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&web=1&searchid=2146793 200
+2026-05-06 19:56:14,429 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:56:14,524 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7&source=web 429
+2026-05-06 19:56:14,634 [INFO] response: https://search.yahoo.com/search;_ylt=p4gHjG_T3-PJNzBCJMBQpfdz;_ylu=NJordm0grroZk8WiD8JKyt--_aAk6MvIPPGrVJShasfL9wY?p=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7 200
+2026-05-06 19:56:14,647 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7')
+2026-05-06 19:56:14,648 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft III 设计第一个BOSS：AI技能和挑战性
+2026-05-06 19:56:14,728 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7 403
+2026-05-06 19:56:14,728 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7')
+2026-05-06 19:56:14,728 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft III 设计第一个BOSS：AI技能和挑战性
+2026-05-06 19:56:14,729 [INFO]   搜索阶段：收集到 0 条候选结果
+2026-05-06 19:56:14,730 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:56:18,771 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:56:18,772 [WARNING] 来源不足（0/3），扩大搜索...
+2026-05-06 19:56:18,825 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-06 19:56:18,871 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7%20tutorial%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7%20tutorial%20guide')")
+2026-05-06 19:56:18,921 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7+tutorial+guide&limit=1 200
+2026-05-06 19:56:19,535 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7+tutorial+guide&web=1&searchid=1232427 200
+2026-05-06 19:56:19,868 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7+tutorial+guide 403
+2026-05-06 19:56:19,976 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7+tutorial+guide&source=web 429
+2026-05-06 19:56:20,159 [INFO] response: https://search.yahoo.com/search;_ylt=eGnA4BKW_5Xoj_5F-pNMdplZ;_ylu=jeadgW4HUaeywGD-1lmIT66p0m92dQrFnalY7fiFuNurW4w?p=Warcraft+III+%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7+tutorial+guide 200
+2026-05-06 19:56:20,211 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-06 19:56:20,213 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7%20tutorial%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%AE%BE%E8%AE%A1%E7%AC%AC%E4%B8%80%E4%B8%AABOSS%EF%BC%9AAI%E6%8A%80%E8%83%BD%E5%92%8C%E6%8C%91%E6%88%98%E6%80%A7%20tutorial%20guide')
+2026-05-06 19:56:20,213 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft III 设计第一个BOSS：AI技能和挑战性 tutorial
+2026-05-06 19:56:20,213 [WARNING] ⚠️  仍然不足 3 个来源（0），继续流水线
+2026-05-06 19:56:20,213 [INFO] ✅ ResearcherAgent 完成: 0 个来源已注册
+2026-05-06 19:56:20,213 [INFO] ✍️  WriterAgent 开始: 设计第一个BOSS：AI技能和挑战性 (loop 0)
+2026-05-06 19:56:20,214 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:56:21,189 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:56:21,191 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:56:33,014 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:56:33,015 [INFO] ✅ WriterAgent 完成: 611 字符, 0/0 来源被引用
+2026-05-06 19:56:33,015 [INFO] 🔎 ReviewerAgent 开始: 设计第一个BOSS：AI技能和挑战性
+2026-05-06 19:56:33,016 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:56:41,314 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:56:41,316 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:56:45,392 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:56:45,393 [INFO] ✅ WriterAgent 完成: 8227 字符, 2/2 来源被引用
+2026-05-06 19:56:45,393 [INFO] 🔎 ReviewerAgent 开始: 多人地图入门：联机为什么和单机不一样
+2026-05-06 19:56:45,394 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-06 19:56:53,060 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-06 19:56:53,061 [INFO] ✅ 通过 ReviewerAgent: overall=0.78 (A=0.95 C=0.55 R=0.90 Cit=0.80)
+2026-05-06 19:56:53,061 [INFO]   反馈 4 条:
+2026-05-06 19:56:53,061 [INFO]   [incomplete_section] 整篇文章仅包含概述和目录性质的内容...
+2026-05-06 19:56:53,061 [INFO]   [incomplete_section] 我们要学什么？部分列出了学习目标但没有实际内容...
+2026-05-06 19:56:53,061 [INFO]   [missing_citation] 如果BOSS太强，玩家又会觉得不公平...
+2026-05-06 19:56:53,061 [INFO]   [tone_mismatch] 别担心！一开始不需要做出完美的BOSS...
+2026-05-06 19:56:53,061 [INFO] ✅ 质量通过 (loop 0): score=0.78
+2026-05-06 19:56:53,062 [INFO] 📄 文章写入: docs/rpg-systems/设计第一个bossai技能和挑战性.md
