@@ -59,14 +59,16 @@ onMounted(async () => {
     const res = await fetch('/topics-meta.json')
     if (res.ok) {
       const data: TopicMeta[] = await res.json()
-      // 过滤：非 manual，且 discovered_at 在 30 天内
-      const thirtyDaysAgo = Date.now() - 30 * 24 * 60 * 60 * 1000
-      topics.value = data.filter((t) => {
-        if (!t.discovered_via || t.discovered_via === 'manual') return false
-        if (!t.discovered_at) return true // 无日期时显示
-        const d = new Date(t.discovered_at).getTime()
-        return d >= thirtyDaysAgo
-      }).slice(0, 12) // 最多展示 12 个
+      // 显示所有已完成的文章，manual 也显示（标为"精选"）
+      // 按 updated_at 倒序，最多展示 12 个
+      topics.value = data
+        .filter((t) => t.link && t.title)
+        .sort((a, b) => {
+          const da = a.discovered_at ? new Date(a.discovered_at).getTime() : 0
+          const db = b.discovered_at ? new Date(b.discovered_at).getTime() : 0
+          return db - da
+        })
+        .slice(0, 12)
     }
   } catch (e) {
     console.warn('topics-meta.json 加载失败', e)
@@ -82,6 +84,7 @@ function sourceLabel(via: string): string {
     nga: 'NGA 论坛',
     dota9: '9DOTA',
     auto: 'AI 发现',
+    manual: '精选内容',
   }
   return map[via] ?? via
 }

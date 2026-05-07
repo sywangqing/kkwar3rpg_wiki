@@ -218,6 +218,25 @@ class Orchestrator:
 # 批量异步运行器
 # ---------------------------------------------------------------------------
 
+def _update_topics_json(topics_path: Path, topic_id: str, article_path: str, quality_score: float) -> None:
+    """回写 topics.json：更新 status、article_path、quality_score、updated_at"""
+    if not topics_path.exists():
+        return
+    try:
+        all_topics: list[dict] = json.loads(topics_path.read_text(encoding="utf-8"))
+        for t in all_topics:
+            if t.get("topic_id") == topic_id:
+                t["status"] = "completed"
+                t["article_path"] = article_path
+                t["quality_score"] = round(quality_score, 2)
+                t["updated_at"] = datetime.now(timezone.utc).isoformat()
+                break
+        topics_path.write_text(json.dumps(all_topics, ensure_ascii=False, indent=2), encoding="utf-8")
+        logger.info(f"✅ topics.json 已更新: {topic_id} → completed")
+    except Exception as e:
+        logger.warning(f"⚠️  topics.json 回写失败: {e}")
+
+
 async def run_batch(
     topics: list[dict],
     docs_root: Path,
@@ -231,6 +250,10 @@ async def run_batch(
     """
     orchestrator = Orchestrator(docs_root=docs_root)
     sem = asyncio.Semaphore(concurrency)
+    # topics.json 路径（pipeline/cache/topics.json）
+    topics_path = _PIPELINE_DIR / "cache" / "topics.json"
+    # 用锁防止并发写文件冲突
+    topics_json_lock = asyncio.Lock()
 
     stats = {"success": 0, "skipped": 0, "failed": 0}
 
@@ -250,8 +273,18 @@ async def run_batch(
             result = await orchestrator.generate(topic)
             if result:
                 stats["success"] += 1
+                # 回写 topics.json，更新 status/article_path/quality_score
+                rel_path = str(result.relative_to(docs_root.parent)).replace("\\", "/")
+                topic_id = topic.get("topic_id", topic.get("slug", ""))
+                quality_score = topic.get("quality_score", 0.0)
+                async with topics_json_lock:
+                    _update_topics_json(topics_path, topic_id, rel_path, quality_score)
+                # 同步更新传入的 topic dict，供 run_incremental 读取 article_path
+                topic["article_path"] = rel_path
+                topic["status"] = "completed"
             else:
                 stats["failed"] += 1
+                topic["status"] = "failed"
 
     await asyncio.gather(*[_process(t) for t in topics])
     return stats

@@ -46,9 +46,9 @@ features:
     link: /faq/新手最常遇到的10个错误和解决方法
 ---
 
-## 🤖 AI 发现的新主题
+## 🤖 最新生成的文章
 
-> 以下主题由 AI 自动扫描 Hive Workshop、Reddit、NGA 等社区论坛发现，并生成知识文章。每天自动更新。
+> 以下文章由 AI 多智能体系统自动生成，每日持续更新。
 
 <DiscoveredTopics />
 
