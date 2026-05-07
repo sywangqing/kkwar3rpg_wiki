@@ -62,22 +62,28 @@ def _dedup_new_topics(existing: list[dict], new: list[dict]) -> list[dict]:
 async def main(dry_run: bool = False) -> None:
     logger.info("🚀 话题发现流水线启动")
 
-    # 1. 并行爬取四个来源
+    # 1. 并行爬取所有来源（含 KK 官网）
     from discovery.hive_scraper import scrape_hive_workshop
     from discovery.reddit_scraper import scrape_reddit_wc3
     from discovery.forum_nga import scrape_nga
+    from discovery.kk_scraper import scrape_kk_official
 
     hive_task = scrape_hive_workshop(max_threads=40)
     nga_task = scrape_nga(max_threads=20)
+    kk_task = scrape_kk_official()
 
-    hive_candidates, nga_candidates = await asyncio.gather(hive_task, nga_task)
+    hive_candidates, nga_candidates, kk_candidates = await asyncio.gather(
+        hive_task, nga_task, kk_task
+    )
 
     # Reddit 是同步的（PRAW）
     loop = asyncio.get_event_loop()
     reddit_candidates = await loop.run_in_executor(None, lambda: scrape_reddit_wc3(limit=50))
 
-    all_candidates = hive_candidates + reddit_candidates + nga_candidates
-    logger.info(f"📊 总候选话题: {len(all_candidates)} 条")
+    all_candidates = hive_candidates + reddit_candidates + nga_candidates + kk_candidates
+    logger.info(f"📊 总候选话题: {len(all_candidates)} 条 "
+                f"(Hive:{len(hive_candidates)} Reddit:{len(reddit_candidates)} "
+                f"NGA:{len(nga_candidates)} KK:{len(kk_candidates)})")
 
     if not all_candidates:
         logger.info("无新候选话题，结束")
