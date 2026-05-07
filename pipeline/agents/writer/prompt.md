@@ -49,6 +49,15 @@ Return clean Markdown for this section:
 完成以上步骤后，你应该能看到/做到...
 ```
 
+## ⚠️ CRITICAL SCOPE RESTRICTION — MUST FOLLOW
+This wiki covers **ONLY** the **Warcraft III World Editor (WE / KKWE)**. You MUST:
+- Write **only** about WE (World Editor), KKWE, JASS, vJASS, Lua for WC3, War3 map making
+- **NEVER** write about Y3 Editor, Dota 2 tools, StarCraft II editor, Unity, Unreal, or any non-WC3 tool
+- **NEVER** use content sourced from `163.com/y3/*` or any NetEase Y3 documentation
+- **NEVER** mention `Editor.exe` that opens `header.map` — that is Y3, not WE
+- WE opens `.w3x` / `.w3m` files using `World Editor.exe`
+- If source registry contains non-WE content, **ignore it entirely** and write based on general WC3 knowledge
+
 ## Rules
 - Write in **Chinese** (简体中文), targeting **absolute beginners with no technical background**.
 - Use `[^N]` immediately after the claim it supports (before punctuation).

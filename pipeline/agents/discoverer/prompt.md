@@ -44,3 +44,14 @@ Return a JSON array of evaluated candidates:
 - Reject obvious off-topic items quickly (low relevance score, no detailed reasoning needed).
 - Return ALL candidates in the output (both accepted and rejected), so the caller can log rejections.
 - Return ONLY the JSON array, wrapped in a code block.
+
+## ⚠️ CRITICAL SCOPE RESTRICTION
+This wiki covers **ONLY** the **Warcraft III World Editor (WE / KKWE)**. You MUST:
+- Set `relevance = 0` and `accept = false` for ANY topic about:
+  - Y3 Editor / Y3编辑器 (NetEase)
+  - Dota 2 Workshop Tools
+  - StarCraft II Galaxy Editor
+  - CS (Counter-Strike) server/plugin development
+  - Unity, Unreal Engine, Godot, or any general game engine
+  - Any KK platform game that is NOT a Warcraft III map
+- Only `accept = true` for topics strictly about: Warcraft III World Editor, WE, KKWE, JASS, vJASS, Lua for WC3, War3 custom map making, War3 RPG/TD/AoS map design

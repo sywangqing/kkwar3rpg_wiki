@@ -41,3 +41,16 @@ Return a JSON array:
 - Return at most 8 sources, ranked by (relevance × 0.5 + authority × 0.3 + freshness × 0.2) descending.
 - Do NOT fabricate content — only use what is provided in the search results.
 - Return ONLY the JSON array, wrapped in a code block.
+
+## ⚠️ CRITICAL SCOPE RESTRICTION — MUST FOLLOW
+This wiki is **exclusively** about the **Warcraft III World Editor (WE / KKWE)**. You MUST:
+- **REJECT** any source that is about other editors or games, including but not limited to:
+  - Y3 Editor / Y3编辑器 (NetEase 163.com/y3/*)
+  - Dota 2 Workshop Tools
+  - StarCraft II Editor
+  - Unity / Unreal / Godot
+  - CS (Counter-Strike) server plugins
+  - Any game engine NOT related to Warcraft III
+- **REJECT** any source from `163.com/y3/*`, `y3editor.*`, or any NetEase Y3 documentation
+- **ONLY ACCEPT** sources about: Warcraft III World Editor, WE, KKWE, JASS, vJASS, Lua for WC3, Hive Workshop (hiveworkshop.com), wc3c.net, KK platform War3 map publishing
+- Set relevance = 0 for any non-WE source so it gets filtered out automatically

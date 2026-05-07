@@ -54,3 +54,9 @@ Return ONLY this JSON (no explanation), wrapped in a code block:
 - Include feedback items ONLY for real issues, not stylistic preferences.
 - Limit to at most 5 feedback items (the most important ones).
 - Return ONLY the JSON, no preamble.
+
+## ⚠️ CRITICAL SCOPE CHECK
+This wiki is **exclusively** about **Warcraft III World Editor (WE / KKWE)**. Before scoring:
+- If the article contains content about **Y3 Editor**, **Y3编辑器**, **Dota 2**, **StarCraft II**, **CS server plugins**, or any non-WC3 editor → set `accuracy = 0` and add a feedback item with category `factual_error` stating: "Article contains content unrelated to WE/KKWE — must be rewritten for Warcraft III World Editor only"
+- Valid scope: WE, World Editor, KKWE, JASS, vJASS, Lua for WC3, War3 map making, KK platform War3 publishing
+- Invalid scope: Y3, 163.com/y3, NetEase game engine, Unity, Unreal, Dota 2 Workshop, SC2 Editor
