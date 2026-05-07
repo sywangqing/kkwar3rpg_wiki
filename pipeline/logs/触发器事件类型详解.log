@@ -1,0 +1,441 @@
+2026-05-07 19:47:04,876 [INFO] 📐 PlannerAgent 开始: 触发器事件类型详解
+2026-05-07 19:47:04,877 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:07,181 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:47:07,183 [INFO] ✅ ResearcherAgent 完成: 7 个来源已注册
+2026-05-07 19:47:07,183 [INFO] ✍️  WriterAgent 开始: 高级地形技巧与优化 (loop 0)
+2026-05-07 19:47:07,184 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:11,293 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:47:11,294 [INFO] ✅ 通过 ReviewerAgent: overall=0.70 (A=0.80 C=0.75 R=0.90 Cit=0.10)
+2026-05-07 19:47:11,294 [INFO]   反馈 5 条:
+2026-05-07 19:47:11,294 [INFO]   [missing_citation] 触发器 = 事件 + 条件 + 动作...
+2026-05-07 19:47:11,294 [INFO]   [missing_citation] 当单位死亡时显示什么信息，当玩家建造建筑时扣除多少资源，当游戏开始时显示什么提示...
+2026-05-07 19:47:11,294 [INFO]   [missing_citation] 当单位死亡（事件）→ 如果是英雄（条件）→ 显示失败画面（动作）...
+2026-05-07 19:47:11,294 [INFO]   [incomplete_section] 学习目标...
+2026-05-07 19:47:11,294 [INFO]   [missing_citation] 触发器让地图"活"起来，是制作RPG、PVP、TD等各类地图必不可少的功能...
+2026-05-07 19:47:11,295 [INFO] ✅ 质量通过 (loop 0): score=0.70
+2026-05-07 19:47:11,295 [INFO] 📄 文章写入: docs/triggers/触发器系统概述.md
+2026-05-07 19:47:11,297 [INFO] ✅ topics.json 已更新: trigger-intro → completed
+2026-05-07 19:47:11,297 [INFO] 📐 PlannerAgent 开始: 触发器条件编写
+2026-05-07 19:47:11,298 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:22,734 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:47:22,736 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-07 19:47:22,736 [INFO] 🔍 ResearcherAgent 开始: 触发器事件类型详解 (21 查询)
+2026-05-07 19:47:22,737 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:22,988 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f4a264c7258850e8198970d9dc5"}
+2026-05-07 19:47:22,988 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger system beginner tutorial' | ZH='Warcraft 3 trigger system beginner tutorial'
+2026-05-07 19:47:23,235 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:23,246 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20beginner%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20beginner%20tutorial')")
+2026-05-07 19:47:23,253 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:23,283 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20beginner%20tutorial)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20beginner%20tutorial')")
+2026-05-07 19:47:23,593 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+system+beginner+tutorial&limit=1 200
+2026-05-07 19:47:23,671 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+trigger+system+beginner+tutorial 403
+2026-05-07 19:47:23,737 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+trigger+system+beginner+tutorial 403
+2026-05-07 19:47:23,754 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+system+beginner+tutorial&limit=1 200
+2026-05-07 19:47:23,926 [INFO] response: https://search.yahoo.com/search;_ylt=pNzAxyuy3SW19FA77V34ud-f;_ylu=FAQM2Tx6TxJ8Ex7lQSUixJ2Tl8tbdWqlKs_vJY9jy7q4qA8?p=Warcraft+3+trigger+system+beginner+tutorial 200
+2026-05-07 19:47:23,946 [INFO] response: https://search.yahoo.com/search;_ylt=Uw0q2MLB_drnsP05wwhF4V9X;_ylu=nvpTKzAKqVLeg2ZZrQqJym2wgD1yUX9ZrIk-8tqvlZvbwVM?p=Warcraft+3+trigger+system+beginner+tutorial 200
+2026-05-07 19:47:24,709 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger system beginner tutor
+2026-05-07 19:47:25,677 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+system+beginner+tutorial&web=1&searchid=8310698 200
+2026-05-07 19:47:25,718 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger system beginner tutor
+2026-05-07 19:47:25,719 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:25,772 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f4db82d514de5288333690f7564"}
+2026-05-07 19:47:25,772 [INFO] 🌐 双语查询: EN='魔兽争霸3 触发器 新手入门 完全教程' | ZH='魔兽争霸3 触发器 新手入门 完全教程'
+2026-05-07 19:47:25,960 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:25,968 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8%20%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8%20%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B')")
+2026-05-07 19:47:25,970 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:25,977 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8%20%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8%20%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B')")
+2026-05-07 19:47:26,088 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-07 19:47:26,146 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-07 19:47:26,848 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B&web=1&searchid=8475726 200
+2026-05-07 19:47:26,861 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B&web=1&searchid=8900330 200
+2026-05-07 19:47:26,888 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器 新手入门 完全教程
+2026-05-07 19:47:26,890 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器 新手入门 完全教程
+2026-05-07 19:47:26,891 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:26,945 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f4e62a22f86e5e55d0a00006067"}
+2026-05-07 19:47:26,945 [INFO] 🌐 双语查询: EN='WC3 World Editor GUI trigger events complete list' | ZH='WC3 World Editor GUI trigger events complete list'
+2026-05-07 19:47:27,101 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:27,110 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20GUI%20trigger%20events%20complete%20list)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20GUI%20trigger%20events%20complete%20list')")
+2026-05-07 19:47:27,111 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:27,118 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20GUI%20trigger%20events%20complete%20list)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20GUI%20trigger%20events%20complete%20list')")
+2026-05-07 19:47:27,164 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:47:27,274 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+GUI+trigger+events+complete+list&source=web 429
+2026-05-07 19:47:27,552 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+GUI+trigger+events+complete+list&limit=1 200
+2026-05-07 19:47:27,635 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+GUI+trigger+events+complete+list&limit=1 200
+2026-05-07 19:47:27,756 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+GUI+trigger+events+complete+list&source=web 429
+2026-05-07 19:47:27,949 [INFO] response: https://www.mojeek.com/search?q=WC3+World+Editor+GUI+trigger+events+complete+list 403
+2026-05-07 19:47:28,124 [INFO] response: https://search.yahoo.com/search;_ylt=9NqTnGNZ6dC9UZL-95NrFDrB;_ylu=d8mawXrtz7lfjn53xWvgkPFNa8SoIGziZe95aasSmX2N80M?p=WC3+World+Editor+GUI+trigger+events+complete+list 200
+2026-05-07 19:47:28,633 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor GUI trigger events comp
+2026-05-07 19:47:28,718 [INFO] response: https://yandex.com/search/site/?text=WC3+World+Editor+GUI+trigger+events+complete+list&web=1&searchid=1370067 200
+2026-05-07 19:47:28,759 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor GUI trigger events comp
+2026-05-07 19:47:28,761 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:28,815 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f502b2c5953855a4d3d12432cb7"}
+2026-05-07 19:47:28,815 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger event types guide' | ZH='Warcraft 3 trigger event types guide'
+2026-05-07 19:47:28,937 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:28,953 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20event%20types%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20event%20types%20guide')")
+2026-05-07 19:47:28,990 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:47:28,991 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-07 19:47:28,991 [INFO] 🔍 ResearcherAgent 开始: 触发器条件编写 (21 查询)
+2026-05-07 19:47:28,992 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:29,006 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:29,013 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20event%20types%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20event%20types%20guide')")
+2026-05-07 19:47:29,047 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f51cf70cbbef1e935100b566796"}
+2026-05-07 19:47:29,047 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor trigger conditions tutorial beginner' | ZH='Warcraft 3 World Editor trigger conditions tutorial beginner'
+2026-05-07 19:47:29,050 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:47:29,084 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+event+types+guide&source=web 429
+2026-05-07 19:47:29,122 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+event+types+guide&limit=1 200
+2026-05-07 19:47:29,207 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:29,230 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+event+types+guide&limit=1 200
+2026-05-07 19:47:29,234 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20conditions%20tutorial%20beginner)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20conditions%20tutorial%20beginner')")
+2026-05-07 19:47:29,257 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:29,264 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20conditions%20tutorial%20beginner)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20conditions%20tutorial%20beginner')")
+2026-05-07 19:47:29,449 [INFO] response: https://search.yahoo.com/search;_ylt=UpAUPjSurfMjfw7tkDO5YE0q;_ylu=eA2tdUG3rglrAVEhfiT23pbJU3SYoSiKlsYDn1cCm5qLjW8?p=Warcraft+3+World+Editor+trigger+conditions+tutorial+beginner 200
+2026-05-07 19:47:29,464 [INFO] response: https://search.yahoo.com/search;_ylt=jcBRVQ5IloxrztIZOtCvr3S7;_ylu=nls0BddgAQQ0g8Fnrm59PRJxCvAAAPBU__T0hqXFisIFLwA?p=Warcraft+3+World+Editor+trigger+conditions+tutorial+beginner 200
+2026-05-07 19:47:29,478 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+conditions+tutorial+beginner&limit=1 200
+2026-05-07 19:47:29,492 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+conditions+tutorial+beginner&limit=1 200
+2026-05-07 19:47:29,833 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:47:29,835 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:29,995 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger conditio
+2026-05-07 19:47:30,058 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+event+types+guide&web=1&searchid=4350957 200
+2026-05-07 19:47:30,095 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+event+types+guide&web=1&searchid=8320155 200
+2026-05-07 19:47:30,099 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger event types guide
+2026-05-07 19:47:30,122 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger event types guide
+2026-05-07 19:47:30,123 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:30,182 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f521b19a900e0f948f70ecdfdf4"}
+2026-05-07 19:47:30,182 [INFO] 🌐 双语查询: EN='魔兽争霸3 触发器事件类型' | ZH='魔兽争霸3 触发器事件类型'
+2026-05-07 19:47:30,308 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger conditio
+2026-05-07 19:47:30,309 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:30,324 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:30,331 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B')")
+2026-05-07 19:47:30,363 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:30,365 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f52049c9f34ced4790e093dc120"}
+2026-05-07 19:47:30,365 [INFO] 🌐 双语查询: EN='魔兽争霸3 触发器 条件 编写 入门 教程' | ZH='魔兽争霸3 触发器 条件 编写 入门 教程'
+2026-05-07 19:47:30,374 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B')")
+2026-05-07 19:47:30,437 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B&limit=1 200
+2026-05-07 19:47:30,504 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:30,506 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:30,513 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%9D%A1%E4%BB%B6%20%E7%BC%96%E5%86%99%20%E5%85%A5%E9%97%A8%20%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%9D%A1%E4%BB%B6%20%E7%BC%96%E5%86%99%20%E5%85%A5%E9%97%A8%20%E6%95%99%E7%A8%8B')")
+2026-05-07 19:47:30,514 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%9D%A1%E4%BB%B6%20%E7%BC%96%E5%86%99%20%E5%85%A5%E9%97%A8%20%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%9D%A1%E4%BB%B6%20%E7%BC%96%E5%86%99%20%E5%85%A5%E9%97%A8%20%E6%95%99%E7%A8%8B')")
+2026-05-07 19:47:30,546 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:47:30,570 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B&limit=1 200
+2026-05-07 19:47:30,619 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%9D%A1%E4%BB%B6+%E7%BC%96%E5%86%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-07 19:47:30,619 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%9D%A1%E4%BB%B6+%E7%BC%96%E5%86%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-07 19:47:31,194 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B&web=1&searchid=1538823 200
+2026-05-07 19:47:31,231 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器事件类型
+2026-05-07 19:47:31,452 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%9D%A1%E4%BB%B6+%E7%BC%96%E5%86%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B&web=1&searchid=8653628 200
+2026-05-07 19:47:31,490 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器 条件 编写 入门 教程
+2026-05-07 19:47:35,376 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B)', 'https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B'))
+2026-05-07 19:47:35,497 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B&source=web 429
+2026-05-07 19:47:35,515 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%9D%A1%E4%BB%B6+%E7%BC%96%E5%86%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B)', 'https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%9D%A1%E4%BB%B6+%E7%BC%96%E5%86%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B'))
+2026-05-07 19:47:35,661 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%9D%A1%E4%BB%B6+%E7%BC%96%E5%86%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B&source=web 429
+2026-05-07 19:47:36,211 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B&web=1&searchid=6190057 200
+2026-05-07 19:47:36,237 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器事件类型
+2026-05-07 19:47:36,239 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:36,408 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%9D%A1%E4%BB%B6+%E7%BC%96%E5%86%99+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B&web=1&searchid=9157345 200
+2026-05-07 19:47:36,410 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器 条件 编写 入门 教程
+2026-05-07 19:47:36,412 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:36,591 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f58eee8c769c56daac7e704cf2a"}
+2026-05-07 19:47:36,591 [INFO] 🌐 双语查询: EN='WC3 trigger system condition action complete guide' | ZH='WC3 trigger system condition action complete guide'
+2026-05-07 19:47:36,594 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f58628ac3d5332aeeabcdf56dd6"}
+2026-05-07 19:47:36,594 [INFO] 🌐 双语查询: EN='WC3 World Editor event conditions' | ZH='WC3 World Editor event conditions'
+2026-05-07 19:47:36,764 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:36,787 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:36,789 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20event%20conditions)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20event%20conditions')")
+2026-05-07 19:47:36,794 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20system%20condition%20action%20complete%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20system%20condition%20action%20complete%20guide')")
+2026-05-07 19:47:36,795 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:36,802 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20system%20condition%20action%20complete%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20system%20condition%20action%20complete%20guide')")
+2026-05-07 19:47:36,803 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:36,820 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20event%20conditions)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20event%20conditions')")
+2026-05-07 19:47:36,858 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:47:36,921 [INFO] response: https://search.brave.com/search?q=WC3+trigger+system+condition+action+complete+guide&source=web 429
+2026-05-07 19:47:36,935 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+event+conditions&limit=1 200
+2026-05-07 19:47:36,945 [INFO] response: https://search.yahoo.com/search;_ylt=AGNxw571WQmAzAXRLi4hB8U2;_ylu=BUaD-lrqYzucsUG_AIvqrSM2dYvwa78ApKYeyHrl56RW8tg?p=WC3+World+Editor+event+conditions 200
+2026-05-07 19:47:36,952 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+trigger+system+condition+action+complete+guide&limit=1 200
+2026-05-07 19:47:37,025 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+trigger+system+condition+action+complete+guide&limit=1 200
+2026-05-07 19:47:37,067 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+event+conditions&limit=1 200
+2026-05-07 19:47:37,090 [INFO] response: https://search.yahoo.com/search;_ylt=9eKvd9CYtq54l55o23_F6eDs;_ylu=W8EkcF97zgFB3tRafdB6nGwKhyzXBrF8N7_yMrOLY7PFKAQ?p=WC3+trigger+system+condition+action+complete+guide 200
+2026-05-07 19:47:37,199 [INFO] response: https://search.yahoo.com/search;_ylt=-Grf9a4IrNHugV77ahNhp5OO;_ylu=YOSv9wjAiGLjFZkg_sjUYvyiPkESxMeXqHYF-z9q3tn2d0Q?p=WC3+trigger+system+condition+action+complete+guide 200
+2026-05-07 19:47:37,632 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor event conditions
+2026-05-07 19:47:37,708 [INFO] response: https://yandex.com/search/site/?text=WC3+World+Editor+event+conditions&web=1&searchid=3459956 200
+2026-05-07 19:47:37,736 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor event conditions
+2026-05-07 19:47:37,737 [INFO]   搜索阶段：收集到 40 条候选结果
+2026-05-07 19:47:37,833 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/basics-of-triggers.32113/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/basics-of-triggers.32113/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-07 19:47:37,928 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:47:38,534 [INFO] response: https://yandex.com/search/site/?text=WC3+trigger+system+condition+action+complete+guide&web=1&searchid=6203541 200
+2026-05-07 19:47:38,570 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 trigger system condition action comp
+2026-05-07 19:47:38,712 [INFO] response: https://yandex.com/search/site/?text=WC3+trigger+system+condition+action+complete+guide&web=1&searchid=6945020 200
+2026-05-07 19:47:38,755 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 trigger system condition action comp
+2026-05-07 19:47:38,756 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:38,812 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f5ab8c4729d994cef3753da93e5"}
+2026-05-07 19:47:38,812 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger conditions basics' | ZH='Warcraft 3 trigger conditions basics'
+2026-05-07 19:47:38,835 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/tags/world-editor/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/tags/world-editor/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-07 19:47:38,979 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:38,982 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:38,994 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20conditions%20basics)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20conditions%20basics')")
+2026-05-07 19:47:39,007 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20conditions%20basics)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20conditions%20basics')")
+2026-05-07 19:47:39,114 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+conditions+basics&limit=1 200
+2026-05-07 19:47:39,215 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+conditions+basics&limit=1 200
+2026-05-07 19:47:39,221 [INFO] response: https://search.yahoo.com/search;_ylt=8jjfi19WYFgtNz7G3tnsi9yZ;_ylu=PMYfznKUzi5aTRq4AbvCf-qcI0BMIo5De3dGnZ6bTw79apc?p=Warcraft+3+trigger+conditions+basics 200
+2026-05-07 19:47:39,448 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+trigger+conditions+basics 403
+2026-05-07 19:47:39,574 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+conditions+basics&source=web 429
+2026-05-07 19:47:39,699 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:47:39,714 [WARNING] ⚠️  抓取失败，已忽略: https://www.snysf.com/news/139.html — [Errno 111] Connection refused
+2026-05-07 19:47:39,801 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:47:39,927 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+conditions+basics&source=web 429
+2026-05-07 19:47:40,159 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:40,611 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+conditions+basics&web=1&searchid=2099324 200
+2026-05-07 19:47:40,651 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger conditions basics
+2026-05-07 19:47:40,823 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+conditions+basics&web=1&searchid=8812843 200
+2026-05-07 19:47:40,863 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger conditions basics
+2026-05-07 19:47:40,864 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:40,918 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f5ca6b6a0731e9c06156d6ac86c"}
+2026-05-07 19:47:40,918 [INFO] 🌐 双语查询: EN='World Editor 触发器 事件 条件 动作 区别' | ZH='World Editor 触发器 事件 条件 动作 区别'
+2026-05-07 19:47:41,086 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:41,106 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:41,112 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E4%BA%8B%E4%BB%B6%20%E6%9D%A1%E4%BB%B6%20%E5%8A%A8%E4%BD%9C%20%E5%8C%BA%E5%88%AB)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E4%BA%8B%E4%BB%B6%20%E6%9D%A1%E4%BB%B6%20%E5%8A%A8%E4%BD%9C%20%E5%8C%BA%E5%88%AB')")
+2026-05-07 19:47:41,113 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E4%BA%8B%E4%BB%B6%20%E6%9D%A1%E4%BB%B6%20%E5%8A%A8%E4%BD%9C%20%E5%8C%BA%E5%88%AB)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E4%BA%8B%E4%BB%B6%20%E6%9D%A1%E4%BB%B6%20%E5%8A%A8%E4%BD%9C%20%E5%8C%BA%E5%88%AB')")
+2026-05-07 19:47:41,234 [INFO] response: https://search.brave.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E4%BA%8B%E4%BB%B6+%E6%9D%A1%E4%BB%B6+%E5%8A%A8%E4%BD%9C+%E5%8C%BA%E5%88%AB&source=web 429
+2026-05-07 19:47:41,642 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E4%BA%8B%E4%BB%B6+%E6%9D%A1%E4%BB%B6+%E5%8A%A8%E4%BD%9C+%E5%8C%BA%E5%88%AB&limit=1 200
+2026-05-07 19:47:41,712 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E4%BA%8B%E4%BB%B6+%E6%9D%A1%E4%BB%B6+%E5%8A%A8%E4%BD%9C+%E5%8C%BA%E5%88%AB&limit=1 200
+2026-05-07 19:47:41,898 [INFO] response: https://search.yahoo.com/search;_ylt=N72-J4e8mAS2zkfNh504gLhU;_ylu=9hOFhKlOQkDipEXEM6r6xnuksNh-qkBFjrbLfu5tS2h4340?p=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E4%BA%8B%E4%BB%B6+%E6%9D%A1%E4%BB%B6+%E5%8A%A8%E4%BD%9C+%E5%8C%BA%E5%88%AB 200
+2026-05-07 19:47:42,016 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E4%BA%8B%E4%BB%B6+%E6%9D%A1%E4%BB%B6+%E5%8A%A8%E4%BD%9C+%E5%8C%BA%E5%88%AB&web=1&searchid=3962473 200
+2026-05-07 19:47:42,056 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器 事件 条件 动作 区别
+2026-05-07 19:47:42,434 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器 事件 条件 动作 区别
+2026-05-07 19:47:42,436 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:42,494 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1f5e12dddd34e6c05e0d43a2d0f7"}
+2026-05-07 19:47:42,495 [INFO] 🌐 双语查询: EN='trigger condition vs action Warcraft 3' | ZH='trigger condition vs action Warcraft 3'
+2026-05-07 19:47:42,709 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:42,739 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:47:42,744 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=trigger%20condition%20vs%20action%20Warcraft%203)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=trigger%20condition%20vs%20action%20Warcraft%203')")
+2026-05-07 19:47:42,780 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=trigger%20condition%20vs%20action%20Warcraft%203)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=trigger%20condition%20vs%20action%20Warcraft%203')")
+2026-05-07 19:47:42,843 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:47:42,915 [INFO] response: https://grokipedia.com/api/typeahead?query=trigger+condition+vs+action+Warcraft+3&limit=1 200
+2026-05-07 19:47:43,051 [INFO] response: https://search.yahoo.com/search;_ylt=RZQVXXv4iGyeI33Su5fCADDH;_ylu=qoxfzRPH1b_06M8xKGbn6XB7Xz2DypRptbfqk5X6gjSrYB8?p=trigger+condition+vs+action+Warcraft+3 200
+2026-05-07 19:47:43,087 [INFO] response: https://grokipedia.com/api/typeahead?query=trigger+condition+vs+action+Warcraft+3&limit=1 200
+2026-05-07 19:47:43,181 [INFO] response: https://www.mojeek.com/search?q=trigger+condition+vs+action+Warcraft+3 403
+2026-05-07 19:47:43,399 [INFO] response: https://search.yahoo.com/search;_ylt=8Obto57FIUgnFCNUS4JIDg2d;_ylu=cIU9BRFRO2hkRr-rZgLDEAsb-zlSi2O3PMHVRWo-cgaJhrE?p=trigger+condition+vs+action+Warcraft+3 200
+2026-05-07 19:47:43,741 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | trigger condition vs action Warcraft 3
+2026-05-07 19:47:43,857 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | trigger condition vs action Warcraft 3
+2026-05-07 19:47:43,857 [INFO]   搜索阶段：收集到 36 条候选结果
+2026-05-07 19:47:43,950 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/basics-of-triggers.32113/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/basics-of-triggers.32113/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-07 19:47:44,086 [WARNING] ⚠️  抓取失败，已忽略: https://gameguidesbox.com/guides/yunyun-syndrome/all-49-achievements-unlock-guide/ — Client error '403 Forbidden' for url 'https://gameguidesbox.com/guides/yunyun-syndrome/all-49-achievements-unlock-guide/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-07 19:47:44,158 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/trigger-condition-recognizing-water.229546/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/trigger-condition-recognizing-water.229546/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-07 19:47:44,243 [WARNING] ⚠️  抓取失败，已忽略: https://www.snysf.com/news/139.html — [Errno 111] Connection refused
+2026-05-07 19:47:44,854 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/performance-difference-of-having-conditions-in-conditions-vs-actions.333806/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/performance-difference-of-having-conditions-in-conditions-vs-actions.333806/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-07 19:47:45,237 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/zjw930316/article/details/129974872 — Server error '521 ' for url 'https://blog.csdn.net/zjw930316/article/details/129974872'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-07 19:47:45,239 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:47:45,853 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:47:45,856 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:48:01,935 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:48:01,937 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-07 19:48:01,937 [INFO] ✍️  WriterAgent 开始: 触发器事件类型详解 (loop 0)
+2026-05-07 19:48:01,938 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:48:08,411 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:48:08,413 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-07 19:48:08,413 [INFO] ✍️  WriterAgent 开始: 触发器条件编写 (loop 0)
+2026-05-07 19:48:08,414 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:48:12,102 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:48:12,104 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:48:12,211 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:48:12,214 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:48:30,454 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:48:30,456 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:48:34,039 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:48:34,042 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:48:35,454 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:48:35,456 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:48:47,589 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:48:47,592 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:48:54,290 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:48:54,293 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:49:01,586 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:49:01,588 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:49:11,926 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:49:11,928 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:49:14,570 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:49:14,573 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:49:21,206 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:49:21,207 [INFO] ✅ WriterAgent 完成: 8158 字符, 7/7 来源被引用
+2026-05-07 19:49:21,208 [INFO] 🔎 ReviewerAgent 开始: 高级地形技巧与优化
+2026-05-07 19:49:21,209 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:49:32,635 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:49:32,637 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:49:35,419 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:49:35,421 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:49:40,142 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:49:40,144 [INFO] ✅ 通过 ReviewerAgent: overall=0.84 (A=0.85 C=0.85 R=0.90 Cit=0.65)
+2026-05-07 19:49:40,144 [INFO]   反馈 5 条:
+2026-05-07 19:49:40,144 [INFO]   [missing_citation] 如果装饰物超过 1000 个，考虑删除不必要的重复元素...
+2026-05-07 19:49:40,144 [INFO]   [missing_citation] 普通 RPG 地图保持 4 层以下悬崖即可满足大多数设计需求...
+2026-05-07 19:49:40,144 [INFO]   [missing_citation] 建议水面面积不超过地图总面积的15-20%...
+2026-05-07 19:49:40,144 [INFO]   [factual_error] 高级做法是用触发器（触发器是一种自动执行命令的脚本）根据游戏进程切换天气状态...
+2026-05-07 19:49:40,144 [INFO]   [missing_citation] 密度优先时，密度建议设置在30%-50%之间...
+2026-05-07 19:49:40,144 [INFO] ✅ 质量通过 (loop 0): score=0.84
+2026-05-07 19:49:40,145 [INFO] 📄 文章写入: docs/terrain/高级地形技巧与优化.md
+2026-05-07 19:49:40,146 [INFO] ✅ topics.json 已更新: terrain-advanced → completed
+2026-05-07 19:49:40,147 [INFO] 📐 PlannerAgent 开始: 触发器动作大全
+2026-05-07 19:49:40,148 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:49:56,623 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:49:56,625 [INFO] ✅ WriterAgent 完成: 7291 字符, 3/3 来源被引用
+2026-05-07 19:49:56,625 [INFO] 🔎 ReviewerAgent 开始: 触发器事件类型详解
+2026-05-07 19:49:56,626 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:49:59,459 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:49:59,461 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:50:00,599 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:50:00,601 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-07 19:50:00,601 [INFO] 🔍 ResearcherAgent 开始: 触发器动作大全 (21 查询)
+2026-05-07 19:50:00,602 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:50:00,796 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1fe82bd5204069749730b51eccb4"}
+2026-05-07 19:50:00,796 [INFO] 🌐 双语查询: EN='Warcraft III World Editor trigger actions complete list' | ZH='Warcraft III World Editor trigger actions complete list'
+2026-05-07 19:50:00,999 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:01,025 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:01,036 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20trigger%20actions%20complete%20list)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20trigger%20actions%20complete%20list')")
+2026-05-07 19:50:01,062 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20trigger%20actions%20complete%20list)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20trigger%20actions%20complete%20list')")
+2026-05-07 19:50:01,133 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:50:01,185 [INFO] response: https://search.yahoo.com/search;_ylt=-5Dicn9SMn0x9bl4TlLTya_Q;_ylu=4evVUBsbJ71CRLlO7io-Iv574UtvEQ0BnBQuPtvbqTc7zuk?p=Warcraft+III+World+Editor+trigger+actions+complete+list 200
+2026-05-07 19:50:01,197 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+trigger+actions+complete+list&limit=1 200
+2026-05-07 19:50:01,316 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+trigger+actions+complete+list&limit=1 200
+2026-05-07 19:50:01,696 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+World+Editor+trigger+actions+complete+list 403
+2026-05-07 19:50:01,810 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III World Editor trigger action
+2026-05-07 19:50:01,940 [INFO] response: https://search.yahoo.com/search;_ylt=x0rfuO5bnYOzuIgfJyiBpLGR;_ylu=GJTwfgrU-Zteii5g70Xy_BDd7kioPMzrNF5R0GkYEs10Zio?p=Warcraft+III+World+Editor+trigger+actions+complete+list 200
+2026-05-07 19:50:04,355 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+World+Editor+trigger+actions+complete+list&web=1&searchid=7401333 200
+2026-05-07 19:50:04,395 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III World Editor trigger action
+2026-05-07 19:50:04,396 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:50:04,461 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1fec8df4c2c72d95095d0c135806"}
+2026-05-07 19:50:04,461 [INFO] 🌐 双语查询: EN='魔兽争霸3 触发器动作 所有分类详解' | ZH='魔兽争霸3 触发器动作 所有分类详解'
+2026-05-07 19:50:04,677 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:04,690 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:04,715 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8A%A8%E4%BD%9C%20%E6%89%80%E6%9C%89%E5%88%86%E7%B1%BB%E8%AF%A6%E8%A7%A3)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8A%A8%E4%BD%9C%20%E6%89%80%E6%9C%89%E5%88%86%E7%B1%BB%E8%AF%A6%E8%A7%A3')")
+2026-05-07 19:50:04,729 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8A%A8%E4%BD%9C%20%E6%89%80%E6%9C%89%E5%88%86%E7%B1%BB%E8%AF%A6%E8%A7%A3)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8A%A8%E4%BD%9C%20%E6%89%80%E6%9C%89%E5%88%86%E7%B1%BB%E8%AF%A6%E8%A7%A3')")
+2026-05-07 19:50:04,804 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8A%A8%E4%BD%9C+%E6%89%80%E6%9C%89%E5%88%86%E7%B1%BB%E8%AF%A6%E8%A7%A3&limit=1 200
+2026-05-07 19:50:04,866 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8A%A8%E4%BD%9C+%E6%89%80%E6%9C%89%E5%88%86%E7%B1%BB%E8%AF%A6%E8%A7%A3&limit=1 200
+2026-05-07 19:50:05,159 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8A%A8%E4%BD%9C+%E6%89%80%E6%9C%89%E5%88%86%E7%B1%BB%E8%AF%A6%E8%A7%A3 403
+2026-05-07 19:50:05,327 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8A%A8%E4%BD%9C+%E6%89%80%E6%9C%89%E5%88%86%E7%B1%BB%E8%AF%A6%E8%A7%A3&source=web 429
+2026-05-07 19:50:05,401 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:50:05,572 [INFO] response: https://search.yahoo.com/search;_ylt=Cqljf9le5BmzgIq_1fT3w1Ph;_ylu=PY_JKprw2bdK7h9RKGZQWEdtrO8zOKKe3VZ9SonbhMm8fnc?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8A%A8%E4%BD%9C+%E6%89%80%E6%9C%89%E5%88%86%E7%B1%BB%E8%AF%A6%E8%A7%A3 200
+2026-05-07 19:50:05,643 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8A%A8%E4%BD%9C+%E6%89%80%E6%9C%89%E5%88%86%E7%B1%BB%E8%AF%A6%E8%A7%A3&web=1&searchid=7774748 200
+2026-05-07 19:50:05,682 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器动作 所有分类详解
+2026-05-07 19:50:06,036 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器动作 所有分类详解
+2026-05-07 19:50:06,037 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:50:06,093 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1fee1eb85c90f01d3377f5e50fa4"}
+2026-05-07 19:50:06,093 [INFO] 🌐 双语查询: EN='WC3 JASS trigger GUI action reference guide' | ZH='WC3 JASS trigger GUI action reference guide'
+2026-05-07 19:50:06,221 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:06,244 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20JASS%20trigger%20GUI%20action%20reference%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20JASS%20trigger%20GUI%20action%20reference%20guide')")
+2026-05-07 19:50:06,265 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:06,287 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20JASS%20trigger%20GUI%20action%20reference%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20JASS%20trigger%20GUI%20action%20reference%20guide')")
+2026-05-07 19:50:06,313 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:50:06,370 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+JASS+trigger+GUI+action+reference+guide&limit=1 200
+2026-05-07 19:50:06,446 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+JASS+trigger+GUI+action+reference+guide&limit=1 200
+2026-05-07 19:50:06,783 [INFO] response: https://www.mojeek.com/search?q=WC3+JASS+trigger+GUI+action+reference+guide 403
+2026-05-07 19:50:07,163 [INFO] response: https://yandex.com/search/site/?text=WC3+JASS+trigger+GUI+action+reference+guide&web=1&searchid=4499653 200
+2026-05-07 19:50:07,189 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 JASS trigger GUI action reference gu
+2026-05-07 19:50:07,582 [INFO] response: https://yandex.com/search/site/?text=WC3+JASS+trigger+GUI+action+reference+guide&web=1&searchid=6307054 200
+2026-05-07 19:50:07,608 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 JASS trigger GUI action reference gu
+2026-05-07 19:50:07,610 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:50:07,667 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1fef7f7166511d3b112e91040c6d"}
+2026-05-07 19:50:07,667 [INFO] 🌐 双语查询: EN='Warcraft III trigger editor basics tutorial' | ZH='Warcraft III trigger editor basics tutorial'
+2026-05-07 19:50:07,820 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:07,827 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20editor%20basics%20tutorial)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20editor%20basics%20tutorial')")
+2026-05-07 19:50:07,846 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:07,882 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20editor%20basics%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20trigger%20editor%20basics%20tutorial')")
+2026-05-07 19:50:07,966 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+trigger+editor+basics+tutorial&limit=1 200
+2026-05-07 19:50:08,065 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+trigger+editor+basics+tutorial&limit=1 200
+2026-05-07 19:50:08,098 [INFO] response: https://search.yahoo.com/search;_ylt=Ir11Ndg_CDJNF1Uohr34XAJI;_ylu=oR3M4L7phrwCEOJ8OHmPnhs2HXRz3KSuBLyGXnQRsKVWkHc?p=Warcraft+III+trigger+editor+basics+tutorial 200
+2026-05-07 19:50:08,681 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+trigger+editor+basics+tutorial&web=1&searchid=2703589 200
+2026-05-07 19:50:08,683 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III trigger editor basics tutor
+2026-05-07 19:50:08,709 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III trigger editor basics tutor
+2026-05-07 19:50:08,710 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:50:08,762 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1ff0bf42e490c78ab1c367f682ab"}
+2026-05-07 19:50:08,763 [INFO] 🌐 双语查询: EN='World Editor 触发器 入门教程' | ZH='World Editor 触发器 入门教程'
+2026-05-07 19:50:08,965 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:08,973 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-05-07 19:50:08,982 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:09,007 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-07 19:50:09,018 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-05-07 19:50:09,191 [INFO] response: https://search.yahoo.com/search;_ylt=hgcNeVWt6yXq83_oWUVzOGAY;_ylu=xPtsR4vNVK4RIfQnkbbjQ76d1LAHJ8iFsPvGsmuqGpljUJ4?p=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 200
+2026-05-07 19:50:09,217 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-07 19:50:09,328 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-07 19:50:09,445 [INFO] response: https://search.yahoo.com/search;_ylt=Px1TAwsRTCj8Ns5nYr1g97CF;_ylu=5q01X53DbHuGp7Rmtk5GM5H_nZ5tVdoViiDK5Zj6F53lgHQ?p=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 200
+2026-05-07 19:50:09,738 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器 入门教程
+2026-05-07 19:50:10,648 [INFO] response: https://www.mojeek.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 403
+2026-05-07 19:50:11,490 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&web=1&searchid=8978719 200
+2026-05-07 19:50:11,526 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器 入门教程
+2026-05-07 19:50:11,528 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:50:11,580 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064c1ff3fa6886c78199fd5ad3cdfa63"}
+2026-05-07 19:50:11,580 [INFO] 🌐 双语查询: EN='trigger event condition action structure' | ZH='trigger event condition action structure'
+2026-05-07 19:50:11,767 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:11,770 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-07 19:50:11,801 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=trigger%20event%20condition%20action%20structure)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=trigger%20event%20condition%20action%20structure')")
+2026-05-07 19:50:11,804 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=trigger%20event%20condition%20action%20structure)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=trigger%20event%20condition%20action%20structure')")
+2026-05-07 19:50:11,915 [INFO] response: https://grokipedia.com/api/typeahead?query=trigger+event+condition+action+structure&limit=1 200
+2026-05-07 19:50:11,986 [INFO] response: https://grokipedia.com/api/typeahead?query=trigger+event+condition+action+structure&limit=1 200
+2026-05-07 19:50:12,223 [INFO] response: https://www.mojeek.com/search?q=trigger+event+condition+action+structure 403
+2026-05-07 19:50:12,399 [INFO] response: https://search.yahoo.com/search;_ylt=9qVPbCVnJIUmwy2tRHHE_vuP;_ylu=tj6Cg_bZgnCxJ82g_Pqw3bfWxFHT-SCTUFO399rcOUaYJ88?p=trigger+event+condition+action+structure 200
+2026-05-07 19:50:12,698 [INFO] response: https://yandex.com/search/site/?text=trigger+event+condition+action+structure&web=1&searchid=3898050 200
+2026-05-07 19:50:12,737 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | trigger event condition action structure
+2026-05-07 19:50:13,002 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | trigger event condition action structure
+2026-05-07 19:50:13,003 [INFO]   搜索阶段：收集到 43 条候选结果
+2026-05-07 19:50:13,143 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/basics-of-triggers.32113/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/basics-of-triggers.32113/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-07 19:50:14,069 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/better-triggers-custom-trigger-editor.341002/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/better-triggers-custom-trigger-editor.341002/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-07 19:50:15,239 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:50:17,437 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:50:17,439 [INFO] ✅ WriterAgent 完成: 6317 字符, 3/4 来源被引用
+2026-05-07 19:50:17,439 [INFO] 🔎 ReviewerAgent 开始: 触发器条件编写
+2026-05-07 19:50:17,440 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-07 19:50:20,373 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-07 19:50:20,375 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 27 (char 209)
+2026-05-07 19:50:20,375 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-07 19:50:20,375 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-07 19:50:20,375 [INFO] 📄 文章写入: docs/triggers/触发器事件类型详解.md

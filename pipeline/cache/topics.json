@@ -638,12 +638,13 @@
     "category_name": "快速入门",
     "search_query": "War3 地图测试 调试 单机测试 日志",
     "output_dir": "docs/getting-started",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746005+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-07T19:45:57.245667+00:00",
+    "article_path": "docs/getting-started/地图测试与调试方法.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "terrain-basics",
@@ -652,12 +653,13 @@
     "category_name": "地形编辑",
     "search_query": "War3 地形编辑 高度 纹理 基础教程",
     "output_dir": "docs/terrain",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746012+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-07T19:45:50.761784+00:00",
+    "article_path": "docs/terrain/地形编辑器基础操作.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "terrain-textures",
@@ -666,12 +668,13 @@
     "category_name": "地形编辑",
     "search_query": "War3 地形纹理 贴图 自定义纹理",
     "output_dir": "docs/terrain",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746024+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-07T19:43:44.152081+00:00",
+    "article_path": "docs/terrain/地形纹理与贴图技巧.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "doodads-decorations",
@@ -680,12 +683,13 @@
     "category_name": "地形编辑",
     "search_query": "War3 装饰物 doodad 可破坏物 地图摆放",
     "output_dir": "docs/terrain",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746030+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-07T19:47:04.869860+00:00",
+    "article_path": "docs/terrain/装饰物与可破坏物.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "terrain-advanced",
@@ -694,12 +698,13 @@
     "category_name": "地形编辑",
     "search_query": "War3 地形 高级技巧 性能优化 视觉效果",
     "output_dir": "docs/terrain",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746038+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-07T19:49:40.145889+00:00",
+    "article_path": "docs/terrain/高级地形技巧与优化.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-intro",
@@ -708,12 +713,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器系统 介绍 事件条件动作",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746044+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-07T19:47:11.296071+00:00",
+    "article_path": "docs/triggers/触发器系统概述.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-events",
@@ -722,12 +728,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 事件 event 类型 完整列表",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746050+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-07T19:50:20.376636+00:00",
+    "article_path": "docs/triggers/触发器事件类型详解.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-conditions",
@@ -736,12 +743,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 条件 condition 编写技巧",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746066+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-07T19:50:31.056432+00:00",
+    "article_path": "docs/triggers/触发器条件编写.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-actions",
@@ -750,12 +758,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 动作 action 常用函数",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746072+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-07T19:53:54.384700+00:00",
+    "article_path": "docs/triggers/触发器动作大全.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-variables",
@@ -764,12 +773,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 变量 variable 数组 全局变量",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746078+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-07T19:53:50.374231+00:00",
+    "article_path": "docs/triggers/触发器变量与数据类型.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-leaks",
