@@ -1,5 +1,22 @@
 # 更新日志
 
+## 2026-05-08 19:29 UTC
+
+本次更新 **10** 篇文章：
+
+- [物品编辑器与物品系统](docs/object-editor/物品编辑器与物品系统.md)
+- [升级编辑器](docs/object-editor/升级编辑器.md)
+- [光环与增益效果编辑](docs/object-editor/光环与增益效果编辑.md)
+- [YDWE 雨滴编辑器使用指南](docs/tools/ydwe-雨滴编辑器使用指南.md)
+- [WE Unlimited 无限编辑器](docs/tools/we-unlimited-无限编辑器.md)
+- [JASS NewGen Pack (JNGP)](docs/tools/jass-newgen-pack-jngp.md)
+- [Hive Workshop 资源站介绍](docs/tools/hive-workshop-资源站介绍.md)
+- [MPQ 文件工具与资源导入](docs/tools/mpq-文件工具与资源导入.md)
+- [多人游戏同步机制](docs/advanced/多人游戏同步机制.md)
+- [存档与读档系统实现](docs/advanced/存档与读档系统实现.md)
+
+
+
 ## 2026-05-08 05:06 UTC
 
 本次更新 **10** 篇文章：

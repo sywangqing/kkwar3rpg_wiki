@@ -1,0 +1,205 @@
+2026-05-08 19:26:06,393 [INFO] 📐 PlannerAgent 开始: 存档与读档系统实现
+2026-05-08 19:26:06,394 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:09,276 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:26:09,278 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:14,030 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:26:14,031 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:25,710 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:26:25,711 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-08 19:26:25,711 [INFO] 🔍 ResearcherAgent 开始: 存档与读档系统实现 (21 查询)
+2026-05-08 19:26:25,712 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:25,997 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064d6be17b46795b44ce3f74c3000b09"}
+2026-05-08 19:26:25,998 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor save load system tutorial beginner' | ZH='Warcraft 3 World Editor save load system tutorial beginner'
+2026-05-08 19:26:26,268 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:26,274 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20save%20load%20system%20tutorial%20beginner)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20save%20load%20system%20tutorial%20beginner')")
+2026-05-08 19:26:26,279 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:26,285 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20save%20load%20system%20tutorial%20beginner)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20save%20load%20system%20tutorial%20beginner')")
+2026-05-08 19:26:26,422 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+save+load+system+tutorial+beginner&limit=1 200
+2026-05-08 19:26:26,564 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+save+load+system+tutorial+beginner&limit=1 200
+2026-05-08 19:26:26,762 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+save+load+system+tutorial+beginner 403
+2026-05-08 19:26:26,945 [INFO] response: https://search.yahoo.com/search;_ylt=kLWoYfsdOJbArmyBKNnDBXl8;_ylu=6aFEB3NWqjBg1B9u_3YIK6I4ZQQFeI9GdHuAN8ZIc_3_nMA?p=Warcraft+3+World+Editor+save+load+system+tutorial+beginner 200
+2026-05-08 19:26:27,106 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 19:26:27,289 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+save+load+system+tutorial+beginner&web=1&searchid=5742855 200
+2026-05-08 19:26:27,292 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor save load system
+2026-05-08 19:26:28,085 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+save+load+system+tutorial+beginner&web=1&searchid=7810864 200
+2026-05-08 19:26:28,130 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor save load system
+2026-05-08 19:26:28,131 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:28,217 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064d6be480de50adc1c1d3ebc7e239f4"}
+2026-05-08 19:26:28,217 [INFO] 🌐 双语查询: EN='魔兽争霸3 地图编辑器 存档读档 完整教程' | ZH='魔兽争霸3 地图编辑器 存档读档 完整教程'
+2026-05-08 19:26:28,482 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:28,489 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:28,491 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3%20%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3%20%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B')")
+2026-05-08 19:26:28,497 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3%20%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3%20%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B')")
+2026-05-08 19:26:28,622 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-08 19:26:28,755 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-08 19:26:28,810 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:26:28,811 [INFO] ✅ WriterAgent 完成: 7215 字符, 3/3 来源被引用
+2026-05-08 19:26:28,812 [INFO] 🔎 ReviewerAgent 开始: 多人游戏同步机制
+2026-05-08 19:26:28,812 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:29,174 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&web=1&searchid=2636777 200
+2026-05-08 19:26:29,328 [INFO] response: https://search.yahoo.com/search;_ylt=0orV8I83j3Emybx6SvLi498s;_ylu=Av1okptOh-KfXYQT1pvQNjo7Y00rYMWSSWaaTje8fO_OOsc?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B 200
+2026-05-08 19:26:29,420 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&web=1&searchid=5901414 200
+2026-05-08 19:26:29,477 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 地图编辑器 存档读档 完整教程
+2026-05-08 19:26:30,188 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B 403
+2026-05-08 19:26:30,248 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&source=web 429
+2026-05-08 19:26:30,454 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 19:26:30,455 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3%20%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%AD%98%E6%A1%A3%E8%AF%BB%E6%A1%A3%20%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B')
+2026-05-08 19:26:30,455 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | 魔兽争霸3 地图编辑器 存档读档 完整教程
+2026-05-08 19:26:30,456 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:30,542 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064d6be645eef43f71810e9d1eeb2765"}
+2026-05-08 19:26:30,542 [INFO] 🌐 双语查询: EN='WC3 trigger based RPG save game JASS guide' | ZH='WC3 trigger based RPG save game JASS guide'
+2026-05-08 19:26:30,788 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:30,802 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20based%20RPG%20save%20game%20JASS%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20based%20RPG%20save%20game%20JASS%20guide')")
+2026-05-08 19:26:30,807 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:30,813 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20based%20RPG%20save%20game%20JASS%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20based%20RPG%20save%20game%20JASS%20guide')")
+2026-05-08 19:26:30,950 [INFO] response: https://search.yahoo.com/search;_ylt=wTYAQADuG6wwvHu5XjO8NICL;_ylu=cxKivqz_Ox6XRUYuVT5LblpM15T4zbEYyzibLOv2kNdu2tg?p=WC3+trigger+based+RPG+save+game+JASS+guide 200
+2026-05-08 19:26:30,981 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+trigger+based+RPG+save+game+JASS+guide&limit=1 200
+2026-05-08 19:26:30,981 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 19:26:31,114 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+trigger+based+RPG+save+game+JASS+guide&limit=1 200
+2026-05-08 19:26:31,137 [INFO] response: https://search.yahoo.com/search;_ylt=v_AmlfBmt4vgPf_JOagM_d4O;_ylu=V-atorrgY5aZMQOML6GPcJwDsT5GpSnWZGavpy5Wpgusa9o?p=WC3+trigger+based+RPG+save+game+JASS+guide 200
+2026-05-08 19:26:31,622 [INFO] response: https://www.mojeek.com/search?q=WC3+trigger+based+RPG+save+game+JASS+guide 403
+2026-05-08 19:26:31,728 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 19:26:31,794 [INFO] response: https://search.brave.com/search?q=WC3+trigger+based+RPG+save+game+JASS+guide&source=web 429
+2026-05-08 19:26:32,301 [INFO] response: https://yandex.com/search/site/?text=WC3+trigger+based+RPG+save+game+JASS+guide&web=1&searchid=6438378 200
+2026-05-08 19:26:32,345 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 trigger based RPG save game JASS gui
+2026-05-08 19:26:32,726 [INFO] response: https://yandex.com/search/site/?text=WC3+trigger+based+RPG+save+game+JASS+guide&web=1&searchid=5377237 200
+2026-05-08 19:26:32,729 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 trigger based RPG save game JASS gui
+2026-05-08 19:26:32,730 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:32,817 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064d6be87d795ea1a0a8e99798b62ac4"}
+2026-05-08 19:26:32,817 [INFO] 🌐 双语查询: EN='Warcraft 3 save load system tutorial' | ZH='Warcraft 3 save load system tutorial'
+2026-05-08 19:26:33,077 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:33,082 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:33,084 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20save%20load%20system%20tutorial)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20save%20load%20system%20tutorial')")
+2026-05-08 19:26:33,104 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20save%20load%20system%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20save%20load%20system%20tutorial')")
+2026-05-08 19:26:33,197 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 19:26:33,234 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+save+load+system+tutorial&limit=1 200
+2026-05-08 19:26:33,235 [INFO] response: https://search.yahoo.com/search;_ylt=pA0ia1hn6y5aQoOKZ5IOKOn4;_ylu=69vi5rPnI5whZnhYZbMvLA9YoIr4PHLnXYWJGbOj2-mRld4?p=Warcraft+3+save+load+system+tutorial 200
+2026-05-08 19:26:33,385 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+save+load+system+tutorial&limit=1 200
+2026-05-08 19:26:33,715 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+save+load+system+tutorial 403
+2026-05-08 19:26:33,833 [INFO] response: https://search.yahoo.com/search;_ylt=dRlQDZQkY4btX7nQI5zfCK4f;_ylu=KvleSqCpAN8ht6qYPeAWL4gO4qKXr0-GXVKW7Oncuoe70EM?p=Warcraft+3+save+load+system+tutorial 200
+2026-05-08 19:26:34,322 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+save+load+system+tutorial&web=1&searchid=3465371 200
+2026-05-08 19:26:34,352 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 save load system tutorial
+2026-05-08 19:26:34,823 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+save+load+system+tutorial&web=1&searchid=9923918 200
+2026-05-08 19:26:34,861 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 save load system tutorial
+2026-05-08 19:26:34,862 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:34,948 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064d6beab01a848def58f2b0e6e92753"}
+2026-05-08 19:26:34,948 [INFO] 🌐 双语查询: EN='魔兽争霸3 存档系统 原理介绍' | ZH='魔兽争霸3 存档系统 原理介绍'
+2026-05-08 19:26:35,205 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:35,212 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F%20%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F%20%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D')")
+2026-05-08 19:26:35,229 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:35,235 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F%20%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F%20%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D')")
+2026-05-08 19:26:35,278 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D&source=web 429
+2026-05-08 19:26:35,325 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-08 19:26:35,353 [INFO] response: https://search.yahoo.com/search;_ylt=9ExfPLM_d1oTgxyOUBh_1AbW;_ylu=9NV49JrF6TnnQXhPTnaepk__guRx44fUi-oXGBNepuT7Bjc?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D 200
+2026-05-08 19:26:35,418 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-08 19:26:35,548 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 19:26:36,378 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D&web=1&searchid=6610708 200
+2026-05-08 19:26:36,423 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 存档系统 原理介绍
+2026-05-08 19:26:36,509 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D&web=1&searchid=1608999 200
+2026-05-08 19:26:36,553 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 存档系统 原理介绍
+2026-05-08 19:26:36,554 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:36,640 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"064d6becb007ed799b1b3e1ea0706916"}
+2026-05-08 19:26:36,640 [INFO] 🌐 双语查询: EN='WC3 RPG save game mechanism' | ZH='WC3 RPG save game mechanism'
+2026-05-08 19:26:36,850 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:26:36,850 [INFO] ✅ WriterAgent 完成: 8038 字符, 5/5 来源被引用
+2026-05-08 19:26:36,851 [INFO] 🔎 ReviewerAgent 开始: MPQ 文件工具与资源导入
+2026-05-08 19:26:36,853 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:36,888 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:36,906 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:26:36,911 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20save%20game%20mechanism)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20save%20game%20mechanism')")
+2026-05-08 19:26:36,915 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20save%20game%20mechanism)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20save%20game%20mechanism')")
+2026-05-08 19:26:36,960 [INFO] response: https://search.brave.com/search?q=WC3+RPG+save+game+mechanism&source=web 429
+2026-05-08 19:26:37,007 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+save+game+mechanism&limit=1 200
+2026-05-08 19:26:37,016 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 19:26:37,106 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+save+game+mechanism&limit=1 200
+2026-05-08 19:26:37,577 [INFO] response: https://www.mojeek.com/search?q=WC3+RPG+save+game+mechanism 403
+2026-05-08 19:26:37,709 [INFO] response: https://search.yahoo.com/search;_ylt=AWdvAWx2WmBOlTic4LGjAAqL;_ylu=NOhQ4ZsVaGx2b8u0uveG6SIt-IetpsmgYnhnZJYDdEh--SE?p=WC3+RPG+save+game+mechanism 200
+2026-05-08 19:26:38,079 [INFO] response: https://yandex.com/search/site/?text=WC3+RPG+save+game+mechanism&web=1&searchid=1838476 200
+2026-05-08 19:26:38,125 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG save game mechanism
+2026-05-08 19:26:38,670 [INFO] response: https://yandex.com/search/site/?text=WC3+RPG+save+game+mechanism&web=1&searchid=4932892 200
+2026-05-08 19:26:38,717 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG save game mechanism
+2026-05-08 19:26:38,717 [INFO]   搜索阶段：收集到 32 条候选结果
+2026-05-08 19:26:38,795 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/warcraft-3-world-editor-cant-load-models.227337/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/warcraft-3-world-editor-cant-load-models.227337/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 19:26:38,805 [WARNING] ⚠️  抓取失败，已忽略: https://nextgenupdate.com/forums/pc-amp-steam-gaming/221496-basic-tutorialthe-warcraft-three-world-editor.html — Client error '403 Forbidden' for url 'https://nextgenupdate.com/forums/pc-amp-steam-gaming/221496-basic-tutorialthe-warcraft-three-world-editor.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 19:26:38,865 [WARNING] ⚠️  抓取失败，已忽略: https://www.thehelper.net/threads/the-complete-guide-to-jass-vjass-and-cjass.122588/ — Client error '403 Forbidden' for url 'https://www.thehelper.net/threads/the-complete-guide-to-jass-vjass-and-cjass.122588/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 19:26:41,251 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:26:42,652 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:26:42,654 [INFO] ✅ 通过 ReviewerAgent: overall=0.83 (A=0.82 C=0.85 R=0.92 Cit=0.65)
+2026-05-08 19:26:42,654 [INFO]   反馈 5 条:
+2026-05-08 19:26:42,654 [INFO]   [missing_citation] 魔兽争霸III采用了"主机权威"模式：主机（Host）的电脑负责运行大部分关键逻辑，然后通过网络将结果发送给其他玩家...
+2026-05-08 19:26:42,654 [INFO]   [missing_citation] 随机数系统并不是真正的随机。它使用的是"伪随机数生成器"（Pseudo-Random Number Generator）...
+2026-05-08 19:26:42,654 [INFO]   [missing_citation] 这就是"主机权威"模式。本地执行只在当前玩家电脑上运行，而网络执行会同步给所有玩家...
+2026-05-08 19:26:42,654 [INFO]   [incomplete_section] 高级同步技术 - 确定性系统的设计原则...
+2026-05-08 19:26:42,654 [INFO]   [missing_citation] 触发器在每一台玩家的电脑上分别执行...
+2026-05-08 19:26:42,654 [INFO] ✅ 质量通过 (loop 0): score=0.83
+2026-05-08 19:26:42,655 [INFO] 📄 文章写入: docs/advanced/多人游戏同步机制.md
+2026-05-08 19:26:42,656 [INFO] ✅ topics.json 已更新: multiplayer-sync → completed
+2026-05-08 19:26:55,249 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:26:55,250 [INFO] ✅ 通过 ReviewerAgent: overall=0.81 (A=0.85 C=0.75 R=0.90 Cit=0.75)
+2026-05-08 19:26:55,250 [INFO]   反馈 5 条:
+2026-05-08 19:26:55,250 [INFO]   [missing_citation] Warcraft III地图有 8MB 的大小限制（不含 MPQ 外部封装的特殊模式）...
+2026-05-08 19:26:55,250 [INFO]   [factual_error] .w3x 是进攻地图（可自定义的地图），.w3m 是防守/剧情地图（通常有固定剧情）...
+2026-05-08 19:26:55,250 [INFO]   [missing_citation] MPQ是MoPaQ的缩写，最早是暴雪娱乐为《星际争霸》开发的存档格式...
+2026-05-08 19:26:55,250 [INFO]   [incomplete_section] 导入模型与动画 section ends abruptly...
+2026-05-08 19:26:55,250 [INFO]   [missing_citation] 地图作者可以用它来减小文件大小，或者保护触发器代码不被轻易看到...
+2026-05-08 19:26:55,251 [INFO] ✅ 质量通过 (loop 0): score=0.81
+2026-05-08 19:26:55,251 [INFO] 📄 文章写入: docs/tools/mpq-文件工具与资源导入.md
+2026-05-08 19:26:55,253 [INFO] ✅ topics.json 已更新: mpq-tools → completed
+2026-05-08 19:27:00,599 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:27:00,600 [WARNING] 来源不足（2/3），扩大搜索...
+2026-05-08 19:27:00,856 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 19:27:00,865 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%AD%98%E6%A1%A3%E4%B8%8E%E8%AF%BB%E6%A1%A3%E7%B3%BB%E7%BB%9F%E5%AE%9E%E7%8E%B0%20tutorial%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%AD%98%E6%A1%A3%E4%B8%8E%E8%AF%BB%E6%A1%A3%E7%B3%BB%E7%BB%9F%E5%AE%9E%E7%8E%B0%20tutorial%20guide')")
+2026-05-08 19:27:00,988 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 19:27:01,021 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E5%AD%98%E6%A1%A3%E4%B8%8E%E8%AF%BB%E6%A1%A3%E7%B3%BB%E7%BB%9F%E5%AE%9E%E7%8E%B0+tutorial+guide&limit=1 200
+2026-05-08 19:27:01,068 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E5%AD%98%E6%A1%A3%E4%B8%8E%E8%AF%BB%E6%A1%A3%E7%B3%BB%E7%BB%9F%E5%AE%9E%E7%8E%B0+tutorial+guide&source=web 429
+2026-05-08 19:27:02,080 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E5%AD%98%E6%A1%A3%E4%B8%8E%E8%AF%BB%E6%A1%A3%E7%B3%BB%E7%BB%9F%E5%AE%9E%E7%8E%B0+tutorial+guide&web=1&searchid=8943187 200
+2026-05-08 19:27:02,110 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 存档与读档系统实现 tutorial guide
+2026-05-08 19:27:02,110 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-08 19:27:02,111 [INFO] ✍️  WriterAgent 开始: 存档与读档系统实现 (loop 0)
+2026-05-08 19:27:02,112 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:27:18,376 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:27:18,378 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:27:36,954 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:27:36,956 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:28:00,502 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:28:00,505 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:28:16,189 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:28:16,191 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:28:36,354 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:28:36,356 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:29:03,087 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:29:03,088 [INFO] ✅ WriterAgent 完成: 6994 字符, 1/3 来源被引用
+2026-05-08 19:29:03,088 [INFO] 🔎 ReviewerAgent 开始: 存档与读档系统实现
+2026-05-08 19:29:03,089 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-08 19:29:31,436 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 19:29:31,437 [INFO] ✅ 通过 ReviewerAgent: overall=0.78 (A=0.80 C=0.90 R=0.92 Cit=0.25)
+2026-05-08 19:29:31,437 [INFO]   反馈 5 条:
+2026-05-08 19:29:31,437 [INFO]   [missing_citation] 哈希表是 Warcraft III 专门用来保存和读取数据的系统...
+2026-05-08 19:29:31,437 [INFO]   [missing_citation] 游戏缓存是 Warcraft III 专门用来保存和读取数据的系统...
+2026-05-08 19:29:31,437 [INFO]   [factual_error] 使用暴雪提供的'保存游戏'功能...
+2026-05-08 19:29:31,437 [INFO]   [incomplete_section] JASS/vJASS/Lua code examples...
+2026-05-08 19:29:31,438 [INFO]   [missing_citation] 常见的存档Bug与解决方案表格中的所有条目...
+2026-05-08 19:29:31,438 [INFO] ✅ 质量通过 (loop 0): score=0.78
+2026-05-08 19:29:31,438 [INFO] 📄 文章写入: docs/advanced/存档与读档系统实现.md
