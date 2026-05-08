@@ -53,7 +53,7 @@ class BaseAgent:
     PROMPT_DIR: Path | None = None
 
     def __init__(self, model: str | None = None):
-        self.model = model or os.getenv("AGENT_LLM_MODEL", "minimax/abab7-chat-preview")
+        self.model = model or os.getenv("AGENT_LLM_MODEL", "minimax/MiniMax-M2.7-highspeed")
         self._prompt_template: str | None = None
 
     # ------------------------------------------------------------------
