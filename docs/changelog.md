@@ -1,5 +1,22 @@
 # 更新日志
 
+## 2026-05-08 05:06 UTC
+
+本次更新 **10** 篇文章：
+
+- [触发器内存泄漏处理](docs/triggers/触发器内存泄漏处理.md)
+- [常用触发器模式与技巧](docs/triggers/常用触发器模式与技巧.md)
+- [JASS 脚本基础入门](docs/scripting/jass-脚本基础入门.md)
+- [JASS 常用函数参考](docs/scripting/jass-常用函数参考.md)
+- [vJASS 进阶编程](docs/scripting/vjass-进阶编程.md)
+- [Lua 脚本基础（重制版）](docs/scripting/lua-脚本基础重制版.md)
+- [Lua API 参考（重制版）](docs/scripting/lua-api-参考重制版.md)
+- [从 GUI 触发器迁移到 JASS](docs/scripting/从-gui-触发器迁移到-jass.md)
+- [单位编辑器详解](docs/object-editor/单位编辑器详解.md)
+- [技能编辑器与自定义技能](docs/object-editor/技能编辑器与自定义技能.md)
+
+
+
 ## 2026-05-07 19:53 UTC
 
 本次更新 **10** 篇文章：

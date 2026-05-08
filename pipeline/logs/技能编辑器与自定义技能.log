@@ -1,0 +1,186 @@
+2026-05-08 05:02:48,973 [INFO] 📐 PlannerAgent 开始: 技能编辑器与自定义技能
+2026-05-08 05:02:48,973 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:07,442 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:07,444 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:08,135 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:08,136 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-08 05:03:08,136 [INFO] 🔍 ResearcherAgent 开始: 技能编辑器与自定义技能 (21 查询)
+2026-05-08 05:03:08,137 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:08,516 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:08,518 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:10,663 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:10,664 [INFO] 🌐 双语查询: EN='Warcraft 3 技能编辑器完整教程' | ZH='Warcraft 3 技能编辑器完整教程'
+2026-05-08 05:03:10,926 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:10,927 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:10,937 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B')")
+2026-05-08 05:03:10,961 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B')")
+2026-05-08 05:03:11,127 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-08 05:03:11,161 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 05:03:11,267 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-08 05:03:11,327 [INFO] response: https://search.yahoo.com/search;_ylt=LZBldxo4VkANLDXvn7k9y4ZG;_ylu=_2AdKhQbAtrtCWIrpEJ4Ui4lxAV6gHCd6DaMb5xxLSVZ0E8?p=Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B 200
+2026-05-08 05:03:11,977 [INFO] response: https://search.brave.com/search?q=Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&source=web 429
+2026-05-08 05:03:12,245 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&web=1&searchid=9971021 200
+2026-05-08 05:03:12,280 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 技能编辑器完整教程
+2026-05-08 05:03:12,881 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&web=1&searchid=5221676 200
+2026-05-08 05:03:12,923 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 技能编辑器完整教程
+2026-05-08 05:03:12,925 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:15,584 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:15,585 [INFO] 🌐 双语查询: EN='Warcraft III Object Editor Ability System Detailed Explanation' | ZH='WC3 Object Editor 技能系统详解'
+2026-05-08 05:03:15,881 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:15,898 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:15,917 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Object%20Editor%20Ability%20System%20Detailed%20Explanation)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Object%20Editor%20Ability%20System%20Detailed%20Explanation')")
+2026-05-08 05:03:15,918 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20Object%20Editor%20%E6%8A%80%E8%83%BD%E7%B3%BB%E7%BB%9F%E8%AF%A6%E8%A7%A3)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20Object%20Editor%20%E6%8A%80%E8%83%BD%E7%B3%BB%E7%BB%9F%E8%AF%A6%E8%A7%A3')")
+2026-05-08 05:03:15,995 [INFO] response: https://search.brave.com/search?q=WC3+Object+Editor+%E6%8A%80%E8%83%BD%E7%B3%BB%E7%BB%9F%E8%AF%A6%E8%A7%A3&source=web 429
+2026-05-08 05:03:15,999 [INFO] response: https://search.brave.com/search?q=Warcraft+III+Object+Editor+Ability+System+Detailed+Explanation&source=web 429
+2026-05-08 05:03:16,103 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+Object+Editor+%E6%8A%80%E8%83%BD%E7%B3%BB%E7%BB%9F%E8%AF%A6%E8%A7%A3&limit=1 200
+2026-05-08 05:03:16,225 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Object+Editor+Ability+System+Detailed+Explanation&limit=1 200
+2026-05-08 05:03:16,441 [INFO] response: https://search.yahoo.com/search;_ylt=TVIpn23ogEv3XNar4B-F6UkJ;_ylu=R0UC2kwcwMMX3Mvbdt1WqSAzmAJ_KU-lsX5Nx4xsB5PPwEk?p=Warcraft+III+Object+Editor+Ability+System+Detailed+Explanation 200
+2026-05-08 05:03:17,013 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Object Editor Ability Syste
+2026-05-08 05:03:17,092 [INFO] response: https://yandex.com/search/site/?text=WC3+Object+Editor+%E6%8A%80%E8%83%BD%E7%B3%BB%E7%BB%9F%E8%AF%A6%E8%A7%A3&web=1&searchid=3056206 200
+2026-05-08 05:03:17,151 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 Object Editor 技能系统详解
+2026-05-08 05:03:17,152 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:19,435 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:19,436 [INFO] 🌐 双语查询: EN='World Editor 技能制作新手入门' | ZH='World Editor 技能制作新手入门'
+2026-05-08 05:03:19,663 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:19,672 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8')")
+2026-05-08 05:03:19,689 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:19,698 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8')")
+2026-05-08 05:03:19,812 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-08 05:03:19,891 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 05:03:19,920 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-08 05:03:20,084 [INFO] response: https://search.yahoo.com/search;_ylt=0MvUJ2I8LT_UUmu1-7t9PGG5;_ylu=-JhkEExMlfbxJQGII75-AQCaZVnxoMleZSwP-JIt4hsxmjc?p=World+Editor+%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8 200
+2026-05-08 05:03:20,134 [INFO] response: https://www.mojeek.com/search?q=World+Editor+%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8 403
+2026-05-08 05:03:20,637 [INFO] response: https://search.brave.com/search?q=World+Editor+%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8&source=web 429
+2026-05-08 05:03:21,053 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8&web=1&searchid=8118113 200
+2026-05-08 05:03:21,097 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 技能制作新手入门
+2026-05-08 05:03:21,272 [INFO] response: https://www.mojeek.com/search?q=World+Editor+%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8 403
+2026-05-08 05:03:22,219 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E6%8A%80%E8%83%BD%E5%88%B6%E4%BD%9C%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8&web=1&searchid=7611596 200
+2026-05-08 05:03:22,249 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 技能制作新手入门
+2026-05-08 05:03:22,250 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:24,920 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:24,921 [INFO] 🌐 双语查询: EN='如何打开 Warcraft 3 技能编辑器' | ZH='如何打开 Warcraft 3 技能编辑器'
+2026-05-08 05:03:24,958 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:24,960 [INFO] ✅ WriterAgent 完成: 6657 字符, 5/6 来源被引用
+2026-05-08 05:03:24,960 [INFO] 🔎 ReviewerAgent 开始: 从 GUI 触发器迁移到 JASS
+2026-05-08 05:03:24,961 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:25,164 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:25,171 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%20Warcraft%203%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%20Warcraft%203%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8')")
+2026-05-08 05:03:25,173 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:25,187 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%20Warcraft%203%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%20Warcraft%203%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8')")
+2026-05-08 05:03:25,284 [INFO] response: https://search.brave.com/search?q=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80+Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8&source=web 429
+2026-05-08 05:03:25,350 [INFO] response: https://search.yahoo.com/search;_ylt=Y1blToR2qWJcLpsg1EEUcu8n;_ylu=KC0KLSNdg0zWxIDu55r8brePLb68JjkndncMO9pkQRq-7mk?p=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80+Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8 200
+2026-05-08 05:03:25,504 [INFO] response: https://grokipedia.com/api/typeahead?query=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80+Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8&limit=1 200
+2026-05-08 05:03:25,626 [INFO] response: https://grokipedia.com/api/typeahead?query=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80+Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8&limit=1 200
+2026-05-08 05:03:25,802 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 05:03:25,848 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 如何打开 Warcraft 3 技能编辑器
+2026-05-08 05:03:26,411 [INFO] response: https://www.mojeek.com/search?q=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80+Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8 403
+2026-05-08 05:03:26,575 [INFO] response: https://search.yahoo.com/search;_ylt=-fyc6wiBAJsDPsl2XygdAbYJ;_ylu=hjGtqPTWX_3JHO-Q2DfYcji4NEyl7-Tiqa0oHGKf9hJrVyQ?p=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80+Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8 200
+2026-05-08 05:03:28,102 [INFO] response: https://yandex.com/search/site/?text=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80+Warcraft+3+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8&web=1&searchid=2460553 200
+2026-05-08 05:03:28,147 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 如何打开 Warcraft 3 技能编辑器
+2026-05-08 05:03:28,148 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:31,114 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:31,114 [INFO] 🌐 双语查询: EN='World Editor 技能编辑器界面介绍' | ZH='World Editor 技能编辑器界面介绍'
+2026-05-08 05:03:31,357 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:31,372 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D')")
+2026-05-08 05:03:31,379 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:31,390 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D')")
+2026-05-08 05:03:31,476 [INFO] response: https://search.brave.com/search?q=World+Editor+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D&source=web 429
+2026-05-08 05:03:31,683 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-08 05:03:31,811 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-08 05:03:32,393 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D&web=1&searchid=3979166 200
+2026-05-08 05:03:32,438 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 技能编辑器界面介绍
+2026-05-08 05:03:32,842 [INFO] response: https://yandex.com/search/site/?text=World+Editor+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D&web=1&searchid=4296300 200
+2026-05-08 05:03:32,887 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 技能编辑器界面介绍
+2026-05-08 05:03:32,888 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:34,973 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:34,974 [INFO] ✅ WriterAgent 完成: 7203 字符, 4/5 来源被引用
+2026-05-08 05:03:34,974 [INFO] 🔎 ReviewerAgent 开始: 单位编辑器详解
+2026-05-08 05:03:34,975 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:35,137 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:35,138 [INFO] 🌐 双语查询: EN='Warcraft 3 Object Editor 基础教程' | ZH='Warcraft 3 Object Editor 基础教程'
+2026-05-08 05:03:35,417 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:35,418 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:35,429 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Object%20Editor%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Object%20Editor%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-05-08 05:03:35,436 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Object%20Editor%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Object%20Editor%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B')")
+2026-05-08 05:03:35,597 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 05:03:35,632 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Object+Editor+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-08 05:03:35,724 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Object+Editor+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-08 05:03:35,805 [INFO] response: https://search.brave.com/search?q=Warcraft+3+Object+Editor+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&source=web 429
+2026-05-08 05:03:36,419 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+Object+Editor+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&web=1&searchid=1031803 200
+2026-05-08 05:03:36,465 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Object Editor 基础教程
+2026-05-08 05:03:36,871 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+Object+Editor+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&web=1&searchid=1924047 200
+2026-05-08 05:03:36,914 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Object Editor 基础教程
+2026-05-08 05:03:36,914 [INFO]   搜索阶段：收集到 36 条候选结果
+2026-05-08 05:03:37,104 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=48088 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=48088'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 05:03:37,221 [WARNING] ⚠️  抓取失败，已忽略: https://www.lifewire.com/turn-on-keyboard-light-on-hp-laptop-5182444 — Client error '402 Payment Required' for url 'https://www.lifewire.com/turn-on-keyboard-light-on-hp-laptop-5182444'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402
+2026-05-08 05:03:37,241 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/627356428 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/627356428'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 05:03:38,909 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:43,648 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:43,649 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 32 (char 214)
+2026-05-08 05:03:43,649 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-08 05:03:43,649 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-08 05:03:43,649 [INFO] 📄 文章写入: docs/scripting/从-gui-触发器迁移到-jass.md
+2026-05-08 05:03:43,651 [INFO] ✅ topics.json 已更新: gui-to-jass → completed
+2026-05-08 05:03:54,826 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:54,827 [WARNING] 来源不足（2/3），扩大搜索...
+2026-05-08 05:03:55,100 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 05:03:55,108 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%8E%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8A%80%E8%83%BD%20tutorial%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%8E%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8A%80%E8%83%BD%20tutorial%20guide')")
+2026-05-08 05:03:55,411 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%8E%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8A%80%E8%83%BD+tutorial+guide&limit=1 200
+2026-05-08 05:03:55,761 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%8E%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8A%80%E8%83%BD+tutorial+guide 403
+2026-05-08 05:03:56,747 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E6%8A%80%E8%83%BD%E7%BC%96%E8%BE%91%E5%99%A8%E4%B8%8E%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8A%80%E8%83%BD+tutorial+guide&web=1&searchid=7589152 200
+2026-05-08 05:03:56,780 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 技能编辑器与自定义技能 tutorial guide
+2026-05-08 05:03:56,780 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-08 05:03:56,780 [INFO] ✍️  WriterAgent 开始: 技能编辑器与自定义技能 (loop 0)
+2026-05-08 05:03:56,781 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:03:58,281 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:03:58,282 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 48 (char 227)
+2026-05-08 05:03:58,282 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-08 05:03:58,282 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-08 05:03:58,283 [INFO] 📄 文章写入: docs/object-editor/单位编辑器详解.md
+2026-05-08 05:03:58,284 [INFO] ✅ topics.json 已更新: unit-editor → completed
+2026-05-08 05:04:13,581 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:04:13,582 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:04:35,570 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:04:35,571 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:04:55,374 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:04:55,376 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:05:14,762 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:05:14,764 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:05:34,447 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:05:34,448 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:05:58,223 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:05:58,224 [INFO] ✅ WriterAgent 完成: 7636 字符, 2/3 来源被引用
+2026-05-08 05:05:58,224 [INFO] 🔎 ReviewerAgent 开始: 技能编辑器与自定义技能
+2026-05-08 05:05:58,225 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 05:06:20,587 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 05:06:20,588 [INFO] ✅ 通过 ReviewerAgent: overall=0.78 (A=0.82 C=0.85 R=0.92 Cit=0.45)
+2026-05-08 05:06:20,588 [INFO]   反馈 5 条:
+2026-05-08 05:06:20,588 [INFO]   [missing_citation] 每个技能的强大程度主要由三个核心数值决定：伤害值、冷却时间和魔法消耗。这三者之间的关系就像三角形的三个顶点，相互影响、相...
+2026-05-08 05:06:20,588 [INFO]   [missing_citation] 对象编辑器中的技能功能有限，如果想实现更复杂的逻辑（比如技能命中后附带减速效果、或者根据目标血量造成额外伤害），就需要借...
+2026-05-08 05:06:20,588 [INFO]   [missing_citation] 从零开始创建技能需要设置几十个参数，很容易出错。复制一个已有的类似技能再修改，可以大大降低出错概率，同时保留原技能的正确...
+2026-05-08 05:06:20,589 [INFO]   [factual_error] 参考来源列表中包含 Source 3 (bentleysystems.service-now.com) 是一个完全无关的...
+2026-05-08 05:06:20,589 [INFO]   [incomplete_section] 技能平衡部分缺少具体数值示例，如'基准技能'的具体建议数值区间...
+2026-05-08 05:06:20,589 [INFO] ✅ 质量通过 (loop 0): score=0.78
+2026-05-08 05:06:20,589 [INFO] 📄 文章写入: docs/object-editor/技能编辑器与自定义技能.md

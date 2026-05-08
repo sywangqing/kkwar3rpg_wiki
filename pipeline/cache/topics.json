@@ -788,12 +788,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 内存泄漏 leak 清理 最佳实践",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746083+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-08T04:55:16.697522+00:00",
+    "article_path": "docs/triggers/触发器内存泄漏处理.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-common-patterns",
@@ -802,12 +803,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 常用模式 计时器 循环 技巧",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746089+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-08T04:56:05.821498+00:00",
+    "article_path": "docs/triggers/常用触发器模式与技巧.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "jass-basics",
@@ -816,12 +818,13 @@
     "category_name": "脚本编程",
     "search_query": "War3 JASS 脚本 基础教程 语法入门",
     "output_dir": "docs/scripting",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746098+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-08T04:55:56.819973+00:00",
+    "article_path": "docs/scripting/jass-脚本基础入门.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "jass-functions",
@@ -830,12 +833,13 @@
     "category_name": "脚本编程",
     "search_query": "War3 JASS 函数 API 参考手册 常用",
     "output_dir": "docs/scripting",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746103+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-08T04:59:11.466681+00:00",
+    "article_path": "docs/scripting/jass-常用函数参考.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "vjass-intro",
@@ -844,12 +848,13 @@
     "category_name": "脚本编程",
     "search_query": "War3 vJASS JNGP 进阶编程 结构体 库",
     "output_dir": "docs/scripting",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746109+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-08T05:00:05.976238+00:00",
+    "article_path": "docs/scripting/vjass-进阶编程.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "lua-basics",
@@ -858,12 +863,13 @@
     "category_name": "脚本编程",
     "search_query": "War3 重制版 Lua 脚本 教程 基础",
     "output_dir": "docs/scripting",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746115+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-08T04:59:59.174185+00:00",
+    "article_path": "docs/scripting/lua-脚本基础重制版.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "lua-api",
@@ -872,12 +878,13 @@
     "category_name": "脚本编程",
     "search_query": "War3 Reforged Lua API 函数 参考",
     "output_dir": "docs/scripting",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746120+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-08T05:02:48.971821+00:00",
+    "article_path": "docs/scripting/lua-api-参考重制版.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "gui-to-jass",
@@ -886,12 +893,13 @@
     "category_name": "脚本编程",
     "search_query": "War3 GUI 转换 JASS 代码 迁移教程",
     "output_dir": "docs/scripting",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746125+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-08T05:03:43.650410+00:00",
+    "article_path": "docs/scripting/从-gui-触发器迁移到-jass.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "unit-editor",
@@ -900,12 +908,13 @@
     "category_name": "对象编辑器",
     "search_query": "War3 单位编辑器 Unit Editor 属性 自定义单位",
     "output_dir": "docs/object-editor",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746131+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-08T05:03:58.283634+00:00",
+    "article_path": "docs/object-editor/单位编辑器详解.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "ability-editor",
@@ -914,12 +923,13 @@
     "category_name": "对象编辑器",
     "search_query": "War3 技能编辑器 Ability Editor 自定义技能",
     "output_dir": "docs/object-editor",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-04-15T11:00:33.746137+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-08T05:06:20.590182+00:00",
+    "article_path": "docs/object-editor/技能编辑器与自定义技能.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "item-editor",

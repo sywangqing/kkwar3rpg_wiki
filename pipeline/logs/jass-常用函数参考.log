@@ -1,0 +1,450 @@
+2026-05-08 04:55:16,698 [INFO] 📐 PlannerAgent 开始: JASS 常用函数参考
+2026-05-08 04:55:16,699 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:55:29,844 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:55:29,846 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:55:31,722 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:55:31,723 [INFO] ✅ WriterAgent 完成: 9657 字符, 7/7 来源被引用
+2026-05-08 04:55:31,723 [INFO] 🔎 ReviewerAgent 开始: JASS 脚本基础入门
+2026-05-08 04:55:31,724 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:55:36,734 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:55:36,736 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-08 04:55:36,736 [INFO] 🔍 ResearcherAgent 开始: JASS 常用函数参考 (21 查询)
+2026-05-08 04:55:36,737 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:55:38,816 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:55:38,817 [INFO] 🌐 双语查询: EN='Warcraft 3 JASS functions reference complete list' | ZH='Warcraft 3 JASS functions reference complete list'
+2026-05-08 04:55:39,197 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:55:39,208 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20functions%20reference%20complete%20list)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20functions%20reference%20complete%20list')")
+2026-05-08 04:55:39,216 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:55:39,239 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20functions%20reference%20complete%20list)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20functions%20reference%20complete%20list')")
+2026-05-08 04:55:39,475 [INFO] response: https://search.yahoo.com/search;_ylt=aMJsUgrpR4_XhqBArMAa0TDc;_ylu=MvWwv5O3BbmgyHPKRUgnxHbevpErdLhK7jaScwsTX8sBr0M?p=Warcraft+3+JASS+functions+reference+complete+list 200
+2026-05-08 04:55:39,518 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+functions+reference+complete+list&limit=1 200
+2026-05-08 04:55:39,634 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+functions+reference+complete+list&limit=1 200
+2026-05-08 04:55:39,683 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+JASS+functions+reference+complete+list 403
+2026-05-08 04:55:39,867 [INFO] response: https://search.yahoo.com/search;_ylt=JF92dn_y-xTimR72wglJKueN;_ylu=DPIPRBMUsJZck1YCKqckC0X6O4-Ejxw6KVypLT0j5uaCgjk?p=Warcraft+3+JASS+functions+reference+complete+list 200
+2026-05-08 04:55:40,045 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 JASS functions reference comp
+2026-05-08 04:55:40,637 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:55:41,278 [INFO] response: https://search.brave.com/search?q=Warcraft+3+JASS+functions+reference+complete+list&source=web 200
+2026-05-08 04:55:41,292 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 JASS functions reference comp
+2026-05-08 04:55:41,293 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:55:44,099 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:55:44,100 [INFO] 🌐 双语查询: EN='JASS 常用函数速查表 War3地图编辑' | ZH='JASS 常用函数速查表 War3地图编辑'
+2026-05-08 04:55:44,342 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:55:44,354 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E9%80%9F%E6%9F%A5%E8%A1%A8%20War3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E9%80%9F%E6%9F%A5%E8%A1%A8%20War3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91')")
+2026-05-08 04:55:44,356 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:55:44,363 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E9%80%9F%E6%9F%A5%E8%A1%A8%20War3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E9%80%9F%E6%9F%A5%E8%A1%A8%20War3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91')")
+2026-05-08 04:55:44,534 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:55:44,565 [INFO] response: https://search.yahoo.com/search;_ylt=Ahvu7nfTSkSi6qkVU_dvJqg-;_ylu=9rOs4hCCanTMQdqLdymlFUHWsB9FVLOcM3UO_U7qyuOFXTE?p=JASS+%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E9%80%9F%E6%9F%A5%E8%A1%A8+War3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91 200
+2026-05-08 04:55:44,574 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E9%80%9F%E6%9F%A5%E8%A1%A8+War3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91&limit=1 200
+2026-05-08 04:55:44,671 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E9%80%9F%E6%9F%A5%E8%A1%A8+War3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91&limit=1 200
+2026-05-08 04:55:45,136 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 常用函数速查表 War3地图编辑
+2026-05-08 04:55:45,733 [INFO] response: https://yandex.com/search/site/?text=JASS+%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E9%80%9F%E6%9F%A5%E8%A1%A8+War3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91&web=1&searchid=3724783 200
+2026-05-08 04:55:45,778 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 常用函数速查表 War3地图编辑
+2026-05-08 04:55:45,779 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:55:46,139 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:55:46,142 [INFO] ✅ WriterAgent 完成: 8846 字符, 4/4 来源被引用
+2026-05-08 04:55:46,143 [INFO] 🔎 ReviewerAgent 开始: 常用触发器模式与技巧
+2026-05-08 04:55:46,145 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:55:48,402 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:55:48,403 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor scripting tutorial for beginners' | ZH='Warcraft 3 World Editor scripting tutorial for beginners'
+2026-05-08 04:55:48,634 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:55:48,637 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:55:48,645 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20tutorial%20for%20beginners)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20tutorial%20for%20beginners')")
+2026-05-08 04:55:48,649 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20tutorial%20for%20beginners)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20tutorial%20for%20beginners')")
+2026-05-08 04:55:48,725 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+scripting+tutorial+for+beginners&source=web 429
+2026-05-08 04:55:48,930 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+scripting+tutorial+for+beginners&limit=1 200
+2026-05-08 04:55:49,081 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:55:49,195 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+scripting+tutorial+for+beginners&limit=1 200
+2026-05-08 04:55:49,577 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+scripting+tutorial+for+beginners 403
+2026-05-08 04:55:49,671 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+scripting+tutorial+for+beginners&web=1&searchid=1644874 200
+2026-05-08 04:55:49,730 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor scripting tutori
+2026-05-08 04:55:49,778 [INFO] response: https://search.yahoo.com/search;_ylt=4xNMemCm0PrQSxo4aQiFYwwR;_ylu=yy_sEd0MKAGXmxDbvVMlQ-E9jSBl7v5n-cPjAA5tZuXDFsE?p=Warcraft+3+World+Editor+scripting+tutorial+for+beginners 200
+2026-05-08 04:55:50,359 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor scripting tutori
+2026-05-08 04:55:50,360 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:55:52,720 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:55:52,721 [INFO] 🌐 双语查询: EN='JASS scripting language Warcraft 3 basics tutorial' | ZH='JASS scripting language Warcraft 3 basics tutorial'
+2026-05-08 04:55:52,982 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:55:52,991 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20language%20Warcraft%203%20basics%20tutorial)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20language%20Warcraft%203%20basics%20tutorial')")
+2026-05-08 04:55:53,009 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:55:53,019 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20language%20Warcraft%203%20basics%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20language%20Warcraft%203%20basics%20tutorial')")
+2026-05-08 04:55:53,283 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+scripting+language+Warcraft+3+basics+tutorial&limit=1 200
+2026-05-08 04:55:53,431 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+scripting+language+Warcraft+3+basics+tutorial&limit=1 200
+2026-05-08 04:55:53,467 [INFO] response: https://www.mojeek.com/search?q=JASS+scripting+language+Warcraft+3+basics+tutorial 403
+2026-05-08 04:55:53,643 [INFO] response: https://search.yahoo.com/search;_ylt=NLNqylJHdK6gY8nZNv_fd8R6;_ylu=bVtcoyKfTO9KRTFLL0_iOUVGAdSod0L30r1evPeBfJaK8-8?p=JASS+scripting+language+Warcraft+3+basics+tutorial 200
+2026-05-08 04:55:53,964 [INFO] response: https://yandex.com/search/site/?text=JASS+scripting+language+Warcraft+3+basics+tutorial&web=1&searchid=3489836 200
+2026-05-08 04:55:53,994 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS scripting language Warcraft 3 basic
+2026-05-08 04:55:55,309 [INFO] response: https://yandex.com/search/site/?text=JASS+scripting+language+Warcraft+3+basics+tutorial&web=1&searchid=2360991 200
+2026-05-08 04:55:55,355 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS scripting language Warcraft 3 basic
+2026-05-08 04:55:55,356 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:55:56,817 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:55:56,818 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-08 04:55:56,818 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-08 04:55:56,818 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-08 04:55:56,819 [INFO] 📄 文章写入: docs/scripting/jass-脚本基础入门.md
+2026-05-08 04:55:56,820 [INFO] ✅ topics.json 已更新: jass-basics → completed
+2026-05-08 04:55:56,821 [INFO] 📐 PlannerAgent 开始: vJASS 进阶编程
+2026-05-08 04:55:56,822 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:55:57,623 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:55:57,624 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor JASS 入门教程' | ZH='Warcraft 3 World Editor JASS 入门教程'
+2026-05-08 04:55:57,873 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:55:57,879 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20JASS%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20JASS%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-05-08 04:55:57,882 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:55:57,893 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20JASS%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20JASS%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-05-08 04:55:57,960 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+JASS+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&source=web 429
+2026-05-08 04:55:58,080 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:55:58,089 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+JASS+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-08 04:55:58,179 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+JASS+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-08 04:55:58,399 [INFO] response: https://search.yahoo.com/search;_ylt=Glb4SwuFcuyfL_G-2ZGGq6zQ;_ylu=QOPGl0Ao56kfzu2g9v_CkBZp1wzmAMu5CyFnkpiIkECw6RQ?p=Warcraft+3+World+Editor+JASS+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 200
+2026-05-08 04:55:58,999 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor JASS 入门教程
+2026-05-08 04:55:59,060 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+JASS+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&web=1&searchid=1626251 200
+2026-05-08 04:55:59,104 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor JASS 入门教程
+2026-05-08 04:55:59,104 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:00,614 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:00,615 [INFO] 🌐 双语查询: EN='What is JASS scripting language' | ZH='JASS 脚本语言是什么'
+2026-05-08 04:56:00,847 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:00,867 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20JASS%20scripting%20language)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20JASS%20scripting%20language')")
+2026-05-08 04:56:00,870 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:00,879 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%E6%98%AF%E4%BB%80%E4%B9%88)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%E6%98%AF%E4%BB%80%E4%B9%88')")
+2026-05-08 04:56:00,946 [INFO] response: https://search.brave.com/search?q=What+is+JASS+scripting+language&source=web 429
+2026-05-08 04:56:00,960 [INFO] response: https://search.brave.com/search?q=JASS+%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%E6%98%AF%E4%BB%80%E4%B9%88&source=web 429
+2026-05-08 04:56:01,003 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%E6%98%AF%E4%BB%80%E4%B9%88&limit=1 200
+2026-05-08 04:56:01,028 [INFO] response: https://grokipedia.com/api/typeahead?query=What+is+JASS+scripting+language&limit=1 200
+2026-05-08 04:56:01,510 [INFO] response: https://www.mojeek.com/search?q=What+is+JASS+scripting+language 403
+2026-05-08 04:56:01,512 [INFO] response: https://www.mojeek.com/search?q=JASS+%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%E6%98%AF%E4%BB%80%E4%B9%88 403
+2026-05-08 04:56:01,656 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:01,716 [INFO] response: https://search.yahoo.com/search;_ylt=TbxhePAeaYufyrF3og6zs7J8;_ylu=q1DXYaHYyjsgBHAur6yYI-_2e0Be4WTKht6aFugGH4-vrK8?p=JASS+%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80%E6%98%AF%E4%BB%80%E4%B9%88 200
+2026-05-08 04:56:01,871 [INFO] response: https://search.yahoo.com/search;_ylt=LnJ66i6Ki2uG0TbJYWv_ukLc;_ylu=HNiZ6gUPvZQMzmHQ4ZwazT68my8o6l5Jd9t4sHtiwp7rato?p=What+is+JASS+scripting+language 200
+2026-05-08 04:56:02,177 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 脚本语言是什么
+2026-05-08 04:56:02,395 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | What is JASS scripting language
+2026-05-08 04:56:02,395 [INFO]   搜索阶段：收集到 37 条候选结果
+2026-05-08 04:56:02,563 [WARNING] ⚠️  抓取失败，已忽略: https://jass.fandom.com/wiki/Functions — Client error '403 Forbidden' for url 'https://jass.fandom.com/wiki/Functions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 04:56:02,627 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/ — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 04:56:04,369 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/weixin_35294091/article/details/143285051 — Server error '521 ' for url 'https://blog.csdn.net/weixin_35294091/article/details/143285051'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-08 04:56:04,492 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/weixin_32251525/article/details/143220228 — Server error '521 ' for url 'https://blog.csdn.net/weixin_32251525/article/details/143220228'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-08 04:56:04,493 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:05,819 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:05,820 [INFO] ✅ 通过 ReviewerAgent: overall=0.81 (A=0.85 C=0.75 R=0.90 Cit=0.70)
+2026-05-08 04:56:05,820 [INFO]   反馈 5 条:
+2026-05-08 04:56:05,820 [INFO]   [incomplete_section] 变量使用技巧章节在「从下拉菜单中选择变量类型」后戛然而止，仅包含5个操作步骤中的2个，后续的全局/局部变量、数组变量等核...
+2026-05-08 04:56:05,820 [INFO]   [missing_citation] 「常用事件类型」表格中的所有事件类型（单位-任意单位死亡、玩家-玩家输入文字、时间-每X秒等）及其触发时机说明均无来源标...
+2026-05-08 04:56:05,820 [INFO]   [missing_citation] 「条件（Conditions）的逻辑判断」章节中「条件就像安检门——只有通过检查的事件才会执行后续动作」的比喻及其详细解...
+2026-05-08 04:56:05,820 [INFO]   [missing_citation] 「动作（Actions）常用函数」表格中的所有动作分类及具体函数（显示任务提示、创建单位到位置、设置变量、开启/关闭触发...
+2026-05-08 04:56:05,820 [INFO]   [incomplete_section] 「小结」章节在「能让游戏」处被截断，ECA 模式的总结未完成；完整示例「击杀敌人获得金币」部分也缺少动作的完整代码展示...
+2026-05-08 04:56:05,820 [INFO] ✅ 质量通过 (loop 0): score=0.81
+2026-05-08 04:56:05,820 [INFO] 📄 文章写入: docs/triggers/常用触发器模式与技巧.md
+2026-05-08 04:56:05,822 [INFO] ✅ topics.json 已更新: trigger-common-patterns → completed
+2026-05-08 04:56:05,822 [INFO] 📐 PlannerAgent 开始: Lua 脚本基础（重制版）
+2026-05-08 04:56:05,823 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:14,280 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:14,281 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-08 04:56:14,282 [INFO] 🔍 ResearcherAgent 开始: vJASS 进阶编程 (21 查询)
+2026-05-08 04:56:14,282 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:16,403 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:16,404 [INFO] 🌐 双语查询: EN='vJASS advanced programming tutorial' | ZH='vJASS advanced programming tutorial'
+2026-05-08 04:56:16,654 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:16,665 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20programming%20tutorial)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20programming%20tutorial')")
+2026-05-08 04:56:16,705 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:16,716 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20programming%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20programming%20tutorial')")
+2026-05-08 04:56:16,818 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+advanced+programming+tutorial&limit=1 200
+2026-05-08 04:56:16,887 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:16,931 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+advanced+programming+tutorial&limit=1 200
+2026-05-08 04:56:17,611 [INFO] response: https://yandex.com/search/site/?text=vJASS+advanced+programming+tutorial&web=1&searchid=8170355 200
+2026-05-08 04:56:17,648 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS advanced programming tutorial
+2026-05-08 04:56:17,739 [INFO] response: https://yandex.com/search/site/?text=vJASS+advanced+programming+tutorial&web=1&searchid=5285553 200
+2026-05-08 04:56:17,773 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS advanced programming tutorial
+2026-05-08 04:56:17,774 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:21,016 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:21,017 [INFO] 🌐 双语查询: EN='vJASS 进阶 教程 魔兽争霸3' | ZH='vJASS 进阶 教程 魔兽争霸3'
+2026-05-08 04:56:21,276 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:21,288 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E8%BF%9B%E9%98%B6%20%E6%95%99%E7%A8%8B%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E8%BF%9B%E9%98%B6%20%E6%95%99%E7%A8%8B%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83')")
+2026-05-08 04:56:21,303 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:21,312 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E8%BF%9B%E9%98%B6%20%E6%95%99%E7%A8%8B%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E8%BF%9B%E9%98%B6%20%E6%95%99%E7%A8%8B%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83')")
+2026-05-08 04:56:21,460 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:21,501 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+%E8%BF%9B%E9%98%B6+%E6%95%99%E7%A8%8B+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&limit=1 200
+2026-05-08 04:56:21,636 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+%E8%BF%9B%E9%98%B6+%E6%95%99%E7%A8%8B+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&limit=1 200
+2026-05-08 04:56:21,664 [INFO] response: https://search.yahoo.com/search;_ylt=g_oHatLLzBVqC9LrauRpaOyv;_ylu=71l7JtLgLa2cMZXx0oJUqSCDYR3wtEhU01OtmDCXIHKHC-I?p=vJASS+%E8%BF%9B%E9%98%B6+%E6%95%99%E7%A8%8B+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83 200
+2026-05-08 04:56:22,216 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS 进阶 教程 魔兽争霸3
+2026-05-08 04:56:22,262 [INFO] response: https://yandex.com/search/site/?text=vJASS+%E8%BF%9B%E9%98%B6+%E6%95%99%E7%A8%8B+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&web=1&searchid=2249837 200
+2026-05-08 04:56:22,309 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS 进阶 教程 魔兽争霸3
+2026-05-08 04:56:22,310 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:24,651 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:24,652 [INFO] 🌐 双语查询: EN='Warcraft 3 vJASS complete guide' | ZH='Warcraft 3 vJASS complete guide'
+2026-05-08 04:56:24,887 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:24,888 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-08 04:56:24,888 [INFO] 🔍 ResearcherAgent 开始: Lua 脚本基础（重制版） (21 查询)
+2026-05-08 04:56:24,889 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:24,899 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:24,907 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:24,915 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20vJASS%20complete%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20vJASS%20complete%20guide')")
+2026-05-08 04:56:24,918 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20vJASS%20complete%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20vJASS%20complete%20guide')")
+2026-05-08 04:56:24,996 [INFO] response: https://search.brave.com/search?q=Warcraft+3+vJASS+complete+guide&source=web 429
+2026-05-08 04:56:25,217 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+vJASS+complete+guide&limit=1 200
+2026-05-08 04:56:25,340 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+vJASS+complete+guide&limit=1 200
+2026-05-08 04:56:25,503 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:25,854 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+vJASS+complete+guide&web=1&searchid=4340287 200
+2026-05-08 04:56:25,895 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 vJASS complete guide
+2026-05-08 04:56:25,973 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+vJASS+complete+guide 403
+2026-05-08 04:56:26,187 [INFO] response: https://search.yahoo.com/search;_ylt=_zG9ZRnVyawdMTLyFCLEowp0;_ylu=vQwLH6sWXlFfone5n5hYYawqj5QuadP8vg8oOtkzIL2zwmA?p=Warcraft+3+vJASS+complete+guide 200
+2026-05-08 04:56:26,730 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 vJASS complete guide
+2026-05-08 04:56:26,731 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:27,596 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:27,597 [INFO] 🌐 双语查询: EN='Warcraft 3 Reforged Lua scripting tutorial beginner' | ZH='Warcraft 3 Reforged Lua scripting tutorial beginner'
+2026-05-08 04:56:27,841 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:27,850 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20Lua%20scripting%20tutorial%20beginner)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20Lua%20scripting%20tutorial%20beginner')")
+2026-05-08 04:56:27,857 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:27,865 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20Lua%20scripting%20tutorial%20beginner)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20Lua%20scripting%20tutorial%20beginner')")
+2026-05-08 04:56:27,929 [INFO] response: https://search.brave.com/search?q=Warcraft+3+Reforged+Lua+scripting+tutorial+beginner&source=web 429
+2026-05-08 04:56:27,948 [INFO] response: https://search.brave.com/search?q=Warcraft+3+Reforged+Lua+scripting+tutorial+beginner&source=web 429
+2026-05-08 04:56:28,156 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Reforged+Lua+scripting+tutorial+beginner&limit=1 200
+2026-05-08 04:56:28,275 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Reforged+Lua+scripting+tutorial+beginner&limit=1 200
+2026-05-08 04:56:28,313 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:28,452 [INFO] response: https://search.yahoo.com/search;_ylt=S-cvJq80fL2fXcZBBryktXVe;_ylu=uBB1gjQBiFdQzbhoJ8VWNMXwB7cTBdQGsBcPg4GOVQaD8uA?p=Warcraft+3+Reforged+Lua+scripting+tutorial+beginner 200
+2026-05-08 04:56:28,978 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Reforged Lua scripting tutori
+2026-05-08 04:56:29,001 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+Reforged+Lua+scripting+tutorial+beginner&web=1&searchid=2338209 200
+2026-05-08 04:56:29,459 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+Reforged+Lua+scripting+tutorial+beginner 403
+2026-05-08 04:56:29,611 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:29,612 [INFO] 🌐 双语查询: EN='vJASS advanced syntax tutorial WC3' | ZH='vJASS advanced syntax tutorial WC3'
+2026-05-08 04:56:29,661 [INFO] response: https://search.yahoo.com/search;_ylt=iuE6cx9Li0B68RZ6QkM8KCSV;_ylu=9NKDUKH0_kXtD-WCNXkxoBw8O3DMnrDcYAX7LV-VTlWHh0s?p=Warcraft+3+Reforged+Lua+scripting+tutorial+beginner 200
+2026-05-08 04:56:29,866 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:29,867 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:29,878 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20syntax%20tutorial%20WC3)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20syntax%20tutorial%20WC3')")
+2026-05-08 04:56:29,883 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20syntax%20tutorial%20WC3)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20syntax%20tutorial%20WC3')")
+2026-05-08 04:56:30,003 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Reforged Lua scripting tutori
+2026-05-08 04:56:30,004 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:30,053 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+advanced+syntax+tutorial+WC3&limit=1 200
+2026-05-08 04:56:30,089 [INFO] response: https://search.yahoo.com/search;_ylt=qyEtI5LMsB77abRPOUfmWO_o;_ylu=tA7Acniuz5tzNYrtd_mBy_MFWJvSSBvxepV-qSrAJDlQcsQ?p=vJASS+advanced+syntax+tutorial+WC3 200
+2026-05-08 04:56:30,192 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+advanced+syntax+tutorial+WC3&limit=1 200
+2026-05-08 04:56:30,370 [INFO] response: https://www.mojeek.com/search?q=vJASS+advanced+syntax+tutorial+WC3 403
+2026-05-08 04:56:30,448 [INFO] response: https://search.brave.com/search?q=vJASS+advanced+syntax+tutorial+WC3&source=web 429
+2026-05-08 04:56:30,617 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:30,637 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS advanced syntax tutorial WC3
+2026-05-08 04:56:30,837 [INFO] response: https://search.yahoo.com/search;_ylt=iTHEsSUS-uQkJ4WJn9Kf6KNF;_ylu=zUsF2PuV6LuwvXjka6IDPleoj_Ewv1QIl1Y-Z-Sa25BdeC4?p=vJASS+advanced+syntax+tutorial+WC3 200
+2026-05-08 04:56:31,196 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS advanced syntax tutorial WC3
+2026-05-08 04:56:31,197 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:32,520 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:32,521 [INFO] 🌐 双语查询: EN='WC3 World Editor Lua integration guide' | ZH='WC3 World Editor Lua integration guide'
+2026-05-08 04:56:32,777 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:32,778 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:32,788 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20Lua%20integration%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20Lua%20integration%20guide')")
+2026-05-08 04:56:32,795 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20Lua%20integration%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20Lua%20integration%20guide')")
+2026-05-08 04:56:32,991 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:33,003 [INFO] response: https://search.yahoo.com/search;_ylt=vsAKWVFRBIyXzotSXFLXtMbx;_ylu=WXaoSQ8ukK0tHZ6OYSu9cOfG4tqY1FkOJxepiVQWMofmMUE?p=WC3+World+Editor+Lua+integration+guide 200
+2026-05-08 04:56:33,116 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+Lua+integration+guide&limit=1 200
+2026-05-08 04:56:33,220 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:33,221 [INFO] 🌐 双语查询: EN='vJASS 高级语法 世界编辑器' | ZH='vJASS 高级语法 世界编辑器'
+2026-05-08 04:56:33,274 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+Lua+integration+guide&limit=1 200
+2026-05-08 04:56:33,355 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+Lua+integration+guide&source=web 429
+2026-05-08 04:56:33,463 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:33,471 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8')")
+2026-05-08 04:56:33,479 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:33,486 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8')")
+2026-05-08 04:56:33,537 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor Lua integration guide
+2026-05-08 04:56:33,606 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8&limit=1 200
+2026-05-08 04:56:33,647 [INFO] response: https://search.yahoo.com/search;_ylt=H8ExKUZZzRP-kg9BLnGPYkUx;_ylu=TN5Js7PsB5JsB4kWe8WiD_umwd09of2J653HlX0GJByF-rs?p=vJASS+%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8 200
+2026-05-08 04:56:33,699 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8&limit=1 200
+2026-05-08 04:56:33,885 [INFO] response: https://www.mojeek.com/search?q=WC3+World+Editor+Lua+integration+guide 403
+2026-05-08 04:56:34,022 [INFO] response: https://www.mojeek.com/search?q=vJASS+%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8 403
+2026-05-08 04:56:34,104 [INFO] response: https://search.brave.com/search?q=vJASS+%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8&source=web 429
+2026-05-08 04:56:34,255 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:34,255 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:34,337 [INFO] response: https://search.brave.com/search?q=vJASS+%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8&source=web 429
+2026-05-08 04:56:34,816 [INFO] response: https://www.mojeek.com/search?q=vJASS+%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8 403
+2026-05-08 04:56:34,896 [INFO] response: https://yandex.com/search/site/?text=WC3+World+Editor+Lua+integration+guide&web=1&searchid=9265457 200
+2026-05-08 04:56:34,926 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor Lua integration guide
+2026-05-08 04:56:34,927 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:35,258 [INFO] response: https://yandex.com/search/site/?text=vJASS+%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8&web=1&searchid=8557651 200
+2026-05-08 04:56:35,292 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS 高级语法 世界编辑器
+2026-05-08 04:56:35,781 [INFO] response: https://yandex.com/search/site/?text=vJASS+%E9%AB%98%E7%BA%A7%E8%AF%AD%E6%B3%95+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8&web=1&searchid=5771248 200
+2026-05-08 04:56:35,825 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS 高级语法 世界编辑器
+2026-05-08 04:56:35,826 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:36,937 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:36,938 [INFO] 🌐 双语查询: EN='魔兽争霸3 重制版 Lua脚本入门教程' | ZH='魔兽争霸3 重制版 Lua脚本入门教程'
+2026-05-08 04:56:37,169 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:37,182 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-05-08 04:56:37,194 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:37,203 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B')")
+2026-05-08 04:56:37,314 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-08 04:56:37,342 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:37,409 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-08 04:56:37,547 [INFO] response: https://search.yahoo.com/search;_ylt=wqpbN4ujO2eul_dO_nPKIDfO;_ylu=omM1AWuF--Eb2vkO4ETPitpydQKBu-VQqPDG70i8FuRF6iU?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 200
+2026-05-08 04:56:37,981 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:37,982 [INFO] ✅ ResearcherAgent 完成: 8 个来源已注册
+2026-05-08 04:56:37,982 [INFO] ✍️  WriterAgent 开始: JASS 常用函数参考 (loop 0)
+2026-05-08 04:56:37,983 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:38,050 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 重制版 Lua脚本入门教程
+2026-05-08 04:56:38,183 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&web=1&searchid=2265556 200
+2026-05-08 04:56:38,240 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 重制版 Lua脚本入门教程
+2026-05-08 04:56:38,241 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:38,605 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:38,606 [INFO] 🌐 双语查询: EN='Warcraft 3 vJASS constants functions' | ZH='Warcraft 3 vJASS constants functions'
+2026-05-08 04:56:38,834 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:38,836 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:38,846 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20vJASS%20constants%20functions)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20vJASS%20constants%20functions')")
+2026-05-08 04:56:38,850 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20vJASS%20constants%20functions)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20vJASS%20constants%20functions')")
+2026-05-08 04:56:39,008 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:39,013 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+vJASS+constants+functions&limit=1 200
+2026-05-08 04:56:39,050 [INFO] response: https://search.yahoo.com/search;_ylt=ayw5oPOixlYOC8dtMnetLgr4;_ylu=TyIsnUSHSZkFL6ngPmFXorpu0gT-CkDKojsQP2cNK3Epy8A?p=Warcraft+3+vJASS+constants+functions 200
+2026-05-08 04:56:39,139 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+vJASS+constants+functions&limit=1 200
+2026-05-08 04:56:40,058 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+vJASS+constants+functions&web=1&searchid=8433824 200
+2026-05-08 04:56:40,100 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 vJASS constants functions
+2026-05-08 04:56:40,443 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+vJASS+constants+functions&web=1&searchid=2671920 200
+2026-05-08 04:56:40,488 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 vJASS constants functions
+2026-05-08 04:56:40,488 [INFO]   搜索阶段：收集到 29 条候选结果
+2026-05-08 04:56:40,575 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/vjass-oop-lesson.128236/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/vjass-oop-lesson.128236/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 04:56:40,618 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:40,619 [INFO] 🌐 双语查询: EN='What is Lua scripting language Warcraft 3' | ZH='What is Lua scripting language Warcraft 3'
+2026-05-08 04:56:40,637 [WARNING] ⚠️  抓取失败，已忽略: https://www.thehelper.net/threads/the-complete-guide-to-jass-vjass-and-cjass.122588/ — Client error '403 Forbidden' for url 'https://www.thehelper.net/threads/the-complete-guide-to-jass-vjass-and-cjass.122588/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 04:56:40,702 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/vjass-advanced-initialization.247590/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/vjass-advanced-initialization.247590/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 04:56:40,884 [WARNING] ⚠️  抓取失败，已忽略: https://www.thehelper.net/threads/locals-or-constant-functions.50715/ — Client error '403 Forbidden' for url 'https://www.thehelper.net/threads/locals-or-constant-functions.50715/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 04:56:40,894 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:40,897 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:40,901 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20Lua%20scripting%20language%20Warcraft%203)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20Lua%20scripting%20language%20Warcraft%203')")
+2026-05-08 04:56:40,906 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20Lua%20scripting%20language%20Warcraft%203)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20Lua%20scripting%20language%20Warcraft%203')")
+2026-05-08 04:56:40,950 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=127853 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=127853'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 04:56:41,009 [INFO] response: https://search.brave.com/search?q=What+is+Lua+scripting+language+Warcraft+3&source=web 429
+2026-05-08 04:56:41,065 [INFO] response: https://grokipedia.com/api/typeahead?query=What+is+Lua+scripting+language+Warcraft+3&limit=1 200
+2026-05-08 04:56:41,078 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:41,209 [INFO] response: https://grokipedia.com/api/typeahead?query=What+is+Lua+scripting+language+Warcraft+3&limit=1 200
+2026-05-08 04:56:41,553 [INFO] response: https://www.mojeek.com/search?q=What+is+Lua+scripting+language+Warcraft+3 403
+2026-05-08 04:56:41,658 [INFO] response: https://search.brave.com/search?q=What+is+Lua+scripting+language+Warcraft+3&source=web 429
+2026-05-08 04:56:41,690 [INFO] response: https://www.mojeek.com/search?q=What+is+Lua+scripting+language+Warcraft+3 403
+2026-05-08 04:56:41,692 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:41,855 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:42,639 [INFO] response: https://yandex.com/search/site/?text=What+is+Lua+scripting+language+Warcraft+3&web=1&searchid=2129771 200
+2026-05-08 04:56:42,684 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | What is Lua scripting language Warcraft 
+2026-05-08 04:56:42,837 [INFO] response: https://yandex.com/search/site/?text=What+is+Lua+scripting+language+Warcraft+3&web=1&searchid=7671516 200
+2026-05-08 04:56:42,867 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | What is Lua scripting language Warcraft 
+2026-05-08 04:56:42,868 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:45,902 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:45,903 [INFO] 🌐 双语查询: EN='Warcraft 3 Reforged Lua vs JASS trigger comparison' | ZH='Warcraft 3 Reforged Lua vs JASS trigger comparison'
+2026-05-08 04:56:46,152 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:46,161 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:46,174 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20Lua%20vs%20JASS%20trigger%20comparison)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20Lua%20vs%20JASS%20trigger%20comparison')")
+2026-05-08 04:56:46,176 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20Lua%20vs%20JASS%20trigger%20comparison)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20Lua%20vs%20JASS%20trigger%20comparison')")
+2026-05-08 04:56:46,255 [INFO] response: https://search.brave.com/search?q=Warcraft+3+Reforged+Lua+vs+JASS+trigger+comparison&source=web 429
+2026-05-08 04:56:46,376 [INFO] response: https://search.yahoo.com/search;_ylt=nrA8_LBi4hnoJJX7q6WDFD13;_ylu=WReRVIMf5A_0Mi1P3ALQxXAavS4Udpvla3VebS0M1fjJnPA?p=Warcraft+3+Reforged+Lua+vs+JASS+trigger+comparison 200
+2026-05-08 04:56:46,388 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Reforged+Lua+vs+JASS+trigger+comparison&limit=1 200
+2026-05-08 04:56:46,499 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Reforged+Lua+vs+JASS+trigger+comparison&limit=1 200
+2026-05-08 04:56:46,856 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Reforged Lua vs JASS trigger 
+2026-05-08 04:56:47,715 [INFO] response: https://search.yahoo.com/search;_ylt=f231bFuI8omMNspQUDPge0gc;_ylu=XOUvdOJCvVFsC5zg0ynxQyr8M60lANWuNlNTDhHdYjsvSek?p=Warcraft+3+Reforged+Lua+vs+JASS+trigger+comparison 200
+2026-05-08 04:56:48,065 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Reforged Lua vs JASS trigger 
+2026-05-08 04:56:48,066 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:56:50,856 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:56:50,857 [INFO] 🌐 双语查询: EN='魔兽争霸3重制版 为什么使用Lua脚本' | ZH='魔兽争霸3重制版 为什么使用Lua脚本'
+2026-05-08 04:56:51,107 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:51,113 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-08 04:56:51,116 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E9%87%8D%E5%88%B6%E7%89%88%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Lua%E8%84%9A%E6%9C%AC)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E9%87%8D%E5%88%B6%E7%89%88%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Lua%E8%84%9A%E6%9C%AC')")
+2026-05-08 04:56:51,125 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E9%87%8D%E5%88%B6%E7%89%88%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Lua%E8%84%9A%E6%9C%AC)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E9%87%8D%E5%88%B6%E7%89%88%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Lua%E8%84%9A%E6%9C%AC')")
+2026-05-08 04:56:51,205 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E9%87%8D%E5%88%B6%E7%89%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Lua%E8%84%9A%E6%9C%AC&source=web 429
+2026-05-08 04:56:51,245 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E9%87%8D%E5%88%B6%E7%89%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Lua%E8%84%9A%E6%9C%AC&limit=1 200
+2026-05-08 04:56:51,321 [INFO] response: https://search.yahoo.com/search;_ylt=XTlXSw4xNxjKz25gMDz5Ez4e;_ylu=F7lMp14SmwwcfrTpxAHF7TEDOe9fPX1iyvX91L3KmDry938?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E9%87%8D%E5%88%B6%E7%89%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Lua%E8%84%9A%E6%9C%AC 200
+2026-05-08 04:56:51,333 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E9%87%8D%E5%88%B6%E7%89%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Lua%E8%84%9A%E6%9C%AC&limit=1 200
+2026-05-08 04:56:51,528 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-08 04:56:51,825 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3重制版 为什么使用Lua脚本
+2026-05-08 04:56:51,984 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E9%87%8D%E5%88%B6%E7%89%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Lua%E8%84%9A%E6%9C%AC 403
+2026-05-08 04:56:52,189 [INFO] response: https://search.yahoo.com/search;_ylt=WnCIKC_Y1vFIJz254JyUBmf6;_ylu=P1bNuxt2nliNVmmD9YjXzlZIElKMlmx4pvW0OdYvzA8joOk?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E9%87%8D%E5%88%B6%E7%89%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Lua%E8%84%9A%E6%9C%AC 200
+2026-05-08 04:56:53,688 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E9%87%8D%E5%88%B6%E7%89%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8Lua%E8%84%9A%E6%9C%AC&web=1&searchid=2769955 200
+2026-05-08 04:56:53,732 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3重制版 为什么使用Lua脚本
+2026-05-08 04:56:53,732 [INFO]   搜索阶段：收集到 34 条候选结果
+2026-05-08 04:56:53,820 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/getting-started-with-lua-scripting-in-wc3-maps.315970/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/getting-started-with-lua-scripting-in-wc3-maps.315970/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 04:56:53,830 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/ — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 04:56:53,935 [WARNING] ⚠️  抓取失败，已忽略: https://huimeiye.artstation.com/projects/Ya5WLb — Client error '403 Forbidden' for url 'https://huimeiye.artstation.com/projects/Ya5WLb'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-08 04:56:57,817 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:57:00,914 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:57:00,916 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:57:17,289 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:57:17,290 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-05-08 04:57:17,290 [INFO] ✍️  WriterAgent 开始: vJASS 进阶编程 (loop 0)
+2026-05-08 04:57:17,291 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:57:18,146 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:57:18,148 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-05-08 04:57:18,148 [INFO] ✍️  WriterAgent 开始: Lua 脚本基础（重制版） (loop 0)
+2026-05-08 04:57:18,149 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:57:24,680 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:57:24,682 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:57:38,222 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:57:38,224 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:57:39,880 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:57:39,882 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:57:45,419 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:57:45,421 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:57:52,899 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:57:52,901 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:58:00,497 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:58:00,498 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:58:11,070 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:58:11,072 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:58:17,254 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:58:17,255 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:58:21,522 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:58:21,524 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:58:26,690 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:58:26,692 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:58:44,742 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:58:44,744 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:58:46,280 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:58:46,281 [INFO] ✅ WriterAgent 完成: 10980 字符, 8/8 来源被引用
+2026-05-08 04:58:46,281 [INFO] 🔎 ReviewerAgent 开始: JASS 常用函数参考
+2026-05-08 04:58:46,281 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:58:54,187 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:58:54,189 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-08 04:59:11,464 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-08 04:59:11,465 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-08 04:59:11,465 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-08 04:59:11,465 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-08 04:59:11,466 [INFO] 📄 文章写入: docs/scripting/jass-常用函数参考.md
