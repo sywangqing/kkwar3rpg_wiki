@@ -1,5 +1,16 @@
 # 更新日志
 
+## 2026-05-09 05:27 UTC
+
+本次更新 **4** 篇文章：
+
+- [自定义 UI 框架（Frame API）](docs/advanced/自定义-ui-框架frame-api.md)
+- [地图性能优化指南](docs/advanced/地图性能优化指南.md)
+- [反作弊机制设计](docs/advanced/反作弊机制设计.md)
+- [经典 RPG 系统架构设计](docs/advanced/经典-rpg-系统架构设计.md)
+
+
+
 ## 2026-05-08 19:29 UTC
 
 本次更新 **10** 篇文章：

@@ -1,0 +1,177 @@
+2026-05-09 05:23:22,232 [INFO] 📐 PlannerAgent 开始: 经典 RPG 系统架构设计
+2026-05-09 05:23:22,233 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:23:22,860 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:23:22,861 [INFO] ✅ WriterAgent 完成: 8570 字符, 5/5 来源被引用
+2026-05-09 05:23:22,861 [INFO] 🔎 ReviewerAgent 开始: 地图性能优化指南
+2026-05-09 05:23:22,861 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:23:32,469 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:23:32,470 [INFO] ✅ WriterAgent 完成: 6954 字符, 3/3 来源被引用
+2026-05-09 05:23:32,470 [INFO] 🔎 ReviewerAgent 开始: 反作弊机制设计
+2026-05-09 05:23:32,471 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:23:41,301 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:23:41,302 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-09 05:23:41,302 [INFO] 🔍 ResearcherAgent 开始: 经典 RPG 系统架构设计 (21 查询)
+2026-05-09 05:23:41,303 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:23:43,670 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:23:43,671 [INFO] 🌐 双语查询: EN='Warcraft III classic RPG map design guide' | ZH='Warcraft III classic RPG map design guide'
+2026-05-09 05:23:43,895 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:23:43,913 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:23:43,943 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20classic%20RPG%20map%20design%20guide)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20classic%20RPG%20map%20design%20guide')")
+2026-05-09 05:23:43,963 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20classic%20RPG%20map%20design%20guide)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20classic%20RPG%20map%20design%20guide')")
+2026-05-09 05:23:44,114 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+classic+RPG+map+design+guide&limit=1 200
+2026-05-09 05:23:44,265 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+classic+RPG+map+design+guide&limit=1 200
+2026-05-09 05:23:44,406 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+classic+RPG+map+design+guide 403
+2026-05-09 05:23:44,607 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-09 05:23:44,628 [INFO] response: https://search.brave.com/search?q=Warcraft+III+classic+RPG+map+design+guide&source=web 200
+2026-05-09 05:23:44,649 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III classic RPG map design guid
+2026-05-09 05:23:46,831 [INFO] response: https://search.brave.com/search?q=Warcraft+III+classic+RPG+map+design+guide&source=web 200
+2026-05-09 05:23:46,852 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III classic RPG map design guid
+2026-05-09 05:23:46,853 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:23:47,716 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:23:47,717 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 50 (char 232)
+2026-05-09 05:23:47,717 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-09 05:23:47,717 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-09 05:23:47,718 [INFO] 📄 文章写入: docs/advanced/地图性能优化指南.md
+2026-05-09 05:23:47,719 [INFO] ✅ topics.json 已更新: performance-optimization → completed
+2026-05-09 05:23:49,070 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:23:49,071 [INFO] 🌐 双语查询: EN='魔兽争霸3 RPG地图制作从入门到精通' | ZH='魔兽争霸3 RPG地图制作从入门到精通'
+2026-05-09 05:23:49,255 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:23:49,279 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:23:49,290 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20RPG%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20RPG%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A')")
+2026-05-09 05:23:49,314 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20RPG%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20RPG%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A')")
+2026-05-09 05:23:49,429 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:23:49,429 [INFO] ✅ 通过 ReviewerAgent: overall=0.75 (A=0.70 C=0.85 R=0.90 Cit=0.45)
+2026-05-09 05:23:49,430 [INFO]   反馈 5 条:
+2026-05-09 05:23:49,430 [INFO]   [factual_error] 使用'游戏-暂停游戏'来强制暂停，让管理员介入处理...
+2026-05-09 05:23:49,430 [INFO]   [missing_citation] 验证来源、合理阈值检测、作弊码屏蔽等反作弊基本原理...
+2026-05-09 05:23:49,430 [INFO]   [missing_citation] 多变量交叉验证的三步实现流程...
+2026-05-09 05:23:49,430 [INFO]   [missing_citation] 持续更新与维护策略的具体步骤...
+2026-05-09 05:23:49,430 [INFO]   [incomplete_section] 周期性状态校验部分内容不完整...
+2026-05-09 05:23:49,430 [INFO] ✅ 质量通过 (loop 0): score=0.75
+2026-05-09 05:23:49,430 [INFO] 📄 文章写入: docs/advanced/反作弊机制设计.md
+2026-05-09 05:23:49,432 [INFO] ✅ topics.json 已更新: anti-cheat → completed
+2026-05-09 05:23:49,501 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+RPG%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A&limit=1 200
+2026-05-09 05:23:49,669 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+RPG%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A&limit=1 200
+2026-05-09 05:23:49,736 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+RPG%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A 403
+2026-05-09 05:23:49,920 [INFO] response: https://search.yahoo.com/search;_ylt=9TcRmJS_oGNFDQ3r5k30hfv8;_ylu=inFqT_agTPI0m2it-vWByISDgAShcrl4mqRiSAzjy3iAVik?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+RPG%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A 200
+2026-05-09 05:23:50,243 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+RPG%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A&web=1&searchid=1116338 200
+2026-05-09 05:23:50,285 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 RPG地图制作从入门到精通
+2026-05-09 05:23:50,874 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+RPG%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A&web=1&searchid=8205980 200
+2026-05-09 05:23:50,917 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 RPG地图制作从入门到精通
+2026-05-09 05:23:50,917 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:23:53,803 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:23:53,804 [INFO] 🌐 双语查询: EN='WC3 World Editor RPG system architecture tutorial' | ZH='WC3 World Editor RPG system architecture tutorial'
+2026-05-09 05:23:53,983 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:23:54,001 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20RPG%20system%20architecture%20tutorial)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20RPG%20system%20architecture%20tutorial')")
+2026-05-09 05:23:54,017 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:23:54,052 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20RPG%20system%20architecture%20tutorial)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20RPG%20system%20architecture%20tutorial')")
+2026-05-09 05:23:54,144 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+RPG+system+architecture+tutorial&source=web 429
+2026-05-09 05:23:54,154 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-09 05:23:54,326 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+RPG+system+architecture+tutorial&limit=1 200
+2026-05-09 05:23:54,459 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+RPG+system+architecture+tutorial&limit=1 200
+2026-05-09 05:23:54,482 [INFO] response: https://search.yahoo.com/search;_ylt=m5BQqVh0mM2gYiO9vsQzyefL;_ylu=slsHVgr-TzqDcIo5eA_Ogf2pv_2G5F4Tme7IrGHXzgyptjA?p=WC3+World+Editor+RPG+system+architecture+tutorial 200
+2026-05-09 05:23:54,906 [INFO] response: https://www.mojeek.com/search?q=WC3+World+Editor+RPG+system+architecture+tutorial 403
+2026-05-09 05:23:54,934 [INFO] response: https://www.mojeek.com/search?q=WC3+World+Editor+RPG+system+architecture+tutorial 403
+2026-05-09 05:23:55,056 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+RPG+system+architecture+tutorial&source=web 429
+2026-05-09 05:23:55,811 [INFO] response: https://yandex.com/search/site/?text=WC3+World+Editor+RPG+system+architecture+tutorial&web=1&searchid=7333176 200
+2026-05-09 05:23:55,847 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor RPG system architecture
+2026-05-09 05:23:55,950 [INFO] response: https://yandex.com/search/site/?text=WC3+World+Editor+RPG+system+architecture+tutorial&web=1&searchid=4580851 200
+2026-05-09 05:23:55,983 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor RPG system architecture
+2026-05-09 05:23:55,984 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:23:57,942 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:23:57,943 [INFO] 🌐 双语查询: EN='Warcraft III RPG system design basics' | ZH='Warcraft III RPG system design basics'
+2026-05-09 05:23:58,135 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:23:58,157 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:23:58,171 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20RPG%20system%20design%20basics)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20RPG%20system%20design%20basics')")
+2026-05-09 05:23:58,186 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20RPG%20system%20design%20basics)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20RPG%20system%20design%20basics')")
+2026-05-09 05:23:58,292 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-09 05:23:58,332 [INFO] response: https://search.yahoo.com/search;_ylt=ItV5U8L13TyiObd502ISTTsF;_ylu=RQokD1IjEAsMiAkqFpAQDqcuGrptcBmkpA_Fg8Uu5uO4DCE?p=Warcraft+III+RPG+system+design+basics 200
+2026-05-09 05:23:58,468 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+RPG+system+design+basics&limit=1 200
+2026-05-09 05:23:58,597 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+RPG+system+design+basics&limit=1 200
+2026-05-09 05:23:58,773 [INFO] response: https://search.yahoo.com/search;_ylt=rCl9EcDbUgaaMgFDBYNhQxdq;_ylu=r3Y-mJu1lPJZlsBBd04VH5M8f5Mkh_urT5LEyhZSX28k9CA?p=Warcraft+III+RPG+system+design+basics 200
+2026-05-09 05:23:58,942 [INFO] response: https://search.brave.com/search?q=Warcraft+III+RPG+system+design+basics&source=web 429
+2026-05-09 05:23:59,382 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+RPG+system+design+basics&web=1&searchid=2378041 200
+2026-05-09 05:23:59,404 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+RPG+system+design+basics 403
+2026-05-09 05:23:59,419 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III RPG system design basics
+2026-05-09 05:24:00,305 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+RPG+system+design+basics&web=1&searchid=8138382 200
+2026-05-09 05:24:00,333 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III RPG system design basics
+2026-05-09 05:24:00,334 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:24:02,400 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:24:02,401 [INFO] 🌐 双语查询: EN='RPG游戏系统架构设计原则' | ZH='RPG游戏系统架构设计原则'
+2026-05-09 05:24:02,579 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:24:02,599 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:24:02,611 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99')")
+2026-05-09 05:24:02,630 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99')")
+2026-05-09 05:24:02,742 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-09 05:24:03,015 [INFO] response: https://grokipedia.com/api/typeahead?query=RPG%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99&limit=1 200
+2026-05-09 05:24:03,054 [INFO] response: https://www.mojeek.com/search?q=RPG%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99 403
+2026-05-09 05:24:03,160 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-09 05:24:03,192 [INFO] response: https://grokipedia.com/api/typeahead?query=RPG%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99&limit=1 200
+2026-05-09 05:24:03,641 [INFO] response: https://www.mojeek.com/search?q=RPG%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99 403
+2026-05-09 05:24:04,184 [INFO] response: https://yandex.com/search/site/?text=RPG%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99&web=1&searchid=7359514 200
+2026-05-09 05:24:04,228 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | RPG游戏系统架构设计原则
+2026-05-09 05:24:04,537 [INFO] response: https://yandex.com/search/site/?text=RPG%E6%B8%B8%E6%88%8F%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99&web=1&searchid=4896090 200
+2026-05-09 05:24:04,569 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | RPG游戏系统架构设计原则
+2026-05-09 05:24:04,570 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:24:06,773 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:24:06,774 [INFO] 🌐 双语查询: EN='WC3 RPG map tutorial for beginners' | ZH='WC3 RPG map tutorial for beginners'
+2026-05-09 05:24:06,956 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:24:06,965 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-09 05:24:06,967 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20map%20tutorial%20for%20beginners)', 'https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20map%20tutorial%20for%20beginners')")
+2026-05-09 05:24:06,971 [INFO] Error in engine wikipedia: DDGSException("ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20map%20tutorial%20for%20beginners)', 'https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20map%20tutorial%20for%20beginners')")
+2026-05-09 05:24:07,101 [INFO] response: https://search.yahoo.com/search;_ylt=ZoD4_OAXyQOEjAYyif2-Fw9s;_ylu=mXqDxCUxpmmVMBEoJx7grISAKQNpNcOfenwRKDR-38Ely0Q?p=WC3+RPG+map+tutorial+for+beginners 200
+2026-05-09 05:24:07,151 [INFO] response: https://search.brave.com/search?q=WC3+RPG+map+tutorial+for+beginners&source=web 429
+2026-05-09 05:24:07,395 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+map+tutorial+for+beginners&limit=1 200
+2026-05-09 05:24:07,558 [INFO] response: https://search.yahoo.com/search;_ylt=X5Q7goy6Cm5H2WGj6Q1fj52a;_ylu=oiYwX0lZDSAC3ja7NDC_891XO6bwkjlLRa8d8ps-O2kgOsk?p=WC3+RPG+map+tutorial+for+beginners 200
+2026-05-09 05:24:07,568 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+map+tutorial+for+beginners&limit=1 200
+2026-05-09 05:24:07,717 [INFO] response: https://search.brave.com/search?q=WC3+RPG+map+tutorial+for+beginners&source=web 429
+2026-05-09 05:24:07,837 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-09 05:24:08,002 [INFO] response: https://www.mojeek.com/search?q=WC3+RPG+map+tutorial+for+beginners 403
+2026-05-09 05:24:08,104 [INFO] response: https://html.duckduckgo.com/html/ 202
+2026-05-09 05:24:08,304 [INFO] response: https://www.mojeek.com/search?q=WC3+RPG+map+tutorial+for+beginners 403
+2026-05-09 05:24:09,064 [INFO] response: https://yandex.com/search/site/?text=WC3+RPG+map+tutorial+for+beginners&web=1&searchid=6545296 200
+2026-05-09 05:24:09,104 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG map tutorial for beginners
+2026-05-09 05:24:09,210 [INFO] response: https://yandex.com/search/site/?text=WC3+RPG+map+tutorial+for+beginners&web=1&searchid=7307464 200
+2026-05-09 05:24:09,249 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG map tutorial for beginners
+2026-05-09 05:24:09,249 [INFO]   搜索阶段：收集到 37 条候选结果
+2026-05-09 05:24:13,467 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:24:55,672 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:24:55,673 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-05-09 05:24:55,673 [INFO] ✍️  WriterAgent 开始: 经典 RPG 系统架构设计 (loop 0)
+2026-05-09 05:24:55,674 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:25:12,965 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:25:12,967 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:25:33,844 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:25:33,846 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:25:53,760 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:25:53,761 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:26:15,083 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:26:15,084 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:26:36,331 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:26:36,332 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:26:56,881 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:26:56,882 [INFO] ✅ WriterAgent 完成: 8297 字符, 5/6 来源被引用
+2026-05-09 05:26:56,882 [INFO] 🔎 ReviewerAgent 开始: 经典 RPG 系统架构设计
+2026-05-09 05:26:56,882 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-09 05:27:25,901 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-09 05:27:25,902 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-09 05:27:25,902 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-09 05:27:25,902 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-09 05:27:25,903 [INFO] 📄 文章写入: docs/advanced/经典-rpg-系统架构设计.md
