@@ -447,3 +447,413 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
 2026-05-08 19:19:58,142 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
 2026-05-08 19:19:58,142 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-05-08 19:19:58,142 [INFO] 📄 文章写入: docs/object-editor/光环与增益效果编辑.md
+2026-05-21 08:16:00,344 [INFO] 📐 PlannerAgent 开始: 光环与增益效果编辑
+2026-05-21 08:16:00,361 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:00,361 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:00,362 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:23,627 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:23,637 [INFO] ✅ PlannerAgent 完成: 6 节, 20 个查询
+2026-05-21 08:16:23,640 [INFO] 🔍 ResearcherAgent 开始: 升级编辑器 (20 查询)
+2026-05-21 08:16:23,643 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:23,662 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:23,663 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-21 08:16:23,664 [INFO] 🔍 ResearcherAgent 开始: 光环与增益效果编辑 (21 查询)
+2026-05-21 08:16:23,665 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:26,280 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:26,281 [INFO] 🌐 双语查询: EN='Warcraft 3 aura buff effect tutorial for beginners' | ZH='Warcraft 3 aura buff effect tutorial for beginners'
+2026-05-21 08:16:26,355 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:26,471 [INFO] 🌐 双语查询: EN='Warcraft 3 Object Editor tutorial for beginners' | ZH='Warcraft 3 Object Editor tutorial for beginners'
+2026-05-21 08:16:26,744 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:26,863 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:26,864 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:26,865 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:27,099 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Object%20Editor%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:27,099 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20aura%20buff%20effect%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:27,102 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20aura%20buff%20effect%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:27,102 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Object%20Editor%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:27,169 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Object+Editor+tutorial+for+beginners&limit=1 200
+2026-05-21 08:16:27,172 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+aura+buff+effect+tutorial+for+beginners&limit=1 200
+2026-05-21 08:16:27,291 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Object+Editor+tutorial+for+beginners&limit=1 200
+2026-05-21 08:16:27,304 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+aura+buff+effect+tutorial+for+beginners&limit=1 200
+2026-05-21 08:16:27,333 [INFO] response: https://www.google.com/search?q=Warcraft+3+aura+buff+effect+tutorial+for+beginners&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:16:27,348 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 aura buff effect tutorial for
+2026-05-21 08:16:27,651 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+Object+Editor+tutorial+for+beginners 403
+2026-05-21 08:16:28,528 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+aura+buff+effect+tutorial+for+beginners&web=1&searchid=9243589 200
+2026-05-21 08:16:28,585 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 aura buff effect tutorial for
+2026-05-21 08:16:28,586 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:28,586 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+Object+Editor+tutorial+for+beginners&web=1&searchid=4891605 200
+2026-05-21 08:16:28,631 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Object Editor tutorial for be
+2026-05-21 08:16:28,668 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+Object+Editor+tutorial+for+beginners&web=1&searchid=1324310 200
+2026-05-21 08:16:28,727 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Object Editor tutorial for be
+2026-05-21 08:16:28,728 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:30,992 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:30,993 [INFO] 🌐 双语查询: EN='魔兽争霸3 世界编辑器 光环与增益效果入门' | ZH='魔兽争霸3 世界编辑器 光环与增益效果入门'
+2026-05-21 08:16:31,080 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:31,081 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-21 08:16:31,081 [INFO] 🔍 ResearcherAgent 开始: 物品编辑器与物品系统 (21 查询)
+2026-05-21 08:16:31,082 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:31,293 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:31,295 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:31,375 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%85%89%E7%8E%AF%E4%B8%8E%E5%A2%9E%E7%9B%8A%E6%95%88%E6%9E%9C%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:31,406 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%85%89%E7%8E%AF%E4%B8%8E%E5%A2%9E%E7%9B%8A%E6%95%88%E6%9E%9C%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:31,495 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:31,496 [INFO] 🌐 双语查询: EN='魔兽争霸3 世界编辑器 对象编辑器 使用指南' | ZH='魔兽争霸3 世界编辑器 对象编辑器 使用指南'
+2026-05-21 08:16:31,580 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%85%89%E7%8E%AF%E4%B8%8E%E5%A2%9E%E7%9B%8A%E6%95%88%E6%9E%9C%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-21 08:16:31,627 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%85%89%E7%8E%AF%E4%B8%8E%E5%A2%9E%E7%9B%8A%E6%95%88%E6%9E%9C%E5%85%A5%E9%97%A8&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:16:31,640 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 世界编辑器 光环与增益效果入门
+2026-05-21 08:16:31,685 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%85%89%E7%8E%AF%E4%B8%8E%E5%A2%9E%E7%9B%8A%E6%95%88%E6%9E%9C%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-21 08:16:31,787 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:31,790 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:31,828 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%AF%B9%E8%B1%A1%E7%BC%96%E8%BE%91%E5%99%A8%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:31,834 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%AF%B9%E8%B1%A1%E7%BC%96%E8%BE%91%E5%99%A8%20%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:32,073 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AF%B9%E8%B1%A1%E7%BC%96%E8%BE%91%E5%99%A8+%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:16:32,112 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AF%B9%E8%B1%A1%E7%BC%96%E8%BE%91%E5%99%A8+%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-21 08:16:32,232 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AF%B9%E8%B1%A1%E7%BC%96%E8%BE%91%E5%99%A8+%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-21 08:16:32,233 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 世界编辑器 对象编辑器 使用指南
+2026-05-21 08:16:32,361 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AF%B9%E8%B1%A1%E7%BC%96%E8%BE%91%E5%99%A8+%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97 403
+2026-05-21 08:16:32,409 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%85%89%E7%8E%AF%E4%B8%8E%E5%A2%9E%E7%9B%8A%E6%95%88%E6%9E%9C%E5%85%A5%E9%97%A8&web=1&searchid=3953741 200
+2026-05-21 08:16:32,458 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 世界编辑器 光环与增益效果入门
+2026-05-21 08:16:32,460 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:32,953 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%AF%B9%E8%B1%A1%E7%BC%96%E8%BE%91%E5%99%A8+%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97&source=web 200
+2026-05-21 08:16:32,960 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 世界编辑器 对象编辑器 使用指南
+2026-05-21 08:16:32,961 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:33,670 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:33,671 [INFO] 🌐 双语查询: EN='Warcraft III Item Editor tutorial complete guide' | ZH='Warcraft III Item Editor tutorial complete guide'
+2026-05-21 08:16:33,951 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:33,961 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:34,029 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Item%20Editor%20tutorial%20complete%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:34,038 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Item%20Editor%20tutorial%20complete%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:34,248 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Item+Editor+tutorial+complete+guide&limit=1 200
+2026-05-21 08:16:34,369 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Item+Editor+tutorial+complete+guide&limit=1 200
+2026-05-21 08:16:34,485 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:34,909 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:34,933 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Item Editor tutorial comple
+2026-05-21 08:16:35,074 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+Item+Editor+tutorial+complete+guide&web=1&searchid=8197110 200
+2026-05-21 08:16:35,113 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Item Editor tutorial comple
+2026-05-21 08:16:35,114 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:35,178 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:35,179 [INFO] 🌐 双语查询: EN='WC3 RPG map buff aura design guide' | ZH='WC3 RPG map buff aura design guide'
+2026-05-21 08:16:35,447 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:35,452 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:35,497 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20map%20buff%20aura%20design%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:35,550 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20map%20buff%20aura%20design%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:35,613 [INFO] response: https://search.yahoo.com/search;_ylt=9tEYKs3--27x2QjCAVlYynlE;_ylu=vbuJZJvPF3b4lUNYzilCgBLNmtIu828cc1QizgHL5USgXtU?p=WC3+RPG+map+buff+aura+design+guide 200
+2026-05-21 08:16:35,701 [INFO] response: https://search.yahoo.com/search;_ylt=rYdQ8omUlBn8D-gZtjwzjO_b;_ylu=pzSqni5DO1epCyuKD3mwTBKBqqezeDIQTjbEueC4DQ1Casg?p=WC3+RPG+map+buff+aura+design+guide 200
+2026-05-21 08:16:35,728 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+map+buff+aura+design+guide&limit=1 200
+2026-05-21 08:16:35,963 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+map+buff+aura+design+guide&limit=1 200
+2026-05-21 08:16:36,199 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:36,453 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:36,454 [INFO] 🌐 双语查询: EN='Warcraft III World Editor upgrade system complete tutorial' | ZH='WC3 WE 升级系统 完整教程'
+2026-05-21 08:16:36,633 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:36,658 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG map buff aura design guide
+2026-05-21 08:16:36,730 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:36,733 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:36,775 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20upgrade%20system%20complete%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:36,780 [INFO] response: https://yandex.com/search/site/?text=WC3+RPG+map+buff+aura+design+guide&web=1&searchid=3568869 200
+2026-05-21 08:16:36,809 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG map buff aura design guide
+2026-05-21 08:16:36,810 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:36,840 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20WE%20%E5%8D%87%E7%BA%A7%E7%B3%BB%E7%BB%9F%20%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:36,883 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+WE+%E5%8D%87%E7%BA%A7%E7%B3%BB%E7%BB%9F+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-21 08:16:37,062 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+upgrade+system+complete+tutorial&limit=1 200
+2026-05-21 08:16:37,193 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:37,307 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:37,309 [INFO] 🌐 双语查询: EN='Warcraft 3 item editor beginner tutorial complete guide' | ZH='魔兽争霸3 物品编辑器 新手教程 完全指南'
+2026-05-21 08:16:37,340 [INFO] response: https://www.mojeek.com/search?q=WC3+WE+%E5%8D%87%E7%BA%A7%E7%B3%BB%E7%BB%9F+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B 403
+2026-05-21 08:16:37,538 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:37,555 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:37,564 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III World Editor upgrade system
+2026-05-21 08:16:37,564 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:37,593 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20item%20editor%20beginner%20tutorial%20complete%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:37,648 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B%20%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:37,783 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+item+editor+beginner+tutorial+complete+guide&limit=1 200
+2026-05-21 08:16:37,812 [INFO] response: https://www.google.com/search?q=Warcraft+3+item+editor+beginner+tutorial+complete+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:16:37,827 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 item editor beginner tutorial
+2026-05-21 08:16:37,843 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-21 08:16:38,359 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97 403
+2026-05-21 08:16:38,370 [INFO] response: https://yandex.com/search/site/?text=WC3+WE+%E5%8D%87%E7%BA%A7%E7%B3%BB%E7%BB%9F+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&web=1&searchid=3615050 200
+2026-05-21 08:16:38,416 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 WE 升级系统 完整教程
+2026-05-21 08:16:38,417 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:38,596 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-21 08:16:38,611 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 物品编辑器 新手教程 完全指南
+2026-05-21 08:16:38,613 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:40,563 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:40,563 [INFO] 🌐 双语查询: EN='Warcraft III Object Editor Upgrade tab tutorial' | ZH='Warcraft III Object Editor Upgrade tab tutorial'
+2026-05-21 08:16:40,827 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:40,844 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:40,936 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:40,937 [INFO] 🌐 双语查询: EN='Warcraft 3 aura effect tutorial' | ZH='Warcraft 3 aura effect tutorial'
+2026-05-21 08:16:40,940 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Object%20Editor%20Upgrade%20tab%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:40,942 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Object%20Editor%20Upgrade%20tab%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:41,151 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Object+Editor+Upgrade+tab+tutorial&limit=1 200
+2026-05-21 08:16:41,200 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:41,204 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:41,240 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20aura%20effect%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:41,243 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20aura%20effect%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:41,268 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Object+Editor+Upgrade+tab+tutorial&limit=1 200
+2026-05-21 08:16:41,503 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+Object+Editor+Upgrade+tab+tutorial 403
+2026-05-21 08:16:41,537 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:41,537 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+aura+effect+tutorial&limit=1 200
+2026-05-21 08:16:41,538 [INFO] 🌐 双语查询: EN='WC3 World Editor item system creation for beginners' | ZH='WC3 World Editor item system creation for beginners'
+2026-05-21 08:16:41,585 [INFO] response: https://search.brave.com/search?q=Warcraft+III+Object+Editor+Upgrade+tab+tutorial&source=web 200
+2026-05-21 08:16:41,593 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Object Editor Upgrade tab t
+2026-05-21 08:16:41,666 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+aura+effect+tutorial&limit=1 200
+2026-05-21 08:16:41,727 [INFO] response: https://www.google.com/search?q=Warcraft+III+Object+Editor+Upgrade+tab+tutorial&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:16:41,741 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Object Editor Upgrade tab t
+2026-05-21 08:16:41,742 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:41,786 [INFO] response: https://www.google.com/search?q=Warcraft+3+aura+effect+tutorial&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:16:41,797 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:41,799 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:41,802 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 aura effect tutorial
+2026-05-21 08:16:41,838 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20item%20system%20creation%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:41,886 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20item%20system%20creation%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:41,990 [INFO] response: https://search.brave.com/search?q=Warcraft+3+aura+effect+tutorial&source=web 200
+2026-05-21 08:16:42,000 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 aura effect tutorial
+2026-05-21 08:16:42,001 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:42,084 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+item+system+creation+for+beginners&limit=1 200
+2026-05-21 08:16:42,116 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:42,324 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+item+system+creation+for+beginners&limit=1 200
+2026-05-21 08:16:42,460 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+item+system+creation+for+beginners&source=web 200
+2026-05-21 08:16:42,467 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor item system creation fo
+2026-05-21 08:16:42,526 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:42,551 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor item system creation fo
+2026-05-21 08:16:42,552 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:44,285 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:44,287 [INFO] 🌐 双语查询: EN='光环与buff的区别 魔兽争霸3' | ZH='光环与buff的区别 魔兽争霸3'
+2026-05-21 08:16:44,558 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:44,569 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:44,610 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%85%89%E7%8E%AF%E4%B8%8Ebuff%E7%9A%84%E5%8C%BA%E5%88%AB%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:44,661 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%85%89%E7%8E%AF%E4%B8%8Ebuff%E7%9A%84%E5%8C%BA%E5%88%AB%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:44,841 [INFO] response: https://grokipedia.com/api/typeahead?query=%E5%85%89%E7%8E%AF%E4%B8%8Ebuff%E7%9A%84%E5%8C%BA%E5%88%AB+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&limit=1 200
+2026-05-21 08:16:44,847 [INFO] response: https://www.google.com/search?q=%E5%85%89%E7%8E%AF%E4%B8%8Ebuff%E7%9A%84%E5%8C%BA%E5%88%AB+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:16:44,861 [INFO] response: https://www.google.com/search?q=%E5%85%89%E7%8E%AF%E4%B8%8Ebuff%E7%9A%84%E5%8C%BA%E5%88%AB+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-21 08:16:44,877 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 光环与buff的区别 魔兽争霸3
+2026-05-21 08:16:44,963 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:44,964 [INFO] 🌐 双语查询: EN='Warcraft III Object Editor Item Editor' | ZH='Warcraft III Object Editor Item Editor'
+2026-05-21 08:16:45,127 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:45,128 [INFO] 🌐 双语查询: EN='魔兽争霸3 升级编辑器 介绍' | ZH='魔兽争霸3 升级编辑器 介绍'
+2026-05-21 08:16:45,205 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:45,215 [INFO] response: https://grokipedia.com/api/typeahead?query=%E5%85%89%E7%8E%AF%E4%B8%8Ebuff%E7%9A%84%E5%8C%BA%E5%88%AB+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&limit=1 200
+2026-05-21 08:16:45,216 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 光环与buff的区别 魔兽争霸3
+2026-05-21 08:16:45,217 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:45,247 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Object%20Editor%20Item%20Editor) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:45,307 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:45,373 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Object+Editor+Item+Editor&limit=1 200
+2026-05-21 08:16:45,402 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Object%20Editor%20Item%20Editor) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:45,403 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:45,405 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:45,445 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%8D%87%E7%BA%A7%E7%BC%96%E8%BE%91%E5%99%A8%20%E4%BB%8B%E7%BB%8D) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:45,446 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%8D%87%E7%BA%A7%E7%BC%96%E8%BE%91%E5%99%A8%20%E4%BB%8B%E7%BB%8D) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:45,455 [INFO] response: https://search.brave.com/search?q=Warcraft+III+Object+Editor+Item+Editor&source=web 429
+2026-05-21 08:16:45,489 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Object+Editor+Item+Editor&limit=1 200
+2026-05-21 08:16:45,494 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%87%E7%BA%A7%E7%BC%96%E8%BE%91%E5%99%A8+%E4%BB%8B%E7%BB%8D&source=web 429
+2026-05-21 08:16:45,556 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%87%E7%BA%A7%E7%BC%96%E8%BE%91%E5%99%A8+%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-21 08:16:45,572 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:45,625 [INFO] response: https://search.yahoo.com/search;_ylt=7c5fXb2H5enbKRKZ8jUVDZFb;_ylu=KvnemiWlIo--9vO4ClCnmkWV2Sci1jJNZnZY7w-Y9c1uTKs?p=Warcraft+III+Object+Editor+Item+Editor 200
+2026-05-21 08:16:45,655 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%87%E7%BA%A7%E7%BC%96%E8%BE%91%E5%99%A8+%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-21 08:16:45,855 [INFO] response: https://search.brave.com/search?q=Warcraft+III+Object+Editor+Item+Editor&source=web 200
+2026-05-21 08:16:45,863 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Object Editor Item Editor
+2026-05-21 08:16:46,044 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:46,069 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 升级编辑器 介绍
+2026-05-21 08:16:46,176 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%87%E7%BA%A7%E7%BC%96%E8%BE%91%E5%99%A8+%E4%BB%8B%E7%BB%8D 403
+2026-05-21 08:16:46,284 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+Object+Editor+Item+Editor 403
+2026-05-21 08:16:46,296 [INFO] response: https://search.yahoo.com/search;_ylt=7C-WDpWBuvQMoWo_eAscWpUp;_ylu=GES-ECjkqAE3dUDp5po87q8o9knWxPgKop2b0ZxIAQN0GRA?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%87%E7%BA%A7%E7%BC%96%E8%BE%91%E5%99%A8+%E4%BB%8B%E7%BB%8D 200
+2026-05-21 08:16:46,451 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:46,522 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:46,768 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:46,794 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Object Editor Item Editor
+2026-05-21 08:16:46,795 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:46,882 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:46,907 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 升级编辑器 介绍
+2026-05-21 08:16:46,908 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:48,434 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:48,436 [INFO] 🌐 双语查询: EN='WC3 buff system basics' | ZH='WC3 buff system basics'
+2026-05-21 08:16:48,682 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:48,752 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20buff%20system%20basics) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:48,761 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:48,767 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:48,768 [INFO] 🌐 双语查询: EN='魔兽争霸3 物品编辑器 打开方式' | ZH='魔兽争霸3 物品编辑器 打开方式'
+2026-05-21 08:16:48,791 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20buff%20system%20basics) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:48,815 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+buff+system+basics&limit=1 200
+2026-05-21 08:16:48,910 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+buff+system+basics&limit=1 200
+2026-05-21 08:16:48,976 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:48,976 [INFO] 🌐 双语查询: EN='World Editor create new upgrade' | ZH='世界'
+2026-05-21 08:16:49,020 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:49,047 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:49,051 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:49,108 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8%20%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:49,113 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8%20%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:49,152 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8+%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F&source=web 429
+2026-05-21 08:16:49,253 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:49,267 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:49,296 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20create%20new%20upgrade) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:49,302 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E4%B8%96%E7%95%8C) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:49,385 [INFO] response: https://www.mojeek.com/search?q=WC3+buff+system+basics 403
+2026-05-21 08:16:49,417 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:49,424 [INFO] response: https://search.yahoo.com/search;_ylt=OamghFeCnOdnqZSP_ED0gXOL;_ylu=Hu2Ti3KEKgGvGbzTU9UJaNnS5b3l7lqbEdfX2SGygHFrJ8c?p=%E4%B8%96%E7%95%8C 200
+2026-05-21 08:16:49,441 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8+%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F&limit=1 200
+2026-05-21 08:16:49,474 [INFO] response: https://grokipedia.com/api/typeahead?query=%E4%B8%96%E7%95%8C&limit=1 200
+2026-05-21 08:16:49,491 [INFO] response: https://search.yahoo.com/search;_ylt=Vju6hCAGkeWOZEWbzttW66vb;_ylu=7AyvRxtGiYjGSGUHyGaUXKZLoMMwEl2u32hANM9-bykCIVo?p=WC3+buff+system+basics 200
+2026-05-21 08:16:49,529 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+create+new+upgrade&limit=1 200
+2026-05-21 08:16:49,580 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8+%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F&limit=1 200
+2026-05-21 08:16:49,583 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:49,667 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:49,671 [INFO] response: https://search.brave.com/search?q=WC3+buff+system+basics&source=web 429
+2026-05-21 08:16:49,692 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 buff system basics
+2026-05-21 08:16:49,790 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:49,796 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:49,815 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor create new upgrade
+2026-05-21 08:16:49,897 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:49,922 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 物品编辑器 打开方式
+2026-05-21 08:16:49,924 [INFO] response: https://www.google.com/search?q=WC3+buff+system+basics&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:16:49,940 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 buff system basics
+2026-05-21 08:16:49,941 [INFO]   搜索阶段：收集到 42 条候选结果
+2026-05-21 08:16:50,156 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8+%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F&web=1&searchid=6530562 200
+2026-05-21 08:16:50,198 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 物品编辑器 打开方式
+2026-05-21 08:16:50,199 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:50,392 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:50,418 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 世界
+2026-05-21 08:16:50,418 [INFO]   搜索阶段：收集到 41 条候选结果
+2026-05-21 08:16:50,708 [WARNING] ⚠️  抓取失败，已忽略: https://www.zhihu.com/question/52620556 — Client error '403 Forbidden' for url 'https://www.zhihu.com/question/52620556'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:16:51,538 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/modelling-custom-auras.324023/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/modelling-custom-auras.324023/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:16:51,570 [WARNING] ⚠️  抓取失败，已忽略: https://www.thehelper.net/threads/the-basics-of-the-world-editor.33390/ — Client error '403 Forbidden' for url 'https://www.thehelper.net/threads/the-basics-of-the-world-editor.33390/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:16:52,203 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:53,281 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:16:53,282 [INFO] 🌐 双语查询: EN='World Editor 物品编辑器 界面介绍' | ZH='World Editor 物品编辑器 界面介绍'
+2026-05-21 08:16:53,545 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:53,566 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:16:53,647 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:53,659 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8%20%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:16:53,792 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:53,823 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8+%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-21 08:16:53,871 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/qq_56591814/article/details/151874279 — Server error '521 ' for url 'https://blog.csdn.net/qq_56591814/article/details/151874279'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-21 08:16:53,872 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:16:54,041 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8+%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-21 08:16:54,167 [INFO] response: https://www.mojeek.com/search?q=World+Editor+%E7%89%A9%E5%93%81%E7%BC%96%E8%BE%91%E5%99%A8+%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D 403
+2026-05-21 08:16:54,305 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:16:54,347 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:54,373 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 物品编辑器 界面介绍
+2026-05-21 08:16:54,769 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:16:54,795 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 物品编辑器 界面介绍
+2026-05-21 08:16:54,795 [INFO]   搜索阶段：收集到 35 条候选结果
+2026-05-21 08:16:55,761 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/war3-object-editor-0-7-1.239577/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/war3-object-editor-0-7-1.239577/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:16:55,800 [WARNING] ⚠️  抓取失败，已忽略: https://wc3itemskilldesigner.t34.at/ — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1016)
+2026-05-21 08:16:55,831 [WARNING] ⚠️  抓取失败，已忽略: https://wowpedia.fandom.com/wiki/Warcraft_III_World_Editor — Client error '403 Forbidden' for url 'https://wowpedia.fandom.com/wiki/Warcraft_III_World_Editor'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:16:57,103 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:17:10,164 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:17:10,166 [WARNING] 来源不足（2/3），扩大搜索...
+2026-05-21 08:17:10,447 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:17:10,549 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E5%85%89%E7%8E%AF%E4%B8%8E%E5%A2%9E%E7%9B%8A%E6%95%88%E6%9E%9C%E7%BC%96%E8%BE%91%20tutorial%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:17:10,696 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E5%85%89%E7%8E%AF%E4%B8%8E%E5%A2%9E%E7%9B%8A%E6%95%88%E6%9E%9C%E7%BC%96%E8%BE%91+tutorial+guide&limit=1 200
+2026-05-21 08:17:11,086 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+%E5%85%89%E7%8E%AF%E4%B8%8E%E5%A2%9E%E7%9B%8A%E6%95%88%E6%9E%9C%E7%BC%96%E8%BE%91+tutorial+guide 403
+2026-05-21 08:17:11,371 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:17:11,893 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:17:11,919 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 光环与增益效果编辑 tutorial guide
+2026-05-21 08:17:11,919 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-21 08:17:11,920 [INFO] ✍️  WriterAgent 开始: 光环与增益效果编辑 (loop 0)
+2026-05-21 08:17:11,921 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:17:20,725 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:17:20,727 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-21 08:17:20,727 [INFO] ✍️  WriterAgent 开始: 物品编辑器与物品系统 (loop 0)
+2026-05-21 08:17:20,728 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:17:31,664 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:17:31,666 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:17:49,839 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:17:49,840 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-21 08:17:49,840 [INFO] ✍️  WriterAgent 开始: 升级编辑器 (loop 0)
+2026-05-21 08:17:49,841 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:17:55,294 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:17:55,296 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:17:58,745 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:17:58,747 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:18:13,840 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:18:13,842 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:18:18,930 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:18:18,932 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:18:31,989 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:18:31,991 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:18:32,453 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:18:32,455 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:18:39,952 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:18:39,954 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:18:51,589 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:18:51,591 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:18:55,210 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:18:55,212 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:18:57,208 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:18:57,210 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:19:14,958 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:19:14,959 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:19:21,368 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:19:21,370 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:19:25,312 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:19:25,314 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:19:38,221 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:19:38,222 [INFO] ✅ WriterAgent 完成: 8009 字符, 3/3 来源被引用
+2026-05-21 08:19:38,223 [INFO] 🔎 ReviewerAgent 开始: 光环与增益效果编辑
+2026-05-21 08:19:38,224 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:19:48,955 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:19:48,956 [INFO] ✅ WriterAgent 完成: 6196 字符, 3/3 来源被引用
+2026-05-21 08:19:48,956 [INFO] 🔎 ReviewerAgent 开始: 物品编辑器与物品系统
+2026-05-21 08:19:48,957 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:19:59,160 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:19:59,162 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:20:03,725 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:20:03,726 [INFO] ✅ 通过 ReviewerAgent: overall=0.83 (A=0.82 C=0.85 R=0.90 Cit=0.70)
+2026-05-21 08:20:03,726 [INFO]   反馈 5 条:
+2026-05-21 08:20:03,727 [INFO]   [missing_citation] 在游戏中，Buff显示为绿色图标，Debuff显示为红色/紫色图标，区别非常直观。...
+2026-05-21 08:20:03,727 [INFO]   [missing_citation] 建议初始设置间隔为0.5-1秒...
+2026-05-21 08:20:03,727 [INFO]   [missing_citation] 如果设成0秒，游戏会卡顿甚至崩溃...
+2026-05-21 08:20:03,727 [INFO]   [missing_citation] 光环和Buff的实现方式完全不同 [...] 实现方式：通常用技能(技能书+通道技能)实现 | 用触发器或技能附加...
+2026-05-21 08:20:03,727 [INFO]   [missing_citation] 建议新手从'属性光环'开始练习，因为它的配置最简单，参数一目了然。...
+2026-05-21 08:20:03,727 [INFO] ✅ 质量通过 (loop 0): score=0.83
+2026-05-21 08:20:03,727 [INFO] 📄 文章写入: docs/object-editor/光环与增益效果编辑.md

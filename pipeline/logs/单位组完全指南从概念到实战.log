@@ -1,0 +1,634 @@
+2026-05-21 08:37:21,066 [INFO] 📐 PlannerAgent 开始: 单位组完全指南：从概念到实战
+2026-05-21 08:37:21,067 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:37:33,057 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:37:33,059 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:37:40,078 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:37:40,079 [INFO] ✅ PlannerAgent 完成: 7 节, 24 个查询
+2026-05-21 08:37:40,079 [INFO] 🔍 ResearcherAgent 开始: 萌新必学的5个触发器模板：实战案例直接套用 (24 查询)
+2026-05-21 08:37:40,080 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:37:42,433 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:37:42,434 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor trigger tutorial for beginners' | ZH='Warcraft 3 World Editor trigger tutorial for beginners'
+2026-05-21 08:37:42,686 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:37:42,696 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:37:42,781 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:37:42,796 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:37:43,001 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:43,028 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+tutorial+for+beginners&limit=1 200
+2026-05-21 08:37:43,141 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:43,193 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+tutorial+for+beginners&limit=1 200
+2026-05-21 08:37:43,355 [INFO] response: https://search.yahoo.com/search;_ylt=AbQcM9FCarodD5nNkb0A43eI;_ylu=VIX0H-xAl7JlRyVvePfSeiDnxCGv0Xgi5e_OVWT6z0cAfH4?p=Warcraft+3+World+Editor+trigger+tutorial+for+beginners 200
+2026-05-21 08:37:43,597 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:43,724 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:43,865 [INFO] response: https://search.yahoo.com/search;_ylt=wEcCkIpK6DMueP3hL7DXG0MX;_ylu=eKDC-qtFahsC5v5hzolKcf1aSkML8OOoT8sTII6kMOL2vxE?p=Warcraft+3+World+Editor+trigger+tutorial+for+beginners 200
+2026-05-21 08:37:44,422 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+trigger+tutorial+for+beginners 403
+2026-05-21 08:37:44,462 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2BWorld%2BEditor%2Btrigger%2Btutorial%2Bfor%2Bbeginners%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGNiIu9AGIjAjUGP52mfM1u6dYVHecIj-gTWZAChXBtFF82hIDvTodBHd5nt7BmLLhb6_EWURlZsyAnJSWgFD 429
+2026-05-21 08:37:44,596 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+tutorial+for+beginners&source=web 429
+2026-05-21 08:37:44,938 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2BWorld%2BEditor%2Btrigger%2Btutorial%2Bfor%2Bbeginners%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGNiIu9AGIjCFxK7_8ddaba4N6GVGbWBzo7HAufXsEjZqxCS-DWakKn4F0Bg3nCdIFvIZg1YMu40yAnJSWgFD 429
+2026-05-21 08:37:45,262 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:37:45,263 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-21 08:37:45,263 [INFO] 🔍 ResearcherAgent 开始: 单位组完全指南：从概念到实战 (21 查询)
+2026-05-21 08:37:45,264 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:37:45,677 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=361CB6577A4670E6401DBABAF42CB230EF67D764CFE7668D4EFB672369520F9581BA36F0ECA705DB0D285A6975B1C4D5F64B812FB4B4A8E97D98E5F3027C563271C6AA72A96E388891632837F23F82344FEEF51A337B91D807FD3B7AE3BFE4931E02C39E2F83A4561ECA81035BC2253F39B4E894F91FDDB85BC2CBFAFA67CD28A2994475658177BA0C474A8AC533A22F33CE8253D4B566FD75E88592EB532C8CAAD25CB6662D9545113F6DABBE2A80947D96FD8EF12B6D36257DAFD05543AC10EC2F51CDB66BA380AD5082109B25E72052B7237694110CCF6D24881D67329418D37B1BEA6D50516ADD32A2CD35188773D5C125&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMytXb3JsZCtFZGl0b3IrdHJpZ2dlcit0dXRvcmlhbCtmb3IrYmVnaW5uZXJzJndlYj0xJnNlYXJjaGlkPTQ5MTQxNTY%2C_0e357b3458c531f3ec6ce40c9258dd5f&t=2%252F1779352665%252F55f75056476d3bf59f2122e379ba9b7a&u=8729871582203388732&s=e50e6249b80cd36ba761b63ed65beefe 200
+2026-05-21 08:37:45,805 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=80E56877F428866EBC1E983193EF173DB7D043E2C369E932DCD9EA4563EBFB71DDC41CFDF3D6A0AB5B4078C09B9BFD8B68AF1AD5B5257E5A51FD0262CF535BD9D8873F3F923A33EA499F7D12E0E578FB1F15DBDA020E8782243FD3A0540528CACFAD1FEA25002ED5FDE071BB4417C6B9FFA40331F5D4E92E47D4AD210346618059A95EC87BA33CBFEFDA8F5766A00A4C2521B2984A43E94AB1A403FB2152CED16B65644DCCA40DCF80BF9E4EFDA8E027C3FCAEA0A851E457794A2747A35C0831392BD53349265E8D38BBF478D33351546B7828613D237E4100DDB137D69D97DD5FE552A9BFB4F0A9A865709F4DED1BBCB25922&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMytXb3JsZCtFZGl0b3IrdHJpZ2dlcit0dXRvcmlhbCtmb3IrYmVnaW5uZXJzJndlYj0xJnNlYXJjaGlkPTQzMzUyNTA%2C_0acdea837ab41772c94e8e9b2ef71124&t=2%252F1779352665%252Ff39a0272a219917642b0f0a44a9c00d3&u=8729871591061758863&s=5128a57bb013dfa3410dc6998cae6d15 200
+2026-05-21 08:37:45,846 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+tutorial+for+beginners&source=web 429
+2026-05-21 08:37:45,848 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:37:45,848 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 World Editor trigger tutorial
+2026-05-21 08:37:46,224 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+trigger+tutorial+for+beginners 403
+2026-05-21 08:37:46,225 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:37:46,225 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 World Editor trigger tutorial
+2026-05-21 08:37:46,226 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:37:48,044 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:37:48,045 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor trigger unit group tutorial for beginners' | ZH='Warcraft 3 World Editor trigger unit group tutorial for beginners'
+2026-05-21 08:37:48,323 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:37:48,332 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:37:48,406 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20unit%20group%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:37:48,433 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20unit%20group%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:37:48,637 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+unit+group+tutorial+for+beginners&limit=1 200
+2026-05-21 08:37:48,817 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:37:48,818 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger tutorial for beginners' | ZH='WC3 触发器 入门 教程 从零开始'
+2026-05-21 08:37:48,890 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+unit+group+tutorial+for+beginners&limit=1 200
+2026-05-21 08:37:48,939 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+trigger+unit+group+tutorial+for+beginners 403
+2026-05-21 08:37:49,087 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:37:49,094 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:37:49,170 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:37:49,174 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%20%E6%95%99%E7%A8%8B%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:37:49,215 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+tutorial+for+beginners&source=web 429
+2026-05-21 08:37:49,255 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+tutorial+for+beginners&limit=1 200
+2026-05-21 08:37:49,290 [INFO] response: https://search.yahoo.com/search;_ylt=iCUMznV4O6R-GpSYqffMu0U0;_ylu=I5rqMzvoIJIRZ2aPokHhmsVrXut0UC5xscI24G-vvzwmlqY?p=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B+%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B 200
+2026-05-21 08:37:49,327 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B+%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B&limit=1 200
+2026-05-21 08:37:49,389 [INFO] response: https://search.yahoo.com/search;_ylt=I1NwHHRuJtky83PEL2knLpxQ;_ylu=xt6vnJpfXQXupeCymvEs8j1qGo30XTRbmPgsxxe7nze02kI?p=Warcraft+3+trigger+tutorial+for+beginners 200
+2026-05-21 08:37:49,390 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2BWorld%2BEditor%2Btrigger%2Bunit%2Bgroup%2Btutorial%2Bfor%2Bbeginners%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGN2Iu9AGIjA6Ms4NU4DbodvG9pzTF4UNHv2yjU0zrTc8onFDAFIgTVI_OzMv3NFzbDu5GpMluBYyAnJSWgFD 429
+2026-05-21 08:37:49,741 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:49,867 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+trigger+unit+group+tutorial+for+beginners 403
+2026-05-21 08:37:49,875 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:49,988 [INFO] response: https://search.yahoo.com/search;_ylt=vdY4fm5o8DXSmJ0Lxn4wdeaL;_ylu=_Jy0o4YMyY_8JjwkTFP2oCqdtcgVGjz5GstdUC1oLzq-FLE?p=Warcraft+3+World+Editor+trigger+unit+group+tutorial+for+beginners 200
+2026-05-21 08:37:50,285 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2Btrigger%2Btutorial%2Bfor%2Bbeginners%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGN6Iu9AGIjBHjGd5wxw4JvJZRYGHWFw0ZnUQzK8V9wZ8QfilbcgvEu2L2u4UvVEcRjolvBG6At8yAnJSWgFD 429
+2026-05-21 08:37:50,399 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%2B%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%2B%25E5%2585%25A5%25E9%2597%25A8%2B%25E6%2595%2599%25E7%25A8%258B%2B%25E4%25BB%258E%25E9%259B%25B6%25E5%25BC%2580%25E5%25A7%258B%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGN2Iu9AGIjAiWT-hhFSrBoitD92DfLhiZKghsmb9cNtIf7nar2WajOp6C8s2KMLnFEnytwBJfIoyAnJSWgFD 429
+2026-05-21 08:37:50,438 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:50,566 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2BWorld%2BEditor%2Btrigger%2Bunit%2Bgroup%2Btutorial%2Bfor%2Bbeginners%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGN6Iu9AGIjAMlHZlaXXJKMGMFR-fH_ceLe57MzU45NL801CJNwnVoKfWkKsZFx26oiGVhyXXTVMyAnJSWgFD 429
+2026-05-21 08:37:50,566 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:50,610 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+unit+group+tutorial+for+beginners&source=web 429
+2026-05-21 08:37:50,887 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+trigger+unit+group+tutorial+for+beginners&web=1&searchid=8662938 200
+2026-05-21 08:37:50,932 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger unit gro
+2026-05-21 08:37:51,311 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=4FE09A6517017E49A6C45886407E2E174F4D4BB081F87D17A8FB49E0FC938874D71D0DA14FE2E9E973F58CEA74C599B2BB935BF6306E0CC746164994A17EB315C73E48803319EC96CA7ADD3CAA00354714179542B077A54AD7E2C06AB1DA50A64B8C843E4D343BCBB3017F0AC2ECE32B7C0A6532244BABC7787F1AC52EDDDA69488939F205A231143F7901DE2433C3F7A01D97908581D35312E245A746959D92203FE4A17DABF7B2E7A1E9A7F7A3A5CB87340BBFEB96EA995B5E47301A88F7852ABE305C55909863117C68D8BFFD0F4ECE3050BC671ABE2283AE129921EA57E5FAEC9B1AF0DB6A6449FA9DAD112038C2CD4F90&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzKyVFOCVBNyVBNiVFNSU4RiU5MSVFNSU5OSVBOCslRTUlODUlQTUlRTklOTclQTgrJUU2JTk1JTk5JUU3JUE4JThCKyVFNCVCQiU4RSVFOSU5QiVCNiVFNSVCQyU4MCVFNSVBNyU4QiZ3ZWI9MSZzZWFyY2hpZD05NDk5Mjg1_1ad473257c84d3246a86f81237c14b50&t=2%252F1779352670%252Fd482602c53fc175d226e3aab9feb6cc6&u=8729871958549898078&s=a41c5421c2f9871f3e78914c0ff3e749 200
+2026-05-21 08:37:51,478 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:51,511 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=BDC80E31548559027DDD9F6DD036AA899B24B18AA0EDA90345D3C1060167D3FB0DFA425BF6CD8360FD6EE3A0A153ADFBF70BE2077099B1F884D8B24CD30D5E1A6347CC0908811FC96A3078B42FC62A5108B45627A68EC652C6B61A55B837003C41825EC71D807BB14B8BC6845237992E409FC5EA62EB47A0725BBE769C9DCA7152D2F28AFCFDFDB6EF3C71C005EF19A09AFA00D89C2B9717E55D6E523D5E2523BE21A16D5539A2A9D41B00627A0E87EA54625F5DFC476B7F91F0118FE09C25F4487B55A05DAB065A321F89881E01889817318D382C33F181DF1FA05ABDA967E3AFA0B0A3FB22B61D121FEC1712D6F228DF5EE2&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMyt0cmlnZ2VyK3R1dG9yaWFsK2ZvcitiZWdpbm5lcnMmd2ViPTEmc2VhcmNoaWQ9NjU1NjEwMw%2C%2C_9cdf36601e74491b4a60a9af691d79ff&t=2%252F1779352671%252F5e971b33bb2fb6dd04f757934e73cfb2&u=8729871971703859483&s=c656b21b999ec238af2bb2618c268ed8 200
+2026-05-21 08:37:51,632 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:51,650 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+trigger+unit+group+tutorial+for+beginners&web=1&searchid=5286697 200
+2026-05-21 08:37:51,675 [INFO] response: https://search.brave.com/search?q=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B+%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B&source=web 429
+2026-05-21 08:37:51,697 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger unit gro
+2026-05-21 08:37:51,699 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:37:52,033 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+trigger+tutorial+for+beginners 403
+2026-05-21 08:37:52,033 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:37:52,034 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 trigger tutorial for beginner
+2026-05-21 08:37:52,153 [INFO] response: https://www.mojeek.com/search?q=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B+%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B 403
+2026-05-21 08:37:52,153 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%85%A5%E9%97%A8%20%E6%95%99%E7%A8%8B%20%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:37:52,154 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 触发器 入门 教程 从零开始
+2026-05-21 08:37:52,154 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:37:54,402 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:37:54,403 [INFO] 🌐 双语查询: EN='WC3 单位组 触发器 完全指南 新手教程' | ZH='WC3 单位组 触发器 完全指南 新手教程'
+2026-05-21 08:37:54,670 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:37:54,687 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:37:54,747 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%8D%95%E4%BD%8D%E7%BB%84%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:37:54,760 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%8D%95%E4%BD%8D%E7%BB%84%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:37:54,802 [INFO] response: https://search.brave.com/search?q=WC3+%E5%8D%95%E4%BD%8D%E7%BB%84+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 429
+2026-05-21 08:37:54,933 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%8D%95%E4%BD%8D%E7%BB%84+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-21 08:37:55,331 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:37:55,331 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG trigger system guide' | ZH='Warcraft 3 RPG trigger system guide'
+2026-05-21 08:37:55,583 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:37:55,598 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:37:55,599 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%8D%95%E4%BD%8D%E7%BB%84+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-21 08:37:55,617 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20trigger%20system%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:37:55,642 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=E9A8A5249CF72A20995A41AA0CC724E18A78E537403E0909B7C0C97E0066EB1906EF4C5C96EC0E831797081FC64B7B7F2A6EF9CF42501160518F4DAAABCEB2A43ABC726A3F71488CE66B2ABA49F7CD004869E3DB71E6AE3205E0D28C6236F8CF8E64B31D10C39E2C5804521B2313C64B46B6836EE6FFB9BFC79A0B8F4F64F75087395741C2577DE133F0D7A596EB6094779267E4CAE9BCE8AB06666C79E8737CDD0A472D90B832D146364C22E9D8B398CD0BBA8DE2E151C7DCC0F8E21A9264ABB541B7212A946611DE3C7B6E30E8E98F71D480D081D3819497DB33858A88A5D2CE316E7D9D3460ED8E5EDFCFA0746D910BFEE1&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzKyVFNSU4RCU5NSVFNCVCRCU4RCVFNyVCQiU4NCslRTglQTclQTYlRTUlOEYlOTElRTUlOTklQTgrJUU1JUFFJThDJUU1JTg1JUE4JUU2JThDJTg3JUU1JThEJTk3KyVFNiU5NiVCMCVFNiU4OSU4QiVFNiU5NSU5OSVFNyVBOCU4QiZ3ZWI9MSZzZWFyY2hpZD0xMDgxMjk5_2d7843217a0c3766dc0a8a831fd52c91&t=2%252F1779352675%252Fb4966cfdfd0dd166e9a94a7475e26352&u=8729872249869476757&s=46746b00b24561dca1b0050ae453f85e 200
+2026-05-21 08:37:55,675 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20trigger%20system%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:37:55,733 [INFO] response: https://search.yahoo.com/search;_ylt=grz6nzGo8QU_l0uveO7p64dU;_ylu=8kTct_ONhuyQ-6NVvlfKYvTUqIG_leHzkDqVq7Tk3oeghpY?p=Warcraft+3+RPG+trigger+system+guide 200
+2026-05-21 08:37:55,775 [INFO] response: https://search.yahoo.com/search;_ylt=d1PaxK7szxJuwwgx9S5muYEP;_ylu=kiy7Tz7pk4xf8qYttzE9oAn-LMEDjnuoaBCqMIKN8JQLMgA?p=WC3+%E5%8D%95%E4%BD%8D%E7%BB%84+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-05-21 08:37:55,858 [INFO] response: https://search.brave.com/search?q=WC3+%E5%8D%95%E4%BD%8D%E7%BB%84+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 429
+2026-05-21 08:37:55,862 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:55,866 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+RPG+trigger+system+guide&limit=1 200
+2026-05-21 08:37:55,908 [INFO] response: https://search.brave.com/search?q=Warcraft+3+RPG+trigger+system+guide&source=web 429
+2026-05-21 08:37:55,984 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:55,985 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+RPG+trigger+system+guide&limit=1 200
+2026-05-21 08:37:56,152 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%2B%25E5%258D%2595%25E4%25BD%258D%25E7%25BB%2584%2B%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%2B%25E5%25AE%258C%25E5%2585%25A8%25E6%258C%2587%25E5%258D%2597%2B%25E6%2596%25B0%25E6%2589%258B%25E6%2595%2599%25E7%25A8%258B%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGOOIu9AGIjDZ2M_h0TQtfgu8MgQ5ZFAb7OK88zs2pxAofj47RPpHM56UgAxxs8mSeE5EOLTcxT4yAnJSWgFD 429
+2026-05-21 08:37:56,319 [INFO] response: https://search.yahoo.com/search;_ylt=mNcDKt_DHq3bz5BokCiED0Lc;_ylu=Cil1OETs4QAOFn0TRzVTIAUvaarexrSCwd_Fn5wo-ZX-x9Y?p=WC3+%E5%8D%95%E4%BD%8D%E7%BB%84+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-05-21 08:37:56,460 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+RPG+trigger+system+guide 403
+2026-05-21 08:37:56,726 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2BRPG%2Btrigger%2Bsystem%2Bguide%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGOSIu9AGIjBKAJYSc2DXF_VTTilodXSFV8ivM3K9-MqWcY2pV1uJzq96cJdlsCUim_vL-wk8V0YyAnJSWgFD 429
+2026-05-21 08:37:56,897 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+RPG+trigger+system+guide&web=1&searchid=9455386 200
+2026-05-21 08:37:56,941 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 RPG trigger system guide
+2026-05-21 08:37:56,989 [INFO] response: https://www.mojeek.com/search?q=WC3+%E5%8D%95%E4%BD%8D%E7%BB%84+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 403
+2026-05-21 08:37:57,249 [INFO] response: https://yandex.com/search/site/?text=WC3+%E5%8D%95%E4%BD%8D%E7%BB%84+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&web=1&searchid=2011614 200
+2026-05-21 08:37:57,296 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 单位组 触发器 完全指南 新手教程
+2026-05-21 08:37:57,343 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%2B%25E5%258D%2595%25E4%25BD%258D%25E7%25BB%2584%2B%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%2B%25E5%25AE%258C%25E5%2585%25A8%25E6%258C%2587%25E5%258D%2597%2B%25E6%2596%25B0%25E6%2589%258B%25E6%2595%2599%25E7%25A8%258B%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGOWIu9AGIjDRpxH4srdKeDTEshAnLAsoEoW2ebUex5uBG-b3PLqZwpHMp2iKfcFuTr0IowoUbiMyAnJSWgFD 429
+2026-05-21 08:37:57,523 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:57,616 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=F02C488BEA8ED06CFDE19835836A7E8DEBD78C1A9C6F27904706DAC0E30F547CCDABF123A1C56CD4F000874377B43447B8CC59C9D5197DF3F8C4580890FC7FEADD886166545ECD289071CFAA902A7D4AA84C88BAF226541DA4D4A19A17A24DB584C69BA125E8D3918005BE1EA349A102423DA10EEC6BE6E89DAA76D38B836E6531C474E2A522A4770DDF061C704B73167D7C9EEEE2EFB41617237C457874369A4F5FCD257C3E17E9EBA07AAF2D56FB757D1BAD4F93EBDEC5298997453D1F45409356D3B3A07F760F7AC546C9FECC7B2A1598BA9364094316E6CA33F1581B99FA2D3B8A87E240090BA7DE8C10249E15E5EE8F2B&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMytSUEcrdHJpZ2dlcitzeXN0ZW0rZ3VpZGUmd2ViPTEmc2VhcmNoaWQ9MjUwODc3MQ%2C%2C_df9fad8f1664a82ae5c14d446350efc6&t=2%252F1779352677%252F92028af393080f0063d9048e2bafd3ea&u=8729872382476591988&s=508dd3ccc5c03fe66b5658f665c01b87 200
+2026-05-21 08:37:57,650 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:37:57,652 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%8D%95%E4%BD%8D%E7%BB%84%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:37:57,652 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 单位组 触发器 完全指南 新手教程
+2026-05-21 08:37:57,653 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:37:57,750 [INFO] response: https://search.yahoo.com/search;_ylt=XzOL4EpjN2buEoIPsS5qTH4b;_ylu=CIyYuZRvfC31yoiY-1eDoCnYwyHQNWGSS3T2i-KU2f4AVBE?p=Warcraft+3+RPG+trigger+system+guide 200
+2026-05-21 08:37:57,804 [INFO] response: https://search.brave.com/search?q=Warcraft+3+RPG+trigger+system+guide&source=web 429
+2026-05-21 08:37:58,491 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20trigger%20system%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:37:58,491 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 RPG trigger system guide
+2026-05-21 08:37:58,492 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:37:59,162 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:37:59,163 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:38:00,027 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:38:00,029 [INFO] 🌐 双语查询: EN='Warcraft 3 unit group GUI vs JASS guide' | ZH='Warcraft 3 unit group GUI vs JASS guide'
+2026-05-21 08:38:00,307 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:00,316 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:00,352 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20unit%20group%20GUI%20vs%20JASS%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:00,409 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20unit%20group%20GUI%20vs%20JASS%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:00,469 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+unit+group+GUI+vs+JASS+guide&limit=1 200
+2026-05-21 08:38:00,493 [INFO] response: https://search.yahoo.com/search;_ylt=Q8yNPzQQaV6IEM56Vn-4Od44;_ylu=9eRE1n8Gg2Fgryy4WNTyR0QKKcfwYVBO-z2YowajPwvCK_U?p=Warcraft+3+unit+group+GUI+vs+JASS+guide 200
+2026-05-21 08:38:00,529 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:38:00,530 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger system tutorial beginner' | ZH='Warcraft 3 trigger system tutorial beginner'
+2026-05-21 08:38:00,578 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+unit+group+GUI+vs+JASS+guide&limit=1 200
+2026-05-21 08:38:00,803 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:00,808 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:00,843 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20tutorial%20beginner) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:00,848 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2Bunit%2Bgroup%2BGUI%2Bvs%2BJASS%2Bguide%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGOiIu9AGIjCVrdXxM1_N0alD9jJG_Yjc9HV3Nb21sh4tAWmTVT-rcgMY2yUJqd2vtP8HkD0KAXkyAnJSWgFD 429
+2026-05-21 08:38:00,904 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20tutorial%20beginner) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:01,015 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2Bunit%2Bgroup%2BGUI%2Bvs%2BJASS%2Bguide%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGOiIu9AGIjBwqt-To5OITBkBpNdmENaLRc7gDpUSqge53p7UqJfeeGJ-Jd_Q-HZXoxwG8JpBYRIyAnJSWgFD 429
+2026-05-21 08:38:01,033 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+system+tutorial+beginner&limit=1 200
+2026-05-21 08:38:01,148 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+system+tutorial+beginner&limit=1 200
+2026-05-21 08:38:01,360 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+unit+group+GUI+vs+JASS+guide 403
+2026-05-21 08:38:01,496 [INFO] response: https://search.yahoo.com/search;_ylt=610jJTAu2ZM3LhAuyMIMw-w7;_ylu=uNygd2kFVU_HR36xfyRjCmIl1WdiCEfQCODi1AbKiU6dgKk?p=Warcraft+3+unit+group+GUI+vs+JASS+guide 200
+2026-05-21 08:38:01,527 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+unit+group+GUI+vs+JASS+guide 403
+2026-05-21 08:38:01,542 [INFO] response: https://search.brave.com/search?q=Warcraft+3+unit+group+GUI+vs+JASS+guide&source=web 429
+2026-05-21 08:38:01,640 [INFO] response: https://search.yahoo.com/search;_ylt=fYbSq7nDQa3PK7Q5FP15mbio;_ylu=KhyMKdV21HHwnNTjvk8OFFMuWX3uAsdIaU63DRhBLs3p17M?p=Warcraft+3+trigger+system+tutorial+beginner 200
+2026-05-21 08:38:01,723 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=D5FD87BDCB16E4318CC4949DA5FDF8DAA9B0D463A7D9A6F4935A5F31171565FC3C2C9F0000477EC547DEAADCFEEC2F10F3AF77D435CCE7E963B82B34CEE4F632440B2EA8AE32B82CD0E7611D18354FC9BAD6A3D6EF82DAE1F94012EFE38B1EC1E0A0DDBEA29E72C8A4B3862CB7B700D28E2F808D04101AEDFF15A09CF88CA6638C7964C239B4E29F392844D8AA5794674DB8EC69D0C68B9C41F3DCD87873EB0B7F1F9761708EFA88A8CCA4F22C20BA7F4615D2137B4F4955D5C63DCE38C69CE72D089659E5F04781CA31795767A2B19188F3B7BE3B0F5C6D2DCB8B74D4FD4AADA1D2CDC76AAB1CEBB547260901E97B5F7F625B&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMyt0cmlnZ2VyK3N5c3RlbSt0dXRvcmlhbCtiZWdpbm5lciZ3ZWI9MSZzZWFyY2hpZD0xNjMwMjUy_77803c10bc33492c42182dfe50df2e5c&t=2%252F1779352681%252F33f8e13d71c76a3e903eb2b19875a609&u=8729872659167062300&s=fe04e5a61a7b73fc7aecc43239289435 200
+2026-05-21 08:38:01,770 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+system+tutorial+beginner&source=web 429
+2026-05-21 08:38:01,775 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:01,914 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:02,358 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=B95C43F87697C8060ADD5DDEFF2AD8DA0009F8AC67FD2FE0AD35C7E653A6FD6E2E86380A1400A5FE520476EABC69B165B1A39400F013009CE414CF8F7024546F4DA1F0ABCA7B9552930E8693C07782794A5E6FD28451D8AE3BA91A05FF326CE70456AC6657C0B7F9A8365E8311C7F155E06163083CD01C46714FB403A5B20423C6391F6B22B7F83F1E43904B70292C83C9F795457C3B3E512BAE53B8D66E6970DB0943E3244A230D3937B62561C94EF6C4048E5AE3E0E435EED58058FDCF65C78AD7B80A553A64CD60CC21F861BF36FD9ACC9B90DAD59B7DD1A35EEB2548346352E33378501781261F7EB985F82CAA8DFE38AF&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMyt1bml0K2dyb3VwK0dVSSt2cytKQVNTK2d1aWRlJndlYj0xJnNlYXJjaGlkPTc1MjAxNzQ%2C_2a805036c01e99da20b4c7320c7f4895&t=2%252F1779352682%252F3fffa245c42785ab5e611f8ddeadd1d4&u=8729872703391803864&s=b5840e8ab582dac02fe64b3362da0fdd 200
+2026-05-21 08:38:02,576 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:02,644 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+system+tutorial+beginner&web=1&searchid=8588000 200
+2026-05-21 08:38:02,674 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger system tutorial begin
+2026-05-21 08:38:02,742 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:02,822 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2Btrigger%2Bsystem%2Btutorial%2Bbeginner%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGOqIu9AGIjBJJUbU3D4bqpk07UAQSS4t83njgvuSMYAvxSh2UNneBLmNFZv2hv2Wz5FxuEeWerkyAnJSWgFD 429
+2026-05-21 08:38:02,824 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=7222023DC961398A6C7DDE15C783DEA1F2F1A0E489E1100F7B2B6441758E6895C6CAD350686FEF3F7EA2E2CF1C869F927F14A765BFF63FCCD083653210A75245A00201848DB1EC56E18697F89EA492A7A86AD572351A6F899088632842CA5D96F1BF1E7FC440FC6359260153C30D57ECE4F7A4E9F265352927B39F62477D1606C6CA8042D8B34F7BBBD76553259AD12369B570A23D2416FDC351842585BD6A38E63A91BB47BC5C6782AE027CBCBBA8A128D57E5EC637F60FA1AAB6BC9FBD8A6713AACC92DC19646E0A9E712759E4F069ED544F7AAB334D20525EC2411C4E23F6D4AF17D1844A86D4F2EDC243FB8A4D2269388E&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMyt1bml0K2dyb3VwK0dVSSt2cytKQVNTK2d1aWRlJndlYj0xJnNlYXJjaGlkPTE5MjA4OTI%2C_d288bcc9cc505b0e9c65f9b9e96d76c3&t=2%252F1779352682%252F67d31f77c3bc9800d6e622de09c5a5f8&u=8729872731913070883&s=82007aed176a8f4550e46d0ead753973 200
+2026-05-21 08:38:02,988 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:03,100 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:03,240 [INFO] response: https://search.yahoo.com/search;_ylt=ULLpduQfAcNwMV4FRzWxrbi3;_ylu=t1jYA1S55u6r6Jp9XWJkDaNwJ7eSeljBh8Zt2_L5tiKZ1Gg?p=Warcraft+3+trigger+system+tutorial+beginner 200
+2026-05-21 08:38:03,396 [INFO] response: https://search.brave.com/search?q=Warcraft+3+unit+group+GUI+vs+JASS+guide&source=web 429
+2026-05-21 08:38:03,400 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20unit%20group%20GUI%20vs%20JASS%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:38:03,400 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 unit group GUI vs JASS guide
+2026-05-21 08:38:03,418 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20unit%20group%20GUI%20vs%20JASS%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:38:03,418 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 unit group GUI vs JASS guide
+2026-05-21 08:38:03,420 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:38:03,734 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+trigger+system+tutorial+beginner 403
+2026-05-21 08:38:03,734 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20tutorial%20beginner) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:38:03,734 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 trigger system tutorial begin
+2026-05-21 08:38:03,735 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:38:06,626 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:38:06,627 [INFO] 🌐 双语查询: EN='Warcraft 3 unit group trigger tutorial' | ZH='魔兽争霸3 单位'
+2026-05-21 08:38:06,866 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:06,881 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:06,899 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20unit%20group%20trigger%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:06,920 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%8D%95%E4%BD%8D) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:06,964 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%95%E4%BD%8D&source=web 429
+2026-05-21 08:38:07,122 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:07,197 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%95%E4%BD%8D&limit=1 200
+2026-05-21 08:38:07,264 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+unit+group+trigger+tutorial&limit=1 200
+2026-05-21 08:38:07,332 [INFO] response: https://search.yahoo.com/search;_ylt=LSKG_ZtKwHFd7kg-qrmtKKBd;_ylu=v9VuvCE9psC9zuyZjM6aLYBDa-53F5sx_6INz4xYHkWTCcQ?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%95%E4%BD%8D 200
+2026-05-21 08:38:07,351 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:07,683 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2Bunit%2Bgroup%2Btrigger%2Btutorial%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGO-Iu9AGIjAaL3KFHsau2Z9_4la3bG7rj88t0HWvkoSmBrrGikGv9dM4lBsEyWV1dlMaYKSmkZYyAnJSWgFD 429
+2026-05-21 08:38:07,831 [INFO] response: https://search.yahoo.com/search;_ylt=w6zZo8D-2n8u1ZpmBP98t6Cr;_ylu=RRFKk6wKT2Rx904OobKXCTnHDpmmDYIdGGbryKGI6HeOFOY?p=Warcraft+3+unit+group+trigger+tutorial 200
+2026-05-21 08:38:07,898 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%95%E4%BD%8D 403
+2026-05-21 08:38:08,079 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:08,210 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:08,838 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+unit+group+trigger+tutorial&web=1&searchid=4643518 200
+2026-05-21 08:38:08,884 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 unit group trigger tutorial
+2026-05-21 08:38:09,128 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=EB2523170B65E994850C6DEFA4BF956105827DBF4BB001738C2D125F0408C3B8BC76E65196C6614D63C2886BF96DD858D9C2457E23D5C5AB2F8D71A913DD20A3E9513B5BCFAAA0003EC07725ECF2322F169AE8E392FADA988423434E9C8B73725452DE905D08E7F26BC6C72BC95BE74E19A015F44C4232BD8672FADB6E480E4C05AD1DFF5CB18331FD8ADB4D0A96DA59D3E295834AC3196E8CDCFA012FDC6CA52CE1911B9038E0503EBC9D17FA43086AAE7B66F966A3E697435B3A988E19657BDE402D91BFAA7131430AA179EBC61E816DE9FA503CBE087323A939DE00C8B3C751E37939DDF331558126F233D03248253D7AE9&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9JUU5JUFEJTk0JUU1JTg1JUJEJUU0JUJBJTg5JUU5JTlDJUI4MyslRTUlOEQlOTUlRTQlQkQlOEQmd2ViPTEmc2VhcmNoaWQ9MjgwNTM2Nw%2C%2C_a8967947ac8356036eff8d0e917ccfec&t=2%252F1779352688%252Fa20805f0ebe23b66a91534e6cd8603ae&u=8729873154027201435&s=a640b56c7bfb21134811eb492fc661eb 200
+2026-05-21 08:38:09,217 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:38:09,218 [INFO] 🌐 双语查询: EN='World Editor 触发器 新手教程' | ZH='World Editor 触发器 新手教程'
+2026-05-21 08:38:09,414 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E9%25AD%2594%25E5%2585%25BD%25E4%25BA%2589%25E9%259C%25B83%2B%25E5%258D%2595%25E4%25BD%258D%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGPGIu9AGIjC32JivH9fTSknUfyVP0tedD4t2Uyg8dcaZHccamPI-Yw--RAXe0xbVbbK9wgx2bzgyAnJSWgFD 429
+2026-05-21 08:38:09,464 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:09,480 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:09,501 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:09,515 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:09,648 [INFO] response: https://search.yahoo.com/search;_ylt=ZMFQ4mup9w0Uvqt4XNDNcCRi;_ylu=8Y8GmEmhndCvonCjqcKCMQwLae-Yw13G8bVdVaUmbFEoL5I?p=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-05-21 08:38:10,007 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%8D%95%E4%BD%8D) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:38:10,008 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | 魔兽争霸3 单位
+2026-05-21 08:38:10,009 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:38:10,068 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-21 08:38:10,225 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-21 08:38:10,377 [INFO] Error in engine duckduckgo: DDGSException("RemoteProtocolError: RemoteProtocolError('Server disconnected')")
+2026-05-21 08:38:10,604 [INFO] response: https://www.mojeek.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 403
+2026-05-21 08:38:10,646 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld%2BEditor%2B%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%2B%25E6%2596%25B0%25E6%2589%258B%25E6%2595%2599%25E7%25A8%258B%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGPKIu9AGIjAqOYhI7iyyRqGABucuMcuEiiYy0GaM8t4N4CRlr0vuJGXq7_GfZrhNc5S-3DAnHUYyAnJSWgFD 429
+2026-05-21 08:38:10,650 [INFO] response: https://search.brave.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 429
+2026-05-21 08:38:10,968 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWorld%2BEditor%2B%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%2B%25E6%2596%25B0%25E6%2589%258B%25E6%2595%2599%25E7%25A8%258B%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGPKIu9AGIjAonpyeXK748NoYaFlXoNLYcZVc5gVwgOMLfLN3zXWmh6IyWdnhwW6cSQUA3z8iqgwyAnJSWgFD 429
+2026-05-21 08:38:11,516 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=576BE63A964922F25C5CEC2D3B0108A69F5635C078BC50E5B33503582ECCF730A2C9D4442735CE5FECDA1D6190873E4C43007D43F0740E474E5372B1341B752073EE1F8DFEE7F609B43A8B359780DE9874F865F52E97CC2264EF95683C1328141B02C735CBAA92234C504C9A102D1A2EFA51515C7D2C96731FAE122319D18711CC38EB6E85D2D44A4CB2A7F9D7A4A5F4463F639B69391F40EF14AB4846A35755ACFBAC7CFD1FF2551CD7E4B7D1DCE244F119249398F6DBE16A0B002612FF4D9DB82849102A755F59A844A024CD1EFE11F1F13F2A690E4C16AD685D7AB637087416E1CFF9DC86FB82B1BDD7FD7AAC092DE27680&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V29ybGQrRWRpdG9yKyVFOCVBNyVBNiVFNSU4RiU5MSVFNSU5OSVBOCslRTYlOTYlQjAlRTYlODklOEIlRTYlOTUlOTklRTclQTglOEImd2ViPTEmc2VhcmNoaWQ9MzI1MjIxNA%2C%2C_27246e32a6c8c60a293df274c309c26e&t=2%252F1779352691%252F7b6374bad258c026125c0bf71d10bce6&u=8729873316162840951&s=5ac493321988f386da76f3178e155399 200
+2026-05-21 08:38:11,794 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=44E65ECD46A0276B1A7642945B60FB9BEB7C6DB8B894A10C40719FCC6FDF8F45E4A75A366E056C2E1CD2DD7E94484C76151242566059469809E6CA00E8F2F71C511AB99CF7466E4F2F49B6C7DF6D0E7C372A06F56430984BB1455FA0F59A7350AF7A6D34AD6D5B677B338F22E92BD750D78A4549AD5B9D90F601AF456563DC9A87DF13FF11B7D19D0B021CDDDBD88DC6828452495311F29A8E8E56472553591DDFC634699DAD9CF2F181508E3794C29EB6F5256ABCBD9379B95F35F846F4E7D5C72E3245ECCC2CCD376FC9D9D6B95497D4C1006993728100BFC2C8581A74092B1C2B635C6DDF9E5B6C4989C74984F2D7DCCC20&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V29ybGQrRWRpdG9yKyVFOCVBNyVBNiVFNSU4RiU5MSVFNSU5OSVBOCslRTYlOTYlQjAlRTYlODklOEIlRTYlOTUlOTklRTclQTglOEImd2ViPTEmc2VhcmNoaWQ9NTY4NDU2NQ%2C%2C_c689bc346c11520a22b3b2b8fc0a0387&t=2%252F1779352691%252F1ccb53ff176c450dbb15e6bd01413e01&u=8729873336227767184&s=413d615d7b9fdf675cda112578b04d74 200
+2026-05-21 08:38:11,909 [INFO] response: https://search.yahoo.com/search;_ylt=wIYcEtei2OSIze-n_mQcrxCk;_ylu=3yvkjplTy92ggC7LIT2SwFTB4C6hOYi26QPHKhFKW0rCyiE?p=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-05-21 08:38:12,086 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:38:12,087 [INFO] 🌐 双语查询: EN='Unit' | ZH='单位组 触发器 基础概念 WC3'
+2026-05-21 08:38:12,100 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:12,149 [INFO] response: https://www.mojeek.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 403
+2026-05-21 08:38:12,196 [INFO] response: https://search.brave.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 429
+2026-05-21 08:38:12,228 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:12,230 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:38:12,230 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | World Editor 触发器 新手教程
+2026-05-21 08:38:12,336 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:12,344 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:12,369 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:12,379 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Unit) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:12,457 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E5%8D%95%E4%BD%8D%E7%BB%84%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5%20WC3) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:12,502 [INFO] response: https://grokipedia.com/api/typeahead?query=Unit&limit=1 200
+2026-05-21 08:38:12,509 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:12,511 [WARNING] DuckDuckGo 搜索异常（已忽略）: RemoteProtocolError: RemoteProtocolError('Server disconnected')
+2026-05-21 08:38:12,511 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | World Editor 触发器 新手教程
+2026-05-21 08:38:12,513 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:38:12,607 [INFO] response: https://grokipedia.com/api/typeahead?query=%E5%8D%95%E4%BD%8D%E7%BB%84+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5+WC3&limit=1 200
+2026-05-21 08:38:12,857 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E5%258D%2595%25E4%25BD%258D%25E7%25BB%2584%2B%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%2B%25E5%259F%25BA%25E7%25A1%2580%25E6%25A6%2582%25E5%25BF%25B5%2BWC3%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGPSIu9AGIjCagJCA9_ZoNc7C8qQBcW4R3tLsDgT4OkRHyHezBLxBkpvBD7i4d063GQT78AH-Z04yAnJSWgFD 429
+2026-05-21 08:38:12,899 [INFO] response: https://search.brave.com/search?q=%E5%8D%95%E4%BD%8D%E7%BB%84+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5+WC3&source=web 429
+2026-05-21 08:38:12,911 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DUnit%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGPSIu9AGIjATUfYbUwOPUtYsDmRMLESej7F24bCWoA1eKUbmAonmiXVv1QtIPD8LaoQCakFZtFwyAnJSWgFD 429
+2026-05-21 08:38:12,960 [INFO] response: https://search.brave.com/search?q=Unit&source=web 429
+2026-05-21 08:38:13,917 [INFO] response: https://yandex.com/search/site/?text=%E5%8D%95%E4%BD%8D%E7%BB%84+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5+WC3&web=1&searchid=3374571 200
+2026-05-21 08:38:13,963 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 单位组 触发器 基础概念 WC3
+2026-05-21 08:38:16,405 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:38:16,406 [INFO] 🌐 双语查询: EN='WC3触发器是什么 入门' | ZH='WC3触发器是什么 入门'
+2026-05-21 08:38:16,668 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:16,672 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:16,750 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:16,781 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:16,793 [INFO] response: https://search.brave.com/search?q=WC3%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E5%85%A5%E9%97%A8&source=web 429
+2026-05-21 08:38:16,878 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-21 08:38:16,968 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-21 08:38:17,160 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%25E6%2598%25AF%25E4%25BB%2580%25E4%25B9%2588%2B%25E5%2585%25A5%25E9%2597%25A8%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGPiIu9AGIjByG4oN1_hTycIiLQ51sRkdVJ0pgONmlGvKyEAxpK7ds4o79qD-oqFr5HlLP-q2ZhsyAnJSWgFD 429
+2026-05-21 08:38:17,299 [INFO] response: https://search.yahoo.com/search;_ylt=IyEH3lS14yGdpwHxdpGtyVUh;_ylu=SbaYUes629O8josancuxw47BsT_Y_uJyzgAZyZVoKOyLbfQ?p=WC3%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E5%85%A5%E9%97%A8 200
+2026-05-21 08:38:17,681 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=A85F7A2C76EA6189D20C950DE78DB4141335A52662DFFE1580D6768408A887CE1A196B5E4F6C471F311D79857C7CFBCF0019F23FCA205561A635FFE39E1AEE93A3C22C4B80EBF36CF2BD2F6AAAE9A6DB72EE998D1B5569FCFC60FD0914DD51EE46FCF64B77D67C7AC188AB720EF4A2584F51B3F5C4AC5C881BC9ABA2891A639769D77B13B238ABFCC03517C9CE614F07A1EB97B139D493661415F6D7868C58A90ACB3FED3211AA3536057381231650A322DD03E6F0A11171C74380D4C33A3D5A098B26DA71B9CE968EB3FE983DD6C5C7E01CA25D5E4306363A72C1E0291202ABD629367C90298922B8C3F3827F2171C2E4A45D&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzJUU4JUE3JUE2JUU1JThGJTkxJUU1JTk5JUE4JUU2JTk4JUFGJUU0JUJCJTgwJUU0JUI5JTg4KyVFNSU4NSVBNSVFOSU5NyVBOCZ3ZWI9MSZzZWFyY2hpZD0xMjg3MzQz_d859606638ce010aebea0eca68bcf962&t=2%252F1779352697%252F3a445bd09991ec602fdc1947097988ff&u=8729873728815245719&s=b7f2af971254e0e17c51d31d0353e756 200
+2026-05-21 08:38:17,798 [INFO] response: https://www.mojeek.com/search?q=WC3%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E5%85%A5%E9%97%A8 403
+2026-05-21 08:38:17,884 [INFO] response: https://www.startpage.com/errors/ 200
+2026-05-21 08:38:17,965 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:38:18,027 [INFO] response: https://www.startpage.com/errors/ 200
+2026-05-21 08:38:18,063 [INFO] response: https://www.startpage.com/errors/ 200
+2026-05-21 08:38:18,093 [INFO] response: https://search.yahoo.com/search;_ylt=nMgvuUjQxYDLOPjRwdAsQA2l;_ylu=Wxx4_1q9NF4739BzRb8izml4qbDaM7--4kHoiLOwDBQvOP0?p=Unit 200
+2026-05-21 08:38:18,223 [INFO] response: https://www.startpage.com/errors/ 200
+2026-05-21 08:38:18,830 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=0D1017863110C387F88114F537766B22019EEB5A2CCB54EB2C55891E18154EEDA0D113894683FF773D9F2EE3355F661A6FDA3E055E5064BD85197B1575D6276C7989F7F1B447ED6CF9EF4476B96B70D4E955491B3701F0EF177D44C23A626F899C4E948086FB1D6364A705224A7DA021007BE83E9607B23D3B8FD735B1E1D01F665A6A680B0F867B5CD30E832C18C1335A21D28E8A27CF1C62596A7671999C7B456C8F20730453260FE92AFC1C1ECEA2103649C0901D79262EB774ADE961C1E980617A22C58AB696CB18B7743AC918175562C81EADEFF5B07FF21623C873058B0599F7AC90627FB192DB628515EC28BA8CC8B5&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9VW5pdCZ3ZWI9MSZzZWFyY2hpZD05Mzk2MDIx_e02e8147ac2596c9a2b03d67310f31c4&t=2%252F1779352698%252F96d82047fa809ddb7b142b492b2522b5&u=8729873807331992330&s=16a67b4a023d9cf0406f5871cef29ed5 200
+2026-05-21 08:38:19,328 [INFO] response: https://www.mojeek.com/search?q=Unit 403
+2026-05-21 08:38:19,601 [INFO] response: https://www.startpage.com/errors/ 200
+2026-05-21 08:38:19,767 [INFO] response: https://www.startpage.com/errors/ 200
+2026-05-21 08:38:19,769 [INFO] 🔍 DuckDuckGo 搜索: 1 条 | Unit
+2026-05-21 08:38:19,770 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:38:22,797 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:38:22,799 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:38:22,903 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:38:22,904 [INFO] 🌐 双语查询: EN='Warcraft 3 Unit Group vs Force 区别' | ZH='Warcraft 3 Unit Group vs Force 区别'
+2026-05-21 08:38:23,072 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:38:23,196 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:23,203 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:38:23,256 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:38:23,277 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Unit%20Group%20vs%20Force%20%E5%8C%BA%E5%88%AB) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:23,298 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Unit%20Group%20vs%20Force%20%E5%8C%BA%E5%88%AB) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:38:23,355 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Unit+Group+vs+Force+%E5%8C%BA%E5%88%AB&limit=1 200
+2026-05-21 08:38:23,390 [INFO] response: https://search.yahoo.com/search;_ylt=sUgjow2ZY-O_0qzkS-dEVX6B;_ylu=OuKC9GDMqSuUWVGKd5sDLeAoizPeL-AL15PNd0-Ug_KCxpE?p=Warcraft+3+Unit+Group+vs+Force+%E5%8C%BA%E5%88%AB 200
+2026-05-21 08:38:23,454 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:23,560 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%25E6%2598%25AF%25E4%25BB%2580%25E4%25B9%2588%2B%25E5%2585%25A5%25E9%2597%25A8%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGP-Iu9AGIjA8bYuBhLuHpX81wobcW7ywiHdwoevoeM9fSyJB-yjFOnn3h8jShb3QSB5AT4-nIfkyAnJSWgFD 429
+2026-05-21 08:38:23,585 [INFO] response: https://www.mojeek.com/search?q=WC3%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E5%85%A5%E9%97%A8 403
+2026-05-21 08:38:23,603 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Unit+Group+vs+Force+%E5%8C%BA%E5%88%AB&limit=1 200
+2026-05-21 08:38:23,603 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:23,647 [INFO] response: https://search.brave.com/search?q=Warcraft+3+Unit+Group+vs+Force+%E5%8C%BA%E5%88%AB&source=web 429
+2026-05-21 08:38:23,706 [INFO] response: https://search.yahoo.com/search;_ylt=w8Vls4okh86w4dEkKEU33qLS;_ylu=S4ox0I3YLD13tuE_bi5KIyJqFf0-L22A4lWKIOA1_aQIjPI?p=WC3%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E5%85%A5%E9%97%A8 200
+2026-05-21 08:38:23,778 [INFO] response: https://search.brave.com/search?q=WC3%E8%A7%A6%E5%8F%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88+%E5%85%A5%E9%97%A8&source=web 429
+2026-05-21 08:38:23,781 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:38:23,781 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3触发器是什么 入门
+2026-05-21 08:38:23,940 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2BUnit%2BGroup%2Bvs%2BForce%2B%25E5%258C%25BA%25E5%2588%25AB%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGP-Iu9AGIjD4QCkYt1hmYtC_wKbZe9vxhx6FVosNJbn-a9j8ua_zZCaUdZ6XNiLkrsLx3k7I8FQyAnJSWgFD 429
+2026-05-21 08:38:24,180 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=9C321EF079806E1304B2F047DE4A16825FE8E48CD2A6BFFCAAD42ED37E0D8D578FCAEBBFCB6453C41C7F734C16F736CF08C26FE697F4E6B7482459ABAD01D6A5ED71AFD4440B87CCA2144DDD48C86CD1515D07DA50320CBA250A8941DA43F1695FFD4B68837D4B650CCD2B4F9841551FED622C77EB4DCB069AAD3FCEB8F6E501552617EB1F161750535B5152CA21DD1D731C031B701A0F98275F5E1FCFA38EC2CF5D6BDDAF5FCF42C2622268B90681A30D9F6CE0BE563C0F5B6865538832A83EA8F90553873A5B49388BDBC6088E6D4309B3414E767D33A71E345BB17E05245D84E1CD7433CAF08A5E2D1A9964525C36E91E80&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzJUU4JUE3JUE2JUU1JThGJTkxJUU1JTk5JUE4JUU2JTk4JUFGJUU0JUJCJTgwJUU0JUI5JTg4KyVFNSU4NSVBNSVFOSU5NyVBOCZ3ZWI9MSZzZWFyY2hpZD0yNDY0MTky_af2ae359a9712630eaf97e0f0dd9ad86&t=2%252F1779352703%252Fcada29c5c89be8d08bfbb92eebba0bd9&u=8729874163278031318&s=031d6e14981996569a81807ed8622279 200
+2026-05-21 08:38:24,181 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:38:24,182 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3触发器是什么 入门
+2026-05-21 08:38:24,182 [INFO]   搜索阶段：收集到 9 条候选结果
+2026-05-21 08:38:24,257 [WARNING] ⚠️  抓取失败，已忽略: https://wowpedia.fandom.com/wiki/Warcraft_III:_Reign_of_Chaos — Client error '403 Forbidden' for url 'https://wowpedia.fandom.com/wiki/Warcraft_III:_Reign_of_Chaos'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:38:24,261 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/need-help-with-this-trigger.208940/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/need-help-with-this-trigger.208940/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:38:24,815 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=CCE2E21E9753A573AF5AD2D393FAABC3E834A08C058F19F9C10B69B2A61F54C0A127398DC12CBA20971B82DE8A769A05E68E6B895B68EB264CE77EB2AC4674AB6FFEADFF7ED00A149D30F88C7E75A64C49340267EA1C7E856998AB57D176CFAB6279711B048BA4AE53A158C573950188FEAB2C39A3EB7BDEAF781E96E66B7593A69D57666ABD1B9D08FBEDA879B8074832BF3AE94F6073D577424C8D76E17965F7BBA0C12FD3B087B3BECDC88BFA47D2FB4252A6F7D11756CCFD100830C99D3B61E16DFD52F33BBFAC4D095AAE6FEBBEDD17181DDBDBD475276B6A5E060EB6D1200559AD10C50E656C0BF9D8C4CBE5A4C8D315&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMytVbml0K0dyb3VwK3ZzK0ZvcmNlKyVFNSU4QyVCQSVFNSU4OCVBQiZ3ZWI9MSZzZWFyY2hpZD00OTk3NTE2_84fc2e62a23d0f7543caf6d761e18faa&t=2%252F1779352704%252F435d696818ff7e7b89457855ee80710f&u=8729874208642999230&s=d351554129e422569005f7b6996ab2f1 200
+2026-05-21 08:38:24,980 [INFO] response: https://search.yahoo.com/search;_ylt=o7G3_BYSLvi-oN-q5gBdLgAB;_ylu=_TxyZnE4TBuyMYmVu6GmNnrdtERgM18bvZ1foHkrtZnePtg?p=Warcraft+3+Unit+Group+vs+Force+%E5%8C%BA%E5%88%AB 200
+2026-05-21 08:38:25,711 [WARNING] ⚠️  抓取失败，已忽略: https://www.pcgamingwiki.com/wiki/List_of_games_that_support_PlayStation_adaptive_triggers — Client error '403 Forbidden' for url 'https://www.pcgamingwiki.com/wiki/List_of_games_that_support_PlayStation_adaptive_triggers'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:38:26,831 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:38:28,427 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:38:28,632 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:28,788 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:38:28,918 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+Unit+Group+vs+Force+%E5%8C%BA%E5%88%AB 403
+2026-05-21 08:38:29,783 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=9E46D323DF452255256B444D2FBA435F2DB919F2434545F0E27F39C2BB2E28CB39F3854E6176BC0EB1B55A4C88FE817E367BAFE4E520E5F3B3A874DD5AC85719C6C537676AE79FBF2FCBFCCA2CC32550098EA9A45C37B45C1AD87CC71E03515B51A8B56E5ADF742756C7066F24E9218D7B227BB53439B5E084DC69CA2946763186D900CC396CD367FA28F7D9399373406ED12D1335CCC449E11F19EBB629E853167256CD3C00A969361AB8CEB439FD476FB59A2B8B877E890BDC6734B5AE12B133039CDA1DDB1B5D0F9D961D30E5698B79B48BE87020DF5B759DEC242C9B05E434F23BB8971BDD31718C5C381F2132D2F65A9A&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMytVbml0K0dyb3VwK3ZzK0ZvcmNlKyVFNSU4QyVCQSVFNSU4OCVBQiZ3ZWI9MSZzZWFyY2hpZD0xNzE0OTM2_39b55fa6e34433868cca37881e4b9959&t=2%252F1779352709%252Fb0154e34bca6d86b241b7813f7f247fc&u=8729874542442488743&s=7467164a323e1f6e1a910a7408fd2884 200
+2026-05-21 08:38:29,997 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:38:30,145 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2BUnit%2BGroup%2Bvs%2BForce%2B%25E5%258C%25BA%25E5%2588%25AB%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGIWJu9AGIjB1gF57W4mrYCfRxYNt7FMxCfzx-r5qrnXjqVSeim-E3nS8NSkSSK_qrOY442xMOBoyAnJSWgFD 429
+2026-05-21 08:38:30,391 [INFO] response: https://search.brave.com/search?q=Warcraft+3+Unit+Group+vs+Force+%E5%8C%BA%E5%88%AB&source=web 429
+2026-05-21 08:38:30,392 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:38:30,393 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 Unit Group vs Force 区别
+2026-05-21 08:38:30,490 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+Unit+Group+vs+Force+%E5%8C%BA%E5%88%AB 403
+2026-05-21 08:38:30,490 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:38:30,490 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 Unit Group vs Force 区别
+2026-05-21 08:38:30,491 [INFO]   搜索阶段：收集到 21 条候选结果
+2026-05-21 08:38:30,546 [WARNING] ⚠️  抓取失败，已忽略: https://www.thehelper.net/threads/trigger-index-reference-tutorial.33512/ — Client error '403 Forbidden' for url 'https://www.thehelper.net/threads/trigger-index-reference-tutorial.33512/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:38:30,561 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=19780 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=19780'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:38:32,254 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:38:43,022 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:38:43,024 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:38:56,121 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:38:56,122 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-05-21 08:38:56,122 [INFO] ✍️  WriterAgent 开始: 萌新必学的5个触发器模板：实战案例直接套用 (loop 0)
+2026-05-21 08:38:56,123 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:39:03,689 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:39:03,691 [INFO] ✅ WriterAgent 完成: 6768 字符, 3/5 来源被引用
+2026-05-21 08:39:03,691 [INFO] 🔎 ReviewerAgent 开始: Wait动作的陷阱：为什么你的触发器不按预期执行
+2026-05-21 08:39:03,691 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:39:15,874 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:39:15,876 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:39:25,144 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:39:25,145 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 79 (char 261)
+2026-05-21 08:39:25,145 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-21 08:39:25,146 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-21 08:39:25,146 [INFO] 📄 文章写入: docs/triggers/wait动作的陷阱为什么你的触发器不按预期执行.md
+2026-05-21 08:39:25,148 [INFO] ✅ topics.json 已更新: trigger-wait-pitfalls → completed
+2026-05-21 08:39:25,148 [INFO] 📐 PlannerAgent 开始: 触发器循环完全指南：For和ForEach详解
+2026-05-21 08:39:25,149 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:39:39,870 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:39:39,872 [ERROR] ResearcherAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-05-21 08:39:39,872 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-05-21 08:39:39,872 [INFO] ✍️  WriterAgent 开始: 单位组完全指南：从概念到实战 (loop 0)
+2026-05-21 08:39:39,873 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:39:43,531 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:39:43,532 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:39:47,752 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:39:47,753 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-21 08:39:47,754 [INFO] 🔍 ResearcherAgent 开始: 触发器循环完全指南：For和ForEach详解 (21 查询)
+2026-05-21 08:39:47,754 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:39:51,041 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:39:51,042 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger 循环 教程 完全指南' | ZH='Warcraft 3 trigger 循环 教程 完全指南'
+2026-05-21 08:39:51,307 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:39:51,331 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:39:51,337 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20%E5%BE%AA%E7%8E%AF%20%E6%95%99%E7%A8%8B%20%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:39:51,361 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20%E5%BE%AA%E7%8E%AF%20%E6%95%99%E7%A8%8B%20%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:39:51,452 [INFO] response: https://search.yahoo.com/search;_ylt=9K54bEbCXQu12p79ZZj8V5z-;_ylu=c-WMC8whIFo0rdb0CO0vVLTv9bHQV8UkXuN2zYc0qGs6DPg?p=Warcraft+3+trigger+%E5%BE%AA%E7%8E%AF+%E6%95%99%E7%A8%8B+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97 200
+2026-05-21 08:39:51,742 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+%E5%BE%AA%E7%8E%AF+%E6%95%99%E7%A8%8B+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-21 08:39:51,871 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+%E5%BE%AA%E7%8E%AF+%E6%95%99%E7%A8%8B+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-21 08:39:52,217 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2Btrigger%2B%25E5%25BE%25AA%25E7%258E%25AF%2B%25E6%2595%2599%25E7%25A8%258B%2B%25E5%25AE%258C%25E5%2585%25A8%25E6%258C%2587%25E5%258D%2597%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGNeJu9AGIjDKEcL1P5stfheGnFmAwuw38aDtk1JRUe4KuOfdfams-vvmaVSZhgf0o7nNz28NRS4yAnJSWgFD 429
+2026-05-21 08:39:52,499 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=9334F123BA2750896EB4314779C6997796E3BAE3CA285D0A190AA4BB297A88771D7CBDB02013FDFBE9DE0DBB3B6979C5184CC309959DEBBE70A6B56950C99EAD507B1E2421060F0DCD25CB3B8AE1C0AC8A8823673DB2D50FEDE05FA9F052AB07F7E3980491D493F161EF0AFB33B2340A278504863F6A13FE0226E70AC3ABAA7EFF5C75072627830661743ABE552DECD3E8132DCF53DE5BCA3CBEC52C5FE0B835AB48ACE1C9131EFFDB1A4EA830564571BEE5C063F4B2276140D7A413315962687DB91B13059479C80A6A078BD9066679ABFDC72505D875AB80576C370C359EFE1F1689CAC40820984F23545EC4EE317F34D79F&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMyt0cmlnZ2VyKyVFNSVCRSVBQSVFNyU4RSVBRislRTYlOTUlOTklRTclQTglOEIrJUU1JUFFJThDJUU1JTg1JUE4JUU2JThDJTg3JUU1JThEJTk3JndlYj0xJnNlYXJjaGlkPTc0NzgwODU%2C_35981cb03983a9e0e1c87780bef5ec17&t=2%252F1779352792%252F7678777a5eab9c11a75a766c82ee5f89&u=8729880090265790722&s=10ed6c363987066c617324410ada5fda 200
+2026-05-21 08:39:52,705 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+trigger+%E5%BE%AA%E7%8E%AF+%E6%95%99%E7%A8%8B+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97 403
+2026-05-21 08:39:52,993 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+trigger+%E5%BE%AA%E7%8E%AF+%E6%95%99%E7%A8%8B+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97 403
+2026-05-21 08:39:53,054 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+%E5%BE%AA%E7%8E%AF+%E6%95%99%E7%A8%8B+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&source=web 429
+2026-05-21 08:39:53,334 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2Btrigger%2B%25E5%25BE%25AA%25E7%258E%25AF%2B%25E6%2595%2599%25E7%25A8%258B%2B%25E5%25AE%258C%25E5%2585%25A8%25E6%258C%2587%25E5%258D%2597%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGNmJu9AGIjCz_xnjr0mTkenteFs1zhiplcwxevhlP5I1t-ttnTXd0wlsahhoUfZTs1VLHqT8-j4yAnJSWgFD 429
+2026-05-21 08:39:53,621 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=9CD3A4FBBFAF64CDD16478248CC68FB572315581357D457EDDF4606EC1F54A6F83BCABEE726A6E9D117BD3429DAA9769E86B3DB73AD95901343CD7FFE88AC06B217F363BB447E07E893A4EC9B01D8928FC5DEB4AC71DE0CFA7AECD6E8FC5D0115DFB137849666E9197A9855BA97670EC80696087C69F0C5E5D0695B726CFEAE7A913C6315D6DC78C25D1B105CF08ECB6EB73AA02B555545BBC10A4C782FA447C485E61155A60463095E92F2DA2A0C4A98C2375E31C72754B6D3D19B889E1721810187B621EF1EED9418F32FD2DF346559C06DD8CC1AEB95DF2A69EC2C9C132D409C87D31C3CB8B0C25F378394CD70445E940B9&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMyt0cmlnZ2VyKyVFNSVCRSVBQSVFNyU4RSVBRislRTYlOTUlOTklRTclQTglOEIrJUU1JUFFJThDJUU1JTg1JUE4JUU2JThDJTg3JUU1JThEJTk3JndlYj0xJnNlYXJjaGlkPTExMjgxMjY%2C_b28460a8998dac0de797f5b9e04f8188&t=2%252F1779352793%252F2934d6c278bff6fcbad991f8ec0bc3be&u=8729880166500836308&s=2317313da136e89a39c70c7e702efa5a 200
+2026-05-21 08:39:58,346 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:39:58,475 [INFO] response: https://search.yahoo.com/search;_ylt=2kL9NTvtzlTi9tyhux8c5BiR;_ylu=Maj6DlRznJSOd3yzxCxMasYBEgnk8F-X7v1pG61LKo8tmn8?p=Warcraft+3+trigger+%E5%BE%AA%E7%8E%AF+%E6%95%99%E7%A8%8B+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97 200
+2026-05-21 08:39:58,506 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:39:58,625 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:39:58,630 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:39:58,631 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:39:58,632 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 trigger 循环 教程 完全指南
+2026-05-21 08:39:58,669 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+%E5%BE%AA%E7%8E%AF+%E6%95%99%E7%A8%8B+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&source=web 429
+2026-05-21 08:39:58,804 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:39:58,933 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:39:58,935 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:39:58,935 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 trigger 循环 教程 完全指南
+2026-05-21 08:39:58,936 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:40:01,768 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:40:01,769 [INFO] 🌐 双语查询: EN='WC3 触发器 For ForEach 详解' | ZH='WC3 触发器 For ForEach 详解'
+2026-05-21 08:40:01,862 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:40:01,864 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:40:02,045 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:40:02,065 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:40:02,077 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%20For%20ForEach%20%E8%AF%A6%E8%A7%A3) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:40:02,136 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E8%A7%A6%E5%8F%91%E5%99%A8%20For%20ForEach%20%E8%AF%A6%E8%A7%A3) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:40:02,318 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+For+ForEach+%E8%AF%A6%E8%A7%A3&limit=1 200
+2026-05-21 08:40:02,484 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%2B%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%2BFor%2BForEach%2B%25E8%25AF%25A6%25E8%25A7%25A3%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGOKJu9AGIjAiQwtzXAHnAEMp_0-BBDLQYYJeU1MJsNy1Pg7cbOwIdFunR862Hwppjn5srTfjh_gyAnJSWgFD 429
+2026-05-21 08:40:02,540 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+For+ForEach+%E8%AF%A6%E8%A7%A3&limit=1 200
+2026-05-21 08:40:02,573 [INFO] response: https://www.mojeek.com/search?q=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+For+ForEach+%E8%AF%A6%E8%A7%A3 403
+2026-05-21 08:40:07,548 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:40:07,581 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:40:07,592 [INFO] response: https://search.brave.com/search?q=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+For+ForEach+%E8%AF%A6%E8%A7%A3&source=web 429
+2026-05-21 08:40:07,615 [INFO] response: https://search.brave.com/search?q=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+For+ForEach+%E8%AF%A6%E8%A7%A3&source=web 429
+2026-05-21 08:40:08,131 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%2B%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%2BFor%2BForEach%2B%25E8%25AF%25A6%25E8%25A7%25A3%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGOeJu9AGIjBbPI2HACipjOljt1Xz6rUNLfjBNYdcS1MNE_MQDbhL9ZNDr-YWeE5ZdQ7RgilxY_8yAnJSWgFD 429
+2026-05-21 08:40:08,329 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:08,432 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=1AC6BBCD721BBCC55CB160C89E510C3B0BC989E05EDD0BF3E9BB212CBB2E52E98E35D703D9A5EA4AF202A56A69430D230662E6860BBA75274F1CEEC094A0643FDF96BE17B72C5D5E6B763002CFD19B3BAF415BA53A29394348CB68C39E272B9B9BBCFA0DE34A4CFA0F3763501B051B6BCA5371D33201F97F9617832815C1918B109910CE7421BB2170E76C95691B12E63729943E658F6907B19CB31564A33853D1AA5F765E95630B4534493A3E33E7D44533DA2A60654555305D7E700E7106C99D07D0E6483DA3A8B35C1EC13FEBB409238AE5EE0F73860434D1B6F3040B7407CA2A8F7921E5D6E93D0FDF17B58D8C7128EC03&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzKyVFOCVBNyVBNiVFNSU4RiU5MSVFNSU5OSVBOCtGb3IrRm9yRWFjaCslRTglQUYlQTYlRTglQTclQTMmd2ViPTEmc2VhcmNoaWQ9NDA2Mjg5Mw%2C%2C_a3bffd115665ad5faa1a380b54e49588&t=2%252F1779352808%252Fa98c235859790dce313038989dffb61e&u=8729881161658804721&s=e629a043408bcf0d6315fe1baa0ac3e0 200
+2026-05-21 08:40:08,478 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:08,668 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:08,793 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:08,946 [INFO] response: https://search.yahoo.com/search;_ylt=L3eUMFzfhbcXia7WXbWyVkJq;_ylu=X6-mZZzBIPaT0PVxzBqxovl00U-WwA-xpyppSGIo3TDtOvc?p=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+For+ForEach+%E8%AF%A6%E8%A7%A3 200
+2026-05-21 08:40:09,092 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:40:09,094 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:40:09,347 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=0DC917B19C24403B01C5E5087B10AFE6E5405475670A7D1230C46044A991794B51D17E3F5A8975E8E268BF17ED33EFC0760EED3D1BC0ECDC683503AC6E1A27552B7F0CDFFB74B56B0A5EB402195E62DC655270AC0C0C73DBEBDCB81866945914B7189397720EB16967B226562937067492CD55EC52159A9F921ACFC1298E941A3BBB06F1D4DC14D912ADDD580B41769FE582A7B986B2C661387AF5AE5C60802FD34EA60907B4CE7CCFC7D8FCD994E5C46D1846A5D13EB68D82B83CA6345AC7CD8F0AC50965B6EE59BF6476CE5991E7F502BF1CF912D311EC97034A5E07EB921DE63CFF28312210F68EC18E7BD5BF7590CD00C2&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzKyVFOCVBNyVBNiVFNSU4RiU5MSVFNSU5OSVBOCtGb3IrRm9yRWFjaCslRTglQUYlQTYlRTglQTclQTMmd2ViPTEmc2VhcmNoaWQ9MTMxMTAzMQ%2C%2C_286fad5987fda67c2225d4e8a6ee35d2&t=2%252F1779352808%252F47e3da94ecb1d2295ffabef3c0dab4af&u=8729881223868097452&s=9f978057308f803da9fd55bcdf4d9410 200
+2026-05-21 08:40:09,439 [INFO] response: https://www.mojeek.com/search?q=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+For+ForEach+%E8%AF%A6%E8%A7%A3 403
+2026-05-21 08:40:09,439 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:40:09,439 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 触发器 For ForEach 详解
+2026-05-21 08:40:09,478 [INFO] response: https://search.yahoo.com/search;_ylt=y22LDRkXjezCIsb_Xt74JoMv;_ylu=ENWA3Raea0Pww8w9yUOZ780D2CZy6ufWuNRkNQmTIZ34S3c?p=WC3+%E8%A7%A6%E5%8F%91%E5%99%A8+For+ForEach+%E8%AF%A6%E8%A7%A3 200
+2026-05-21 08:40:09,486 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:40:09,486 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 触发器 For ForEach 详解
+2026-05-21 08:40:09,487 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:40:12,412 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:40:12,413 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor loops beginner guide' | ZH='Warcraft 3 World Editor loops beginner guide'
+2026-05-21 08:40:12,665 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:40:12,676 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:40:12,700 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20loops%20beginner%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:40:12,716 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20loops%20beginner%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:40:12,816 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+loops+beginner+guide&limit=1 200
+2026-05-21 08:40:13,003 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2BWorld%2BEditor%2Bloops%2Bbeginner%2Bguide%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGOyJu9AGIjDme4e6EfM7RIUJtZiIDKxj0X8hvXDS8gy5fSkFx8AigAsHhNLnus5_JiyL2eV2WEUyAnJSWgFD 429
+2026-05-21 08:40:13,061 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+loops+beginner+guide&limit=1 200
+2026-05-21 08:40:13,203 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:13,254 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+loops+beginner+guide 403
+2026-05-21 08:40:13,480 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:14,124 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=50291F262B34D0DDDA4AB5767B0EAE3A5BC760A55560D7F7EFA5227AB8848B48EA4C85F9E5F514739FB3E5635A716A3D24F406BB3F4B542EBEFF68062F467A4E731559FA4D9EAABEE3FAFE8D9B06B0D6A71DBE096C0AC419A3A5CE8A5AA6EE58186EEF0E0047DC3EC0FBF75A9712A770643697F225794EDD5DB463717586853B94A54632F71D3CE5FC24F45E30A6CE6B4BA08362748D3B89F059EDA4CB61269AE734D3138947D0FB443586E901D7D458EA139C5E50FD4D7AB350A387CB78065EA92CDFD6D6B9D0418660B9D5035AD73FA79BFC03CCDCCF4F15CDA4DD542FCCBF8A35075136E19BF48022FB2C31C8A72EB1C54F&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMytXb3JsZCtFZGl0b3IrbG9vcHMrYmVnaW5uZXIrZ3VpZGUmd2ViPTEmc2VhcmNoaWQ9MTk0MjkyMQ%2C%2C_667141630be7a70c1b0b1cc45611dc82&t=2%252F1779352813%252F829032d4f281f58ca85737a4ed9491cf&u=8729881544648467325&s=f0bf4410b34f9dd7dd28c3aa523b2274 200
+2026-05-21 08:40:14,173 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+loops+beginner+guide&source=web 429
+2026-05-21 08:40:14,332 [INFO] response: https://search.yahoo.com/search;_ylt=6A4Z3qP0Vy0CY95PsFBzbRsW;_ylu=AtNaNhXIlfB77gaHQsLw2ml-l_Y4BbCRP91Gzn-DMBCkasU?p=Warcraft+3+World+Editor+loops+beginner+guide 200
+2026-05-21 08:40:14,398 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=F67265319CFFF5ADAF99AD32A88FE98F75D2B1099A52811F4CDFADCA5D5FD2663E6D85B0BBB43C738E5CE76993243528E5994488E76DFC3277D90A9CECAB0643617F7ED89C144799AE44902F69222076609B6EEDEE0601DBAD8BF60DD50AE5E10CE0FBD14B37A3B150400D34F7BD176F59733FA417C9CC33D054722A3A1714DC79AF40CB1003BB7CE78BC1200B51915F6E02FF0A1AC6A3BE2581E35AC4C97D238F2A0176131C63DF5B56D09951E7FCA549DD81B54709CC536495B7F2D79CE33E7DFE6D45B11C4B435FBDD3CB8ED7F4EBF4CF217902FB7F8109E984B5048AD78B9AA160FC574DBB767CAA6AD92CF7A373E401E5&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMytXb3JsZCtFZGl0b3IrbG9vcHMrYmVnaW5uZXIrZ3VpZGUmd2ViPTEmc2VhcmNoaWQ9Mjg2ODk0Nw%2C%2C_554f50fee51d8bdd9c9fe1b31a4c7462&t=2%252F1779352814%252Ff8441704585ebeac57ea616d80a21fa5&u=8729881560821703656&s=fd476a28ff8f0cbc8e89a0740d8924e7 200
+2026-05-21 08:40:14,446 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+loops+beginner+guide&source=web 429
+2026-05-21 08:40:14,479 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:14,701 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:14,941 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+loops+beginner+guide 403
+2026-05-21 08:40:15,055 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2BWorld%2BEditor%2Bloops%2Bbeginner%2Bguide%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGO6Ju9AGIjCt59BLOeWlDkbP2T3Shk2iobbHlcP4SwGfu2oWepsFqUYptQZs1I9-pgZSxXlr3aUyAnJSWgFD 429
+2026-05-21 08:40:15,073 [INFO] response: https://search.yahoo.com/search;_ylt=4IfBFfZLU1CSCYzr7L1IMA4u;_ylu=ib78k_7vKeOoOfUjBaj6hJ8JvTHrAs1dkDQpUY8EihYbsog?p=Warcraft+3+World+Editor+loops+beginner+guide 200
+2026-05-21 08:40:20,062 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20loops%20beginner%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:40:20,063 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 World Editor loops beginner g
+2026-05-21 08:40:20,086 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20loops%20beginner%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:40:20,087 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 World Editor loops beginner g
+2026-05-21 08:40:20,087 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:40:23,059 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:40:23,060 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger loop 基础' | ZH='Warcraft 3 trigger loop 基础'
+2026-05-21 08:40:23,316 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:40:23,328 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:40:23,348 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20loop%20%E5%9F%BA%E7%A1%80) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:40:23,363 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20loop%20%E5%9F%BA%E7%A1%80) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:40:23,392 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+loop+%E5%9F%BA%E7%A1%80&source=web 429
+2026-05-21 08:40:23,697 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+loop+%E5%9F%BA%E7%A1%80&limit=1 200
+2026-05-21 08:40:23,848 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+loop+%E5%9F%BA%E7%A1%80&limit=1 200
+2026-05-21 08:40:24,192 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+trigger+loop+%E5%9F%BA%E7%A1%80 403
+2026-05-21 08:40:24,349 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+loop+%E5%9F%BA%E7%A1%80&web=1&searchid=1580801 200
+2026-05-21 08:40:24,396 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger loop 基础
+2026-05-21 08:40:24,522 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2Btrigger%2Bloop%2B%25E5%259F%25BA%25E7%25A1%2580%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGPiJu9AGIjDHUiUgSnC6XsLl8WvNY5za-iIgLZA_-MTTvBhiUZrqP2qQtl2AjRgsB96aK2tzwL8yAnJSWgFD 429
+2026-05-21 08:40:27,524 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:40:27,526 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:40:29,543 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:40:29,731 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:29,870 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:30,499 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+loop+%E5%9F%BA%E7%A1%80&web=1&searchid=9339722 200
+2026-05-21 08:40:30,529 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger loop 基础
+2026-05-21 08:40:30,530 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:40:34,055 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:40:34,057 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:40:34,578 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:40:34,580 [INFO] 🌐 双语查询: EN='WC3 World Editor 循环 入门' | ZH='WC3 World Editor 循环 入门'
+2026-05-21 08:40:34,835 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:40:34,842 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:40:34,882 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20%E5%BE%AA%E7%8E%AF%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:40:34,944 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20%E5%BE%AA%E7%8E%AF%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:40:35,178 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+%E5%BE%AA%E7%8E%AF+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-21 08:40:35,307 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+%E5%BE%AA%E7%8E%AF+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-21 08:40:35,382 [INFO] response: https://www.mojeek.com/search?q=WC3+World+Editor+%E5%BE%AA%E7%8E%AF+%E5%85%A5%E9%97%A8 403
+2026-05-21 08:40:35,417 [INFO] response: https://www.mojeek.com/search?q=WC3+World+Editor+%E5%BE%AA%E7%8E%AF+%E5%85%A5%E9%97%A8 403
+2026-05-21 08:40:35,600 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:35,740 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:35,880 [INFO] response: https://search.yahoo.com/search;_ylt=988kxF9x6kIbQS-wtGeIis4q;_ylu=669pKhk0kRueXutkQ9LV-Yc96CfnyfhISWUMoQSxXeIKRFU?p=WC3+World+Editor+%E5%BE%AA%E7%8E%AF+%E5%85%A5%E9%97%A8 200
+2026-05-21 08:40:40,430 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:40:40,608 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:40,725 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%2BWorld%2BEditor%2B%25E5%25BE%25AA%25E7%258E%25AF%2B%25E5%2585%25A5%25E9%2597%25A8%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGIiKu9AGIjBJ3neXRT-rL6WBjB6R7_kZyJi6_sb-NqK6LIArWZ31UocYUbz-qDZrTXssrs8wfg0yAnJSWgFD 429
+2026-05-21 08:40:40,774 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:40,898 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:40:40,939 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+%E5%BE%AA%E7%8E%AF+%E5%85%A5%E9%97%A8&source=web 429
+2026-05-21 08:40:41,755 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=A4670FF2CC82C329C2FA6AA5AA612BC41A104891AD4B56CFB9B6A2406DA2E86D4C46BF01440019449F36DA7A44A7DD93A2EF126D2ABB5DFC46297DFA9CDF3A633C533E9EC79729B4E66DD312A182C5C66665EEBCDC65A1CF95C3C57659A531CE594E883AD5EF344A01CBAFD311829A0C20239C493DBD626F329033D3D4A0DAADD01A8A45ED1F8314195D438B94594E5AA519A163DD5DDE799A937E8C0764A0A20F232A37E619F423EB0AD8D69040DA9477FEC2DCC2FC02F3A243FE3C6D93442E93415E4C1BE3A9447FDB9084CAE4B9FB39D359DE31B25DF3970B53B1EC62E75FBAC3E14DCA42600BD3236DDEB707B9E8B92C13&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzK1dvcmxkK0VkaXRvcislRTUlQkUlQUElRTclOEUlQUYrJUU1JTg1JUE1JUU5JTk3JUE4JndlYj0xJnNlYXJjaGlkPTY5Njk2NDQ%2C_86628e5cbb5778b346a8432a040917ad&t=2%252F1779352841%252F5846675388f41e0a1231f06822b84523&u=8729883398799270770&s=bed651b6f034e851e1990ed9a6685cb8 200
+2026-05-21 08:40:41,806 [INFO] response: https://yandex.com/search/site/?text=WC3+World+Editor+%E5%BE%AA%E7%8E%AF+%E5%85%A5%E9%97%A8&web=1&searchid=1056088 200
+2026-05-21 08:40:41,853 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor 循环 入门
+2026-05-21 08:40:42,132 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%2BWorld%2BEditor%2B%25E5%25BE%25AA%25E7%258E%25AF%2B%25E5%2585%25A5%25E9%2597%25A8%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGImKu9AGIjAkbHEFerfxuYWSTW2Q3zRzr89iaXMoa6BTzPv1OJfygcPwU1pUNN0_k_aYUVBunGEyAnJSWgFD 429
+2026-05-21 08:40:42,133 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:40:42,133 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 World Editor 循环 入门
+2026-05-21 08:40:42,134 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:40:45,107 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:40:45,108 [INFO] 🌐 双语查询: EN='What is trigger loop and why use it' | ZH='触发器循环是什么 为什么使用'
+2026-05-21 08:40:45,374 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:40:45,383 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:40:45,415 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E8%A7%A6%E5%8F%91%E5%99%A8%E5%BE%AA%E7%8E%AF%E6%98%AF%E4%BB%80%E4%B9%88%20%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:40:45,421 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20trigger%20loop%20and%20why%20use%20it) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:40:45,584 [INFO] response: https://grokipedia.com/api/typeahead?query=%E8%A7%A6%E5%8F%91%E5%99%A8%E5%BE%AA%E7%8E%AF%E6%98%AF%E4%BB%80%E4%B9%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8&limit=1 200
+2026-05-21 08:40:45,677 [INFO] response: https://grokipedia.com/api/typeahead?query=What+is+trigger+loop+and+why+use+it&limit=1 200
+2026-05-21 08:40:45,950 [INFO] response: https://www.mojeek.com/search?q=%E8%A7%A6%E5%8F%91%E5%99%A8%E5%BE%AA%E7%8E%AF%E6%98%AF%E4%BB%80%E4%B9%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8 403
+2026-05-21 08:40:45,997 [INFO] response: https://search.brave.com/search?q=%E8%A7%A6%E5%8F%91%E5%99%A8%E5%BE%AA%E7%8E%AF%E6%98%AF%E4%BB%80%E4%B9%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8&source=web 429
+2026-05-21 08:40:46,125 [INFO] response: https://search.yahoo.com/search;_ylt=ttQ5M281Rw1G_khZ93QC9BbP;_ylu=-bPIq7_zsLulpDmzFFt-04MAKU_kiRP8-FxpL1mzmTU8_80?p=%E8%A7%A6%E5%8F%91%E5%99%A8%E5%BE%AA%E7%8E%AF%E6%98%AF%E4%BB%80%E4%B9%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8 200
+2026-05-21 08:40:46,280 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=1791F0695E565103BB2FF089DB893ECFA19107AF1635C5A110DBB853E1E64EF694D8C422F59F556F1FE5905BA160623F269259D757AF56C42E3DFAD04E08D242BDDC2838EBDF49F8A08BD155DB7B7020718089087C94080CBC18D085D40E9B1A1F05DF0D26CCAC54E0C9990FBF7B0215B7F59F4A5F9B85D8E824CE37F7C8A930616506DFCDFF3AF9E4D9A00600851946BE736CA8DF2B8A61888FAA84610169612CC91EA3BC76BFB4D1ECA0AFEFF8825ACB52278E17455030C32B7C1C0C4C878CC51E3E8A0427B841CF51628673820A124508A7DDF3B98E26D5B6355111107C2DCA0F23EE47D6AB47F7550975C21BDF31BBFED7&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2hhdCtpcyt0cmlnZ2VyK2xvb3ArYW5kK3doeSt1c2UraXQmd2ViPTEmc2VhcmNoaWQ9OTE1NzMyMQ%2C%2C_caccd478e2f5056c3b768e3033fdec16&t=2%252F1779352845%252Fecdeab9974cb3707fe250ff0f7e419d5&u=8729883702802424697&s=cd98b5ef01c0999f0d235c98d2e1bfc9 200
+2026-05-21 08:40:46,324 [INFO] response: https://search.brave.com/search?q=What+is+trigger+loop+and+why+use+it&source=web 429
+2026-05-21 08:40:46,806 [INFO] response: https://www.mojeek.com/search?q=What+is+trigger+loop+and+why+use+it 403
+2026-05-21 08:40:46,985 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:47,108 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:47,258 [INFO] response: https://search.yahoo.com/search;_ylt=OzegoGeFqOVHNLeDdA6yfYBN;_ylu=hVj3ocpof1s28qPVk95b1WOEoeInT051KFBQFX4107OhBNc?p=What+is+trigger+loop+and+why+use+it 200
+2026-05-21 08:40:47,684 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWhat%2Bis%2Btrigger%2Bloop%2Band%2Bwhy%2Buse%2Bit%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGI-Ku9AGIjCWi-kWz7Y75_g9X7isbk4bW9NKwVxEnr_J1KGLl8F3JpCt173wUmkPXJHKloEWw5IyAnJSWgFD 429
+2026-05-21 08:40:51,160 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:40:51,312 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:51,503 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:40:51,510 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%25E5%25BE%25AA%25E7%258E%25AF%25E6%2598%25AF%25E4%25BB%2580%25E4%25B9%2588%2B%25E4%25B8%25BA%25E4%25BB%2580%25E4%25B9%2588%25E4%25BD%25BF%25E7%2594%25A8%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGJOKu9AGIjD2rcW2WGW4uA1oRBP9pqhoQljfgY-nWnYNQPf3cdfNU6AK1lM3CX1nL2sFIAncJz8yAnJSWgFD 429
+2026-05-21 08:40:52,457 [INFO] response: https://yandex.com/search/site/?text=%E8%A7%A6%E5%8F%91%E5%99%A8%E5%BE%AA%E7%8E%AF%E6%98%AF%E4%BB%80%E4%B9%88+%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8&web=1&searchid=7735206 200
+2026-05-21 08:40:52,503 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 触发器循环是什么 为什么使用
+2026-05-21 08:40:52,692 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20trigger%20loop%20and%20why%20use%20it) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:40:52,692 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | What is trigger loop and why use it
+2026-05-21 08:40:52,692 [INFO]   搜索阶段：收集到 16 条候选结果
+2026-05-21 08:40:53,348 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:40:53,350 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:41:03,216 [WARNING] ⚠️  抓取失败，已忽略: https://dzen.ru/a/Z4TPoetimWl3mOrZ — _ssl.c:999: The handshake operation timed out
+2026-05-21 08:41:03,218 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:41:08,058 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:41:08,059 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:41:22,475 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:41:22,477 [WARNING] 来源不足（2/3），扩大搜索...
+2026-05-21 08:41:22,690 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:41:22,693 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:41:22,735 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:41:22,768 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%BE%AA%E7%8E%AF%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%EF%BC%9AFor%E5%92%8CForEach%E8%AF%A6%E8%A7%A3%20tutorial%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:41:22,915 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%BE%AA%E7%8E%AF%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%EF%BC%9AFor%E5%92%8CForEach%E8%AF%A6%E8%A7%A3+tutorial+guide&limit=1 200
+2026-05-21 08:41:22,925 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:41:23,044 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:41:28,062 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:41:28,152 [INFO] response: https://search.yahoo.com/search;_ylt=1PJYRIH32BihOnjo2zOn-e9r;_ylu=OeolbVCa1LexpxBcqcieBBwHnMuconF1HL19E8ySsBa_8_s?p=Warcraft+III+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%BE%AA%E7%8E%AF%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%EF%BC%9AFor%E5%92%8CForEach%E8%AF%A6%E8%A7%A3+tutorial+guide 200
+2026-05-21 08:41:28,998 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=96428BEBB80EE2E4A79599D5AFB5D098DC1C379E923FE270008CD0ADEA887A28A163E6D22EF0581B837B20503E9FC3A03C4B7E35C6043575A7C43AE428C7C3EC4F97CC6B060D2C65CDF431153E7BCF94A55A83C0FDAB3084A8DA681C5DECE6C52FD2DBB9469D68A233402E62F95B1D0BC010F55137E9B98B5D15044370B25C4AA970608A8819A7AF76367D30F2CB22EFDF94D0A4BC01AA47281220ACE29EF6B373B2A86CCAB5604F385E3E8A2649CFCD488B2059251E70D4054845A2A6B3793D2547207D260F6ADA7EB9016F221F9181EC27FFCA9CFACCFDB0119DB49BB685BC8147F2916F9436A5DD09360970B1AADFE256FD&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrSUlJKyVFOCVBNyVBNiVFNSU4RiU5MSVFNSU5OSVBOCVFNSVCRSVBQSVFNyU4RSVBRiVFNSVBRSU4QyVFNSU4NSVBOCVFNiU4QyU4NyVFNSU4RCU5NyVFRiVCQyU5QUZvciVFNSU5MiU4Q0ZvckVhY2glRTglQUYlQTYlRTglQTclQTMrdHV0b3JpYWwrZ3VpZGUmd2ViPTEmc2VhcmNoaWQ9ODk4MTczMw%2C%2C_747c92a24c934bff58bfa7ae8a8d3d6e&t=2%252F1779352888%252Ffb8ac8b99efc5bce90e6fc46682d2687&u=8729886567277799758&s=2949f8a795bb6c604b4fdafd50723f08 200
+2026-05-21 08:41:29,484 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%BE%AA%E7%8E%AF%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%EF%BC%9AFor%E5%92%8CForEach%E8%AF%A6%E8%A7%A3+tutorial+guide 403
+2026-05-21 08:41:29,972 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2BIII%2B%25E8%25A7%25A6%25E5%258F%2591%25E5%2599%25A8%25E5%25BE%25AA%25E7%258E%25AF%25E5%25AE%258C%25E5%2585%25A8%25E6%258C%2587%25E5%258D%2597%25EF%25BC%259AFor%25E5%2592%258CForEach%25E8%25AF%25A6%25E8%25A7%25A3%2Btutorial%2Bguide%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGLmKu9AGIjD2B6aA0tjrC1KJuoKBZM_1gRb4NXFbG4xeYtDT8ckJaBeObdE0MchEyW3E4pYvU2syAnJSWgFD 429
+2026-05-21 08:41:30,022 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%BE%AA%E7%8E%AF%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%EF%BC%9AFor%E5%92%8CForEach%E8%AF%A6%E8%A7%A3+tutorial+guide&source=web 429
+2026-05-21 08:41:30,023 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:41:30,024 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft III 触发器循环完全指南：For和ForEach详解 tut
+2026-05-21 08:41:30,024 [WARNING] ⚠️  仍然不足 3 个来源（2），继续流水线
+2026-05-21 08:41:30,024 [INFO] ✅ ResearcherAgent 完成: 2 个来源已注册
+2026-05-21 08:41:30,024 [INFO] ✍️  WriterAgent 开始: 触发器循环完全指南：For和ForEach详解 (loop 0)
+2026-05-21 08:41:30,025 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:41:30,552 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:41:30,554 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:41:47,185 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:41:47,187 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:41:47,584 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:41:47,585 [INFO] ✅ WriterAgent 完成: 10559 字符, 5/5 来源被引用
+2026-05-21 08:41:47,586 [INFO] 🔎 ReviewerAgent 开始: 萌新必学的5个触发器模板：实战案例直接套用
+2026-05-21 08:41:47,587 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:41:50,735 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:41:50,736 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:42:08,417 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:42:08,419 [INFO] ✅ WriterAgent 完成: 8794 字符, 5/5 来源被引用
+2026-05-21 08:42:08,419 [INFO] 🔎 ReviewerAgent 开始: 单位组完全指南：从概念到实战
+2026-05-21 08:42:08,420 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:42:14,631 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:42:14,633 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:42:18,385 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:42:18,386 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-21 08:42:18,386 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-21 08:42:18,386 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-21 08:42:18,387 [INFO] 📄 文章写入: docs/triggers/萌新必学的5个触发器模板实战案例直接套用.md
+2026-05-21 08:42:18,389 [INFO] ✅ topics.json 已更新: trigger-templates-beginners → completed
+2026-05-21 08:42:18,389 [INFO] 📐 PlannerAgent 开始: JASS入门：从T触发翻译到代码
+2026-05-21 08:42:18,390 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:42:32,286 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:42:32,287 [INFO] ✅ 通过 ReviewerAgent: overall=0.79 (A=0.80 C=0.85 R=0.90 Cit=0.55)
+2026-05-21 08:42:32,287 [INFO]   反馈 5 条:
+2026-05-21 08:42:32,287 [INFO]   [missing_citation] 单位组是魔兽争霸3地图编辑器中用于同时管理多个单位的容器。学会单位组后，你就能对一个区域内的所有敌人、或者一群友军批量执...
+2026-05-21 08:42:32,287 [INFO]   [missing_citation] | 单位组 | 单位数组 |
+|---|---|---|
+| **结构** | 无序的'单位集合' | 有编号的'单位列...
+2026-05-21 08:42:32,287 [INFO]   [missing_citation] > **⚠️ 常见错误**：很多新手发现地图运行几分钟后开始变卡，甚至崩溃，这通常是**单位组泄漏**造成的。...
+2026-05-21 08:42:32,287 [INFO]   [missing_citation] **实战练习**：试着创建一个触发器，让你在地图中央区域放置5个步兵，然后写一个触发器把这些步兵全部选出来并对每个步兵播...
+2026-05-21 08:42:32,287 [INFO]   [missing_citation] 在JASS或Lua脚本中，可以用`DestroyGroup()`函数完全销毁单位组释放内存。...
+2026-05-21 08:42:32,287 [INFO] ✅ 质量通过 (loop 0): score=0.79
+2026-05-21 08:42:32,288 [INFO] 📄 文章写入: docs/triggers/单位组完全指南从概念到实战.md

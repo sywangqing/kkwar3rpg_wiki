@@ -1,0 +1,308 @@
+2026-05-21 08:51:19,770 [INFO] 📐 PlannerAgent 开始: KK平台课程回顾：2025全年运营课程要点与新手学习路线
+2026-05-21 08:51:19,771 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:51:21,298 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:51:21,299 [INFO] 🌐 双语查询: EN='游戏玩家付费动机 研究' | ZH='游戏玩家付费动机 研究'
+2026-05-21 08:51:21,583 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:51:21,586 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:51:21,629 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%AE%B6%E4%BB%98%E8%B4%B9%E5%8A%A8%E6%9C%BA%20%E7%A0%94%E7%A9%B6) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:51:21,675 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%AE%B6%E4%BB%98%E8%B4%B9%E5%8A%A8%E6%9C%BA%20%E7%A0%94%E7%A9%B6) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:51:21,802 [INFO] response: https://grokipedia.com/api/typeahead?query=%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%AE%B6%E4%BB%98%E8%B4%B9%E5%8A%A8%E6%9C%BA+%E7%A0%94%E7%A9%B6&limit=1 200
+2026-05-21 08:51:21,895 [INFO] response: https://grokipedia.com/api/typeahead?query=%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%AE%B6%E4%BB%98%E8%B4%B9%E5%8A%A8%E6%9C%BA+%E7%A0%94%E7%A9%B6&limit=1 200
+2026-05-21 08:51:22,024 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E6%25B8%25B8%25E6%2588%258F%25E7%258E%25A9%25E5%25AE%25B6%25E4%25BB%2598%25E8%25B4%25B9%25E5%258A%25A8%25E6%259C%25BA%2B%25E7%25A0%2594%25E7%25A9%25B6%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGImPu9AGIjDKKym8kLEW-jOUk_aLWzF4KcAGV_wSBg2UlRM8E4fRtETsjyK7c3lzDldUplpcEFcyAnJSWgFD 429
+2026-05-21 08:51:22,964 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=DCD45262AEF5F72C5C37ED68716D01935E8B46E5B07E9AA1B3ED8712A0F554448E438AFA8E81FFBC8F47BC8F5FB9B0BC77B9B8B596F1D7DE4C45B37FA0E0BC44694FC7230BE9A04BF33FB1233284B9501301F06B12D5708A7463176219674B7F5ADDFE2BC7519327F062760FFA743804C06042FF1A975AF7A8B1DC56C14DDE4EE68D521CBB7DA1045F1FEC58DF240A4E595E2AA3F2342F5CB8D87BCF8F8F0ACC928C297D752A5231A55DC862B3604CDFDB55AF18A25DBD20D0C6C9877B0BD0E890D7F900EA213CB0645562F29FEEFB986A5420E843EF7940869D0F7017C61A609EA77FBBF973945E1AC8963C6C6C5F0FF16938&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9JUU2JUI4JUI4JUU2JTg4JThGJUU3JThFJUE5JUU1JUFFJUI2JUU0JUJCJTk4JUU4JUI0JUI5JUU1JThBJUE4JUU2JTlDJUJBKyVFNyVBMCU5NCVFNyVBOSVCNiZ3ZWI9MSZzZWFyY2hpZD0yMDczNjc1_589909f5263372e86869e0c01d22d295&t=2%252F1779353482%252F0c793434257d1a3b356b456c80498451&u=8729926427258661194&s=ffc62fa3103280eac516b239f017cfd5 200
+2026-05-21 08:51:23,095 [INFO] response: https://search.yahoo.com/search;_ylt=PjqPaIV80Oqhtd8pVOgkdhLA;_ylu=LdIFt-ebDCmQvoHmOeZv8MglGHLDCF6QZHwTnhbBDvRtRcU?p=%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%AE%B6%E4%BB%98%E8%B4%B9%E5%8A%A8%E6%9C%BA+%E7%A0%94%E7%A9%B6 200
+2026-05-21 08:51:26,641 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:51:26,684 [INFO] response: https://search.brave.com/search?q=%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%AE%B6%E4%BB%98%E8%B4%B9%E5%8A%A8%E6%9C%BA+%E7%A0%94%E7%A9%B6&source=web 429
+2026-05-21 08:51:27,485 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=B1B355A25E0D11DF4CC596AABE3F13EEA6CC24DE4029C289586BB2D8C2D00B782BDE41B93B6B7B786DFF669E6B29380AD6F93CC06843CA63D73AC8676702036AFB8CC6A6DD65A530FAADC5F46FB0EC5AC90E901F2F4EC0473528B2298A48A2F4F7BF25291427DFE5EBB0419580A2500BD5FF61CF290076431A158A7649BD721B4647D8C569E68151E74CF149144D63C5896B422ECD64D4671B86066A2B8A1D94C8E41994260244907E24D25B4892842EFAC37FEC2CC39E5803653B1952309E173D9999ECA8B64A8694582FA44F0E2F9E679F50B249107DD2347DD54782AD378007B2E9CD391F7F019B3C5003FAD92833459F62&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9JUU2JUI4JUI4JUU2JTg4JThGJUU3JThFJUE5JUU1JUFFJUI2JUU0JUJCJTk4JUU4JUI0JUI5JUU1JThBJUE4JUU2JTlDJUJBKyVFNyVBMCU5NCVFNyVBOSVCNiZ3ZWI9MSZzZWFyY2hpZD0xMTM5NTk4_575089602a66dfb14665674f82478fd7&t=2%252F1779353487%252Fef5f64e2f890088e61fb593b7ba68efa&u=8729926733542892539&s=cac00f7e0890070489f935bc4fa36975 200
+2026-05-21 08:51:27,607 [INFO] response: https://search.yahoo.com/search;_ylt=HmbnDleMhlseqZz7V3CzeFyi;_ylu=Q_BcQE06JH5-r_mQYWGFBJ1YItlwsAuhPTR5Vn0p7ipb9cg?p=%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%AE%B6%E4%BB%98%E8%B4%B9%E5%8A%A8%E6%9C%BA+%E7%A0%94%E7%A9%B6 200
+2026-05-21 08:51:27,866 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:51:27,978 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:51:28,183 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:51:28,311 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:51:28,424 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E6%25B8%25B8%25E6%2588%258F%25E7%258E%25A9%25E5%25AE%25B6%25E4%25BB%2598%25E8%25B4%25B9%25E5%258A%25A8%25E6%259C%25BA%2B%25E7%25A0%2594%25E7%25A9%25B6%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGJCPu9AGIjD-a-VZTk0btfSku0cUBnKkyTxrgOkV_TdiABHJXmKXNPV1WBOaCsWosafPLG25iWgyAnJSWgFD 429
+2026-05-21 08:51:28,457 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:51:28,709 [INFO] response: https://www.mojeek.com/search?q=%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%AE%B6%E4%BB%98%E8%B4%B9%E5%8A%A8%E6%9C%BA+%E7%A0%94%E7%A9%B6 403
+2026-05-21 08:51:28,754 [INFO] response: https://search.brave.com/search?q=%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%AE%B6%E4%BB%98%E8%B4%B9%E5%8A%A8%E6%9C%BA+%E7%A0%94%E7%A9%B6&source=web 429
+2026-05-21 08:51:28,756 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:51:28,756 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | 游戏玩家付费动机 研究
+2026-05-21 08:51:28,926 [INFO] response: https://www.mojeek.com/search?q=%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%AE%B6%E4%BB%98%E8%B4%B9%E5%8A%A8%E6%9C%BA+%E7%A0%94%E7%A9%B6 403
+2026-05-21 08:51:28,927 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:51:28,927 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | 游戏玩家付费动机 研究
+2026-05-21 08:51:28,927 [INFO]   搜索阶段：收集到 0 条候选结果
+2026-05-21 08:51:28,928 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:51:32,381 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:51:32,382 [INFO] ✅ ResearcherAgent 完成: 12 个来源已注册
+2026-05-21 08:51:32,382 [INFO] ✍️  WriterAgent 开始: KK用户付费行为洞察：新手作者如何定价与做转化 (loop 0)
+2026-05-21 08:51:32,383 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:51:41,854 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:51:41,855 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-21 08:51:41,855 [INFO] 🔍 ResearcherAgent 开始: KK平台课程回顾：2025全年运营课程要点与新手学习路线 (21 查询)
+2026-05-21 08:51:45,483 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:51:46,874 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:51:46,877 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:51:49,669 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:51:49,670 [INFO] 🌐 双语查询: EN='KK平台 魔兽争霸3 地图制作 新手教程' | ZH='KK平台 魔兽争霸3 地图制作 新手教程'
+2026-05-21 08:51:49,950 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:51:49,963 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:51:50,027 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:51:50,034 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:51:50,124 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-21 08:51:50,278 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-21 08:51:50,462 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKK%25E5%25B9%25B3%25E5%258F%25B0%2B%25E9%25AD%2594%25E5%2585%25BD%25E4%25BA%2589%25E9%259C%25B83%2B%25E5%259C%25B0%25E5%259B%25BE%25E5%2588%25B6%25E4%25BD%259C%2B%25E6%2596%25B0%25E6%2589%258B%25E6%2595%2599%25E7%25A8%258B%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGKaPu9AGIjAgmXbWZXOhh96oe7_lKAMn9lumzA733lBtdak7KO7PKtL2PFSHAz8RWehExEbn6CsyAnJSWgFD 429
+2026-05-21 08:51:50,618 [INFO] response: https://search.yahoo.com/search;_ylt=NS6aeEOLewaApof9ET1qPbU7;_ylu=t2xaARhntoDWz1ib1Ix16Jq60xrzVTHCgbWD6_-aQqlZuB8?p=KK%E5%B9%B3%E5%8F%B0+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-05-21 08:51:50,870 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=DD1B1AAFD0778413BDD26AD6599E8D15A925653C9341D99C90F1877CF969F8CD52505069D0B692A96176BAC906B966D3F1C1BF9AF9BDA89FA0126D37860913634020E303701B3A429F7E261DED424E2FE486E255FF65E543FA090D6B9E6F60FE06117E75F3B970C1E9F21C646BCCBCD8621FF1EF96288B15B40E227CEE2286DDB8644C143708BD2D2F716C13AE5549BCD04708AFE5EF020B1A08E495FAFB090DCF0BF3C66F160189A45C16DFFBC43D3E268E02CB94F5D577380728DB688220938E79F1EAEA72318FFD39EF199CB9530280FECB1B3C5955093DD8DBEE6F1443E2FF30D35C56F66F632B273E2C34026FB085BEDC&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9S0slRTUlQjklQjMlRTUlOEYlQjArJUU5JUFEJTk0JUU1JTg1JUJEJUU0JUJBJTg5JUU5JTlDJUI4MyslRTUlOUMlQjAlRTUlOUIlQkUlRTUlODglQjYlRTQlQkQlOUMrJUU2JTk2JUIwJUU2JTg5JThCJUU2JTk1JTk5JUU3JUE4JThCJndlYj0xJnNlYXJjaGlkPTg5MDY3NDM%2C_d0b2ae499b73ce9f63508030caf8fb8c&t=2%252F1779353510%252F47304163258a80046743ccb45e7d884e&u=8729928303152736749&s=8f337d7fe793ea849e7022b48de5de6f 200
+2026-05-21 08:51:50,912 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:51:50,988 [INFO] response: https://search.yahoo.com/search;_ylt=AAb5Lte-bE1ObEajB2Jl5o4T;_ylu=v6b2VdRFrnlPB0vGEIjNBTSWjcz_U5yUqFHNK3QO3H5PuHQ?p=KK%E5%B9%B3%E5%8F%B0+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-05-21 08:51:51,051 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:51:51,223 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:51:51,377 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:51:51,826 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKK%25E5%25B9%25B3%25E5%258F%25B0%2B%25E9%25AD%2594%25E5%2585%25BD%25E4%25BA%2589%25E9%259C%25B83%2B%25E5%259C%25B0%25E5%259B%25BE%25E5%2588%25B6%25E4%25BD%259C%2B%25E6%2596%25B0%25E6%2589%258B%25E6%2595%2599%25E7%25A8%258B%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGKePu9AGIjBFYsrK9vTtttf4meCz4n6yrsU5Y1G8cs1YskF7AgS8kd22weQUjNjLpOPSAzOj6cgyAnJSWgFD 429
+2026-05-21 08:51:56,062 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:51:56,579 [INFO] response: https://www.mojeek.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 403
+2026-05-21 08:51:56,839 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:51:56,891 [INFO] response: https://search.brave.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 429
+2026-05-21 08:51:56,924 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=7A9C269542F9863B9A053246BFED46C6EB0A60BE21570078DB93776AC27126AD3044FDC6ABD39CF70CC1F9C9A183A8A8481A1EF0477F18AEF43EAFEB4F737293D4A83DBD37D67A99FDECF53FC6172C015AC462DF48F1E2CD05634BBA2F55C24E3013B43F24F872F9A8F957AD839CA75BC6AC5C30F63920A9FF016D6C082C032F61EF09DB0D8BBC6EAE6A9DF5C65F10A03DC8F9B9D6686712A94B80DB99D57EFA126CC58620D7EF3F60209595A260775F0A23283B1627BDE881B75DA8756E67742A687114C8BCC2C9C1C2C6048A6A7A751B3C6316E4D9CFC8B2978C115BC1062FFE8FFAEF5C14FEAEB6E40879FD0F649A602136&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9S0slRTUlQjklQjMlRTUlOEYlQjArJUU5JUFEJTk0JUU1JTg1JUJEJUU0JUJBJTg5JUU5JTlDJUI4MyslRTUlOUMlQjAlRTUlOUIlQkUlRTUlODglQjYlRTQlQkQlOUMrJUU2JTk2JUIwJUU2JTg5JThCJUU2JTk1JTk5JUU3JUE4JThCJndlYj0xJnNlYXJjaGlkPTk3MTY1OTU%2C_918619e517f1ec50224dbb17461c029a&t=2%252F1779353516%252F5608a1c763e8c8c96b4ca911627ce495&u=8729928708491475453&s=705ddb1a4154e73421081c6c49f4746d 200
+2026-05-21 08:51:56,972 [INFO] response: https://search.brave.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 429
+2026-05-21 08:51:56,975 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:51:56,975 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | KK平台 魔兽争霸3 地图制作 新手教程
+2026-05-21 08:51:57,313 [INFO] response: https://www.mojeek.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 403
+2026-05-21 08:51:57,314 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:51:57,314 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | KK平台 魔兽争霸3 地图制作 新手教程
+2026-05-21 08:51:57,315 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:52:00,673 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:52:00,674 [INFO] 🌐 双语查询: EN='Warcraft 3 Reforged map editor guide 2025' | ZH='Warcraft 3 Reforged map editor guide 2025'
+2026-05-21 08:52:00,763 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:52:00,765 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:52:00,928 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:52:00,953 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:52:00,982 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20map%20editor%20guide%202025) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:52:01,008 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20map%20editor%20guide%202025) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:52:01,059 [INFO] response: https://search.brave.com/search?q=Warcraft+3+Reforged+map+editor+guide+2025&source=web 429
+2026-05-21 08:52:01,212 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Reforged+map+editor+guide+2025&limit=1 200
+2026-05-21 08:52:01,328 [INFO] response: https://search.yahoo.com/search;_ylt=c_5oVUy-YbHRGLXyq2MYTO4d;_ylu=FRlJ5Tc1XUIK64l_7TCt8RZsI4YeHFzw4lHxAUfBLfFhiFg?p=Warcraft+3+Reforged+map+editor+guide+2025 200
+2026-05-21 08:52:01,443 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Reforged+map+editor+guide+2025&limit=1 200
+2026-05-21 08:52:01,487 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+Reforged+map+editor+guide+2025 403
+2026-05-21 08:52:01,628 [INFO] response: https://search.yahoo.com/search;_ylt=uZBoWgbizzjps37NI6Cd-M92;_ylu=gAtTlBC2G6BpAW1jB0RgYOVw8R4GK_rUlpUc7a76bkCEMas?p=Warcraft+3+Reforged+map+editor+guide+2025 200
+2026-05-21 08:52:02,324 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=86A596222922FE1330C4D0258DEA1D212C9D0F40358A6BB075BD29B00569032E37FFB19F3C039331254F729236F3636DA439F6CE8926A65B8C123FAFD7344212170F5DD8B3574C731A2D497DD361BC5C6F8FD7CF4D3F838E7459A674D004413BE055B4CB9B51F31DB616C125C1EF0BB14400895361A41437F89529280ABC8D312F48D82DA3E9F2C05C5C3680A735B5F55A36CC9A2090EA6C592FC029A4CD48E1C5DD0F554CA2A2BBD183739CE37F654E6DCC788453E54523CADFBBE343FE265094FAA0218642FDC5552790394BD0DC60251E7535F9C0075A8F40D7393D0E123A24712F657CEE8F15E3BE1B23A0D43625A29263&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMytSZWZvcmdlZCttYXArZWRpdG9yK2d1aWRlKzIwMjUmd2ViPTEmc2VhcmNoaWQ9MzE3MTEyOQ%2C%2C_609d93055e529a16854b5e735d8cd11b&t=2%252F1779353521%252Fd4eab10542b855321e3da4eb19bb1f2f&u=8729929068864874971&s=74dd233ee862502f651113cecf5c6e24 200
+2026-05-21 08:52:02,764 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2BReforged%2Bmap%2Beditor%2Bguide%2B2025%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGLKPu9AGIjBkYt5AfCZpQRi9d2J0gmQX_jvqE5plAkMu-1_cyf0yg36z1FxqwxolCjNbIG1JxogyAnJSWgFD 429
+2026-05-21 08:52:03,290 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+Reforged+map+editor+guide+2025 403
+2026-05-21 08:52:06,671 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:52:06,704 [INFO] response: https://search.brave.com/search?q=Warcraft+3+Reforged+map+editor+guide+2025&source=web 429
+2026-05-21 08:52:07,507 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=BD39D0BDE97819AB71A344EEB69A2DFF819EE856DE41373CCFAC3D5A6543C4F598C99ED0E8CA8FDF2B6E17BB1FAA2F98FEE17D666539678C9AB3AD095B1C3FB59FFFA7A71F327E21101F52413A6191EAB1CD499CEE8C70F2B175984F7B4ADD4FBC8D7ADEDE951D929407BA33A40BABF11BA02BEB4CCBC30C9CB5E35423D103EA616734F1E412591A7FA2BC478B8E99AF07AAE28262DCF4CF6CEB32488256BD2E98BB4B4C0C594DA3AEE4DD4819A1A30FC8EE220CA5D6978F833D58E9F53FE018CFEF69B9BB9EC0EBEE5D94E531DA479F7EEBB355F6AF21EE1FF6E39D05A3EC81EF461D4E7AF817834584EEA1B5FBD00D6B12C3&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMytSZWZvcmdlZCttYXArZWRpdG9yK2d1aWRlKzIwMjUmd2ViPTEmc2VhcmNoaWQ9MTAwNTk0OA%2C%2C_dcc0ba8252489ee98aba9986bba5e391&t=2%252F1779353527%252Fdbd6be4fdb4573044ad4fdf4b3f13ad3&u=8729929420046760254&s=7ad36154f13999fea705479dc59704dd 200
+2026-05-21 08:52:07,955 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWarcraft%2B3%2BReforged%2Bmap%2Beditor%2Bguide%2B2025%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGLePu9AGIjBOImOj9wUruxyrc0Im-C5PLdbTRbb7MQm3JpQOx1-Sn7-5JDqORmXbr6wUXF3W6uMyAnJSWgFD 429
+2026-05-21 08:52:08,189 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:08,300 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:52:08,301 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:08,302 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:52:08,302 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 Reforged map editor guide 202
+2026-05-21 08:52:08,466 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:08,591 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:08,592 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:52:08,592 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | Warcraft 3 Reforged map editor guide 202
+2026-05-21 08:52:08,593 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:52:11,315 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:52:11,316 [INFO] 🌐 双语查询: EN='WC3 RPG development beginner roadmap' | ZH='WC3 RPG development beginner roadmap'
+2026-05-21 08:52:11,569 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:52:11,574 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:52:11,653 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20development%20beginner%20roadmap) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:52:11,683 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20development%20beginner%20roadmap) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:52:11,889 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+development+beginner+roadmap&limit=1 200
+2026-05-21 08:52:11,908 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:12,004 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+development+beginner+roadmap&limit=1 200
+2026-05-21 08:52:12,049 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:12,092 [INFO] response: https://search.brave.com/search?q=WC3+RPG+development+beginner+roadmap&source=web 429
+2026-05-21 08:52:12,099 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%2BRPG%2Bdevelopment%2Bbeginner%2Broadmap%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGLuPu9AGIjBEbUAcd19pv38TJTv6RnepowRWEC2gbaXseTghz4tJuYgsQLZ3022B29GaoIYZfzAyAnJSWgFD 429
+2026-05-21 08:52:12,979 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=E331DFA696B2C8FE7D05F9E0A486F3AE2F0C5BF1BAC5FA7A48DA25FAAB499292E2694647EE4E182438C52FC14F02AB17FE3C62BB66B8B53B0DF2791F793ED15221904DEB1CBA58BBED33B03FB40DCAD817349BF668E59F3BC3D59364458DE92BF3B3FA0C9EABE0A6F978096493563AE4A48048E63FD5934AC60643928E1373EEE2E4A630E3C6B11E06D7AA9E55CF154694D6B080776DDF1889E9CB40A9AD16C23D4F62AC13FD7096089598281451D9B98DC81FED205241590D632CDD2596782DEA948A75E17EDA12DFA321E87CC4830CFF45A44DD674A13C6AC5D7F4E03F81217F9F811B385F6C7BF2DD12B52D3FD13B66CDE2&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzK1JQRytkZXZlbG9wbWVudCtiZWdpbm5lcityb2FkbWFwJndlYj0xJnNlYXJjaGlkPTE4NDg2Njg%2C_f18876a5df6420b608f4c33f7d792118&t=2%252F1779353532%252F42877d104c2b7e50174a17a1cd7afeba&u=8729929786057304402&s=93c0e14810d2231e1d443d49c1a6f595 200
+2026-05-21 08:52:13,178 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:13,316 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:13,363 [INFO] response: https://search.brave.com/search?q=WC3+RPG+development+beginner+roadmap&source=web 429
+2026-05-21 08:52:13,733 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:52:13,734 [INFO] ✅ WriterAgent 完成: 8155 字符, 11/12 来源被引用
+2026-05-21 08:52:13,735 [INFO] 🔎 ReviewerAgent 开始: KK平台地图发行观察：你该关注哪些指标与节奏
+2026-05-21 08:52:13,736 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:52:17,103 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:52:17,576 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%2BRPG%2Bdevelopment%2Bbeginner%2Broadmap%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGMGPu9AGIjC170-LNFzu5aQa5eWPWmEEXuvp4quRRtCpdSOsB-Mv9EogAo23XGR5fSTxTv_7fDYyAnJSWgFD 429
+2026-05-21 08:52:17,657 [INFO] response: https://www.mojeek.com/search?q=WC3+RPG+development+beginner+roadmap 403
+2026-05-21 08:52:17,827 [INFO] response: https://search.yahoo.com/search;_ylt=RrIORUNH63UcLi8_TdmNdaJg;_ylu=0PYGJXJA9tFueYPAxjTeTsoObyv79c_13XUwNdTqzHUJibw?p=WC3+RPG+development+beginner+roadmap 200
+2026-05-21 08:52:18,401 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:52:18,539 [INFO] response: https://search.yahoo.com/search;_ylt=OiBSIE5TpG6BblNlg1cyHR9o;_ylu=6Evg16of-Ok-CKAaGXoel4ZteMq_Sno2S1kppO8wrRZVRJ8?p=WC3+RPG+development+beginner+roadmap 200
+2026-05-21 08:52:18,685 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=4BDDC82DE08BAA2FE1CCD170F35EB5204926C038AFFF7576FD780263BD5267EF9007DDD001031DCC6014118B5041C0FD48B3EFF3686A95541FE06190D31EE0EAEF00AF5F70E9E365F6297B5A2155067F2B1748BDF09DAF3D84AEB23A1B82BEBEC3A17878509EA74896623D82E5A1B36B369749E88F6E5D6F9A01BC2F6B6C023C002CA88ABA83D2FD4985F2DB1FD9602077E593CB17DFBBA75EA553CCAE40D0AE3504985DBCE8D23716CD792039C26856B2D9347DC18329B48AEB0EAA0FBFD8C317809D9C23766A2D9482F23E07C3FA07ABF28E34015938FBF2DCE24C6A4CBF64BDFF7BE2669F7B48CA8D31A9D2AF82772A6884&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzK1JQRytkZXZlbG9wbWVudCtiZWdpbm5lcityb2FkbWFwJndlYj0xJnNlYXJjaGlkPTcxMDA3NDA%2C_18da62550daa04cda0b15af24b1e900a&t=2%252F1779353538%252Feaf6b9b0f0d4f760e4b88e948aa313ce&u=8729930170793621809&s=b226ae6ecf0a7a07e670bf01eaf86f5b 200
+2026-05-21 08:52:18,686 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:52:18,686 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 RPG development beginner roadmap
+2026-05-21 08:52:18,851 [INFO] response: https://www.mojeek.com/search?q=WC3+RPG+development+beginner+roadmap 403
+2026-05-21 08:52:18,852 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:52:18,852 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 RPG development beginner roadmap
+2026-05-21 08:52:18,853 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:52:21,578 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:52:21,579 [INFO] 🌐 双语查询: EN='KK platform Warcraft map release tutorial' | ZH='KK平台 Warcraft 地图发布教程'
+2026-05-21 08:52:21,845 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:52:21,847 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:52:21,892 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%20platform%20Warcraft%20map%20release%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:52:21,930 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20Warcraft%20%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:52:22,031 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0+Warcraft+%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-21 08:52:22,131 [INFO] response: https://grokipedia.com/api/typeahead?query=KK+platform+Warcraft+map+release+tutorial&limit=1 200
+2026-05-21 08:52:22,131 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:22,163 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKK%2Bplatform%2BWarcraft%2Bmap%2Brelease%2Btutorial%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGMWPu9AGIjDqDuFXnqmYbAvC5XSpjc-XTxiRUAHnTpgDrSVGUcPSqbKQIVSu5FBoH9cUUoGOwCMyAnJSWgFD 429
+2026-05-21 08:52:22,207 [INFO] response: https://search.brave.com/search?q=KK+platform+Warcraft+map+release+tutorial&source=web 429
+2026-05-21 08:52:22,312 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:22,360 [INFO] response: https://search.brave.com/search?q=KK%E5%B9%B3%E5%8F%B0+Warcraft+%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E6%95%99%E7%A8%8B&source=web 429
+2026-05-21 08:52:22,454 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:22,593 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:22,715 [INFO] response: https://search.yahoo.com/search;_ylt=4bD3IFwJPbbTsPCgPflrEqXC;_ylu=b_GOxT59cihiNGQ-4RSik3uRXOaADU1OvHC_rMBm360F5Vo?p=KK+platform+Warcraft+map+release+tutorial 200
+2026-05-21 08:52:23,238 [INFO] response: https://www.mojeek.com/search?q=KK+platform+Warcraft+map+release+tutorial 403
+2026-05-21 08:52:27,372 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:52:27,505 [INFO] response: https://search.yahoo.com/search;_ylt=nouzmdn-I3nCIzBMALi8j6fx;_ylu=UlWL8_I1_dVGpQfB8tfKpZIuYl6tIOFy7enGfYv0ph_vrWQ?p=KK%E5%B9%B3%E5%8F%B0+Warcraft+%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E6%95%99%E7%A8%8B 200
+2026-05-21 08:52:27,880 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DKK%25E5%25B9%25B3%25E5%258F%25B0%2BWarcraft%2B%25E5%259C%25B0%25E5%259B%25BE%25E5%258F%2591%25E5%25B8%2583%25E6%2595%2599%25E7%25A8%258B%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGMuPu9AGIjDpdl86oSYf5XUL4neG7abNZwnxbHtujBrWoVWY4qQSPWylMg-Re2B9scDo4t19KooyAnJSWgFD 429
+2026-05-21 08:52:28,245 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:52:28,355 [INFO] response: https://www.mojeek.com/search?q=KK%E5%B9%B3%E5%8F%B0+Warcraft+%E5%9C%B0%E5%9B%BE%E5%8F%91%E5%B8%83%E6%95%99%E7%A8%8B 403
+2026-05-21 08:52:29,076 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=343FC9A1567753B40D8FD9B32E6A145D9351C34F8C75552A303715B837D6301920740B3394F5A1EC4034EA6E77F0342CC4111E33FA35E3E5AA1E18E454AC77DF9626DD964EEAE1AD2B6BB82F69D36FD9C77E914D27DE9189ACB57050EDEAD6C889BB81F86693241C5C815CBB5085FEB571CC5A345EA30092745B3D4B50771A9D6F2CC5525B98D81F69B2AEA2CC980CF76C48611CF47688B8BBAA3BC390493E2AC85EE9789558A0E47CD62ABC5F8BBD85061A5DFD8D076FF0353F58C166A0011358F6C0467B79AF949F172D2D723C7E4792219251367B193ED533B40580BAE65E079717644249C54905391A4C91EC9A69A4377B&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9S0srcGxhdGZvcm0rV2FyY3JhZnQrbWFwK3JlbGVhc2UrdHV0b3JpYWwmd2ViPTEmc2VhcmNoaWQ9MjEwNzE1MA%2C%2C_c30b0a47025d4a9a49935212025c7de3&t=2%252F1779353548%252Fe11ab31a9ce648cea107b1fea8f67c5e&u=8729930867450738983&s=25bfbf6c49f4f69d5d9439dbadb74e2b 200
+2026-05-21 08:52:29,077 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:52:29,077 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | KK platform Warcraft map release tutoria
+2026-05-21 08:52:29,213 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=7B816DCA8583F8B680E9627054803BB6339A64F8B8F21239E67F64964B980C7BBCF65490F89D097B76E42127AD106481A3E72A5F758029C919D2207CF0A876F3DD410E846973C339434E10019CB7DF0155DE9D08FFAFF42AB5C22700AD941712F0FBB5A24630A0D67D4A63B3B88A7CD52FE87C6B93D10F801117CBCC373471116F38B6804221B3465BF2F8D93291267E05504D09DB3A981F3BD99E76433D239A72276B319464336F0274CBFBF08659D8A27BAB1F4E3FBE961BF846B85B207AECD0FFAB748C905EA90C1BB485104BB249260FD38183F340E42AD94C1996AA4C97C7D9A99FFD7D2BDC6E4C7101DC068953CDD429&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9S0slRTUlQjklQjMlRTUlOEYlQjArV2FyY3JhZnQrJUU1JTlDJUIwJUU1JTlCJUJFJUU1JThGJTkxJUU1JUI4JTgzJUU2JTk1JTk5JUU3JUE4JThCJndlYj0xJnNlYXJjaGlkPTc4MTE0Mjk%2C_1d96b06214cb648023532ef3eb40a5f8&t=2%252F1779353548%252F3ba9d56c7cc946b4bcb0965d17d1c319&u=8729930875501978619&s=f4e80cdd5056281a270bc2b8b4e8e6dd 200
+2026-05-21 08:52:29,214 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:52:29,214 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | KK平台 Warcraft 地图发布教程
+2026-05-21 08:52:29,215 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:52:30,321 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:52:30,325 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:52:31,988 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:52:31,989 [INFO] 🌐 双语查询: EN='WC3 modding courses online 2025' | ZH='WC3 modding courses online 2025'
+2026-05-21 08:52:32,243 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:52:32,256 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:52:32,319 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20modding%20courses%20online%202025) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:52:32,365 [INFO] response: https://search.brave.com/search?q=WC3+modding+courses+online+2025&source=web 429
+2026-05-21 08:52:32,373 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20modding%20courses%20online%202025) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:52:32,418 [INFO] response: https://search.brave.com/search?q=WC3+modding+courses+online+2025&source=web 429
+2026-05-21 08:52:32,532 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+modding+courses+online+2025&limit=1 200
+2026-05-21 08:52:32,899 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+modding+courses+online+2025&limit=1 200
+2026-05-21 08:52:33,031 [INFO] response: https://www.mojeek.com/search?q=WC3+modding+courses+online+2025 403
+2026-05-21 08:52:33,125 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:33,324 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:33,475 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%2Bmodding%2Bcourses%2Bonline%2B2025%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGNGPu9AGIjCzxLoGOqMxoVMjOSpRa5G2_2MMXaf3DCNtGSL_wOOUsC-ZcZ71EtdlQRuSARdJBRoyAnJSWgFD 429
+2026-05-21 08:52:33,703 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:33,756 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWC3%2Bmodding%2Bcourses%2Bonline%2B2025%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGNGPu9AGIjACnKOvlFL7tgHuQYVdUy7eJe7CRiFl3A2LorSnUqxF5KcK_akeAy91U33BlPopRwQyAnJSWgFD 429
+2026-05-21 08:52:33,833 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:33,966 [INFO] response: https://search.yahoo.com/search;_ylt=sWvT3hlJlWgN0VPQjd4Y7u7b;_ylu=9AmOvin-_pq60nxhVmJfFEIkzX5StMdimK-CYf5WsyI_aac?p=WC3+modding+courses+online+2025 200
+2026-05-21 08:52:34,828 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=502196C6B4C9DD8401ED56D8172E33B327B421071070CBDEE2FF09E231FB3575DAB7DA67D9C923D8B79E2122DDAF33FA25CB79A566A9151120B974E2238563CCC31650E08D8E18AF7ED8AA718B769768482FAF2117EFF45A4070172AEE90402DF3A188D5E5C45B5431F9B680CC9F27D5958407F303CE8E40F7A4E87905855156B2505EA9450F90061B8CEAD06D3C93D95BD093F5A1D6425EC2937DC5B0557B90AB4FF4BAA055B744DE8C562EAD98282D4B324EB85BC1B015B41F8745FC3533C59DA9B26FF49A02D7B3813AFCEEC2B8758F8D290655DE8EA6760EFA27188E5CFF0CFD94164A0EE373605607211CE38116FCA895&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzK21vZGRpbmcrY291cnNlcytvbmxpbmUrMjAyNSZ3ZWI9MSZzZWFyY2hpZD05NDUyNDIw_7153e59d4c945340980c5aa0229d7555&t=2%252F1779353554%252F002d71aa121dd795bfe70c14398919d3&u=8729931252788011792&s=f836305c288df8dbabfb730a8aec75b8 200
+2026-05-21 08:52:38,765 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:52:38,908 [INFO] response: https://search.yahoo.com/search;_ylt=DSRz_tzdnVbeC5PWmlZ284tL;_ylu=Kc63R1SJ-8_q8PEwaUz4U0Q3tUDlKULPAl99VabFHXBBF4U?p=WC3+modding+courses+online+2025 200
+2026-05-21 08:52:39,270 [INFO] response: https://www.mojeek.com/search?q=WC3+modding+courses+online+2025 403
+2026-05-21 08:52:39,836 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20modding%20courses%20online%202025) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:52:39,837 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 modding courses online 2025
+2026-05-21 08:52:40,116 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=03BE049ECC67C5E99A9DE245200696C8B70CABA5FB4FBC1D9ADC071B198A75246C84AED55DCED33BF504234CB18D1D1604B448BCF4171B1558C72B7A85F28AE96679A79D965EA1ED7BB472D02C586EA922AC944E5660F034510D39E3FD549FDC99C3ED1BE49DFEB58BBFDE84DB00079325F8790D850F66174C9CAD4127B1B163E1797419FBF41564F17D12B9ED99BA5357ECDD3404BDAE7AE31C5F64C9481A2FA1854E74985D5D914796D8B9DB18DFD1944A06965EE5253C03B5CDA9B03C3E455F2CF664D3B1BE1AAAC98E3E9D0EA7EAACFCFEC81F1429AA90552566362A3B63CA02E54D245DFE5CBB05A345A17EA1C5310C05&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzK21vZGRpbmcrY291cnNlcytvbmxpbmUrMjAyNSZ3ZWI9MSZzZWFyY2hpZD0xNTI3Mzg2_88ca91d7106c2ffb6c180c6096e1d393&t=2%252F1779353559%252F76d32a28c50feb210c21abdacb1603f5&u=8729931607995229062&s=8331b871125109429c2185b4a0ebc83e 200
+2026-05-21 08:52:40,117 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:52:40,117 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | WC3 modding courses online 2025
+2026-05-21 08:52:40,118 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:52:40,888 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:52:40,889 [INFO] ✅ 通过 ReviewerAgent: overall=0.84 (A=0.85 C=0.82 R=0.90 Cit=0.72)
+2026-05-21 08:52:40,889 [INFO]   反馈 5 条:
+2026-05-21 08:52:40,889 [INFO]   [missing_citation] 比如带有「羁绊」「进化」「契约」等关键词的地图名往往吸量更高...
+2026-05-21 08:52:40,889 [INFO]   [missing_citation] ⚠️ 常见错误：很多新手觉得「只要地图好玩，什么时候上线都一样」。实际上，首周数据决定了你能否获得平台推荐...
+2026-05-21 08:52:40,889 [INFO]   [missing_citation] 平台背景偏暗色系，你的封面用亮色系更突出。视觉吸引力直接影响点击率...
+2026-05-21 08:52:40,889 [INFO]   [missing_citation] 积极回复玩家评论能提升好感度，哪怕只是说「感谢反馈，已记录」...
+2026-05-21 08:52:40,889 [INFO]   [redundant_content] 每天下午4-5点登录一次作者后台的建议在全文中出现4次...
+2026-05-21 08:52:40,889 [INFO] ✅ 质量通过 (loop 0): score=0.84
+2026-05-21 08:52:40,890 [INFO] 📄 文章写入: docs/publishing/kk平台地图发行观察你该关注哪些指标与节奏.md
+2026-05-21 08:52:40,892 [INFO] ✅ topics.json 已更新: kk-platform-release-observation → completed
+2026-05-21 08:52:43,578 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:52:43,579 [INFO] 🌐 双语查询: EN='魔兽地图编辑器 新手入门 课程' | ZH='魔兽地图编辑器 新手入门 课程'
+2026-05-21 08:52:43,841 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:52:43,845 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:52:43,884 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8%20%E8%AF%BE%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:52:43,923 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8%20%E8%AF%BE%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:52:44,114 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:44,117 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E8%AF%BE%E7%A8%8B&limit=1 200
+2026-05-21 08:52:44,208 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E8%AF%BE%E7%A8%8B&limit=1 200
+2026-05-21 08:52:44,301 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:44,346 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E8%AF%BE%E7%A8%8B&source=web 429
+2026-05-21 08:52:44,363 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E8%AF%BE%E7%A8%8B 403
+2026-05-21 08:52:44,863 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E9%25AD%2594%25E5%2585%25BD%25E5%259C%25B0%25E5%259B%25BE%25E7%25BC%2596%25E8%25BE%2591%25E5%2599%25A8%2B%25E6%2596%25B0%25E6%2589%258B%25E5%2585%25A5%25E9%2597%25A8%2B%25E8%25AF%25BE%25E7%25A8%258B%26filter%3D1%26start%3D0%26hl%3Dus-EN%26lr%3Dlang_us%26cr%3DcountryEN&hl=us-EN&q=EgQ04UmgGNyPu9AGIjD857ktH2U53fzg8bggO9k7bgqGwfFQ-dJdmN1P6vbYjA1ib2OZ_tHAmByWvwQgHSIyAnJSWgFD 429
+2026-05-21 08:52:45,017 [INFO] response: https://search.yahoo.com/search;_ylt=HoYdFRTsYFuphSetZ5cxjG6t;_ylu=wXpvP7Gf9V0gduFsC7BUop6P4M-I6K6G-Woe7ST2boVTx78?p=%E9%AD%94%E5%85%BD%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E8%AF%BE%E7%A8%8B 200
+2026-05-21 08:52:45,100 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E8%AF%BE%E7%A8%8B&source=web 429
+2026-05-21 08:52:45,291 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=057C6C9135B742BFBD5E2E5DAF19A72C6DBACEEA90D17E28A6AA7177379894228CB5E7CA51428924E8C38B9DE29FE2BB8A63EAA1B8218311AD15A54FA79B4FB1E10AD6D8D37EE92B46A7F673D70C9AD1C57A997CF8E5C2250BCA83BEEA8666DD4236D73DD9CD04E366066F56B8ACE5A6D1BBB0338B2ED78374BD04D59534683073A710F773B796720D2E10C83EC79EEB9F9B052D0AC92E23A901EF61994A2F75168493449E6F9AB05B4BE6995E4C0195DC2001D46FC53F0FE1BF5CB3443C4A0CB2BCA5B596B3DF5AE2A497E4C0493673ECE9A50F3F0C0D0E034D1FC53D1AC8F15349B43FB324FAE4AE939D3A15D24F67C7BCF8&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9JUU5JUFEJTk0JUU1JTg1JUJEJUU1JTlDJUIwJUU1JTlCJUJFJUU3JUJDJTk2JUU4JUJFJTkxJUU1JTk5JUE4KyVFNiU5NiVCMCVFNiU4OSU4QiVFNSU4NSVBNSVFOSU5NyVBOCslRTglQUYlQkUlRTclQTglOEImd2ViPTEmc2VhcmNoaWQ9MjQ4MTc4MQ%2C%2C_2f37cfc0a91d4c5a489f36b9e58b7c21&t=2%252F1779353564%252Fe41c19ca682987465630d7f0608dd68b&u=8729931952331434417&s=ce592b029347918270eada56bf0e9762 200
+2026-05-21 08:52:45,311 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:45,467 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:52:45,789 [INFO] response: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%25E9%25AD%2594%25E5%2585%25BD%25E5%259C%25B0%25E5%259B%25BE%25E7%25BC%2596%25E8%25BE%2591%25E5%2599%25A8%2B%25E6%2596%25B0%25E6%2589%258B%25E5%2585%25A5%25E9%2597%25A8%2B%25E8%25AF%25BE%25E7%25A8%258B%26filter%3D1%26start%3D0%26hl%3Dcn-ZH%26lr%3Dlang_cn%26cr%3DcountryZH&hl=cn-ZH&q=EgQ04UmgGN2Pu9AGIjBil77XIIp5Yks2488p7Vt_q3dfh5roVquZtMvsA8ZVsmKFVT_8o4tFMi_DwHcF7t8yAnJSWgFD 429
+2026-05-21 08:52:46,268 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E8%AF%BE%E7%A8%8B 403
+2026-05-21 08:52:46,347 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=B4DDB6942377085A01A3459D8ED7E4DF01BEFA7805D411ECD7A34183D358F334E2A5A307AEA4091DD00C38A3EE933ADB662295496285890A71D8FE4FADF4DF59D19577E907C2FC31B6A011AA6110CA61F3F3D956EDBB6735EAA3A350C1A2EBD3980E53BEEB06CD857807CC458A264D8F8CB6F395DCC95C01785662A1D19EC3D00539EB9E686D4A3485C2E5F1E51957D6DC6288A9A4D44D6E91C81E3D02197847005EFA015322FE45C91B983FE1EF73E398AEDFA3164B3D0F29F739E99B09994D03904E697E366118C49E447AA56AD116B25A8802343D65BEBBDC30C02F361396848B35EF35DDD45972360FCB640CE78A84F457&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9JUU5JUFEJTk0JUU1JTg1JUJEJUU1JTlDJUIwJUU1JTlCJUJFJUU3JUJDJTk2JUU4JUJFJTkxJUU1JTk5JUE4KyVFNiU5NiVCMCVFNiU4OSU4QiVFNSU4NSVBNSVFOSU5NyVBOCslRTglQUYlQkUlRTclQTglOEImd2ViPTEmc2VhcmNoaWQ9MTk3NjU3OA%2C%2C_71a91e88efc4629d8f73077bcabb4fc9&t=2%252F1779353565%252F395d430ee063366a53ac80a8051dcfa5&u=8729932024675989926&s=13a1ab09b07b5f49bdc007969198f7a0 200
+2026-05-21 08:52:51,274 [INFO] Error in engine duckduckgo: TimeoutException("Request timed out: ConnectTimeout('timed out')")
+2026-05-21 08:52:51,358 [WARNING] DuckDuckGo 搜索异常（已忽略）: ConnectError: ConnectError('error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8%20%E8%AF%BE%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }')
+2026-05-21 08:52:51,358 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | 魔兽地图编辑器 新手入门 课程
+2026-05-21 08:52:51,406 [INFO] response: https://search.yahoo.com/search;_ylt=j8M8t3o7nQGiIwUVIiYfa1Em;_ylu=mOEALqMHTUSZ8ZQq3c49eGVjpEGl8nFFlUUGEPu6ggpGs1s?p=%E9%AD%94%E5%85%BD%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8+%E8%AF%BE%E7%A8%8B 200
+2026-05-21 08:52:51,411 [WARNING] DuckDuckGo 搜索异常（已忽略）: Request timed out: ConnectTimeout('timed out')
+2026-05-21 08:52:51,411 [INFO] 🔍 DuckDuckGo 搜索: 0 条 | 魔兽地图编辑器 新手入门 课程
+2026-05-21 08:52:51,411 [INFO]   搜索阶段：收集到 0 条候选结果
+2026-05-21 08:52:51,412 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:52:57,382 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:52:57,383 [INFO] ✅ ResearcherAgent 完成: 12 个来源已注册
+2026-05-21 08:52:57,383 [INFO] ✍️  WriterAgent 开始: KK平台课程回顾：2025全年运营课程要点与新手学习路线 (loop 0)
+2026-05-21 08:52:57,384 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:52:58,622 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:52:58,624 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:53:29,044 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:53:29,046 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:53:31,572 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:53:31,574 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:53:47,406 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:53:47,408 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:54:04,058 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:54:04,060 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:54:20,992 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:54:20,994 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:54:29,936 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:54:29,937 [INFO] ✅ WriterAgent 完成: 8394 字符, 4/12 来源被引用
+2026-05-21 08:54:29,937 [INFO] 🔎 ReviewerAgent 开始: KK用户付费行为洞察：新手作者如何定价与做转化
+2026-05-21 08:54:29,938 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:54:46,985 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:54:46,987 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:54:56,230 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:54:56,231 [INFO] ✅ 通过 ReviewerAgent: overall=0.86 (A=0.88 C=0.85 R=0.92 Cit=0.72)
+2026-05-21 08:54:56,231 [INFO]   反馈 5 条:
+2026-05-21 08:54:56,231 [INFO]   [missing_citation] 根据平台运营数据的洞察，KK用户的付费动机可以归纳为以下几个层次...
+2026-05-21 08:54:56,231 [INFO]   [missing_citation] 免费玩家虽然不直接付费，但他们是游戏生态的重要组成部分——他们活跃地图、产出内容、吸引付费玩家...
+2026-05-21 08:54:56,231 [INFO]   [missing_citation] 运营面对面资料显示，平台正在推进"地图会员"功能，目的是"提高高价值用户的留存，让用户氪得更值，玩的更爽，更加活跃"...
+2026-05-21 08:54:56,231 [INFO]   [missing_citation] 玩家付费是为了解决痛点（卡关）而非单纯炫富...
+2026-05-21 08:54:56,232 [INFO]   [missing_citation] 头部工作室会通过社群进行长期运营...
+2026-05-21 08:54:56,232 [INFO] ✅ 质量通过 (loop 0): score=0.86
+2026-05-21 08:54:56,232 [INFO] 📄 文章写入: docs/publishing/kk用户付费行为洞察新手作者如何定价与做转化.md
+2026-05-21 08:54:56,234 [INFO] ✅ topics.json 已更新: kk-platform-paying-behavior-insight → completed
+2026-05-21 08:55:21,044 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:55:21,046 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:55:46,018 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:55:46,019 [INFO] ✅ WriterAgent 完成: 8477 字符, 8/12 来源被引用
+2026-05-21 08:55:46,019 [INFO] 🔎 ReviewerAgent 开始: KK平台课程回顾：2025全年运营课程要点与新手学习路线
+2026-05-21 08:55:46,020 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:56:13,927 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:56:13,928 [INFO] ✅ 通过 ReviewerAgent: overall=0.81 (A=0.85 C=0.75 R=0.88 Cit=0.70)
+2026-05-21 08:56:13,928 [INFO]   反馈 5 条:
+2026-05-21 08:56:13,928 [INFO]   [incomplete_section] 很多新手会遇到一个困惑：明明地图质量不错，却没有收入...
+2026-05-21 08:56:13,928 [INFO]   [missing_citation] 建议新手选择 16×16 或 24×24 的小尺寸...
+2026-05-21 08:56:13,928 [INFO]   [missing_citation] 每波敌人属性比上一波略高10%-20%...
+2026-05-21 08:56:13,929 [INFO]   [factual_error] https://create.kkdzpt.com/activity/aggregate/ 与 https://crea...
+2026-05-21 08:56:13,929 [INFO]   [missing_citation] 玩家每次进入地图，应该能在15-20分钟内完成一个小目标...
+2026-05-21 08:56:13,929 [INFO] ✅ 质量通过 (loop 0): score=0.81
+2026-05-21 08:56:13,929 [INFO] 📄 文章写入: docs/publishing/kk平台课程回顾2025全年运营课程要点与新手学习路线.md

@@ -444,3 +444,360 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-09 05:23:22,230 [INFO]   [incomplete_section] 如何查看所有可用 Frame 类型...
 2026-05-09 05:23:22,230 [INFO] ✅ 质量通过 (loop 0): score=0.82
 2026-05-09 05:23:22,230 [INFO] 📄 文章写入: docs/advanced/自定义-ui-框架frame-api.md
+2026-05-21 08:28:46,684 [INFO] 📐 PlannerAgent 开始: 自定义 UI 框架（Frame API）
+2026-05-21 08:28:46,685 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:28:48,685 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AD%98%E6%A1%A3+%E8%AF%BB%E6%A1%A3+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&limit=1) > operation timed out'))
+2026-05-21 08:28:48,686 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AD%98%E6%A1%A3+%E8%AF%BB%E6%A1%A3+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&limit=1) > operation timed out'))
+2026-05-21 08:28:48,686 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器 存档 读档 完整教程
+2026-05-21 08:28:48,729 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AD%98%E6%A1%A3+%E8%AF%BB%E6%A1%A3+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&source=web 429
+2026-05-21 08:28:49,269 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AD%98%E6%A1%A3+%E8%AF%BB%E6%A1%A3+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B 403
+2026-05-21 08:28:49,499 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:28:50,000 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:28:50,024 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器 存档 读档 完整教程
+2026-05-21 08:28:50,025 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:28:52,659 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:28:52,660 [INFO] 🌐 双语查询: EN='WC3 RPG map persistent save system guide' | ZH='WC3 RPG map persistent save system guide'
+2026-05-21 08:28:52,918 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:28:52,931 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:28:52,950 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20map%20persistent%20save%20system%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:28:52,970 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20map%20persistent%20save%20system%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:28:53,166 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:28:53,779 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:28:55,975 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:28:55,976 [ERROR] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 15 column 31 (char 497)
+2026-05-21 08:28:55,976 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-21 08:28:55,976 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-21 08:28:55,977 [INFO] 📄 文章写入: docs/advanced/多人游戏同步机制.md
+2026-05-21 08:28:55,978 [INFO] ✅ topics.json 已更新: multiplayer-sync → completed
+2026-05-21 08:28:55,979 [INFO] 📐 PlannerAgent 开始: 地图性能优化指南
+2026-05-21 08:28:55,980 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:28:57,946 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=WC3+RPG+map+persistent+save+system+guide&limit=1) > operation timed out'))
+2026-05-21 08:28:57,946 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG map persistent save system guide
+2026-05-21 08:28:57,965 [INFO] Error in engine grokipedia: TimeoutException(TimeoutError('error sending request for url (https://grokipedia.com/api/typeahead?query=WC3+RPG+map+persistent+save+system+guide&limit=1) > operation timed out'))
+2026-05-21 08:28:58,160 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:28:58,667 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:28:58,692 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG map persistent save system guide
+2026-05-21 08:28:58,693 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:01,853 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:01,855 [INFO] 🌐 双语查询: EN='Warcraft 3 save load system tutorial' | ZH='Warcraft 3 save load system tutorial'
+2026-05-21 08:29:02,095 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:02,110 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:02,129 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20save%20load%20system%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:02,144 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20save%20load%20system%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:02,267 [INFO] response: https://search.yahoo.com/search;_ylt=BLTtQ1Mljghk-s92yh-boqeY;_ylu=4K-6XqJYAZbJbR3Rcqxd6J0eMREaX8Ep9UMTyXGyC0bunTk?p=Warcraft+3+save+load+system+tutorial 200
+2026-05-21 08:29:02,895 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+save+load+system+tutorial&limit=1 200
+2026-05-21 08:29:03,121 [INFO] response: https://www.google.com/search?q=Warcraft+3+save+load+system+tutorial&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-21 08:29:03,135 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 save load system tutorial
+2026-05-21 08:29:03,536 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+save+load+system+tutorial&limit=1 200
+2026-05-21 08:29:04,170 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+save+load+system+tutorial 403
+2026-05-21 08:29:05,044 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=7F7BC0787BBA1DA9BC76025A352A32071995CDC3E208CC6BB92EC85DF339CDAFE4D16A362205590EA209CC3BA3F27BF43E948717B2865694554A85CDA5E95076D0F9F6C4C87863C7846559835B147CC4ADABF7D3A2E079DF0E7E76A1F822B5E501E4AD8ABE95E2E5108894F21C8458B90484DB7503397391007344126E2D9D5FC1F187F8EBA8B8B169DD9BBB6A95277DEF03AA4B1C0B4CC4AD61AD864EFBA4CEB351846CAA67ECBE4C684DB460F26199DE7C1136A4C2431A8D0621110D91121B025207889583C322EE0AC859366C3A2B957EBD64A50DDB57F8860A916DDEB70BAB275ED73AD4D03B93AF6383B9454D50E00F28&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMytzYXZlK2xvYWQrc3lzdGVtK3R1dG9yaWFsJndlYj0xJnNlYXJjaGlkPTk2NzY0NTI%2C_6f3d1d1b50916abdf184b512080410ee&t=2%252F1779352144%252F3cc1471e88b29942f7c90f3638d6d2f7&u=8729836643114197953&s=58c72d8fcd65b3cceafd6a324706b93e 200
+2026-05-21 08:29:05,253 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:29:05,739 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:29:05,763 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 save load system tutorial
+2026-05-21 08:29:05,764 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:08,228 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:08,229 [INFO] 🌐 双语查询: EN='魔兽争霸3 存档系统 原理 介绍' | ZH='魔兽争霸3 存档系统 原理 介绍'
+2026-05-21 08:29:08,483 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:08,499 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:08,574 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F%20%E5%8E%9F%E7%90%86%20%E4%BB%8B%E7%BB%8D) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:08,584 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F%20%E5%8E%9F%E7%90%86%20%E4%BB%8B%E7%BB%8D) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:08,682 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86+%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-21 08:29:08,692 [INFO] response: https://search.yahoo.com/search;_ylt=mTZLlrDwQUBLI4S2BPR6c59D;_ylu=wXoylN-xud6M0nXYXO49Wlc9rNxe4i7zgPWiVhFEbieKDUg?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86+%E4%BB%8B%E7%BB%8D 200
+2026-05-21 08:29:08,774 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86+%E4%BB%8B%E7%BB%8D&source=web 429
+2026-05-21 08:29:08,896 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86+%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-21 08:29:09,076 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86+%E4%BB%8B%E7%BB%8D 403
+2026-05-21 08:29:09,285 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86+%E4%BB%8B%E7%BB%8D 403
+2026-05-21 08:29:09,361 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:29:09,902 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:29:09,928 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 存档系统 原理 介绍
+2026-05-21 08:29:10,232 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=F322C0313A2E80DD9C6BF7EBB37EDA1EB0D8A0AD1531E20D50CBBEA73D4C57F16E60EE915CC2571C801693C9A50569C8E4BCEBF926787F6A244D225601487D7B540F31E4FD8BE926F32526FFBE348019B3BC7556087AA0CDAEED340C8B25186682D5F4676A1756502886EFF4B696B3C894278245F9A103F42A2503F287D1C8B89B2CEAA59E199750A8933FE157EDE020B485A7A0DF911D63A57FF4D8C63072C730429973EDFD229629482F21A55834A6936FFC70B133A9F7A2FD5CD3475691E2984FD91C4B02922F8F51D6A569D6D17E65870575A9EAA5659898896E920CD46771B8962B8EE0EE01C6431FDDE40068280653EC&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9JUU5JUFEJTk0JUU1JTg1JUJEJUU0JUJBJTg5JUU5JTlDJUI4MyslRTUlQUQlOTglRTYlQTElQTMlRTclQjMlQkIlRTclQkIlOUYrJUU1JThFJTlGJUU3JTkwJTg2KyVFNCVCQiU4QiVFNyVCQiU4RCZ3ZWI9MSZzZWFyY2hpZD0xOTgwMjc2_99730054ceecb3423f180b781a1ea8b1&t=2%252F1779352149%252Fab8492c46a0fedd04509fae7caba1a0b&u=8729836988658362738&s=cc0a3f56ed89e62a952147dc83be40db 200
+2026-05-21 08:29:10,456 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%AD%98%E6%A1%A3%E7%B3%BB%E7%BB%9F+%E5%8E%9F%E7%90%86+%E4%BB%8B%E7%BB%8D&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-21 08:29:10,473 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 存档系统 原理 介绍
+2026-05-21 08:29:10,474 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:12,942 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:12,943 [INFO] 🌐 双语查询: EN='WC3 RPG save game mechanics' | ZH='WC3 RPG save game mechanics'
+2026-05-21 08:29:13,199 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:13,203 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:13,240 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20save%20game%20mechanics) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:13,307 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20save%20game%20mechanics) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:13,435 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:13,436 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-21 08:29:13,436 [INFO] 🔍 ResearcherAgent 开始: 地图性能优化指南 (21 查询)
+2026-05-21 08:29:13,437 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:13,524 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+save+game+mechanics&limit=1 200
+2026-05-21 08:29:13,647 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+save+game+mechanics&limit=1 200
+2026-05-21 08:29:13,962 [INFO] response: https://www.mojeek.com/search?q=WC3+RPG+save+game+mechanics 403
+2026-05-21 08:29:14,157 [INFO] response: https://www.mojeek.com/search?q=WC3+RPG+save+game+mechanics 403
+2026-05-21 08:29:14,200 [INFO] response: https://search.brave.com/search?q=WC3+RPG+save+game+mechanics&source=web 429
+2026-05-21 08:29:14,326 [INFO] response: https://www.google.com/search?q=WC3+RPG+save+game+mechanics&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:29:14,342 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG save game mechanics
+2026-05-21 08:29:14,356 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:29:14,660 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-21 08:29:14,684 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG save game mechanics
+2026-05-21 08:29:14,685 [INFO]   搜索阶段：收集到 36 条候选结果
+2026-05-21 08:29:14,740 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/warcraft-3-world-editor-cant-load-models.227337/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/warcraft-3-world-editor-cant-load-models.227337/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:29:14,743 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=37153 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=37153'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:29:14,783 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/save-load-system.247514/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/save-load-system.247514/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:29:15,508 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:15,509 [INFO] 🌐 双语查询: EN='Warcraft 3 map lag optimization guide' | ZH='Warcraft 3 map lag optimization guide'
+2026-05-21 08:29:15,774 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:15,803 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:15,804 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20map%20lag%20optimization%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:15,907 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20map%20lag%20optimization%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:15,977 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+map+lag+optimization+guide&limit=1 200
+2026-05-21 08:29:16,024 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:29:16,100 [INFO] response: https://www.startpage.com/ 200
+2026-05-21 08:29:16,150 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:16,192 [INFO] response: https://search.brave.com/search?q=Warcraft+3+map+lag+optimization+guide&source=web 429
+2026-05-21 08:29:16,229 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:16,723 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:17,130 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:17,132 [ERROR] PlannerAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+原始输出: ```json
+{
+  "outline": [
+    {
+      "title": "什么是自定义 UI 框架（Frame API）",
+      "level": 2,
+      "search_queries": [
+        "Warcraft 3 Frame API custom UI tutorial",
+        "WC3 自定义UI框架入门",
+        "Warcraft 3 GUI vs Frame API 区别"
+      ],
+      "children": [
+        {
+          "title": "Frame A
+2026-05-21 08:29:17,132 [INFO] ✅ PlannerAgent 完成: 1 节, 2 个查询
+2026-05-21 08:29:17,132 [INFO] 🔍 ResearcherAgent 开始: 自定义 UI 框架（Frame API） (2 查询)
+2026-05-21 08:29:17,133 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:17,179 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=E5BCBD310FBC09D65BE2D2197F43DE36632017822CED7F43DD819E94E4419696304E437040E607B46F188C188C35F7ABA3282650139C1E455DF80ECF8E6CD8849348C6AEE0C266074CBD82D7FAE252AF389B7C883C1C70B86A82A2DEE09F6CDC1E2705B45474C1C5D516C592D340C86AC7D8C4D0EA759EAC7E7C5C78D9BD55542CD0724C650B0FDD36B7EDBACC6613EDC9616E08E4ACA8D8A60400533A5EC0A937792EC64831B0E75C2F0D2635C9B85210E5735F6447B209F6DB822D1374B9D41A8B2A17C3ADCABC7502D3D5DE72CC069B26EAB25F67A2ED66740957E4DA8111C774DCEBA51A34FBE43E213F258BD4F24F093D&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMyttYXArbGFnK29wdGltaXphdGlvbitndWlkZSZ3ZWI9MSZzZWFyY2hpZD0xNjc3NTc0_4099e1bdc0064a25c7f6d99a767ebd77&t=2%252F1779352156%252Fd9cac628f8fa4690c617b7e9b8b2f386&u=8729837457815806802&s=ab02e2ebf386914b5dcd5e5a46366e1a 200
+2026-05-21 08:29:17,323 [INFO] response: https://search.yahoo.com/search;_ylt=ajdsvfX_QhmLUEo7oFbmQqUx;_ylu=TZUekJiFaweHOgi8FzBRy8_CDwsgn2PBTwJ8bCGUNQH65RA?p=Warcraft+3+map+lag+optimization+guide 200
+2026-05-21 08:29:17,823 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+map+lag+optimization+guide 403
+2026-05-21 08:29:18,142 [INFO] response: https://www.google.com/search?q=Warcraft+3+map+lag+optimization+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:29:18,156 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 map lag optimization guide
+2026-05-21 08:29:19,149 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:19,150 [INFO] 🌐 双语查询: EN='Custom UI Framework (' | ZH='自定义 UI 框架（Frame API）'
+2026-05-21 08:29:19,401 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:19,409 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:19,438 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Custom%20UI%20Framework%20%28) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:19,448 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E8%87%AA%E5%AE%9A%E4%B9%89%20UI%20%E6%A1%86%E6%9E%B6%EF%BC%88Frame%20API%EF%BC%89) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:19,482 [INFO] response: https://search.brave.com/search?q=Custom+UI+Framework+%28&source=web 429
+2026-05-21 08:29:19,533 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+map+lag+optimization+guide&limit=1 200
+2026-05-21 08:29:19,577 [INFO] response: https://search.brave.com/search?q=Warcraft+3+map+lag+optimization+guide&source=web 429
+2026-05-21 08:29:19,580 [INFO] response: https://grokipedia.com/api/typeahead?query=Custom+UI+Framework+%28&limit=1 200
+2026-05-21 08:29:20,103 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+map+lag+optimization+guide 403
+2026-05-21 08:29:20,569 [INFO] response: https://yandex.com/search/site/?text=Custom+UI+Framework+%28&web=1&searchid=4097402 200
+2026-05-21 08:29:20,602 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Custom UI Framework (
+2026-05-21 08:29:20,984 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=13A617AB2ABDE2736E1887300AA225E7D6DE4BCBED880F1F31CED75DB1B7B554BB90459E69BD5887309D3A1BC6B4DAAE67D3242569C2569956E424ED7E12414105E635E02C2DE9F50F56AF5B6765A26362E8B74D9F83957A97B86547111D61182739740CE0A7000408ECCA04328066D7A60408850CDB6A3038F34B7FA3E32C02AA64EDFB7E793EDA526BE8B99C8105858A50603B78EBBA8D59DE936BE8D2CE202F1E0E32A25DFA72AA0039D02B8FFC5877752A2808FFF0DFEC32F076E63530F51B73338CF41033F2511DA4E4E5B746ABEE9F03F373DB305C9078172EB50761ECA1A4674F8CBCADB5A864A97259589CEA7AB0EC&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMyttYXArbGFnK29wdGltaXphdGlvbitndWlkZSZ3ZWI9MSZzZWFyY2hpZD03MzEwNTM5_6599ba2a1a113d159031fde14af8866b&t=2%252F1779352160%252Fed4c1add21c5571d6240e2d03aab2167&u=8729837712628163435&s=1856886e0596f3aab7603c93fdbc4b92 200
+2026-05-21 08:29:21,199 [INFO] response: https://search.yahoo.com/search;_ylt=eZCz8K2xtORC5byVCn1fQ7aV;_ylu=xposRdq4HN2az2LvQIYrjbRqYV8iqR_14G4nxw2PJ34x0nI?p=Warcraft+3+map+lag+optimization+guide 200
+2026-05-21 08:29:21,409 [INFO] response: https://www.google.com/search?q=Warcraft+3+map+lag+optimization+guide&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-21 08:29:21,423 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 map lag optimization guide
+2026-05-21 08:29:21,424 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:22,163 [INFO] response: https://grokipedia.com/api/typeahead?query=%E8%87%AA%E5%AE%9A%E4%B9%89+UI+%E6%A1%86%E6%9E%B6%EF%BC%88Frame+API%EF%BC%89&limit=1 200
+2026-05-21 08:29:22,402 [INFO] response: https://www.google.com/search?q=%E8%87%AA%E5%AE%9A%E4%B9%89+UI+%E6%A1%86%E6%9E%B6%EF%BC%88Frame+API%EF%BC%89&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-21 08:29:22,416 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 自定义 UI 框架（Frame API）
+2026-05-21 08:29:22,418 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:23,958 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:23,959 [INFO] 🌐 双语查询: EN='Warcraft III map performance optimization complete guide' | ZH='魔兽争霸3 地图性能优化 完全指南'
+2026-05-21 08:29:24,223 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:24,251 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:24,251 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20map%20performance%20optimization%20complete%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:24,280 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%9C%B0%E5%9B%BE%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%20%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:24,436 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:24,563 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:24,619 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-21 08:29:24,769 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97 403
+2026-05-21 08:29:24,943 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:25,073 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:25,590 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:25,591 [INFO] 🌐 双语查询: EN='Warcraft III Custom' | ZH='Warcraft III 自定义 UI 框架（Frame API）'
+2026-05-21 08:29:25,846 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:25,851 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:25,883 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Custom) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:25,887 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%87%AA%E5%AE%9A%E4%B9%89%20UI%20%E6%A1%86%E6%9E%B6%EF%BC%88Frame%20API%EF%BC%89) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:26,110 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&web=1&searchid=4431059 200
+2026-05-21 08:29:26,129 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Custom&limit=1 200
+2026-05-21 08:29:26,141 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 地图性能优化 完全指南
+2026-05-21 08:29:26,200 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E8%87%AA%E5%AE%9A%E4%B9%89+UI+%E6%A1%86%E6%9E%B6%EF%BC%88Frame+API%EF%BC%89&limit=1 200
+2026-05-21 08:29:26,243 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E8%87%AA%E5%AE%9A%E4%B9%89+UI+%E6%A1%86%E6%9E%B6%EF%BC%88Frame+API%EF%BC%89&source=web 429
+2026-05-21 08:29:26,383 [INFO] response: https://search.yahoo.com/search;_ylt=r8sGFw3sBrKRn4GfJ71JW6-o;_ylu=K8tVzPuAGNr_wDOg1UI22argwHnLcoO5v5-9jMdjAotNCIA?p=Warcraft+III+%E8%87%AA%E5%AE%9A%E4%B9%89+UI+%E6%A1%86%E6%9E%B6%EF%BC%88Frame+API%EF%BC%89 200
+2026-05-21 08:29:26,396 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+Custom 403
+2026-05-21 08:29:26,441 [INFO] response: https://search.brave.com/search?q=Warcraft+III+Custom&source=web 429
+2026-05-21 08:29:27,078 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+map+performance+optimization+complete+guide&limit=1 200
+2026-05-21 08:29:27,317 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=8CDEF275EF61ABCBC1D9437839A4D477555D8EF60E32E0BD3E934CD09A571B2B90E29F4866E43FA6ABBA7F4460883A1A738C780D91DE6595BAB723EDE8A0DF34A000C346F5003C76E2A5981C32AD1913C11084642D3920BEE24430779B1B23A87209F2F2B05415CFD1EF0F6B30F76891AF0C471D5083379AC87BB1F2C5A6F09606C633FF168AFF06C2506E5D18053E6086C59835C27747910821C7C7368EA715DACCE273ADF4A658E52DB0C407458BD18A281B1920D298596E715B3C56047B720E1CD4D4E6B51B330E730DADEEE091640286F88519C3CC7428EBEFBD2AAF69DC739F458CDCBD380CD4797F3A10977BD35071E9&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrSUlJK0N1c3RvbSZ3ZWI9MSZzZWFyY2hpZD03NzgwMzM3_d9d952b582e30f9009060d48a9c8e57d&t=2%252F1779352166%252F1c0872309751dab9cd8ffd95d5c7b092&u=8729838137829925652&s=1ef2a8691939c371ca5090489cbe4fab 200
+2026-05-21 08:29:27,414 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E8%87%AA%E5%AE%9A%E4%B9%89+UI+%E6%A1%86%E6%9E%B6%EF%BC%88Frame+API%EF%BC%89&web=1&searchid=6547988 200
+2026-05-21 08:29:27,458 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 自定义 UI 框架（Frame API）
+2026-05-21 08:29:27,521 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:27,639 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:27,758 [INFO] response: https://search.yahoo.com/search;_ylt=7Vvrn59EPbjMCgmkj1CHHPTv;_ylu=FdD9Bd6dClOCWWyN0kib38ylbzudJPygIiCNrGdVP0f4ibc?p=Warcraft+III+Custom 200
+2026-05-21 08:29:28,025 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=5327447F56E343B6E728CE835DF88C41B108EA05CBBE46D0EC10B5F29E6D3D1B2701A26F13A2CDF3476C7C5D3C3D6A4978725BB782C09B4B2B3D69FADFC1066E45D8A9E5EDEC22BAE34BD711B29C7FE1A40AC330C7BFE6954B586D5F98CA1C192C2B7F9F9E4FC3BCB3E4B457A901E82098348704E259D1D6BED3ACA8C29E8380CCDF8DE30395E1B6A06741982C2FC0BC9D635BFEACA5F0DC91B142CF821C9698099D7CF1AB3846B62994F095670A10C8C5897F5593D64009099CF2756F09698EAA6183CB5506B7EBEFB2AD6E4D9775501B19866C98BC4EF7A69C29ADF0B1EC4B88C61BA4E39DA0BBAD1B82AE66B0FF56DE9235&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrSUlJK21hcCtwZXJmb3JtYW5jZStvcHRpbWl6YXRpb24rY29tcGxldGUrZ3VpZGUmd2ViPTEmc2VhcmNoaWQ9NzEzODgzMg%2C%2C_0b1fbf23e596233110b198bf4ce6b389&t=2%252F1779352167%252Fe4a175dfa082670a171b79621ab64a50&u=8729838182726380029&s=b07b55355448df25ea2a016fee4999ca 200
+2026-05-21 08:29:28,026 [INFO] response: https://www.google.com/search?q=Warcraft+III+Custom&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:29:28,042 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Custom
+2026-05-21 08:29:28,042 [INFO]   搜索阶段：收集到 16 条候选结果
+2026-05-21 08:29:28,094 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/1ghnqa1/the_best_custom_maps/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/1ghnqa1/the_best_custom_maps/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:29:28,397 [INFO] response: https://www.google.com/search?q=Warcraft+III+map+performance+optimization+complete+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:29:28,485 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III map performance optimizatio
+2026-05-21 08:29:28,486 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:28,550 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/repositories/maps.564/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/repositories/maps.564/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:29:29,629 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:31,002 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:31,003 [INFO] 🌐 双语查询: EN='WC3 World Editor performance best practices' | ZH='WC3 World Editor performance best practices'
+2026-05-21 08:29:31,328 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:31,345 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:31,399 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20performance%20best%20practices) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:31,417 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20performance%20best%20practices) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:31,460 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+performance+best+practices&source=web 429
+2026-05-21 08:29:31,644 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+performance+best+practices&limit=1 200
+2026-05-21 08:29:31,777 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+performance+best+practices&limit=1 200
+2026-05-21 08:29:32,003 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:32,135 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:32,146 [INFO] response: https://www.mojeek.com/search?q=WC3+World+Editor+performance+best+practices 403
+2026-05-21 08:29:32,199 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+performance+best+practices&source=web 429
+2026-05-21 08:29:32,336 [INFO] response: https://search.yahoo.com/search;_ylt=o6e_08oghSXyrpPBwIo7RLp4;_ylu=OIEFs_JbyyGDkt1Q_PV5WbgLEW63I_mijvNFzSqtDuj_jBw?p=WC3+World+Editor+performance+best+practices 200
+2026-05-21 08:29:32,628 [INFO] response: https://www.google.com/search?q=WC3+World+Editor+performance+best+practices&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-21 08:29:32,644 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor performance best practi
+2026-05-21 08:29:32,654 [INFO] response: https://www.mojeek.com/search?q=WC3+World+Editor+performance+best+practices 403
+2026-05-21 08:29:33,537 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=FFB37D8FDA12E1F4210271947634C030A0B05BCE973A1CE071891492E90768FAD896C916CB92D1624A71508A966FB1FD4F45B6729AB94F28F3E7B5FBE5DF07B8CB7ACCBEE9FB3F65925771132CA2D0866D5BC15EC270B25F1E22B11706E4860F768885B01EB4EC2A8180E6554EDF52E591BE258D49FB554E274C28C30FF6FB4FFB246E2E9CA89047F8FE05B0376A13DFE2FCD6A6C36FC4031F387686EA5CCE62BF93C824BC8AFDC56744411B198CF7B65B7938758A072F7A52537ABAE737B27AB6D65DC431190A7C95858433FADD3406C3E9F945B4D9B5B887F18FB6C54A10E9B99AAA70C5582FBE35F497423D257CD11B284D&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzK1dvcmxkK0VkaXRvcitwZXJmb3JtYW5jZStiZXN0K3ByYWN0aWNlcyZ3ZWI9MSZzZWFyY2hpZD04NDc4MjY4_a3eec25b28ecf8e3b41128936d86cad2&t=2%252F1779352173%252F4aeadebd8acf0478d5cb6fe0c59b3eaf&u=8729838555045733320&s=95c1020a63b8de9b3d1c1ab6829a8e11 200
+2026-05-21 08:29:33,712 [INFO] response: https://www.google.com/search?q=WC3+World+Editor+performance+best+practices&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:29:33,726 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor performance best practi
+2026-05-21 08:29:33,727 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:36,053 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:36,054 [INFO] 🌐 双语查询: EN='Warcraft 3 map performance lag optimization' | ZH='Warcraft 3 map performance lag optimization'
+2026-05-21 08:29:36,348 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:36,353 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:36,458 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20map%20performance%20lag%20optimization) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:36,466 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20map%20performance%20lag%20optimization) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:36,534 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+map+performance+lag+optimization&limit=1 200
+2026-05-21 08:29:36,663 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+map+performance+lag+optimization&limit=1 200
+2026-05-21 08:29:36,807 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:36,925 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:36,985 [INFO] response: https://search.brave.com/search?q=Warcraft+3+map+performance+lag+optimization&source=web 429
+2026-05-21 08:29:36,986 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+map+performance+lag+optimization 403
+2026-05-21 08:29:37,127 [INFO] response: https://search.yahoo.com/search;_ylt=WQlTJ4R4m-L1pyI3HqFG8wss;_ylu=j742Z3xgk_qJBF0tHxwHvrEhF8-duy55z_Lj-UREzFLaPxc?p=Warcraft+3+map+performance+lag+optimization 200
+2026-05-21 08:29:37,155 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:37,282 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:37,417 [INFO] response: https://search.yahoo.com/search;_ylt=pIjLtjv_-RtsNIg1QvxKgzNE;_ylu=_sB4XGtR1y34muq1zT10sBrspyKwfpynR71cQdKSE120aEI?p=Warcraft+3+map+performance+lag+optimization 200
+2026-05-21 08:29:37,665 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+map+performance+lag+optimization 403
+2026-05-21 08:29:38,433 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+map+performance+lag+optimization&web=1&searchid=9210109 200
+2026-05-21 08:29:38,436 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 map performance lag optimizat
+2026-05-21 08:29:38,544 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=3680D953C040C27377785C8D85905D55DFCA51E7868E8DB21FB1785E8E046F99D16D8738CEBDBC961A81B216A8E28B0991E86ED28792107A1487DAB0A6271E6C232859E06A49BFF930FB191DEC2224B005F0C3B8178E3F904CB5039E28CD061C821E38222EA613316DE343832B8BF27B5ED0105EFF36E53F10D46B04A7ED87361BFB00D3F6A76409797CFE74D376A28A17EAB931DD7CF8EEB37A8A66A28635323DBEC270F4A18A4A3FEB772ACBA2B03F0F38A74741E7FC692AB93388810D061DDBF96E90C54FC9710F377762825DA4A73C08C3919EDB4DF820646CDD12D23F7A13AB9DDF37E173862E74804E93BD994E886FC6&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrMyttYXArcGVyZm9ybWFuY2UrbGFnK29wdGltaXphdGlvbiZ3ZWI9MSZzZWFyY2hpZD0xNDU2MTY4_023e01abe051b24ffd7c35621f91c091&t=2%252F1779352178%252F8405b31109079f502d78cce00279736a&u=8729838891530201344&s=7d6a2277b9c76f56c6c13c684f162e5f 200
+2026-05-21 08:29:38,761 [INFO] response: https://www.google.com/search?q=Warcraft+3+map+performance+lag+optimization&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-21 08:29:38,775 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 map performance lag optimizat
+2026-05-21 08:29:38,776 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:39,756 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:39,757 [WARNING] 来源不足（0/3），扩大搜索...
+2026-05-21 08:29:40,007 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:40,079 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E8%87%AA%E5%AE%9A%E4%B9%89%20UI%20%E6%A1%86%E6%9E%B6%EF%BC%88Frame%20API%EF%BC%89%20tutorial%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:40,228 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E8%87%AA%E5%AE%9A%E4%B9%89+UI+%E6%A1%86%E6%9E%B6%EF%BC%88Frame+API%EF%BC%89+tutorial+guide&limit=1 200
+2026-05-21 08:29:41,154 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=FB6E99BC82BDD1F5A90ED67E365351D92AAD395A6AED88DDDC916CAEE950DCA33EE20828B2BCB62CC54662389602CD5D80BBBB7052D4A33A275FFF49EE86FD01C7E29C3A9AA26BCA60A9990FE02A25EB11ADA948B8ED9CF132374C2BBF48FD86C1DF852FD7FB06B5FCFDCF39E419A835742D32C94009088D41359BFAE8BF45156AA104604C88FE302D327CD560789DACA7D535F7C9439F447B0EDA9C4697976C86B1E1DBD81501BA685FC14CB2DB0DDF09E87C952EBEA814B3CFC9861CC044ADCB14C2E866DA80A76A9FAB359A0112111AD43EF8CA2F897F0D1EC29B46EA791BC37AA310FF777D9EEDEAAF55D0E100CFC16FA3&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V2FyY3JhZnQrSUlJKyVFOCU4NyVBQSVFNSVBRSU5QSVFNCVCOSU4OStVSSslRTYlQTElODYlRTYlOUUlQjYlRUYlQkMlODhGcmFtZStBUEklRUYlQkMlODkrdHV0b3JpYWwrZ3VpZGUmd2ViPTEmc2VhcmNoaWQ9NDU4MjA3MA%2C%2C_e61632d13c2843260d94f058518bebe6&t=2%252F1779352180%252F6da833ff2e3a91abd9494daf2c5c886c&u=8729839065677079535&s=46e5fddbe6f0289145cc934257df3a9d 200
+2026-05-21 08:29:41,345 [INFO] response: https://search.yahoo.com/search;_ylt=piJCcdBfhjmBtJ1_mByHVzjY;_ylu=aIZfYchyyFStkXKkW1SY1H58KFJneo3XPzaBvfaFwKXVNM8?p=Warcraft+III+%E8%87%AA%E5%AE%9A%E4%B9%89+UI+%E6%A1%86%E6%9E%B6%EF%BC%88Frame+API%EF%BC%89+tutorial+guide 200
+2026-05-21 08:29:41,579 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:41,580 [INFO] 🌐 双语查询: EN='魔兽争霸3 地图卡顿 原因' | ZH='魔兽争霸3 地图卡顿 原因'
+2026-05-21 08:29:41,837 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+%E8%87%AA%E5%AE%9A%E4%B9%89+UI+%E6%A1%86%E6%9E%B6%EF%BC%88Frame+API%EF%BC%89+tutorial+guide 403
+2026-05-21 08:29:41,857 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:41,891 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:41,926 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF%20%E5%8E%9F%E5%9B%A0) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:41,960 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF%20%E5%8E%9F%E5%9B%A0) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:42,143 [INFO] response: https://www.google.com/search?q=Warcraft+III+%E8%87%AA%E5%AE%9A%E4%B9%89+UI+%E6%A1%86%E6%9E%B6%EF%BC%88Frame+API%EF%BC%89+tutorial+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:29:42,158 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 自定义 UI 框架（Frame API） tutori
+2026-05-21 08:29:42,158 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-21 08:29:42,158 [INFO] ✍️  WriterAgent 开始: 自定义 UI 框架（Frame API） (loop 0)
+2026-05-21 08:29:42,159 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:42,173 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF+%E5%8E%9F%E5%9B%A0&limit=1 200
+2026-05-21 08:29:42,234 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:42,288 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF+%E5%8E%9F%E5%9B%A0&limit=1 200
+2026-05-21 08:29:42,384 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:42,488 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF+%E5%8E%9F%E5%9B%A0 403
+2026-05-21 08:29:42,628 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF+%E5%8E%9F%E5%9B%A0&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:29:42,645 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 地图卡顿 原因
+2026-05-21 08:29:42,677 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF+%E5%8E%9F%E5%9B%A0&source=web 429
+2026-05-21 08:29:42,901 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:43,042 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:44,003 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%9C%B0%E5%9B%BE%E5%8D%A1%E9%A1%BF+%E5%8E%9F%E5%9B%A0&web=1&searchid=8110356 200
+2026-05-21 08:29:44,033 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 地图卡顿 原因
+2026-05-21 08:29:44,034 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:46,723 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:46,724 [INFO] 🌐 双语查询: EN='WC3 World Editor performance basics' | ZH='WC3 World Editor performance basics'
+2026-05-21 08:29:46,983 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:47,027 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-21 08:29:47,098 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20performance%20basics) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:47,100 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20performance%20basics) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.5mdysf0siviedfgc1genqfi2hh.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-21 08:29:47,587 [INFO] response: https://www.mojeek.com/search?q=WC3+World+Editor+performance+basics 403
+2026-05-21 08:29:48,067 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+performance+basics&limit=1 200
+2026-05-21 08:29:48,273 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:48,403 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:48,571 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+performance+basics&limit=1 200
+2026-05-21 08:29:48,703 [INFO] response: https://search.yahoo.com/search;_ylt=T_kI8FmA0taZTLHUXbmKGDOj;_ylu=BXhHzfPfXVJpjJZAKLebpUFy8F_YakoOD220YmAZmStWO1U?p=WC3+World+Editor+performance+basics 200
+2026-05-21 08:29:48,894 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:49,004 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-21 08:29:49,237 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=1289F5759F58A7C8DE27160CBAEF9D20B68F3401806A28AB5E8AFB5A52EE332E2F594A646A4E8131D9E43C2C8E6E1E4B10E908DA998D332112F1EF2102D1CCC870E9EC4905398EAEEB54E1A7D613EEFCF2A65E24AC8BDFB065F0DD11517DC51B735B07BD82F9E04C5EB9D6CB481C74D4596EBC04BFADAF6C7A44FAE31A18BE2FAF2E4DC92E6BABBD44E4DCD3294374A77A8716C4755DC5326B6416514F646E96D014FB6B90679AD1F4820CF559C42E9C8E43CE02ECD6AD9249322E3A35B5CCD4FF66D7D61D456D6873D817D452B7F1D2CD382FD35E948AB53E2CE4C9BEBF2FB5E9F747CA7F248224BF00BD6C5C6F728ACF7B45&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzK1dvcmxkK0VkaXRvcitwZXJmb3JtYW5jZStiYXNpY3Mmd2ViPTEmc2VhcmNoaWQ9OTY5MjQ5Mg%2C%2C_3d7a2254655136fb04a8a242391af105&t=2%252F1779352188%252F1005a9294de167be3cd85c42816c39a0&u=8729839610534570373&s=210849ae058f6b206c165ce1a22409ff 200
+2026-05-21 08:29:49,383 [INFO] response: https://search.yahoo.com/search;_ylt=txsVELveXE4CKtNF8F2mMXcu;_ylu=hGPau0omDFbe5iVEeZ1hleJ5gY9_Vb7mVfbSuthwQp63N6M?p=WC3+World+Editor+performance+basics 200
+2026-05-21 08:29:49,450 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+performance+basics&source=web 429
+2026-05-21 08:29:49,493 [INFO] response: https://www.mojeek.com/search?q=WC3+World+Editor+performance+basics 403
+2026-05-21 08:29:49,729 [INFO] response: https://www.google.com/search?q=WC3+World+Editor+performance+basics&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-21 08:29:49,748 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor performance basics
+2026-05-21 08:29:50,397 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=7E89FA8D9B872CDE2B53FE1E6C71D6989A0D521DBE9D721BEA5BD9636CEF5D41CC06990C3A71923CAABB5722EDDA90CAC766DC2CA3D7DA3EE0DBA46CA2AE3E7B284ABAB68FEF369E595345CC9825E8FB3EC621B2814929CABB73093CE784EDEE57C2F057B84A004A2770913F1F314C8863627EE0DCFADE48F9FE4B9A2ADF081577649D3A4794F399802349E671E4DFC3D1B70BCA5F70B3BD3DA5DAE73023A0A14125E9489E453462A320D5C639E25CF7C674069FA7DA0C4ED849C3C3C1A62E25B4C988463E9261EFB0921AEE2383A07BA2EB212CC14AA5BBD37FB25C0C76AE0D9645F1DAE4AD79F4EA38FADBE43B9514DC8E26&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzK1dvcmxkK0VkaXRvcitwZXJmb3JtYW5jZStiYXNpY3Mmd2ViPTEmc2VhcmNoaWQ9ODcxMDk4NQ%2C%2C_3ab7fd8ce68d2a4f5c1b44c295679411&t=2%252F1779352190%252F0f07539456efcc32d5bb6631db063ee0&u=8729839685897824526&s=f646caf3fb1693ff8443230d6f15d93e 200
+2026-05-21 08:29:50,446 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+performance+basics&source=web 429
+2026-05-21 08:29:50,632 [INFO] response: https://www.google.com/search?q=WC3+World+Editor+performance+basics&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-21 08:29:50,646 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor performance basics
+2026-05-21 08:29:50,646 [INFO]   搜索阶段：收集到 31 条候选结果
+2026-05-21 08:29:50,689 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/o45ryw/how_to_stop_map_lag/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/o45ryw/how_to_stop_map_lag/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:29:50,698 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/general-questions-about-trigger-optimizing-and-performance.346180/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/general-questions-about-trigger-optimizing-and-performance.346180/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:29:50,728 [WARNING] ⚠️  抓取失败，已忽略: https://www.wc3maps.com/maps — Client error '403 Forbidden' for url 'https://www.wc3maps.com/maps'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:29:50,736 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/1jzvo3a/warcraft_3_extreme_lag/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/1jzvo3a/warcraft_3_extreme_lag/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-21 08:29:51,739 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:29:52,227 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:29:52,228 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-21 08:29:52,228 [INFO] ✍️  WriterAgent 开始: 存档与读档系统实现 (loop 0)
+2026-05-21 08:29:52,229 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:30:01,633 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:30:01,635 [INFO] ✅ WriterAgent 完成: 1047 字符, 2/3 来源被引用
+2026-05-21 08:30:01,635 [INFO] 🔎 ReviewerAgent 开始: 自定义 UI 框架（Frame API）
+2026-05-21 08:30:01,636 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:30:11,888 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:30:11,890 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:30:15,361 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:30:15,362 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-21 08:30:15,363 [INFO] ✍️  WriterAgent 开始: 地图性能优化指南 (loop 0)
+2026-05-21 08:30:15,364 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-21 08:30:24,386 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-21 08:30:24,387 [INFO] ✅ 通过 ReviewerAgent: overall=0.82 (A=0.85 C=0.75 R=0.92 Cit=0.60)
+2026-05-21 08:30:24,387 [INFO]   反馈 5 条:
+2026-05-21 08:30:24,388 [INFO]   [missing_citation] Frame API 是暴雪官方提供的创建自定义 UI 的接口...
+2026-05-21 08:30:24,388 [INFO]   [missing_citation] 触发器负责"逻辑"，决定"什么时候做什么事"；UI 框架负责"显示"，决定"玩家看到什么"。两者配合才能做出完整的游戏界...
+2026-05-21 08:30:24,388 [INFO]   [missing_citation] Frame API 是创建自定义游戏界面的核心工具，它让我们能够突破魔兽默认界面的限制...
+2026-05-21 08:30:24,388 [INFO]   [factual_error] Source 2 (YouTube video about World of Warcraft) is listed i...
+2026-05-21 08:30:24,388 [INFO]   [incomplete_section] The article mentions 'Frame 编辑器' but doesn't explain how to ...
+2026-05-21 08:30:24,388 [INFO] ✅ 质量通过 (loop 0): score=0.82
+2026-05-21 08:30:24,388 [INFO] 📄 文章写入: docs/advanced/自定义-ui-框架frame-api.md
