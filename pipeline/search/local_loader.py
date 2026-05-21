@@ -71,7 +71,8 @@ def load_local_sources(
             except Exception:
                 rel = file_path.name
 
-            url = f"local://{str(rel).replace('\\\\', '/')}"
+            rel_str = str(rel).replace('\\', '/')
+            url = f"local://{rel_str}"
             if url in seen:
                 continue
             seen.add(url)
