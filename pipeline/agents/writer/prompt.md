@@ -20,6 +20,9 @@ Outline for this section:
 Source Registry (use these for citations):
 {source_registry_json}
 
+Notes (optional, do not cite unless present in source registry):
+{notes}
+
 Previous feedback (if rewriting):
 {reviewer_feedback}
 ```

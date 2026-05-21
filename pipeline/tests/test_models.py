@@ -27,6 +27,11 @@ def test_source_footnote_def():
     assert s.footnote_def == "[^3]: [JASS Tutorial](https://hive.com/thread/1) — accessed 2026-04-15"
 
 
+def test_source_footnote_def_local():
+    s = Source(id=1, url="local://notes/a.md", title="作者笔记", accessed_at="2026-04-15T10:00:00+00:00")
+    assert s.footnote_def == "[^1]: 作者笔记 — accessed 2026-04-15"
+
+
 def test_source_dedup_in_context():
     ctx = ResearchContext(topic_id="1", title="Test Topic", category="general", slug="test-topic")
     s1 = ctx.add_source("https://example.com", "Example")
@@ -73,6 +78,23 @@ def test_research_context_from_topic_with_source():
     assert "https://reddit.com/r/WC3/abc" in ctx.source_urls
 
 
+def test_research_context_from_topic_with_notes_and_files():
+    topic = {
+        "topic_id": "t003",
+        "title": "地形贴图快速上手",
+        "category": "terrain",
+        "discovered_via": "manual",
+        "notes": "这里是我的草稿要点",
+        "local_files": ["local_notes/terrain"],
+        "seed_sources": ["https://example.com/a", {"url": "https://example.com/b", "title": "B"}],
+    }
+    ctx = ResearchContext.from_topic_entry(topic)
+    assert ctx.discovered_via == "manual"
+    assert "草稿" in ctx.notes
+    assert ctx.local_files == ["local_notes/terrain"]
+    assert len(ctx.seed_sources) == 2
+
+
 def test_context_log_error():
     ctx = ResearchContext(topic_id="e1", title="Error Test", category="test", slug="error-test")
     ctx.log_error("PlannerAgent", "LLM timeout")
@@ -93,11 +115,13 @@ def test_context_get_used_sources():
 if __name__ == "__main__":
     test_search_result_roundtrip()
     test_source_footnote_def()
+    test_source_footnote_def_local()
     test_source_dedup_in_context()
     test_review_result_overall_score_computed()
     test_review_result_passed_flag()
     test_research_context_from_topic_entry()
     test_research_context_from_topic_with_source()
+    test_research_context_from_topic_with_notes_and_files()
     test_context_log_error()
     test_context_get_used_sources()
     print("✅ All model tests passed.")

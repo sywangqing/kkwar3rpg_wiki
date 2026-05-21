@@ -29,6 +29,7 @@ class PlannerAgent(BaseAgent):
             topic=context.title,
             category=context.category,
             initial_context="\n".join(context.source_urls) if context.source_urls else "无",
+            notes=context.notes.strip() if context.notes.strip() else "无",
         )
 
         raw = await self._call_llm_with_retry(prompt, context, max_tokens=2048, temperature=0.3)

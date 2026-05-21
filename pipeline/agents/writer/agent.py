@@ -44,6 +44,7 @@ class WriterAgent(BaseAgent):
                 section_outline=section_outline,
                 source_registry_json=source_registry,
                 reviewer_feedback=reviewer_feedback or "无反馈（首次撰写）",
+                notes=context.notes.strip() if context.notes.strip() else "无",
             )
 
             section_text = await self._call_llm_with_retry(

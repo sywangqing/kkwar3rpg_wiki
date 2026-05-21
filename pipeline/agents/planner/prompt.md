@@ -10,6 +10,7 @@ You are the **Planner Agent** for a Warcraft III RPG Map Editor Wiki, targeted a
 Topic: {topic}
 Category: {category}
 Initial context (optional): {initial_context}
+Notes (optional): {notes}
 ```
 
 ## Task

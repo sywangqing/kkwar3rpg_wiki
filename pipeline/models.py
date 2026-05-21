@@ -43,6 +43,8 @@ class Source(BaseModel):
     def footnote_def(self) -> str:
         """生成 Markdown 脚注定义行"""
         date_str = self.accessed_at[:10]
+        if self.url.startswith("local://") or self.url.startswith("file://"):
+            return f"[^{self.id}]: {self.title} — accessed {date_str}"
         return f"[^{self.id}]: [{self.title}]({self.url}) — accessed {date_str}"
 
 
@@ -131,6 +133,9 @@ class ResearchContext(BaseModel):
     quality_warning: bool = False
     discovered_via: str = "manual"  # "manual" | "hive" | "reddit" | "9ddota" | "nga"
     source_urls: list[str] = Field(default_factory=list)
+    notes: str = ""
+    local_files: list[str] = Field(default_factory=list)
+    seed_sources: list[dict[str, Any]] = Field(default_factory=list)
 
     # 运行时错误记录
     errors: list[dict[str, Any]] = Field(default_factory=list)
@@ -153,13 +158,29 @@ class ResearchContext(BaseModel):
           source_urls → source_urls（可选）
         """
         slug = topic.get("slug") or _slugify(topic["title"])
+        discovered_via = topic.get("discovered_via") or topic.get("source") or "manual"
+        seed_sources = topic.get("seed_sources") or []
+        if isinstance(seed_sources, list):
+            normalized_seed_sources: list[dict[str, Any]] = []
+            for item in seed_sources:
+                if isinstance(item, str):
+                    normalized_seed_sources.append({"url": item})
+                elif isinstance(item, dict):
+                    normalized_seed_sources.append(item)
+            seed_sources = normalized_seed_sources
+        else:
+            seed_sources = []
+
         return cls(
             topic_id=str(topic.get("topic_id", slug)),
             title=topic["title"],
             category=topic.get("category", "general"),
             slug=slug,
-            discovered_via=topic.get("source", "manual"),
+            discovered_via=discovered_via,
             source_urls=topic.get("source_urls", []),
+            notes=topic.get("notes", "") or "",
+            local_files=topic.get("local_files", []) or [],
+            seed_sources=seed_sources,
         )
 
     # ---------------------------------------------------------------------------

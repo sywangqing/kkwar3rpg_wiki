@@ -9,6 +9,7 @@ from agents.base import BaseAgent, extract_json_from_response
 from models import ResearchContext, SearchResult
 from search.bilingual import bilingual_search
 from search.extractor import fetch_pages_batch
+from search.local_loader import load_local_sources
 from search.orchestrator import MultiSourceSearch
 
 logger = logging.getLogger(__name__)
@@ -32,6 +33,23 @@ class ResearcherAgent(BaseAgent):
     async def run(self, context: ResearchContext) -> ResearchContext:
         logger.info(f"🔍 ResearcherAgent 开始: {context.title} ({len(context.search_queries)} 查询)")
 
+        if context.notes.strip():
+            context.add_source(
+                url=f"local://notes/{context.slug}",
+                title="作者笔记",
+                snippet=context.notes.strip()[:4000],
+            )
+
+        repo_root = Path(__file__).resolve().parents[3]
+        for item in load_local_sources(context.local_files, base_dir=repo_root):
+            context.add_source(url=item["url"], title=item["title"], snippet=item.get("snippet", ""))
+
+        for item in context.seed_sources:
+            url = str(item.get("url", "")).strip()
+            if not url:
+                continue
+            context.add_source(url=url, title=str(item.get("title") or url), snippet=str(item.get("snippet") or ""))
+
         # 1. 执行双语搜索，收集候选结果
         all_results: list[SearchResult] = []
         seen_urls: set[str] = set()
@@ -54,6 +72,10 @@ class ResearcherAgent(BaseAgent):
 
         # 2. 取 top N URL，抓取页面正文
         top_urls = [r.url for r in sorted(all_results, key=lambda x: x.score, reverse=True)[:8]]
+        for s in context.sources:
+            if s.url.startswith("http"):
+                top_urls.append(s.url)
+        top_urls = list(dict.fromkeys(top_urls))[:12]
         page_texts = await fetch_pages_batch(top_urls, max_concurrent=3)
 
         # 3. 构建包含正文的搜索结果摘要，传给 LLM 评估
@@ -96,6 +118,10 @@ class ResearcherAgent(BaseAgent):
             snippet = item.get("excerpt", "") or full_text[:500]
             source = context.add_source(url=url, title=item.get("title", url), snippet=snippet)
             logger.debug(f"  来源 [^{source.id}]: {url[:60]}")
+
+        for s in context.sources:
+            if s.url.startswith("http") and not s.snippet:
+                s.snippet = (page_texts.get(s.url) or "")[:500]
 
         # 6. 检查来源数量，不足时尝试扩大搜索
         if len(context.sources) < _MIN_SOURCES:
