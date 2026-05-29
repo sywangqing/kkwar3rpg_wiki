@@ -165,3 +165,65 @@ categories:
       - id: rpg-systems
         title: 经典 RPG 系统架构设计
         search_query: "War3 RPG 系统 英雄 经验 技能 背包 架构"
+
+  # ============================================================
+  # 方向 B：运营文档（地图运营实战指南）
+  # ============================================================
+  - id: operations
+    name: 地图运营
+    icon: 📈
+    description: KK 平台地图运营实战指南，从测试到上线的完整流程
+    output_dir: docs/operations
+    topics:
+      - id: kk-platform-rules
+        title: KK 平台地图审核标准与上架要求
+        search_query: "KK平台 War3 地图审核 上架规范 合规要求"
+      - id: kk-testing-phase
+        title: 测试阶段完整指南：内测招募与数据收集
+        search_query: "War3 地图 内测 玩家招募 测试数据 反馈收集"
+      - id: kk-pre-launch
+        title: 上线前运营 checklist：预热、预告、社区建设
+        search_query: "War3 地图上线前 预热 宣传 社区运营"
+      - id: kk-post-launch
+        title: 上线后运营指南：数据分析、版本更新、活动策划
+        search_query: "War3 地图上线后 运营 数据分析 版本更新"
+      - id: kk-growth-tactics
+        title: 地图增长策略：自然流量与付费推广
+        search_query: "War3 地图 增长 推广 流量 曝光"
+      - id: kk-monetization-basics
+        title: 地图商业化入门：氪金点设计与付费率优化
+        search_query: "War3 地图 商业化 氪金 付费 收入"
+
+  # ============================================================
+  # 方向 C：开发者后台（KK 平台功能配置）
+  # ============================================================
+  - id: platform-tools
+    name: 开发者后台
+    icon: ⚙️
+    description: KK 平台开发者后台功能配置指南
+    output_dir: docs/platform-tools
+    topics:
+      - id: kk-backend-basics
+        title: 开发者后台基础配置：地图信息与版本管理
+        search_query: "KK平台 开发者后台 地图管理 版本控制 配置"
+      - id: kk-chest-system
+        title: 宝箱系统配置全流程
+        search_query: "KK平台 宝箱系统 配置 奖励 概率"
+      - id: kk-signin-system
+        title: 签到系统配置：每日奖励设置
+        search_query: "KK平台 签到系统 配置 每日奖励"
+      - id: kk-quest-system
+        title: 任务系统配置：日常任务与成就
+        search_query: "KK平台 任务系统 配置 日常任务 成就系统"
+      - id: kk-giftcode
+        title: 礼包码系统：创建与发放
+        search_query: "KK平台 礼包码 激活码 发放 兑换"
+      - id: kk-data-analysis
+        title: 数据分析仪表盘使用指南
+        search_query: "KK平台 数据分析 在线人数 留存 付费统计"
+      - id: kk-player-management
+        title: 玩家管理工具：黑名单、禁言、封号
+        search_query: "KK平台 玩家管理 黑名单 禁言 封号 后台"
+      - id: kk-activity-tools
+        title: 活动工具：节日活动与限时配置
+        search_query: "KK平台 活动工具 节日活动 配置"
