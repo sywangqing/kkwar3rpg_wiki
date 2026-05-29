@@ -323,3 +323,442 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
 2026-05-07 19:43:44,150 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-05-07 19:43:44,151 [INFO] 📄 文章写入: docs/terrain/地形纹理与贴图技巧.md
 
+2026-05-29 20:30:21,678 [INFO] 📐 PlannerAgent 开始: 地形纹理与贴图技巧
+2026-05-29 20:30:21,679 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:30:21,982 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:30:21,984 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:30:39,253 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:30:39,254 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-29 20:30:39,254 [INFO] 🔍 ResearcherAgent 开始: 地形纹理与贴图技巧 (21 查询)
+2026-05-29 20:30:39,255 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:30:39,406 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a6f6eb386a7301374098622f2db"}
+2026-05-29 20:30:39,406 [INFO] 🌐 双语查询: EN='Warcraft 3 terrain texturing guide' | ZH='Warcraft 3 terrain texturing guide'
+2026-05-29 20:30:39,501 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:39,511 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:39,551 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20terrain%20texturing%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:39,575 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20terrain%20texturing%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:39,810 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-29 20:30:40,190 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-29 20:30:40,777 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+terrain+texturing+guide&limit=1 200
+2026-05-29 20:30:40,819 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+terrain+texturing+guide&limit=1 200
+2026-05-29 20:30:40,820 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 terrain texturing guide
+2026-05-29 20:30:41,184 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:30:41,185 [INFO] ✅ WriterAgent 完成: 10575 字符, 7/8 来源被引用
+2026-05-29 20:30:41,186 [INFO] 🔎 ReviewerAgent 开始: 地图测试与调试方法
+2026-05-29 20:30:41,186 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:30:41,582 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+terrain+texturing+guide&web=1&searchid=6245038 200
+2026-05-29 20:30:41,607 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 terrain texturing guide
+2026-05-29 20:30:41,608 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:30:41,639 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a71f7e70e94591492861564a2f4"}
+2026-05-29 20:30:41,640 [INFO] 🌐 双语查询: EN='WC3 World Editor 地形制作 教程' | ZH='WC3 World Editor 地形制作 教程'
+2026-05-29 20:30:41,695 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:41,697 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:41,747 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C%20%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:41,843 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:30:41,898 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C%20%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:41,900 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:30:42,106 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-29 20:30:42,463 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-29 20:30:42,965 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor 地形制作 教程
+2026-05-29 20:30:43,223 [INFO] response: https://yandex.com/search/site/?text=WC3+World+Editor+%E5%9C%B0%E5%BD%A2%E5%88%B6%E4%BD%9C+%E6%95%99%E7%A8%8B&web=1&searchid=5752579 200
+2026-05-29 20:30:43,248 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor 地形制作 教程
+2026-05-29 20:30:43,249 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:30:43,282 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a73d2708d47aa6b2f737af60cae"}
+2026-05-29 20:30:43,282 [INFO] 🌐 双语查询: EN=' Warcraft 3 custom tileset creation' | ZH=' Warcraft 3 custom tileset creation'
+2026-05-29 20:30:43,338 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:43,344 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:43,378 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%20Warcraft%203%20custom%20tileset%20creation) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:43,387 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%20Warcraft%203%20custom%20tileset%20creation) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:43,434 [INFO] response: https://grokipedia.com/api/typeahead?query=+Warcraft+3+custom+tileset+creation&limit=1 200
+2026-05-29 20:30:43,475 [INFO] response: https://grokipedia.com/api/typeahead?query=+Warcraft+3+custom+tileset+creation&limit=1 200
+2026-05-29 20:30:43,507 [INFO] response: https://search.brave.com/search?q=+Warcraft+3+custom+tileset+creation&source=web 429
+2026-05-29 20:30:43,704 [INFO] response: https://www.google.com/search?q=+Warcraft+3+custom+tileset+creation&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:30:43,726 [INFO] 🔍 DuckDuckGo 搜索: 5 条 |  Warcraft 3 custom tileset creation
+2026-05-29 20:30:43,828 [INFO] response: https://www.google.com/search?q=+Warcraft+3+custom+tileset+creation&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-29 20:30:43,849 [INFO] 🔍 DuckDuckGo 搜索: 5 条 |  Warcraft 3 custom tileset creation
+2026-05-29 20:30:43,850 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:30:43,880 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a735554c8214f942f6607377051"}
+2026-05-29 20:30:43,880 [INFO] 🌐 双语查询: EN='Warcraft III terrain texture basics' | ZH='Warcraft III terrain texture basics'
+2026-05-29 20:30:44,108 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:44,112 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:44,148 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20terrain%20texture%20basics) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:44,184 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20terrain%20texture%20basics) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:46,647 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+terrain+texture+basics&limit=1 200
+2026-05-29 20:30:46,648 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III terrain texture basics
+2026-05-29 20:30:46,672 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:30:46,673 [INFO] ✅ WriterAgent 完成: 9384 字符, 7/7 来源被引用
+2026-05-29 20:30:46,673 [INFO] 🔎 ReviewerAgent 开始: 地形编辑器基础操作
+2026-05-29 20:30:46,674 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:30:46,742 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+terrain+texture+basics&limit=1 200
+2026-05-29 20:30:46,743 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III terrain texture basics
+2026-05-29 20:30:46,748 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:30:46,776 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a76cdd42596ec1e98fe2f0197a5"}
+2026-05-29 20:30:46,776 [INFO] 🌐 双语查询: EN='WC3 World Editor 地形纹理 入门' | ZH='WC3 World Editor 地形纹理 入门'
+2026-05-29 20:30:46,904 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:46,906 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:46,942 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:46,943 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:47,046 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-29 20:30:47,085 [INFO] response: https://search.yahoo.com/search;_ylt=HoOFdOVgIOVOaBqEOv3-KGiL;_ylu=u1rJodAWF3iHFrjgavA7xm2CTGtcGNm-lYLkj6iGRhCUn3w?p=WC3+World+Editor+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86+%E5%85%A5%E9%97%A8 200
+2026-05-29 20:30:47,108 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-29 20:30:47,230 [INFO] response: https://www.google.com/search?q=WC3+World+Editor+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86+%E5%85%A5%E9%97%A8&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:30:47,250 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor 地形纹理 入门
+2026-05-29 20:30:47,924 [INFO] response: https://yandex.com/search/site/?text=WC3+World+Editor+%E5%9C%B0%E5%BD%A2%E7%BA%B9%E7%90%86+%E5%85%A5%E9%97%A8&web=1&searchid=6535819 200
+2026-05-29 20:30:47,955 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor 地形纹理 入门
+2026-05-29 20:30:47,956 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:30:47,991 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a77c24ab039c5608aa5bae39eb0"}
+2026-05-29 20:30:47,991 [INFO] 🌐 双语查询: EN=' Warcraft 3 terrain tileset concepts' | ZH=' Warcraft 3 terrain tileset concepts'
+2026-05-29 20:30:48,214 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:48,215 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:30:48,258 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%20Warcraft%203%20terrain%20tileset%20concepts) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:48,315 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%20Warcraft%203%20terrain%20tileset%20concepts) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:30:48,433 [INFO] response: https://grokipedia.com/api/typeahead?query=+Warcraft+3+terrain+tileset+concepts&limit=1 200
+2026-05-29 20:30:48,522 [INFO] response: https://grokipedia.com/api/typeahead?query=+Warcraft+3+terrain+tileset+concepts&limit=1 200
+2026-05-29 20:30:48,526 [INFO] response: https://www.google.com/search?q=+Warcraft+3+terrain+tileset+concepts&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-29 20:30:48,543 [INFO] 🔍 DuckDuckGo 搜索: 5 条 |  Warcraft 3 terrain tileset concepts
+2026-05-29 20:30:48,668 [INFO] response: https://www.mojeek.com/search?q=+Warcraft+3+terrain+tileset+concepts 403
+2026-05-29 20:30:48,758 [INFO] response: https://search.yahoo.com/search;_ylt=1vQvvDykLUygPPfxf_ssjRAf;_ylu=Zb_XjM9RGaZ-nMUV8VOqrXTk2J46yGZmrYWKg-dBt6trMCE?p=+Warcraft+3+terrain+tileset+concepts 200
+2026-05-29 20:30:49,057 [INFO] response: https://www.google.com/search?q=+Warcraft+3+terrain+tileset+concepts&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:30:49,084 [INFO] 🔍 DuckDuckGo 搜索: 5 条 |  Warcraft 3 terrain tileset concepts
+2026-05-29 20:30:49,084 [INFO]   搜索阶段：收集到 31 条候选结果
+2026-05-29 20:30:49,131 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/the-ultimate-beginners-terrain-tutorial.35233/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/the-ultimate-beginners-terrain-tutorial.35233/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:30:49,902 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/how-to-make-custom-tileset.268226/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/how-to-make-custom-tileset.268226/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:30:49,941 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/warcraft-3-tileset-rmk-development.306508/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/warcraft-3-tileset-rmk-development.306508/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:30:49,989 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=117142 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=117142'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:30:50,227 [WARNING] ⚠️  抓取失败，已忽略: https://tieba.baidu.com/p/792030589 — Client error '403 Forbidden' for url 'https://tieba.baidu.com/p/792030589'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:30:50,731 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:30:58,979 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:30:58,980 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 25 column 39 (char 749)
+2026-05-29 20:30:58,981 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-29 20:30:58,981 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-29 20:30:58,981 [INFO] 📄 文章写入: docs/getting-started/地图测试与调试方法.md
+2026-05-29 20:30:58,982 [INFO] ✅ topics.json 已更新: test-and-debug → completed
+2026-05-29 20:30:58,983 [INFO] 📐 PlannerAgent 开始: 装饰物与可破坏物
+2026-05-29 20:30:58,984 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:06,727 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:31:06,728 [INFO] ✅ 通过 ReviewerAgent: overall=0.84 (A=0.85 C=0.80 R=0.92 Cit=0.72)
+2026-05-29 20:31:06,728 [INFO]   反馈 5 条:
+2026-05-29 20:31:06,729 [INFO]   [missing_citation] 每个调色板标签还包含**悬崖层级**、**悬崖样式**、**悬崖贴图**等选项...
+2026-05-29 20:31:06,729 [INFO]   [missing_citation] 按住 **Shift键** 同时操作刷子，编辑器会强制创建90度断崖...
+2026-05-29 20:31:06,729 [INFO]   [missing_citation] 按住**Ctrl键**同时滚动鼠标滚轮可以调整大小，按住**Ctrl键**同时按**A/D键**可以旋转角度...
+2026-05-29 20:31:06,729 [INFO]   [missing_citation] Warcraft III 的悬崖系统有严格的层级限制（0-4级高度，共16格高度差）...
+2026-05-29 20:31:06,729 [INFO]   [incomplete_section] 装饰物系统...
+2026-05-29 20:31:06,729 [INFO] ✅ 质量通过 (loop 0): score=0.84
+2026-05-29 20:31:06,729 [INFO] 📄 文章写入: docs/terrain/地形编辑器基础操作.md
+2026-05-29 20:31:06,731 [INFO] ✅ topics.json 已更新: terrain-basics → completed
+2026-05-29 20:31:06,731 [INFO] 📐 PlannerAgent 开始: 高级地形技巧与优化
+2026-05-29 20:31:06,732 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:19,105 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:31:19,106 [INFO] ✅ PlannerAgent 完成: 5 节, 18 个查询
+2026-05-29 20:31:19,106 [INFO] 🔍 ResearcherAgent 开始: 装饰物与可破坏物 (18 查询)
+2026-05-29 20:31:19,107 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:19,197 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a975df43456f6079a8c10749eb6"}
+2026-05-29 20:31:19,197 [INFO] 🌐 双语查询: EN='Warcraft III World Editor terrain decoration destructible tutorial' | ZH='Warcraft III World Editor terrain decoration destructible tutorial'
+2026-05-29 20:31:19,304 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:19,307 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:19,350 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20terrain%20decoration%20destructible%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:19,354 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20terrain%20decoration%20destructible%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:19,527 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+terrain+decoration+destructible+tutorial&limit=1 200
+2026-05-29 20:31:19,625 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+terrain+decoration+destructible+tutorial&limit=1 200
+2026-05-29 20:31:19,651 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+World+Editor+terrain+decoration+destructible+tutorial 403
+2026-05-29 20:31:19,768 [INFO] response: https://www.google.com/search?q=Warcraft+III+World+Editor+terrain+decoration+destructible+tutorial&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-29 20:31:19,788 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III World Editor terrain decora
+2026-05-29 20:31:20,534 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III World Editor terrain decora
+2026-05-29 20:31:20,535 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:20,562 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a98a9412881cd3555a842ba078d"}
+2026-05-29 20:31:20,562 [INFO] 🌐 双语查询: EN='War3 地图编辑器 装饰物 可破坏物 新手教程' | ZH='War3 地图编辑器 装饰物 可破坏物 新手教程'
+2026-05-29 20:31:20,711 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:20,744 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=War3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E8%A3%85%E9%A5%B0%E7%89%A9%20%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:20,833 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:31:20,865 [INFO] response: https://grokipedia.com/api/typeahead?query=War3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E8%A3%85%E9%A5%B0%E7%89%A9+%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:31:20,926 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:20,959 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=War3%20%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%20%E8%A3%85%E9%A5%B0%E7%89%A9%20%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:21,037 [INFO] response: https://grokipedia.com/api/typeahead?query=War3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E8%A3%85%E9%A5%B0%E7%89%A9+%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:31:21,236 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:31:21,237 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-29 20:31:21,238 [INFO] 🔍 ResearcherAgent 开始: 高级地形技巧与优化 (21 查询)
+2026-05-29 20:31:21,238 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:21,269 [INFO] response: https://www.mojeek.com/search?q=War3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E8%A3%85%E9%A5%B0%E7%89%A9+%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 403
+2026-05-29 20:31:21,271 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a998dcc72b486cfbe1d9bbaabef"}
+2026-05-29 20:31:21,271 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor terrain optimization guide' | ZH='Warcraft 3 World Editor terrain optimization guide'
+2026-05-29 20:31:21,333 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:21,348 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:21,365 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20terrain%20optimization%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:21,380 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20terrain%20optimization%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:21,417 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:31:21,425 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | War3 地图编辑器 装饰物 可破坏物 新手教程
+2026-05-29 20:31:21,428 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+terrain+optimization+guide&limit=1 200
+2026-05-29 20:31:21,472 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+terrain+optimization+guide&limit=1 200
+2026-05-29 20:31:21,717 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+terrain+optimization+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:31:21,737 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor terrain optimiza
+2026-05-29 20:31:22,145 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+terrain+optimization+guide&web=1&searchid=8050404 200
+2026-05-29 20:31:22,170 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor terrain optimiza
+2026-05-29 20:31:22,171 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:22,209 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a9a51ab3fa51588499c31e72bff"}
+2026-05-29 20:31:22,209 [INFO] 🌐 双语查询: EN='WC3 地图地形优化 完整教程' | ZH='WC3 地图地形优化 完整教程'
+2026-05-29 20:31:22,274 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:22,276 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:22,323 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E5%9C%B0%E5%BD%A2%E4%BC%98%E5%8C%96%20%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:22,364 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%9C%B0%E5%9B%BE%E5%9C%B0%E5%BD%A2%E4%BC%98%E5%8C%96+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:31:22,377 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E5%9C%B0%E5%9B%BE%E5%9C%B0%E5%BD%A2%E4%BC%98%E5%8C%96%20%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:22,408 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E5%9C%B0%E5%9B%BE%E5%9C%B0%E5%BD%A2%E4%BC%98%E5%8C%96+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:31:22,446 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:31:22,613 [INFO] response: https://www.google.com/search?q=WC3+%E5%9C%B0%E5%9B%BE%E5%9C%B0%E5%BD%A2%E4%BC%98%E5%8C%96+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:31:22,631 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 地图地形优化 完整教程
+2026-05-29 20:31:22,681 [INFO] response: https://www.google.com/search?q=War3+%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8+%E8%A3%85%E9%A5%B0%E7%89%A9+%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:31:22,702 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | War3 地图编辑器 装饰物 可破坏物 新手教程
+2026-05-29 20:31:22,704 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:22,735 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a9a1e46b34a02a8db55e47cc9bf"}
+2026-05-29 20:31:22,735 [INFO] 🌐 双语查询: EN='WC3 custom terrain object creation guide for beginners' | ZH='WC3 custom terrain object creation guide for beginners'
+2026-05-29 20:31:22,741 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:31:22,749 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 地图地形优化 完整教程
+2026-05-29 20:31:22,752 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:22,780 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a9a8b377f5be2a99282c11d1ce5"}
+2026-05-29 20:31:22,780 [INFO] 🌐 双语查询: EN='World Editor terrain performance best practices' | ZH='World Editor terrain performance best practices'
+2026-05-29 20:31:22,806 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:22,811 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:22,850 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20custom%20terrain%20object%20creation%20guide%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:22,863 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20custom%20terrain%20object%20creation%20guide%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:22,883 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:22,886 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:22,907 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+custom+terrain+object+creation+guide+for+beginners&limit=1 200
+2026-05-29 20:31:22,921 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20terrain%20performance%20best%20practices) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:22,923 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20terrain%20performance%20best%20practices) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:22,951 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+custom+terrain+object+creation+guide+for+beginners&limit=1 200
+2026-05-29 20:31:22,987 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+terrain+performance+best+practices&limit=1 200
+2026-05-29 20:31:23,022 [INFO] response: https://search.brave.com/search?q=World+Editor+terrain+performance+best+practices&source=web 429
+2026-05-29 20:31:23,031 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+terrain+performance+best+practices&limit=1 200
+2026-05-29 20:31:23,177 [INFO] response: https://www.mojeek.com/search?q=WC3+custom+terrain+object+creation+guide+for+beginners 403
+2026-05-29 20:31:23,762 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 custom terrain object creation guide
+2026-05-29 20:31:23,781 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor terrain performance best pr
+2026-05-29 20:31:23,802 [INFO] response: https://yandex.com/search/site/?text=World+Editor+terrain+performance+best+practices&web=1&searchid=3746992 200
+2026-05-29 20:31:23,832 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor terrain performance best pr
+2026-05-29 20:31:23,833 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:23,886 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a9b0022ac28a25aa4fba33530db"}
+2026-05-29 20:31:23,886 [INFO] 🌐 双语查询: EN='Warcraft 3 terrain basics beginner' | ZH='Warcraft 3 terrain basics beginner'
+2026-05-29 20:31:23,945 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:23,963 [INFO] response: https://yandex.com/search/site/?text=WC3+custom+terrain+object+creation+guide+for+beginners&web=1&searchid=5163941 200
+2026-05-29 20:31:23,966 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:23,993 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 custom terrain object creation guide
+2026-05-29 20:31:23,994 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:24,025 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a9bd8a14ce541149acc65677c8b"}
+2026-05-29 20:31:24,025 [INFO] 🌐 双语查询: EN='Warcraft III decoration vs destructible terrain object' | ZH='Warcraft III decoration vs destructible terrain object'
+2026-05-29 20:31:24,031 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+terrain+basics+beginner&limit=1 200
+2026-05-29 20:31:24,033 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20terrain%20basics%20beginner) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:24,034 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20terrain%20basics%20beginner) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:24,086 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:24,091 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:24,124 [INFO] response: https://search.yahoo.com/search;_ylt=odQCx1SH0kN5wVidyhNcUCZP;_ylu=ovbJXvQUkeSYW9CFcToWcju-C9EUWvVzmttMUu8xI-9mm_0?p=Warcraft+3+terrain+basics+beginner 200
+2026-05-29 20:31:24,128 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20decoration%20vs%20destructible%20terrain%20object) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:24,132 [INFO] response: https://search.brave.com/search?q=Warcraft+3+terrain+basics+beginner&source=web 429
+2026-05-29 20:31:24,135 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20decoration%20vs%20destructible%20terrain%20object) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:24,189 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+decoration+vs+destructible+terrain+object&limit=1 200
+2026-05-29 20:31:24,241 [INFO] response: https://search.brave.com/search?q=Warcraft+3+terrain+basics+beginner&source=web 429
+2026-05-29 20:31:24,242 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+decoration+vs+destructible+terrain+object&limit=1 200
+2026-05-29 20:31:24,538 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+terrain+basics+beginner 403
+2026-05-29 20:31:24,932 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III decoration vs destructible 
+2026-05-29 20:31:24,932 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+decoration+vs+destructible+terrain+object&web=1&searchid=9622785 200
+2026-05-29 20:31:24,965 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III decoration vs destructible 
+2026-05-29 20:31:24,966 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:24,995 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a9c7c16db310f481cb01481d6c0"}
+2026-05-29 20:31:24,995 [INFO] 🌐 双语查询: EN='War3 装饰物和可破坏物的区别 地形编辑' | ZH='War3 装饰物和可破坏物的区别 地形编辑'
+2026-05-29 20:31:25,047 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:25,075 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=War3%20%E8%A3%85%E9%A5%B0%E7%89%A9%E5%92%8C%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9%E7%9A%84%E5%8C%BA%E5%88%AB%20%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:25,103 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:25,132 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=War3%20%E8%A3%85%E9%A5%B0%E7%89%A9%E5%92%8C%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9%E7%9A%84%E5%8C%BA%E5%88%AB%20%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:25,310 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+terrain+basics+beginner&web=1&searchid=7476988 200
+2026-05-29 20:31:25,331 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 terrain basics beginner
+2026-05-29 20:31:25,367 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+terrain+basics+beginner&limit=1 200
+2026-05-29 20:31:25,383 [INFO] response: https://grokipedia.com/api/typeahead?query=War3+%E8%A3%85%E9%A5%B0%E7%89%A9%E5%92%8C%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9%E7%9A%84%E5%8C%BA%E5%88%AB+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91&limit=1 200
+2026-05-29 20:31:25,433 [INFO] response: https://grokipedia.com/api/typeahead?query=War3+%E8%A3%85%E9%A5%B0%E7%89%A9%E5%92%8C%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9%E7%9A%84%E5%8C%BA%E5%88%AB+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91&limit=1 200
+2026-05-29 20:31:25,664 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+terrain+basics+beginner 403
+2026-05-29 20:31:25,872 [INFO] response: https://yandex.com/search/site/?text=War3+%E8%A3%85%E9%A5%B0%E7%89%A9%E5%92%8C%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9%E7%9A%84%E5%8C%BA%E5%88%AB+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91&web=1&searchid=8175037 200
+2026-05-29 20:31:25,897 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | War3 装饰物和可破坏物的区别 地形编辑
+2026-05-29 20:31:26,233 [INFO] response: https://search.yahoo.com/search;_ylt=uevb_Y8QLLasrP8_bd1I2uPe;_ylu=K5Nf0O_uWtEnjfihbt-ZTj6SoI0mdm-44QNKAeKBh5ruheo?p=War3+%E8%A3%85%E9%A5%B0%E7%89%A9%E5%92%8C%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9%E7%9A%84%E5%8C%BA%E5%88%AB+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91 200
+2026-05-29 20:31:26,556 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 terrain basics beginner
+2026-05-29 20:31:26,558 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:26,558 [INFO] response: https://www.google.com/search?q=War3+%E8%A3%85%E9%A5%B0%E7%89%A9%E5%92%8C%E5%8F%AF%E7%A0%B4%E5%9D%8F%E7%89%A9%E7%9A%84%E5%8C%BA%E5%88%AB+%E5%9C%B0%E5%BD%A2%E7%BC%96%E8%BE%91&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:31:26,576 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | War3 装饰物和可破坏物的区别 地形编辑
+2026-05-29 20:31:26,577 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:26,772 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a9e0665d06f15d80dcc8b8d0a3a"}
+2026-05-29 20:31:26,778 [INFO] 🌐 双语查询: EN='World Editor 地形系统 入门' | ZH='World Editor 地形系统 入门'
+2026-05-29 20:31:26,791 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a9ecf74f86ae6ef536c6c4f1397"}
+2026-05-29 20:31:26,792 [INFO] 🌐 双语查询: EN='WC3 World Editor terrain objects guide' | ZH='WC3 World Editor terrain objects guide'
+2026-05-29 20:31:26,851 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:26,867 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:26,870 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:26,872 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:26,887 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%B3%BB%E7%BB%9F%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:26,911 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20terrain%20objects%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:26,921 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%9C%B0%E5%BD%A2%E7%B3%BB%E7%BB%9F%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:26,921 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20terrain%20objects%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:27,011 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E5%9C%B0%E5%BD%A2%E7%B3%BB%E7%BB%9F+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-29 20:31:27,016 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+terrain+objects+guide&limit=1 200
+2026-05-29 20:31:27,019 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:31:27,078 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E5%9C%B0%E5%BD%A2%E7%B3%BB%E7%BB%9F+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-29 20:31:27,157 [INFO] response: https://www.google.com/search?q=World+Editor+%E5%9C%B0%E5%BD%A2%E7%B3%BB%E7%BB%9F+%E5%85%A5%E9%97%A8&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:31:27,179 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 地形系统 入门
+2026-05-29 20:31:27,476 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:31:27,655 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor terrain objects guide
+2026-05-29 20:31:27,710 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 地形系统 入门
+2026-05-29 20:31:27,711 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:27,741 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"06692a9fa3df8373b1ba4d9ab5a1cf40"}
+2026-05-29 20:31:27,741 [INFO] 🌐 双语查询: EN='WC3 map terrain optimization importance' | ZH='WC3 map terrain optimization importance'
+2026-05-29 20:31:27,800 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:27,822 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:31:27,867 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20map%20terrain%20optimization%20importance) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:27,891 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20map%20terrain%20optimization%20importance) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:31:27,978 [INFO] response: https://search.brave.com/search?q=WC3+map+terrain+optimization+importance&source=web 429
+2026-05-29 20:31:28,003 [INFO] response: https://search.yahoo.com/search;_ylt=E00uFDYJif9_aUuRpOy3dcd6;_ylu=fT8dgksVnQg26Ax-V7MIDYfl0gR4hUZwBVwirYv8_eOBkm0?p=WC3+map+terrain+optimization+importance 200
+2026-05-29 20:31:28,499 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+map+terrain+optimization+importance&limit=1 200
+2026-05-29 20:31:28,510 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+terrain+objects+guide&limit=1 200
+2026-05-29 20:31:28,511 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor terrain objects guide
+2026-05-29 20:31:28,511 [INFO]   搜索阶段：收集到 37 条候选结果
+2026-05-29 20:31:28,515 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:31:28,516 [ERROR] ResearcherAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+2026-05-29 20:31:28,517 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-05-29 20:31:28,517 [INFO] ✍️  WriterAgent 开始: 地形纹理与贴图技巧 (loop 0)
+2026-05-29 20:31:28,518 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:28,567 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=117142 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=117142'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:31:28,588 [INFO] response: https://search.brave.com/search?q=WC3+map+terrain+optimization+importance&source=web 429
+2026-05-29 20:31:28,746 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:31:29,229 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/the-ultimate-beginners-terrain-tutorial.35233/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/the-ultimate-beginners-terrain-tutorial.35233/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:31:29,371 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:31:29,381 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 map terrain optimization importance
+2026-05-29 20:31:29,595 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+map+terrain+optimization+importance&limit=1 200
+2026-05-29 20:31:29,650 [WARNING] ⚠️  抓取失败，已忽略: https://tieba.baidu.com/p/10649101971 — Client error '403 Forbidden' for url 'https://tieba.baidu.com/p/10649101971'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:31:29,875 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/Yellow_python/article/details/126009657 — Server error '521 ' for url 'https://blog.csdn.net/Yellow_python/article/details/126009657'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-29 20:31:29,914 [INFO] response: https://www.google.com/search?q=WC3+map+terrain+optimization+importance&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-29 20:31:29,940 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 map terrain optimization importance
+2026-05-29 20:31:29,941 [INFO]   搜索阶段：收集到 45 条候选结果
+2026-05-29 20:31:29,982 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/the-ultimate-beginners-terrain-tutorial.35233/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/the-ultimate-beginners-terrain-tutorial.35233/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:31:30,611 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:31,243 [WARNING] ⚠️  抓取失败，已忽略: https://www.zhihu.com/question/52620556 — Client error '403 Forbidden' for url 'https://www.zhihu.com/question/52620556'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:31:31,619 [WARNING] ⚠️  抓取失败，已忽略: https://www.minebbs.com/resources/amulet-map-editor-mc.3955/ — Client error '403 Forbidden' for url 'https://www.minebbs.com/resources/amulet-map-editor-mc.3955/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:31:31,620 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:54,176 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:31:54,178 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:56,139 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:31:56,140 [INFO] ✅ ResearcherAgent 完成: 7 个来源已注册
+2026-05-29 20:31:56,141 [INFO] ✍️  WriterAgent 开始: 高级地形技巧与优化 (loop 0)
+2026-05-29 20:31:56,142 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:31:57,590 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:31:57,591 [INFO] ✅ ResearcherAgent 完成: 7 个来源已注册
+2026-05-29 20:31:57,591 [INFO] ✍️  WriterAgent 开始: 装饰物与可破坏物 (loop 0)
+2026-05-29 20:31:57,592 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:32:12,260 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:32:12,264 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:32:13,057 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:32:13,059 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:32:17,220 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:32:17,222 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:32:36,582 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:32:36,584 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:32:38,160 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:32:38,162 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:32:44,247 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:32:44,249 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:32:56,856 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:32:56,858 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:32:57,820 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:32:57,822 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:33:08,623 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:33:08,625 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:33:15,263 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:33:15,265 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:33:17,937 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:33:17,939 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:33:29,398 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:33:29,400 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:33:38,337 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:33:38,338 [INFO] ✅ WriterAgent 完成: 7907 字符, 5/5 来源被引用
+2026-05-29 20:33:38,338 [INFO] 🔎 ReviewerAgent 开始: 地形纹理与贴图技巧
+2026-05-29 20:33:38,339 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:33:40,028 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:33:40,029 [INFO] ✅ WriterAgent 完成: 6276 字符, 6/7 来源被引用
+2026-05-29 20:33:40,029 [INFO] 🔎 ReviewerAgent 开始: 装饰物与可破坏物
+2026-05-29 20:33:40,030 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:33:48,571 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:33:48,573 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:33:54,977 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:33:54,979 [INFO] ✅ 通过 ReviewerAgent: overall=0.84 (A=0.85 C=0.85 R=0.92 Cit=0.70)
+2026-05-29 20:33:54,979 [INFO]   反馈 5 条:
+2026-05-29 20:33:54,979 [INFO]   [missing_citation] 建议可破坏物不超过 200个（≤16x16地图）、不超过 500个（24x24中型地图）、不超过 800个（大型地图）...
+2026-05-29 20:33:54,979 [INFO]   [missing_citation] 用装饰物代替静态物体、不需要被破坏的树木、石头全部用装饰物...
+2026-05-29 20:33:54,979 [INFO]   [missing_citation] Player - Add X gold to Player 和 Floating Text - 显示飘字效果...
+2026-05-29 20:33:54,979 [INFO]   [missing_citation] Z轴决定了装饰物在渲染时的前后遮挡关系...
+2026-05-29 20:33:54,979 [INFO]   [incomplete_section] 装饰物的层级与渲染顺序 section...
+2026-05-29 20:33:54,979 [INFO] ✅ 质量通过 (loop 0): score=0.84
+2026-05-29 20:33:54,980 [INFO] 📄 文章写入: docs/terrain/装饰物与可破坏物.md
+2026-05-29 20:33:54,981 [INFO] ✅ topics.json 已更新: doodads-decorations → completed
+2026-05-29 20:33:54,981 [INFO] 📐 PlannerAgent 开始: 触发器系统概述
+2026-05-29 20:33:54,982 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:34:00,446 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:34:00,447 [INFO] ✅ 通过 ReviewerAgent: overall=0.77 (A=0.70 C=0.85 R=0.90 Cit=0.60)
+2026-05-29 20:34:00,448 [INFO]   反馈 5 条:
+2026-05-29 20:34:00,448 [INFO]   [factual_error] 纹理显示异常部分引用了 modthesims.info 的 The Sims 3 地形纹理文章作为来源...
+2026-05-29 20:34:00,448 [INFO]   [missing_citation] 纹理与贴图的区别整个章节没有任何 [^N] 引用...
+2026-05-29 20:34:00,448 [INFO]   [missing_citation] 每个地图使用不超过 15-20 种不同纹理...
+2026-05-29 20:34:00,448 [INFO]   [missing_citation] 刷子大小范围通常是1-64...
+2026-05-29 20:34:00,448 [INFO]   [incomplete_section] 自定义纹理导入部分缺少关于 .blp 格式转换工具的具体信息...
+2026-05-29 20:34:00,448 [INFO] ✅ 质量通过 (loop 0): score=0.77
+2026-05-29 20:34:00,448 [INFO] 📄 文章写入: docs/terrain/地形纹理与贴图技巧.md
