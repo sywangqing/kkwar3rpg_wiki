@@ -1,6 +1,6 @@
 ---
 title: KK平台新作者入门指南
-description: 一张图带你玩转KK对战平台，从零开始制作地图
+description: 欢迎加入KK官方对战平台！一张图带你玩转KK对战平台，从零开始制作地图
 category: getting-started
 audience: newbie
 updated: 2026-05-29
@@ -8,113 +8,88 @@ updated: 2026-05-29
 
 # 🎮 KK平台新作者入门指南
 
-> **一张图带你玩转KK对战平台，从零开始制作地图！**
+> **欢迎加入KK官方对战平台！**
+>
+> 为确保能快速融入KK生态，请仔细阅读以下指引。
 
 ---
 
-![KK平台新作者入门指南](../.images/kk-new-author-guide.jpg)
+## 一、成长指引
+
+### 📝 入门三步曲
+
+1. **学习编辑器教学视频**
+   - [观看 Y3 编辑器教程](https://create.kkdzpt.com/docs/guides/Editor/About)
+
+2. **阅读启航手册，参加运营线上面对面课程**
+   - 学习如何运营地图
+
+3. **加入社群并且添加官方运营人员获得帮助**
+
+### ⚠️ 重要提醒
+
+> **第一步，请抽出时间，认真填写您的信息，漏填甚至是不填，会耽误对您的帮助！**
+
+- [ ] [立即填写信息登记](https://reckfeng.feishu.cn/share/base/form/shrcnzspsykbtSVmCsiBVvKPaHg)
 
 ---
 
-## 🚀 新作者成长路线图
+## 二、网站和工具指引
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                                                                             │
-│   📝 第一步                    ⚡ 第二步                     🎯 第三步       │
-│   填写信息登记                  学习编辑器                    加入社群        │
-│                               ─────────                    ────────         │
-│   【必做】                      【必学】                     【必做】          │
-│   点击这里填写 →                 Y3编辑器教程                  添加运营微信   │
-│   [信息登记入口]                + 启航手册                    获得专属帮助    │
-│                                 + 运营面对面课程                                 │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+### 📋 入门 Checklist
 
----
-
-## 📋 入门 checklist
-
-### ☑️ 第一阶段：准备工作（5分钟）
-
-- [ ] **填写信息登记** → [立即填写](https://reckfeng.feishu.cn/share/base/form/shrcnzspsykbtSVmCsiBVvKPaHg)
-- [ ] 关注 KK 官方网站
-- [ ] 注册开发者平台账号
-
-### ☑️ 第二阶段：学习阶段（1-3天）
-
-- [ ] 观看 **Y3编辑器教学视频**
-- [ ] 阅读 **启航手册**（运营入门必读）
-- [ ] 参加 **运营线上面对面课程**
-
-### ☑️ 第三阶段：实践阶段（持续）
-
+- [ ] 填写信息登记 → [立即填写](https://reckfeng.feishu.cn/share/base/form/shrcnzspsykbtSVmCsiBVvKPaHg)
+- [ ] 关注 KK 官方网站 → [www.kkdzpt.com](http://www.kkdzpt.com)
+- [ ] 注册开发者平台账号 → [create.kkdzpt.com](https://create.kkdzpt.com/)
+- [ ] 观看 Y3编辑器教学视频 → [观看教程](https://create.kkdzpt.com/docs/guides/Editor/About)
+- [ ] 阅读启航手册
+- [ ] 参加运营线上面对面课程
 - [ ] 加入作者社群
 - [ ] 添加官方运营人员微信
-- [ ] 开始制作你的第一张地图
 
----
+### 🌐 核心资源导航
 
-## 🔗 核心资源导航
+| 分类 | 名称 | 链接 |
+|:----:|------|------|
+| 🌐 | KK官网 | [www.kkdzpt.com](http://www.kkdzpt.com) |
+| 🛠️ | 开发者平台 | [create.kkdzpt.com](https://create.kkdzpt.com/) |
+| 📖 | 启航手册 | [点击查看](https://create.kkdzpt.com/help/service_support/启航手册) |
+| 📚 | Y3开发者文档 | [163.com/y3/docs/](https://163.com/y3/docs/) |
+| 📥 | Y3编辑器下载 | [点击下载](https://163.com/y3/action/download/game?version=2.0&t=1751874823102) |
+| 📖 | 地图与商品审核手册 | [点击查看](https://create.kkdzpt.com/help/service_support/地图与商品审核手册) |
 
-| 资源类型 | 名称 | 推荐指数 | 链接 |
-|:--------:|------|:--------:|------|
-| 🌐 | KK官网 | ⭐⭐⭐⭐⭐ | 认准官方域名 |
-| 🛠️ | 开发者平台 | ⭐⭐⭐⭐⭐ | 作者日常运营后台 |
-| 📖 | 启航手册 | ⭐⭐⭐⭐⭐ | 运营入门必读 |
-| 📚 | Y3开发者文档 | ⭐⭐⭐⭐⭐ | 编辑器技术教程 |
+### 🔗 快速链接汇总
 
----
-
-## 🎯 一图总结
-
-```
-                        ┌─────────────────────┐
-                        │   🎮 制作地图       │
-                        │   ⬇️              │
-                        └────────┬──────────┘
-                                 │
-                    ┌────────────┼────────────┐
-                    ▼                         ▼
-           ┌─────────────────┐     ┌─────────────────┐
-           │  📖 学技术      │     │  📈 学运营      │
-           │  ──────────     │     │  ──────────     │
-           │  Y3编辑器教程   │     │  启航手册      │
-           │  + 教学视频     │     │  + 运营课程     │
-           └─────────────────┘     └─────────────────┘
-                    │                         │
-                    └────────────┬────────────┘
-                                 ▼
-                        ┌─────────────────┐
-                        │  🤝 找帮助      │
-                        │  加入社群       │
-                        │  添加运营微信   │
-                        └─────────────────┘
-```
-
----
-
-## 💬 官方联系方式
-
-| 联系方式 | 说明 |
+| 链接类型 | 地址 |
 |----------|------|
-| 信息登记入口 | [点击填写](https://reckfeng.feishu.cn/share/base/form/shrcnzspsykbtSVmCsiBVvKPaHg) |
-| 官方运营 | 加入社群后联系 |
-| 开发者平台 | [开发者后台](https://developer.example.com) |
+| KK官网 | [www.kkdzpt.com](http://www.kkdzpt.com) |
+| 开发者平台 | [create.kkdzpt.com](https://create.kkdzpt.com/) |
+| Y3编辑器文档 | [create.kkdzpt.com/docs/guides/Editor/About](https://create.kkdzpt.com/docs/guides/Editor/About) |
+| Y3文档 | [163.com/y3/docs/](https://163.com/y3/docs/) |
+| KK API文档 | [create.kkdzpt.com/kkapidoc/](https://create.kkdzpt.com/kkapidoc/#/) |
+
+---
+
+## 三、官方运营联系方式
+
+| 联系方式 | 说明 | 链接 |
+|----------|------|------|
+| 信息登记入口 | 新作者必填 | [点击填写](https://reckfeng.feishu.cn/share/base/form/shrcnzspsykbtSVmCsiBVvKPaHg) |
+| 官方运营 | 加入社群后联系 | 联系客服获取 |
+| 开发者平台 | 作者后台 | [create.kkdzpt.com](https://create.kkdzpt.com/) |
 
 ---
 
 ## ❓ 常见问题
 
 **Q: 必须填写信息登记吗？**
-> 是的！漏填或不填会影响官方对您的帮助和服务。
+> 是的！漏填甚至是不填，会耽误对您的帮助。
 
 **Q: 先学技术还是先学运营？**
-> 建议先学技术（Y3教程），再做运营。技术是基础！
+> 建议先学技术（Y3编辑器教程），再做运营。技术是基础！
 
 **Q: 遇到问题找谁？**
-> 加入作者社群，添加官方运营人员微信，获得一对一帮助。
+> 加入社群，添加官方运营人员，获得一对一帮助。
 
 ---
 
