@@ -5,6 +5,8 @@ import json
 import logging
 from pathlib import Path
 
+from pydantic import ValidationError
+
 from agents.base import BaseAgent, extract_json_from_response
 from models import ResearchContext, ReviewFeedback, ReviewResult
 
@@ -40,20 +42,25 @@ class ReviewerAgent(BaseAgent):
 
         try:
             data = json.loads(extract_json_from_response(raw))
+            # 过滤 feedback 中字段不完整的项，避免 ValidationError
+            feedback_list = []
+            for fb in data.get("feedback", []):
+                if isinstance(fb, dict):
+                    # 确保必填字段存在
+                    if "category" in fb and "excerpt" in fb:
+                        if "suggestion" not in fb:
+                            fb["suggestion"] = "请补充相关建议"  # 提供默认值
+                        feedback_list.append(ReviewFeedback(**fb))
             result = ReviewResult(
                 accuracy=float(data.get("accuracy", 0.7)),
                 completeness=float(data.get("completeness", 0.7)),
                 readability=float(data.get("readability", 0.7)),
                 citation_coverage=float(data.get("citation_coverage", 0.7)),
                 overall_score=float(data.get("overall_score", 0.0)),
-                feedback=[
-                    ReviewFeedback(**fb)
-                    for fb in data.get("feedback", [])
-                    if isinstance(fb, dict)
-                ],
+                feedback=feedback_list,
             )
-        except (json.JSONDecodeError, KeyError, TypeError) as e:
-            logger.error(f"ReviewerAgent 解析失败，使用默认通过分: {e}")
+        except (json.JSONDecodeError, KeyError, TypeError, ValidationError) as e:
+            logger.warning(f"ReviewerAgent 解析失败，使用默认通过分: {e}")
             result = ReviewResult(
                 accuracy=0.75,
                 completeness=0.75,

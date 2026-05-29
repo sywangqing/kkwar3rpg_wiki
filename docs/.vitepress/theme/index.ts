@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
 import ArticleFooter from '../components/ArticleFooter.vue'
 import DiscoveredTopics from '../components/DiscoveredTopics.vue'
+import SearchBar from '../components/SearchBar.vue'
 import './custom.css'
 
 export default {
@@ -11,5 +12,6 @@ export default {
     // 注册全局组件
     app.component('ArticleFooter', ArticleFooter)
     app.component('DiscoveredTopics', DiscoveredTopics)
+    app.component('SearchBar', SearchBar)
   },
 } satisfies Theme

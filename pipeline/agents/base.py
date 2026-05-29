@@ -107,14 +107,15 @@ class BaseAgent:
                 max_tokens=max_tokens,
                 temperature=temperature,
             )
-            # Minimax 国内版需要指定 api_base 和 group_id
-            if "minimax" in self.model.lower():
-                api_key = os.getenv("MINIMAX_API_KEY", "")
+            # MiniMax 国内版 / CodeMaker 平台需要指定 api_base
+            if "minimax" in self.model.lower() or "codemaker" in os.getenv("OPENAI_BASE_URL", "").lower():
+                api_base = os.getenv("OPENAI_BASE_URL", "https://api.minimax.chat/v1")
+                api_key = os.getenv("OPENAI_API_KEY", os.getenv("MINIMAX_API_KEY", ""))
+                kwargs["api_base"] = api_base
+                kwargs["api_key"] = api_key
+                # MiniMax 可能需要 group_id
                 group_id = os.getenv("MINIMAX_GROUP_ID", "")
                 if group_id:
-                    kwargs["api_base"] = f"https://api.minimax.chat/v1"
-                    kwargs["api_key"] = api_key
-                    # litellm minimax provider 需要 group_id 通过 extra_headers 传入
                     kwargs["extra_headers"] = {"GroupId": group_id}
             return litellm.completion(**kwargs)
 

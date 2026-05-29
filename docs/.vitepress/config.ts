@@ -39,14 +39,15 @@ export default defineConfig({
     nav: [
       { text: '🚀 快速入门', link: '/getting-started/war3-地图编辑器安装与配置' },
       { text: '🛤️ 学习路径', link: '/learning-path' },
+      { text: '🔍 搜索', link: '/search' },
       {
         text: '🗂️ 分类',
         items: [
           { text: '⚡ 触发器系统', link: '/triggers/触发器是什么用大白话解释游戏逻辑' },
-          { text: '�️ 地形编辑', link: '/terrain/5个让新手地图看起来更好看的地形技巧' },
+          { text: '🗺️ 地形编辑', link: '/terrain/5个让新手地图看起来更好看的地形技巧' },
           { text: '🎭 对象编辑器', link: '/object-editor/对象编辑器入门修改单位属性' },
-          { text: '� RPG 系统', link: '/rpg-systems/rpg英雄系统经验升级和属性设计' },
-          { text: '� 发布上线', link: '/publishing/如何把地图发布到kk平台完整上传步骤' },
+          { text: '🏰 RPG 系统', link: '/rpg-systems/rpg英雄系统经验升级和属性设计' },
+          { text: '📤 发布上线', link: '/publishing/如何把地图发布到kk平台完整上传步骤' },
           { text: '❓ 常见问题', link: '/faq/新手最常遇到的10个错误和解决方法' },
         ],
       },
@@ -98,10 +99,10 @@ export default defineConfig({
     // ── 返回顶部按钮 ────────────────────────────────────────────
     returnToTopLabel: '返回顶部',
 
-    // ── 侧边栏切换按钮 ──────────────────────────────────────────
+    // ── 侧边栏切换按钮 ───────────────────────────────────────────
     sidebarMenuLabel: '目录',
 
-    // ── 深色/浅色模式切换 ───────────────────────────────────────
+    // ── 深色/浅色模式切换 ────────────────────────────────────────
     darkModeSwitchLabel: '深色模式',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
