@@ -12,7 +12,7 @@ updated: 2026-05-29
 
 ---
 
-![KK平台新作者入门指南](./.images/kk-new-author-guide.jpg)
+![KK平台新作者入门指南](../.images/kk-new-author-guide.jpg)
 
 ---
 
