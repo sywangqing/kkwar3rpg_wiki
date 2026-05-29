@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- 盾牌主体渐变：深蓝 → 金色 -->
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#1a2e5a"/>
+      <stop offset="100%" stop-color="#0d1b38"/>
+    </linearGradient>
+    <!-- 外框光泽 -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#f0c040"/>
+      <stop offset="50%"  stop-color="#c8921a"/>
+      <stop offset="100%" stop-color="#f0c040"/>
+    </linearGradient>
+    <!-- 中央魔法阵光晕 -->
+    <radialGradient id="glowGrad" cx="50%" cy="48%" r="38%">
+      <stop offset="0%"   stop-color="#7ecfff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7ecfff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ── 盾牌外框（金色描边） ── -->
+  <path d="M32 3 L58 14 L58 36 Q58 52 32 61 Q6 52 6 36 L6 14 Z"
+        fill="url(#borderGrad)" />
+
+  <!-- ── 盾牌主体（深蓝填充，内缩 3px） ── -->
+  <path d="M32 7 L54 17 L54 36 Q54 50 32 58 Q10 50 10 36 L10 17 Z"
+        fill="url(#shieldGrad)" />
+
+  <!-- ── 光晕叠层 ── -->
+  <path d="M32 7 L54 17 L54 36 Q54 50 32 58 Q10 50 10 36 L10 17 Z"
+        fill="url(#glowGrad)" />
+
+  <!-- ── 外圈魔法阵环 ── -->
+  <circle cx="32" cy="34" r="15" fill="none"
+          stroke="#c8921a" stroke-width="1.2" stroke-dasharray="3 2" opacity="0.8"/>
+  <circle cx="32" cy="34" r="18" fill="none"
+          stroke="#f0c040" stroke-width="0.6" opacity="0.5"/>
+
+  <!-- ── 六芒星（Star of Warcraft） ── -->
+  <g filter="url(#glow)" fill="none" stroke="#7ecfff" stroke-width="1.1" opacity="0.9">
+    <!-- 上三角 -->
+    <polygon points="32,19 39.5,32 24.5,32" />
+    <!-- 下三角 -->
+    <polygon points="32,49 39.5,36 24.5,36" />
+  </g>
+
+  <!-- ── 中心宝石 ── -->
+  <circle cx="32" cy="34" r="3.5" fill="#7ecfff" opacity="0.95" filter="url(#glow)"/>
+  <circle cx="32" cy="34" r="1.8" fill="#ffffff" opacity="0.9"/>
+
+  <!-- ── 四角装饰点 ── -->
+  <circle cx="32" cy="17" r="1.2" fill="#f0c040" opacity="0.8"/>
+  <circle cx="32" cy="51" r="1.2" fill="#f0c040" opacity="0.8"/>
+  <circle cx="15" cy="31" r="1.2" fill="#f0c040" opacity="0.8"/>
+  <circle cx="49" cy="31" r="1.2" fill="#f0c040" opacity="0.8"/>
+
+  <!-- ── 盾牌顶部金色高光 ── -->
+  <path d="M32 7 L54 17 L52 16 L32 9 L12 16 L10 17 Z"
+        fill="#f0c040" opacity="0.25"/>
+</svg>
