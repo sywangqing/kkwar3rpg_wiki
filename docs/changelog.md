@@ -1,5 +1,22 @@
 ﻿# 更新日志
 
+## 2026-05-30 19:26 UTC
+
+本次更新 **10** 篇文章：
+
+- [Lua API 参考（重制版）](docs/scripting/lua-api-参考重制版.md)
+- [从 GUI 触发器迁移到 JASS](docs/scripting/从-gui-触发器迁移到-jass.md)
+- [单位编辑器详解](docs/object-editor/单位编辑器详解.md)
+- [技能编辑器与自定义技能](docs/object-editor/技能编辑器与自定义技能.md)
+- [物品编辑器与物品系统](docs/object-editor/物品编辑器与物品系统.md)
+- [升级编辑器](docs/object-editor/升级编辑器.md)
+- [光环与增益效果编辑](docs/object-editor/光环与增益效果编辑.md)
+- [YDWE 雨滴编辑器使用指南](docs/tools/ydwe-雨滴编辑器使用指南.md)
+- [WE Unlimited 无限编辑器](docs/tools/we-unlimited-无限编辑器.md)
+- [JASS NewGen Pack (JNGP)](docs/tools/jass-newgen-pack-jngp.md)
+
+
+
 ## 2026-05-30 06:01 UTC
 
 本次更新 **10** 篇文章：
