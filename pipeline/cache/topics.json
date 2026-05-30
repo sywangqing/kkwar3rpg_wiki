@@ -156,12 +156,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 事件 event 类型 完整列表",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-05-29T08:32:20.922844+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-30T05:48:50.547600+00:00",
+    "article_path": "docs/triggers/触发器事件类型详解.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-conditions",
@@ -170,12 +171,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 条件 condition 编写技巧",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-05-29T08:32:20.922844+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-30T05:49:12.779225+00:00",
+    "article_path": "docs/triggers/触发器条件编写.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-actions",
@@ -184,12 +186,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 动作 action 常用函数",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-05-29T08:32:20.922844+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-30T05:49:16.848267+00:00",
+    "article_path": "docs/triggers/触发器动作大全.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-variables",
@@ -198,12 +201,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 变量 variable 数组 全局变量",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-05-29T08:32:20.922844+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-30T05:52:57.182904+00:00",
+    "article_path": "docs/triggers/触发器变量与数据类型.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-leaks",
@@ -212,12 +216,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 内存泄漏 leak 清理 最佳实践",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-05-29T08:32:20.922844+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-30T05:53:06.243564+00:00",
+    "article_path": "docs/triggers/触发器内存泄漏处理.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "trigger-common-patterns",
@@ -226,12 +231,13 @@
     "category_name": "触发器系统",
     "search_query": "War3 触发器 常用模式 计时器 循环 技巧",
     "output_dir": "docs/triggers",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-05-29T08:32:20.922844+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-30T05:53:10.351466+00:00",
+    "article_path": "docs/triggers/常用触发器模式与技巧.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "jass-basics",
@@ -240,12 +246,13 @@
     "category_name": "脚本编程",
     "search_query": "War3 JASS 脚本 基础教程 语法入门",
     "output_dir": "docs/scripting",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-05-29T08:32:20.922844+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-30T05:57:15.504640+00:00",
+    "article_path": "docs/scripting/jass-脚本基础入门.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "jass-functions",
@@ -254,12 +261,13 @@
     "category_name": "脚本编程",
     "search_query": "War3 JASS 函数 API 参考手册 常用",
     "output_dir": "docs/scripting",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-05-29T08:32:20.922844+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-30T05:57:29.570295+00:00",
+    "article_path": "docs/scripting/jass-常用函数参考.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "vjass-intro",
@@ -268,12 +276,13 @@
     "category_name": "脚本编程",
     "search_query": "War3 vJASS JNGP 进阶编程 结构体 库",
     "output_dir": "docs/scripting",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-05-29T08:32:20.922844+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-30T05:57:29.422732+00:00",
+    "article_path": "docs/scripting/vjass-进阶编程.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "lua-basics",
@@ -282,12 +291,13 @@
     "category_name": "脚本编程",
     "search_query": "War3 重制版 Lua 脚本 教程 基础",
     "output_dir": "docs/scripting",
-    "status": "pending",
+    "status": "completed",
     "retry_count": 0,
     "last_error": null,
     "created_at": "2026-05-29T08:32:20.922844+00:00",
-    "updated_at": null,
-    "article_path": null
+    "updated_at": "2026-05-30T06:01:19.331175+00:00",
+    "article_path": "docs/scripting/lua-脚本基础重制版.md",
+    "quality_score": 0.0
   },
   {
     "topic_id": "lua-api",

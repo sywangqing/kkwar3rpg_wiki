@@ -1,5 +1,22 @@
 ﻿# 更新日志
 
+## 2026-05-30 06:01 UTC
+
+本次更新 **10** 篇文章：
+
+- [触发器事件类型详解](docs/triggers/触发器事件类型详解.md)
+- [触发器条件编写](docs/triggers/触发器条件编写.md)
+- [触发器动作大全](docs/triggers/触发器动作大全.md)
+- [触发器变量与数据类型](docs/triggers/触发器变量与数据类型.md)
+- [触发器内存泄漏处理](docs/triggers/触发器内存泄漏处理.md)
+- [常用触发器模式与技巧](docs/triggers/常用触发器模式与技巧.md)
+- [JASS 脚本基础入门](docs/scripting/jass-脚本基础入门.md)
+- [JASS 常用函数参考](docs/scripting/jass-常用函数参考.md)
+- [vJASS 进阶编程](docs/scripting/vjass-进阶编程.md)
+- [Lua 脚本基础（重制版）](docs/scripting/lua-脚本基础重制版.md)
+
+
+
 ## 2026-05-29 20:37 UTC
 
 本次更新 **10** 篇文章：

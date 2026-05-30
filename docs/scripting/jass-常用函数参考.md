@@ -1,417 +1,379 @@
 ---
 title: JASS 常用函数参考
 category: scripting
-updated: 2026-05-08
+updated: 2026-05-30
 model: openai/MiniMax-M2.7-highspeed
 quality_score: 0.72
 discovered_via: manual
 sources:
-  - https://jass.fandom.com/wiki/Functions
-  - https://github.com/lep/jassdoc
   - https://jass.sourceforge.net/doc/
-  - https://blog.csdn.net/weixin_32251525/article/details/143220228
+  - https://github.com/lep/jassdoc
+  - https://www.hiveworkshop.com/forums/scripting-tutorials.280/
   - https://www.hiveworkshop.com/threads/beginning-jass-tutorial-series.30765/
-  - https://forum.wc3edit.net/viewtopic.php?t=11005
   - https://wc3we.fandom.com/wiki/Jass_Coding
-  - https://www.thehelper.net/threads/is-there-a-complete-jass-function-list.54372/
 ---
 
 # JASS 常用函数参考
 
-## JASS 简介与入门基础
+## JASS简介与环境准备
 
-本节将带你认识 JASS 脚本语言，了解它是什么、为什么地图需要它，以及如何打开编辑器开始编写你的第一行代码。学完本节后，你将能够区分 JASS 和可视化触发器，并成功打开 JASS 脚本编辑器查看代码[^3]。
+本节将带你认识什么是JASS语言，了解触发编辑器的基本界面，以及它与传统GUI触发器的区别。学完本节后，你将能够区分两种触发方式，为后续学习代码编写打下基础。
 
-### 什么是 JASS 及其作用
+### 操作步骤
 
-JASS 是 Warcraft III（魔兽争霸3）内置的脚本编程语言，全称是 "JavaScript-like Assistant Scripting System"（类JavaScript辅助脚本系统）[^3]。简单来说，**JASS 就是让地图"动起来"的命令清单**。
+1. **第一步：认识JASS语言** — JASS全称"Just Another Scripting Syntax"，直译为"另一种脚本语法"[^6]。简单来说，它是一种用于编写"触发器"的编程语言。触发器就像游戏的"自动指令集"，告诉 Warcraft III 在什么情况下做什么事。例如：当单位死亡时、当地图开始时、当玩家点击某个按钮时——这些都需要触发器来控制。
 
-当你想要实现以下功能时就需要用到 JASS：
-- 让单位在受到攻击时自动播放特效
-- 创建复杂的技能系统（如连锁闪电）
-- 编写AI让电脑控制的敌人更聪明
-- 管理游戏中的计时器和事件
+2. **第二步：打开触发编辑器** — 在World Editor（世界编辑器）中，按下键盘快捷键 **F4** 即可打开触发编辑器窗口[^4]。或者你也可以点击顶部菜单栏的"触发器"按钮。这个界面分为左右两栏：左边是触发器列表，右边是选中触发器的具体内容。
 
-> **💡 新手提示**：你可以把 JASS 想象成一份"任务清单"，你告诉电脑"当XX发生时，就去做YY事情"。World Editor（世界编辑器）中的**触发器编辑器**本质上就是用可视化方式帮你写 JASS 代码[^5]。
+3. **第三步：了解GUI触发器** — GUI是"图形用户界面"的缩写[^5]。当你用鼠标点击、拖拽来创建触发器时，实际上就是在使用GUI触发器。这种方式不需要写代码，适合简单功能，但缺点是功能受限，且生成的代码不够灵活。
 
-### JASS 脚本编辑器开启方法
+4. **第四步：切换到JASS视图** — 在触发编辑器中，选中任意一个触发器，右键点击触发器名称，选择"转换为自定义代码"（Convert to Custom Text）[^5]。此时，原本的图形界面会变成一行行代码——这才是真正的JASS代码。恭喜你，你已经迈出了学习代码的第一步！
 
-虽然触发器编辑器可以可视化地创建逻辑，但你也可以直接查看和编写原始 JASS 代码。以下是打开方法：
+> **💡 新手提示**：别被代码吓到！JASS代码其实就像一套"机械指令"，每个单词都有固定含义。你不需要记住所有内容，只需要理解"当...发生"（事件）、"如果..."（条件）、"就执行..."（动作）这三个核心概念即可。
 
-1. **启动 World Editor** — 双击桌面图标或在魔兽争霸3文件夹中找到 `World Editor.exe` 打开[^3]
-2. **打开或创建地图** — 点击菜单栏 "文件" → "新建" 创建一个空白地图，或用 Ctrl+O 打开现有地图
-3. **进入触发器编辑器** — 在工具栏找到并点击 **"触发器编辑器"**（也叫"触发编辑器"），快捷键是 F4
-4. **查看 JASS 代码** — 在触发器列表中选中任意触发器，双击右侧的"动作"区域，你将看到对应的 JASS 代码窗口[^5]
+> **⚠️ 常见错误**：很多新手误以为必须完全抛弃GUI才能学JASS。实际上，**GUI和JASS可以混合使用**！你完全可以用GUI创建基础框架，然后用JASS扩展复杂功能，这样学习曲线会更平缓。
 
-> **⚠️ 常见错误**：新手经常把触发器编辑器和 JASS 编辑器搞混。触发器编辑器是可视化界面，而 JASS 代码显示在代码窗口中。如果你想纯手写 JASS，需要在地图脚本中编写（右键点击"地图脚本"选择"编辑"）[^7]。
+### 小结
 
-### JASS 基本语法结构
+完成以上步骤后，你应该已经理解了JASS是一种用于控制游戏逻辑的脚本语言，能够打开触发编辑器查看触发器列表，并且学会了如何在GUI和代码视图之间切换。接下来，我们将深入学习如何编写你的第一段JASS代码！
 
-JASS 的代码由几个核心元素组成，理解它们是入门的关键[^4]：
+## 常用显示与信息输出函数
 
-**1. 函数（Function）**
-函数是 JASS 的基本执行单元，每段代码都写在函数内部：
+本节将介绍 JASS 中最常用的**显示函数**，学完后你能在游戏屏幕上向玩家展示文字消息，还能创建点击式的对话框交互。这些是 RPG 游戏中**任务提示**、**系统公告**、**玩家选择菜单**的基础。
+
+### 屏幕消息显示函数
+
+1. **DisplayTextToPlayer — 在指定位置显示消息** — 这是最基础的显示函数[^2]
+
+   语法：`DisplayTextToPlayer(player, x, y, message)`
+   
+   - `player`：要显示给哪个玩家，写 `Player(0)` 表示玩家1
+   - `x, y`：屏幕坐标（常用 `0, 0` 表示左上角）
+   - `message`：要显示的文字，记得加引号 `"你好"`
+
+2. **DisplayTimedTextToPlayer — 显示带倒计时的消息** — 消息会在几秒后自动消失[^2]
+
+   比上面多一个参数：`duration`（持续秒数），常用于"5秒后开始游戏"这类提示
+
+3. **SimError — 显示红色错误提示** — 专门用于提示玩家操作有误[^2]
+
+   语法：`SimError(player, "背包已满！")`
+   
+   这种消息会自动变红色，玩家一眼就能注意到
+
+4. **BJDebugMsg — 调试专用消息** — 只在测试时用，不会出现在正式游戏中[^5]
+
+> **💡 新手提示**：显示中文需要用一对双引号包裹，例如 `DisplayTextToPlayer(Player(0), 0, 0, "欢迎来到RPG！")`。漏掉引号是新手最常见的报错原因。
+
+> **⚠️ 常见错误**：直接在函数里写中文字符串，但地图编码没设置对会导致乱码。解决方法是：World Editor → 菜单栏「文件」→「打开/保存」→「地图文件编码」改成 UTF-8。
+
+### 游戏内对话框
+
+对话框是弹出一个**带按钮的选择窗口**，适合让玩家做选择题（比如选择职业、难度）。
+
+1. **创建对话框** — `DialogCreate()` 返回一个对话框变量[^2]
+
+2. **设置对话框标题** — `DialogSetMessage(dialog, "请选择你的职业")`
+
+3. **添加按钮** — `DialogAddButton(dialog, "战士", 1)`，数字是按钮的**返回值**
+
+4. **显示给玩家** — `DialogDisplay(player, dialog, true)`，true=显示，false=隐藏
+
+对话框需要配合**触发器**监听按钮点击事件才能发挥作用。
+
+> **💡 新手提示**：对话框使用完毕后记得用 `DialogClear(dialog)` 清空内容，再用 `DialogDestroy(dialog)` 销毁，否则会造成**内存泄漏**。
+
+### 小结
+
+完成以上内容后，你应该掌握了：
+- 如何用 `DisplayTextToPlayer` 在屏幕上显示文字
+- 如何用 `SimError` 显示醒目的错误提示
+- 如何创建带有选项按钮的对话框
+
+💡 **下一步建议**：尝试在触发器编辑器中创建一个简单的触发：当游戏开始时，用 JASS 代码向所有玩家显示"欢迎进入游戏！"的欢迎语。
+
+## 单位与玩家相关函数
+
+本节将带你认识JASS中最常用的两大类函数：操作**单位**（游戏中的角色、建筑等）和操作**玩家**（控制游戏中的各个势力）。学完本节后，你就能用代码创建单位、移动它们、修改生命值，以及控制哪个玩家拥有哪个单位。
+
+### 单位创建与删除
+
+在JASS中，创建一个单位需要四个关键信息：这个单位属于谁（哪个玩家）、单位类型是什么（单位ID）、创建在什么位置（X和Y坐标）[^1]。
+
 ```jass
-function MyFunction takes nothing returns nothing
-    // 你的代码写在这里
+// 创建一个骑兵单位，位置在地图坐标(1000, 1500)
+local unit u = CreateUnit(Player(0), 'hpal', 1000, 1500, 0)
+```
+
+> **💡 新手提示**：单位ID是一个4字符代码，如 `'hpal'` 代表圣骑士。你可以在对象编辑器中查看每个单位的ID，将鼠标悬停在单位名称上即可看到。
+
+> **⚠️ 常见错误**：新手常忘记把 `CreateUnit` 的返回值存到变量里。之后想要操作这个单位时，却发现无法引用它。一定要用 `local unit u = CreateUnit(...)` 来保存这个单位！
+
+删除单位的函数很简单：
+
+```jass
+call RemoveUnit(u)
+```
+
+### 玩家与势力操作
+
+每个玩家在JASS中用 `Player(i)` 函数表示，其中 `i` 是0到11的数字，代表12个玩家槽位（0号玩家通常是你自己）[^2]。获取单位属于哪个玩家：
+
+```jass
+local player p = GetOwningPlayer(u)
+```
+
+修改单位的归属（ ownership）：
+
+```jass
+call SetUnitOwner(u, Player(1), true)
+```
+
+### 单位属性修改
+
+修改单位位置是最常用的操作之一[^1]：
+
+```jass
+call SetUnitX(u, 2000)
+call SetUnitY(u, 2000)
+// 或者一次性设置：
+call SetUnitPosition(u, 2000, 2000)
+```
+
+> **💡 新手提示**：`SetUnitX` 和 `SetUnitY` 只改变坐标，不检查障碍物；`SetUnitPosition` 会自动将单位放置在最近的合法位置。
+
+修改生命值和魔法值：
+
+```jass
+call SetUnitLife(u, 500.0)    // 设置为500点生命
+call SetUnitMana(u, 200.0)    // 设置为200点魔法
+```
+
+### 小结
+
+完成以上学习后，你应该掌握了以下技能：使用 `CreateUnit` 创建单位、`RemoveUnit` 删除单位、`GetOwningPlayer` 获取单位所属玩家、`SetUnitOwner` 更改归属，以及 `SetUnitX/Y` 和 `SetUnitLife/Mana` 修改单位的位置和属性。这些就是你在RPG地图中实现"召唤怪物"、"转移单位所有权"、"扣血扣蓝"等功能的基石！
+
+## 触发器核心函数
+
+本节将带你认识 JASS 中最重要的几类函数——**触发器管理函数**和**事件条件函数**。学完本节后，你将能够用 JASS 代码创建一个完整的触发器逻辑，理解触发器从"事件触发"到"执行动作"的全过程。
+
+> **💡 先理解概念**：触发器（Trigger）就像一张"命令清单"——当某个事件发生时（比如单位死亡），触发器检查条件是否满足，如果满足就执行预设的动作。JASS 函数就是用来编写这张"命令清单"的工具。
+
+### 触发器创建与管理
+
+触发器的生命周期分为三步：**创建 → 注册事件/条件 → 启用/销毁**。
+
+#### 第一步：创建触发器
+
+在 JASS 中，创建一个新的触发器使用 `CreateTrigger()` 函数[^1][^2]：
+
+```jass
+function Trig_Example_Actions takes nothing returns nothing
+    // 在这里写你的动作代码
+    call DisplayTextToForce(GetPlayersAll(), "触发器执行了！")
+endfunction
+
+function InitTrig_Example takes nothing returns nothing
+    // 创建触发器
+    local trigger t = CreateTrigger()
+    
+    // 后续会在这里注册事件和条件
+    
+    // 关联动作函数
+    call TriggerAddAction(t, function Trig_Example_Actions)
 endfunction
 ```
-- `takes nothing` 表示这个函数不需要任何参数
-- `returns nothing` 表示函数执行完不返回任何值
 
-**2. 变量（Variable）**
-变量用于存储数据，就像一个带名字的盒子：
+> **💡 新手提示**：`CreateTrigger()` 返回一个触发器句柄（可以理解为"编号"），必须用局部变量 `local trigger` 保存它，这样才能后续操作这个触发器。
+
+#### 第二步：启用或禁用触发器
+
+- `EnableTrigger(trigger whichTrigger)` — 激活触发器[^1]
+- `DisableTrigger(trigger whichTrigger)` — 关闭触发器[^1]
+- `IsTriggerEnabled(trigger whichTrigger)` — 检查触发器是否启用
+
 ```jass
-local integer myScore = 0    // 整数变量
-local unit hero               // 单位变量
-local boolean isAlive = true  // 布尔变量（真假）
+call DisableTrigger(t)  // 暂时关闭这个触发器
+call EnableTrigger(t)  // 重新激活
 ```
 
-**3. 常用关键字**
-- `call` — 调用一个函数：`call DisplayTextToPlayer(...)`
-- `set` — 给变量赋值：`set myScore = 100`
-- `if/then/else` — 条件判断
-- `loop/endloop` — 循环执行[^5]
+> **⚠️ 常见错误**：新手经常忘记触发器默认是**启用状态**的。如果你在某个条件下调用了 `DisableTrigger(t)`，一定要记得之后重新 `EnableTrigger(t)`，否则这个触发器就永远"沉睡"了。
 
-> **💡 新手提示**：JASS 对大小写敏感！`Set` 和 `set` 是不同的。写代码时务必保持大小写一致，否则运行时会报错[^4]。
+#### 第三步：销毁触发器
 
-### 小结
+当触发器不再需要时，应使用 `DestroyTrigger(trigger whichTrigger)` 释放内存[^1]：
 
-完成以上内容后，你应该已经：
-- ✅ 理解了 JASS 是用于控制地图逻辑的脚本语言
-- ✅ 学会了如何在 World Editor 中打开触发器编辑器并查看 JASS 代码
-- ✅ 认识了函数、变量、关键字等基本语法元素
-
-这些知识将为你后续学习更复杂的 JASS 编程打下坚实基础！
-
-## 常用输出与调试函数
-
-本节将带你认识三个最常用的输出与调试函数：`BJDebugMsg`、`DisplayTextToPlayer` 和 `SendSysMessage`。学完本节后，你将能够在游戏中显示文字信息，随时检查变量值是否正确，再也不用担心写完触发器后不知道程序运行到哪一步了。
-
----
-
-### BJDebugMsg 调试消息输出
-
-**BJDebugMsg** 是暴雪封装好的BJ函数（可以直接理解为"简化版函数"），用于向所有玩家同时显示一行调试信息[^1]。
-
-**语法格式：**
 ```jass
-call BJDebugMsg(消息内容)
+call DestroyTrigger(t)  // 销毁后不能再次使用
 ```
 
-**适用场景：**
-- 调试时想知道某段代码是否被执行
-- 检查某个变量的当前值
-- 追踪触发器的执行流程
+> **💡 新手提示**：销毁后的触发器不能使用，但如果你在 `InitTrig_` 函数中创建触发器（地图初始化时），通常**不需要销毁**，因为游戏结束时触发器会自动清理。
 
-> **💡 新手提示**：BJDebugMsg 显示的信息只有游戏主持人（单人模式）或所有玩家能看到，但**不会保存在任何日志文件里**，关闭游戏后这些消息就消失了。如果你想保存调试记录，建议同时使用其他方式记录。
+### 事件与条件函数
 
----
+事件（Event）告诉触发器"什么时候执行"，条件（Condition）告诉触发器"什么情况下才执行"。
 
-### DisplayTextToPlayer 玩家信息显示
+#### 第一步：注册事件（Event）
 
-**DisplayTextToPlayer** 是原生函数（Native Function），比 BJ 函数更底层、功能更精确[^2]。它可以将消息发送给**指定的一位玩家**，并显示在屏幕特定位置。
+事件函数用于将触发器与游戏事件关联[^2][^6]。常见的事件注册方式：
 
-**语法格式：**
 ```jass
-call DisplayTextToPlayer(玩家变量, X坐标, Y坐标, 消息内容)
+// 监听单位死亡事件
+call TriggerRegisterUnitEvent(t, gg_unit_H001_0001, EVENT_UNIT_DEATH)
+
+// 监听变量变化事件
+call TriggerRegisterVariableEvent(t, "udg_MyVariable", LESS_THREE, 10)
+
+// 监听玩家聊天事件
+call TriggerRegisterPlayerChatEvent(t, Player(0), "hello", false)
 ```
 
-**参数说明：**
-| 参数 | 含义 | 示例值 |
-|------|------|--------|
-| 玩家变量 | 要接收消息的玩家编号（0-11） | Player(0) |
-| X坐标 | 屏幕上横向位置（0.0-1.0） | 0.5 |
-| Y坐标 | 屏幕上纵向位置（0.0-1.0） | 0.5 |
-| 消息内容 | 要显示的字符串 | "游戏开始！" |
+> **💡 新手提示**：不同的游戏事件需要使用不同的注册函数。例如：
+> - 单位相关事件 → `TriggerRegisterUnitEvent`
+> - 变量变化事件 → `TriggerRegisterVariableEvent`
+> - 玩家交互事件 → `TriggerRegisterPlayerChatEvent`
+> 
+> 记不住没关系，遇到时查文档即可。
 
-**适用场景：**
-- 只让某个特定玩家看到提示（如剧情对话）
-- 为不同玩家显示不同信息
-- 显示UI提示文本
+#### 第二步：添加条件（Condition）
 
-> **⚠️ 常见错误**：新手容易把 X 和 Y 坐标写成整数（如 500、300），这会导致消息**无法显示或显示位置异常**。记住，坐标值范围是 **0.0 到 1.0**，0.5 代表屏幕正中央。
+条件函数用于过滤事件，只有满足条件的才会执行动作[^2]：
 
----
-
-### SendSysMessage 系统消息函数
-
-**SendSysMessage** 通常是自定义封装的消息函数，功能类似 `DisplayTextToPlayer`，但更简洁——只需指定玩家和消息内容，位置固定为屏幕左下方系统消息区域。
-
-**语法格式（取决于地图作者的封装方式）：**
 ```jass
-call SendSysMessage(玩家变量, 消息内容)
+function IsHero takes nothing returns boolean
+    return IsUnitType(GetTriggerUnit(), UNIT_TYPE_HERO)
+endfunction
+
+function InitTrig_Hero takes nothing returns nothing
+    local trigger t = CreateTrigger()
+    call TriggerRegisterUnitEvent(t, gg_unit_H001_0001, EVENT_UNIT_DEATH)
+    
+    // 添加条件函数
+    call TriggerAddCondition(t, Condition(function IsHero))
+    
+    call TriggerAddAction(t, function Trig_Hero_Actions)
+endfunction
 ```
 
-**与 BJDebugMsg 的区别：**
-| 对比项 | BJDebugMsg | SendSysMessage |
-|--------|------------|----------------|
-| 显示对象 | 所有玩家 | 指定玩家 |
-| 显示位置 | 屏幕中央 | 系统消息区（左下） |
-| 是否原生 | BJ封装函数 | 取决于地图实现 |
+> **⚠️ 常见错误**：`TriggerAddCondition` 接收的是**函数引用**，必须用 `Condition(function 函数名)` 包裹，直接写 `IsHero` 或 `Condition(IsHero)` 都是错误的。
 
-> **💡 新手提示**：如果地图没有预先定义 SendSysMessage，你可以直接使用 `DisplayTextToPlayer` 并把坐标设为左下角（如 X=0.01, Y=0.01）来实现类似效果。
+#### 第三步：关联动作（Action）
 
----
+动作函数是触发器真正要执行的代码[^1]：
 
-### 小结
-
-掌握这三个函数后，你现在可以：
-
-- ✅ 使用 `BJDebugMsg` 快速输出调试信息，验证代码是否运行
-- ✅ 使用 `DisplayTextToPlayer` 精准控制哪位玩家、在哪里看到什么消息
-- ✅ 使用或自定义 `SendSysMessage` 实现统一的系统提示风格
-
-**下一步建议**：试着在一个简单触发器中加入 `BJDebugMsg("触发器已执行！")`，运行地图后观察消息是否出现。如果能正常显示，说明你已成功迈出 JASS 调试的第一步！
-
-## 单位创建与操作函数
-
-本节将教你如何在JASS中**创建游戏单位**和**控制单位移动**，这是制作RPG地图最基础、也是最常用的技能。学完本节后，你就能让怪物出现、让NPC移动到指定位置了。
-
-### 操作步骤
-
-1. **第一步：理解单位创建函数** — 在JASS中，`CreateUnit` 是最基础的单位创建函数。它的基本语法是：
-   ```jass
-   CreateUnit(id, unitid, x, y, face)
-   ```
-   - `id` 是玩家编号（0-11，对应红、绿、蓝等12个玩家）
-   - `unitid` 是单位类型ID（如 "hpea" 代表农民）
-   - `x` 和 `y` 是坐标位置
-   - `face` 是单位朝向角度（0-360度）[^1][^2]
-
-2. **第二步：使用 CreateUnitAtLoc 创建单位** — 如果你想在**区域（Location）**而非精确坐标处创建单位，可以使用 `CreateUnitAtLoc`。这个函数在制作刷怪点时特别有用，因为它会自动把单位放置在区域中心[^2]：
-   ```jass
-   CreateUnitAtLoc(id, unitid, loc, face)
-   ```
-
-3. **第三步：移动单位到指定位置** — 创建单位后，你需要移动它们。使用 `SetUnitPosition` 可以瞬间把单位传送到精确坐标[^2]：
-   ```jass
-   call SetUnitPosition(unitHandle, x, y)
-   ```
-   或者分别设置X和Y坐标：
-   ```jass
-   call SetUnitX(unitHandle, x)
-   call SetUnitY(unitHandle, y)
-   ```
-
-4. **第四步：修改单位属性** — 创建单位后，你可以修改它的属性。常用函数包括：
-   - `SetUnitState` — 修改生命值、魔法值等
-   - `SetUnitMoveSpeed` — 修改移动速度
-   - `SetUnitFacing` — 修改朝向角度[^2][^4]
-
-> **💡 新手提示**：创建单位时记得把返回值（单位句柄）存到变量里！否则你创建了单位却无法控制它，就像凭空消失了。
-
-> **⚠️ 常见错误**：新手经常把 `CreateUnit` 和 `CreateUnitAtLoc` 搞混。前者需要精确的X/Y坐标，后者只需要一个区域对象（用 `Location` 函数创建）。搞混会导致单位出现在奇怪的位置或报错。
-
-### 小结
-
-完成以上步骤后，你应该掌握：
-- 如何使用 `CreateUnit` 和 `CreateUnitAtLoc` 在地图上生成单位
-- 如何使用 `SetUnitPosition` 系列函数移动单位
-- 如何用变量保存和操作单位句柄
-
-建议动手练习：尝试创建一个"刷怪触发器"，当玩家进入某个区域时，自动在附近生成一只怪物。
-
-## 触发器事件注册函数
-
-本节将介绍三个在 JASS 中常用的触发器事件注册函数，它们分别是监听变量变化、设置定时器、以及手动执行触发器的事件[^2]。学完本节后，你将能够在地图中实现"当某个变量改变时自动触发"、"每隔一段时间执行某段代码"等常见功能。
-
-### 操作步骤
-
-1. **TriggerRegisterVariableEvent — 监听变量变化**  
-   这个函数用于"注册"一个事件，当指定变量的值发生变化时自动触发[^2]。语法为：  
-   ```jass
-   TriggerRegisterVariableEvent(trig, varName, opcode, limitval)
-   ```  
-   其中 `varName` 是变量名（字符串格式），`opcode`是比较方式（如 `LESS THAN`、`EQUAL` 等），`limitval`是比较的数值。例如监听整数变量 `udg_Score` 是否大于 100：  
-   ```jass
-   call TriggerRegisterVariableEvent(gg_trg_CheckScore, "udg_Score", GREATER THAN, 100)
-   ```
-
-2. **TriggerRegisterTimerEvent — 设置定时器事件**  
-   这个函数可以让触发器在固定时间间隔后自动执行[^2]。语法为：  
-   ```jass
-   TriggerRegisterTimerEvent(trig, timeout, periodic)
-   ```  
-   参数 `timeout` 是时间（秒），`periodic` 为 `true` 时表示重复执行，`false` 则只执行一次。例如让触发器每 5 秒执行一次：  
-   ```jass
-   call TriggerRegisterTimerEvent(gg_trg_TimerLoop, 5.0, true)
-   ```
-
-3. **TriggerExecute — 手动执行触发器**  
-   这个函数可以让你在代码中主动"调用"另一个触发器立即执行[^2]。语法为：  
-   ```jass
-   TriggerExecute(trig)
-   ```  
-   注意：TriggerExecute 会忽略触发器的条件（conditions），直接执行动作。
-
-> **⚠️ 常见错误**：新手经常混淆 `TriggerRegisterTimerEvent` 和 `TriggerSleepAction`。前者是注册事件（在触发器编辑器中使用），后者是代码中延时（暂停当前函数执行）。在 JASS 代码中请使用 `TriggerSleepAction(1.0)` 来延时，而不是注册新的定时器事件。
-
-### 小结
-
-完成以上步骤后，你已经掌握了三种触发器事件注册的方法：监听变量变化、设置定时器、以及手动执行触发器。建议先在地图中创建一个简单的计时触发器，验证功能正常后再进行更复杂的逻辑开发。
-
-## 数学运算与逻辑函数
-
-本节将带你认识JASS中最常用的数学计算和逻辑判断工具。学完本节后，你就能在触发器中使用数学公式计算伤害值、判断单位距离等核心功能——这是制作技能系统和游戏逻辑的基础！
-
----
-
-### 1. 数学运算函数
-
-#### 第一步：了解数学函数的分类
-
-JASS的数学函数主要分为**原生函数**（Native）和**BJ辅助函数**两类[^1]：
-
-- **原生函数**是JASS语言自带的底层函数，名称通常较短，如 `Sin(x)`、`Cos(x)`
-- **BJ辅助函数**是暴雪封装的"友好版本"，名称带有 `BJ` 后缀，如 `SinBJ(x)`、`CosBJ(x)`，会自动处理一些边界情况[^2]
-
-#### 第二步：认识常用数学函数
-
-以下是新手最常用的数学函数：
-
-| 函数 | 作用 | 示例 |
-|------|------|------|
-| `Sin(x)` / `SinBJ(x)` | 计算正弦值 | `SetAngle = Sin(30 * bj_DEGTORAD)` |
-| `Cos(x)` / `CosBJ(x)` | 计算余弦值 | `SetAngle = Cos(60 * bj_DEGTORAD)` |
-| `SquareRoot(x)` | 计算平方根 | `SetDist = SquareRoot(dx*dx + dy*dy)` |
-| `Pow(base, exp)` | 计算幂次方 | `SetValue = Pow(2, 8)` |
-| `Deg2Rad` / `Rad2Deg` | 角度与弧度转换 | `SetRad = degrees * bj_DEGTORAD` |
-
-> **💡 新手提示**：`bj_DEGTORAD` 是一个常数（约等于 0.01745），用于将角度转换为弧度。在JASS中，三角函数使用的是弧度制，不是角度制！这是新手最容易搞错的地方。
-
-#### 第三步：掌握整数与浮点数转换
-
-JASS区分**整数**（integer）和**实数**（real），需要经常相互转换[^4]：
-
-```
-I2R(i)    // 将整数转换为实数
-R2I(r)    // 将实数转换为整数（会取整）
-```
-
-> **⚠️ 常见错误**：直接用整数除以整数会丢失小数部分。例如 `5 / 2` 的结果是 `2`，而不是 `2.5`。正确做法是 `I2R(5) / I2R(2)` 或 `5.0 / 2.0`。
-
----
-
-### 2. 条件判断与比较函数
-
-#### 第一步：理解比较运算符
-
-JASS中使用以下比较运算符[^3]：
-
-| 运算符 | 含义 |
-|--------|------|
-| `==` | 等于 |
-| `!=` | 不等于 |
-| `<` | 小于 |
-| `>` | 大于 |
-| `<=` | 小于等于 |
-| `>=` | 大于等于 |
-
-#### 第二步：组合多个条件
-
-当需要同时满足多个条件时，使用逻辑函数[^3]：
-
-```
-and(条件1, 条件2)  // 两个条件都满足才返回 true
-or(条件1, 条件2)   // 任一条件满足就返回 true
-not(条件)          // 取反，true变false，false变true
-```
-
-**示例**：判断单位是否在范围内且生命值大于50
 ```jass
-if and( DistanceBetweenUnits(u1, u2) < 300, GetUnitLifePercent(u1) > 50 ) then
-    // 执行技能效果
-endif
+function Trig_Hero_Actions takes nothing returns nothing
+    local unit dyingHero = GetTriggerUnit()
+    
+    // 给击杀者奖励100金币
+    call SetPlayerState(GetKillingUnit(), PLAYER_STATE_GOLD_GAINED, 100)
+    
+    call DisplayTextToForce(GetPlayersAll(), GetUnitName(dyingHero) + " 阵亡了！")
+endfunction
 ```
 
-> **💡 新手提示**：比较函数的返回值是**布尔值**（boolean），只有 `true`（真）或 `false`（假）两种情况。这和数字不一样！
+### 小结
 
----
+完成以上步骤后，你应该掌握了：
 
-### 3. 在触发器中实际使用
+- ✅ 使用 `CreateTrigger()` 创建新触发器
+- ✅ 使用 `EnableTrigger()` / `DisableTrigger()` 控制触发器开关
+- ✅ 使用 `TriggerRegisterUnitEvent()` 等函数注册事件
+- ✅ 使用 `TriggerAddCondition()` 添加条件过滤
+- ✅ 使用 `TriggerAddAction()` 关联动作函数
 
-#### 第一步：打开触发编辑器
+> **🎯 实战任务**：尝试编写一个完整触发器：当任意英雄死亡时，显示"XXX 阵亡了！"的消息，并给击杀者增加 50 金币。完成后在地图中测试，观察效果是否符合预期。
 
-1. 在World Editor中，点击顶部菜单 **「触发器编辑器」**（或按 F4）
-2. 双击已有触发器或新建一个触发器
+## 数学与特效函数
 
-#### 第二步：编写数学运算动作
+本节将带你认识JASS中最常用的**数学运算函数**和**特效函数**。学完后，你将能够实现单位移动、距离计算，以及给技能添加炫酷的视觉效果。
 
-在触发器的**动作**中添加：
-- **数学运算** → **设置实数变量** → 选择变量，设置为 `SquareRoot(100)` 的结果
+### 常用数学运算
 
-> **⚠️ 常见错误**：忘记给变量初始化！在使用数学运算前，确保变量已经被声明和赋值，否则可能得到错误结果或导致游戏崩溃。
+JASS提供了丰富的数学函数，让你可以计算角度、距离、随机数值等[^2]。
 
----
+#### 操作步骤
+
+1. **第一步：理解数学函数的作用** — 数学函数在触发器中无处不在。比如你想让一个技能"击退"敌人，就需要计算移动方向和距离；想让技能只对范围内目标生效，就需要计算距离。数学函数就是这些计算的基础工具。
+
+2. **第二步：掌握三角函数** — `Sin(角度)` 和 `Cos(角度)` 用于计算正弦和余弦值，常用于计算坐标偏移。例如让单位向右移动50距离：`SetUnitX(单位, GetUnitX(单位) + 50 * Cos(角度))`[^2]
+
+3. **第三步：学会计算距离** — `SquareRoot(数值)` 计算平方根，结合Pow函数可以计算两点间的距离：`SquareRoot(Pow(x2-x1, 2) + Pow(y2-y1, 2))`。或者使用更简单的 `DistanceBetweenPoints(点1, 点2)` 函数[^2]
+
+4. **第四步：获取角度** — `Atan2(y差值, x差值)` 返回两点间的角度（弧度制），需要时可转换为角度：`角度 * bj_RAD_TO_DEG`
+
+5. **第五步：生成随机数** — `GetRandomInt(最小值, 最大值)` 生成整数随机数，`GetRandomReal(最小值, 最大值)` 生成小数随机数。掷骰子、随机伤害都用这个[^2]
+
+> **💡 新手提示**：角度和弧度是两回事！JASS中很多函数（如Sin、Cos）使用**弧度**而非角度。转换公式：角度 = 弧度 × 57.3（180/π），弧度 = 角度 × 0.01745（π/180）
+
+> **⚠️ 常见错误**：新手经常忘记给除法加小数点，导致整数除法丢失精度！例如 `5 / 2` 会得到 2 而不是 2.5，正确写法应该是 `5.0 / 2.0`
+
+### 特效与施法函数
+
+特效函数可以创建炫酷的视觉表现，让你的技能更加生动[^2]。
+
+#### 操作步骤
+
+1. **第一步：创建特效** — 使用 `AddSpecialEffect(模型路径, x坐标, y坐标)` 创建普通特效，例如 `AddSpecialEffect("Abilities\\Spells\\Human\\ThunderClap\\ThunderClapCaster.mdl", x, y)`。模型路径可以在编辑器中右键资源查找[^2]
+
+2. **第二步：绑定特效到单位** — 如果想让特效跟随单位移动，使用 `AddSpecialEffectTarget(模型路径, 单位, 挂载点)`。挂载点可以是 "origin"（原点）、"head"（头部）、"chest"（胸部）等[^2]
+
+3. **第三步：销毁特效** — 特效创建后必须手动销毁，否则会造成内存泄漏导致游戏变卡！使用 `DestroyEffect(特效变量)` 在适当时候移除它[^2]
+
+4. **第四步：播放音效** — `PlaySound(音效路径)` 可以播放音效文件。音效路径格式如 "Sound\\Alert.wav"，注意音效文件必须先导入到地图中[^2]
+
+> **💡 新手提示**：模型路径中的反斜杠要双写！正确写法 `"Abilities\\Spells\\Orc\\WarDrum\\WarDrum.mdl"`，而不是单反斜杠
+
+> **⚠️ 常见错误**：忘记销毁特效是最常见的性能问题！建议在触发器结尾或单位死亡时立即销毁相关特效
 
 ### 小结
 
-完成本节学习后，你应该：
-- ✅ 理解原生函数与BJ辅助函数的区别
-- ✅ 能在触发器中使用 `Sin`、`Cos`、`SquareRoot` 等数学函数
-- ✅ 掌握整数与浮点数的转换方法
-- ✅ 学会用 `and`、`or`、`not` 组合多个条件判断
+完成以上步骤后，你应该掌握了：
+- 使用Sin/Cos进行角度相关计算
+- 用SquareRoot计算两点间距离
+- 创建、绑定、销毁特效的基本流程
+- 给技能添加视觉和音效反馈
 
-这些函数虽然简单，但组合起来就能实现技能伤害计算、距离判断等核心玩法。继续学习下一节《字符串与文本函数》，让你的地图更丰富！
+现在你可以打开World Editor，试着创建一个"地震术"技能：为它添加地面裂开的特效和轰鸣音效吧！
 
-## 新手常见问题与调试技巧
+## 调试与常见问题
 
-本节将帮助你识别JASS脚本中最容易犯的错误，学会查看错误信息并修复问题，了解一些基本的代码优化技巧。学完本节后，你将能够独立排查常见的脚本问题，让地图运行得更稳定流畅。
+本节介绍如何在 JASS 中查找和修复代码错误，以及新手最容易犯的典型错误。掌握这些技巧后，你就能独立解决大部分代码问题，不用一出错就到处求人了。
 
-### 新手常犯的错误汇总
+### 代码调试方法
 
-1. **语法错误：缺少括号或分号** — JASS对语法要求严格，每个函数调用后面必须加分号`;`，每个括号必须成对出现[^3]。例如`call BJDebugMsg("hello"`会报错，正确的是`call BJDebugMsg("hello")`。
+1. **使用 BJDebugMsg 输出信息** — 这是最简单直接的调试方法。把它放在代码中间，如果游戏运行时看到了你输出的文字，说明代码执行到了这里[^2]。语法是 `call BJDebugMsg("调试信息")`，注意字符串要用英文引号。
 
-2. **变量未声明就使用** — 在JASS中，所有变量必须先声明（定义类型）才能使用[^4]。新手常忘记写`local integer i`就直接写`set i = 0`，这会导致"未定义的变量"错误。
+2. **逐段注释法** — 怀疑某段代码有问题时，在可疑代码前面加 `//` 将其临时禁用，然后测试。如果问题消失了，说明被注释掉的部分有问题。这是最笨但最有效的定位方法。
 
-3. **变量类型不匹配** — 比如把一个整数赋值给字符串变量[^7]。`set myString = 100`会报错，因为类型不同。正确做法是`set myString = I2S(100)`将整数转为字符串。
+3. **显示变量值** — 想看看某个变量当前是多少，可以用 `call BJDebugMsg("x = "+I2S(x))` 这样的形式输出。注意数字不能直接和字符串拼接，需要用 I2S 函数把整数转成字符串[^2]。
 
-4. **大小写错误** — JASS区分大小写，`Function`和`function`是不同的。新手经常写成`Function main()`而实际上应该是`function main()`。
+4. **监听触发器执行** — 在触发器编辑器中，可以右键点击触发器选择"开启调试输出"，这样每次触发器运行时都会在编辑器里显示日志。这个方法不需要修改 JASS 代码。
 
-> **⚠️ 常见错误**：很多新手在复制别人的代码时会忘记修改函数名，导致"函数已存在"或"函数未找到"的错误。养成每复制一段代码就检查函数名的习惯。
+> **💡 新手提示**：调试时尽量只修改一小部分代码，然后立刻测试。不要一次性改很多地方，否则出问题都不知道是哪里的锅。
 
-### JASS脚本调试方法
+> **⚠️ 常见错误**：调试信息里不要用中文引号""，JASS 只认英文引号""。很多新手复制代码时会把引号变成中文的，导致脚本报错。
 
-1. **使用BJDebugMsg输出信息** — 这是最简单有效的调试方法[^1]。在怀疑出错的地方加入`call BJDebugMsg("变量x的值="+R2S(x))`，运行地图时屏幕上方会显示实际值，帮助你判断程序执行到了哪一步。
+### 新手常见错误
 
-2. **查看触发器日志** — 当地图崩溃或出错时，回到World Editor，按F12或通过"场景 > 触发器日志"查看详细错误报告[^2]。错误信息通常会告诉你出错的函数名和行号。
+1. **大小写搞混** — JASS 严格区分大小写，`SetUnitX` 和 `Setunitx` 是完全不同的东西。新手常把函数名首字母写成小写，或者把变量名大小写弄错。
 
-3. **逐行注释法** — 把可疑代码用`//`注释掉，然后逐行取消注释，观察地图何时出现问题。这种"二分查找"的方法特别适合定位复杂问题。
+2. **漏掉分号** — JASS 语句必须以分号 `;` 结尾，忘记加会导致整段代码编译失败。特别是复制粘贴代码时特别容易漏掉。
 
-4. **检查函数参数数量** — 调用函数时，参数个数和类型必须完全匹配[^8]。如果函数定义是`takes integer a, real b returns nothing`，那么调用时必须提供这两个参数，顺序也不能错。
+3. **括号不匹配** — 每个左括号 `(` 必须有对应的右括号 `)`，嵌套多了很容易数错。用编辑器的括号高亮功能可以帮助检查。
 
-> **💡 新手提示**：养成写注释的习惯！在每段重要代码前用`//`加上中文说明，比如`// 判断玩家是否死亡`。这样自己和别人都更容易理解代码逻辑，出错时也能快速定位。
+4. **字符串少了引号** — 所有字符串常量必须用英文双引号包起来，比如 `"Hello"`，漏掉任何一个引号都会报错。
 
-### 脚本优化与运行效率
+5. **使用未声明的变量** — 在 JASS 里使用变量前必须先用 `local` 声明它的类型，比如 `local unit u = null`，没声明就直接用会提示"找不到这个变量"。
 
-1. **避免在循环中频繁创建单位组** — 每帧或每次触发都创建新单位组会大量消耗内存（内存泄漏）[^5]。正确做法是预先声明一个全局单位组，每次用完调用`call DestroyGroup(g)`释放，或者使用`ClearNativeGlueHandle`等函数。
+6. **数组索引越界** — 如果你声明了一个大小为 10 的数组 `integer array arr`，它的有效索引是 0 到 9。访问 `arr[10]` 虽然不会立刻报错，但可能导致奇怪的 bug。
 
-2. **减少不必要的字符串操作** — 字符串拼接很消耗性能[^4]。如果需要在循环中频繁拼接字符串，先在循环外定义好，用`SetUnitX`等函数代替字符串传递数据。
-
-3. **使用局部变量代替全局变量** — 全局变量在多人游戏中可能引发同步问题（Desync）[^6]。尽量在函数内部使用`local`声明的局部变量，只在必要时使用全局变量。
-
-4. **合理使用计时器** — 不要创建太多同时运行的计时器，它们会占用系统资源。将可以合并的逻辑合并到一个计时器中处理。
-
-> **💡 新手提示**：优化代码时不要"过度优化"。先把功能做对、做出效果，等地图能正常运行后再考虑性能问题。很多时候可读性比微小的性能提升更重要。
-
-### 小结
-
-完成以上学习后，你应该能够：
-- 识别并修复JASS中最常见的语法错误
-- 使用BJDebugMsg和触发器日志定位问题代码
-- 养成注释和检查函数参数的好习惯
-- 了解基本的内存管理和性能优化原则
-
-建议立刻打开World Editor，尝试写一个简单的JASS脚本，故意犯几个常见错误（如漏写分号、变量类型不匹配），然后观察错误信息长什么样——这比任何教程都更直观！
+> **
 
 ## 参考来源
 
-[^1]: [Functions - Warcraft 3 JASS Wiki](https://jass.fandom.com/wiki/Functions) — accessed 2026-05-08
-[^2]: [GitHub - lep/jassdoc: Document the WarCraft 3 API](https://github.com/lep/jassdoc) — accessed 2026-05-08
-[^3]: [JASS Manual](https://jass.sourceforge.net/doc/) — accessed 2026-05-08
-[^4]: [《魔兽3的Jass语言参考手册》：地图编辑与脚本开发指南-CSDN博客](https://blog.csdn.net/weixin_32251525/article/details/143220228) — accessed 2026-05-08
-[^5]: [Beginning JASS Tutorial Series - HIVE](https://www.hiveworkshop.com/threads/beginning-jass-tutorial-series.30765/) — accessed 2026-05-08
-[^6]: [[JASS Tutorials] - wc3edit.net](https://forum.wc3edit.net/viewtopic.php?t=11005) — accessed 2026-05-08
-[^7]: [Jass Coding | Warcraft 3 World Editor Wiki | Fandom](https://wc3we.fandom.com/wiki/Jass_Coding) — accessed 2026-05-08
-[^8]: [Is There A Complete JASS Function List? | The Helper](https://www.thehelper.net/threads/is-there-a-complete-jass-function-list.54372/) — accessed 2026-05-08
+[^1]: [JASS Manual](https://jass.sourceforge.net/doc/) — accessed 2026-05-30
+[^2]: [GitHub - lep/jassdoc: Document the WarCraft 3 API](https://github.com/lep/jassdoc) — accessed 2026-05-30
+[^4]: [Warcraft 3 Scripting Tutorials (JASS, Lua, vJASS, TypeScript, AI, etc.)](https://www.hiveworkshop.com/forums/scripting-tutorials.280/) — accessed 2026-05-30
+[^5]: [Beginning JASS Tutorial Series - Hive Workshop](https://www.hiveworkshop.com/threads/beginning-jass-tutorial-series.30765/) — accessed 2026-05-30
+[^6]: [Jass Coding | Warcraft 3 World Editor Wiki - Fandom](https://wc3we.fandom.com/wiki/Jass_Coding) — accessed 2026-05-30
