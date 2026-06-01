@@ -1,0 +1,517 @@
+2026-05-31 19:15:31,413 [INFO] 📐 PlannerAgent 开始: 地图增长策略：自然流量与付费推广
+2026-05-31 19:15:31,428 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:31,428 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:31,429 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:53,444 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:15:53,455 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-31 19:15:53,455 [INFO] 🔍 ResearcherAgent 开始: 地图增长策略：自然流量与付费推广 (21 查询)
+2026-05-31 19:15:53,458 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:53,818 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbe94791036e5161d7e3328b0ca5"}
+2026-05-31 19:15:53,818 [INFO] 🌐 双语查询: EN='how to grow Warcraft III custom map player base' | ZH='how to grow Warcraft III custom map player base'
+2026-05-31 19:15:54,155 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:15:54,157 [INFO] ✅ PlannerAgent 完成: 5 节, 18 个查询
+2026-05-31 19:15:54,157 [INFO] 🔍 ResearcherAgent 开始: 上线前运营 checklist：预热、预告、社区建设 (18 查询)
+2026-05-31 19:15:54,158 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:54,214 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbea31ba9dadbd0f00ba7e528736"}
+2026-05-31 19:15:54,214 [INFO] 🌐 双语查询: EN='Warcraft III custom map launch guide' | ZH='Warcraft III custom map launch guide'
+2026-05-31 19:15:54,214 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:54,276 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:54,384 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=how%20to%20grow%20Warcraft%20III%20custom%20map%20player%20base) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:54,420 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:54,442 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=how%20to%20grow%20Warcraft%20III%20custom%20map%20player%20base) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:54,458 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:54,530 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20custom%20map%20launch%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:54,531 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20custom%20map%20launch%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:54,651 [INFO] response: https://grokipedia.com/api/typeahead?query=how+to+grow+Warcraft+III+custom+map+player+base&limit=1 200
+2026-05-31 19:15:54,734 [INFO] response: https://grokipedia.com/api/typeahead?query=how+to+grow+Warcraft+III+custom+map+player+base&limit=1 200
+2026-05-31 19:15:54,838 [INFO] response: https://www.google.com/search?q=Warcraft+III+custom+map+launch+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-31 19:15:54,953 [INFO] response: https://www.mojeek.com/search?q=how+to+grow+Warcraft+III+custom+map+player+base 403
+2026-05-31 19:15:55,192 [INFO] response: https://search.brave.com/search?q=Warcraft+III+custom+map+launch+guide&source=web 200
+2026-05-31 19:15:55,826 [INFO] response: https://yandex.com/search/site/?text=how+to+grow+Warcraft+III+custom+map+player+base&web=1&searchid=9421938 200
+2026-05-31 19:15:55,875 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | how to grow Warcraft III custom map play
+2026-05-31 19:15:55,954 [INFO] response: https://yandex.com/search/site/?text=how+to+grow+Warcraft+III+custom+map+player+base&web=1&searchid=9885972 200
+2026-05-31 19:15:55,992 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | how to grow Warcraft III custom map play
+2026-05-31 19:15:55,993 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:56,050 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbecabee69a668a09235aa0424e1"}
+2026-05-31 19:15:56,050 [INFO] 🌐 双语查询: EN='RPG地图 玩家增长 完整指南' | ZH='RPG地图 玩家增长 完整指南'
+2026-05-31 19:15:56,202 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:56,206 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:56,263 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E5%9C%B0%E5%9B%BE%20%E7%8E%A9%E5%AE%B6%E5%A2%9E%E9%95%BF%20%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:56,303 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E5%9C%B0%E5%9B%BE%20%E7%8E%A9%E5%AE%B6%E5%A2%9E%E9%95%BF%20%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:56,415 [INFO] response: https://grokipedia.com/api/typeahead?query=RPG%E5%9C%B0%E5%9B%BE+%E7%8E%A9%E5%AE%B6%E5%A2%9E%E9%95%BF+%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-31 19:15:56,545 [INFO] response: https://grokipedia.com/api/typeahead?query=RPG%E5%9C%B0%E5%9B%BE+%E7%8E%A9%E5%AE%B6%E5%A2%9E%E9%95%BF+%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-31 19:15:56,813 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+custom+map+launch+guide&limit=1 200
+2026-05-31 19:15:56,814 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III custom map launch guide
+2026-05-31 19:15:56,921 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+custom+map+launch+guide&limit=1 200
+2026-05-31 19:15:56,922 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III custom map launch guide
+2026-05-31 19:15:56,923 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:56,979 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbecb73c288a0347e1e60e787145"}
+2026-05-31 19:15:56,979 [INFO] 🌐 双语查询: EN='魔兽争霸3 自定义地图 运营 推广 教程' | ZH='魔兽争霸3 自定义地图 运营 推广 教程'
+2026-05-31 19:15:57,175 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:57,193 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:57,215 [INFO] response: https://yandex.com/search/site/?text=RPG%E5%9C%B0%E5%9B%BE+%E7%8E%A9%E5%AE%B6%E5%A2%9E%E9%95%BF+%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97&web=1&searchid=2639832 200
+2026-05-31 19:15:57,250 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE%20%E8%BF%90%E8%90%A5%20%E6%8E%A8%E5%B9%BF%20%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:57,255 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | RPG地图 玩家增长 完整指南
+2026-05-31 19:15:57,265 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE%20%E8%BF%90%E8%90%A5%20%E6%8E%A8%E5%B9%BF%20%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:57,300 [INFO] response: https://yandex.com/search/site/?text=RPG%E5%9C%B0%E5%9B%BE+%E7%8E%A9%E5%AE%B6%E5%A2%9E%E9%95%BF+%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97&web=1&searchid=5531212 200
+2026-05-31 19:15:57,302 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | RPG地图 玩家增长 完整指南
+2026-05-31 19:15:57,303 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:57,365 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E8%BF%90%E8%90%A5+%E6%8E%A8%E5%B9%BF+%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-31 19:15:57,365 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbed48a53543aa7aa1b5b1030f1d"}
+2026-05-31 19:15:57,366 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor map marketing strategies' | ZH='Warcraft 3 World Editor map marketing strategies'
+2026-05-31 19:15:57,424 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E8%BF%90%E8%90%A5+%E6%8E%A8%E5%B9%BF+%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-31 19:15:57,494 [INFO] response: https://search.yahoo.com/search;_ylt=XIeY4Tmgt51nK6mW0Rdu1aWl;_ylu=XKrczC91AMXqOva425yrtQJvGe-ssvuelgUzBFZ30e2e2hM?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E8%BF%90%E8%90%A5+%E6%8E%A8%E5%B9%BF+%E6%95%99%E7%A8%8B 200
+2026-05-31 19:15:57,499 [INFO] response: https://search.yahoo.com/search;_ylt=dio6uu0R5p9EFsNr0B2tpa7l;_ylu=F2ujawiYJ-PesozOoENs0f0nusjYjpq9O0ajflYqnBydt38?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E8%BF%90%E8%90%A5+%E6%8E%A8%E5%B9%BF+%E6%95%99%E7%A8%8B 200
+2026-05-31 19:15:57,551 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:57,564 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:57,618 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20map%20marketing%20strategies) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:57,623 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20map%20marketing%20strategies) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:57,757 [INFO] response: https://search.yahoo.com/search;_ylt=EXnuiN8PpnterVERZvfSwEwK;_ylu=JBXDvf8RRmzyK1NKfdXeIz3GP2wXQNPiMK9Aw_JJWZufxuE?p=Warcraft+3+World+Editor+map+marketing+strategies 200
+2026-05-31 19:15:57,773 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+map+marketing+strategies&limit=1 200
+2026-05-31 19:15:57,832 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+map+marketing+strategies&limit=1 200
+2026-05-31 19:15:57,898 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:15:57,899 [ERROR] PlannerAgent JSON 解析失败: Expecting value: line 1 column 1 (char 0)
+原始输出: ```json
+{
+  "outline": [
+    {
+      "title": "一、数据分析：了解你的玩家",
+      "level": 2,
+      "search_queries": [
+        "Warcraft III map player statistics tracking",
+        "WC3 World Editor game metrics analytics",
+        "魔兽争霸3 自定义地图 数据统计 玩家行为"
+      ],
+      "children": [
+        {
+          "title
+2026-05-31 19:15:57,899 [INFO] ✅ PlannerAgent 完成: 1 节, 2 个查询
+2026-05-31 19:15:57,899 [INFO] 🔍 ResearcherAgent 开始: 上线后运营指南：数据分析、版本更新、活动策划 (2 查询)
+2026-05-31 19:15:57,900 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:57,961 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbed4f22c71daa935ff9a1e25c31"}
+2026-05-31 19:15:57,961 [INFO] 🌐 双语查询: EN='上线后运营指南：数据分析、版本更新、活动策划' | ZH='上线后运营指南：数据分析、版本更新、活动策划'
+2026-05-31 19:15:57,987 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 自定义地图 运营 推广 教程
+2026-05-31 19:15:57,995 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 自定义地图 运营 推广 教程
+2026-05-31 19:15:57,996 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:58,057 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbeea6a0c1f93c311e10d3e677af"}
+2026-05-31 19:15:58,057 [INFO] 🌐 双语查询: EN='How to promote and release a new WC3 custom map' | ZH='How to promote and release a new WC3 custom map'
+2026-05-31 19:15:58,131 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:58,135 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:58,202 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:58,205 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:58,209 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+map+marketing+strategies&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-31 19:15:58,226 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:58,246 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:58,261 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor map marketing st
+2026-05-31 19:15:58,278 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=How%20to%20promote%20and%20release%20a%20new%20WC3%20custom%20map) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:58,279 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=How%20to%20promote%20and%20release%20a%20new%20WC3%20custom%20map) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:58,396 [INFO] response: https://grokipedia.com/api/typeahead?query=How+to+promote+and+release+a+new+WC3+custom+map&limit=1 200
+2026-05-31 19:15:58,416 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor map marketing st
+2026-05-31 19:15:58,417 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:58,486 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbee88ba2a2318734d6d03dd0c13"}
+2026-05-31 19:15:58,486 [INFO] 🌐 双语查询: EN='Warcraft III map player growth strategy' | ZH='Warcraft III map player growth strategy'
+2026-05-31 19:15:58,511 [INFO] response: https://grokipedia.com/api/typeahead?query=How+to+promote+and+release+a+new+WC3+custom+map&limit=1 200
+2026-05-31 19:15:58,617 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:58,636 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:58,646 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20map%20player%20growth%20strategy) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:58,690 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20map%20player%20growth%20strategy) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:58,742 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:15:58,868 [INFO] response: https://www.mojeek.com/search?q=How+to+promote+and+release+a+new+WC3+custom+map 403
+2026-05-31 19:15:58,896 [INFO] response: https://search.brave.com/search?q=How+to+promote+and+release+a+new+WC3+custom+map&source=web 200
+2026-05-31 19:15:58,912 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | How to promote and release a new WC3 cus
+2026-05-31 19:15:59,020 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+map+player+growth+strategy&limit=1 200
+2026-05-31 19:15:59,037 [INFO] response: https://search.yahoo.com/search;_ylt=LTvHAMaWp4EK7_BcBYwklMt6;_ylu=o80qm079mGK-DA__9lvTKjZt1ehzoYokymscC_ab_gMhh8k?p=How+to+promote+and+release+a+new+WC3+custom+map 200
+2026-05-31 19:15:59,057 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+map+player+growth+strategy 403
+2026-05-31 19:15:59,068 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:15:59,531 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:15:59,587 [INFO] response: https://grokipedia.com/api/typeahead?query=%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92&limit=1 200
+2026-05-31 19:15:59,609 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+map+player+growth+strategy&limit=1 200
+2026-05-31 19:15:59,651 [INFO] response: https://grokipedia.com/api/typeahead?query=%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92&limit=1 200
+2026-05-31 19:15:59,676 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | How to promote and release a new WC3 cus
+2026-05-31 19:15:59,677 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:15:59,737 [INFO] response: https://search.brave.com/search?q=Warcraft+III+map+player+growth+strategy&source=web 429
+2026-05-31 19:15:59,745 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbef0aafb8856c1f6738b6f76a25"}
+2026-05-31 19:15:59,745 [INFO] 🌐 双语查询: EN='Warcraft III custom map pre-launch marketing' | ZH='Warcraft III custom map pre-launch marketing'
+2026-05-31 19:15:59,784 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:15:59,896 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:59,906 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:15:59,930 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20custom%20map%20pre-launch%20marketing) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:15:59,937 [INFO] response: https://search.yahoo.com/search;_ylt=8TenS-IGrWDmfGzz-2fBvrX-;_ylu=Mqnneii9RlJ8a5RjEidZNkNlVCNX-wB79bOskmwQ8Ryz9qk?p=Warcraft+III+map+player+growth+strategy 200
+2026-05-31 19:15:59,972 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20custom%20map%20pre-launch%20marketing) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:00,041 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:00,046 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+custom+map+pre-launch+marketing&limit=1 200
+2026-05-31 19:16:00,066 [INFO] response: https://www.mojeek.com/search?q=%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92 403
+2026-05-31 19:16:00,118 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+custom+map+pre-launch+marketing&limit=1 200
+2026-05-31 19:16:00,225 [INFO] response: https://search.yahoo.com/search;_ylt=w38FawhNG7ZBNm2WZIVYdmQI;_ylu=L1hiSh27ddqzuZKKgRSC3QNwxEAIuKWaXJphYzdOc78eKP4?p=%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92 200
+2026-05-31 19:16:00,344 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:00,473 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:00,524 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+custom+map+pre-launch+marketing 403
+2026-05-31 19:16:00,744 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+map+player+growth+strategy&web=1&searchid=3588645 200
+2026-05-31 19:16:00,767 [INFO] response: https://www.google.com/search?q=%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-31 19:16:00,776 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:00,791 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III map player growth strategy
+2026-05-31 19:16:00,793 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 上线后运营指南：数据分析、版本更新、活动策划
+2026-05-31 19:16:00,796 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 上线后运营指南：数据分析、版本更新、活动策划
+2026-05-31 19:16:00,797 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:00,854 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbf0d8f50fb837a2ae38fcf80dfc"}
+2026-05-31 19:16:00,854 [INFO] 🌐 双语查询: EN='Warcraft III 上线后运营指南：数据分析、版本更新、活动策划' | ZH='Warcraft III 上线后运营指南：数据分析、版本更新、活动策划'
+2026-05-31 19:16:00,900 [INFO] response: https://search.brave.com/search?q=Warcraft+III+custom+map+pre-launch+marketing&source=web 429
+2026-05-31 19:16:00,907 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:00,986 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:16:00,998 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:16:01,044 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:01,049 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:01,191 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:01,333 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92&limit=1 200
+2026-05-31 19:16:01,428 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+custom+map+pre-launch+marketing 403
+2026-05-31 19:16:01,446 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+map+player+growth+strategy&web=1&searchid=3634134 200
+2026-05-31 19:16:01,461 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92 403
+2026-05-31 19:16:01,470 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92&limit=1 200
+2026-05-31 19:16:01,484 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III map player growth strategy
+2026-05-31 19:16:01,486 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:01,568 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbf1170d62bac09a27c788529e8a"}
+2026-05-31 19:16:01,568 [INFO] 🌐 双语查询: EN='RPG地图 如何吸引玩家' | ZH='RPG地图 如何吸引玩家'
+2026-05-31 19:16:01,590 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92&source=web 429
+2026-05-31 19:16:01,710 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:16:01,731 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:16:01,756 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E5%9C%B0%E5%9B%BE%20%E5%A6%82%E4%BD%95%E5%90%B8%E5%BC%95%E7%8E%A9%E5%AE%B6) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:01,794 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=RPG%E5%9C%B0%E5%9B%BE%20%E5%A6%82%E4%BD%95%E5%90%B8%E5%BC%95%E7%8E%A9%E5%AE%B6) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:01,853 [INFO] response: https://www.google.com/search?q=Warcraft+III+custom+map+pre-launch+marketing&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-31 19:16:01,872 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III custom map pre-launch marke
+2026-05-31 19:16:01,880 [INFO] response: https://grokipedia.com/api/typeahead?query=RPG%E5%9C%B0%E5%9B%BE+%E5%A6%82%E4%BD%95%E5%90%B8%E5%BC%95%E7%8E%A9%E5%AE%B6&limit=1 200
+2026-05-31 19:16:01,964 [INFO] response: https://grokipedia.com/api/typeahead?query=RPG%E5%9C%B0%E5%9B%BE+%E5%A6%82%E4%BD%95%E5%90%B8%E5%BC%95%E7%8E%A9%E5%AE%B6&limit=1 200
+2026-05-31 19:16:02,073 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+custom+map+pre-launch+marketing&web=1&searchid=9634160 200
+2026-05-31 19:16:02,099 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III custom map pre-launch marke
+2026-05-31 19:16:02,101 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:02,223 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbf2231de52b25c60b6221936b84"}
+2026-05-31 19:16:02,223 [INFO] 🌐 双语查询: EN='魔兽争霸3 自定义地图 预热 宣传' | ZH='魔兽争霸3 自定义地图 预热 宣传'
+2026-05-31 19:16:02,372 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:16:02,389 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:16:02,391 [INFO] response: https://www.mojeek.com/search?q=RPG%E5%9C%B0%E5%9B%BE+%E5%A6%82%E4%BD%95%E5%90%B8%E5%BC%95%E7%8E%A9%E5%AE%B6 403
+2026-05-31 19:16:02,393 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92&source=web 429
+2026-05-31 19:16:02,402 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE%20%E9%A2%84%E7%83%AD%20%E5%AE%A3%E4%BC%A0) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:02,446 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE%20%E9%A2%84%E7%83%AD%20%E5%AE%A3%E4%BC%A0) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:02,535 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E9%A2%84%E7%83%AD+%E5%AE%A3%E4%BC%A0&source=web 429
+2026-05-31 19:16:02,612 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92&web=1&searchid=4841580 200
+2026-05-31 19:16:02,649 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 上线后运营指南：数据分析、版本更新、活动策划
+2026-05-31 19:16:02,721 [INFO] response: https://yandex.com/search/site/?text=RPG%E5%9C%B0%E5%9B%BE+%E5%A6%82%E4%BD%95%E5%90%B8%E5%BC%95%E7%8E%A9%E5%AE%B6&web=1&searchid=3563491 200
+2026-05-31 19:16:02,755 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | RPG地图 如何吸引玩家
+2026-05-31 19:16:02,961 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92 403
+2026-05-31 19:16:02,990 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:03,256 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:03,311 [INFO] response: https://search.yahoo.com/search;_ylt=-B-mWcP61-j2ijwynCZLfJ4X;_ylu=oS4QD68oxH_A9lwzzX0agQRNvWmxnR1NNXfTIB941727fWg?p=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92 200
+2026-05-31 19:16:04,206 [INFO] response: https://yandex.com/search/site/?text=RPG%E5%9C%B0%E5%9B%BE+%E5%A6%82%E4%BD%95%E5%90%B8%E5%BC%95%E7%8E%A9%E5%AE%B6&web=1&searchid=4069367 200
+2026-05-31 19:16:04,245 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | RPG地图 如何吸引玩家
+2026-05-31 19:16:04,246 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:04,312 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E9%A2%84%E7%83%AD+%E5%AE%A3%E4%BC%A0&limit=1 200
+2026-05-31 19:16:04,312 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbf4b4b0702de5ab7c51c5cc0034"}
+2026-05-31 19:16:04,312 [INFO] 🌐 双语查询: EN='KK平台 地图推广基础' | ZH='KK平台 地图推广基础'
+2026-05-31 19:16:04,449 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E9%A2%84%E7%83%AD+%E5%AE%A3%E4%BC%A0&limit=1 200
+2026-05-31 19:16:04,554 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:16:04,565 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:16:04,579 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E9%A2%84%E7%83%AD+%E5%AE%A3%E4%BC%A0&source=web 429
+2026-05-31 19:16:04,593 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E5%9C%B0%E5%9B%BE%E6%8E%A8%E5%B9%BF%E5%9F%BA%E7%A1%80) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:04,605 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E5%9C%B0%E5%9B%BE%E6%8E%A8%E5%B9%BF%E5%9F%BA%E7%A1%80) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:04,622 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:04,718 [INFO] response: https://search.yahoo.com/search;_ylt=6W0Y7d0Fq5UE6Uy8L_hLQRZ_;_ylu=WFkzrK-EceOvYGS_R0-7AyDjB3UWd39qNsOeRecbug5Y7yg?p=KK%E5%B9%B3%E5%8F%B0+%E5%9C%B0%E5%9B%BE%E6%8E%A8%E5%B9%BF%E5%9F%BA%E7%A1%80 200
+2026-05-31 19:16:04,897 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0+%E5%9C%B0%E5%9B%BE%E6%8E%A8%E5%B9%BF%E5%9F%BA%E7%A1%80&limit=1 200
+2026-05-31 19:16:04,905 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:04,952 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92&web=1&searchid=5514318 200
+2026-05-31 19:16:04,985 [INFO] response: https://www.google.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E5%9C%B0%E5%9B%BE%E6%8E%A8%E5%B9%BF%E5%9F%BA%E7%A1%80&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-31 19:16:04,993 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 上线后运营指南：数据分析、版本更新、活动策划
+2026-05-31 19:16:04,994 [INFO]   搜索阶段：收集到 16 条候选结果
+2026-05-31 19:16:05,020 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0+%E5%9C%B0%E5%9B%BE%E6%8E%A8%E5%B9%BF%E5%9F%BA%E7%A1%80&limit=1 200
+2026-05-31 19:16:05,053 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK平台 地图推广基础
+2026-05-31 19:16:05,074 [INFO] response: https://search.yahoo.com/search;_ylt=dB-hN72YENCPOvtIk8S1P4ca;_ylu=sVz8YCLML_TAZ7atAWFHDMaRDjIBf1qRpwAF7RoImr6RZPI?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E9%A2%84%E7%83%AD+%E5%AE%A3%E4%BC%A0 200
+2026-05-31 19:16:05,200 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK平台 地图推广基础
+2026-05-31 19:16:05,200 [INFO]   搜索阶段：收集到 30 条候选结果
+2026-05-31 19:16:05,519 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E9%A2%84%E7%83%AD+%E5%AE%A3%E4%BC%A0&web=1&searchid=4655277 200
+2026-05-31 19:16:05,641 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 自定义地图 预热 宣传
+2026-05-31 19:16:05,644 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 自定义地图 预热 宣传
+2026-05-31 19:16:05,645 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:05,751 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbbf55692169f8e8fa375b02b2c2d"}
+2026-05-31 19:16:05,751 [INFO] 🌐 双语查询: EN='WC3 map teaser strategy' | ZH='WC3 map teaser strategy'
+2026-05-31 19:16:06,009 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:16:06,035 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:16:06,055 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20map%20teaser%20strategy) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:06,068 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20map%20teaser%20strategy) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:06,211 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+map+teaser+strategy&limit=1 200
+2026-05-31 19:16:06,264 [WARNING] ⚠️  抓取失败，已忽略: https://www.nexusmods.com/baldursgate3/mods/668 — Client error '403 Forbidden' for url 'https://www.nexusmods.com/baldursgate3/mods/668'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-31 19:16:06,347 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+map+teaser+strategy&limit=1 200
+2026-05-31 19:16:06,379 [INFO] response: https://www.google.com/search?q=WC3+map+teaser+strategy&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-31 19:16:06,400 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 map teaser strategy
+2026-05-31 19:16:06,813 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/datastory1/article/details/140101441 — Server error '521 ' for url 'https://blog.csdn.net/datastory1/article/details/140101441'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-31 19:16:06,960 [INFO] response: https://yandex.com/search/site/?text=WC3+map+teaser+strategy&web=1&searchid=3538503 200
+2026-05-31 19:16:06,992 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 map teaser strategy
+2026-05-31 19:16:06,992 [INFO]   搜索阶段：收集到 40 条候选结果
+2026-05-31 19:16:07,129 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/warcraft3/comments/1rb950h/how_do_i_get_started_making_custom_maps_for_wc3/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/warcraft3/comments/1rb950h/how_do_i_get_started_making_custom_maps_for_wc3/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-31 19:16:07,554 [WARNING] ⚠️  抓取失败，已忽略: https://paulkale.com/news_bkzx/72.html — Client error '403 FORBIDDEN' for url 'https://paulkale.com/news_bkzx/72.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-31 19:16:07,969 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/repositories/maps.564/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/repositories/maps.564/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-31 19:16:08,227 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:08,470 [WARNING] ⚠️  抓取失败，已忽略: https://marymur.com/article/MTI0OTUxLGJjMw.html — Server error '500 Bad Gateway' for url 'https://marymur.com/article/MTI0OTUxLGJjMw.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2026-05-31 19:16:08,749 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:10,236 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:20,433 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:16:20,434 [WARNING] 来源不足（0/3），扩大搜索...
+2026-05-31 19:16:20,729 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:16:20,795 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92%20tutorial%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:16:21,137 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92+tutorial+guide&limit=1 200
+2026-05-31 19:16:21,557 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92+tutorial+guide 403
+2026-05-31 19:16:21,992 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:22,307 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:16:22,419 [INFO] response: https://search.brave.com/search?q=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92+tutorial+guide&source=web 429
+2026-05-31 19:16:22,585 [INFO] response: https://search.yahoo.com/search;_ylt=Ub2VAPEe4CcIxTHT9h3sGLwg;_ylu=y0h8FI2Hs6Es8Yf6_a1ONM-wB9AoSAY1yQAd2VWJxK8pPvc?p=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92+tutorial+guide 200
+2026-05-31 19:16:24,244 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E4%B8%8A%E7%BA%BF%E5%90%8E%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97%EF%BC%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E3%80%81%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E3%80%81%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92+tutorial+guide&web=1&searchid=5016437 200
+2026-05-31 19:16:24,284 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 上线后运营指南：数据分析、版本更新、活动策划 tuto
+2026-05-31 19:16:24,284 [INFO] ✅ ResearcherAgent 完成: 3 个来源已注册
+2026-05-31 19:16:24,284 [INFO] ✍️  WriterAgent 开始: 上线后运营指南：数据分析、版本更新、活动策划 (loop 0)
+2026-05-31 19:16:24,285 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:31,060 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:16:31,061 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-05-31 19:16:31,061 [INFO] ✍️  WriterAgent 开始: 地图增长策略：自然流量与付费推广 (loop 0)
+2026-05-31 19:16:31,062 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:44,885 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:16:44,887 [INFO] ✅ WriterAgent 完成: 1256 字符, 3/3 来源被引用
+2026-05-31 19:16:44,887 [INFO] 🔎 ReviewerAgent 开始: 上线后运营指南：数据分析、版本更新、活动策划
+2026-05-31 19:16:44,890 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:53,582 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:16:53,584 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:16:57,388 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:16:57,389 [INFO] ✅ ResearcherAgent 完成: 8 个来源已注册
+2026-05-31 19:16:57,389 [INFO] ✍️  WriterAgent 开始: 上线前运营 checklist：预热、预告、社区建设 (loop 0)
+2026-05-31 19:16:57,390 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:17:01,877 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:17:01,878 [INFO] ⚠️  未通过 ReviewerAgent: overall=0.46 (A=0.15 C=0.75 R=0.90 Cit=0.10)
+2026-05-31 19:17:01,878 [INFO]   反馈 5 条:
+2026-05-31 19:17:01,878 [INFO]   [factual_error] [^1] links to Baldur's Gate 3 mod page...
+2026-05-31 19:17:01,879 [INFO]   [factual_error] [^2] links to ABPAY wallet website...
+2026-05-31 19:17:01,879 [INFO]   [factual_error] [^3] links to Google homepage...
+2026-05-31 19:17:01,879 [INFO]   [missing_citation] 通过触发器（Trigger）记录玩家的行为数据，比如：每个单位被击杀的次数、玩家通关时间、某些选择的比例等...
+2026-05-31 19:17:01,879 [INFO]   [missing_citation] 每次发布前，把当前版本复制一份保存为'地图名_v1.x_备份.w3x'...
+2026-05-31 19:17:01,879 [INFO] ⚠️  质量未通过 (loop 0)，score=0.46，开始重写...
+2026-05-31 19:17:01,879 [INFO] ✍️  WriterAgent 开始: 上线后运营指南：数据分析、版本更新、活动策划 (loop 1)
+2026-05-31 19:17:01,880 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:17:13,805 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:17:13,807 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:17:15,894 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:17:15,896 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:17:22,854 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:17:22,856 [INFO] ✅ WriterAgent 完成: 1132 字符, 3/3 来源被引用
+2026-05-31 19:17:22,856 [INFO] 🔎 ReviewerAgent 开始: 上线后运营指南：数据分析、版本更新、活动策划
+2026-05-31 19:17:22,856 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:17:40,766 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:17:40,768 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:17:41,422 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:17:41,424 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:17:48,736 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:17:48,738 [INFO] ⚠️  未通过 ReviewerAgent: overall=0.56 (A=0.40 C=0.75 R=0.90 Cit=0.10)
+2026-05-31 19:17:48,738 [INFO]   反馈 5 条:
+2026-05-31 19:17:48,738 [INFO]   [factual_error] [^1]: Achievement Enabler at Baldur's Gate 3 Nexus...
+2026-05-31 19:17:48,738 [INFO]   [factual_error] [^2]: emag... | ABPAY钱包官网-安全支付工具...
+2026-05-31 19:17:48,738 [INFO]   [missing_citation] World Editor内置了触发器系统，可以帮你记录很多有用的信息...
+2026-05-31 19:17:48,738 [INFO]   [missing_citation] 通过触发器记录玩家的行为数据，了解哪些设计受欢迎...
+2026-05-31 19:17:48,738 [INFO]   [incomplete_section] 活动策划 — 举办比赛、限时活动等...
+2026-05-31 19:17:48,738 [INFO] ⚠️  质量未通过 (loop 1)，score=0.56，开始重写...
+2026-05-31 19:17:48,738 [INFO] ✍️  WriterAgent 开始: 上线后运营指南：数据分析、版本更新、活动策划 (loop 2)
+2026-05-31 19:17:48,739 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:17:55,854 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:17:55,856 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:18:08,998 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:18:09,000 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:18:11,407 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:18:11,408 [INFO] ✅ WriterAgent 完成: 1129 字符, 3/3 来源被引用
+2026-05-31 19:18:11,408 [INFO] 🔎 ReviewerAgent 开始: 上线后运营指南：数据分析、版本更新、活动策划
+2026-05-31 19:18:11,410 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:18:20,307 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:18:20,309 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:18:29,018 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:18:29,020 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:18:33,855 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:18:33,857 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 25 column 41 (char 946)
+2026-05-31 19:18:33,857 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-31 19:18:33,857 [INFO] ✅ 质量通过 (loop 2): score=0.72
+2026-05-31 19:18:33,857 [INFO] 📄 文章写入: docs/operations/上线后运营指南数据分析版本更新活动策划.md
+2026-05-31 19:18:33,859 [INFO] ✅ topics.json 已更新: kk-post-launch → completed
+2026-05-31 19:18:33,859 [INFO] 📐 PlannerAgent 开始: 地图商业化入门：氪金点设计与付费率优化
+2026-05-31 19:18:33,860 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:18:43,234 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:18:43,235 [INFO] ✅ WriterAgent 完成: 6702 字符, 6/8 来源被引用
+2026-05-31 19:18:43,235 [INFO] 🔎 ReviewerAgent 开始: 上线前运营 checklist：预热、预告、社区建设
+2026-05-31 19:18:43,236 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:18:51,886 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:18:51,887 [INFO] ✅ PlannerAgent 完成: 5 节, 18 个查询
+2026-05-31 19:18:51,887 [INFO] 🔍 ResearcherAgent 开始: 地图商业化入门：氪金点设计与付费率优化 (18 查询)
+2026-05-31 19:18:51,889 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:18:52,126 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbc9c5305ca579d24bf4d89d2505a"}
+2026-05-31 19:18:52,126 [INFO] 🌐 双语查询: EN='Warcraft III custom map monetization strategies' | ZH='Warcraft III custom map monetization strategies'
+2026-05-31 19:18:52,310 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:18:52,333 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:18:52,361 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20custom%20map%20monetization%20strategies) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:18:52,390 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20custom%20map%20monetization%20strategies) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:18:52,508 [INFO] response: https://search.brave.com/search?q=Warcraft+III+custom+map+monetization+strategies&source=web 429
+2026-05-31 19:18:52,517 [INFO] response: https://search.brave.com/search?q=Warcraft+III+custom+map+monetization+strategies&source=web 429
+2026-05-31 19:18:52,568 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+custom+map+monetization+strategies&limit=1 200
+2026-05-31 19:18:52,688 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+custom+map+monetization+strategies&limit=1 200
+2026-05-31 19:18:53,017 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:18:53,281 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:18:53,478 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+custom+map+monetization+strategies&web=1&searchid=4490357 200
+2026-05-31 19:18:53,495 [INFO] response: https://search.yahoo.com/search;_ylt=_cd2OVEaaBWqsW1SYPFv667W;_ylu=4TwDO-j42EjDIVsEMTwKcFDg_W4mCEH19o6c2Nv_Z0zqR-A?p=Warcraft+III+custom+map+monetization+strategies 200
+2026-05-31 19:18:53,505 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III custom map monetization str
+2026-05-31 19:18:54,075 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III custom map monetization str
+2026-05-31 19:18:54,077 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:18:54,134 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbc9ea308089f6ae0624e0aa5ea51"}
+2026-05-31 19:18:54,135 [INFO] 🌐 双语查询: EN='魔兽争霸3 自定义地图 商业化 教程' | ZH='魔兽争霸3 自定义地图 商业化 教程'
+2026-05-31 19:18:54,348 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:18:54,384 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:18:54,389 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:18:54,390 [INFO] ✅ WriterAgent 完成: 8006 字符, 5/5 来源被引用
+2026-05-31 19:18:54,390 [INFO] 🔎 ReviewerAgent 开始: 地图增长策略：自然流量与付费推广
+2026-05-31 19:18:54,391 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:18:54,405 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE%20%E5%95%86%E4%B8%9A%E5%8C%96%20%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:18:54,445 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE%20%E5%95%86%E4%B8%9A%E5%8C%96%20%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:18:54,476 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E5%95%86%E4%B8%9A%E5%8C%96+%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-31 19:18:54,687 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E5%95%86%E4%B8%9A%E5%8C%96+%E6%95%99%E7%A8%8B&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-31 19:18:54,704 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 自定义地图 商业化 教程
+2026-05-31 19:18:55,867 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E5%95%86%E4%B8%9A%E5%8C%96+%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-31 19:18:56,877 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E5%95%86%E4%B8%9A%E5%8C%96+%E6%95%99%E7%A8%8B&web=1&searchid=5877665 200
+2026-05-31 19:18:57,082 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 自定义地图 商业化 教程
+2026-05-31 19:18:57,084 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:18:57,142 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbca148a6ad13ec05790d1c425b6e"}
+2026-05-31 19:18:57,142 [INFO] 🌐 双语查询: EN='game map monetization best practices 2024' | ZH='game map monetization best practices 2024'
+2026-05-31 19:18:57,289 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:18:57,292 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:18:57,427 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=game%20map%20monetization%20best%20practices%202024) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:18:57,481 [INFO] response: https://grokipedia.com/api/typeahead?query=game+map+monetization+best+practices+2024&limit=1 200
+2026-05-31 19:18:57,482 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=game%20map%20monetization%20best%20practices%202024) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:18:57,629 [INFO] response: https://search.brave.com/search?q=game+map+monetization+best+practices+2024&source=web 429
+2026-05-31 19:18:57,930 [INFO] response: https://www.mojeek.com/search?q=game+map+monetization+best+practices+2024 403
+2026-05-31 19:18:58,052 [INFO] response: https://www.google.com/search?q=game+map+monetization+best+practices+2024&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-31 19:18:58,071 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | game map monetization best practices 202
+2026-05-31 19:18:59,904 [INFO] response: https://grokipedia.com/api/typeahead?query=game+map+monetization+best+practices+2024&limit=1 200
+2026-05-31 19:19:00,253 [INFO] response: https://www.google.com/search?q=game+map+monetization+best+practices+2024&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-31 19:19:00,328 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | game map monetization best practices 202
+2026-05-31 19:19:00,329 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:19:00,385 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbca419a2aff21a26dc70a4fa3b1e"}
+2026-05-31 19:19:00,386 [INFO] 🌐 双语查询: EN='Warcraft III map monetization guide' | ZH='Warcraft III map monetization guide'
+2026-05-31 19:19:00,672 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:19:00,679 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:19:00,713 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20map%20monetization%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:19:00,739 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20map%20monetization%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:19:00,830 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+map+monetization+guide&limit=1 200
+2026-05-31 19:19:00,903 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+map+monetization+guide&limit=1 200
+2026-05-31 19:19:01,639 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+map+monetization+guide&web=1&searchid=5391349 200
+2026-05-31 19:19:01,665 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III map monetization guide
+2026-05-31 19:19:01,673 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:19:01,674 [INFO] ✅ 通过 ReviewerAgent: overall=0.83 (A=0.85 C=0.80 R=0.90 Cit=0.72)
+2026-05-31 19:19:01,674 [INFO]   反馈 5 条:
+2026-05-31 19:19:01,674 [INFO]   [missing_citation] 建议在上线前 2-4周 开始预热...
+2026-05-31 19:19:01,674 [INFO]   [missing_citation] 至少准备 5-8 张高质量截图 + 一段 30 秒以上的 gameplay 视频...
+2026-05-31 19:19:01,675 [INFO]   [missing_citation] 每波预告之间保持 7-10 天的间隔...
+2026-05-31 19:19:01,675 [INFO]   [missing_citation] 前10名通关的玩家可获得称号、每提供一个有效Bug反馈送隐藏道具...
+2026-05-31 19:19:01,675 [INFO]   [incomplete_section] 5.3 KOL 合作与口碑传播...
+2026-05-31 19:19:01,675 [INFO] ✅ 质量通过 (loop 0): score=0.83
+2026-05-31 19:19:01,675 [INFO] 📄 文章写入: docs/operations/上线前运营-checklist预热预告社区建设.md
+2026-05-31 19:19:01,677 [INFO] ✅ topics.json 已更新: kk-pre-launch → completed
+2026-05-31 19:19:01,677 [INFO] 📐 PlannerAgent 开始: 开发者后台基础配置：地图信息与版本管理
+2026-05-31 19:19:01,678 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:19:01,718 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+map+monetization+guide&web=1&searchid=9432721 200
+2026-05-31 19:19:01,744 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III map monetization guide
+2026-05-31 19:19:01,745 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:19:01,800 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbca57d55b7f970c0b8fbe03af213"}
+2026-05-31 19:19:01,801 [INFO] 🌐 双语查询: EN='魔兽争霸3自定义地图 商业化 入门' | ZH='魔兽争霸3自定义地图 商业化 入门'
+2026-05-31 19:19:01,955 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:19:01,967 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:19:01,989 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE%20%E5%95%86%E4%B8%9A%E5%8C%96%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:19:01,999 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE%20%E5%95%86%E4%B8%9A%E5%8C%96%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:19:02,105 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E5%95%86%E4%B8%9A%E5%8C%96+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-31 19:19:02,146 [INFO] response: https://search.yahoo.com/search;_ylt=wcm6ACuQxMEOgIUq5LPtKndb;_ylu=6nNvC4ti0E3b0RHfpr85zj-W2Ki-Hb5NRjNCxXVeXJBOFNs?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E5%95%86%E4%B8%9A%E5%8C%96+%E5%85%A5%E9%97%A8 200
+2026-05-31 19:19:02,346 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E5%95%86%E4%B8%9A%E5%8C%96+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-31 19:19:02,514 [INFO] response: https://search.yahoo.com/search;_ylt=tK6L3HbhPhQTsV9K9SEJcmvz;_ylu=ngKtbkWjBjgZMt1hCxgkdHkuFTaq115d41KCMDB-yZaAx2Y?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE+%E5%95%86%E4%B8%9A%E5%8C%96+%E5%85%A5%E9%97%A8 200
+2026-05-31 19:19:02,605 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3自定义地图 商业化 入门
+2026-05-31 19:19:02,978 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3自定义地图 商业化 入门
+2026-05-31 19:19:02,979 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:19:03,050 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbca6d0cf821b25e4287bd77915ef"}
+2026-05-31 19:19:03,051 [INFO] 🌐 双语查询: EN='WC3 map maker earn money' | ZH='WC3 map maker earn money'
+2026-05-31 19:19:03,185 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:19:03,198 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:19:03,216 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20map%20maker%20earn%20money) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:19:03,229 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20map%20maker%20earn%20money) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:19:03,334 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+map+maker+earn+money&limit=1 200
+2026-05-31 19:19:03,358 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+map+maker+earn+money&limit=1 200
+2026-05-31 19:19:03,617 [INFO] response: https://www.mojeek.com/search?q=WC3+map+maker+earn+money 403
+2026-05-31 19:19:04,137 [INFO] response: https://yandex.com/search/site/?text=WC3+map+maker+earn+money&web=1&searchid=7130873 200
+2026-05-31 19:19:04,161 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 map maker earn money
+2026-05-31 19:19:04,574 [INFO] response: https://yandex.com/search/site/?text=WC3+map+maker+earn+money&web=1&searchid=1626065 200
+2026-05-31 19:19:04,612 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 map maker earn money
+2026-05-31 19:19:04,613 [INFO]   搜索阶段：收集到 31 条候选结果
+2026-05-31 19:19:04,703 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/netease-future-of-custom-maps-and-proof-of-the-remake.309031/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/netease-future-of-custom-maps-and-proof-of-the-remake.309031/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-31 19:19:04,704 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/repositories/maps.564/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/repositories/maps.564/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-31 19:19:08,139 [WARNING] ⚠️  抓取失败，已忽略: https://gitee.com/dusheng990327/warcraft-iii-basic-framework — Client error '403 Forbidden' for url 'https://gitee.com/dusheng990327/BaseFrameWork'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-31 19:19:08,141 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:19:12,164 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:19:12,165 [INFO] ✅ 通过 ReviewerAgent: overall=0.75 (A=0.65 C=0.75 R=0.88 Cit=0.70)
+2026-05-31 19:19:12,165 [INFO]   反馈 5 条:
+2026-05-31 19:19:12,165 [INFO]   [missing_citation] KK平台为创作者提供了官方广告位，这是提升地图曝光最直接的方式...
+2026-05-31 19:19:12,165 [INFO]   [missing_citation] 活跃更新的地图在排行榜中会有额外加成...
+2026-05-31 19:19:12,166 [INFO]   [missing_citation] 这些平台每天都有大量新地图上架...
+2026-05-31 19:19:12,166 [INFO]   [missing_citation] 玩家通过搜索引擎、平台推荐、口碑传播等方式自主发现你的地图...
+2026-05-31 19:19:12,166 [INFO]   [incomplete_section] KK平台特有推广功能...
+2026-05-31 19:19:12,166 [INFO] ✅ 质量通过 (loop 0): score=0.75
+2026-05-31 19:19:12,166 [INFO] 📄 文章写入: docs/operations/地图增长策略自然流量与付费推广.md

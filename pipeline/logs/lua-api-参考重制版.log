@@ -445,3 +445,423 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-08 05:02:48,970 [INFO]   [missing_citation] B站/知乎 — 搜索 Warcraft 3 Lua 或魔兽争霸3触发器教程，有中文UP主制作的可视化入门视频...
 2026-05-08 05:02:48,970 [INFO] ✅ 质量通过 (loop 0): score=0.77
 2026-05-08 05:02:48,971 [INFO] 📄 文章写入: docs/scripting/lua-api-参考重制版.md
+2026-05-30 19:13:27,537 [INFO] 📐 PlannerAgent 开始: Lua API 参考（重制版）
+2026-05-30 19:13:29,183 [WARNING] litellm: could not pre-load bedrock-runtime response stream shape — Bedrock event-stream decoding will be unavailable. Error: No module named 'botocore'
+2026-05-30 19:13:29,398 [WARNING] litellm: could not pre-load sagemaker-runtime response stream shape — SageMaker event-stream decoding will be unavailable. Error: No module named 'botocore'
+2026-05-30 19:13:29,736 [INFO] 📐 PlannerAgent 开始: 从 GUI 触发器迁移到 JASS
+2026-05-30 19:13:29,737 [INFO] 📐 PlannerAgent 开始: 单位编辑器详解
+2026-05-30 19:13:29,753 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:29,754 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:29,754 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:49,639 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:13:49,650 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-30 19:13:49,650 [INFO] 🔍 ResearcherAgent 开始: 从 GUI 触发器迁移到 JASS (21 查询)
+2026-05-30 19:13:49,653 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:49,989 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69edda82c4ae0f5f41c2c055c945"}
+2026-05-30 19:13:49,989 [INFO] 🌐 双语查询: EN='Warcraft 3 JASS tutorial for beginners' | ZH='Warcraft 3 JASS tutorial for beginners'
+2026-05-30 19:13:51,096 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:51,107 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:51,312 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:51,312 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:51,430 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+tutorial+for+beginners&limit=1 200
+2026-05-30 19:13:51,459 [INFO] response: https://search.yahoo.com/search;_ylt=20MJGtlsRLm7rHNaSNSy71qm;_ylu=rCKAl9A43qo_sF9YR06bHaOt1_GkV9XaPjkKDt9q6peKes8?p=Warcraft+3+JASS+tutorial+for+beginners 200
+2026-05-30 19:13:52,183 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 JASS tutorial for beginners
+2026-05-30 19:13:52,633 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+tutorial+for+beginners&limit=1 200
+2026-05-30 19:13:54,187 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:13:54,189 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-30 19:13:54,189 [INFO] 🔍 ResearcherAgent 开始: Lua API 参考（重制版） (21 查询)
+2026-05-30 19:13:54,190 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:54,284 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f2a49a7ba94766ef2f29a6d766"}
+2026-05-30 19:13:54,285 [INFO] 🌐 双语查询: EN='Warcraft III Reforged Lua API documentation' | ZH='Warcraft III Reforged Lua API documentation'
+2026-05-30 19:13:54,514 [INFO] response: https://search.brave.com/search?q=Warcraft+3+JASS+tutorial+for+beginners&source=web 200
+2026-05-30 19:13:54,522 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 JASS tutorial for beginners
+2026-05-30 19:13:54,523 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:54,573 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:54,596 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:54,606 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Reforged%20Lua%20API%20documentation) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:54,635 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f262a11395ea625b9e60891fa1"}
+2026-05-30 19:13:54,635 [INFO] 🌐 双语查询: EN='JASS脚本从入门到精通教程' | ZH='JASS脚本从入门到精通教程'
+2026-05-30 19:13:54,684 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Reforged%20Lua%20API%20documentation) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:54,877 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Reforged+Lua+API+documentation&limit=1 200
+2026-05-30 19:13:54,907 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:54,925 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:54,995 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Reforged+Lua+API+documentation&limit=1 200
+2026-05-30 19:13:54,999 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%84%9A%E6%9C%AC%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:55,032 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%E8%84%9A%E6%9C%AC%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:55,136 [INFO] response: https://www.google.com/search?q=Warcraft+III+Reforged+Lua+API+documentation&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 19:13:55,150 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Reforged Lua API documentat
+2026-05-30 19:13:55,327 [INFO] response: https://search.brave.com/search?q=Warcraft+III+Reforged+Lua+API+documentation&source=web 200
+2026-05-30 19:13:55,335 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Reforged Lua API documentat
+2026-05-30 19:13:55,336 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:55,434 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f3ad23b62cf0b59880144e5b42"}
+2026-05-30 19:13:55,434 [INFO] 🌐 双语查询: EN='WC3 重制版 Lua 触发器 完整教程' | ZH='WC3 重制版 Lua 触发器 完整教程'
+2026-05-30 19:13:55,584 [INFO] response: https://www.google.com/search?q=JASS%E8%84%9A%E6%9C%AC%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%E6%95%99%E7%A8%8B&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 19:13:55,701 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS%E8%84%9A%E6%9C%AC%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 19:13:55,703 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS脚本从入门到精通教程
+2026-05-30 19:13:55,709 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:55,713 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:55,799 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS%E8%84%9A%E6%9C%AC%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 19:13:55,800 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS脚本从入门到精通教程
+2026-05-30 19:13:55,802 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:55,817 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:55,824 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:55,869 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E9%87%8D%E5%88%B6%E7%89%88+Lua+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 19:13:55,902 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f341bce714b770d3f034090fdc"}
+2026-05-30 19:13:55,902 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor scripting guide' | ZH='Warcraft 3 World Editor scripting guide'
+2026-05-30 19:13:55,966 [INFO] response: https://search.yahoo.com/search;_ylt=c2Nd8F8smm1RFQi-GNQSqCtL;_ylu=vufZSivKSh9uS4-qmJefgF8wtlM4S6he10Lmr9tjOKBoOcI?p=WC3+%E9%87%8D%E5%88%B6%E7%89%88+Lua+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B 200
+2026-05-30 19:13:56,016 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:13:56,017 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-30 19:13:56,017 [INFO] 🔍 ResearcherAgent 开始: 单位编辑器详解 (21 查询)
+2026-05-30 19:13:56,018 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:56,114 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f4e3dd928e19670bf61a1ab5f7"}
+2026-05-30 19:13:56,114 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor beginner guide Chinese' | ZH='Warcraft 3 World Editor beginner guide Chinese'
+2026-05-30 19:13:56,158 [INFO] response: https://www.google.com/search?q=WC3+%E9%87%8D%E5%88%B6%E7%89%88+Lua+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 19:13:56,160 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:56,171 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:56,192 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:56,204 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 重制版 Lua 触发器 完整教程
+2026-05-30 19:13:56,212 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:56,350 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:13:56,376 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:56,379 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:56,381 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+scripting+guide&limit=1 200
+2026-05-30 19:13:56,419 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20beginner%20guide%20Chinese) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:56,462 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20beginner%20guide%20Chinese) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:56,485 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+scripting+guide&limit=1 200
+2026-05-30 19:13:56,531 [INFO] response: https://search.yahoo.com/search;_ylt=mtofcj-keSY9iYiITYoZTEG_;_ylu=rCqXqxAJ6wBIsnIWjszjeCuUp8oauD9nC91r_QisNL2sGX4?p=Warcraft+3+World+Editor+beginner+guide+Chinese 200
+2026-05-30 19:13:56,631 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:13:56,669 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+beginner+guide+Chinese&limit=1 200
+2026-05-30 19:13:56,705 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+%E9%87%8D%E5%88%B6%E7%89%88+Lua+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 19:13:56,730 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:13:56,755 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor scripting guide
+2026-05-30 19:13:56,789 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+beginner+guide+Chinese&limit=1 200
+2026-05-30 19:13:57,005 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:13:57,030 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor beginner guide C
+2026-05-30 19:13:57,320 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+scripting+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 19:13:57,324 [INFO] response: https://www.google.com/search?q=WC3+%E9%87%8D%E5%88%B6%E7%89%88+Lua+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 19:13:57,332 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 重制版 Lua 触发器 完整教程
+2026-05-30 19:13:57,334 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:57,430 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f5de5059ab7b5f16fd64acdd0b"}
+2026-05-30 19:13:57,430 [INFO] 🌐 双语查询: EN='World Editor Lua 脚本 入门 新手教程' | ZH='World Editor Lua 脚本 入门 新手教程'
+2026-05-30 19:13:57,435 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+beginner+guide+Chinese 403
+2026-05-30 19:13:57,454 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor scripting guide
+2026-05-30 19:13:57,455 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:57,549 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f56c22bd991df8608ce110ca99"}
+2026-05-30 19:13:57,549 [INFO] 🌐 双语查询: EN='GUI vs JASS trigger performance Warcraft 3' | ZH='GUI vs JASS trigger performance Warcraft 3'
+2026-05-30 19:13:57,683 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:57,690 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:57,766 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20Lua%20%E8%84%9A%E6%9C%AC%20%E5%85%A5%E9%97%A8%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:57,791 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20Lua%20%E8%84%9A%E6%9C%AC%20%E5%85%A5%E9%97%A8%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:57,814 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:57,832 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:57,891 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=GUI%20vs%20JASS%20trigger%20performance%20Warcraft%203) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:57,903 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=GUI%20vs%20JASS%20trigger%20performance%20Warcraft%203) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:57,968 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+Lua+%E8%84%9A%E6%9C%AC+%E5%85%A5%E9%97%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 19:13:58,040 [INFO] response: https://search.yahoo.com/search;_ylt=gwekxpw6Yop8Q9eCmLW8aF5o;_ylu=zRkGV_DATau6GI8LTrnuiC__9OeYxzV-1Vu6iJGsHLNXNNw?p=GUI+vs+JASS+trigger+performance+Warcraft+3 200
+2026-05-30 19:13:58,210 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+Lua+%E8%84%9A%E6%9C%AC+%E5%85%A5%E9%97%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 19:13:58,230 [INFO] response: https://grokipedia.com/api/typeahead?query=GUI+vs+JASS+trigger+performance+Warcraft+3&limit=1 200
+2026-05-30 19:13:58,450 [INFO] response: https://search.brave.com/search?q=World+Editor+Lua+%E8%84%9A%E6%9C%AC+%E5%85%A5%E9%97%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 200
+2026-05-30 19:13:58,456 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor Lua 脚本 入门 新手教程
+2026-05-30 19:13:58,488 [INFO] response: https://www.mojeek.com/search?q=GUI+vs+JASS+trigger+performance+Warcraft+3 403
+2026-05-30 19:13:58,519 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor Lua 脚本 入门 新手教程
+2026-05-30 19:13:58,520 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:58,624 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f6d74020465f0d92c3fb903bc7"}
+2026-05-30 19:13:58,624 [INFO] 🌐 双语查询: EN='Warcraft 3 Reforged Lua 教程 新手' | ZH='Warcraft 3 Reforged Lua 教程 新手'
+2026-05-30 19:13:58,701 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor beginner guide C
+2026-05-30 19:13:58,702 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:13:58,797 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f60b559a38e571ad5e7762f7bd"}
+2026-05-30 19:13:58,798 [INFO] 🌐 双语查询: EN='魔兽争霸3 世界编辑器 入门教程 新手' | ZH='魔兽争霸3 世界编辑器 入门教程 新手'
+2026-05-30 19:13:58,886 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:58,906 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:58,931 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20Lua%20%E6%95%99%E7%A8%8B%20%E6%96%B0%E6%89%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:58,980 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Reforged%20Lua%20%E6%95%99%E7%A8%8B%20%E6%96%B0%E6%89%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:59,048 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:59,058 [INFO] response: https://search.yahoo.com/search;_ylt=N8VS1G8DLF0WuEWG4Rq_h5_n;_ylu=JmARqDXvRP1XNxY1eVlGMkKIfFgljhg7pBwzj0UFArAvTLw?p=Warcraft+3+Reforged+Lua+%E6%95%99%E7%A8%8B+%E6%96%B0%E6%89%8B 200
+2026-05-30 19:13:59,061 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:13:59,090 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%20%E6%96%B0%E6%89%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:59,096 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%20%E6%96%B0%E6%89%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:13:59,101 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Reforged+Lua+%E6%95%99%E7%A8%8B+%E6%96%B0%E6%89%8B&limit=1 200
+2026-05-30 19:13:59,200 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B+%E6%96%B0%E6%89%8B&limit=1 200
+2026-05-30 19:13:59,201 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Reforged+Lua+%E6%95%99%E7%A8%8B+%E6%96%B0%E6%89%8B&limit=1 200
+2026-05-30 19:13:59,202 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:13:59,226 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:13:59,306 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B+%E6%96%B0%E6%89%8B&limit=1 200
+2026-05-30 19:13:59,330 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:13:59,548 [INFO] response: https://grokipedia.com/api/typeahead?query=GUI+vs+JASS+trigger+performance+Warcraft+3&limit=1 200
+2026-05-30 19:13:59,589 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:13:59,597 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B+%E6%96%B0%E6%89%8B 403
+2026-05-30 19:13:59,613 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 世界编辑器 入门教程 新手
+2026-05-30 19:13:59,654 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:13:59,660 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:13:59,678 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Reforged Lua 教程 新手
+2026-05-30 19:13:59,700 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:13:59,725 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:13:59,882 [INFO] response: https://yandex.com/search/site/?text=GUI+vs+JASS+trigger+performance+Warcraft+3&web=1&searchid=7968906 200
+2026-05-30 19:13:59,925 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | GUI vs JASS trigger performance Warcraft
+2026-05-30 19:14:00,273 [INFO] response: https://search.brave.com/search?q=Warcraft+3+Reforged+Lua+%E6%95%99%E7%A8%8B+%E6%96%B0%E6%89%8B&source=web 200
+2026-05-30 19:14:00,280 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Reforged Lua 教程 新手
+2026-05-30 19:14:00,281 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:00,332 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:14:00,339 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:14:00,358 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 世界编辑器 入门教程 新手
+2026-05-30 19:14:00,359 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:00,378 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f8d8e79cf0de05e52e348481f3"}
+2026-05-30 19:14:00,378 [INFO] 🌐 双语查询: EN='WC3 Lua vs JASS 区别 优势' | ZH='WC3 Lua vs JASS 区别 优势'
+2026-05-30 19:14:00,388 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | GUI vs JASS trigger performance Warcraft
+2026-05-30 19:14:00,389 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:00,494 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f837eb63fdee2235c31d588e8f"}
+2026-05-30 19:14:00,494 [INFO] 🌐 双语查询: EN='GUI触发器与JASS脚本的优缺点对比' | ZH='GUI触发器与JASS脚本的优缺点对比'
+2026-05-30 19:14:00,641 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:00,682 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:00,685 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69f8771e36b84221b336cebef21e"}
+2026-05-30 19:14:00,685 [INFO] 🌐 双语查询: EN='WC3 Object Editor unit creation complete tutorial' | ZH='WC3 Object Editor unit creation complete tutorial'
+2026-05-30 19:14:00,715 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20Lua%20vs%20JASS%20%E5%8C%BA%E5%88%AB%20%E4%BC%98%E5%8A%BF) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:00,754 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:00,776 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:00,795 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20Lua%20vs%20JASS%20%E5%8C%BA%E5%88%AB%20%E4%BC%98%E5%8A%BF) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:00,823 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=GUI%E8%A7%A6%E5%8F%91%E5%99%A8%E4%B8%8EJASS%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9%E5%AF%B9%E6%AF%94) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:00,850 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=GUI%E8%A7%A6%E5%8F%91%E5%99%A8%E4%B8%8EJASS%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9%E5%AF%B9%E6%AF%94) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:00,879 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:14:00,937 [INFO] response: https://grokipedia.com/api/typeahead?query=GUI%E8%A7%A6%E5%8F%91%E5%99%A8%E4%B8%8EJASS%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9%E5%AF%B9%E6%AF%94&limit=1 200
+2026-05-30 19:14:00,949 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:14:00,954 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:00,958 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:00,988 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20Object%20Editor%20unit%20creation%20complete%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:00,996 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20Object%20Editor%20unit%20creation%20complete%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:01,028 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+Lua+vs+JASS+%E5%8C%BA%E5%88%AB+%E4%BC%98%E5%8A%BF&limit=1 200
+2026-05-30 19:14:01,059 [INFO] response: https://grokipedia.com/api/typeahead?query=GUI%E8%A7%A6%E5%8F%91%E5%99%A8%E4%B8%8EJASS%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9%E5%AF%B9%E6%AF%94&limit=1 200
+2026-05-30 19:14:01,108 [INFO] response: https://search.yahoo.com/search;_ylt=1oLbcNBgCcqayDo51YyS2hYI;_ylu=yvLhT2owlG1UTqhGQ5wMwrYp_Hyk4Zd1huEzD6iZJnlUbTQ?p=WC3+Object+Editor+unit+creation+complete+tutorial 200
+2026-05-30 19:14:01,128 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+Lua+vs+JASS+%E5%8C%BA%E5%88%AB+%E4%BC%98%E5%8A%BF&limit=1 200
+2026-05-30 19:14:01,204 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+Object+Editor+unit+creation+complete+tutorial&limit=1 200
+2026-05-30 19:14:01,235 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:14:01,301 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+Object+Editor+unit+creation+complete+tutorial&limit=1 200
+2026-05-30 19:14:01,320 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:14:01,324 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | GUI触发器与JASS脚本的优缺点对比
+2026-05-30 19:14:01,349 [INFO] response: https://www.mojeek.com/search?q=GUI%E8%A7%A6%E5%8F%91%E5%99%A8%E4%B8%8EJASS%E8%84%9A%E6%9C%AC%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9%E5%AF%B9%E6%AF%94 403
+2026-05-30 19:14:01,441 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:14:01,494 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:14:01,503 [INFO] response: https://www.mojeek.com/search?q=WC3+Object+Editor+unit+creation+complete+tutorial 403
+2026-05-30 19:14:01,932 [INFO] response: https://www.google.com/search?q=WC3+Lua+vs+JASS+%E5%8C%BA%E5%88%AB+%E4%BC%98%E5%8A%BF&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 19:14:02,015 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:14:02,039 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | GUI触发器与JASS脚本的优缺点对比
+2026-05-30 19:14:02,040 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:02,137 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69faa517846419e850767bc406f2"}
+2026-05-30 19:14:02,137 [INFO] 🌐 双语查询: EN='Warcraft 3 GUI trigger limitations' | ZH='Warcraft 3 GUI trigger limitations'
+2026-05-30 19:14:02,164 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:14:02,188 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 Object Editor unit creation complete
+2026-05-30 19:14:02,241 [INFO] response: https://yandex.com/search/site/?text=WC3+Lua+vs+JASS+%E5%8C%BA%E5%88%AB+%E4%BC%98%E5%8A%BF&web=1&searchid=3767715 200
+2026-05-30 19:14:02,278 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 Object Editor unit creation complete
+2026-05-30 19:14:02,279 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:02,287 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 Lua vs JASS 区别 优势
+2026-05-30 19:14:02,374 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69fadf66f8ae42d79a691c0131af"}
+2026-05-30 19:14:02,375 [INFO] 🌐 双语查询: EN='Warcraft 3 Unit Editor tutorial beginners' | ZH='Warcraft 3 Unit Editor tutorial beginners'
+2026-05-30 19:14:02,395 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:02,408 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:02,426 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20GUI%20trigger%20limitations) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:02,482 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20GUI%20trigger%20limitations) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:02,564 [INFO] response: https://www.mojeek.com/search?q=WC3+Lua+vs+JASS+%E5%8C%BA%E5%88%AB+%E4%BC%98%E5%8A%BF 403
+2026-05-30 19:14:02,620 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:02,645 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:02,648 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Unit%20Editor%20tutorial%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:02,675 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20Unit%20Editor%20tutorial%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:02,706 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+GUI+trigger+limitations&limit=1 200
+2026-05-30 19:14:02,907 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Unit+Editor+tutorial+beginners&limit=1 200
+2026-05-30 19:14:03,395 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 Lua vs JASS 区别 优势
+2026-05-30 19:14:03,396 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:03,505 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69fb57a1ab30760261fc801b6885"}
+2026-05-30 19:14:03,506 [INFO] 🌐 双语查询: EN='Warcraft III 重制版 Lua 触发器入门' | ZH='Warcraft III 重制版 Lua 触发器入门'
+2026-05-30 19:14:03,542 [INFO] response: https://search.brave.com/search?q=Warcraft+3+GUI+trigger+limitations&source=web 200
+2026-05-30 19:14:03,550 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 GUI trigger limitations
+2026-05-30 19:14:03,681 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+Unit+Editor+tutorial+beginners&web=1&searchid=6904847 200
+2026-05-30 19:14:03,708 [INFO] response: https://www.google.com/search?q=Warcraft+3+Unit+Editor+tutorial+beginners&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 19:14:03,726 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Unit Editor tutorial beginner
+2026-05-30 19:14:03,769 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:03,795 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:03,797 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:03,823 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:03,921 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+Unit+Editor+tutorial+beginners&limit=1 200
+2026-05-30 19:14:03,922 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 Unit Editor tutorial beginner
+2026-05-30 19:14:03,923 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:03,950 [INFO] response: https://search.yahoo.com/search;_ylt=cL3sDpilfWYtfBCWOX-H3XUp;_ylu=jUKlgxlrZzVrIKfqhEkUXXEQKoX3NY2X7YXoUNYWbUafGsA?p=Warcraft+III+%E9%87%8D%E5%88%B6%E7%89%88+Lua+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8 200
+2026-05-30 19:14:03,964 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+GUI+trigger+limitations&limit=1 200
+2026-05-30 19:14:03,965 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 GUI trigger limitations
+2026-05-30 19:14:03,965 [INFO]   搜索阶段：收集到 42 条候选结果
+2026-05-30 19:14:04,007 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E9%87%8D%E5%88%B6%E7%89%88+Lua+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-30 19:14:04,046 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69fb56ca110e3e6712d104a76473"}
+2026-05-30 19:14:04,046 [INFO] 🌐 双语查询: EN='World Editor object editor unit tab' | ZH='World Editor object editor unit tab'
+2026-05-30 19:14:04,105 [WARNING] ⚠️  抓取失败，已忽略: https://wc3we.fandom.com/wiki/Jass_Coding — Client error '403 Forbidden' for url 'https://wc3we.fandom.com/wiki/Jass_Coding'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 19:14:04,125 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+%E9%87%8D%E5%88%B6%E7%89%88+Lua+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-30 19:14:04,131 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/beginning-jass-tutorial-series.30765/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/beginning-jass-tutorial-series.30765/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 19:14:04,181 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/getting-started-with-lua-scripting-in-wc3-maps.315970/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/getting-started-with-lua-scripting-in-wc3-maps.315970/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 19:14:04,216 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/gui-vs-jass.52848/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/gui-vs-jass.52848/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 19:14:04,255 [WARNING] ⚠️  抓取失败，已忽略: https://bbs.islga.org/read-htm-tid-21290-page-1-fpage-1.html — Client error '403 Forbidden' for url 'https://bbs.islga.org/read-htm-tid-21290-page-1-fpage-1.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 19:14:04,312 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:04,482 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20object%20editor%20unit%20tab) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:04,506 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:04,612 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20object%20editor%20unit%20tab) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:04,630 [INFO] response: https://www.mojeek.com/search?q=Warcraft+III+%E9%87%8D%E5%88%B6%E7%89%88+Lua+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8 403
+2026-05-30 19:14:04,732 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+object+editor+unit+tab&limit=1 200
+2026-05-30 19:14:04,734 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+%E9%87%8D%E5%88%B6%E7%89%88+Lua+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8&web=1&searchid=2333095 200
+2026-05-30 19:14:04,772 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 重制版 Lua 触发器入门
+2026-05-30 19:14:04,816 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 19:14:04,958 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+object+editor+unit+tab&limit=1 200
+2026-05-30 19:14:05,037 [INFO] response: https://www.google.com/search?q=Warcraft+III+%E9%87%8D%E5%88%B6%E7%89%88+Lua+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%85%A5%E9%97%A8&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 19:14:05,158 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III 重制版 Lua 触发器入门
+2026-05-30 19:14:05,158 [INFO]   搜索阶段：收集到 43 条候选结果
+2026-05-30 19:14:05,185 [WARNING] ⚠️  抓取失败，已忽略: https://wenku.csdn.net/column/3z8czk2y5a — Server error '521 ' for url 'https://wenku.csdn.net/column/3z8czk2y5a'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-30 19:14:05,318 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 19:14:05,343 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor object editor unit tab
+2026-05-30 19:14:05,489 [INFO] response: https://yandex.com/search/site/?text=World+Editor+object+editor+unit+tab&web=1&searchid=7055572 200
+2026-05-30 19:14:05,529 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor object editor unit tab
+2026-05-30 19:14:05,530 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:05,629 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066a69fd21becff6b9fb92868937bc33"}
+2026-05-30 19:14:05,629 [INFO] 🌐 双语查询: EN='魔兽争霸3 单位编辑器 怎么打开' | ZH='魔兽争霸3 单位编辑器 怎么打开'
+2026-05-30 19:14:05,880 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:05,888 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 19:14:05,970 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%8D%95%E4%BD%8D%E7%BC%96%E8%BE%91%E5%99%A8%20%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:06,008 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E5%8D%95%E4%BD%8D%E7%BC%96%E8%BE%91%E5%99%A8%20%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.dh3qtjx5f5oe1ftyai53w2ynke.dx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 19:14:06,113 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:06,152 [INFO] response: https://search.yahoo.com/search;_ylt=KrHQDafXFs4etXg2hZ28qCxD;_ylu=yxIhtLvtOXXUhxmiXe3h4GTj3ubjONA08jW4hRD8WUd1EU0?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%95%E4%BD%8D%E7%BC%96%E8%BE%91%E5%99%A8+%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80 200
+2026-05-30 19:14:06,211 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%95%E4%BD%8D%E7%BC%96%E8%BE%91%E5%99%A8+%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80&limit=1 200
+2026-05-30 19:14:06,438 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%95%E4%BD%8D%E7%BC%96%E8%BE%91%E5%99%A8+%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80&limit=1 200
+2026-05-30 19:14:06,657 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E5%8D%95%E4%BD%8D%E7%BC%96%E8%BE%91%E5%99%A8+%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 19:14:06,698 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 单位编辑器 怎么打开
+2026-05-30 19:14:06,916 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 单位编辑器 怎么打开
+2026-05-30 19:14:06,916 [INFO]   搜索阶段：收集到 44 条候选结果
+2026-05-30 19:14:06,960 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/looking-for-translator-–-chinese-warcraft-iii-campaign-with-full-english-ai-voice-acting.366844/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/looking-for-translator-%E2%80%93-chinese-warcraft-iii-campaign-with-full-english-ai-voice-acting.366844/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 19:14:06,969 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/ydwe-map-editor.341135/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/ydwe-map-editor.341135/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 19:14:07,045 [WARNING] ⚠️  抓取失败，已忽略: https://www.youtube.com/watch?v=XCwXWOe6VcU — Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DXCwXWOe6VcU&q=EgSsuK-RGP7t7NAGIjDlnqzISB09LSsYdfQfqQz3Y2xDoEoJzeEk2tov0dACJlabBKuQ3w-LL5emhQwMiTEyAnJSWgFD'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-30 19:14:07,050 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/models.php — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/models.php'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 19:14:07,287 [WARNING] ⚠️  抓取失败，已忽略: https://tieba.baidu.com/p/10540405803 — Client error '403 Forbidden' for url 'https://tieba.baidu.com/p/10540405803'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 19:14:07,623 [WARNING] ⚠️  抓取失败，已忽略: https://www.youtube.com/watch?v=HpsOwfMmGO0 — Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3DHpsOwfMmGO0&q=EgSsuK-RGP_t7NAGIjA9xpsUs5KRnOaBuUubRHPHsP3YbMCfTXNSBi6Hjn-JI5I2GQXJubMigr6nmxx0T-8yAnJSWgFD'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-30 19:14:07,739 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/uniteditor.php — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/uniteditor.php'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 19:14:07,942 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:08,061 [WARNING] ⚠️  抓取失败，已忽略: https://www.youtube.com/watch?v=gy3vH9rvgbU — Client error '429 Too Many Requests' for url 'https://www.google.com/sorry/index?continue=https://www.youtube.com/watch%3Fv%3Dgy3vH9rvgbU&q=EgSsuK-RGP_t7NAGIjCIW_QjnkzBIjrh9C3RoROwn_HguycGPbO_0jgZraE_NxWg4rrFZSsge6gJKpiqH2MyAnJSWgFD'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-05-30 19:14:09,243 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:28,545 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:14:28,546 [INFO] ✅ ResearcherAgent 完成: 7 个来源已注册
+2026-05-30 19:14:28,546 [INFO] ✍️  WriterAgent 开始: 从 GUI 触发器迁移到 JASS (loop 0)
+2026-05-30 19:14:28,547 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:30,053 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:14:30,055 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-05-30 19:14:30,055 [INFO] ✍️  WriterAgent 开始: Lua API 参考（重制版） (loop 0)
+2026-05-30 19:14:30,056 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:36,766 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:14:36,767 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-05-30 19:14:36,767 [INFO] ✍️  WriterAgent 开始: 单位编辑器详解 (loop 0)
+2026-05-30 19:14:36,768 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:46,819 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:14:46,821 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:51,276 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:14:51,278 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:14:52,326 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:14:52,328 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:15:04,699 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:15:04,701 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:15:07,136 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:15:07,138 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:15:18,247 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:15:18,249 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:15:21,451 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:15:21,453 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:15:26,602 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:15:26,603 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:15:44,222 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:15:44,224 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:15:45,243 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:15:45,245 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:15:46,340 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:15:46,342 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:16:02,881 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:16:02,883 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:16:05,416 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:16:05,418 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:16:09,998 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:16:09,999 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:16:22,617 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:16:22,618 [INFO] ✅ WriterAgent 完成: 6585 字符, 5/5 来源被引用
+2026-05-30 19:16:22,618 [INFO] 🔎 ReviewerAgent 开始: 单位编辑器详解
+2026-05-30 19:16:22,619 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:16:25,539 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:16:25,540 [INFO] ✅ WriterAgent 完成: 9677 字符, 6/6 来源被引用
+2026-05-30 19:16:25,540 [INFO] 🔎 ReviewerAgent 开始: Lua API 参考（重制版）
+2026-05-30 19:16:25,541 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:16:34,389 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:16:34,391 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:16:41,622 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:16:41,623 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 15 column 28 (char 380)
+2026-05-30 19:16:41,624 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-30 19:16:41,624 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-30 19:16:41,624 [INFO] 📄 文章写入: docs/object-editor/单位编辑器详解.md
+2026-05-30 19:16:41,625 [INFO] ✅ topics.json 已更新: unit-editor → completed
+2026-05-30 19:16:41,626 [INFO] 📐 PlannerAgent 开始: 技能编辑器与自定义技能
+2026-05-30 19:16:41,626 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-30 19:16:42,896 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 19:16:42,897 [INFO] ✅ 通过 ReviewerAgent: overall=0.83 (A=0.85 C=0.80 R=0.90 Cit=0.75)
+2026-05-30 19:16:42,897 [INFO]   反馈 5 条:
+2026-05-30 19:16:42,897 [INFO]   [missing_citation] local u = CreateUnitAtLoc(Player(0), FourCC("ogru"), locatio...
+2026-05-30 19:16:42,897 [INFO]   [missing_citation] SetPlayerAlliance(Player(0), Player(1), ALLIANCE_SHARED_ADVA...
+2026-05-30 19:16:42,897 [INFO]   [missing_citation] TimerStart(t, 3.0, false, function() ... end)...
+2026-05-30 19:16:42,897 [INFO]   [missing_citation] UnitDamageTarget(u, GetEnumUnit(), 50.0, true, true, ATTACK_...
+2026-05-30 19:16:42,898 [INFO]   [missing_citation] TriggerRegisterUnitEvent(t, gg_unit_h000_0001, EVENT_UNIT_DE...
+2026-05-30 19:16:42,898 [INFO] ✅ 质量通过 (loop 0): score=0.83
+2026-05-30 19:16:42,898 [INFO] 📄 文章写入: docs/scripting/lua-api-参考重制版.md

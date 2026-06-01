@@ -513,3 +513,428 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-05-08 05:00:05,975 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
 2026-05-08 05:00:05,975 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-05-08 05:00:05,975 [INFO] 📄 文章写入: docs/scripting/vjass-进阶编程.md
+2026-05-30 05:53:10,352 [INFO] 📐 PlannerAgent 开始: vJASS 进阶编程
+2026-05-30 05:53:10,353 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:18,506 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:18,507 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-30 05:53:18,508 [INFO] 🔍 ResearcherAgent 开始: JASS 脚本基础入门 (21 查询)
+2026-05-30 05:53:18,509 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:21,358 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:21,359 [INFO] 🌐 双语查询: EN='JASS 脚本 入门 教程 新手' | ZH='JASS 脚本 入门 教程 新手'
+2026-05-30 05:53:21,511 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:21,529 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:21,543 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%84%9A%E6%9C%AC%20%E5%85%A5%E9%97%A8%20%E6%95%99%E7%A8%8B%20%E6%96%B0%E6%89%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:21,567 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%84%9A%E6%9C%AC%20%E5%85%A5%E9%97%A8%20%E6%95%99%E7%A8%8B%20%E6%96%B0%E6%89%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:21,630 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+%E8%84%9A%E6%9C%AC+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B+%E6%96%B0%E6%89%8B&limit=1 200
+2026-05-30 05:53:21,663 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:21,685 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+%E8%84%9A%E6%9C%AC+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B+%E6%96%B0%E6%89%8B&limit=1 200
+2026-05-30 05:53:21,931 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:21,952 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 脚本 入门 教程 新手
+2026-05-30 05:53:22,415 [INFO] response: https://yandex.com/search/site/?text=JASS+%E8%84%9A%E6%9C%AC+%E5%85%A5%E9%97%A8+%E6%95%99%E7%A8%8B+%E6%96%B0%E6%89%8B&web=1&searchid=7420979 200
+2026-05-30 05:53:22,448 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 脚本 入门 教程 新手
+2026-05-30 05:53:22,449 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:24,549 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:24,550 [INFO] 🌐 双语查询: EN='Warcraft 3 JASS scripting tutorial complete guide' | ZH='Warcraft 3 JASS scripting tutorial complete guide'
+2026-05-30 05:53:24,662 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:24,689 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:24,695 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20scripting%20tutorial%20complete%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:24,723 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20scripting%20tutorial%20complete%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:24,769 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+scripting+tutorial+complete+guide&limit=1 200
+2026-05-30 05:53:24,809 [INFO] response: https://search.yahoo.com/search;_ylt=scFQ4U0NuTHB9rzXg4zKGUK5;_ylu=bPceVxZy-1AnXhLS-t41JauBmuuSX581OqPfs9HnGgfnZJg?p=Warcraft+3+JASS+scripting+tutorial+complete+guide 200
+2026-05-30 05:53:24,833 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+scripting+tutorial+complete+guide&limit=1 200
+2026-05-30 05:53:25,115 [INFO] response: https://www.google.com/search?q=Warcraft+3+JASS+scripting+tutorial+complete+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 05:53:25,130 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 JASS scripting tutorial compl
+2026-05-30 05:53:25,546 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 JASS scripting tutorial compl
+2026-05-30 05:53:25,547 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:27,382 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:27,383 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-30 05:53:27,383 [INFO] 🔍 ResearcherAgent 开始: JASS 常用函数参考 (21 查询)
+2026-05-30 05:53:27,384 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:27,623 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:27,625 [INFO] 🌐 双语查询: EN='WC3 JASS vs vJASS beginners which to learn' | ZH='WC3 JASS vs vJASS beginners which to learn'
+2026-05-30 05:53:27,732 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:27,745 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:27,780 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20JASS%20vs%20vJASS%20beginners%20which%20to%20learn) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:27,786 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20JASS%20vs%20vJASS%20beginners%20which%20to%20learn) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:27,870 [INFO] response: https://search.yahoo.com/search;_ylt=KQ4rnUfs4mR8EQ9QUQWMSBJ4;_ylu=Ec2NI9AmsuZTNabaKPm2o2A5mZJZLLLL98yOx2zjX_21Q3I?p=WC3+JASS+vs+vJASS+beginners+which+to+learn 200
+2026-05-30 05:53:27,936 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+JASS+vs+vJASS+beginners+which+to+learn&limit=1 200
+2026-05-30 05:53:28,046 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+JASS+vs+vJASS+beginners+which+to+learn&limit=1 200
+2026-05-30 05:53:28,113 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:28,501 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:28,523 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 JASS vs vJASS beginners which to lea
+2026-05-30 05:53:29,801 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:29,802 [INFO] 🌐 双语查询: EN='JASS scripting Warcraft 3 reference guide' | ZH='JASS scripting Warcraft 3 reference guide'
+2026-05-30 05:53:29,908 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:29,910 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:29,952 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20Warcraft%203%20reference%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:29,956 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20scripting%20Warcraft%203%20reference%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:30,032 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+scripting+Warcraft+3+reference+guide&limit=1 200
+2026-05-30 05:53:30,082 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:30,088 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+scripting+Warcraft+3+reference+guide&limit=1 200
+2026-05-30 05:53:30,427 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:30,451 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS scripting Warcraft 3 reference guid
+2026-05-30 05:53:30,765 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS scripting Warcraft 3 reference guid
+2026-05-30 05:53:30,767 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:31,886 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:31,887 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-30 05:53:31,888 [INFO] 🔍 ResearcherAgent 开始: vJASS 进阶编程 (21 查询)
+2026-05-30 05:53:31,888 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:32,782 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=WC3+JASS+vs+vJASS+beginners+which+to+learn) > operation timed out'))
+2026-05-30 05:53:32,939 [INFO] response: https://search.yahoo.com/search;_ylt=Hi1Uarf9Tl4BkpexlYNl7TCm;_ylu=YOn1y2XEx_KQ_V3j5RxIn-xWxpblgHMYvi3lIP4-U8NcFuA?p=WC3+JASS+vs+vJASS+beginners+which+to+learn 200
+2026-05-30 05:53:33,521 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 JASS vs vJASS beginners which to lea
+2026-05-30 05:53:33,522 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:34,185 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:34,186 [INFO] 🌐 双语查询: EN='vJASS advanced programming guide' | ZH='vJASS advanced programming guide'
+2026-05-30 05:53:34,296 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:34,302 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:34,338 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20programming%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:34,345 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20programming%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:34,414 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+advanced+programming+guide&limit=1 200
+2026-05-30 05:53:34,453 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:34,463 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+advanced+programming+guide&limit=1 200
+2026-05-30 05:53:34,464 [INFO] response: https://search.brave.com/search?q=vJASS+advanced+programming+guide&source=web 429
+2026-05-30 05:53:34,778 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:34,798 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS advanced programming guide
+2026-05-30 05:53:34,991 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:34,992 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor trigger functions list' | ZH='Warcraft 3 World Editor trigger functions list'
+2026-05-30 05:53:35,093 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:35,109 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:35,136 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20functions%20list) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:35,153 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20functions%20list) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:35,218 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+functions+list&limit=1 200
+2026-05-30 05:53:35,241 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+functions+list&source=web 429
+2026-05-30 05:53:35,280 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+functions+list&limit=1 200
+2026-05-30 05:53:35,329 [INFO] response: https://search.yahoo.com/search;_ylt=ZX44SdOTys_t9j2AolaJJ_DB;_ylu=w_u-7p2SGGUPigtkFXIhsTOC7y4y2VS4hB0o0A2LCKxfRbU?p=Warcraft+3+World+Editor+trigger+functions+list 200
+2026-05-30 05:53:35,449 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+functions+list&source=web 429
+2026-05-30 05:53:35,736 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+trigger+functions+list&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 05:53:35,752 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger function
+2026-05-30 05:53:36,169 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+trigger+functions+list&web=1&searchid=1539242 200
+2026-05-30 05:53:36,194 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger function
+2026-05-30 05:53:36,195 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:36,371 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:36,372 [INFO] 🌐 双语查询: EN='JASS 脚本入门 基础教程' | ZH='JASS 脚本入门 基础教程'
+2026-05-30 05:53:36,479 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:36,497 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:36,510 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:36,529 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8%20%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:36,614 [INFO] response: https://search.yahoo.com/search;_ylt=xrOF6--0zlgzt4IHEUgLTB_e;_ylu=NseI7oLUgH_EoVTPZQHYt5D_YWhGZDKRQqv1S43Ox4xIRyU?p=JASS+%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B 200
+2026-05-30 05:53:36,622 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:53:36,691 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:53:36,712 [INFO] response: https://search.brave.com/search?q=JASS+%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&source=web 429
+2026-05-30 05:53:36,984 [INFO] response: https://www.google.com/search?q=JASS+%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 05:53:36,999 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 脚本入门 基础教程
+2026-05-30 05:53:37,362 [INFO] response: https://yandex.com/search/site/?text=JASS+%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8+%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&web=1&searchid=4958679 200
+2026-05-30 05:53:37,393 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 脚本入门 基础教程
+2026-05-30 05:53:37,394 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:38,404 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:38,404 [INFO] 🌐 双语查询: EN='JASS 常用函数参考 魔兽争霸3' | ZH='JASS 常用函数参考 魔兽争霸3'
+2026-05-30 05:53:38,512 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:38,515 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:38,551 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E5%8F%82%E8%80%83%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:38,551 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E5%8F%82%E8%80%83%20%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:38,622 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E5%8F%82%E8%80%83+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&limit=1 200
+2026-05-30 05:53:38,687 [INFO] response: https://search.yahoo.com/search;_ylt=YhnNjO8OCM3r29uS2bnOI6zo;_ylu=Bz18KM9Ae4sZhbcl9vhhIEbOV-axpKOMCDhaws6RMewTkP8?p=JASS+%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E5%8F%82%E8%80%83+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83 200
+2026-05-30 05:53:38,818 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:39,142 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:39,163 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 常用函数参考 魔兽争霸3
+2026-05-30 05:53:39,467 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=vJASS+advanced+programming+guide) > operation timed out'))
+2026-05-30 05:53:39,567 [INFO] response: https://search.yahoo.com/search;_ylt=vxBpQfeU1MxG32mFVh0mftTx;_ylu=5-gM_Xp2Sv8HcnNM6i4UgS_A1DdJtuTUaoRIy8XQbvHQVZM?p=vJASS+advanced+programming+guide 200
+2026-05-30 05:53:39,752 [INFO] response: https://www.google.com/search?q=vJASS+advanced+programming+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 05:53:39,766 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS advanced programming guide
+2026-05-30 05:53:39,768 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:40,158 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:40,159 [INFO] 🌐 双语查询: EN='Warcraft 3 JASS scripting introduction' | ZH='Warcraft 3 JASS scripting introduction'
+2026-05-30 05:53:40,266 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:40,284 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:40,311 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20scripting%20introduction) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:40,325 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20JASS%20scripting%20introduction) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:40,496 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:40,601 [INFO] response: https://www.google.com/search?q=Warcraft+3+JASS+scripting+introduction&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 05:53:40,677 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0%E5%8F%82%E8%80%83+%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83&limit=1 200
+2026-05-30 05:53:40,678 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 常用函数参考 魔兽争霸3
+2026-05-30 05:53:40,679 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:40,874 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:41,097 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+scripting+introduction&limit=1 200
+2026-05-30 05:53:41,097 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 JASS scripting introduction
+2026-05-30 05:53:41,152 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+JASS+scripting+introduction&limit=1 200
+2026-05-30 05:53:41,153 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 JASS scripting introduction
+2026-05-30 05:53:41,154 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:42,749 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:42,750 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor scripting tutorial' | ZH='魔兽争霸3 世界编辑器 脚本编写'
+2026-05-30 05:53:42,859 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:42,864 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:42,905 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:42,906 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%20%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:42,969 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99&limit=1 200
+2026-05-30 05:53:42,987 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+scripting+tutorial&limit=1 200
+2026-05-30 05:53:43,021 [INFO] response: https://search.yahoo.com/search;_ylt=wRypAJQZ0QrLqEHnNF2-FqMc;_ylu=7xwqPOxCCCm08cusRtfriLrAzn_j8XQDy1ydkbyQJk9h15k?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E8%84%9A%E6%9C%AC%E7%BC%96%E5%86%99 200
+2026-05-30 05:53:43,058 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:43,101 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:43,103 [INFO] 🌐 双语查询: EN='What is JASS scripting in Warcraft 3' | ZH='What is JASS scripting in Warcraft 3'
+2026-05-30 05:53:43,208 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:43,212 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:43,247 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20JASS%20scripting%20in%20Warcraft%203) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:43,251 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=What%20is%20JASS%20scripting%20in%20Warcraft%203) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:43,324 [INFO] response: https://grokipedia.com/api/typeahead?query=What+is+JASS+scripting+in+Warcraft+3&limit=1 200
+2026-05-30 05:53:43,328 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:43,361 [INFO] response: https://search.yahoo.com/search;_ylt=hnjiWyzIgnNO4rJErN2iBfgz;_ylu=UMZjtkQolZUvfelaXNewpmSy6T2DGqPWTonr5SIkmCbu-OE?p=What+is+JASS+scripting+in+Warcraft+3 200
+2026-05-30 05:53:43,364 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:43,380 [INFO] response: https://grokipedia.com/api/typeahead?query=What+is+JASS+scripting+in+Warcraft+3&limit=1 200
+2026-05-30 05:53:43,426 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:43,447 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor scripting tutori
+2026-05-30 05:53:43,469 [INFO] response: https://search.brave.com/search?q=What+is+JASS+scripting+in+Warcraft+3&source=web 429
+2026-05-30 05:53:43,567 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:43,568 [INFO] 🌐 双语查询: EN='WC3 World Editor why does it use JASS' | ZH='WC3 World Editor 为什么用 JASS'
+2026-05-30 05:53:43,591 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:43,668 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:43,670 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:43,691 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:43,710 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8%20JASS) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:43,711 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20why%20does%20it%20use%20JASS) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:43,714 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 世界编辑器 脚本编写
+2026-05-30 05:53:43,715 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:43,780 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8+JASS&limit=1 200
+2026-05-30 05:53:43,829 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:43,891 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:43,912 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | What is JASS scripting in Warcraft 3
+2026-05-30 05:53:43,934 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:43,942 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+why+does+it+use+JASS&limit=1 200
+2026-05-30 05:53:43,948 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:43,956 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | What is JASS scripting in Warcraft 3
+2026-05-30 05:53:43,957 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:44,252 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:44,275 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor 为什么用 JASS
+2026-05-30 05:53:44,382 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:44,405 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor why does it use JASS
+2026-05-30 05:53:44,406 [INFO]   搜索阶段：收集到 29 条候选结果
+2026-05-30 05:53:44,562 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/beginning-jass-tutorial-series.30765/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/beginning-jass-tutorial-series.30765/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:53:44,724 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/gui-jass-vjass.255291/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/gui-jass-vjass.255291/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:53:44,928 [WARNING] ⚠️  抓取失败，已忽略: https://bbs.islga.org/read-htm-tid-21290-page-1-fpage-1.html — Client error '403 Forbidden' for url 'https://bbs.islga.org/read-htm-tid-21290-page-1-fpage-1.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:53:45,842 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:45,843 [INFO] 🌐 双语查询: EN='vJASS 代码优化 高级教程' | ZH='vJASS 代码优化 高级教程'
+2026-05-30 05:53:45,951 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:45,966 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:45,989 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96%20%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:46,000 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96%20%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:46,060 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96+%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:53:46,120 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96+%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:53:46,123 [INFO] response: https://search.yahoo.com/search;_ylt=TQtqTxgYC9Dupmbjj7bl8uKs;_ylu=-Fv0oOKgczTxJaObipB-ZT_onLkVMb9jO8znx6PLAFZ7z1o?p=vJASS+%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96+%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B 200
+2026-05-30 05:53:46,220 [INFO] response: https://search.brave.com/search?q=vJASS+%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96+%E9%AB%98%E7%BA%A7%E6%95%99%E7%A8%8B&source=web 429
+2026-05-30 05:53:46,356 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:46,640 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS 代码优化 高级教程
+2026-05-30 05:53:46,676 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:46,697 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS 代码优化 高级教程
+2026-05-30 05:53:46,698 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:47,119 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:47,120 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor trigger editor tutorial' | ZH='Warcraft 3 World Editor trigger editor tutorial'
+2026-05-30 05:53:47,224 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:47,251 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:47,255 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20editor%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:47,281 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20editor%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:47,343 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+editor+tutorial&source=web 429
+2026-05-30 05:53:47,591 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/weixin_28705087/article/details/161156028 — Server error '521 ' for url 'https://blog.csdn.net/weixin_28705087/article/details/161156028'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-30 05:53:48,231 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+editor+tutorial&limit=1 200
+2026-05-30 05:53:48,295 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+editor+tutorial&limit=1 200
+2026-05-30 05:53:48,467 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+trigger+editor+tutorial&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 05:53:48,477 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger editor t
+2026-05-30 05:53:49,223 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:49,223 [INFO] 🌐 双语查询: EN='vJASS advanced programming tutorial WC3' | ZH='vJASS advanced programming tutorial WC3'
+2026-05-30 05:53:49,326 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:49,329 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:49,350 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/u013412391/article/details/109039410 — Server error '521 ' for url 'https://blog.csdn.net/u013412391/article/details/109039410'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-30 05:53:49,352 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:49,371 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20programming%20tutorial%20WC3) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:49,377 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20advanced%20programming%20tutorial%20WC3) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:49,442 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+advanced+programming+tutorial+WC3&limit=1 200
+2026-05-30 05:53:49,489 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:49,505 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+advanced+programming+tutorial+WC3&limit=1 200
+2026-05-30 05:53:49,992 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:50,015 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS advanced programming tutorial WC3
+2026-05-30 05:53:52,282 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=Warcraft+3+World+Editor+trigger+editor+tutorial) > operation timed out'))
+2026-05-30 05:53:52,367 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+editor+tutorial&source=web 429
+2026-05-30 05:53:52,552 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+trigger+editor+tutorial&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 05:53:52,646 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger editor t
+2026-05-30 05:53:52,647 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:54,379 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=vJASS+advanced+programming+tutorial+WC3) > operation timed out'))
+2026-05-30 05:53:54,510 [INFO] response: https://search.yahoo.com/search;_ylt=zFVKo_spBElLsbELn606DPh4;_ylu=oRaowdyuQ1K886qm-PCdnXB8LEMfiq98pgnda_3lAdD0IHk?p=vJASS+advanced+programming+tutorial+WC3 200
+2026-05-30 05:53:55,102 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS advanced programming tutorial WC3
+2026-05-30 05:53:55,103 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:55,939 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:55,940 [INFO] 🌐 双语查询: EN='JASS Language Basic Tutorial' | ZH='JASS 语言基础教程'
+2026-05-30 05:53:56,053 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:56,066 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:56,088 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20Language%20Basic%20Tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:56,112 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=JASS%20%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:56,191 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:53:56,196 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:53:56,248 [INFO] response: https://grokipedia.com/api/typeahead?query=JASS+Language+Basic+Tutorial&limit=1 200
+2026-05-30 05:53:56,533 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:53:56,554 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS Language Basic Tutorial
+2026-05-30 05:53:56,925 [INFO] response: https://yandex.com/search/site/?text=JASS+%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&web=1&searchid=4937788 200
+2026-05-30 05:53:56,953 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | JASS 语言基础教程
+2026-05-30 05:53:56,953 [INFO]   搜索阶段：收集到 36 条候选结果
+2026-05-30 05:53:57,012 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/complete-gui-trigger-index-list.7209/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/complete-gui-trigger-index-list.7209/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:53:57,126 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=79059 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=79059'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:53:57,170 [WARNING] ⚠️  抓取失败，已忽略: https://wowpedia.fandom.com/wiki/JASS — Client error '403 Forbidden' for url 'https://wowpedia.fandom.com/wiki/JASS'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:53:57,954 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/weixin_32251525/article/details/143220228 — Server error '521 ' for url 'https://blog.csdn.net/weixin_32251525/article/details/143220228'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-30 05:53:58,099 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:53:58,100 [INFO] 🌐 双语查询: EN='vJASS 进阶教程' | ZH='vJASS 进阶教程'
+2026-05-30 05:53:58,207 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:58,233 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:53:58,236 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:58,264 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=vJASS%20%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:53:58,301 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:53:58,354 [INFO] response: https://grokipedia.com/api/typeahead?query=vJASS+%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:53:58,391 [INFO] response: https://search.yahoo.com/search;_ylt=cWuvg-vju1wlao3rpSKieKdG;_ylu=k6OQ6kk5rIduzM9yGK4p945GDChhLGoGcYpZGS8H-Zzs64M?p=vJASS+%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B 200
+2026-05-30 05:53:58,465 [WARNING] ⚠️  抓取失败，已忽略: https://baike.baidu.com/item/JASS/3170669 — Client error '403 Forbidden' for url 'https://baike.baidu.com/item/JASS/3170669'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:53:58,467 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:53:58,524 [INFO] response: https://www.google.com/search?q=vJASS+%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 05:53:58,541 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS 进阶教程
+2026-05-30 05:53:59,043 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | vJASS 进阶教程
+2026-05-30 05:53:59,044 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:54:02,739 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:54:02,740 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor scripting advanced' | ZH='Warcraft 3 World Editor scripting advanced'
+2026-05-30 05:54:02,842 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:54:02,849 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:54:02,882 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20advanced) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:54:02,884 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20scripting%20advanced) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:54:02,994 [INFO] response: https://search.yahoo.com/search;_ylt=bOBnXJgBxnIorDeLNMMr_GIk;_ylu=lz6e4qTCjBeLgG34JoEcsoIYGzQUpKEn8yOFg8cmjPTgRoI?p=Warcraft+3+World+Editor+scripting+advanced 200
+2026-05-30 05:54:03,826 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+scripting+advanced&limit=1 200
+2026-05-30 05:54:04,028 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+scripting+advanced&limit=1 200
+2026-05-30 05:54:04,682 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+scripting+advanced&web=1&searchid=6005752 200
+2026-05-30 05:54:04,717 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor scripting advanc
+2026-05-30 05:54:07,886 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=Warcraft+3+World+Editor+scripting+advanced) > operation timed out'))
+2026-05-30 05:54:07,997 [INFO] response: https://search.yahoo.com/search;_ylt=fsv0nft66ciWWvdF1zH-RTun;_ylu=nRgfQdi9KXutk0LEVLGU2haiwCRR-4sI2lZT1tJgLhPT9vg?p=Warcraft+3+World+Editor+scripting+advanced 200
+2026-05-30 05:54:08,672 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor scripting advanc
+2026-05-30 05:54:08,672 [INFO]   搜索阶段：收集到 36 条候选结果
+2026-05-30 05:54:08,727 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/an-introduction-to-vjass-structs-and-good-jass-technique.59259/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/an-introduction-to-vjass-structs-and-good-jass-technique.59259/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:54:08,732 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/getting-started-with-lua-scripting-in-wc3-maps.315970/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/getting-started-with-lua-scripting-in-wc3-maps.315970/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:54:10,020 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/qq_58575895/article/details/125289843 — Server error '521 ' for url 'https://blog.csdn.net/qq_58575895/article/details/125289843'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-30 05:54:10,080 [WARNING] ⚠️  抓取失败，已忽略: https://www.moonglaive.com/data_server/other/vjass-documentation-cn.pdf — [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.moonglaive.com'. (_ssl.c:1016)
+2026-05-30 05:54:10,176 [WARNING] ⚠️  抓取失败，已忽略: https://wenku.baidu.com/view/9012e51614791711cc791705.html — Client error '403 Forbidden' for url 'https://wenku.baidu.com/view/9012e51614791711cc791705.html'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:54:10,317 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:54:19,643 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:54:19,644 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-30 05:54:19,644 [INFO] ✍️  WriterAgent 开始: JASS 脚本基础入门 (loop 0)
+2026-05-30 05:54:19,645 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:54:29,896 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:54:29,898 [INFO] ✅ ResearcherAgent 完成: 8 个来源已注册
+2026-05-30 05:54:29,898 [INFO] ✍️  WriterAgent 开始: JASS 常用函数参考 (loop 0)
+2026-05-30 05:54:29,899 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:54:44,449 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:54:44,451 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-05-30 05:54:44,451 [INFO] ✍️  WriterAgent 开始: vJASS 进阶编程 (loop 0)
+2026-05-30 05:54:44,452 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:54:47,285 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:54:47,287 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:54:48,452 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:54:48,454 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:55:07,764 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:55:07,766 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:55:10,284 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:55:10,286 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:55:11,928 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:55:11,931 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:55:31,064 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:55:31,066 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:55:31,509 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:55:31,511 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:55:37,920 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:55:37,921 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:55:55,689 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:55:55,690 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:55:56,833 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:55:56,835 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:56:04,967 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:56:04,969 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:56:25,300 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:56:25,302 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:56:27,541 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:56:27,543 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:56:28,384 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:56:28,386 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:56:49,758 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:56:49,760 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:56:51,740 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:56:51,741 [INFO] ✅ WriterAgent 完成: 9457 字符, 4/4 来源被引用
+2026-05-30 05:56:51,742 [INFO] 🔎 ReviewerAgent 开始: JASS 脚本基础入门
+2026-05-30 05:56:51,742 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:57:02,525 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:57:02,526 [INFO] ✅ WriterAgent 完成: 10605 字符, 5/8 来源被引用
+2026-05-30 05:57:02,526 [INFO] 🔎 ReviewerAgent 开始: JASS 常用函数参考
+2026-05-30 05:57:02,527 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:57:06,846 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:57:06,847 [INFO] ✅ WriterAgent 完成: 13013 字符, 5/6 来源被引用
+2026-05-30 05:57:06,848 [INFO] 🔎 ReviewerAgent 开始: vJASS 进阶编程
+2026-05-30 05:57:06,849 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:57:15,502 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:57:15,503 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-30 05:57:15,503 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-30 05:57:15,503 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-30 05:57:15,504 [INFO] 📄 文章写入: docs/scripting/jass-脚本基础入门.md
+2026-05-30 05:57:15,505 [INFO] ✅ topics.json 已更新: jass-basics → completed
+2026-05-30 05:57:15,505 [INFO] 📐 PlannerAgent 开始: Lua 脚本基础（重制版）
+2026-05-30 05:57:15,506 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:57:29,420 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:57:29,421 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 20 column 36 (char 718)
+2026-05-30 05:57:29,421 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-30 05:57:29,421 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-30 05:57:29,422 [INFO] 📄 文章写入: docs/scripting/vjass-进阶编程.md

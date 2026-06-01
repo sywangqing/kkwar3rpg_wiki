@@ -444,3 +444,164 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-05-08 04:59:59,173 [INFO]   [incomplete_section] 进阶学习资源推荐...
 2026-05-08 04:59:59,173 [INFO] ✅ 质量通过 (loop 0): score=0.81
 2026-05-08 04:59:59,173 [INFO] 📄 文章写入: docs/scripting/lua-脚本基础重制版.md
+2026-05-30 05:57:15,505 [INFO] 📐 PlannerAgent 开始: Lua 脚本基础（重制版）
+2026-05-30 05:57:15,506 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:57:29,420 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:57:29,421 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 20 column 36 (char 718)
+2026-05-30 05:57:29,421 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-30 05:57:29,421 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-30 05:57:29,422 [INFO] 📄 文章写入: docs/scripting/vjass-进阶编程.md
+2026-05-30 05:57:29,423 [INFO] ✅ topics.json 已更新: vjass-intro → completed
+2026-05-30 05:57:29,567 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:57:29,568 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-30 05:57:29,569 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-30 05:57:29,569 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-30 05:57:29,569 [INFO] 📄 文章写入: docs/scripting/jass-常用函数参考.md
+2026-05-30 05:57:29,571 [INFO] ✅ topics.json 已更新: jass-functions → completed
+2026-05-30 05:57:35,487 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:57:35,488 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-30 05:57:35,489 [INFO] 🔍 ResearcherAgent 开始: Lua 脚本基础（重制版） (21 查询)
+2026-05-30 05:57:35,489 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:57:37,848 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:57:37,849 [INFO] 🌐 双语查询: EN='Warcraft III Reforged Lua scripting tutorial for beginners' | ZH='Warcraft III Reforged Lua scripting tutorial for beginners'
+2026-05-30 05:57:37,981 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:57:37,996 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:57:38,042 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Reforged%20Lua%20scripting%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:57:38,053 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Reforged%20Lua%20scripting%20tutorial%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:57:38,356 [INFO] response: https://www.google.com/search?q=Warcraft+III+Reforged+Lua+scripting+tutorial+for+beginners&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 05:57:39,946 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Reforged+Lua+scripting+tutorial+for+beginners&limit=1 200
+2026-05-30 05:57:39,946 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Reforged Lua scripting tuto
+2026-05-30 05:57:40,020 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Reforged+Lua+scripting+tutorial+for+beginners&limit=1 200
+2026-05-30 05:57:40,020 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Reforged Lua scripting tuto
+2026-05-30 05:57:40,021 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:57:42,294 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:57:42,296 [INFO] 🌐 双语查询: EN='魔兽争霸3 重制版 Lua脚本 完全入门教程' | ZH='魔兽争霸3 重制版 Lua脚本 完全入门教程'
+2026-05-30 05:57:42,426 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:57:42,445 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:57:42,484 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%E8%84%9A%E6%9C%AC%20%E5%AE%8C%E5%85%A8%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:57:42,511 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%E8%84%9A%E6%9C%AC%20%E5%AE%8C%E5%85%A8%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:57:42,538 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC+%E5%AE%8C%E5%85%A8%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:57:42,589 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC+%E5%AE%8C%E5%85%A8%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:57:43,026 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC+%E5%AE%8C%E5%85%A8%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 05:57:43,061 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 重制版 Lua脚本 完全入门教程
+2026-05-30 05:57:47,484 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC+%E5%AE%8C%E5%85%A8%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B) > operation timed out'))
+2026-05-30 05:57:47,866 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:57:48,231 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:57:48,310 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC+%E5%AE%8C%E5%85%A8%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&web=1&searchid=9636853 200
+2026-05-30 05:57:48,342 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 重制版 Lua脚本 完全入门教程
+2026-05-30 05:57:48,343 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:57:51,944 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:57:51,945 [INFO] 🌐 双语查询: EN='WC3 World Editor Lua scripting guide 2024' | ZH='WC3 World Editor Lua scripting guide 2024'
+2026-05-30 05:57:52,070 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:57:52,073 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:57:52,131 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20Lua%20scripting%20guide%202024) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:57:52,138 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20Lua%20scripting%20guide%202024) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:57:52,189 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+Lua+scripting+guide+2024&limit=1 200
+2026-05-30 05:57:52,247 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+Lua+scripting+guide+2024&limit=1 200
+2026-05-30 05:57:52,253 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+Lua+scripting+guide+2024&source=web 429
+2026-05-30 05:57:52,273 [INFO] response: https://search.yahoo.com/search;_ylt=8H_9xRPV6P5XIZbj3s2GX7G7;_ylu=5Npa-XXuFsP1a3pTTX1P8GXDeMfDoSQKB_aLujunAU4dorw?p=WC3+World+Editor+Lua+scripting+guide+2024 200
+2026-05-30 05:57:52,353 [INFO] response: https://search.yahoo.com/search;_ylt=yqhTbzMzXST8TQgyykv555VX;_ylu=lnTegSBgU2WdcLO6LBnj-hYhIT9VdQ1Xg7pGEtuJ3APucnI?p=WC3+World+Editor+Lua+scripting+guide+2024 200
+2026-05-30 05:57:52,384 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+Lua+scripting+guide+2024&source=web 429
+2026-05-30 05:57:52,582 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:57:52,585 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:57:52,891 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:57:52,912 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor Lua scripting guide 202
+2026-05-30 05:57:53,086 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:57:53,109 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor Lua scripting guide 202
+2026-05-30 05:57:53,110 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:57:55,714 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:57:55,715 [INFO] 🌐 双语查询: EN='Warcraft III Lua scripting introduction' | ZH='Warcraft III Lua scripting introduction'
+2026-05-30 05:57:55,844 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:57:55,848 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:57:55,905 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Lua%20scripting%20introduction) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:57:55,909 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20Lua%20scripting%20introduction) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:57:55,989 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Lua+scripting+introduction&limit=1 200
+2026-05-30 05:57:55,992 [INFO] response: https://search.brave.com/search?q=Warcraft+III+Lua+scripting+introduction&source=web 429
+2026-05-30 05:57:56,086 [INFO] response: https://search.yahoo.com/search;_ylt=8_hf4fh-5YZi08w9_Q79196j;_ylu=6mdVbMKvUVNNyAxdoFWlmEKrfKjI7596OvbEFkm5SfOa6uk?p=Warcraft+III+Lua+scripting+introduction 200
+2026-05-30 05:57:56,615 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+Lua+scripting+introduction&limit=1 200
+2026-05-30 05:57:56,953 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+Lua+scripting+introduction&web=1&searchid=2024088 200
+2026-05-30 05:57:56,989 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Lua scripting introduction
+2026-05-30 05:58:00,906 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=Warcraft+III+Lua+scripting+introduction) > operation timed out'))
+2026-05-30 05:58:00,996 [INFO] response: https://search.brave.com/search?q=Warcraft+III+Lua+scripting+introduction&source=web 429
+2026-05-30 05:58:01,637 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III Lua scripting introduction
+2026-05-30 05:58:01,639 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:58:04,925 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:58:04,926 [INFO] 🌐 双语查询: EN='魔兽争霸3 重制版 Lua脚本入门' | ZH='魔兽争霸3 重制版 Lua脚本入门'
+2026-05-30 05:58:05,032 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:58:05,034 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:58:05,074 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:58:05,095 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E9%87%8D%E5%88%B6%E7%89%88%20Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:58:05,187 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-30 05:58:05,259 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-30 05:58:06,034 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 重制版 Lua脚本入门
+2026-05-30 05:58:10,076 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8) > operation timed out'))
+2026-05-30 05:58:10,918 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E9%87%8D%E5%88%B6%E7%89%88+Lua%E8%84%9A%E6%9C%AC%E5%85%A5%E9%97%A8&web=1&searchid=5212499 200
+2026-05-30 05:58:10,944 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 重制版 Lua脚本入门
+2026-05-30 05:58:10,945 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:58:14,153 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:58:14,154 [INFO] 🌐 双语查询: EN='WC3 Reforged Lua vs triggers advantages' | ZH='WC3 Reforged Lua vs triggers advantages'
+2026-05-30 05:58:14,256 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:58:14,258 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:58:14,296 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20Reforged%20Lua%20vs%20triggers%20advantages) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:58:14,298 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20Reforged%20Lua%20vs%20triggers%20advantages) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:58:14,387 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+Reforged+Lua+vs+triggers+advantages&limit=1 200
+2026-05-30 05:58:14,450 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+Reforged+Lua+vs+triggers+advantages&limit=1 200
+2026-05-30 05:58:14,878 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=E0061E88EC5334A597B434CE97A8627DB71402062927D12E950D348E630E0036A095486CB38B17776A87913BC71380B59A3612965AC092782B2B821FAAF6532B6776A8E42FF29E6895A9FE4E4E6471E21355415204DF1B39D8C20D12107796FC0BC9128A391AC4400A3BE41C1ED137F37FEC73A38223A1ACF7395BA238A8D84C98EB9AE8ADD7C9053E46C0B863F1C3B307FBDF0CA893DE348B07E59F0E9342BCFD31B5A682F25C9A3EE3BE1F5E66642283AAFCC2EE48402C99E8E5A0D0EF3E104778DDAE4DD6B5F600E329A6756DF84DB46F3E2F10B09B047C0B5986F0957A93D814E08539C60378754A3F751A4DB80BBF4D5241&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzK1JlZm9yZ2VkK0x1YSt2cyt0cmlnZ2VycythZHZhbnRhZ2VzJndlYj0xJnNlYXJjaGlkPTYwMjYxMjA%2C_ce8c483c93b72f1b516273f43f51740f&t=2%252F1780120694%252F830fede9f2662663596b43aeaac4ccba&u=8781413157655700380&s=541a5fe854339bb3c8f6c27550094980 200
+2026-05-30 05:58:14,888 [INFO] response: https://yandex.com/showcaptcha?cc=1&form-fb-hint=8.148&mt=483F063FC5F3AA505010F212F28A5C876199400CD27FF64A6626854ACE3B6D105E6A8FBDAB5769C6E91D9B741538A2F89132F2FFEB95F17D71E866158E3A9D8912DA945BD52BC0D42BF57541E7A279295877EBE2E7B499866C41B2DB5DC87F2377D3B5B8311D75758AD0477BE69DF02EFE5B37759DB240FBBF580CEC2367954621CCD5C0466DD0F07D472C3493674CF7B30008A298846ECB4860B22D010883CAC8956A9E12EA38AD670A3A5C974EE51674B8D3B7EBEAEEF36407FCC465A92A27DDD9667CF1098683A930EE6662C757270BF865D21D5A066543ABC1DCE648DBAD2727DC733E8A211ED956F8D2B7CCD2AE8D7A7498&retpath=aHR0cHM6Ly95YW5kZXguY29tL3NlYXJjaC9zaXRlP3RleHQ9V0MzK1JlZm9yZ2VkK0x1YSt2cyt0cmlnZ2VycythZHZhbnRhZ2VzJndlYj0xJnNlYXJjaGlkPTEwNTQ4NTc%2C_9a58c0a31553b6a393036b98fac640f0&t=2%252F1780120694%252Fd7b1585008da7031cc4cf1967638d59b&u=8781413158259680186&s=45b4b75938ede4a42996e3b53720d034 200
+2026-05-30 05:58:14,990 [INFO] response: https://search.yahoo.com/search;_ylt=wp6roHJwupsOFrlCbxmT02A9;_ylu=LxF4qTp5m-6eRzSPIzZ-u26y9-ogT6mDJQ5ZsjQa2Do_Xw8?p=WC3+Reforged+Lua+vs+triggers+advantages 200
+2026-05-30 05:58:15,278 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:58:15,646 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:58:15,667 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 Reforged Lua vs triggers advantages
+2026-05-30 05:58:15,886 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 Reforged Lua vs triggers advantages
+2026-05-30 05:58:15,887 [INFO]   搜索阶段：收集到 41 条候选结果
+2026-05-30 05:58:15,942 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/forums/scripting-tutorials.280/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/forums/scripting-tutorials.280/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:58:15,944 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/getting-started-with-lua-scripting-in-wc3-maps.315970/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/getting-started-with-lua-scripting-in-wc3-maps.315970/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:58:15,984 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/any-tutorial-on-how-to-start-using-lua-scripts.357091/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/any-tutorial-on-how-to-start-using-lua-scripts.357091/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:58:16,019 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/wip-introducing-sharpforge-a-c-to-lua-toolchain.371979/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/wip-introducing-sharpforge-a-c-to-lua-toolchain.371979/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:58:16,025 [WARNING] ⚠️  抓取失败，已忽略: https://huimeiye.artstation.com/projects/Ya5WLb — Client error '403 Forbidden' for url 'https://huimeiye.artstation.com/projects/Ya5WLb'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:58:17,591 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/gitblog_01120/article/details/160753543 — Server error '521 ' for url 'https://blog.csdn.net/gitblog_01120/article/details/160753543'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-30 05:58:17,593 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:58:39,962 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:58:39,963 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-05-30 05:58:39,963 [INFO] ✍️  WriterAgent 开始: Lua 脚本基础（重制版） (loop 0)
+2026-05-30 05:58:39,965 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:58:59,106 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:58:59,108 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:59:19,946 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:59:19,948 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:59:45,945 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:59:45,947 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 06:00:02,579 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 06:00:02,581 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 06:00:29,478 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 06:00:29,480 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 06:00:54,672 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 06:00:54,673 [INFO] ✅ WriterAgent 完成: 9068 字符, 4/5 来源被引用
+2026-05-30 06:00:54,673 [INFO] 🔎 ReviewerAgent 开始: Lua 脚本基础（重制版）
+2026-05-30 06:00:54,674 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 06:01:19,328 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 06:01:19,330 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 68 (char 250)
+2026-05-30 06:01:19,330 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-30 06:01:19,330 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-30 06:01:19,330 [INFO] 📄 文章写入: docs/scripting/lua-脚本基础重制版.md

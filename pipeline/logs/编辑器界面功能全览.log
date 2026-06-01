@@ -1101,3 +1101,399 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
 2026-04-28 13:33:32,332 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
 2026-04-28 13:33:32,332 [INFO] ✅ 质量通过 (loop 0): score=0.72
 2026-04-28 13:33:32,333 [INFO] 📄 文章写入: docs/getting-started/编辑器界面功能全览.md
+2026-05-29 20:23:43,943 [INFO] 📐 PlannerAgent 开始: 编辑器界面功能全览
+2026-05-29 20:23:43,944 [INFO] 📐 PlannerAgent 开始: 创建第一张 RPG 地图
+2026-05-29 20:23:43,959 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:23:43,960 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:23:43,960 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:01,940 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:24:01,951 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-29 20:24:01,952 [INFO] 🔍 ResearcherAgent 开始: War3 地图编辑器安装与配置 (21 查询)
+2026-05-29 20:24:01,954 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:02,247 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e2afd7b69e2753805281bec96e"}
+2026-05-29 20:24:02,247 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor installation setup guide' | ZH='Warcraft 3 World Editor installation setup guide'
+2026-05-29 20:24:03,079 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:03,084 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:03,219 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20installation%20setup%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:03,271 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20installation%20setup%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:03,534 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+installation+setup+guide&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-29 20:24:03,585 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+installation+setup+guide 403
+2026-05-29 20:24:04,559 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+installation+setup+guide&limit=1 200
+2026-05-29 20:24:04,609 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+installation+setup+guide&limit=1 200
+2026-05-29 20:24:04,610 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor installation set
+2026-05-29 20:24:04,742 [INFO] response: https://search.yahoo.com/search;_ylt=PgQ7Ixjdmmiq2IKWlW6JGD_7;_ylu=WsMbegMk_qoh2kAf-bEpt3gmWopUTPdNz9I4XjNnCCgoRz0?p=Warcraft+3+World+Editor+installation+setup+guide 200
+2026-05-29 20:24:04,832 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:24:04,833 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-29 20:24:04,833 [INFO] 🔍 ResearcherAgent 开始: 编辑器界面功能全览 (21 查询)
+2026-05-29 20:24:04,834 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:04,867 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e4bed88e96b00cf91f73779d3f"}
+2026-05-29 20:24:04,867 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor complete beginner guide' | ZH='Warcraft 3 World Editor complete beginner guide'
+2026-05-29 20:24:04,997 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:05,017 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+installation+setup+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:24:05,019 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:05,035 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor installation set
+2026-05-29 20:24:05,036 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:05,051 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20complete%20beginner%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:05,072 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20complete%20beginner%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:05,072 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e5753ed808cf7103d4239e9362"}
+2026-05-29 20:24:05,073 [INFO] 🌐 双语查询: EN='魔兽争霸3地图编辑器安装配置新手教程' | ZH='魔兽争霸3地图编辑器安装配置新手教程'
+2026-05-29 20:24:05,147 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+complete+beginner+guide&limit=1 200
+2026-05-29 20:24:05,152 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:05,172 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:05,196 [INFO] response: https://search.yahoo.com/search;_ylt=PsOKdnMCSILLuq9TedjN2UU7;_ylu=KQXFjpKRx_8-Y9OTMXBbVvg2buRTPKZTlvVtLx_MOoE2C_I?p=Warcraft+3+World+Editor+complete+beginner+guide 200
+2026-05-29 20:24:05,206 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:05,220 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:05,294 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:24:05,347 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:24:05,515 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:24:05,712 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+complete+beginner+guide&source=web 200
+2026-05-29 20:24:05,731 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:24:05,732 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-29 20:24:05,732 [INFO] 🔍 ResearcherAgent 开始: 创建第一张 RPG 地图 (21 查询)
+2026-05-29 20:24:05,733 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:05,771 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e546e7b399d5a63355bb684e17"}
+2026-05-29 20:24:05,771 [INFO] 🌐 双语查询: EN='Warcraft 3 RPG map making tutorial for beginners 2024' | ZH='Warcraft 3 RPG map making tutorial for beginners 2024'
+2026-05-29 20:24:05,817 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&source=web 200
+2026-05-29 20:24:05,823 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3地图编辑器安装配置新手教程
+2026-05-29 20:24:05,842 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:05,851 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:05,879 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20map%20making%20tutorial%20for%20beginners%202024) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:05,891 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20RPG%20map%20making%20tutorial%20for%20beginners%202024) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:05,943 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:24:05,955 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+complete+beginner+guide&limit=1 200
+2026-05-29 20:24:05,956 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor complete beginne
+2026-05-29 20:24:05,978 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+RPG+map+making+tutorial+for+beginners+2024&limit=1 200
+2026-05-29 20:24:06,024 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:24:06,038 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor complete beginne
+2026-05-29 20:24:06,039 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:06,050 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+RPG+map+making+tutorial+for+beginners+2024&limit=1 200
+2026-05-29 20:24:06,075 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e64abff2f0f6f72be3e917bdf7"}
+2026-05-29 20:24:06,075 [INFO] 🌐 双语查询: EN='魔兽争霸3地图编辑器新手教程完全指南' | ZH='魔兽争霸3地图编辑器新手教程完全指南'
+2026-05-29 20:24:06,227 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:06,228 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:06,270 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:06,271 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:06,280 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&web=1&searchid=9024679 200
+2026-05-29 20:24:06,306 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3地图编辑器安装配置新手教程
+2026-05-29 20:24:06,308 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:06,327 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:24:06,338 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-29 20:24:06,348 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e672ea7e2ef11943621cb4c7e3"}
+2026-05-29 20:24:06,349 [INFO] 🌐 双语查询: EN='WC3地图编辑器入门基础教程' | ZH='WC3地图编辑器入门基础教程'
+2026-05-29 20:24:06,351 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 RPG map making tutorial for b
+2026-05-29 20:24:06,398 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-29 20:24:06,414 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:06,415 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:06,451 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:06,452 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:06,505 [INFO] response: https://search.yahoo.com/search;_ylt=lBvM5zA4bgmDW0DSp5fUh67u;_ylu=bGfGKCj3q7fwx3yIVPcekASWB6GIieoIbodxqHgnYs-sUO8?p=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97 200
+2026-05-29 20:24:06,604 [INFO] response: https://search.yahoo.com/search;_ylt=7UHknNFGn6c5Cbk2xuft4A7r;_ylu=zcRqWiBrKR6mlxaDK8fp4wvjvV6_CxTWnvbKnlROKlTxF3w?p=WC3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B 200
+2026-05-29 20:24:06,618 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:24:06,703 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:24:06,793 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:24:06,810 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3地图编辑器新手教程完全指南
+2026-05-29 20:24:06,940 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 RPG map making tutorial for b
+2026-05-29 20:24:06,942 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:06,970 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e6acf690a6aaf2c438cc0a9865"}
+2026-05-29 20:24:06,970 [INFO] 🌐 双语查询: EN='魔兽争霸3 RPG 地图制作 入门 完全教程' | ZH='魔兽争霸3 RPG 地图制作 入门 完全教程'
+2026-05-29 20:24:07,029 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:07,030 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:07,071 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20RPG%20%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%20%E5%85%A5%E9%97%A8%20%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:07,109 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20RPG%20%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%20%E5%85%A5%E9%97%A8%20%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:07,131 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+RPG+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8+%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:24:07,171 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+RPG+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E5%85%A5%E9%97%A8+%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:24:07,197 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:24:07,221 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3地图编辑器新手教程完全指南
+2026-05-29 20:24:07,223 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:07,236 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3地图编辑器入门基础教程
+2026-05-29 20:24:07,262 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e770d5908baa346657b1e5bbd2"}
+2026-05-29 20:24:07,262 [INFO] 🌐 双语查询: EN='How to make Warcraft 3 map first time tutorial' | ZH='How to make Warcraft 3 map first time tutorial'
+2026-05-29 20:24:07,301 [INFO] response: https://search.brave.com/search?q=WC3%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B&source=web 200
+2026-05-29 20:24:07,307 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3地图编辑器入门基础教程
+2026-05-29 20:24:07,309 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:07,323 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:07,351 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e73bf9fc6488d25cc79ba631b1"}
+2026-05-29 20:24:07,351 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor tutorial beginner' | ZH='Warcraft 3 World Editor tutorial beginner'
+2026-05-29 20:24:07,356 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:07,361 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=How%20to%20make%20Warcraft%203%20map%20first%20time%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:07,426 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=How%20to%20make%20Warcraft%203%20map%20first%20time%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:07,427 [INFO] response: https://grokipedia.com/api/typeahead?query=How+to+make+Warcraft+3+map+first+time+tutorial&limit=1 200
+2026-05-29 20:24:07,452 [INFO] response: https://search.brave.com/search?q=How+to+make+Warcraft+3+map+first+time+tutorial&source=web 429
+2026-05-29 20:24:07,472 [INFO] response: https://grokipedia.com/api/typeahead?query=How+to+make+Warcraft+3+map+first+time+tutorial&limit=1 200
+2026-05-29 20:24:07,496 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:07,505 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:07,506 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:24:07,513 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 RPG 地图制作 入门 完全教程
+2026-05-29 20:24:07,545 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20tutorial%20beginner) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:07,575 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20tutorial%20beginner) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:07,598 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+tutorial+beginner&limit=1 200
+2026-05-29 20:24:07,652 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+tutorial+beginner&limit=1 200
+2026-05-29 20:24:07,769 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+tutorial+beginner&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-29 20:24:07,787 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor tutorial beginne
+2026-05-29 20:24:07,908 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 RPG 地图制作 入门 完全教程
+2026-05-29 20:24:07,909 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:07,963 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e71477378ff8be1c1b63309bea"}
+2026-05-29 20:24:07,963 [INFO] 🌐 双语查询: EN='World Editor guide for new map makers' | ZH='World Editor guide for new map makers'
+2026-05-29 20:24:07,994 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+tutorial+beginner 403
+2026-05-29 20:24:08,174 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:08,179 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:08,212 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20guide%20for%20new%20map%20makers) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:08,253 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20guide%20for%20new%20map%20makers) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:08,276 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+guide+for+new+map+makers&limit=1 200
+2026-05-29 20:24:08,284 [INFO] response: https://yandex.com/search/site/?text=How+to+make+Warcraft+3+map+first+time+tutorial&web=1&searchid=5453603 200
+2026-05-29 20:24:08,287 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | How to make Warcraft 3 map first time tu
+2026-05-29 20:24:08,293 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:24:08,303 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+guide+for+new+map+makers&limit=1 200
+2026-05-29 20:24:08,388 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | How to make Warcraft 3 map first time tu
+2026-05-29 20:24:08,389 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:08,422 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e851f318ccd3a2495a73fa1d3b"}
+2026-05-29 20:24:08,422 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor how to open launch' | ZH='Warcraft 3 World Editor how to open launch'
+2026-05-29 20:24:08,492 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:08,501 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:08,533 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20how%20to%20open%20launch) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:08,560 [INFO] response: https://www.google.com/search?q=World+Editor+guide+for+new+map+makers&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-29 20:24:08,571 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20how%20to%20open%20launch) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:08,580 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor guide for new map makers
+2026-05-29 20:24:08,597 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+how+to+open+launch&limit=1 200
+2026-05-29 20:24:08,617 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:24:08,626 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor guide for new map makers
+2026-05-29 20:24:08,627 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:08,651 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+how+to+open+launch&limit=1 200
+2026-05-29 20:24:08,660 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e857e8924e8321d3f5039fbff4"}
+2026-05-29 20:24:08,660 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor 入门教程' | ZH='Warcraft 3 World Editor 入门教程'
+2026-05-29 20:24:08,734 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:08,759 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:08,763 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:08,793 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:08,887 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor tutorial beginne
+2026-05-29 20:24:08,889 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:08,928 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e8f5114add402b60cb81164be6"}
+2026-05-29 20:24:08,928 [INFO] 🌐 双语查询: EN='魔兽争霸3地图编辑器是什么' | ZH='魔兽争霸3地图编辑器是什么'
+2026-05-29 20:24:08,948 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+how+to+open+launch 403
+2026-05-29 20:24:08,993 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-29 20:24:09,014 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:09,030 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:09,048 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:09,064 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:09,134 [INFO] response: https://www.mojeek.com/search?q=Warcraft+3+World+Editor+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 403
+2026-05-29 20:24:09,148 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:24:09,223 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-29 20:24:09,235 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+how+to+open+launch&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-29 20:24:09,256 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor how to open laun
+2026-05-29 20:24:09,375 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+World+Editor+how+to+open+launch&web=1&searchid=7166965 200
+2026-05-29 20:24:09,398 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor how to open laun
+2026-05-29 20:24:09,399 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:09,433 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e92a901f5adf009003c715c637"}
+2026-05-29 20:24:09,433 [INFO] 🌐 双语查询: EN='魔兽争霸3地图编辑器怎么打开' | ZH='魔兽争霸3地图编辑器怎么打开'
+2026-05-29 20:24:09,504 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:09,530 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:09,532 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:09,532 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:24:09,556 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88&limit=1 200
+2026-05-29 20:24:09,566 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:09,624 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88&limit=1 200
+2026-05-29 20:24:09,625 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3地图编辑器是什么
+2026-05-29 20:24:09,638 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80&limit=1 200
+2026-05-29 20:24:09,693 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80&limit=1 200
+2026-05-29 20:24:09,733 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-29 20:24:09,752 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3地图编辑器怎么打开
+2026-05-29 20:24:09,788 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%98%AF%E4%BB%80%E4%B9%88&web=1&searchid=9525719 200
+2026-05-29 20:24:09,817 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3地图编辑器是什么
+2026-05-29 20:24:09,819 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:09,862 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928e95c4244db37c76148f3216d55"}
+2026-05-29 20:24:09,862 [INFO] 🌐 双语查询: EN='WC3 World Editor introduction' | ZH='WC3 World Editor introduction'
+2026-05-29 20:24:09,920 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:09,938 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:09,943 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E5%9C%B0%E5%9B%BE%E7%BC%96%E8%BE%91%E5%99%A8%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80 403
+2026-05-29 20:24:09,951 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20introduction) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:09,971 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20introduction) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:10,027 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:24:10,189 [INFO] response: https://search.brave.com/search?q=WC3+World+Editor+introduction&source=web 429
+2026-05-29 20:24:10,545 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:24:10,554 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3地图编辑器怎么打开
+2026-05-29 20:24:10,555 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:10,588 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928eac0a6e13c38b435d8a7053ff5"}
+2026-05-29 20:24:10,588 [INFO] 🌐 双语查询: EN='WC3 TFT Editor shortcut exe location' | ZH='WC3 TFT Editor shortcut exe location'
+2026-05-29 20:24:10,645 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:10,649 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:10,688 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20TFT%20Editor%20shortcut%20exe%20location) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:10,711 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20TFT%20Editor%20shortcut%20exe%20location) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:10,770 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+TFT+Editor+shortcut+exe+location&limit=1 200
+2026-05-29 20:24:10,955 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+introduction&limit=1 200
+2026-05-29 20:24:10,972 [INFO] response: https://www.google.com/search?q=WC3+TFT+Editor+shortcut+exe+location&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:24:10,991 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+introduction&limit=1 200
+2026-05-29 20:24:10,992 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor introduction
+2026-05-29 20:24:11,029 [INFO] response: https://www.google.com/search?q=WC3+TFT+Editor+shortcut+exe+location&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-29 20:24:11,054 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 TFT Editor shortcut exe location
+2026-05-29 20:24:11,085 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:24:11,121 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:24:11,142 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:24:11,156 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+TFT+Editor+shortcut+exe+location&limit=1 200
+2026-05-29 20:24:11,157 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 TFT Editor shortcut exe location
+2026-05-29 20:24:11,157 [INFO]   搜索阶段：收集到 42 条候选结果
+2026-05-29 20:24:11,198 [INFO] response: https://search.yahoo.com/search;_ylt=c5eb0o_1yx_eTV_thidiLhjw;_ylu=bbU6LzeAwwDhVn5NclMXPBKKxc5ewdgJwcZUWpp4Q3I4gAk?p=Warcraft+3+World+Editor+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B 200
+2026-05-29 20:24:11,297 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/ — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:24:11,329 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&source=web 429
+2026-05-29 20:24:11,426 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-29 20:24:11,446 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor 入门教程
+2026-05-29 20:24:11,486 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:24:11,494 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor introduction
+2026-05-29 20:24:11,494 [INFO]   搜索阶段：收集到 39 条候选结果
+2026-05-29 20:24:11,750 [INFO] response: https://www.google.com/search?q=Warcraft+3+World+Editor+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:24:11,811 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor 入门教程
+2026-05-29 20:24:11,812 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:11,846 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928ebd0630bbe736591d395787484"}
+2026-05-29 20:24:11,846 [INFO] 🌐 双语查询: EN='魔兽争霸3 世界编辑器 基础介绍' | ZH='魔兽争霸3 世界编辑器 基础介绍'
+2026-05-29 20:24:11,906 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:11,911 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:11,941 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:11,946 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:12,243 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-29 20:24:12,363 [INFO] response: https://www.mojeek.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D 403
+2026-05-29 20:24:12,799 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-29 20:24:12,800 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 世界编辑器 基础介绍
+2026-05-29 20:24:12,834 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D&limit=1 200
+2026-05-29 20:24:12,926 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D&source=web 429
+2026-05-29 20:24:13,338 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=28963 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=28963'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:24:13,370 [WARNING] ⚠️  抓取失败，已忽略: https://tieba.baidu.com/p/10649101971 — Client error '403 Forbidden' for url 'https://tieba.baidu.com/p/10649101971'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:24:13,417 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/WC3/comments/u4b0hr/reforged_world_editor_help/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/WC3/comments/u4b0hr/reforged_world_editor_help/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:24:13,688 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:13,852 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D&web=1&searchid=2881745 200
+2026-05-29 20:24:13,883 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 世界编辑器 基础介绍
+2026-05-29 20:24:13,884 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:13,930 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066928ed4c6ced5ef2afeff41fd875e0"}
+2026-05-29 20:24:13,930 [INFO] 🌐 双语查询: EN='WC3 RPG 地图制作 新手教程' | ZH='WC3 RPG 地图制作 新手教程'
+2026-05-29 20:24:14,002 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:14,016 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-29 20:24:14,036 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:14,050 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20RPG%20%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.isxqyskguh5ebhuzwzxdfw3jff.bx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-29 20:24:14,091 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:24:14,093 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:24:14,128 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+RPG+%E5%9C%B0%E5%9B%BE%E5%88%B6%E4%BD%9C+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-29 20:24:14,135 [INFO] response: https://www.startpage.com/ 200
+2026-05-29 20:24:14,413 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:24:14,420 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG 地图制作 新手教程
+2026-05-29 20:24:14,445 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-29 20:24:14,453 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 RPG 地图制作 新手教程
+2026-05-29 20:24:14,453 [INFO]   搜索阶段：收集到 41 条候选结果
+2026-05-29 20:24:15,261 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:15,857 [WARNING] ⚠️  抓取失败，已忽略: https://zhuanlan.zhihu.com/p/32057966 — Client error '403 Forbidden' for url 'https://zhuanlan.zhihu.com/p/32057966'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-29 20:24:18,080 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:39,705 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:24:39,706 [INFO] ✅ ResearcherAgent 完成: 5 个来源已注册
+2026-05-29 20:24:39,707 [INFO] ✍️  WriterAgent 开始: War3 地图编辑器安装与配置 (loop 0)
+2026-05-29 20:24:39,708 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:40,798 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:24:40,799 [INFO] ✅ ResearcherAgent 完成: 6 个来源已注册
+2026-05-29 20:24:40,799 [INFO] ✍️  WriterAgent 开始: 创建第一张 RPG 地图 (loop 0)
+2026-05-29 20:24:40,800 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:24:42,690 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:24:42,692 [INFO] ✅ ResearcherAgent 完成: 7 个来源已注册
+2026-05-29 20:24:42,692 [INFO] ✍️  WriterAgent 开始: 编辑器界面功能全览 (loop 0)
+2026-05-29 20:24:42,693 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:25:03,541 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:25:03,543 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:25:04,585 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:25:04,587 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:25:08,044 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:25:08,046 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:25:26,653 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:25:26,655 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:25:29,187 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:25:29,190 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:25:29,478 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:25:29,480 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:25:46,664 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:25:46,667 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:25:52,249 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:25:52,251 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:25:54,427 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:25:54,429 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:26:06,812 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:26:06,814 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:26:15,813 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:26:15,815 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:26:21,921 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:26:21,923 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:26:25,170 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:26:25,172 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:26:30,137 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:26:30,139 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:26:45,823 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:26:45,824 [INFO] ✅ WriterAgent 完成: 8558 字符, 4/5 来源被引用
+2026-05-29 20:26:45,824 [INFO] 🔎 ReviewerAgent 开始: War3 地图编辑器安装与配置
+2026-05-29 20:26:45,825 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:26:49,802 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:26:49,803 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:26:54,711 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:26:54,712 [INFO] ✅ WriterAgent 完成: 8886 字符, 7/7 来源被引用
+2026-05-29 20:26:54,712 [INFO] 🔎 ReviewerAgent 开始: 编辑器界面功能全览
+2026-05-29 20:26:54,713 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:27:10,660 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:27:10,661 [INFO] ✅ WriterAgent 完成: 9774 字符, 6/6 来源被引用
+2026-05-29 20:27:10,661 [INFO] 🔎 ReviewerAgent 开始: 创建第一张 RPG 地图
+2026-05-29 20:27:10,662 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:27:16,186 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:27:16,188 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-29 20:27:16,188 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-29 20:27:16,188 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-29 20:27:16,188 [INFO] 📄 文章写入: docs/getting-started/war3-地图编辑器安装与配置.md
+2026-05-29 20:27:16,189 [INFO] ✅ topics.json 已更新: editor-installation → completed
+2026-05-29 20:27:16,190 [INFO] 📐 PlannerAgent 开始: 地图属性与基础设置
+2026-05-29 20:27:16,191 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-29 20:27:16,453 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-29 20:27:16,454 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 10 column 26 (char 205)
+2026-05-29 20:27:16,454 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-29 20:27:16,454 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-29 20:27:16,455 [INFO] 📄 文章写入: docs/getting-started/编辑器界面功能全览.md

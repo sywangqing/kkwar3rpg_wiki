@@ -181,3 +181,446 @@ LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
 2026-05-07 19:53:50,373 [INFO] ✅ 质量通过 (loop 0): score=0.83
 2026-05-07 19:53:50,373 [INFO] 📄 文章写入: docs/triggers/触发器变量与数据类型.md
 
+2026-05-30 05:48:50,548 [INFO] 📐 PlannerAgent 开始: 触发器变量与数据类型
+2026-05-30 05:48:50,549 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:48:53,379 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:48:53,380 [INFO] ✅ WriterAgent 完成: 7498 字符, 7/8 来源被引用
+2026-05-30 05:48:53,380 [INFO] 🔎 ReviewerAgent 开始: 触发器条件编写
+2026-05-30 05:48:53,381 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:48:56,153 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:48:56,154 [INFO] ✅ WriterAgent 完成: 10199 字符, 5/6 来源被引用
+2026-05-30 05:48:56,154 [INFO] 🔎 ReviewerAgent 开始: 触发器动作大全
+2026-05-30 05:48:56,155 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:07,539 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:07,540 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-30 05:49:07,540 [INFO] 🔍 ResearcherAgent 开始: 触发器变量与数据类型 (21 查询)
+2026-05-30 05:49:07,541 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:10,849 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:10,850 [INFO] 🌐 双语查询: EN='Warcraft 3 World Editor trigger variables complete guide' | ZH='Warcraft 3 World Editor trigger variables complete guide'
+2026-05-30 05:49:11,087 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:11,090 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:11,151 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20variables%20complete%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:11,155 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20World%20Editor%20trigger%20variables%20complete%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:11,257 [INFO] response: https://search.yahoo.com/search;_ylt=p6CMWWCpZWyllQwacIcwksON;_ylu=HD8JjJGMM1Rw8xFaSVMt-wQEngTE2rCnNW3uQ76VAq_h50E?p=Warcraft+3+World+Editor+trigger+variables+complete+guide 200
+2026-05-30 05:49:11,259 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+variables+complete+guide&limit=1 200
+2026-05-30 05:49:11,342 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+World+Editor+trigger+variables+complete+guide&limit=1 200
+2026-05-30 05:49:11,729 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+variables+complete+guide&source=web 200
+2026-05-30 05:49:11,738 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger variable
+2026-05-30 05:49:11,741 [INFO] response: https://search.brave.com/search?q=Warcraft+3+World+Editor+trigger+variables+complete+guide&source=web 200
+2026-05-30 05:49:11,748 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 World Editor trigger variable
+2026-05-30 05:49:11,749 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:12,776 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:12,777 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting ',' delimiter: line 15 column 40 (char 504)
+2026-05-30 05:49:12,777 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-30 05:49:12,777 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-30 05:49:12,778 [INFO] 📄 文章写入: docs/triggers/触发器条件编写.md
+2026-05-30 05:49:12,779 [INFO] ✅ topics.json 已更新: trigger-conditions → completed
+2026-05-30 05:49:12,780 [INFO] 📐 PlannerAgent 开始: 触发器内存泄漏处理
+2026-05-30 05:49:12,780 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:14,025 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:14,026 [INFO] 🌐 双语查询: EN='War3 触发器 变量 数据类型 入门教程' | ZH='War3 触发器 变量 数据类型 入门教程'
+2026-05-30 05:49:14,163 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:14,164 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:14,373 [INFO] response: https://grokipedia.com/api/typeahead?query=War3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%8F%98%E9%87%8F+%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:49:14,388 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=War3%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%8F%98%E9%87%8F%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:14,411 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=War3%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%8F%98%E9%87%8F%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%20%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:14,459 [INFO] response: https://grokipedia.com/api/typeahead?query=War3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%8F%98%E9%87%8F+%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:49:14,519 [INFO] response: https://search.brave.com/search?q=War3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%8F%98%E9%87%8F+%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&source=web 429
+2026-05-30 05:49:14,794 [INFO] response: https://www.google.com/search?q=War3+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%8F%98%E9%87%8F+%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B+%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 05:49:14,822 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | War3 触发器 变量 数据类型 入门教程
+2026-05-30 05:49:15,093 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | War3 触发器 变量 数据类型 入门教程
+2026-05-30 05:49:15,094 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:16,845 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:16,846 [INFO] ✅ 通过 ReviewerAgent: overall=0.78 (A=0.85 C=0.88 R=0.92 Cit=0.35)
+2026-05-30 05:49:16,846 [INFO]   反馈 5 条:
+2026-05-30 05:49:16,846 [INFO]   [missing_citation] 触发器由三部分组成：**事件（Event）**、**条件（Condition）**和**动作（Action）**。...
+2026-05-30 05:49:16,847 [INFO]   [missing_citation] | **单位动作** | 控制单位的行为 | 移动单位、创建单位、删除单位 |...
+2026-05-30 05:49:16,847 [INFO]   [missing_citation] 在触发器动作列表中找到"对话框-显示"，或者先使用"对话框-创建"来创建一个对话框变量...
+2026-05-30 05:49:16,847 [INFO]   [missing_citation] 在变量编辑器中新建变量时，勾选"数组"选项。数组变量用索引（编号）来访问不同的数据槽。...
+2026-05-30 05:49:16,847 [INFO]   [tone_mismatch] مثالية：用"增加资源"来做任务奖励，比"设置"更灵活...
+2026-05-30 05:49:16,847 [INFO] ✅ 质量通过 (loop 0): score=0.78
+2026-05-30 05:49:16,847 [INFO] 📄 文章写入: docs/triggers/触发器动作大全.md
+2026-05-30 05:49:16,848 [INFO] ✅ topics.json 已更新: trigger-actions → completed
+2026-05-30 05:49:16,849 [INFO] 📐 PlannerAgent 开始: 常用触发器模式与技巧
+2026-05-30 05:49:16,850 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:17,454 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:17,455 [INFO] 🌐 双语查询: EN='WC3 GUI trigger basics for new map makers' | ZH='WC3 GUI trigger basics for new map makers'
+2026-05-30 05:49:17,555 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:17,561 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:17,611 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20GUI%20trigger%20basics%20for%20new%20map%20makers) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:17,625 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20GUI%20trigger%20basics%20for%20new%20map%20makers) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:17,667 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+GUI+trigger+basics+for+new+map+makers&limit=1 200
+2026-05-30 05:49:17,782 [INFO] response: https://search.yahoo.com/search;_ylt=yUzdHp1B54T5xznZ-xUDFqhA;_ylu=S7cfpN1bvbdKKqMicVnHLVQ02OIuG468iFUCJv7ohiB1ZS8?p=WC3+GUI+trigger+basics+for+new+map+makers 200
+2026-05-30 05:49:17,798 [INFO] response: https://search.yahoo.com/search;_ylt=XtIkw6xquSF7uFNqaVbCo3XD;_ylu=GAOA60CbIdg4BKzB_2iNhWAkBs9Aq25UL4YESuTfPZ_ePbw?p=WC3+GUI+trigger+basics+for+new+map+makers 200
+2026-05-30 05:49:18,191 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+GUI+trigger+basics+for+new+map+makers&limit=1 200
+2026-05-30 05:49:18,869 [INFO] response: https://yandex.com/search/site/?text=WC3+GUI+trigger+basics+for+new+map+makers&web=1&searchid=4008090 200
+2026-05-30 05:49:18,903 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 GUI trigger basics for new map maker
+2026-05-30 05:49:18,973 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 GUI trigger basics for new map maker
+2026-05-30 05:49:18,974 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:21,195 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:21,196 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger variables tutorial' | ZH='魔兽争霸3 触发器变量教程'
+2026-05-30 05:49:21,304 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:21,307 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:21,362 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8F%98%E9%87%8F%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:21,370 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20variables%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:21,415 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+variables+tutorial&limit=1 200
+2026-05-30 05:49:21,456 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+variables+tutorial&source=web 429
+2026-05-30 05:49:21,623 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8F%98%E9%87%8F%E6%95%99%E7%A8%8B&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 05:49:21,759 [INFO] response: https://www.google.com/search?q=Warcraft+3+trigger+variables+tutorial&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 05:49:21,773 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger variables tutorial
+2026-05-30 05:49:23,014 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8%E5%8F%98%E9%87%8F%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:49:23,015 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器变量教程
+2026-05-30 05:49:23,016 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:25,321 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:25,322 [INFO] 🌐 双语查询: EN='World Editor 变量 入门' | ZH='World Editor 变量 入门'
+2026-05-30 05:49:25,465 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:25,487 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:25,499 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%8F%98%E9%87%8F%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:25,519 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E5%8F%98%E9%87%8F%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:25,608 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E5%8F%98%E9%87%8F+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-30 05:49:25,609 [INFO] response: https://search.brave.com/search?q=World+Editor+%E5%8F%98%E9%87%8F+%E5%85%A5%E9%97%A8&source=web 429
+2026-05-30 05:49:25,683 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:49:25,693 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E5%8F%98%E9%87%8F+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-30 05:49:25,958 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:49:26,018 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:49:26,039 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 变量 入门
+2026-05-30 05:49:26,256 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:49:26,277 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 变量 入门
+2026-05-30 05:49:26,278 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:29,777 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:29,778 [INFO] 🌐 双语查询: EN='WC3 trigger variable basics for beginners' | ZH='WC3 trigger variable basics for beginners'
+2026-05-30 05:49:29,888 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:29,892 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:29,930 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20variable%20basics%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:29,947 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20variable%20basics%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:29,999 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+trigger+variable+basics+for+beginners&limit=1 200
+2026-05-30 05:49:30,057 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+trigger+variable+basics+for+beginners&limit=1 200
+2026-05-30 05:49:30,070 [INFO] response: https://search.yahoo.com/search;_ylt=LaKR51sNASDFBuIVdZeTBdqw;_ylu=SJvXxZRBoaZfRQeQ10MLLFx1L4NXShgbU4nk1FpQw22f3H8?p=WC3+trigger+variable+basics+for+beginners 200
+2026-05-30 05:49:30,250 [INFO] response: https://www.google.com/search?q=WC3+trigger+variable+basics+for+beginners&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 05:49:30,322 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 trigger variable basics for beginner
+2026-05-30 05:49:30,805 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 trigger variable basics for beginner
+2026-05-30 05:49:30,805 [INFO]   搜索阶段：收集到 35 条候选结果
+2026-05-30 05:49:30,851 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/variables.php — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/variables.php'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:49:30,893 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/gui-trigger-help-map-beginner-map-makers.59156/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/gui-trigger-help-map-beginner-map-makers.59156/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:49:30,928 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/triggers.php — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/triggers.php'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:49:30,960 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/tutorial-variables.126055/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/tutorial-variables.126055/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:49:31,578 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/u013412391/article/details/109005203 — [Errno 104] Connection reset by peer
+2026-05-30 05:49:32,075 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/weixin_42525637/article/details/160972523 — Server error '521 ' for url 'https://blog.csdn.net/weixin_42525637/article/details/160972523'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-30 05:49:33,045 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:34,405 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:34,406 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-30 05:49:34,407 [INFO] 🔍 ResearcherAgent 开始: 常用触发器模式与技巧 (21 查询)
+2026-05-30 05:49:34,413 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:36,341 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:36,343 [INFO] ✅ PlannerAgent 完成: 6 节, 21 个查询
+2026-05-30 05:49:36,343 [INFO] 🔍 ResearcherAgent 开始: 触发器内存泄漏处理 (21 查询)
+2026-05-30 05:49:36,344 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:37,274 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:37,275 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger system tutorial' | ZH='魔兽争霸3触发系统教程'
+2026-05-30 05:49:37,522 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:37,524 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:37,566 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20system%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:37,590 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E8%A7%A6%E5%8F%91%E7%B3%BB%E7%BB%9F%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:37,631 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+system+tutorial&limit=1 200
+2026-05-30 05:49:37,661 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E8%A7%A6%E5%8F%91%E7%B3%BB%E7%BB%9F%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:49:37,679 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E8%A7%A6%E5%8F%91%E7%B3%BB%E7%BB%9F%E6%95%99%E7%A8%8B&source=web 429
+2026-05-30 05:49:37,969 [INFO] response: https://www.google.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%E8%A7%A6%E5%8F%91%E7%B3%BB%E7%BB%9F%E6%95%99%E7%A8%8B&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 05:49:37,988 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3触发系统教程
+2026-05-30 05:49:38,473 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+system+tutorial&web=1&searchid=4437340 200
+2026-05-30 05:49:38,498 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger system tutorial
+2026-05-30 05:49:38,500 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:38,522 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:38,523 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger memory leak tutorial' | ZH='Warcraft 3 trigger memory leak tutorial'
+2026-05-30 05:49:38,647 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:38,650 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:38,706 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20memory%20leak%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:38,759 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+memory+leak+tutorial&limit=1 200
+2026-05-30 05:49:39,067 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20memory%20leak%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:39,325 [INFO] response: https://www.google.com/search?q=Warcraft+3+trigger+memory+leak+tutorial&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-30 05:49:39,341 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger memory leak tutorial
+2026-05-30 05:49:39,511 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+memory+leak+tutorial&limit=1 200
+2026-05-30 05:49:40,555 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:40,556 [INFO] 🌐 双语查询: EN='World Editor 触发器 完全指南' | ZH='World Editor 触发器 完全指南'
+2026-05-30 05:49:40,664 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:40,669 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:40,707 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:40,722 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:40,814 [INFO] response: https://search.yahoo.com/search;_ylt=GidkOZptJfFXQuYN8k_Xj0US;_ylu=jdjcBxd19SOCp3aPK5N_cWe_QM654DXu3sO5me7eBso8iBc?p=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97 200
+2026-05-30 05:49:40,860 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:49:41,153 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-30 05:49:41,222 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-30 05:49:41,238 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:49:41,261 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器 完全指南
+2026-05-30 05:49:41,508 [INFO] response: https://search.brave.com/search?q=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97&source=web 429
+2026-05-30 05:49:41,804 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:49:42,131 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:49:42,153 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器 完全指南
+2026-05-30 05:49:42,154 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:43,707 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=Warcraft+3+trigger+memory+leak+tutorial) > operation timed out'))
+2026-05-30 05:49:43,938 [INFO] response: https://search.yahoo.com/search;_ylt=miQyKl6d-8I2JffZ5WA8-6Hw;_ylu=s-37JcYVxs4nJnoxAmTWfBceujMBZ4mdeOhuNHLnILop0vY?p=Warcraft+3+trigger+memory+leak+tutorial 200
+2026-05-30 05:49:43,952 [INFO] response: https://www.google.com/search?q=Warcraft+3+trigger+memory+leak+tutorial&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 05:49:43,964 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger memory leak tutorial
+2026-05-30 05:49:43,965 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:45,275 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:45,276 [INFO] 🌐 双语查询: EN='WC3 JASS vs GUI trigger comparison' | ZH='WC3 JASS vs GUI trigger comparison'
+2026-05-30 05:49:45,475 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:45,481 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:45,515 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20JASS%20vs%20GUI%20trigger%20comparison) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:45,519 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20JASS%20vs%20GUI%20trigger%20comparison) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:45,573 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+JASS+vs+GUI+trigger+comparison&limit=1 200
+2026-05-30 05:49:45,600 [INFO] response: https://search.brave.com/search?q=WC3+JASS+vs+GUI+trigger+comparison&source=web 429
+2026-05-30 05:49:45,625 [INFO] response: https://search.brave.com/search?q=WC3+JASS+vs+GUI+trigger+comparison&source=web 429
+2026-05-30 05:49:45,631 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+JASS+vs+GUI+trigger+comparison&limit=1 200
+2026-05-30 05:49:46,438 [INFO] response: https://yandex.com/search/site/?text=WC3+JASS+vs+GUI+trigger+comparison&web=1&searchid=7619210 200
+2026-05-30 05:49:46,440 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 JASS vs GUI trigger comparison
+2026-05-30 05:49:47,968 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:47,968 [INFO] 🌐 双语查询: EN='魔兽争霸3 触发器 内存泄漏 处理' | ZH='魔兽争霸3 触发器 内存泄漏 处理'
+2026-05-30 05:49:48,193 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:48,246 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%20%E5%A4%84%E7%90%86) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:48,281 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F+%E5%A4%84%E7%90%86&limit=1 200
+2026-05-30 05:49:48,673 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:48,703 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%20%E5%A4%84%E7%90%86) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:48,772 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F+%E5%A4%84%E7%90%86&limit=1 200
+2026-05-30 05:49:48,918 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:49:49,026 [INFO] response: https://yandex.com/search/site/?text=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F+%E5%A4%84%E7%90%86&web=1&searchid=9040774 200
+2026-05-30 05:49:49,060 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器 内存泄漏 处理
+2026-05-30 05:49:49,374 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:49:49,395 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器 内存泄漏 处理
+2026-05-30 05:49:49,396 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:50,605 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=WC3+JASS+vs+GUI+trigger+comparison) > operation timed out'))
+2026-05-30 05:49:50,855 [INFO] response: https://www.google.com/search?q=WC3+JASS+vs+GUI+trigger+comparison&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 05:49:51,326 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 JASS vs GUI trigger comparison
+2026-05-30 05:49:51,327 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:52,191 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:52,192 [INFO] 🌐 双语查询: EN='WC3 JASS trigger optimization guide' | ZH='WC3 JASS trigger optimization guide'
+2026-05-30 05:49:52,300 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:52,316 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:52,333 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20JASS%20trigger%20optimization%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:52,418 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+JASS+trigger+optimization+guide&limit=1 200
+2026-05-30 05:49:52,480 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+JASS+trigger+optimization+guide&limit=1 200
+2026-05-30 05:49:52,567 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20JASS%20trigger%20optimization%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:52,622 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:49:52,656 [INFO] response: https://search.brave.com/search?q=WC3+JASS+trigger+optimization+guide&source=web 429
+2026-05-30 05:49:52,998 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:49:53,019 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 JASS trigger optimization guide
+2026-05-30 05:49:54,975 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:54,977 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger basics tutorial' | ZH='Warcraft 3 trigger basics tutorial'
+2026-05-30 05:49:55,106 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:55,110 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:55,148 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20basics%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:55,184 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20basics%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:55,211 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+basics+tutorial&limit=1 200
+2026-05-30 05:49:55,254 [INFO] response: https://search.yahoo.com/search;_ylt=gKTXNA0cA9tpF0YDJ3rk1uxx;_ylu=TzVFMDvs1S25yhRZCe--Ub50xRFvmjh_Ys3D1jWTFK06Jcc?p=Warcraft+3+trigger+basics+tutorial 200
+2026-05-30 05:49:55,306 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+basics+tutorial&limit=1 200
+2026-05-30 05:49:55,418 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:49:55,897 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:49:55,920 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger basics tutorial
+2026-05-30 05:49:56,142 [INFO] response: https://yandex.com/search/site/?text=Warcraft+3+trigger+basics+tutorial&web=1&searchid=9774415 200
+2026-05-30 05:49:56,175 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger basics tutorial
+2026-05-30 05:49:56,176 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:57,659 [INFO] Error in engine mojeek: TimeoutException(TimeoutError('error sending request for url (https://www.mojeek.com/search?q=WC3+JASS+trigger+optimization+guide) > operation timed out'))
+2026-05-30 05:49:57,839 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:49:58,218 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:49:58,451 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 JASS trigger optimization guide
+2026-05-30 05:49:58,452 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:49:58,995 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:49:58,996 [INFO] 🌐 双语查询: EN='World Editor trigger beginner tutorial' | ZH='World Editor 触发器 新手教程'
+2026-05-30 05:49:59,121 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:59,125 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:49:59,155 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20trigger%20beginner%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:59,170 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:49:59,222 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B&limit=1 200
+2026-05-30 05:49:59,306 [INFO] response: https://search.yahoo.com/search;_ylt=fyyQpRzH5-G-vBkSwI9sJfak;_ylu=9K30ZMUEmRbN_pvzv2tTx8zkSeS1V5ystzYvyMQCWmuTBsA?p=World+Editor+%E8%A7%A6%E5%8F%91%E5%99%A8+%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B 200
+2026-05-30 05:49:59,448 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:49:59,449 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:49:59,572 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+trigger+beginner+tutorial&limit=1 200
+2026-05-30 05:49:59,779 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:49:59,781 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:49:59,800 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor trigger beginner tutorial
+2026-05-30 05:49:59,802 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor 触发器 新手教程
+2026-05-30 05:49:59,803 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:50:00,675 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:50:00,676 [INFO] 🌐 双语查询: EN='Warcraft 3 trigger memory leak explained' | ZH='Warcraft 3 trigger memory leak explained'
+2026-05-30 05:50:00,785 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:50:00,787 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:50:00,827 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20memory%20leak%20explained) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:50:00,833 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%203%20trigger%20memory%20leak%20explained) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:50:00,918 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+memory+leak+explained&limit=1 200
+2026-05-30 05:50:00,925 [INFO] response: https://search.brave.com/search?q=Warcraft+3+trigger+memory+leak+explained&source=web 429
+2026-05-30 05:50:00,980 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+3+trigger+memory+leak+explained&limit=1 200
+2026-05-30 05:50:01,530 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger memory leak explained
+2026-05-30 05:50:01,672 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft 3 trigger memory leak explained
+2026-05-30 05:50:01,673 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:50:02,015 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:50:02,015 [INFO] 🌐 双语查询: EN='WC3 trigger editor interface guide' | ZH='WC3 trigger editor interface guide'
+2026-05-30 05:50:02,118 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:50:02,129 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:50:02,154 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20editor%20interface%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:50:02,165 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20trigger%20editor%20interface%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:50:02,228 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+trigger+editor+interface+guide&limit=1 200
+2026-05-30 05:50:02,275 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+trigger+editor+interface+guide&limit=1 200
+2026-05-30 05:50:02,343 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:50:02,438 [INFO] response: https://www.google.com/search?q=WC3+trigger+editor+interface+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-30 05:50:02,482 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 trigger editor interface guide
+2026-05-30 05:50:02,715 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:50:02,735 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 trigger editor interface guide
+2026-05-30 05:50:02,736 [INFO]   搜索阶段：收集到 36 条候选结果
+2026-05-30 05:50:03,025 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=63401 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=63401'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:50:03,436 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/triggers.php — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/triggers.php'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:50:03,470 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=19780 — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/cat_usersubmit.php?view=19780'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:50:04,477 [WARNING] ⚠️  抓取失败，已忽略: https://blog.csdn.net/u013412391/article/details/109005203 — Server error '521 ' for url 'https://blog.csdn.net/u013412391/article/details/109005203'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
+2026-05-30 05:50:04,754 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:50:05,608 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:50:05,609 [INFO] 🌐 双语查询: EN='魔兽争霸3 触发器 内存泄漏 是什么' | ZH='魔兽争霸3 触发器 内存泄漏 是什么'
+2026-05-30 05:50:05,712 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:50:05,716 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:50:05,752 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%20%E6%98%AF%E4%BB%80%E4%B9%88) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:50:05,757 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E8%A7%A6%E5%8F%91%E5%99%A8%20%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%20%E6%98%AF%E4%BB%80%E4%B9%88) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:50:05,838 [INFO] response: https://search.brave.com/search?q=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F+%E6%98%AF%E4%BB%80%E4%B9%88&source=web 429
+2026-05-30 05:50:05,872 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F+%E6%98%AF%E4%BB%80%E4%B9%88&limit=1 200
+2026-05-30 05:50:05,947 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E8%A7%A6%E5%8F%91%E5%99%A8+%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F+%E6%98%AF%E4%BB%80%E4%B9%88&limit=1 200
+2026-05-30 05:50:05,994 [INFO] response: https://www.startpage.com/ 200
+2026-05-30 05:50:06,309 [INFO] response: https://www.startpage.com/sp/search 200
+2026-05-30 05:50:06,331 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器 内存泄漏 是什么
+2026-05-30 05:50:06,406 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 触发器 内存泄漏 是什么
+2026-05-30 05:50:06,407 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:50:08,552 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:50:08,553 [INFO] 🌐 双语查询: EN='WC3 World Editor memory management basics' | ZH='魔兽争霸3 世界编辑器 内存管理基础'
+2026-05-30 05:50:08,668 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:50:08,678 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-30 05:50:08,704 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83%20%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8%20%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86%E5%9F%BA%E7%A1%80) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:50:08,715 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20World%20Editor%20memory%20management%20basics) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.jes55jykdhaenadivdr5v5tmaf.ex.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-30 05:50:08,839 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+World+Editor+memory+management+basics&limit=1 200
+2026-05-30 05:50:09,154 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:50:09,155 [INFO] ✅ ResearcherAgent 完成: 8 个来源已注册
+2026-05-30 05:50:09,155 [INFO] ✍️  WriterAgent 开始: 触发器变量与数据类型 (loop 0)
+2026-05-30 05:50:09,156 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:50:09,524 [INFO] response: https://yandex.com/search/site/?text=WC3+World+Editor+memory+management+basics&web=1&searchid=1060795 200
+2026-05-30 05:50:09,561 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 World Editor memory management basic
+2026-05-30 05:50:10,652 [INFO] response: https://grokipedia.com/api/typeahead?query=%E9%AD%94%E5%85%BD%E4%BA%89%E9%9C%B83+%E4%B8%96%E7%95%8C%E7%BC%96%E8%BE%91%E5%99%A8+%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86%E5%9F%BA%E7%A1%80&limit=1 200
+2026-05-30 05:50:10,653 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | 魔兽争霸3 世界编辑器 内存管理基础
+2026-05-30 05:50:10,654 [INFO]   搜索阶段：收集到 35 条候选结果
+2026-05-30 05:50:10,711 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/help-understanding-leaks.301484/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/help-understanding-leaks.301484/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:50:10,754 [WARNING] ⚠️  抓取失败，已忽略: https://wc3we.fandom.com/wiki/Jass_Coding — Client error '403 Forbidden' for url 'https://wc3we.fandom.com/wiki/Jass_Coding'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:50:10,793 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/general-questions-about-trigger-optimizing-and-performance.346180/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/general-questions-about-trigger-optimizing-and-performance.346180/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:50:10,828 [WARNING] ⚠️  抓取失败，已忽略: https://www.hiveworkshop.com/threads/memory-leaks.263410/ — Client error '403 Forbidden' for url 'https://www.hiveworkshop.com/threads/memory-leaks.263410/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:50:11,084 [WARNING] ⚠️  抓取失败，已忽略: https://www.zhihu.com/question/660635940 — Client error '403 Forbidden' for url 'https://www.zhihu.com/question/660635940'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:50:12,242 [WARNING] ⚠️  抓取失败，已忽略: https://tieba.baidu.com/p/9542644850 — Client error '403 Forbidden' for url 'https://tieba.baidu.com/p/9542644850'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-30 05:50:13,175 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:50:21,263 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:50:21,264 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-30 05:50:21,264 [INFO] ✍️  WriterAgent 开始: 常用触发器模式与技巧 (loop 0)
+2026-05-30 05:50:21,266 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:50:28,790 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:50:28,792 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:50:34,939 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:50:34,940 [INFO] ✅ ResearcherAgent 完成: 4 个来源已注册
+2026-05-30 05:50:34,940 [INFO] ✍️  WriterAgent 开始: 触发器内存泄漏处理 (loop 0)
+2026-05-30 05:50:34,941 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:50:39,777 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:50:39,779 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:50:48,970 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:50:48,972 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:50:51,410 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:50:51,412 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:51:00,616 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:51:00,618 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:51:09,199 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:51:09,200 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:51:11,439 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:51:11,441 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:51:26,256 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:51:26,258 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:51:31,073 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:51:31,075 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:51:33,341 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:51:33,343 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:51:56,169 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:51:56,171 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:51:59,669 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:51:59,671 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:52:00,184 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:52:00,186 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:52:15,062 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:52:15,064 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:52:22,365 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:52:22,366 [INFO] ✅ WriterAgent 完成: 9817 字符, 7/8 来源被引用
+2026-05-30 05:52:22,366 [INFO] 🔎 ReviewerAgent 开始: 触发器变量与数据类型
+2026-05-30 05:52:22,367 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:52:29,958 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:52:29,960 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:52:37,936 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:52:37,937 [INFO] ✅ WriterAgent 完成: 6467 字符, 4/4 来源被引用
+2026-05-30 05:52:37,937 [INFO] 🔎 ReviewerAgent 开始: 触发器内存泄漏处理
+2026-05-30 05:52:37,938 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:52:50,069 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:52:50,070 [INFO] ✅ WriterAgent 完成: 7937 字符, 4/4 来源被引用
+2026-05-30 05:52:50,071 [INFO] 🔎 ReviewerAgent 开始: 常用触发器模式与技巧
+2026-05-30 05:52:50,072 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = openai
+2026-05-30 05:52:57,180 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-30 05:52:57,181 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-30 05:52:57,181 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-30 05:52:57,181 [INFO] ✅ 质量通过 (loop 0): score=0.72
+2026-05-30 05:52:57,182 [INFO] 📄 文章写入: docs/triggers/触发器变量与数据类型.md

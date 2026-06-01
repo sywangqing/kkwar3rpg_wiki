@@ -1,0 +1,260 @@
+2026-05-31 19:24:20,196 [INFO] 📐 PlannerAgent 开始: 数据分析仪表盘使用指南
+2026-05-31 19:24:20,197 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:24:36,329 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:24:36,330 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-31 19:24:36,330 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-31 19:24:36,330 [INFO] ✅ 质量通过 (loop 1): score=0.72
+2026-05-31 19:24:36,331 [INFO] 📄 文章写入: docs/platform-tools/任务系统配置日常任务与成就.md
+2026-05-31 19:24:36,332 [INFO] ✅ topics.json 已更新: kk-quest-system → completed
+2026-05-31 19:24:37,111 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:24:37,113 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:24:39,683 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:24:39,684 [INFO] ✅ PlannerAgent 完成: 6 节, 15 个查询
+2026-05-31 19:24:39,684 [INFO] 🔍 ResearcherAgent 开始: 数据分析仪表盘使用指南 (15 查询)
+2026-05-31 19:24:39,685 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:24:39,908 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbdf78d40382a77b4c39c064fe23e"}
+2026-05-31 19:24:39,908 [INFO] 🌐 双语查询: EN='Warcraft III World Editor data analysis tutorial' | ZH='Warcraft III World Editor data analysis tutorial'
+2026-05-31 19:24:40,094 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:40,101 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:40,178 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20data%20analysis%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:40,187 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20World%20Editor%20data%20analysis%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:40,380 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+data+analysis+tutorial&limit=1 200
+2026-05-31 19:24:40,566 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:24:40,604 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:24:40,838 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:24:40,889 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:24:41,265 [INFO] response: https://www.google.com/search?q=Warcraft+III+World+Editor+data+analysis+tutorial&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-31 19:24:41,354 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III World Editor data analysis 
+2026-05-31 19:24:41,963 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+World+Editor+data+analysis+tutorial&limit=1 200
+2026-05-31 19:24:42,898 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+World+Editor+data+analysis+tutorial&web=1&searchid=7987820 200
+2026-05-31 19:24:42,925 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III World Editor data analysis 
+2026-05-31 19:24:42,926 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:24:42,984 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbdfa9283fa28dcee9520e2548e09"}
+2026-05-31 19:24:42,984 [INFO] 🌐 双语查询: EN='KK平台 地图创作 数据工具 指南' | ZH='KK平台 地图创作 数据工具 指南'
+2026-05-31 19:24:43,120 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:43,148 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:43,201 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E5%9C%B0%E5%9B%BE%E5%88%9B%E4%BD%9C%20%E6%95%B0%E6%8D%AE%E5%B7%A5%E5%85%B7%20%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:43,210 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E5%9C%B0%E5%9B%BE%E5%88%9B%E4%BD%9C%20%E6%95%B0%E6%8D%AE%E5%B7%A5%E5%85%B7%20%E6%8C%87%E5%8D%97) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:43,310 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0+%E5%9C%B0%E5%9B%BE%E5%88%9B%E4%BD%9C+%E6%95%B0%E6%8D%AE%E5%B7%A5%E5%85%B7+%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-31 19:24:43,318 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0+%E5%9C%B0%E5%9B%BE%E5%88%9B%E4%BD%9C+%E6%95%B0%E6%8D%AE%E5%B7%A5%E5%85%B7+%E6%8C%87%E5%8D%97&limit=1 200
+2026-05-31 19:24:43,628 [INFO] response: https://www.mojeek.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E5%9C%B0%E5%9B%BE%E5%88%9B%E4%BD%9C+%E6%95%B0%E6%8D%AE%E5%B7%A5%E5%85%B7+%E6%8C%87%E5%8D%97 403
+2026-05-31 19:24:43,629 [INFO] response: https://www.mojeek.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E5%9C%B0%E5%9B%BE%E5%88%9B%E4%BD%9C+%E6%95%B0%E6%8D%AE%E5%B7%A5%E5%85%B7+%E6%8C%87%E5%8D%97 403
+2026-05-31 19:24:43,767 [INFO] response: https://search.yahoo.com/search;_ylt=LsIPJsABCGq0BU6BYc2uk40U;_ylu=DKzheOBzipVLticRveFubtcys0-8lvQXmWrPG7Ca3TyviGw?p=KK%E5%B9%B3%E5%8F%B0+%E5%9C%B0%E5%9B%BE%E5%88%9B%E4%BD%9C+%E6%95%B0%E6%8D%AE%E5%B7%A5%E5%85%B7+%E6%8C%87%E5%8D%97 200
+2026-05-31 19:24:43,848 [INFO] response: https://search.yahoo.com/search;_ylt=Kj5iaE7zw0vG2IUz7LIEMknf;_ylu=qdajDne5WTICKfftz4MAgnD8PAXncLI3vdBaxJQGC4_wAwI?p=KK%E5%B9%B3%E5%8F%B0+%E5%9C%B0%E5%9B%BE%E5%88%9B%E4%BD%9C+%E6%95%B0%E6%8D%AE%E5%B7%A5%E5%85%B7+%E6%8C%87%E5%8D%97 200
+2026-05-31 19:24:44,265 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK平台 地图创作 数据工具 指南
+2026-05-31 19:24:44,393 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK平台 地图创作 数据工具 指南
+2026-05-31 19:24:44,394 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:24:44,448 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbdfce348fb3df9a13984f0db7dd4"}
+2026-05-31 19:24:44,448 [INFO] 🌐 双语查询: EN='WC3 modding analytics for beginners' | ZH='WC3 modding analytics for beginners'
+2026-05-31 19:24:44,593 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:44,598 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:44,648 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20modding%20analytics%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:44,661 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=WC3%20modding%20analytics%20for%20beginners) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:44,738 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+modding+analytics+for+beginners&limit=1 200
+2026-05-31 19:24:44,802 [INFO] response: https://search.brave.com/search?q=WC3+modding+analytics+for+beginners&source=web 429
+2026-05-31 19:24:44,819 [INFO] response: https://grokipedia.com/api/typeahead?query=WC3+modding+analytics+for+beginners&limit=1 200
+2026-05-31 19:24:45,769 [INFO] response: https://yandex.com/search/site/?text=WC3+modding+analytics+for+beginners&web=1&searchid=6025574 200
+2026-05-31 19:24:45,773 [INFO] response: https://yandex.com/search/site/?text=WC3+modding+analytics+for+beginners&web=1&searchid=8165888 200
+2026-05-31 19:24:45,796 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 modding analytics for beginners
+2026-05-31 19:24:45,805 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | WC3 modding analytics for beginners
+2026-05-31 19:24:45,806 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:24:45,860 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbdfd7612d7d8091517149e945498"}
+2026-05-31 19:24:45,860 [INFO] 🌐 双语查询: EN='Warcraft III data analysis dashboard tutorial' | ZH='Warcraft III data analysis dashboard tutorial'
+2026-05-31 19:24:46,026 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:46,027 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:46,083 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20data%20analysis%20dashboard%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:46,083 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=Warcraft%20III%20data%20analysis%20dashboard%20tutorial) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:46,191 [INFO] response: https://search.brave.com/search?q=Warcraft+III+data+analysis+dashboard+tutorial&source=web 429
+2026-05-31 19:24:46,291 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+data+analysis+dashboard+tutorial&limit=1 200
+2026-05-31 19:24:46,402 [INFO] response: https://grokipedia.com/api/typeahead?query=Warcraft+III+data+analysis+dashboard+tutorial&limit=1 200
+2026-05-31 19:24:46,502 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:24:46,801 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:24:46,837 [INFO] response: https://www.google.com/search?q=Warcraft+III+data+analysis+dashboard+tutorial&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-31 19:24:46,879 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III data analysis dashboard tut
+2026-05-31 19:24:46,976 [INFO] response: https://search.brave.com/search?q=Warcraft+III+data+analysis+dashboard+tutorial&source=web 429
+2026-05-31 19:24:48,132 [INFO] response: https://yandex.com/search/site/?text=Warcraft+III+data+analysis+dashboard+tutorial&web=1&searchid=6366191 200
+2026-05-31 19:24:48,159 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | Warcraft III data analysis dashboard tut
+2026-05-31 19:24:48,161 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:24:48,215 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbe0010a919d7289b1c2d7e1b2168"}
+2026-05-31 19:24:48,215 [INFO] 🌐 双语查询: EN='KK平台 数据分析工具 入门' | ZH='KK平台 数据分析工具 入门'
+2026-05-31 19:24:48,354 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:48,368 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:48,435 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:48,460 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=KK%E5%B9%B3%E5%8F%B0%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%20%E5%85%A5%E9%97%A8) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:48,538 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0+%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-31 19:24:48,572 [INFO] response: https://grokipedia.com/api/typeahead?query=KK%E5%B9%B3%E5%8F%B0+%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7+%E5%85%A5%E9%97%A8&limit=1 200
+2026-05-31 19:24:48,865 [INFO] response: https://www.google.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7+%E5%85%A5%E9%97%A8&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-31 19:24:48,894 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK平台 数据分析工具 入门
+2026-05-31 19:24:48,943 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:24:49,242 [INFO] response: https://www.startpage.com/sp/captcha 200
+2026-05-31 19:24:49,666 [INFO] response: https://www.mojeek.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7+%E5%85%A5%E9%97%A8 403
+2026-05-31 19:24:49,793 [INFO] response: https://search.brave.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7+%E5%85%A5%E9%97%A8&source=web 429
+2026-05-31 19:24:49,986 [INFO] response: https://search.yahoo.com/search;_ylt=8J37kVz6RkeoB78SHcx6umQN;_ylu=KuL6Tu450zCquEQ9nKo4JfO-0JiATdfh0jb1iulnVe_m1hg?p=KK%E5%B9%B3%E5%8F%B0+%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7+%E5%85%A5%E9%97%A8 200
+2026-05-31 19:24:50,835 [INFO] response: https://www.google.com/search?q=KK%E5%B9%B3%E5%8F%B0+%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7+%E5%85%A5%E9%97%A8&filter=1&start=0&hl=cn-ZH&lr=lang_cn&cr=countryZH 200
+2026-05-31 19:24:50,852 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | KK平台 数据分析工具 入门
+2026-05-31 19:24:50,853 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:24:50,919 [WARNING] 翻译失败，使用原词: litellm.APIConnectionError: MinimaxException - {"type":"error","error":{"type":"authorized_error","message":"invalid api key (2049)","http_code":"401"},"request_id":"066bbe029ef443c9997670f22cea1d95"}
+2026-05-31 19:24:50,919 [INFO] 🌐 双语查询: EN='World Editor analytics panel guide' | ZH='World Editor analytics panel guide'
+2026-05-31 19:24:51,056 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:51,084 [WARNING] ⚠️  Tavily 失败，降级到 DuckDuckGo: Tavily 搜索失败: This request exceeds this API key's set usage limit. You can increase its limit on the Tavily dashboard.
+2026-05-31 19:24:51,091 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://us.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20analytics%20panel%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("us.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:51,143 [INFO] Error in engine wikipedia: DDGSException('ConnectError: ConnectError(\'error sending request for url (https://cn.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=World%20Editor%20analytics%20panel%20guide) > client error (Connect) > dns error > DNS error: no records found for Query { name: Name("cn.wikipedia.org.x2310omwxaoufa14tpb3rrhhha.gx.internal.cloudapp.net."), query_type: A, query_class: IN }\')')
+2026-05-31 19:24:51,221 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+analytics+panel+guide&limit=1 200
+2026-05-31 19:24:51,260 [INFO] response: https://search.brave.com/search?q=World+Editor+analytics+panel+guide&source=web 429
+2026-05-31 19:24:51,321 [INFO] response: https://search.brave.com/search?q=World+Editor+analytics+panel+guide&source=web 429
+2026-05-31 19:24:51,337 [INFO] response: https://grokipedia.com/api/typeahead?query=World+Editor+analytics+panel+guide&limit=1 200
+2026-05-31 19:24:51,546 [INFO] response: https://search.yahoo.com/search;_ylt=TjHbiQ0OWEywXQKzuFk-N4ox;_ylu=_AutT6ZI7VuOTNo5PGWh2S6Zepgrn3XANZK44x3XiRX5JfA?p=World+Editor+analytics+panel+guide 200
+2026-05-31 19:24:51,712 [INFO] response: https://www.google.com/search?q=World+Editor+analytics+panel+guide&filter=1&start=0&hl=us-EN&lr=lang_us&cr=countryEN 200
+2026-05-31 19:24:51,726 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor analytics panel guide
+2026-05-31 19:24:52,192 [INFO] 🔍 DuckDuckGo 搜索: 5 条 | World Editor analytics panel guide
+2026-05-31 19:24:52,193 [INFO]   搜索阶段：收集到 41 条候选结果
+2026-05-31 19:24:52,333 [WARNING] ⚠️  抓取失败，已忽略: https://world-editor-tutorials.thehelper.net/ — Client error '403 Forbidden' for url 'https://world-editor-tutorials.thehelper.net/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-31 19:24:52,722 [WARNING] ⚠️  抓取失败，已忽略: https://www.reddit.com/r/CompetitiveWoW/comments/1lqvqk0/introducing_ka0s_keycount_dashboard_an_in_depth/ — Client error '403 Blocked' for url 'https://www.reddit.com/r/CompetitiveWoW/comments/1lqvqk0/introducing_ka0s_keycount_dashboard_an_in_depth/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-31 19:24:52,852 [WARNING] ⚠️  抓取失败，已忽略: https://www.zhihu.com/zvideo/1689378452288086017 — Client error '403 Forbidden' for url 'https://www.zhihu.com/zvideo/1689378452288086017'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-05-31 19:24:53,428 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:24:59,447 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:24:59,448 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:25:17,532 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:25:17,533 [INFO] ✅ ResearcherAgent 完成: 8 个来源已注册
+2026-05-31 19:25:17,533 [INFO] ✍️  WriterAgent 开始: 数据分析仪表盘使用指南 (loop 0)
+2026-05-31 19:25:17,534 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:25:21,818 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:25:21,820 [INFO] ✅ WriterAgent 完成: 6391 字符, 3/3 来源被引用
+2026-05-31 19:25:21,820 [INFO] 🔎 ReviewerAgent 开始: 礼包码系统：创建与发放
+2026-05-31 19:25:21,821 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:25:40,207 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:25:40,208 [INFO] ⚠️  未通过 ReviewerAgent: overall=0.48 (A=0.35 C=0.65 R=0.85 Cit=0.15)
+2026-05-31 19:25:40,208 [INFO]   反馈 5 条:
+2026-05-31 19:25:40,208 [INFO]   [factual_error] [^1]: [llms.txt - 英伟达](https://www.nvidia.cn/llms.txt) — acc...
+2026-05-31 19:25:40,209 [INFO]   [factual_error] [^2]: [1 - Hugging Face](https://huggingface.co/openbmb/cpm-...
+2026-05-31 19:25:40,209 [INFO]   [factual_error] [^3]: [Chinese-Charts/README-Part2.md at master - GitHub](ht...
+2026-05-31 19:25:40,209 [INFO]   [missing_citation] KK平台为创作者提供了一套完整的礼包码解决方案。在KK后台管理系统中，你可以：创建礼包码批次、设置奖励内容、查看使用统计...
+2026-05-31 19:25:40,209 [INFO]   [incomplete_section] 整个文章缺少任何实际的JASS/vJASS/Lua代码示例...
+2026-05-31 19:25:40,209 [INFO] ⚠️  质量未通过 (loop 0)，score=0.48，开始重写...
+2026-05-31 19:25:40,209 [INFO] ✍️  WriterAgent 开始: 礼包码系统：创建与发放 (loop 1)
+2026-05-31 19:25:40,210 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:25:44,351 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:25:44,353 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:26:01,393 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:26:01,395 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:26:13,328 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:26:13,330 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:26:21,447 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:26:21,449 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:26:39,836 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:26:39,837 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:26:39,876 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:26:39,877 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:26:59,288 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:26:59,290 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:27:07,179 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:27:07,182 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:27:20,609 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:27:20,611 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:27:26,034 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:27:26,036 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:27:39,142 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:27:39,144 [INFO] ✅ WriterAgent 完成: 7771 字符, 7/8 来源被引用
+2026-05-31 19:27:39,144 [INFO] 🔎 ReviewerAgent 开始: 数据分析仪表盘使用指南
+2026-05-31 19:27:39,145 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:27:54,099 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:27:54,100 [INFO] ✅ WriterAgent 完成: 9421 字符, 3/3 来源被引用
+2026-05-31 19:27:54,100 [INFO] 🔎 ReviewerAgent 开始: 礼包码系统：创建与发放
+2026-05-31 19:27:54,101 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:27:59,118 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:27:59,119 [INFO] ⚠️  未通过 ReviewerAgent: overall=0.69 (A=0.60 C=0.80 R=0.90 Cit=0.35)
+2026-05-31 19:27:59,119 [INFO]   反馈 5 条:
+2026-05-31 19:27:59,119 [INFO]   [missing_citation] 仪表盘首页会展示四个关键数据：日活用户（DAU）、平均游戏时长、留存率和崩溃率...
+2026-05-31 19:27:59,119 [INFO]   [missing_citation] 平台会自动收集玩家的游戏数据，并整理到仪表盘中供你查看...
+2026-05-31 19:27:59,119 [INFO]   [missing_citation] 如果大量玩家帧率低于30，说明地图可能存在过多的触发器或复杂逻辑...
+2026-05-31 19:27:59,119 [INFO]   [missing_citation] 如果某个单位的出场率超过40%且胜率超过55%，说明这个单位可能太强了...
+2026-05-31 19:27:59,119 [INFO]   [factual_error] 如果玩家总是在某个Boss战失败率超过70%，说明该Boss的难度设置不合理...
+2026-05-31 19:27:59,119 [INFO] ⚠️  质量未通过 (loop 0)，score=0.69，开始重写...
+2026-05-31 19:27:59,119 [INFO] ✍️  WriterAgent 开始: 数据分析仪表盘使用指南 (loop 1)
+2026-05-31 19:27:59,120 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:28:17,357 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:28:17,358 [INFO] ⚠️  未通过 ReviewerAgent: overall=0.57 (A=0.40 C=0.75 R=0.85 Cit=0.10)
+2026-05-31 19:28:17,358 [INFO]   反馈 5 条:
+2026-05-31 19:28:17,358 [INFO]   [factual_error] The entire article describes KK platform gift code features,...
+2026-05-31 19:28:17,358 [INFO]   [missing_citation] KK平台为创作者提供了一套完整的礼包码解决方案。在KK后台管理系统中，创作者可以创建礼包码批次、设置奖励内容、查看使用统...
+2026-05-31 19:28:17,358 [INFO]   [missing_citation] 建议保持码长在8-16个字符之间，确保可读性。...
+2026-05-31 19:28:17,358 [INFO]   [missing_citation] 新手经常忘记在KK后台开启'激活状态'开关，导致所有礼包码都是灰色的不可用状态。...
+2026-05-31 19:28:17,359 [INFO]   [incomplete_section] The article contains multiple code examples (Lua, vJASS) but...
+2026-05-31 19:28:17,359 [INFO] ⚠️  质量未通过 (loop 1)，score=0.57，开始重写...
+2026-05-31 19:28:17,359 [INFO] ✍️  WriterAgent 开始: 礼包码系统：创建与发放 (loop 2)
+2026-05-31 19:28:17,360 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:28:27,954 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:28:27,956 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:28:35,688 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:28:35,690 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:28:50,125 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:28:50,127 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:29:06,232 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:29:06,234 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:29:07,313 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:29:07,315 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:29:32,198 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:29:32,200 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:29:36,938 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:29:36,940 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:29:53,292 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:29:53,294 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:29:56,325 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:29:56,327 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:30:09,295 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:30:09,297 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:30:21,754 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:30:21,755 [INFO] ✅ WriterAgent 完成: 7465 字符, 7/8 来源被引用
+2026-05-31 19:30:21,755 [INFO] 🔎 ReviewerAgent 开始: 数据分析仪表盘使用指南
+2026-05-31 19:30:21,756 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:30:27,407 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:30:27,408 [INFO] ✅ WriterAgent 完成: 6728 字符, 3/3 来源被引用
+2026-05-31 19:30:27,408 [INFO] 🔎 ReviewerAgent 开始: 礼包码系统：创建与发放
+2026-05-31 19:30:27,409 [INFO] 
+LiteLLM completion() model= MiniMax-M2.7-highspeed; provider = minimax
+2026-05-31 19:30:47,541 [INFO] Wrapper: Completed Call, calling success_handler
+2026-05-31 19:30:47,542 [WARNING] ReviewerAgent 解析失败，使用默认通过分: Expecting value: line 1 column 1 (char 0)
+2026-05-31 19:30:47,542 [INFO] ✅ 通过 ReviewerAgent: overall=0.72 (A=0.75 C=0.75 R=0.75 Cit=0.50)
+2026-05-31 19:30:47,542 [INFO] ✅ 质量通过 (loop 1): score=0.72
+2026-05-31 19:30:47,542 [INFO] 📄 文章写入: docs/platform-tools/数据分析仪表盘使用指南.md
