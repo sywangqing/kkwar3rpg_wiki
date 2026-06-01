@@ -23,19 +23,11 @@ features:
   # ── 突出位置：KK 触发器实战（KK 作者最需要的内容）──
   - icon: 🎯
     title: KK 触发器实战
-    details: 73+ 篇真实演示图触发器，10 大主题分类（英雄/战斗/技能/物品/UI/存档/数学/黑科技/其他/大型开源图），每篇都有完整的中文 GUI 代码块，可直接复制到 KKWE。
+    details: 10 大主题分类（英雄/战斗/技能/物品/UI/存档/数学/黑科技/其他/大型开源图），每篇都有完整的中文 GUI 代码块，可直接复制到 KKWE。
     link: /kk-triggers/
-  - icon: 🏆
-    title: 神墓 2.7C 全量
-    details: KK 平台头部地图《神墓 2.7C》的全部 171 个触发器，分成 9 大类（初始化/玩家/剧情/BOSS/守护/物品/技能/刷怪/最终战），可作为大型 RPG 综合参考。
-    link: /kk-triggers/shenmu/00-init
-  - icon: 🎮
-    title: 50 张演示图详解
-    details: 每张演示图聚焦一个具体问题（群体 AOE/仇恨系统/穿透/存档/UI/抽屉卡牌），已通过 MCP 导出 + GUI 转换，可作为地图开发的"小抄本"。
-    link: /kk-triggers/demo-resources
   - icon: 🛠️
-    title: 103 张 w3x 资源
-    details: 完整开源图 + 演示图 w3x 文件清单，含 DotA open、真三国无双、大灾变、荒魂演武、神之墓地多个版本等。下载即用、学到即抄。
+    title: GUI 演示图实战库
+    details: 来自真实演示图的 GUI 案例集：**神墓 2.7C 全部 171 个触发器** + **50 张演示图详解** + **103 张 w3x 资源**（含 DotA open、真三国无双、大灾变、荒魂演武等）。下载即用、学到即抄。
     link: /kk-triggers/demo-resources
   # ── 次要：通用 War3 教程（KK 作者按需查阅）──
   - icon: ⚡
