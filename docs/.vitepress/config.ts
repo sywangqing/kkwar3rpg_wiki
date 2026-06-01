@@ -38,11 +38,13 @@ export default defineConfig({
     // ── 导航栏 ──────────────────────────────────────────────────
     nav: [
       { text: '🚀 快速入门', link: '/getting-started/war3-地图编辑器安装与配置' },
+      { text: '🎮 KK 触发器实战', link: '/kk-triggers/index' },
       { text: '🛤️ 学习路径', link: '/learning-path' },
       { text: '🔍 搜索', link: '/search' },
       {
         text: '🗂️ 分类',
         items: [
+          { text: '🎮 KK 触发器实战', link: '/kk-triggers/index' },
           { text: '⚡ 触发器系统', link: '/triggers/触发器是什么用大白话解释游戏逻辑' },
           { text: '🗺️ 地形编辑', link: '/terrain/5个让新手地图看起来更好看的地形技巧' },
           { text: '🎭 对象编辑器', link: '/object-editor/对象编辑器入门修改单位属性' },
