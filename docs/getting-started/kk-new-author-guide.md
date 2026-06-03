@@ -1,9 +1,9 @@
 ---
 title: KK平台新作者入门指南
-description: 欢迎加入KK官方对战平台！一张图带你玩转KK对战平台，从零开始制作地图
+description: 欢迎加入KK官方对战平台！围绕 W3 编辑器、启航手册与官方运营支持的新人入门指引
 category: getting-started
 audience: newbie
-updated: 2026-05-29
+updated: 2026-06-03
 ---
 
 # 🎮 KK平台新作者入门指南
@@ -19,12 +19,14 @@ updated: 2026-05-29
 ### 📝 入门三步曲
 
 1. **学习编辑器教学视频**
-   - [观看 Y3 编辑器教程](https://create.kkdzpt.com/docs/guides/Editor/About)
+   - [观看 W3 学习视频](https://study.163.com/course/introduction/1006192070.htm)
 
 2. **阅读启航手册，参加运营线上面对面课程**
-   - 学习如何运营地图
+   - [阅读启航手册](https://create.kkdzpt.com/docs/guides/Editor/About)
+   - 学习如何运营地图，参与后续线上课程交流
 
 3. **加入社群并且添加官方运营人员获得帮助**
+   - 通过官方群或官方运营企微获取支持
 
 ### ⚠️ 重要提醒
 
@@ -41,11 +43,11 @@ updated: 2026-05-29
 - [ ] 填写信息登记 → [立即填写](https://reckfeng.feishu.cn/share/base/form/shrcnzspsykbtSVmCsiBVvKPaHg)
 - [ ] 关注 KK 官方网站 → [www.kkdzpt.com](http://www.kkdzpt.com)
 - [ ] 注册开发者平台账号 → [create.kkdzpt.com](https://create.kkdzpt.com/)
-- [ ] 观看 Y3编辑器教学视频 → [观看教程](https://create.kkdzpt.com/docs/guides/Editor/About)
-- [ ] 阅读启航手册
+- [ ] 观看 W3 学习视频 → [观看教程](https://study.163.com/course/introduction/1006192070.htm)
+- [ ] 阅读启航手册 → [点击查看](https://create.kkdzpt.com/docs/guides/Editor/About)
 - [ ] 参加运营线上面对面课程
 - [ ] 加入作者社群
-- [ ] 添加官方运营人员微信
+- [ ] 添加官方运营人员企微
 
 ### 🌐 核心资源导航
 
@@ -53,10 +55,10 @@ updated: 2026-05-29
 |:----:|------|------|
 | 🌐 | KK官网 | [www.kkdzpt.com](http://www.kkdzpt.com) |
 | 🛠️ | 开发者平台 | [create.kkdzpt.com](https://create.kkdzpt.com/) |
-| 📖 | 启航手册 | [点击查看](https://create.kkdzpt.com/help/service_support/启航手册) |
-| 📚 | Y3开发者文档 | [163.com/y3/docs/](https://163.com/y3/docs/) |
-| 📥 | Y3编辑器下载 | [点击下载](https://163.com/y3/action/download/game?version=2.0&t=1751874823102) |
-| 📖 | 地图与商品审核手册 | [点击查看](https://create.kkdzpt.com/help/service_support/地图与商品审核手册) |
+| 📖 | 启航手册 | [点击查看](https://create.kkdzpt.com/docs/guides/Editor/About) |
+| 🎬 | W3学习视频 | [点击查看](https://study.163.com/course/introduction/1006192070.htm) |
+| 📚 | W3开发者文档 / KK API文档 | [点击查看](https://create.kkdzpt.com/kkapidoc/#/) |
+| 📖 | 地图与商品审核指南 | [点击查看](https://create.kkdzpt.com/help/service_support/%E5%9C%B0%E5%9B%BE%E4%B8%8E%E5%95%86%E5%93%81%E5%AE%A1%E6%A0%B8%E6%8C%87%E5%8D%97) |
 
 ### 🔗 快速链接汇总
 
@@ -64,8 +66,8 @@ updated: 2026-05-29
 |----------|------|
 | KK官网 | [www.kkdzpt.com](http://www.kkdzpt.com) |
 | 开发者平台 | [create.kkdzpt.com](https://create.kkdzpt.com/) |
-| Y3编辑器文档 | [create.kkdzpt.com/docs/guides/Editor/About](https://create.kkdzpt.com/docs/guides/Editor/About) |
-| Y3文档 | [163.com/y3/docs/](https://163.com/y3/docs/) |
+| 启航手册 | [create.kkdzpt.com/docs/guides/Editor/About](https://create.kkdzpt.com/docs/guides/Editor/About) |
+| W3学习视频 | [study.163.com/course/introduction/1006192070.htm](https://study.163.com/course/introduction/1006192070.htm) |
 | KK API文档 | [create.kkdzpt.com/kkapidoc/](https://create.kkdzpt.com/kkapidoc/#/) |
 
 ---
@@ -75,8 +77,12 @@ updated: 2026-05-29
 | 联系方式 | 说明 | 链接 |
 |----------|------|------|
 | 信息登记入口 | 新作者必填 | [点击填写](https://reckfeng.feishu.cn/share/base/form/shrcnzspsykbtSVmCsiBVvKPaHg) |
-| 官方运营 | 加入社群后联系 | 联系客服获取 |
+| 官方运营企微 | 扫码添加，获取运营帮助 | 见下方二维码 |
 | 开发者平台 | 作者后台 | [create.kkdzpt.com](https://create.kkdzpt.com/) |
+
+### 官方运营企微二维码
+
+![官方运营企微二维码](/.images/ops-wecom-w3.png)
 
 ---
 
@@ -86,11 +92,11 @@ updated: 2026-05-29
 > 是的！漏填甚至是不填，会耽误对您的帮助。
 
 **Q: 先学技术还是先学运营？**
-> 建议先学技术（Y3编辑器教程），再做运营。技术是基础！
+> 建议先完成 W3 学习视频与启航手册，再逐步学习运营与发行。先把基础路径走通最重要。
 
 **Q: 遇到问题找谁？**
-> 加入社群，添加官方运营人员，获得一对一帮助。
+> 加入社群，添加官方运营企微，获得进一步帮助。
 
 ---
 
-*📅 最后更新：2026-05-29*
+*📅 最后更新：2026-06-03*
