@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "War3 Trigger",
+  "scopeName": "source.trigger",
+  "fileTypes": ["trg"],
+  "patterns": [
+    { "include": "#comment" },
+    { "include": "#section" },
+    { "include": "#keyword" },
+    { "include": "#string" },
+    { "include": "#number" },
+    { "include": "#identifier" }
+  ],
+  "repository": {
+    "comment": {
+      "name": "comment.line.double-slash.trigger",
+      "match": "//.*$"
+    },
+    "section": {
+      "name": "keyword.other.section.trigger",
+      "match": "^(事件|条件|动作|触发器|注释|Event|Condition|Action|Trigger|Comment)\\s*[:：]?"
+    },
+    "keyword": {
+      "name": "keyword.control.trigger",
+      "match": "\\b(if|then|else|endif|loop|exitwhen|endloop|call|set|local|return|function|endfunction|and|or|not|true|false|null)\\b"
+    },
+    "string": {
+      "name": "string.quoted.double.trigger",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        { "name": "constant.character.escape.trigger", "match": "\\\\." }
+      ]
+    },
+    "number": {
+      "name": "constant.numeric.trigger",
+      "match": "\\b[0-9]+(\\.[0-9]+)?\\b"
+    },
+    "identifier": {
+      "name": "variable.other.trigger",
+      "match": "\\b[A-Za-z_\u4e00-\u9fa5][A-Za-z0-9_\u4e00-\u9fa5]*\\b"
+    }
+  }
+}

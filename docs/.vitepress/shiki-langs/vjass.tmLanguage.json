@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "vJASS",
+  "scopeName": "source.vjass",
+  "fileTypes": ["vj"],
+  "patterns": [
+    { "include": "source.jass" }
+  ],
+  "repository": {}
+}

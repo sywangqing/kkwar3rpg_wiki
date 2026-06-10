@@ -4,12 +4,13 @@
   "type": "module",
   "description": "War3 RPG 地图编辑器 AI 自动化知识 Wiki",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "prebuild": "tsx scripts/gen_topics_meta.ts",
-    "build": "vitepress build docs && pagefind --site docs/.vitepress/dist",
+    "dev": "tsx scripts/gen_author_data.ts && vitepress dev docs",
+    "prebuild": "tsx scripts/gen_topics_meta.ts && tsx scripts/gen_author_data.ts",
+    "build": "vitepress build docs && pagefind --site docs/.vitepress/dist && copy docs\\public\\CNAME docs\\.vitepress\\dist\\CNAME",
     "preview": "vitepress preview docs",
     "gen-sidebar": "tsx scripts/gen_sidebar.ts",
-    "gen-topics-meta": "tsx scripts/gen_topics_meta.ts"
+    "gen-topics-meta": "tsx scripts/gen_topics_meta.ts",
+    "gen-author-data": "tsx scripts/gen_author_data.ts"
   },
   "devDependencies": {
     "@pagefind/default-ui": "^1.1.0",

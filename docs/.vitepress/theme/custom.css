@@ -1,14 +1,58 @@
 /**
- * custom.css — War3 Wiki 自定义样式
+ * custom.css — KK 作者中心 自定义样式
  *
+ * 0. 全站品牌主色覆盖（紫=主色 / KK 橙=运营强调色）
  * 1. 参考来源（脚注）callout 样式
  * 2. AI 生成文章徽章全局样式
  * 3. 代码高亮补充
+ * 4. /author/ 落地页专属（admonition / 卡片 / 旅程线）
  */
 
 /* ========================================================
+ * 0. 全站品牌色覆盖
+ *    spark 紫 #7c3aed 系列 + KK 橙 #f97316 备用
+ *    VitePress 默认变量见 https://vitepress.dev/guide/extending-default-theme
+ * ======================================================== */
+:root {
+  --vp-c-brand-1: #7c3aed;          /* 主色 spark-600，链接、按钮主色 */
+  --vp-c-brand-2: #6d28d9;          /* hover spark-700 */
+  --vp-c-brand-3: #5b21b6;          /* active spark-800 */
+  --vp-c-brand-soft: #ede9fe;       /* 浅紫底 spark-100 */
+
+  /* KK 橙（运营强调色，自定义变量） */
+  --vp-c-kk-1: #f97316;             /* kk-500 */
+  --vp-c-kk-2: #ea580c;             /* kk-600 */
+  --vp-c-kk-3: #c2410c;             /* kk-700 */
+  --vp-c-kk-soft: #ffedd5;          /* kk-100 */
+
+  /* 强调（按钮、徽章） */
+  --vp-c-tip-1: #10b981;
+  --vp-c-tip-soft: #ecfdf5;
+}
+
+.dark {
+  --vp-c-brand-1: #a78bfa;          /* spark-400 在暗色更亮一档 */
+  --vp-c-brand-2: #c4b5fd;
+  --vp-c-brand-3: #ddd6fe;
+  --vp-c-brand-soft: rgba(124, 58, 237, 0.16);
+  --vp-c-kk-1: #fb923c;
+  --vp-c-kk-2: #fdba74;
+  --vp-c-kk-3: #fed7aa;
+  --vp-c-kk-soft: rgba(249, 115, 22, 0.16);
+}
+
+/* 首页/Hero 按钮主色覆盖（VitePress home 模板用） */
+.VPButton.brand {
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-bg: var(--vp-c-brand-3);
+  --vp-button-brand-border: var(--vp-c-brand-1);
+  --vp-button-brand-hover-border: var(--vp-c-brand-2);
+  --vp-button-brand-active-border: var(--vp-c-brand-3);
+}
+
+/* ========================================================
  * 1. 参考来源 / 脚注块（footnotes）
- * 生成的文章末尾会有 ## 参考来源 + [^N] 格式脚注
  * ======================================================== */
 
 /* 脚注定义区域（markdown-it-footnote 生成 .footnotes-list） */
@@ -17,7 +61,7 @@
   margin-top: 2rem;
   padding: 1.25rem 1.5rem;
   border: 1px solid var(--vp-c-divider);
-  border-left: 4px solid var(--vp-c-brand-1, #3b82f6);
+  border-left: 4px solid var(--vp-c-brand-1, #7c3aed);
   border-radius: 0.5rem;
   background: var(--vp-c-bg-soft);
   font-size: 0.875rem;
@@ -49,27 +93,27 @@
 
 .vp-doc .footnotes a,
 .vp-doc section.footnotes a {
-  color: var(--vp-c-brand-1, #3b82f6);
+  color: var(--vp-c-brand-1, #7c3aed);
   word-break: break-all;
   font-size: 0.8rem;
 }
 
 /* 正文中的脚注上标 [^N] */
 .vp-doc sup.footnote-ref a {
-  color: var(--vp-c-brand-1, #3b82f6);
+  color: var(--vp-c-brand-1, #7c3aed);
   font-size: 0.7em;
   font-weight: 600;
   text-decoration: none;
-  background: #eff6ff;
+  background: var(--vp-c-brand-soft, #ede9fe);
   padding: 0.1em 0.3em;
   border-radius: 3px;
-  border: 1px solid #bfdbfe;
+  border: 1px solid var(--vp-c-brand-soft, #ddd6fe);
   margin: 0 1px;
   transition: background 0.2s;
 }
 
 .vp-doc sup.footnote-ref a:hover {
-  background: #dbeafe;
+  background: #ddd6fe;
 }
 
 /* 返回上文链接 */
@@ -82,7 +126,6 @@
 
 /* ========================================================
  * 2. ## 参考来源 heading 区域样式
- * (AI 生成文章在 markdown 中直接写 ## 参考来源)
  * ======================================================== */
 .vp-doc h2:has(+ ul a[href^="http"]),
 .vp-doc h2:has(+ ol a[href^="http"]) {
@@ -97,7 +140,7 @@
 }
 
 /* ========================================================
- * 3. 质量警告横幅（文章顶部，由 frontmatter quality_warning 触发）
+ * 3. 质量警告横幅
  * ======================================================== */
 .quality-warning-banner {
   margin-bottom: 1.5rem;
@@ -134,7 +177,7 @@
 
 .discovered-topic-card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  border-color: var(--vp-c-brand-2, #93c5fd);
+  border-color: var(--vp-c-brand-2, #a78bfa);
 }
 
 .discovered-topic-card .card-title {
@@ -153,9 +196,448 @@
 }
 
 .discovered-topic-card .card-source {
-  background: #eff6ff;
-  color: #3b82f6;
+  background: var(--vp-c-brand-soft, #ede9fe);
+  color: var(--vp-c-brand-1, #7c3aed);
   padding: 0.1rem 0.4rem;
   border-radius: 99px;
-  border: 1px solid #bfdbfe;
+  border: 1px solid var(--vp-c-brand-soft, #ddd6fe);
+}
+
+/* ========================================================
+ * 5. /author/ 落地页专属
+ *    暗色英雄区 / 旅程 / 大卡 / admonition / 数据条
+ *    所有类名以 .au- 前缀避免冲突
+ * ======================================================== */
+
+/* 强制 author 落地页满宽，覆盖 VitePress 默认 760px doc 宽度 */
+.au-page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 4rem;
+}
+.au-page .vp-doc {
+  max-width: none;
+}
+.au-page .vp-doc h1 { font-size: 2rem; }
+
+/* 在 doc layout 下（editor.md / operations.md），让 .VPDoc 正文区拓宽
+ * VitePress 默认 .container 在 .has-aside 时是 1376，没 aside 时 760
+ * 我们 author 二级页关 aside（aside: false），让内容宽度 = 容器宽度
+ *
+ * 用 body 类 + 路径选择不上，VitePress 没暴露 path 类。
+ * 改用 :has + 兜底：直接覆盖 .VPDoc 内宽度，影响 author/* 二级页（页面里都有 .au-page）
+ */
+.VPDoc:has(.au-page),
+.VPDoc:has(.au-page) .container,
+.VPDoc:has(.au-page) .content,
+.VPDoc:has(.au-page) .content-container {
+  max-width: none !important;
+}
+.VPDoc:has(.au-page) .container { padding: 0 !important; }
+
+/* 英雄区 — 不再用 -2rem 负边距，直接给 .au-page 的 padding 让位 */
+.au-hero {
+  padding: 4rem 2.5rem 3rem;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #5b21b6 100%);
+  color: #fff;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.au-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #fff !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 0 1rem !important;
+}
+.au-hero .au-hero-sub {
+  color: #cbd5e1;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 720px;
+  margin-bottom: 1.5rem;
+}
+.au-hero .au-hero-sub strong { color: #fff; }
+.au-hero-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  background: rgba(249, 115, 22, 0.2);
+  color: #fed7aa;
+  border: 1px solid rgba(249, 115, 22, 0.4);
+  margin-bottom: 1rem;
+}
+
+/* Hero 按钮组 */
+.au-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+.au-btn {
+  padding: 0.6rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+  transition: all 0.15s;
+  display: inline-block;
+}
+.au-btn-primary {
+  background: var(--vp-c-kk-1);
+  color: #fff !important;
+}
+.au-btn-primary:hover { background: var(--vp-c-kk-2); transform: translateY(-1px); }
+.au-btn-ghost {
+  background: rgba(255,255,255,0.1);
+  color: #fff !important;
+  border-color: rgba(255,255,255,0.2);
+}
+.au-btn-ghost:hover { background: rgba(255,255,255,0.18); }
+
+/* 作者旅程 */
+.au-journey {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 0.75rem;
+  backdrop-filter: blur(8px);
+}
+.au-journey-title {
+  font-size: 0.875rem;
+  color: #cbd5e1;
+  margin-bottom: 1.25rem;
+}
+.au-journey-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  position: relative;
+}
+.au-journey-grid::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: 8%;
+  right: 8%;
+  height: 2px;
+  background: linear-gradient(90deg, #8b5cf6 0%, #a78bfa 50%, #f97316 100%);
+  opacity: 0.4;
+  z-index: 0;
+}
+.au-journey-step {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  text-decoration: none !important;
+  color: #fff !important;
+}
+.au-journey-step .au-step-num {
+  width: 40px; height: 40px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  background: #8b5cf6;
+  color: #fff;
+  transition: transform 0.15s;
+}
+.au-journey-step.au-ops .au-step-num { background: #f97316; }
+.au-journey-step:hover .au-step-num { transform: scale(1.1); }
+.au-journey-step .au-step-title {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.au-journey-step .au-step-desc {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+/* 三大板块大卡片 */
+.au-section-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin: 3rem 0 2rem;
+}
+.au-card {
+  display: block;
+  padding: 1.5rem;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.75rem;
+  text-decoration: none !important;
+  color: inherit;
+  transition: all 0.15s;
+}
+.au-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -8px rgba(124,58,237,0.25);
+}
+.au-card.au-card-ops:hover {
+  box-shadow: 0 8px 24px -8px rgba(249,115,22,0.3);
+}
+.au-card-icon { font-size: 1.875rem; margin-bottom: 0.75rem; }
+.au-card-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+.au-card-tag-purple { color: var(--vp-c-brand-1); }
+.au-card-tag-amber  { color: #d97706; }
+.au-card-tag-orange { color: var(--vp-c-kk-2); }
+.au-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--vp-c-text-1);
+}
+.au-card-desc {
+  color: var(--vp-c-text-2);
+  font-size: 0.875rem;
+  line-height: 1.625;
+  margin-bottom: 1rem;
+}
+.au-card ul.au-card-list { padding: 0; margin: 0; list-style: none; }
+.au-card-list li {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--vp-c-text-2);
+  margin: 0.375rem 0;
+}
+.au-card-cta {
+  margin-top: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+/* 数据条 */
+.au-stats {
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+.au-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center;
+}
+.au-stat-num {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.au-stat-num.au-purple { color: var(--vp-c-brand-1); }
+.au-stat-num.au-green  { color: #059669; }
+.au-stat-num.au-amber  { color: #d97706; }
+.au-stat-num.au-orange { color: var(--vp-c-kk-2); }
+.au-stat-label {
+  font-size: 0.75rem;
+  color: var(--vp-c-text-2);
+  margin-top: 0.5rem;
+}
+.au-stats-foot {
+  text-align: center;
+  font-size: 0.6875rem;
+  color: var(--vp-c-text-3);
+  margin-top: 0.75rem;
+}
+
+/* admonition 三色 */
+.au-tip   { border-left: 4px solid #10b981; background: var(--vp-c-tip-soft, #ecfdf5); border-radius: 6px; padding: 1rem 1.25rem; margin: 1rem 0; }
+.au-info  { border-left: 4px solid #3b82f6; background: #eff6ff; border-radius: 6px; padding: 1rem 1.25rem; margin: 1rem 0; }
+.au-warn  { border-left: 4px solid #f59e0b; background: #fffbeb; border-radius: 6px; padding: 1rem 1.25rem; margin: 1rem 0; }
+.au-danger{ border-left: 4px solid #ef4444; background: #fef2f2; border-radius: 6px; padding: 1rem 1.25rem; margin: 1rem 0; }
+.dark .au-tip   { background: rgba(16, 185, 129, 0.08); }
+.dark .au-info  { background: rgba(59, 130, 246, 0.08); }
+.dark .au-warn  { background: rgba(245, 158, 11, 0.08); }
+.dark .au-danger{ background: rgba(239, 68, 68, 0.08); }
+.au-tip-title    { color: #047857; font-weight: 600; margin-bottom: 0.5rem; }
+.au-info-title   { color: #1d4ed8; font-weight: 600; margin-bottom: 0.5rem; }
+.au-warn-title   { color: #b45309; font-weight: 600; margin-bottom: 0.5rem; }
+.au-danger-title { color: #b91c1c; font-weight: 600; margin-bottom: 0.5rem; }
+
+/* 子主题宫格 */
+.au-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.au-grid-item {
+  position: relative;
+  display: block;
+  padding: 1.25rem;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.5rem;
+  text-decoration: none !important;
+  color: inherit;
+  transition: all 0.15s;
+}
+.au-grid-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -8px rgba(124,58,237,0.2);
+  border-color: var(--vp-c-brand-2);
+}
+.au-grid-item.au-emph {
+  background: linear-gradient(135deg, var(--vp-c-brand-soft) 0%, var(--vp-c-bg) 100%);
+  border: 2px solid var(--vp-c-brand-1);
+  grid-column: span 2;
+}
+.au-grid-item.au-emph-orange {
+  background: linear-gradient(135deg, var(--vp-c-kk-soft) 0%, var(--vp-c-bg) 100%);
+  border: 2px solid var(--vp-c-kk-1);
+  grid-column: span 2;
+}
+.au-grid-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+.au-grid-icon { font-size: 1.875rem; }
+.au-grid-badge {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 99px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+}
+.au-grid-badge.au-purple { background: var(--vp-c-brand-soft); color: var(--vp-c-brand-1); font-weight: 600; }
+.au-grid-badge.au-orange { background: var(--vp-c-kk-soft); color: var(--vp-c-kk-2); font-weight: 600; }
+.au-grid-title { font-weight: 700; font-size: 1.125rem; margin-bottom: 0.25rem; color: var(--vp-c-text-1); }
+.au-grid-sub   { font-size: 0.75rem; color: var(--vp-c-text-3); margin-bottom: 0.75rem; }
+.au-grid-list  { padding: 0; margin: 0; list-style: none; }
+.au-grid-list li { font-size: 0.875rem; color: var(--vp-c-text-2); margin: 0.25rem 0; }
+.au-grid-cta { margin-top: 0.75rem; font-size: 0.875rem; font-weight: 600; color: var(--vp-c-brand-1); }
+.au-grid-item.au-card-ops .au-grid-cta { color: var(--vp-c-kk-2); }
+.au-star-corner {
+  position: absolute;
+  top: -8px; right: 16px;
+  background: #f59e0b;
+  color: #fff;
+  font-size: 11px;
+  padding: 2px 10px;
+  border-radius: 99px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(245,158,11,0.4);
+}
+
+/* 学习路径 */
+.au-path {
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+.au-path-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  position: relative;
+}
+.au-path-grid.au-path-5 { grid-template-columns: repeat(5, 1fr); }
+.au-path-grid::before {
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: 10%; right: 10%;
+  height: 2px;
+  background: linear-gradient(90deg, #ddd6fe 0%, #7c3aed 100%);
+  opacity: 0.6;
+}
+.au-path-grid.au-path-5::before {
+  background: linear-gradient(90deg, #fed7aa 0%, #ea580c 100%);
+}
+.au-path-step {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.au-path-circle {
+  width: 48px; height: 48px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.25rem;
+}
+.au-path-name { margin-top: 0.5rem; font-size: 0.875rem; font-weight: 600; }
+.au-path-meta { font-size: 0.75rem; color: var(--vp-c-text-3); margin-top: 0.25rem; }
+
+/* 月度观察专栏 */
+.au-watch-card {
+  background: linear-gradient(135deg, var(--vp-c-kk-soft) 0%, #fef3c7 100%);
+  border: 1px solid var(--vp-c-kk-1);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  margin: 1rem 0;
+}
+.dark .au-watch-card {
+  background: linear-gradient(135deg, rgba(249,115,22,0.1) 0%, rgba(245,158,11,0.06) 100%);
+}
+
+/* 标签云 */
+.au-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+.au-tag {
+  padding: 0.4rem 0.8rem;
+  border-radius: 99px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg);
+  font-size: 0.875rem;
+  color: var(--vp-c-text-1);
+  text-decoration: none !important;
+  transition: all 0.15s;
+}
+.au-tag:hover {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+}
+.au-tag.au-tag-ops:hover {
+  border-color: var(--vp-c-kk-1);
+  background: var(--vp-c-kk-soft);
+}
+
+/* 移动端降级 */
+@media (max-width: 768px) {
+  .au-page { padding: 1rem 1rem 3rem; }
+  .au-hero { padding: 2rem 1.25rem; border-radius: .75rem; }
+  .au-hero h1 { font-size: 1.75rem; }
+  .au-journey-grid { grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
+  .au-journey-grid::before { display: none; }
+  .au-section-cards { grid-template-columns: 1fr; }
+  .au-stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .au-grid { grid-template-columns: 1fr; }
+  .au-grid-item.au-emph,
+  .au-grid-item.au-emph-orange { grid-column: span 1; }
+  .au-path-grid,
+  .au-path-grid.au-path-5 { grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
+  .au-path-grid::before { display: none; }
+}
+
+/* 旅程 3 步骤覆盖（组件 scoped 设 5 列） */
+.au-journey-grid {
+  grid-template-columns: repeat(3, 1fr) !important;
 }

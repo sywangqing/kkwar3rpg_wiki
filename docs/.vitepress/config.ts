@@ -1,11 +1,24 @@
 import { defineConfig } from 'vitepress'
-import { generateSidebar } from '../../scripts/gen_sidebar'
+import { generateSidebar, generateAuthorSidebar } from '../../scripts/gen_sidebar'
+import { readFileSync } from 'fs'
+import { resolve, dirname } from 'path'
+import { fileURLToPath } from 'url'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+
+// ── 自定义 Shiki TextMate Grammars（jass / vjass / trigger）─────────
+const jassGrammar   = JSON.parse(readFileSync(resolve(__dirname, 'shiki-langs/jass.tmLanguage.json'), 'utf-8'))
+const vjassGrammar  = JSON.parse(readFileSync(resolve(__dirname, 'shiki-langs/vjass.tmLanguage.json'), 'utf-8'))
+const triggerGrammar = JSON.parse(readFileSync(resolve(__dirname, 'shiki-langs/trigger.tmLanguage.json'), 'utf-8'))
+
+// vjass 直接复用 jass grammar（同语法，只是别名不同）
+const vjassLang = { ...vjassGrammar, patterns: jassGrammar.patterns, repository: jassGrammar.repository }
 
 export default defineConfig({
   // ── 站点基础信息 ──────────────────────────────────────────────
   lang: 'zh-CN',
-  title: 'War3 地图开发者 Wiki',
-  description: 'AI 自动整理的权威资料站 · 每日持续更新 · 面向所有开发者免费开放',
+  title: 'KK 作者中心 · Wiki',
+  description: 'KK 编辑器教学 + KK 地图运营手册 · 100+ 篇实战 + 73 个演示图源码 + KK 平台运营教程',
 
   // 构建输出目录（vercel.json 里 outputDirectory 指向这里）
   outDir: './.vitepress/dist',
@@ -22,42 +35,35 @@ export default defineConfig({
   // ── Head 标签 ─────────────────────────────────────────────────
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
-    ['meta', { name: 'theme-color', content: '#1e6fcf' }],
+    ['meta', { name: 'theme-color', content: '#7c3aed' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'War3 地图开发者 Wiki' }],
-    ['meta', { property: 'og:description', content: 'RPG 地图编辑器知识库' }],
+    ['meta', { property: 'og:title', content: 'KK 作者中心 · Wiki' }],
+    ['meta', { property: 'og:description', content: 'KK 编辑器教学 + KK 地图运营手册' }],
     // Pagefind 搜索 UI 样式（构建后注入，路径需含 base）
-    ['link', { rel: 'stylesheet', href: '/kkwar3rpg_wiki/pagefind/pagefind-ui.css' }],
+    ['link', { rel: 'stylesheet', href: '/pagefind/pagefind-ui.css' }],
   ],
 
   // ── 主题配置 ───────────────────────────────────────────────────
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: 'War3 Wiki',
+    siteTitle: 'KK 作者中心',
 
     // ── 导航栏 ──────────────────────────────────────────────────
     nav: [
-      { text: '🚀 快速入门', link: '/getting-started/war3-地图编辑器安装与配置' },
-      { text: '🎮 KK 触发器实战', link: '/kk-triggers/index' },
-      { text: '🛤️ 学习路径', link: '/learning-path' },
-      { text: '🔍 搜索', link: '/search' },
-      {
-        text: '🗂️ 分类',
-        items: [
-          { text: '🎮 KK 触发器实战', link: '/kk-triggers/index' },
-          { text: '⚡ 触发器系统', link: '/triggers/触发器是什么用大白话解释游戏逻辑' },
-          { text: '🗺️ 地形编辑', link: '/terrain/5个让新手地图看起来更好看的地形技巧' },
-          { text: '🎭 对象编辑器', link: '/object-editor/对象编辑器入门修改单位属性' },
-          { text: '🏰 RPG 系统', link: '/rpg-systems/rpg英雄系统经验升级和属性设计' },
-          { text: '📤 发布上线', link: '/publishing/如何把地图发布到kk平台完整上传步骤' },
-          { text: '❓ 常见问题', link: '/faq/新手最常遇到的10个错误和解决方法' },
-        ],
-      },
-      { text: '📋 更新日志', link: '/changelog' },
+      { text: '🚀 新人必读',     link: '/author/newbie/faq/产品手册' },
+      { text: '🛠️ 编辑器教学',   link: '/author/editor' },
+      { text: '📈 运营教学',     link: '/author/operations' },
+      { text: '🏛️ 模型库',       link: '/models/' },
+      { text: '🔍 搜索',         link: '/search' },
+      { text: '📋 更新日志',     link: '/changelog' },
     ],
 
-    // ── 侧边栏（由 gen_sidebar.ts 动态生成）────────────────────
-    sidebar: generateSidebar(),
+    // ── 侧边栏（/author/ 走作者中心 sidebar，其它走原 sidebar）
+    // VitePress sidebar 多前缀：以最长 key 优先匹配
+    sidebar: {
+      ...generateAuthorSidebar(),
+      ...generateSidebar(),
+    },
 
     // ── 社交链接 ────────────────────────────────────────────────
     socialLinks: [
@@ -66,8 +72,8 @@ export default defineConfig({
 
     // ── 页脚 ────────────────────────────────────────────────────
     footer: {
-      message: '内容由多智能体 AI 系统自动生成，仅供学习参考',
-      copyright: `Copyright © ${new Date().getFullYear()} War3 Wiki`,
+      message: 'KK 作者中心 Wiki · 由 AI 多智能体每日自动维护 · 与 KK 官方独立的社区项目',
+      copyright: `© ${new Date().getFullYear()} · KK 官网 <a href="http://www.kkdzpt.com" target="_blank" rel="noreferrer" style="color:var(--vp-c-brand-1)">www.kkdzpt.com</a> · 开发者后台 <a href="https://create.kkdzpt.com" target="_blank" rel="noreferrer" style="color:var(--vp-c-brand-1)">create.kkdzpt.com</a>`,
     },
 
     // ── 编辑链接 ────────────────────────────────────────────────
@@ -110,6 +116,34 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
   },
 
+  // ── Vite 构建优化：手动拆分大 chunk ─────────────────────────────
+  vite: {
+    build: {
+      // kk-triggers_black-tech.md 单文件 ~14MB（大量 jass 代码），无法继续拆分
+      // 保留 15MB 上限，静默已知的内容体积警告
+      chunkSizeWarningLimit: 15000,
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            // Vue core → 独立 vendor chunk
+            if (id.includes('node_modules/vue/') || id.includes('node_modules/@vue/')) {
+              return 'vendor-vue'
+            }
+            // shiki 高亮引擎（体积较大，独立出来）
+            if (id.includes('node_modules/shiki') || id.includes('node_modules/@shikijs')) {
+              return 'vendor-shiki'
+            }
+            // 旧 wiki 文档页面 —— 按一级目录拆 chunk
+            const match = id.match(/[/\\]docs[/\\]([^/\\]+)[/\\].*\.md/)
+            if (match && match[1] !== 'author') {
+              return `wiki-${match[1]}`
+            }
+          },
+        },
+      },
+    },
+  },
+
   // ── Markdown 扩展 ─────────────────────────────────────────────
   markdown: {
     // 代码块行号
@@ -122,5 +156,23 @@ export default defineConfig({
       infoLabel: '信息',
       detailsLabel: '详情',
     },
+    // ── 注册自定义语言高亮（jass / vjass / trigger）───────────────
+    languages: [
+      {
+        ...jassGrammar,
+        name: 'jass',
+        aliases: [],
+      },
+      {
+        ...vjassLang,
+        name: 'vjass',
+        aliases: [],
+      },
+      {
+        ...triggerGrammar,
+        name: 'trigger',
+        aliases: ['trg'],
+      },
+    ],
   },
 })

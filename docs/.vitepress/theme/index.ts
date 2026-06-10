@@ -4,6 +4,10 @@ import type { Theme } from 'vitepress'
 import ArticleFooter from '../components/ArticleFooter.vue'
 import DiscoveredTopics from '../components/DiscoveredTopics.vue'
 import SearchBar from '../components/SearchBar.vue'
+import AuthorHome from '../components/AuthorHome.vue'
+import AuthorEditor from '../components/AuthorEditor.vue'
+import AuthorOps from '../components/AuthorOps.vue'
+import ModelLibrary from '../components/ModelLibrary.vue'
 import './custom.css'
 
 export default {
@@ -13,5 +17,10 @@ export default {
     app.component('ArticleFooter', ArticleFooter)
     app.component('DiscoveredTopics', DiscoveredTopics)
     app.component('SearchBar', SearchBar)
+    // /author/ 三页
+    app.component('AuthorHome', AuthorHome)
+    app.component('AuthorEditor', AuthorEditor)
+    app.component('AuthorOps', AuthorOps)
+    app.component('ModelLibrary', ModelLibrary)
   },
 } satisfies Theme

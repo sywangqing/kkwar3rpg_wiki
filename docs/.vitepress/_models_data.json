@@ -1,0 +1,47 @@
+{
+  "site": {
+    "name": "WarCraft 3 模型库",
+    "nameEn": "War3 Models Hub",
+    "tagline": "魔兽争霸3 模型宝库",
+    "subtagline": "探索无尽宝藏 · 打造传奇地图",
+    "source": "https://www.tbwlm.cn/",
+    "mirroredAt": "2026-06-05"
+  },
+  "categories": [
+    { "label": "全部", "value": "all" },
+    { "label": "英雄", "value": "hero" },
+    { "label": "单位", "value": "unit" },
+    { "label": "建筑", "value": "building" },
+    { "label": "特效", "value": "effect" },
+    { "label": "装饰物", "value": "doodad" },
+    { "label": "物品", "value": "item" },
+    { "label": "投射物", "value": "projectile" },
+    { "label": "界面", "value": "ui" },
+    { "label": "图标", "value": "icon" },
+    { "label": "称号", "value": "title" },
+    { "label": "光环", "value": "aura" },
+    { "label": "纹理", "value": "texture" },
+    { "label": "其他", "value": "other" }
+  ],
+  "tags": ["人族", "兽族", "暗夜精灵", "不死族", "近战", "远程", "法师", "辅助", "高质量", "原创", "重制", "动画丰富", "带特效", "带音效", "低模", "高模"],
+  "models": [
+    {
+      "uid": "cmnaeydl9001munc20qotzzhx",
+      "title": "霍霍小猫案例模型雷刀剑圣",
+      "description": "测试",
+      "author": "laotimao",
+      "category": "hero",
+      "categoryLabel": "英雄",
+      "tags": ["兽族", "低模"],
+      "fileSize": "0.52 MB",
+      "downloads": 4,
+      "likes": 0,
+      "views": 215,
+      "price": 100,
+      "createdAt": "2026-03-28",
+      "thumbnail": "/assets/tbwlm-mirror/models/cmnaeydl9001munc20qotzzhx/thumbnail.gif",
+      "modelFile": "/assets/tbwlm-mirror/models/cmnaeydl9001munc20qotzzhx/HeroBladeMaster_HHXM.mdx",
+      "zip": "/assets/tbwlm-mirror/models/cmnaeydl9001munc20qotzzhx/霍霍小猫案例模型雷刀剑圣.zip"
+    }
+  ]
+}

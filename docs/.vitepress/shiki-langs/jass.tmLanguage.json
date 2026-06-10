@@ -1,0 +1,74 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "JASS",
+  "scopeName": "source.jass",
+  "fileTypes": ["j", "jass"],
+  "patterns": [
+    { "include": "#comment" },
+    { "include": "#string" },
+    { "include": "#keyword" },
+    { "include": "#type" },
+    { "include": "#constant" },
+    { "include": "#function-decl" },
+    { "include": "#native-decl" },
+    { "include": "#number" },
+    { "include": "#operator" },
+    { "include": "#identifier" }
+  ],
+  "repository": {
+    "comment": {
+      "name": "comment.line.double-slash.jass",
+      "match": "//.*$"
+    },
+    "string": {
+      "name": "string.quoted.double.jass",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        { "name": "constant.character.escape.jass", "match": "\\\\." }
+      ]
+    },
+    "keyword": {
+      "name": "keyword.control.jass",
+      "match": "\\b(if|then|else|elseif|endif|loop|exitwhen|endloop|return|set|call|local|globals|endglobals|function|endfunction|takes|returns|nothing|null|true|false|and|or|not|debug|type|extends|array|native|constant|public|private|static|method|endmethod|struct|endstruct|interface|endinterface|module|endmodule|implement|requires|uses|needs|scope|endscope|library|endlibrary|initializer|defaults|operator|thistype|super|import|inject|endinject|novjass|endnovjass|textmacro|endtextmacro|runtextmacro|zinc|endzinc)\\b"
+    },
+    "type": {
+      "name": "storage.type.jass",
+      "match": "\\b(integer|real|boolean|string|handle|code|unit|player|widget|destructable|item|ability|buff|force|group|trigger|timerdialog|timer|location|region|rect|boolexpr|sound|conditionfunc|filterfunc|unitpool|itempool|race|alliancetype|racepreference|gamestate|igamestate|playerstate|playerscore|playergameresult|unitstate|aidifficulty|eventid|gameevent|playerevent|playerunitevent|unitevent|limitop|widgetevent|dialogevent|unittype|gamespeed|gamedifficulty|gametype|mapflag|mapvisibility|mapsetting|mapdensity|mapcontrol|playerslotstate|volumegroup|camerafield|camerasetup|playercolor|placement|startlocprio|raritycontrol|blendmode|texmapflags|effect|effecttype|weathereffect|terraindeformation|fogstate|fogmodifier|dialog|button|quest|questitem|defeatcondition|timerdialog|leaderboard|multiboard|multiboarditem|trackable|gamecache|version|itemtype|texttag|attacktype|damagetype|weapontype|soundtype|lightning|pathingtype|image|ubersplat|hashtable|framehandle|originframetype|framepointtype|textaligntype|frameeventtype|oskeytype|abilityintegerfield|abilityrealfield|abilitybooleanfield|abilitystringfield|abilityintegerlevelfield|abilityreallevelfield|abilitybooleanlevelfield|abilitystringlevelfield|unitintegerfield|unitrealfield|unitbooleanfield|unitstringfield|unitweaponintegerfield|unitweaponrealfield|unitweaponbooleanfield|unitweaponstringfield|itemintegerfield|itemrealfield|itembooleanfield|itemstringfield|movetype|targetflag|armortype|heroattribute|defensetype|regentype|unitcategory|pathingflag|mousebuttontype|animtype|subanimtype|longstring|agent|eventid)\\b"
+    },
+    "constant": {
+      "name": "constant.language.jass",
+      "match": "\\b(true|false|null|JASS_MAX_ARRAY_SIZE)\\b"
+    },
+    "function-decl": {
+      "match": "\\b(function|method|operator)\\s+([A-Za-z_][A-Za-z0-9_]*)\\b",
+      "captures": {
+        "1": { "name": "keyword.control.jass" },
+        "2": { "name": "entity.name.function.jass" }
+      }
+    },
+    "native-decl": {
+      "match": "\\bnative\\s+([A-Za-z_][A-Za-z0-9_]*)\\b",
+      "captures": {
+        "1": { "name": "entity.name.function.native.jass" }
+      }
+    },
+    "number": {
+      "patterns": [
+        { "name": "constant.numeric.hex.jass", "match": "\\$[0-9A-Fa-f]+" },
+        { "name": "constant.numeric.hex.jass", "match": "0[xX][0-9A-Fa-f]+" },
+        { "name": "constant.numeric.float.jass", "match": "\\b[0-9]+\\.[0-9]*\\b" },
+        { "name": "constant.numeric.integer.jass", "match": "\\b[0-9]+\\b" },
+        { "name": "constant.character.jass", "match": "'[A-Za-z0-9_!+]{4}'" }
+      ]
+    },
+    "operator": {
+      "name": "keyword.operator.jass",
+      "match": "[+\\-*/<>=!&|%]|!="
+    },
+    "identifier": {
+      "name": "variable.other.jass",
+      "match": "\\b[A-Za-z_][A-Za-z0-9_]*\\b"
+    }
+  }
+}
