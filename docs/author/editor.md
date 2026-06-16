@@ -1,5 +1,5 @@
 ---
-title: 编辑器教
+title: 编辑器教学
 description: 100+ 篇按学习阶段重排，从零基础到大RPG
 aside: false
 prev: false
