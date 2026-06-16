@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx scripts/gen_author_data.ts && vitepress dev docs",
     "prebuild": "tsx scripts/gen_topics_meta.ts && tsx scripts/gen_author_data.ts",
-    "build": "vitepress build docs && pagefind --site docs/.vitepress/dist && copy docs\\public\\CNAME docs\\.vitepress\\dist\\CNAME",
+    "build": "vitepress build docs && pagefind --site docs/.vitepress/dist && cp docs/public/CNAME docs/.vitepress/dist/CNAME 2>/dev/null || true",
     "preview": "vitepress preview docs",
     "gen-sidebar": "tsx scripts/gen_sidebar.ts",
     "gen-topics-meta": "tsx scripts/gen_topics_meta.ts",
