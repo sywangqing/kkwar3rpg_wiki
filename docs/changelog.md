@@ -1,5 +1,54 @@
-﻿# 更新日志
+# 更新日志
 
+## 2026-06-26 09:10 UTC
+
+本日 **维护事件** （非新文章，单独记录）：
+
+### 第一期定位：仅做 War3
+
+- 删除 2 个 Y3 整页：`y3-editor.md` + `anti-cheat-y3.md`（共 4881 字节）
+- 修复 2 处本地断链 → KK 平台官方 URL（`anti-cheat-w3.md`、`other-editors.md`）
+- 移除 154 处 `F:\AI\AI-machine\W3演示图\...` 本地路径泄露
+  - 149 行 `> 📁 本地路径` 整行删除
+  - 5 行替换为外链/通用描述
+- 保留 24 处 Y3 营销/对比性引用（保守方案）
+- 副作用：433 个 .md 文件 CRLF 换行归一化
+- 提交：`2dcfa99 chore(docs): 第一期仅做 War3 - 清理 Y3 内容与本地路径泄露`
+
+### Wiki 地址
+
+- 线上地址：<https://sywangqing.github.io/kkwar3rpg_wiki/>
+- 远端仓库：<https://github.com/sywangqing/kkwar3rpg_wiki>
+- GitHub Pages 自动部署已配置（`main` 分支 push 触发 Actions）
+
+### GitHub 知识库项目调研
+
+- 直接对标：<https://github.com/AsyncFuncAI/deepwiki-open> (17k stars)
+- 中文替代：<https://github.com/aibox22/readmeX>
+- 其他参考：OpenDeepWiki、LightRAG、RAGFlow、Dify、Starlight
+- 结论：deepwiki-open 技术栈最贴近需求，但中文体验与 KK 平台集成需要自研
+
+### Codex 自动 commit 机制
+
+- 新建 `.codex/` 目录，5 个文件：
+  - [COMMIT_POLICY.md](</F:/AI/AI-superpower/war3-wiki/.codex/COMMIT_POLICY.md>) — 规则文档（触发条件 / 跳过 / 安全检查 / 退出码）
+  - [codex-commit.ps1](</F:/AI/AI-superpower/war3-wiki/.codex/codex-commit.ps1>) — PowerShell commit helper（UTF-8 no BOM）
+  - [codex-commit.sh](</F:/AI/AI-superpower/war3-wiki/.codex/codex-commit.sh>) — Bash 备用
+  - [codex-push.ps1](</F:/AI/AI-superpower/war3-wiki/.codex/codex-push.ps1>) — push helper
+  - [README.md](</F:/AI/AI-superpower/war3-wiki/.codex/README.md>) — 目录说明
+- 关键设计：
+  - Codex 任务结束有产物 → 自动 `git add -A && git commit`，不询问
+  - 跳过条件：无变更 / 纯构建产物 / 用户明确说"不 commit"
+  - **永远不自动 push**：push 不可逆，需用户明确确认
+  - Commit 风格：Conventional Commits，中文 subject
+  - 安全检查：检测 Windows 绝对路径（`F:\`）、API key（sk-/gho-/tvly-）、构建产物（dist/node_modules/.vitepress/cache），触发则阻塞
+- 退出码：0=成功，1=失败，2=无变更
+- 提交：`2ac02d9 chore(codex): add codex auto-commit helper and policy`（已 push）
+- 调试记录：原脚本因 GBK 编码 + `git rev-parse` 在 `-File` 模式下失败，重写后用 Python 写文件（UTF-8 no BOM）+ `Find-GitRoot` 手动向上找 `.git`
+
+
+
+﻿
 ## 2026-06-01 06:56 UTC
 
 本次更新 **2** 篇文章：
