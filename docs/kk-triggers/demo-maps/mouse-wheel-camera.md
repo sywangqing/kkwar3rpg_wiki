@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**2**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\`
 
 ## 📑 触发器目录
 
@@ -66,4 +65,3 @@ updated: 2026-06-01
   ├─ SetCameraField: CameraFieldTargetDistance, 从哈希表读取数据(玩家, GetLocalPlayer(), "镜头距离"), 从哈希表读取数据(玩家, GetLocalPlayer(), "镜头缩放平滑")
   └─ DzTriggerRegisterMouseWheelEventMultiple: GetLocalPlayer()
 ```
-

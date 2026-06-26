@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**2**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\随机不重复简易版.w3x`
 
 ## 📑 触发器目录
 
@@ -51,4 +50,3 @@ updated: 2026-06-01
   ├─ RemoveDestructable: 读取局部变量("tree")
   └─ 显示文本→Player00: 0
 ```
-

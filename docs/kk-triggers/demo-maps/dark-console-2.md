@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**22**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\暗黑控制台2.w3x`
 
 ## 📑 触发器目录
 
@@ -538,4 +537,3 @@ updated: 2026-06-01
        │    DzFrameSetTexture: KZT[10], kzt\jn (12).tga, 0
        └─ 否则: (无)
 ```
-

@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**3**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\`
 
 ## 📑 触发器目录
 
@@ -81,4 +80,3 @@ updated: 2026-06-01
 动作
   └─ SetCameraFieldForPlayer: 触发玩家(), CameraFieldZOffset, 900.00, 1.00
 ```
-

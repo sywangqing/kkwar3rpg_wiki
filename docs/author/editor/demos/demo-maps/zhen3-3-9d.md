@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**290**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\真三国无双3.9d_AI2014未加密.w3x`
 
 ## 📑 触发器目录
 
@@ -5673,4 +5672,3 @@ endfunction
             │    StartMeleeAI: 玩家循环整数A, zhensan.ai
             └─ 否则: (无)
 ```
-

@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**3**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\`
 
 ## 📑 触发器目录
 
@@ -77,4 +76,3 @@ updated: 2026-06-01
        │    销毁特效 创建特效(附着单位)(Abilities\Spells\Human\MassTeleport\MassTeleportTarget.mdl, hero[字符串转整数(DzGetTriggerSyncData())], "origin")
        └─ 否则: (无)
 ```
-

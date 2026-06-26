@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**1**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\`
 
 ## 📑 触发器目录
 
@@ -68,4 +67,3 @@ updated: 2026-06-01
                    创建物品: I003, (区域可用地图区域()中心)
                    设置 small_guarantee = OperatorIntegerAdd(small_guarantee, 1)
 ```
-

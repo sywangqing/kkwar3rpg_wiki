@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**1**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\`
 
 ## 📑 触发器目录
 
@@ -44,4 +43,3 @@ updated: 2026-06-01
   ├─ 设置局部变量:"radius"=OperatorRealDivide(两点间距((读取局部变量("tr")的位置), 读取局部变量("center")), 平方根(OperatorRealDivide(Pow(OperatorRealDivide(读取局部变量("length"), 2.00), 2.00), Pow(OperatorRealDivide(读取局部变量("deepth"), 2.00), 2.00))))
   └─ YDWEEnumUnitsInRangeMultiple: 单位X坐标(读取局部变量("tr")), 单位Y坐标(读取局部变量("tr")), 读取局部变量("radius")
 ```
-

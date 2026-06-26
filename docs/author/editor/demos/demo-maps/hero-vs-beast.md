@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**89**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\勇者斗兽人_未加密 (1).w3x`
 
 ## 📑 触发器目录
 
@@ -4051,4 +4050,3 @@ updated: 2026-06-01
   ├─ ForForceMultiple: 读取局部变量("lose_player")
   └─ ForForceMultiple: 读取局部变量("win_player")
 ```
-

@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**1**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\移动大头像下方文本.w3x`
 
 ## 📑 触发器目录
 
@@ -39,4 +38,3 @@ updated: 2026-06-01
   ├─ DzFrameClearAllPoints: 读取局部变量("ui1")
   └─ DzFrameSetPoint: 读取局部变量("ui1"), FramePoints_Top , 读取局部变量("ui"), FramePoints_Bottom, 0, 0
 ```
-

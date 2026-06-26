@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**8**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\宝宝吃药吃书＋物品叠加 纯T.w3x`
 
 ## 📑 触发器目录
 
@@ -144,4 +143,3 @@ updated: 2026-06-01
 动作
   └─ 修改 gg_unit_Ewar_0002 的HeroStatInt: ModifyMethodAdd1
 ```
-

@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**2**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\千千万万个胖虎.w3x`
 
 ## 📑 触发器目录
 
@@ -62,4 +61,3 @@ updated: 2026-06-01
   ├─ TimerDialogSetTitleBJ: C/*计时器窗口*/, "第" + (B2/*波数*/转字符串) + "波"
   └─ YDWERegisterTriggerMultiple: CreateTrigger()
 ```
-

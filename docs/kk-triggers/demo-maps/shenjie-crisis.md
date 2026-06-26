@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**304**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\神界危机（未加密版）.w3x`
 
 ## 📑 触发器目录
 
@@ -7365,4 +7364,3 @@ updated: 2026-06-01
                                    └─ 否则
                                         DisplayTimedTextToForce: GetPlayersAll(), 10.00, "|cffFF0000命运占卜老人：|cff00FFFF" + (玩家名:(xuanqudanwei的所有者)) + "命运还算一般，什么事都没有发生。"
 ```
-

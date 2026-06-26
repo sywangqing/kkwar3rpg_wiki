@@ -53,7 +53,6 @@ export default defineConfig({
       { text: '🚀 新人必读',     link: '/author/newbie/faq/产品手册' },
       { text: '🛠️ 编辑器教学',   link: '/author/editor' },
       { text: '📈 运营教学',     link: '/author/operations' },
-      { text: '🏛️ 模型库',       link: '/models/' },
       { text: '🔍 搜索',         link: '/search' },
       { text: '📋 更新日志',     link: '/changelog' },
     ],

@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**169**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\守护污染者锤石（开源版）.w3x`
 
 ## 📑 触发器目录
 
@@ -5301,4 +5300,3 @@ AllenGB(默契之战作者）大佬提醒：逆天局部变量用在高频触发
 动作
   └─ YDWEMemoryLeakHelperDisplayLeaks
 ```
-

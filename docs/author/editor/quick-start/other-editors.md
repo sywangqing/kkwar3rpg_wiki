@@ -14,4 +14,4 @@ Y3 编辑器外，KK 平台也支持使用传统魔兽争3 地图编辑器（KKW
 
 👉 完整 API 与开发文档：[https://create.kkdzpt.com/kkapidoc/#/](https://create.kkdzpt.com/kkapidoc/#/)
 
-> 📖 上一篇：[Y3编辑器](./y3-editor) | 下一篇：[Y3编辑器反作弊概要](./anti-cheat-y3)
+> 📖 上一篇：[Y3编辑器](https://create.kkdzpt.com/docs/guides/UseEditor/Y3) | 下一篇：[Y3编辑器反作弊概要](https://create.kkdzpt.com/docs/guides/UseEditor/ANTI-cheat/anti-cheat-y3)

@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**10**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\暗黑控制台1.w3x`
 
 ## 📑 触发器目录
 
@@ -278,4 +277,3 @@ updated: 2026-06-01
   ├─ DzFrameShow: UItb[单位自定义值(触发单位())], false
   └─ DzDestroyFrame: UItb[单位自定义值(触发单位())]
 ```
-

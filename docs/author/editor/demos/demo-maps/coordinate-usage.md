@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**12**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\`
 
 ## 📑 触发器目录
 
@@ -304,4 +303,3 @@ updated: 2026-06-01
   ├─ YDWEForLoopLocVarMultiple: "w", 1, 5
   └─ YDWEEnumUnitsInRangeMultiple: 读取局部变量("x"), 读取局部变量("y"), 1500.00
 ```
-

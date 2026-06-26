@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**4**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\群体暴风之锤 OK.w3x`
 
 ## 📑 触发器目录
 
@@ -91,4 +90,3 @@ updated: 2026-06-01
        ├─ YDWETimerRemoveUnit: 2, bj_lastCreatedUnit
        └─ 单位发布命令(目标): bj_lastCreatedUnit, UnitOrderEntanglingRoots, 选取单位()
 ```
-

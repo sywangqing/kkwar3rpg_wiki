@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**3**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\[黑科技]灵魂锁链 伤害变魔法.w3x`
 
 ## 📑 触发器目录
 
@@ -74,4 +73,3 @@ updated: 2026-06-01
 动作
   └─ 单位发布命令(目标): gg_unit_hfoo_0004, UnitOrderSpiritLink, gg_unit_hpea_0001
 ```
-

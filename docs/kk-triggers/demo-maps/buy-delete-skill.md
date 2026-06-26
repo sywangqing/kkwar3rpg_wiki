@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**2**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\购买删除技能.w3x`
 
 ## 📑 触发器目录
 
@@ -99,4 +98,3 @@ updated: 2026-06-01
        │    YDWERegisterTriggerMultiple: 读取局部变量("cfq")
        └─ 否则: (无)
 ```
-

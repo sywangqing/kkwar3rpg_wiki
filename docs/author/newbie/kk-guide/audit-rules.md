@@ -46,4 +46,4 @@ sources:
 
 ---
 
-> 📖 上一篇：[平台用户画像](./user-profile) | 下一篇：[近期重要公告汇总](./recent-announcements)
+> 📖 上一篇：[平台用户画像](./user-profile)

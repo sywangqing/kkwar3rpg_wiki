@@ -48,4 +48,4 @@ sources:
 
 ---
 
-> 📖 上一篇：[Y3编辑器反作弊概要](./anti-cheat-y3) | 下一篇：[编辑器的常见问题汇总](./editor-faq)
+> 📖 上一篇：[Y3编辑器反作弊概要](https://create.kkdzpt.com/docs/guides/UseEditor/ANTI-cheat/anti-cheat-y3) | 下一篇：[编辑器的常见问题汇总](./editor-faq)

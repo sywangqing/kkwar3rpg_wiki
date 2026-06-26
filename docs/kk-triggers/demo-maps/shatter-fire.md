@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**5**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\10碎裂之火 (1).w3x`
 
 ## 📑 触发器目录
 
@@ -112,4 +111,3 @@ updated: 2026-06-01
   ├─ SetPlayerAllianceStateBJ: Player00, 玩家1(红), AllianceSettingUnallied
   └─ SetPlayerAllianceStateBJ: 玩家1(红), Player00, AllianceSettingUnallied
 ```
-

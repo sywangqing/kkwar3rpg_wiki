@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**1**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\更新多重攻击演示.w3x`
 
 ## 📑 触发器目录
 
@@ -34,4 +33,3 @@ updated: 2026-06-01
 动作
   └─ YDWERegisterTriggerMultiple: CreateTrigger()
 ```
-

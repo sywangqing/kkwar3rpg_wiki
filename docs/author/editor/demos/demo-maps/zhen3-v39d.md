@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**277**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\`
 
 ## 📑 触发器目录
 
@@ -3943,4 +3942,3 @@ updated: 2026-06-01
   ├─ 设置 unit_hars_0113 = gg_unit_hars_0113
   └─ 设置 unit_hars_0147 = gg_unit_hars_0147
 ```
-

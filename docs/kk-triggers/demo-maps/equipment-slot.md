@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**10**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\装备栏.w3x`
 
 ## 📑 触发器目录
 
@@ -192,4 +191,3 @@ updated: 2026-06-01
 动作
   └─ SetUnitLifeBJ: 凶手单位(), (单位状态(UnitStateLife, 凶手单位()) + (0.20 x 单位状态(UnitStateMaxLife, 凶手单位())))
 ```
-

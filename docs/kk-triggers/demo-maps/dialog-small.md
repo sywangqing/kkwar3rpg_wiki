@@ -12,7 +12,6 @@ updated: 2026-06-01
 >
 > 触发器数：**1**
 >
-> 📁 本地路径：`F:\AI\AI-machine\W3演示图\对话框小演示.w3x`
 
 ## 📑 触发器目录
 
@@ -39,4 +38,3 @@ updated: 2026-06-01
   ├─ YDWERegisterTriggerMultiple: CreateTrigger()
   └─ DialogDisplay: Player00, 读取局部变量("Dui"), ShowHideShow
 ```
-
