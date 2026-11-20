@@ -1,0 +1,57 @@
+name: Publish domain sale page
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/domain-sale.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Prepare sale page
+        run: |
+          mkdir site
+          cat > site/index.html <<'HTML'
+          <!doctype html>
+          <html lang="zh-CN">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>durontar.com 域名出售</title>
+            <style>
+              * { box-sizing: border-box; }
+              body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: #f0f4ef; color: #152b22; font: 17px/1.8 system-ui, sans-serif; }
+              main { width: min(100%, 38rem); padding: clamp(24px, 7vw, 56px); background: #fff; border: 1px solid #cbd8cf; border-radius: 24px; }
+              h1 { margin: 0 0 16px; font-size: clamp(32px, 7vw, 56px); line-height: 1.15; }
+              p { margin: 12px 0 0; }
+              strong { color: #056045; }
+            </style>
+          </head>
+          <body>
+            <main>
+              <h1>域名出售</h1>
+              <p><strong>durontar.com</strong></p>
+              <p>如有意向购买域名，请添加 QQ：<strong>175856972</strong> 详谈。添加时请注明来意！</p>
+            </main>
+          </body>
+          </html>
+          HTML
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment
